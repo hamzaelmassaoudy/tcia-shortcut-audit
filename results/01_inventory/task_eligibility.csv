@@ -1,0 +1,67 @@
+task_type,task,collections,modality,class_counts,n_classes,min_class_n,eligible
+within collection (6a),grade low vs high,CPTAC-AML,CT,none,0,0,False
+within collection (6a),stage early vs late,CPTAC-AML,CT,none,0,0,False
+within collection (6a),grade low vs high,CPTAC-CCRCC,CT,low (G1-G2): 43; high (G3-G4): 20,2,20,True
+within collection (6a),stage early vs late,CPTAC-CCRCC,CT,early (I-II): 41; late (III-IV): 23,2,23,True
+within collection (6a),grade low vs high,CPTAC-CM,CT,none,0,0,False
+within collection (6a),stage early vs late,CPTAC-CM,CT,early (I-II): 8; late (III-IV): 6,2,6,False
+within collection (6a),grade low vs high,CPTAC-LSCC,CT,low (G1-G2): 15; high (G3-G4): 5,2,5,False
+within collection (6a),stage early vs late,CPTAC-LSCC,CT,early (I-II): 19; late (III-IV): 3,2,3,False
+within collection (6a),grade low vs high,CPTAC-LUAD,CT,low (G1-G2): 30; high (G3-G4): 5,2,5,False
+within collection (6a),stage early vs late,CPTAC-LUAD,CT,early (I-II): 33; late (III-IV): 3,2,3,False
+within collection (6a),grade low vs high,CPTAC-PDA,CT,low (G1-G2): 51; high (G3-G4): 20,2,20,True
+within collection (6a),stage early vs late,CPTAC-PDA,CT,early (I-II): 47; late (III-IV): 21,2,21,True
+within collection (6a),grade low vs high,CPTAC-SAR,CT,none,0,0,False
+within collection (6a),stage early vs late,CPTAC-SAR,CT,none,0,0,False
+within collection (6a),grade low vs high,CPTAC-STAD,CT,high (G3-G4): 14; low (G1-G2): 5,2,5,False
+within collection (6a),stage early vs late,CPTAC-STAD,CT,late (III-IV): 10; early (I-II): 9,2,9,False
+within collection (6a),grade low vs high,CPTAC-UCEC,CT,low (G1-G2): 49; high (G3-G4): 20,2,20,True
+within collection (6a),stage early vs late,CPTAC-UCEC,CT,early (I-II): 51; late (III-IV): 18,2,18,False
+within collection (6a),grade low vs high,TCGA-BLCA,CT,high (G3-G4): 107,1,107,False
+within collection (6a),stage early vs late,TCGA-BLCA,CT,late (III-IV): 66; early (I-II): 41,2,41,True
+within collection (6a),grade low vs high,TCGA-BRCA,MR,none,0,0,False
+within collection (6a),stage early vs late,TCGA-BRCA,MR,early (I-II): 115; late (III-IV): 22,2,22,True
+within collection (6a),grade low vs high,TCGA-CESC,MR,low (G1-G2): 27; high (G3-G4): 14,2,14,False
+within collection (6a),stage early vs late,TCGA-CESC,MR,none,0,0,False
+within collection (6a),grade low vs high,TCGA-COAD,CT,none,0,0,False
+within collection (6a),stage early vs late,TCGA-COAD,CT,late (III-IV): 11; early (I-II): 9,2,9,False
+within collection (6a),grade low vs high,TCGA-ESCA,CT,low (G1-G2): 12; high (G3-G4): 3,2,3,False
+within collection (6a),stage early vs late,TCGA-ESCA,CT,late (III-IV): 12; early (I-II): 4,2,4,False
+within collection (6a),grade low vs high,TCGA-KICH,CT,none,0,0,False
+within collection (6a),stage early vs late,TCGA-KICH,CT,early (I-II): 11; late (III-IV): 1,2,1,False
+within collection (6a),grade low vs high,TCGA-KIRC,CT,high (G3-G4): 138; low (G1-G2): 98,2,98,True
+within collection (6a),stage early vs late,TCGA-KIRC,CT,early (I-II): 141; late (III-IV): 95,2,95,True
+within collection (6a),grade low vs high,TCGA-KIRP,CT,none,0,0,False
+within collection (6a),stage early vs late,TCGA-KIRP,CT,early (I-II): 14; late (III-IV): 5,2,5,False
+within collection (6a),grade low vs high,TCGA-LIHC,CT,low (G1-G2): 48; high (G3-G4): 27,2,27,True
+within collection (6a),stage early vs late,TCGA-LIHC,CT,early (I-II): 52; late (III-IV): 21,2,21,True
+within collection (6a),grade low vs high,TCGA-LUAD,CT,none,0,0,False
+within collection (6a),stage early vs late,TCGA-LUAD,CT,early (I-II): 17; late (III-IV): 10,2,10,False
+within collection (6a),grade low vs high,TCGA-LUSC,CT,none,0,0,False
+within collection (6a),stage early vs late,TCGA-LUSC,CT,early (I-II): 29; late (III-IV): 7,2,7,False
+within collection (6a),grade low vs high,TCGA-OV,CT,high (G3-G4): 125; low (G1-G2): 11,2,11,False
+within collection (6a),stage early vs late,TCGA-OV,CT,none,0,0,False
+within collection (6a),grade low vs high,TCGA-PRAD,MR,none,0,0,False
+within collection (6a),stage early vs late,TCGA-PRAD,MR,none,0,0,False
+within collection (6a),grade low vs high,TCGA-READ,CT,none,0,0,False
+within collection (6a),stage early vs late,TCGA-READ,CT,late (III-IV): 2,1,2,False
+within collection (6a),grade low vs high,TCGA-SARC,CT,none,0,0,False
+within collection (6a),stage early vs late,TCGA-SARC,CT,none,0,0,False
+within collection (6a),grade low vs high,TCGA-STAD,CT,low (G1-G2): 27; high (G3-G4): 17,2,17,False
+within collection (6a),stage early vs late,TCGA-STAD,CT,late (III-IV): 35; early (I-II): 9,2,9,False
+within collection (6a),grade low vs high,TCGA-THCA,CT,none,0,0,False
+within collection (6a),stage early vs late,TCGA-THCA,CT,late (III-IV): 5; early (I-II): 1,2,1,False
+within collection (6a),grade low vs high,TCGA-UCEC,CT,high (G3-G4): 36; low (G1-G2): 28,2,28,True
+within collection (6a),stage early vs late,TCGA-UCEC,CT,none,0,0,False
+collection-defined (6b),glioma_grade,"TCGA-GBM, TCGA-LGG",CT,TCGA-GBM: 0 (not on TCIA API); TCGA-LGG: 0 (not on TCIA API),0,0,False
+collection-defined (6b),glioma_grade,"TCGA-GBM, TCGA-LGG",MR,TCGA-GBM: 0 (not on TCIA API); TCGA-LGG: 0 (not on TCIA API),0,0,False
+collection-defined (6b),renal_subtype,"TCGA-KIRC, TCGA-KIRP, TCGA-KICH",CT,TCGA-KIRC: 236; TCGA-KIRP: 23; TCGA-KICH: 12,3,12,False
+collection-defined (6b),renal_subtype,"TCGA-KIRC, TCGA-KIRP, TCGA-KICH",MR,TCGA-KIRC: 62; TCGA-KIRP: 17; TCGA-KICH: 3,3,3,False
+collection-defined (6b),lung_histology,"TCGA-LUAD, TCGA-LUSC",CT,TCGA-LUAD: 67; TCGA-LUSC: 37,2,37,True
+collection-defined (6b),lung_histology,"TCGA-LUAD, TCGA-LUSC",MR,TCGA-LUAD: 0; TCGA-LUSC: 0,0,0,False
+collection-defined (6b),renal_subtype: TCGA-KIRC vs TCGA-KIRP,"TCGA-KIRC, TCGA-KIRP",CT,TCGA-KIRC: 236; TCGA-KIRP: 23,2,23,True
+collection-defined (6b),renal_subtype: TCGA-KIRC vs TCGA-KIRP,"TCGA-KIRC, TCGA-KIRP",MR,TCGA-KIRC: 62; TCGA-KIRP: 17,2,17,False
+collection-defined (6b),renal_subtype: TCGA-KIRC vs TCGA-KICH,"TCGA-KIRC, TCGA-KICH",CT,TCGA-KIRC: 236; TCGA-KICH: 12,2,12,False
+collection-defined (6b),renal_subtype: TCGA-KIRC vs TCGA-KICH,"TCGA-KIRC, TCGA-KICH",MR,TCGA-KIRC: 62; TCGA-KICH: 3,2,3,False
+collection-defined (6b),renal_subtype: TCGA-KIRP vs TCGA-KICH,"TCGA-KIRP, TCGA-KICH",CT,TCGA-KIRP: 23; TCGA-KICH: 12,2,12,False
+collection-defined (6b),renal_subtype: TCGA-KIRP vs TCGA-KICH,"TCGA-KIRP, TCGA-KICH",MR,TCGA-KIRP: 17; TCGA-KICH: 3,2,3,False

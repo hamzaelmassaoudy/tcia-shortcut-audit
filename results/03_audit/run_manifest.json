@@ -1,0 +1,454 @@
+{
+  "settings_key": "d231ad71006ddaa09096c0840c4b8e23",
+  "notebook": "03_metadata_audit.ipynb",
+  "run_started_utc": "2026-10-28T16:27:39+00:00",
+  "run_finished_utc": "2026-10-28T17:30:01+00:00",
+  "in_colab": true,
+  "local_test_settings": {},
+  "input_notebook02_run": "2026-10-28T15:29:58+00:00",
+  "family": [
+    "lung histology (LUAD vs LUSC)",
+    "renal subtype (KIRC vs KIRP)",
+    "CPTAC-CCRCC | grade",
+    "CPTAC-CCRCC | stage",
+    "CPTAC-PDA | grade",
+    "CPTAC-PDA | stage",
+    "CPTAC-UCEC | grade",
+    "Duke-Breast-Cancer-MRI | ER status",
+    "Duke-Breast-Cancer-MRI | HER2 status",
+    "Duke-Breast-Cancer-MRI | PR status",
+    "Duke-Breast-Cancer-MRI | molecular subtype",
+    "HCC-TACE-Seg | stage",
+    "LIDC-IDRI | benign vs malignant",
+    "LIDC-IDRI | primary vs metastatic",
+    "NSCLC Radiogenomics | EGFR mutation",
+    "NSCLC Radiogenomics | KRAS mutation",
+    "NSCLC Radiogenomics | histology",
+    "PROSTATEx | clinically significant",
+    "TCGA-BLCA | stage",
+    "TCGA-BRCA | stage",
+    "TCGA-KIRC | grade",
+    "TCGA-KIRC | stage",
+    "TCGA-LIHC | grade",
+    "TCGA-LIHC | stage",
+    "TCGA-UCEC | grade",
+    "UPENN-GBM | MGMT methylation"
+  ],
+  "settings": {
+    "SEED": 2026,
+    "N_SPLITS": 5,
+    "N_REPEATS": 5,
+    "N_BOOT": 2000,
+    "N_PERM": 999,
+    "MIN_COUNT": 3,
+    "FLAG_LOWER_CI": 0.6,
+    "FLAG_Q": 0.05,
+    "N_SHUFFLE": 5,
+    "MIN_PER_CLASS_SITE_REFIT": 10,
+    "LR_PARAMS": {
+      "C": 1.0,
+      "class_weight": "balanced",
+      "max_iter": 5000
+    },
+    "LGBM_PARAMS": {
+      "n_estimators": 200,
+      "learning_rate": 0.05,
+      "num_leaves": 15,
+      "min_child_samples": 10,
+      "subsample": 0.8,
+      "subsample_freq": 1,
+      "colsample_bytree": 0.8,
+      "class_weight": "balanced",
+      "random_state": 2026,
+      "verbose": -1,
+      "n_jobs": 1
+    },
+    "SCANNER_GROUPS": {
+      "scanner (vendor, model)": [
+        "vendor",
+        "model"
+      ],
+      "software version": [
+        "software_version"
+      ],
+      "image count": [
+        "image_count"
+      ],
+      "slice thickness and kernel": [
+        "slice_thickness_mm",
+        "kernel"
+      ],
+      "body part": [
+        "body_part"
+      ],
+      "description words": [
+        "protocol_text"
+      ]
+    },
+    "CARE_COLS": [
+      "cp_n_studies",
+      "cp_n_series",
+      "cp_n_series_CT",
+      "cp_n_series_MR",
+      "cp_has_PT",
+      "cp_n_modalities",
+      "cp_n_studies_this_modality",
+      "cp_study_rank_used",
+      "cp_days_from_diagnosis",
+      "care_text"
+    ]
+  },
+  "versions": {
+    "python": "3.13.18",
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.6.1",
+    "lightgbm": "4.6.0",
+    "joblib": "1.6.0",
+    "cpus": 2
+  },
+  "outputs": [
+    {
+      "file": "audit_feature_groups.csv",
+      "bytes": 22939,
+      "rows": 156,
+      "md5": "52142bfef50bbf6c830513d3650e0924"
+    },
+    {
+      "file": "audit_primary.csv",
+      "bytes": 12227,
+      "rows": 26,
+      "md5": "ea83d4e57a688fc79c5e958df1040234"
+    },
+    {
+      "file": "audit_sites.csv",
+      "bytes": 2998,
+      "rows": 12,
+      "md5": "bcbed6dca85bbb03f4392639f899e9ba"
+    },
+    {
+      "file": "audit_within_site_refit.csv",
+      "bytes": 1615,
+      "rows": 15,
+      "md5": "5534e748bae5b1942faaf3663801bdd9"
+    },
+    {
+      "file": "oof_predictions.csv.gz",
+      "bytes": 683829,
+      "rows": 33195,
+      "md5": "1fac44600ce32b2647c35ac17f40b2d8"
+    },
+    {
+      "file": "per_task/CPTAC_CCRCC_grade.json",
+      "bytes": 2740,
+      "rows": null,
+      "md5": "fcf4fc67678a1db10888ea3b32d7deca"
+    },
+    {
+      "file": "per_task/CPTAC_CCRCC_grade_oof.csv.gz",
+      "bytes": 7532,
+      "rows": 315,
+      "md5": "c6c45a166d950846ed39914ce64ef49c"
+    },
+    {
+      "file": "per_task/CPTAC_CCRCC_stage.json",
+      "bytes": 2706,
+      "rows": null,
+      "md5": "af3c153fdd98c2f6bb513aa9b3ad7f47"
+    },
+    {
+      "file": "per_task/CPTAC_CCRCC_stage_oof.csv.gz",
+      "bytes": 7605,
+      "rows": 320,
+      "md5": "000b2e0df404b9f536debb2a9d325cda"
+    },
+    {
+      "file": "per_task/CPTAC_PDA_grade.json",
+      "bytes": 2745,
+      "rows": null,
+      "md5": "b0aa50c536765bfd652b9dd6c0eb826a"
+    },
+    {
+      "file": "per_task/CPTAC_PDA_grade_oof.csv.gz",
+      "bytes": 8443,
+      "rows": 355,
+      "md5": "d3c52dfe6cd77ffa749a788499325b5b"
+    },
+    {
+      "file": "per_task/CPTAC_PDA_stage.json",
+      "bytes": 2733,
+      "rows": null,
+      "md5": "948bfd06442ba8065671b9d45349c6bc"
+    },
+    {
+      "file": "per_task/CPTAC_PDA_stage_oof.csv.gz",
+      "bytes": 8074,
+      "rows": 340,
+      "md5": "3a6d1f8efdc984a073b12ee204895520"
+    },
+    {
+      "file": "per_task/CPTAC_UCEC_grade.json",
+      "bytes": 2716,
+      "rows": null,
+      "md5": "96b7af2fbd96ae2035c8511aa3710316"
+    },
+    {
+      "file": "per_task/CPTAC_UCEC_grade_oof.csv.gz",
+      "bytes": 8151,
+      "rows": 345,
+      "md5": "f1c34919291093df1689969fad92889a"
+    },
+    {
+      "file": "per_task/Duke_Breast_Cancer_MRI_ER_status.json",
+      "bytes": 2672,
+      "rows": null,
+      "md5": "0e01b708f40cac1f508e4eb64a22d591"
+    },
+    {
+      "file": "per_task/Duke_Breast_Cancer_MRI_ER_status_oof.csv.gz",
+      "bytes": 75424,
+      "rows": 4610,
+      "md5": "5c77834d30a5a67492608ad7340d4526"
+    },
+    {
+      "file": "per_task/Duke_Breast_Cancer_MRI_HER2_status.json",
+      "bytes": 2697,
+      "rows": null,
+      "md5": "23c0650bde99e472174116dc64629c46"
+    },
+    {
+      "file": "per_task/Duke_Breast_Cancer_MRI_HER2_status_oof.csv.gz",
+      "bytes": 75998,
+      "rows": 4610,
+      "md5": "728ccc94ad3d87395141036991b79135"
+    },
+    {
+      "file": "per_task/Duke_Breast_Cancer_MRI_PR_status.json",
+      "bytes": 2675,
+      "rows": null,
+      "md5": "5895f8eb3136d8eb159b960ae9eb218b"
+    },
+    {
+      "file": "per_task/Duke_Breast_Cancer_MRI_PR_status_oof.csv.gz",
+      "bytes": 75957,
+      "rows": 4610,
+      "md5": "301feddd978ba903cee68bb36e05c7ec"
+    },
+    {
+      "file": "per_task/Duke_Breast_Cancer_MRI_molecular_subtype.json",
+      "bytes": 2782,
+      "rows": null,
+      "md5": "4c036074f1358e2ac8a6af4c5db55c5a"
+    },
+    {
+      "file": "per_task/Duke_Breast_Cancer_MRI_molecular_subtype_oof.csv.gz",
+      "bytes": 142970,
+      "rows": 4610,
+      "md5": "60484038d032cebd7bdfba77c3376129"
+    },
+    {
+      "file": "per_task/HCC_TACE_Seg_stage.json",
+      "bytes": 2642,
+      "rows": null,
+      "md5": "a745d595e1926a1c33759b2a29d9a3ba"
+    },
+    {
+      "file": "per_task/HCC_TACE_Seg_stage_oof.csv.gz",
+      "bytes": 12136,
+      "rows": 525,
+      "md5": "9babd306ff6951208d86bfedbb334cd2"
+    },
+    {
+      "file": "per_task/LIDC_IDRI_benign_vs_malignant.json",
+      "bytes": 2747,
+      "rows": null,
+      "md5": "9d4c6cee55032b8df0021d25c43474ab"
+    },
+    {
+      "file": "per_task/LIDC_IDRI_benign_vs_malignant_oof.csv.gz",
+      "bytes": 14779,
+      "rows": 650,
+      "md5": "b85d54b72bbb820e8229b61f339c2f36"
+    },
+    {
+      "file": "per_task/LIDC_IDRI_primary_vs_metastatic.json",
+      "bytes": 2776,
+      "rows": null,
+      "md5": "f33a72335827c719cb44810375f87f2d"
+    },
+    {
+      "file": "per_task/LIDC_IDRI_primary_vs_metastatic_oof.csv.gz",
+      "bytes": 11047,
+      "rows": 470,
+      "md5": "314bb959f38781d13dfb9037f2937257"
+    },
+    {
+      "file": "per_task/NSCLC_Radiogenomics_EGFR_mutation.json",
+      "bytes": 3627,
+      "rows": null,
+      "md5": "91adb0833ce329ca3769c6de07258473"
+    },
+    {
+      "file": "per_task/NSCLC_Radiogenomics_EGFR_mutation_oof.csv.gz",
+      "bytes": 18975,
+      "rows": 830,
+      "md5": "a636c005d4fcc4ed2a65bc3ce0b090a9"
+    },
+    {
+      "file": "per_task/NSCLC_Radiogenomics_KRAS_mutation.json",
+      "bytes": 3855,
+      "rows": null,
+      "md5": "da49e339ecfb42d1da722292353ebad2"
+    },
+    {
+      "file": "per_task/NSCLC_Radiogenomics_KRAS_mutation_oof.csv.gz",
+      "bytes": 18832,
+      "rows": 825,
+      "md5": "9b59dd0ccef04bfeddaecc65235c728e"
+    },
+    {
+      "file": "per_task/NSCLC_Radiogenomics_histology.json",
+      "bytes": 3619,
+      "rows": null,
+      "md5": "abad6732fb62afca4839ce68be3c348f"
+    },
+    {
+      "file": "per_task/NSCLC_Radiogenomics_histology_oof.csv.gz",
+      "bytes": 22748,
+      "rows": 995,
+      "md5": "da7ca48c6bf4ff04cdf5f1e49446fb04"
+    },
+    {
+      "file": "per_task/PROSTATEx_clinically_significant.json",
+      "bytes": 2686,
+      "rows": null,
+      "md5": "eaf72f2052849c450d1395fefc104ed8"
+    },
+    {
+      "file": "per_task/PROSTATEx_clinically_significant_oof.csv.gz",
+      "bytes": 10696,
+      "rows": 1020,
+      "md5": "b792b7ea64ae56830b6a541d486fccd7"
+    },
+    {
+      "file": "per_task/TCGA_BLCA_stage.json",
+      "bytes": 3265,
+      "rows": null,
+      "md5": "ec60717c3a99acacce83e16c108bbc2d"
+    },
+    {
+      "file": "per_task/TCGA_BLCA_stage_oof.csv.gz",
+      "bytes": 12564,
+      "rows": 535,
+      "md5": "3c36e4c0986573c18fc7749709cb30a8"
+    },
+    {
+      "file": "per_task/TCGA_BRCA_stage.json",
+      "bytes": 3145,
+      "rows": null,
+      "md5": "61b87dfccb11c5c591f355faad103fe4"
+    },
+    {
+      "file": "per_task/TCGA_BRCA_stage_oof.csv.gz",
+      "bytes": 14073,
+      "rows": 685,
+      "md5": "f88055e01c87de578408684c08ee8617"
+    },
+    {
+      "file": "per_task/TCGA_KIRC_grade.json",
+      "bytes": 3882,
+      "rows": null,
+      "md5": "00646fff294b656068d366f537226d57"
+    },
+    {
+      "file": "per_task/TCGA_KIRC_grade_oof.csv.gz",
+      "bytes": 27054,
+      "rows": 1180,
+      "md5": "493ed5a05b159c8c53ed6d52f4403b7a"
+    },
+    {
+      "file": "per_task/TCGA_KIRC_stage.json",
+      "bytes": 4070,
+      "rows": null,
+      "md5": "e68060251dfd3da6e407bfa8de8ad0da"
+    },
+    {
+      "file": "per_task/TCGA_KIRC_stage_oof.csv.gz",
+      "bytes": 27109,
+      "rows": 1180,
+      "md5": "add5f844606d0384f0296ec0f4534a33"
+    },
+    {
+      "file": "per_task/TCGA_LIHC_grade.json",
+      "bytes": 3360,
+      "rows": null,
+      "md5": "0ff8fa159863099143fe0a56fdd4fc18"
+    },
+    {
+      "file": "per_task/TCGA_LIHC_grade_oof.csv.gz",
+      "bytes": 9003,
+      "rows": 375,
+      "md5": "d31935a59aeb5ff5851eb60b9007db11"
+    },
+    {
+      "file": "per_task/TCGA_LIHC_stage.json",
+      "bytes": 3399,
+      "rows": null,
+      "md5": "14ac7f7e7c02ba1c81132e30bed45b65"
+    },
+    {
+      "file": "per_task/TCGA_LIHC_stage_oof.csv.gz",
+      "bytes": 8728,
+      "rows": 365,
+      "md5": "c09c3e2f03d560bbbec45920a0a5d915"
+    },
+    {
+      "file": "per_task/TCGA_UCEC_grade.json",
+      "bytes": 3438,
+      "rows": null,
+      "md5": "4eb69c59debd6a40c880c5f9b4a07f5a"
+    },
+    {
+      "file": "per_task/TCGA_UCEC_grade_oof.csv.gz",
+      "bytes": 7625,
+      "rows": 320,
+      "md5": "b7fac6b4dff97c044a4ab7bf69c7991b"
+    },
+    {
+      "file": "per_task/UPENN_GBM_MGMT_methylation.json",
+      "bytes": 2716,
+      "rows": null,
+      "md5": "888284a23676bd6be74974406c638f9b"
+    },
+    {
+      "file": "per_task/UPENN_GBM_MGMT_methylation_oof.csv.gz",
+      "bytes": 25026,
+      "rows": 1310,
+      "md5": "af160207d80c21220f4c359589807db5"
+    },
+    {
+      "file": "per_task/lung_histology_LUAD_vs_LUSC.json",
+      "bytes": 3585,
+      "rows": null,
+      "md5": "d855ac276106f703115b311bc5d934f6"
+    },
+    {
+      "file": "per_task/lung_histology_LUAD_vs_LUSC_oof.csv.gz",
+      "bytes": 12310,
+      "rows": 520,
+      "md5": "481069fdb379a5a61b16dbd147405487"
+    },
+    {
+      "file": "per_task/renal_subtype_KIRC_vs_KIRP.json",
+      "bytes": 3344,
+      "rows": null,
+      "md5": "51770891e1e15c9c4f6473d28bd0efc8"
+    },
+    {
+      "file": "per_task/renal_subtype_KIRC_vs_KIRP_oof.csv.gz",
+      "bytes": 30003,
+      "rows": 1295,
+      "md5": "bee0419ab93048bf96b299ce2ae864e6"
+    }
+  ]
+}

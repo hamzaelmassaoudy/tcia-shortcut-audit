@@ -1,0 +1,25 @@
+task_id,rule,class,n,median_image_count,parsed_thickness_known,median_parsed_thickness_mm
+renal subtype (KIRC vs KIRP),original,TCGA-KIRC,236,133.0,50,5.0
+renal subtype (KIRC vs KIRP),original,TCGA-KIRP,23,107.0,8,5.0
+CPTAC-PDA | stage,original,early (I-II),47,194.0,13,2.5
+CPTAC-PDA | stage,original,late (III-IV),21,391.0,4,1.75
+lung histology (LUAD vs LUSC),original,TCGA-LUAD,67,62.0,24,5.0
+lung histology (LUAD vs LUSC),original,TCGA-LUSC,37,126.0,9,5.0
+LIDC-IDRI | primary vs metastatic,original,metastatic,51,144.0,3,5.0
+LIDC-IDRI | primary vs metastatic,original,primary lung cancer,43,260.0,1,5.0
+renal subtype (KIRC vs KIRP),fewest,TCGA-KIRC,236,56.5,57,5.0
+renal subtype (KIRC vs KIRP),fewest,TCGA-KIRP,23,58.0,8,5.0
+CPTAC-PDA | stage,fewest,early (I-II),47,38.0,10,3.0
+CPTAC-PDA | stage,fewest,late (III-IV),21,81.0,5,5.0
+lung histology (LUAD vs LUSC),fewest,TCGA-LUAD,67,52.0,22,5.0
+lung histology (LUAD vs LUSC),fewest,TCGA-LUSC,37,70.0,9,5.0
+LIDC-IDRI | primary vs metastatic,fewest,metastatic,51,144.0,3,5.0
+LIDC-IDRI | primary vs metastatic,fewest,primary lung cancer,43,260.0,1,5.0
+renal subtype (KIRC vs KIRP),nearest_5mm,TCGA-KIRC,236,133.0,58,5.0
+renal subtype (KIRC vs KIRP),nearest_5mm,TCGA-KIRP,23,107.0,9,5.0
+CPTAC-PDA | stage,nearest_5mm,early (I-II),47,171.0,18,3.0
+CPTAC-PDA | stage,nearest_5mm,late (III-IV),21,256.0,5,5.0
+lung histology (LUAD vs LUSC),nearest_5mm,TCGA-LUAD,67,62.0,24,5.0
+lung histology (LUAD vs LUSC),nearest_5mm,TCGA-LUSC,37,126.0,9,5.0
+LIDC-IDRI | primary vs metastatic,nearest_5mm,metastatic,51,144.0,3,5.0
+LIDC-IDRI | primary vs metastatic,nearest_5mm,primary lung cancer,43,260.0,1,5.0

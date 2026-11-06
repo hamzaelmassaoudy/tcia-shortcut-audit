@@ -1,0 +1,1 @@
+CT-FM: background − silhouette 0.040 (-0.106 to 0.178), reading "may reflect the body outline or scan geometry"; Merlin: background − silhouette 0.063 (-0.074 to 0.204), reading "may reflect the body outline or scan geometry"; header and body size: "not explained by the recorded header fields or body size"

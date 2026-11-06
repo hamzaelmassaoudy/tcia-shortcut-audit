@@ -1,0 +1,339 @@
+{
+  "settings_key": "db09dd6f5b939815caf479e2cc9ea408",
+  "notebook": "07_screen_validation.ipynb",
+  "mode": "rehearsal",
+  "plan": "7g (experiment A)",
+  "labels": "shuffled (rehearsal)",
+  "run_started_utc": "2026-10-29T18:25:18+00:00",
+  "run_finished_utc": "2026-10-29T22:39:12+00:00",
+  "in_colab": true,
+  "local_test_settings": {},
+  "input_runs": {
+    "01": "2026-10-28T12:20:42+00:00",
+    "02": "2026-10-28T15:29:58+00:00",
+    "03": "2026-10-28T16:27:39+00:00",
+    "04": "2026-10-28T19:04:36+00:00",
+    "05": "2026-10-29T04:57:15+00:00",
+    "06": "2026-10-29T14:04:31+00:00"
+  },
+  "input_cache_md5": {
+    "05": "23f84dc5fbdd3e3047f4a4ad0cad85f8",
+    "06": "bbe6202f8b48b6fe4fe4db6f462a9df7"
+  },
+  "tasks_A": [
+    "LIDC-IDRI | benign vs malignant",
+    "TCGA-LIHC | grade",
+    "TCGA-BLCA | stage",
+    "TCGA-KIRC | stage",
+    "NSCLC Radiogenomics | histology",
+    "NSCLC Radiogenomics | EGFR mutation",
+    "TCGA-LIHC | stage",
+    "TCGA-KIRC | grade",
+    "TCGA-UCEC | grade",
+    "HCC-TACE-Seg | stage",
+    "CPTAC-CCRCC | grade",
+    "NSCLC Radiogenomics | KRAS mutation",
+    "CPTAC-CCRCC | stage",
+    "CPTAC-UCEC | grade",
+    "CPTAC-PDA | grade"
+  ],
+  "flagged_tasks": [
+    "CPTAC-PDA | stage",
+    "LIDC-IDRI | primary vs metastatic",
+    "lung histology (LUAD vs LUSC)",
+    "renal subtype (KIRC vs KIRP)"
+  ],
+  "same_versions_as_notebook05": true,
+  "reproduced_notebook03": null,
+  "patients_total": 1123,
+  "patients_new": 725,
+  "patients_embedded": 1122,
+  "settings": {
+    "SEED": 2026,
+    "N_SPLITS": 5,
+    "N_REPEATS": 5,
+    "MIN_COUNT": 3,
+    "FLAG_LOWER_CI": 0.6,
+    "FLAG_Q": 0.05,
+    "LR_PARAMS": {
+      "C": 1.0,
+      "class_weight": "balanced",
+      "max_iter": 5000
+    },
+    "BODY_HU": -500,
+    "OPEN_MM": 3.0,
+    "DILATE_MM": 5.0,
+    "AIR_HU": -1000,
+    "HDR_COLS": [
+      "hdr_slice_thickness",
+      "hdr_z_spacing",
+      "hdr_pixel_spacing",
+      "hdr_recon_diameter",
+      "hdr_kvp",
+      "hdr_tube_current",
+      "hdr_exposure",
+      "hdr_ctdivol",
+      "hdr_pitch",
+      "hdr_kernel",
+      "hdr_filter_type",
+      "hdr_patient_position"
+    ],
+    "PREP_KEY": "da9faacb9675",
+    "EMB_KEY": "80818aae140a",
+    "CTFM": [
+      "project-lighter/ct_fm_feature_extractor",
+      "527b0d1c262b433396c85ff2de84c427b26945a1",
+      [
+        3.0,
+        1.0,
+        1.0
+      ],
+      [
+        24,
+        128,
+        128
+      ],
+      0.625
+    ],
+    "MERLIN": [
+      "stanfordmimi/Merlin",
+      "66dd07585de79e4d8d70d67806da88f3ccaa5a0c",
+      "i3_resnet_clinical_longformer_best_clip_04-02-2024_23-21-36_epoch_99.pt"
+    ],
+    "N_BOOT": 2000,
+    "N_PERM": 999,
+    "N_TASK_PERM": 99999,
+    "SIL_HU": 0,
+    "REPRO_TOL": 0.001,
+    "PREP_KEY07": "9711c73842e2",
+    "EMB_KEY07": "3c93da2eba1c"
+  },
+  "versions": {
+    "python": "3.13.16",
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.6.1",
+    "joblib": "1.6.0",
+    "torch": "2.11.0+cu130",
+    "torchvision": "0.26.0+cu130",
+    "monai": "1.6.1",
+    "SimpleITK": "2.5.6",
+    "pydicom": "3.0.2",
+    "nibabel": "5.4.2",
+    "huggingface_hub": "1.33.0",
+    "merlin-vlm": "0.0.7",
+    "cpus": 12,
+    "gpu": "NVIDIA A100-SXM4-80GB"
+  },
+  "cache_files": {
+    "count": 1450,
+    "combined_md5": "99f4d1df6e363a023b7a9b598dbddbfd"
+  },
+  "outputs": [
+    {
+      "file": "image_probe_unflagged_tasks.csv",
+      "bytes": 14455,
+      "rows": 30,
+      "md5": "985226c5454fcaae652f674cf4a8657c"
+    },
+    {
+      "file": "oof_image_predictions.csv.gz",
+      "bytes": 137720,
+      "rows": 3644,
+      "md5": "963ff162a2d86643f5d49017d658864a"
+    },
+    {
+      "file": "per_task/CPTAC_CCRCC_grade.json",
+      "bytes": 2043,
+      "rows": null,
+      "md5": "ad03cd9cdf2daa1f3b447ad34c819b2e"
+    },
+    {
+      "file": "per_task/CPTAC_CCRCC_grade_oof.csv.gz",
+      "bytes": 5091,
+      "rows": 126,
+      "md5": "49fd39d698bf006606bd1845bd5d2b73"
+    },
+    {
+      "file": "per_task/CPTAC_CCRCC_stage.json",
+      "bytes": 2048,
+      "rows": null,
+      "md5": "18514260300de74c06e08aa0303991b3"
+    },
+    {
+      "file": "per_task/CPTAC_CCRCC_stage_oof.csv.gz",
+      "bytes": 5276,
+      "rows": 128,
+      "md5": "9c2ec8d0f7449156264362bb63008ac4"
+    },
+    {
+      "file": "per_task/CPTAC_PDA_grade.json",
+      "bytes": 2034,
+      "rows": null,
+      "md5": "b783f6201013fad9c6f3ceeec1fcf6ca"
+    },
+    {
+      "file": "per_task/CPTAC_PDA_grade_oof.csv.gz",
+      "bytes": 5689,
+      "rows": 142,
+      "md5": "d20d8117ace01dcbe1a0175e3a2fef19"
+    },
+    {
+      "file": "per_task/CPTAC_UCEC_grade.json",
+      "bytes": 2006,
+      "rows": null,
+      "md5": "9581a2d84bca955cd2170f137383d4f6"
+    },
+    {
+      "file": "per_task/CPTAC_UCEC_grade_oof.csv.gz",
+      "bytes": 5520,
+      "rows": 138,
+      "md5": "87a8d7e24226521e5796a3d19cd3ec6a"
+    },
+    {
+      "file": "per_task/HCC_TACE_Seg_stage.json",
+      "bytes": 2046,
+      "rows": null,
+      "md5": "b9b4c1b4bfea2110cd5ac5a222b0cf29"
+    },
+    {
+      "file": "per_task/HCC_TACE_Seg_stage_oof.csv.gz",
+      "bytes": 8342,
+      "rows": 210,
+      "md5": "b6ceb2f076b0d53fe28642fe548443eb"
+    },
+    {
+      "file": "per_task/LIDC_IDRI_benign_vs_malignant.json",
+      "bytes": 2050,
+      "rows": null,
+      "md5": "11b5c5e32daec65a302cb5f7f81d2414"
+    },
+    {
+      "file": "per_task/LIDC_IDRI_benign_vs_malignant_oof.csv.gz",
+      "bytes": 10196,
+      "rows": 260,
+      "md5": "29c00819da1a1c0bc492a5d14dd8f395"
+    },
+    {
+      "file": "per_task/NSCLC_Radiogenomics_EGFR_mutation.json",
+      "bytes": 2061,
+      "rows": null,
+      "md5": "41e42eead48c545f54c6cf71fd2182f2"
+    },
+    {
+      "file": "per_task/NSCLC_Radiogenomics_EGFR_mutation_oof.csv.gz",
+      "bytes": 12951,
+      "rows": 332,
+      "md5": "5e53869be292f6e9dd93a7d088070974"
+    },
+    {
+      "file": "per_task/NSCLC_Radiogenomics_KRAS_mutation.json",
+      "bytes": 2059,
+      "rows": null,
+      "md5": "29c1cbd1720c26d05926689568544fa8"
+    },
+    {
+      "file": "per_task/NSCLC_Radiogenomics_KRAS_mutation_oof.csv.gz",
+      "bytes": 12820,
+      "rows": 330,
+      "md5": "b86862f89587da7701b633f8911f3480"
+    },
+    {
+      "file": "per_task/NSCLC_Radiogenomics_histology.json",
+      "bytes": 2066,
+      "rows": null,
+      "md5": "7514500c39acff9d7514120232252e03"
+    },
+    {
+      "file": "per_task/NSCLC_Radiogenomics_histology_oof.csv.gz",
+      "bytes": 15959,
+      "rows": 398,
+      "md5": "7913d20573b79e507757970d63c03e3c"
+    },
+    {
+      "file": "per_task/TCGA_BLCA_stage.json",
+      "bytes": 2039,
+      "rows": null,
+      "md5": "989003c495ad9463ba46ec712f5b7150"
+    },
+    {
+      "file": "per_task/TCGA_BLCA_stage_oof.csv.gz",
+      "bytes": 8511,
+      "rows": 212,
+      "md5": "0544068c961e01edc3a55f898383fb27"
+    },
+    {
+      "file": "per_task/TCGA_KIRC_grade.json",
+      "bytes": 2043,
+      "rows": null,
+      "md5": "353fd47b9bd1bb8d22e9ff078ce53a43"
+    },
+    {
+      "file": "per_task/TCGA_KIRC_grade_oof.csv.gz",
+      "bytes": 18403,
+      "rows": 472,
+      "md5": "96299ccc4c019937938accaf1bd5452d"
+    },
+    {
+      "file": "per_task/TCGA_KIRC_stage.json",
+      "bytes": 2048,
+      "rows": null,
+      "md5": "0a7f1115284b78b582c10e4bb6a65f85"
+    },
+    {
+      "file": "per_task/TCGA_KIRC_stage_oof.csv.gz",
+      "bytes": 18369,
+      "rows": 472,
+      "md5": "94c5d99b94018e36f5a5dd0e67769c9f"
+    },
+    {
+      "file": "per_task/TCGA_LIHC_grade.json",
+      "bytes": 1965,
+      "rows": null,
+      "md5": "00de4507441fac6ecf3666caf9a12aab"
+    },
+    {
+      "file": "per_task/TCGA_LIHC_grade_oof.csv.gz",
+      "bytes": 6041,
+      "rows": 150,
+      "md5": "dea13f8c7a38144a4332054de22a380d"
+    },
+    {
+      "file": "per_task/TCGA_LIHC_stage.json",
+      "bytes": 2035,
+      "rows": null,
+      "md5": "7622af8b196d7cad13c1190c363774f6"
+    },
+    {
+      "file": "per_task/TCGA_LIHC_stage_oof.csv.gz",
+      "bytes": 6033,
+      "rows": 146,
+      "md5": "5ccd0b2f7fe92a8c34c2ec6244a23729"
+    },
+    {
+      "file": "per_task/TCGA_UCEC_grade.json",
+      "bytes": 2039,
+      "rows": null,
+      "md5": "9e5bbc1c0af8a6457796124f4b1ff4fe"
+    },
+    {
+      "file": "per_task/TCGA_UCEC_grade_oof.csv.gz",
+      "bytes": 5239,
+      "rows": 128,
+      "md5": "a1cb97db6f13915d2db7d34324f0cabe"
+    },
+    {
+      "file": "screen_validation_summary.csv",
+      "bytes": 628,
+      "rows": 6,
+      "md5": "eed1c5a15082bc364ad46438adf73b1b"
+    },
+    {
+      "file": "screen_validation_tasks.csv",
+      "bytes": 5957,
+      "rows": 38,
+      "md5": "666a055bc0fa9a473652d6b0852a5940"
+    }
+  ]
+}

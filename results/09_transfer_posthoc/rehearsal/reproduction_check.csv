@@ -1,0 +1,9 @@
+quantity,value,recorded,reproduced
+"source internal AUC, header",0.42622025010084713,0.4262202501008471,True
+"source internal AUC, body",0.5595804759983866,0.5595804759983866,True
+"source internal AUC, silhouette_ctfm",0.4722872125857201,0.4722872125857201,True
+"source internal AUC, silhouette_merlin",0.4903590157321501,0.4903590157321501,True
+"lung: TCGA -> CPTAC, ctfm, background external AUC",0.4196696696696697,0.4196696696696697,True
+"lung: TCGA -> CPTAC, merlin, background external AUC",0.44069069069069067,0.4406906906906906,True
+"lung: TCGA -> NSCLC Radiogenomics, ctfm, background external AUC",0.4485213581599124,0.4485213581599124,True
+"lung: TCGA -> NSCLC Radiogenomics, merlin, background external AUC",0.46075209930631617,0.4607520993063161,True

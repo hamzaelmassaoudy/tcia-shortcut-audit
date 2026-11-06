@@ -1,0 +1,423 @@
+collection,field,value,n_patients
+CPTAC-AML,tumor_grade,Not Reported,5
+CPTAC-CCRCC,tumor_grade,G2,39
+CPTAC-CCRCC,tumor_grade,G3,17
+CPTAC-CCRCC,tumor_grade,G1,4
+CPTAC-CCRCC,tumor_grade,G4,3
+CPTAC-CCRCC,tumor_grade,GX,1
+CPTAC-CM,tumor_grade,Not Reported,14
+CPTAC-CM,tumor_grade,(missing),3
+CPTAC-LSCC,tumor_grade,G2,15
+CPTAC-LSCC,tumor_grade,(missing),14
+CPTAC-LSCC,tumor_grade,G3,5
+CPTAC-LSCC,tumor_grade,GX,2
+CPTAC-LUAD,tumor_grade,G2,22
+CPTAC-LUAD,tumor_grade,G1,8
+CPTAC-LUAD,tumor_grade,G3,5
+CPTAC-LUAD,tumor_grade,GX,2
+CPTAC-PDA,tumor_grade,G2,47
+CPTAC-PDA,tumor_grade,(missing),26
+CPTAC-PDA,tumor_grade,G3,20
+CPTAC-PDA,tumor_grade,G1,4
+CPTAC-SAR,tumor_grade,(missing),18
+CPTAC-STAD,tumor_grade,G3,8
+CPTAC-STAD,tumor_grade,G4,6
+CPTAC-STAD,tumor_grade,G2,4
+CPTAC-STAD,tumor_grade,G1,1
+CPTAC-UCEC,tumor_grade,G2,34
+CPTAC-UCEC,tumor_grade,G3,20
+CPTAC-UCEC,tumor_grade,G1,15
+CPTAC-UCEC,tumor_grade,(missing),6
+TCGA-BLCA,tumor_grade,High Grade,107
+TCGA-BRCA,tumor_grade,(missing),137
+TCGA-CESC,tumor_grade,G2,26
+TCGA-CESC,tumor_grade,G3,14
+TCGA-CESC,tumor_grade,GX,13
+TCGA-CESC,tumor_grade,G1,1
+TCGA-COAD,tumor_grade,(missing),24
+TCGA-ESCA,tumor_grade,G2,10
+TCGA-ESCA,tumor_grade,G3,3
+TCGA-ESCA,tumor_grade,G1,2
+TCGA-ESCA,tumor_grade,GX,1
+TCGA-KICH,tumor_grade,(missing),12
+TCGA-KIRC,tumor_grade,G3,102
+TCGA-KIRC,tumor_grade,G2,97
+TCGA-KIRC,tumor_grade,G4,36
+TCGA-KIRC,tumor_grade,G1,1
+TCGA-KIRP,tumor_grade,(missing),23
+TCGA-LIHC,tumor_grade,G2,40
+TCGA-LIHC,tumor_grade,G3,27
+TCGA-LIHC,tumor_grade,G1,8
+TCGA-LUAD,tumor_grade,(missing),67
+TCGA-LUSC,tumor_grade,(missing),37
+TCGA-OV,tumor_grade,G3,125
+TCGA-OV,tumor_grade,G2,9
+TCGA-OV,tumor_grade,G1,2
+TCGA-OV,tumor_grade,(missing),2
+TCGA-OV,tumor_grade,GX,1
+TCGA-PRAD,tumor_grade,(missing),10
+TCGA-READ,tumor_grade,(missing),3
+TCGA-SARC,tumor_grade,(missing),4
+TCGA-STAD,tumor_grade,G2,26
+TCGA-STAD,tumor_grade,G3,17
+TCGA-STAD,tumor_grade,GX,2
+TCGA-STAD,tumor_grade,G1,1
+TCGA-THCA,tumor_grade,(missing),6
+TCGA-UCEC,tumor_grade,G3,31
+TCGA-UCEC,tumor_grade,G2,18
+TCGA-UCEC,tumor_grade,G1,10
+TCGA-UCEC,tumor_grade,High Grade,5
+CPTAC-AML,ajcc_pathologic_stage,Not Reported,5
+CPTAC-CCRCC,ajcc_pathologic_stage,Stage I,32
+CPTAC-CCRCC,ajcc_pathologic_stage,Stage III,18
+CPTAC-CCRCC,ajcc_pathologic_stage,Stage II,9
+CPTAC-CCRCC,ajcc_pathologic_stage,Stage IV,5
+CPTAC-CM,ajcc_pathologic_stage,Stage IIC,4
+CPTAC-CM,ajcc_pathologic_stage,(missing),3
+CPTAC-CM,ajcc_pathologic_stage,Stage IB,2
+CPTAC-CM,ajcc_pathologic_stage,Stage IIB,2
+CPTAC-CM,ajcc_pathologic_stage,Stage IIIC,2
+CPTAC-CM,ajcc_pathologic_stage,Stage IIID,2
+CPTAC-CM,ajcc_pathologic_stage,Stage IIIB,1
+CPTAC-CM,ajcc_pathologic_stage,Stage IV,1
+CPTAC-LSCC,ajcc_pathologic_stage,(missing),14
+CPTAC-LSCC,ajcc_pathologic_stage,Stage IIB,6
+CPTAC-LSCC,ajcc_pathologic_stage,Stage IA,5
+CPTAC-LSCC,ajcc_pathologic_stage,Stage IB,4
+CPTAC-LSCC,ajcc_pathologic_stage,Stage IIA,4
+CPTAC-LSCC,ajcc_pathologic_stage,Stage IIIA,2
+CPTAC-LSCC,ajcc_pathologic_stage,Stage III,1
+CPTAC-LUAD,ajcc_pathologic_stage,Stage IB,12
+CPTAC-LUAD,ajcc_pathologic_stage,Stage IA,11
+CPTAC-LUAD,ajcc_pathologic_stage,Stage IIB,5
+CPTAC-LUAD,ajcc_pathologic_stage,Stage IIA,3
+CPTAC-LUAD,ajcc_pathologic_stage,Stage IIIA,3
+CPTAC-LUAD,ajcc_pathologic_stage,Stage IA3,2
+CPTAC-LUAD,ajcc_pathologic_stage,Not Reported,1
+CPTAC-PDA,ajcc_pathologic_stage,Stage IIB,34
+CPTAC-PDA,ajcc_pathologic_stage,(missing),26
+CPTAC-PDA,ajcc_pathologic_stage,Stage III,18
+CPTAC-PDA,ajcc_pathologic_stage,Stage IIA,7
+CPTAC-PDA,ajcc_pathologic_stage,Stage IB,6
+CPTAC-PDA,ajcc_pathologic_stage,Not Reported,3
+CPTAC-PDA,ajcc_pathologic_stage,Stage IV,3
+CPTAC-SAR,ajcc_pathologic_stage,(missing),18
+CPTAC-STAD,ajcc_pathologic_stage,Stage IIB,6
+CPTAC-STAD,ajcc_pathologic_stage,Stage IIIA,6
+CPTAC-STAD,ajcc_pathologic_stage,Stage IIIB,3
+CPTAC-STAD,ajcc_pathologic_stage,Stage IIA,2
+CPTAC-STAD,ajcc_pathologic_stage,Stage IA,1
+CPTAC-STAD,ajcc_pathologic_stage,Stage IIIC,1
+CPTAC-UCEC,ajcc_pathologic_stage,Stage I,40
+CPTAC-UCEC,ajcc_pathologic_stage,Stage III,9
+CPTAC-UCEC,ajcc_pathologic_stage,Stage II,8
+CPTAC-UCEC,ajcc_pathologic_stage,(missing),6
+CPTAC-UCEC,ajcc_pathologic_stage,Stage IIIC1,4
+CPTAC-UCEC,ajcc_pathologic_stage,Stage IA,2
+CPTAC-UCEC,ajcc_pathologic_stage,Stage IV,2
+CPTAC-UCEC,ajcc_pathologic_stage,Stage IVB,2
+CPTAC-UCEC,ajcc_pathologic_stage,Stage IB,1
+CPTAC-UCEC,ajcc_pathologic_stage,Stage IIIC2,1
+TCGA-BLCA,ajcc_pathologic_stage,Stage II,41
+TCGA-BLCA,ajcc_pathologic_stage,Stage III,34
+TCGA-BLCA,ajcc_pathologic_stage,Stage IV,32
+TCGA-BRCA,ajcc_pathologic_stage,Stage IIA,54
+TCGA-BRCA,ajcc_pathologic_stage,Stage IIB,29
+TCGA-BRCA,ajcc_pathologic_stage,Stage I,23
+TCGA-BRCA,ajcc_pathologic_stage,Stage IIIA,15
+TCGA-BRCA,ajcc_pathologic_stage,Stage IA,8
+TCGA-BRCA,ajcc_pathologic_stage,Stage IIIC,7
+TCGA-BRCA,ajcc_pathologic_stage,Stage II,1
+TCGA-CESC,ajcc_pathologic_stage,(missing),54
+TCGA-COAD,ajcc_pathologic_stage,Stage I,4
+TCGA-COAD,ajcc_pathologic_stage,Stage IV,4
+TCGA-COAD,ajcc_pathologic_stage,(missing),4
+TCGA-COAD,ajcc_pathologic_stage,Stage IIA,3
+TCGA-COAD,ajcc_pathologic_stage,Stage III,3
+TCGA-COAD,ajcc_pathologic_stage,Stage IIIB,3
+TCGA-COAD,ajcc_pathologic_stage,Stage IA,1
+TCGA-COAD,ajcc_pathologic_stage,Stage IIB,1
+TCGA-COAD,ajcc_pathologic_stage,Stage IIIC,1
+TCGA-ESCA,ajcc_pathologic_stage,Stage IIA,3
+TCGA-ESCA,ajcc_pathologic_stage,Stage III,3
+TCGA-ESCA,ajcc_pathologic_stage,Stage IIIA,2
+TCGA-ESCA,ajcc_pathologic_stage,Stage IIIB,2
+TCGA-ESCA,ajcc_pathologic_stage,Stage IIIC,2
+TCGA-ESCA,ajcc_pathologic_stage,Stage IV,2
+TCGA-ESCA,ajcc_pathologic_stage,Stage IIB,1
+TCGA-ESCA,ajcc_pathologic_stage,Stage IVA,1
+TCGA-KICH,ajcc_pathologic_stage,Stage I,7
+TCGA-KICH,ajcc_pathologic_stage,Stage II,4
+TCGA-KICH,ajcc_pathologic_stage,Stage III,1
+TCGA-KIRC,ajcc_pathologic_stage,Stage I,121
+TCGA-KIRC,ajcc_pathologic_stage,Stage III,58
+TCGA-KIRC,ajcc_pathologic_stage,Stage IV,37
+TCGA-KIRC,ajcc_pathologic_stage,Stage II,20
+TCGA-KIRP,ajcc_pathologic_stage,Stage I,12
+TCGA-KIRP,ajcc_pathologic_stage,Stage III,4
+TCGA-KIRP,ajcc_pathologic_stage,(missing),4
+TCGA-KIRP,ajcc_pathologic_stage,Stage II,2
+TCGA-KIRP,ajcc_pathologic_stage,Stage IV,1
+TCGA-LIHC,ajcc_pathologic_stage,Stage I,36
+TCGA-LIHC,ajcc_pathologic_stage,Stage II,16
+TCGA-LIHC,ajcc_pathologic_stage,Stage IIIA,12
+TCGA-LIHC,ajcc_pathologic_stage,Stage IIIB,3
+TCGA-LIHC,ajcc_pathologic_stage,Stage IIIC,2
+TCGA-LIHC,ajcc_pathologic_stage,Stage IVB,2
+TCGA-LIHC,ajcc_pathologic_stage,(missing),2
+TCGA-LIHC,ajcc_pathologic_stage,Stage III,1
+TCGA-LIHC,ajcc_pathologic_stage,Stage IV,1
+TCGA-LUAD,ajcc_pathologic_stage,(missing),40
+TCGA-LUAD,ajcc_pathologic_stage,Stage IIIA,8
+TCGA-LUAD,ajcc_pathologic_stage,Stage IA,7
+TCGA-LUAD,ajcc_pathologic_stage,Stage IB,5
+TCGA-LUAD,ajcc_pathologic_stage,Stage IIB,3
+TCGA-LUAD,ajcc_pathologic_stage,Stage I,1
+TCGA-LUAD,ajcc_pathologic_stage,Stage IIA,1
+TCGA-LUAD,ajcc_pathologic_stage,Stage IIIB,1
+TCGA-LUAD,ajcc_pathologic_stage,Stage IV,1
+TCGA-LUSC,ajcc_pathologic_stage,Stage IB,9
+TCGA-LUSC,ajcc_pathologic_stage,Stage IIB,9
+TCGA-LUSC,ajcc_pathologic_stage,Stage IIA,6
+TCGA-LUSC,ajcc_pathologic_stage,Stage IIIA,4
+TCGA-LUSC,ajcc_pathologic_stage,Stage IA,3
+TCGA-LUSC,ajcc_pathologic_stage,Stage IIIB,2
+TCGA-LUSC,ajcc_pathologic_stage,Stage I,1
+TCGA-LUSC,ajcc_pathologic_stage,Stage II,1
+TCGA-LUSC,ajcc_pathologic_stage,Stage IV,1
+TCGA-LUSC,ajcc_pathologic_stage,(missing),1
+TCGA-OV,ajcc_pathologic_stage,(missing),139
+TCGA-PRAD,ajcc_pathologic_stage,(missing),10
+TCGA-READ,ajcc_pathologic_stage,Stage IIIB,1
+TCGA-READ,ajcc_pathologic_stage,Stage IIIC,1
+TCGA-READ,ajcc_pathologic_stage,(missing),1
+TCGA-SARC,ajcc_pathologic_stage,(missing),4
+TCGA-STAD,ajcc_pathologic_stage,Stage IIIB,15
+TCGA-STAD,ajcc_pathologic_stage,Stage IIIA,9
+TCGA-STAD,ajcc_pathologic_stage,Stage IIIC,7
+TCGA-STAD,ajcc_pathologic_stage,Stage IIA,4
+TCGA-STAD,ajcc_pathologic_stage,Stage IV,4
+TCGA-STAD,ajcc_pathologic_stage,Stage IIB,3
+TCGA-STAD,ajcc_pathologic_stage,(missing),2
+TCGA-STAD,ajcc_pathologic_stage,Stage IB,1
+TCGA-STAD,ajcc_pathologic_stage,Stage II,1
+TCGA-THCA,ajcc_pathologic_stage,Stage IVA,3
+TCGA-THCA,ajcc_pathologic_stage,Stage III,2
+TCGA-THCA,ajcc_pathologic_stage,Stage I,1
+TCGA-UCEC,ajcc_pathologic_stage,(missing),64
+CPTAC-AML,ajcc_clinical_stage,(missing),5
+CPTAC-CCRCC,ajcc_clinical_stage,(missing),64
+CPTAC-CM,ajcc_clinical_stage,(missing),17
+CPTAC-LSCC,ajcc_clinical_stage,(missing),36
+CPTAC-LUAD,ajcc_clinical_stage,(missing),37
+CPTAC-PDA,ajcc_clinical_stage,(missing),97
+CPTAC-SAR,ajcc_clinical_stage,(missing),18
+CPTAC-STAD,ajcc_clinical_stage,(missing),19
+CPTAC-UCEC,ajcc_clinical_stage,(missing),75
+TCGA-BLCA,ajcc_clinical_stage,(missing),107
+TCGA-BRCA,ajcc_clinical_stage,(missing),137
+TCGA-CESC,ajcc_clinical_stage,(missing),54
+TCGA-COAD,ajcc_clinical_stage,(missing),24
+TCGA-ESCA,ajcc_clinical_stage,Stage IIA,4
+TCGA-ESCA,ajcc_clinical_stage,Stage III,3
+TCGA-ESCA,ajcc_clinical_stage,Stage IIB,2
+TCGA-ESCA,ajcc_clinical_stage,Stage IIIA,2
+TCGA-ESCA,ajcc_clinical_stage,Stage IA,1
+TCGA-ESCA,ajcc_clinical_stage,Stage IIIB,1
+TCGA-ESCA,ajcc_clinical_stage,Stage IIIC,1
+TCGA-ESCA,ajcc_clinical_stage,Stage IV,1
+TCGA-ESCA,ajcc_clinical_stage,Stage IVA,1
+TCGA-KICH,ajcc_clinical_stage,(missing),12
+TCGA-KIRC,ajcc_clinical_stage,(missing),236
+TCGA-KIRP,ajcc_clinical_stage,Stage I,14
+TCGA-KIRP,ajcc_clinical_stage,Stage III,3
+TCGA-KIRP,ajcc_clinical_stage,(missing),3
+TCGA-KIRP,ajcc_clinical_stage,Stage II,2
+TCGA-KIRP,ajcc_clinical_stage,Stage IV,1
+TCGA-LIHC,ajcc_clinical_stage,(missing),75
+TCGA-LUAD,ajcc_clinical_stage,(missing),67
+TCGA-LUSC,ajcc_clinical_stage,(missing),37
+TCGA-OV,ajcc_clinical_stage,(missing),139
+TCGA-PRAD,ajcc_clinical_stage,(missing),10
+TCGA-READ,ajcc_clinical_stage,(missing),3
+TCGA-SARC,ajcc_clinical_stage,(missing),4
+TCGA-STAD,ajcc_clinical_stage,(missing),46
+TCGA-THCA,ajcc_clinical_stage,(missing),6
+TCGA-UCEC,ajcc_clinical_stage,(missing),64
+CPTAC-AML,primary_diagnosis,"Acute myeloid leukemia, NOS",5
+CPTAC-CCRCC,primary_diagnosis,"Renal cell carcinoma, NOS",57
+CPTAC-CCRCC,primary_diagnosis,Papillary renal cell carcinoma,4
+CPTAC-CCRCC,primary_diagnosis,Oncocytoma,2
+CPTAC-CCRCC,primary_diagnosis,Unknown,1
+CPTAC-CM,primary_diagnosis,"Malignant melanoma, NOS",14
+CPTAC-CM,primary_diagnosis,(missing),3
+CPTAC-LSCC,primary_diagnosis,"Squamous cell carcinoma, NOS",22
+CPTAC-LSCC,primary_diagnosis,(missing),14
+CPTAC-LUAD,primary_diagnosis,"Adenocarcinoma, NOS",36
+CPTAC-LUAD,primary_diagnosis,"Squamous cell carcinoma, NOS",1
+CPTAC-PDA,primary_diagnosis,"Infiltrating duct carcinoma, NOS",71
+CPTAC-PDA,primary_diagnosis,(missing),26
+CPTAC-SAR,primary_diagnosis,(missing),18
+CPTAC-STAD,primary_diagnosis,"Adenocarcinoma, NOS",19
+CPTAC-UCEC,primary_diagnosis,"Endometrioid adenocarcinoma, NOS",69
+CPTAC-UCEC,primary_diagnosis,(missing),6
+TCGA-BLCA,primary_diagnosis,Transitional cell carcinoma,92
+TCGA-BLCA,primary_diagnosis,Papillary transitional cell carcinoma,14
+TCGA-BLCA,primary_diagnosis,"Carcinoma, NOS",1
+TCGA-BRCA,primary_diagnosis,"Infiltrating duct carcinoma, NOS",114
+TCGA-BRCA,primary_diagnosis,"Lobular carcinoma, NOS",18
+TCGA-BRCA,primary_diagnosis,Infiltrating duct and lobular carcinoma,2
+TCGA-BRCA,primary_diagnosis,Infiltrating duct mixed with other types of carcinoma,1
+TCGA-BRCA,primary_diagnosis,"Medullary carcinoma, NOS",1
+TCGA-BRCA,primary_diagnosis,Pleomorphic carcinoma,1
+TCGA-CESC,primary_diagnosis,"Squamous cell carcinoma, NOS",40
+TCGA-CESC,primary_diagnosis,"Mucinous adenocarcinoma, endocervical type",12
+TCGA-CESC,primary_diagnosis,"Squamous cell carcinoma, large cell, nonkeratinizing, NOS",2
+TCGA-COAD,primary_diagnosis,"Adenocarcinoma, NOS",18
+TCGA-COAD,primary_diagnosis,(missing),4
+TCGA-COAD,primary_diagnosis,Mucinous adenocarcinoma,2
+TCGA-ESCA,primary_diagnosis,"Squamous cell carcinoma, NOS",14
+TCGA-ESCA,primary_diagnosis,"Adenocarcinoma, NOS",1
+TCGA-ESCA,primary_diagnosis,Tubular adenocarcinoma,1
+TCGA-KICH,primary_diagnosis,"Renal cell carcinoma, chromophobe type",12
+TCGA-KIRC,primary_diagnosis,"Clear cell adenocarcinoma, NOS",232
+TCGA-KIRC,primary_diagnosis,"Renal cell carcinoma, NOS",4
+TCGA-KIRP,primary_diagnosis,"Papillary adenocarcinoma, NOS",23
+TCGA-LIHC,primary_diagnosis,"Hepatocellular carcinoma, NOS",75
+TCGA-LUAD,primary_diagnosis,(missing),38
+TCGA-LUAD,primary_diagnosis,"Adenocarcinoma, NOS",22
+TCGA-LUAD,primary_diagnosis,Adenocarcinoma with mixed subtypes,3
+TCGA-LUAD,primary_diagnosis,Mucinous adenocarcinoma,2
+TCGA-LUAD,primary_diagnosis,Acinar cell carcinoma,1
+TCGA-LUAD,primary_diagnosis,"Papillary adenocarcinoma, NOS",1
+TCGA-LUSC,primary_diagnosis,"Squamous cell carcinoma, NOS",33
+TCGA-LUSC,primary_diagnosis,Basaloid squamous cell carcinoma,3
+TCGA-LUSC,primary_diagnosis,"Squamous cell carcinoma, keratinizing, NOS",1
+TCGA-OV,primary_diagnosis,"Serous cystadenocarcinoma, NOS",137
+TCGA-OV,primary_diagnosis,Papillary serous cystadenocarcinoma,1
+TCGA-OV,primary_diagnosis,(missing),1
+TCGA-PRAD,primary_diagnosis,"Adenocarcinoma, NOS",6
+TCGA-PRAD,primary_diagnosis,Acinar cell carcinoma,4
+TCGA-READ,primary_diagnosis,"Adenocarcinoma, NOS",3
+TCGA-SARC,primary_diagnosis,"Leiomyosarcoma, NOS",2
+TCGA-SARC,primary_diagnosis,Malignant fibrous histiocytoma,1
+TCGA-SARC,primary_diagnosis,Malignant peripheral nerve sheath tumor,1
+TCGA-STAD,primary_diagnosis,"Adenocarcinoma, intestinal type",17
+TCGA-STAD,primary_diagnosis,Tubular adenocarcinoma,16
+TCGA-STAD,primary_diagnosis,"Adenocarcinoma, NOS",5
+TCGA-STAD,primary_diagnosis,Signet ring cell carcinoma,4
+TCGA-STAD,primary_diagnosis,Mucinous adenocarcinoma,2
+TCGA-STAD,primary_diagnosis,"Carcinoma, diffuse type",1
+TCGA-STAD,primary_diagnosis,"Papillary adenocarcinoma, NOS",1
+TCGA-THCA,primary_diagnosis,"Papillary adenocarcinoma, NOS",5
+TCGA-THCA,primary_diagnosis,"Papillary carcinoma, follicular variant",1
+TCGA-UCEC,primary_diagnosis,"Endometrioid adenocarcinoma, NOS",43
+TCGA-UCEC,primary_diagnosis,"Serous cystadenocarcinoma, NOS",20
+TCGA-UCEC,primary_diagnosis,"Endometrioid adenocarcinoma, secretory variant",1
+CPTAC-AML,grade_group,(missing),5
+CPTAC-CCRCC,grade_group,low (G1-G2),43
+CPTAC-CCRCC,grade_group,high (G3-G4),20
+CPTAC-CCRCC,grade_group,(missing),1
+CPTAC-CM,grade_group,(missing),17
+CPTAC-LSCC,grade_group,(missing),16
+CPTAC-LSCC,grade_group,low (G1-G2),15
+CPTAC-LSCC,grade_group,high (G3-G4),5
+CPTAC-LUAD,grade_group,low (G1-G2),30
+CPTAC-LUAD,grade_group,high (G3-G4),5
+CPTAC-LUAD,grade_group,(missing),2
+CPTAC-PDA,grade_group,low (G1-G2),51
+CPTAC-PDA,grade_group,(missing),26
+CPTAC-PDA,grade_group,high (G3-G4),20
+CPTAC-SAR,grade_group,(missing),18
+CPTAC-STAD,grade_group,high (G3-G4),14
+CPTAC-STAD,grade_group,low (G1-G2),5
+CPTAC-UCEC,grade_group,low (G1-G2),49
+CPTAC-UCEC,grade_group,high (G3-G4),20
+CPTAC-UCEC,grade_group,(missing),6
+TCGA-BLCA,grade_group,high (G3-G4),107
+TCGA-BRCA,grade_group,(missing),137
+TCGA-CESC,grade_group,low (G1-G2),27
+TCGA-CESC,grade_group,high (G3-G4),14
+TCGA-CESC,grade_group,(missing),13
+TCGA-COAD,grade_group,(missing),24
+TCGA-ESCA,grade_group,low (G1-G2),12
+TCGA-ESCA,grade_group,high (G3-G4),3
+TCGA-ESCA,grade_group,(missing),1
+TCGA-KICH,grade_group,(missing),12
+TCGA-KIRC,grade_group,high (G3-G4),138
+TCGA-KIRC,grade_group,low (G1-G2),98
+TCGA-KIRP,grade_group,(missing),23
+TCGA-LIHC,grade_group,low (G1-G2),48
+TCGA-LIHC,grade_group,high (G3-G4),27
+TCGA-LUAD,grade_group,(missing),67
+TCGA-LUSC,grade_group,(missing),37
+TCGA-OV,grade_group,high (G3-G4),125
+TCGA-OV,grade_group,low (G1-G2),11
+TCGA-OV,grade_group,(missing),3
+TCGA-PRAD,grade_group,(missing),10
+TCGA-READ,grade_group,(missing),3
+TCGA-SARC,grade_group,(missing),4
+TCGA-STAD,grade_group,low (G1-G2),27
+TCGA-STAD,grade_group,high (G3-G4),17
+TCGA-STAD,grade_group,(missing),2
+TCGA-THCA,grade_group,(missing),6
+TCGA-UCEC,grade_group,high (G3-G4),36
+TCGA-UCEC,grade_group,low (G1-G2),28
+CPTAC-AML,stage_group,(missing),5
+CPTAC-CCRCC,stage_group,early (I-II),41
+CPTAC-CCRCC,stage_group,late (III-IV),23
+CPTAC-CM,stage_group,early (I-II),8
+CPTAC-CM,stage_group,late (III-IV),6
+CPTAC-CM,stage_group,(missing),3
+CPTAC-LSCC,stage_group,early (I-II),19
+CPTAC-LSCC,stage_group,(missing),14
+CPTAC-LSCC,stage_group,late (III-IV),3
+CPTAC-LUAD,stage_group,early (I-II),33
+CPTAC-LUAD,stage_group,late (III-IV),3
+CPTAC-LUAD,stage_group,(missing),1
+CPTAC-PDA,stage_group,early (I-II),47
+CPTAC-PDA,stage_group,(missing),29
+CPTAC-PDA,stage_group,late (III-IV),21
+CPTAC-SAR,stage_group,(missing),18
+CPTAC-STAD,stage_group,late (III-IV),10
+CPTAC-STAD,stage_group,early (I-II),9
+CPTAC-UCEC,stage_group,early (I-II),51
+CPTAC-UCEC,stage_group,late (III-IV),18
+CPTAC-UCEC,stage_group,(missing),6
+TCGA-BLCA,stage_group,late (III-IV),66
+TCGA-BLCA,stage_group,early (I-II),41
+TCGA-BRCA,stage_group,early (I-II),115
+TCGA-BRCA,stage_group,late (III-IV),22
+TCGA-CESC,stage_group,(missing),54
+TCGA-COAD,stage_group,late (III-IV),11
+TCGA-COAD,stage_group,early (I-II),9
+TCGA-COAD,stage_group,(missing),4
+TCGA-ESCA,stage_group,late (III-IV),12
+TCGA-ESCA,stage_group,early (I-II),4
+TCGA-KICH,stage_group,early (I-II),11
+TCGA-KICH,stage_group,late (III-IV),1
+TCGA-KIRC,stage_group,early (I-II),141
+TCGA-KIRC,stage_group,late (III-IV),95
+TCGA-KIRP,stage_group,early (I-II),14
+TCGA-KIRP,stage_group,late (III-IV),5
+TCGA-KIRP,stage_group,(missing),4
+TCGA-LIHC,stage_group,early (I-II),52
+TCGA-LIHC,stage_group,late (III-IV),21
+TCGA-LIHC,stage_group,(missing),2
+TCGA-LUAD,stage_group,(missing),40
+TCGA-LUAD,stage_group,early (I-II),17
+TCGA-LUAD,stage_group,late (III-IV),10
+TCGA-LUSC,stage_group,early (I-II),29
+TCGA-LUSC,stage_group,late (III-IV),7
+TCGA-LUSC,stage_group,(missing),1
+TCGA-OV,stage_group,(missing),139
+TCGA-PRAD,stage_group,(missing),10
+TCGA-READ,stage_group,late (III-IV),2
+TCGA-READ,stage_group,(missing),1
+TCGA-SARC,stage_group,(missing),4
+TCGA-STAD,stage_group,late (III-IV),35
+TCGA-STAD,stage_group,early (I-II),9
+TCGA-STAD,stage_group,(missing),2
+TCGA-THCA,stage_group,late (III-IV),5
+TCGA-THCA,stage_group,early (I-II),1
+TCGA-UCEC,stage_group,(missing),64

@@ -1,0 +1,204 @@
+collection,PatientID,modality,vendor,model,software_version,image_count,body_part,slice_thickness_mm,kernel,protocol_text,care_pathway_words,blocked_words,label
+NSCLC-Radiomics,LUNG1-002,CT,CMS,XIO,4.34.02,111,LUNG,,,,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-004,CT,SIEMENS,SENSATION OPEN,syngo CT 2006A,114,LUNG,3.0,,rt thorax3mm,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-005,CT,CMS,XIO,4.34.02,91,LUNG,,,,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-006,CT,CMS,XIO,4.34.02,114,LUNG,,,,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-007,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,129,LUNG,,,1f rcctpet thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-008,CT,CMS,XIO,4.34.02,114,LUNG,,,,,,adenocarcinoma
+NSCLC-Radiomics,LUNG1-009,CT,CMS,XIO,4.34.02,105,LUNG,,,,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-010,CT,CMS,XIO,4.34.02,91,LUNG,,,,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-011,CT,CMS,XIO,4.34.02,88,LUNG,,,,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-012,CT,CMS,XIO,4.34.02,109,LUNG,,,,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-014,CT,CMS,XIO,4.34.02,87,LUNG,,,,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-018,CT,CMS,XIO,4.34.02,114,LUNG,,,,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-022,CT,CMS,XIO,4.34.02,121,LUNG,,,,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-024,CT,CMS,XIO,4.34.02,95,LUNG,,,,,,adenocarcinoma
+NSCLC-Radiomics,LUNG1-025,CT,CMS,XIO,4.34.02,106,LUNG,,,,,,adenocarcinoma
+NSCLC-Radiomics,LUNG1-026,CT,CMS,XIO,4.34.02,110,LUNG,,,,,,adenocarcinoma
+NSCLC-Radiomics,LUNG1-027,CT,CMS,XIO,4.34.02,108,LUNG,,,,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-030,CT,CMS,XIO,4.34.02,94,LUNG,,,,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-031,CT,CMS,XIO,4.34.02,153,LUNG,,,,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-032,CT,SIEMENS,SENSATION OPEN,syngo CT 2006A,117,LUNG,,,high rc rt thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-034,CT,CMS,XIO,4.34.02,95,LUNG,,,,,,adenocarcinoma
+NSCLC-Radiomics,LUNG1-035,CT,CMS,XIO,4.34.02,94,LUNG,,,,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-037,CT,CMS,XIO,4.34.02,109,LUNG,,,,,,adenocarcinoma
+NSCLC-Radiomics,LUNG1-041,CT,CMS,XIO,4.34.02,104,LUNG,,,,,,adenocarcinoma
+NSCLC-Radiomics,LUNG1-042,CT,CMS,XIO,4.34.02,99,LUNG,,,,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-045,CT,CMS,XIO,4.34.02,108,LUNG,,,,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-046,CT,CMS,XIO,4.34.02,89,LUNG,,,,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-047,CT,CMS,XIO,4.34.02,110,LUNG,,,,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-050,CT,CMS,XIO,4.34.02,104,LUNG,,,,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-052,CT,CMS,XIO,4.34.02,127,LUNG,,,,,,adenocarcinoma
+NSCLC-Radiomics,LUNG1-053,CT,CMS,XIO,4.34.02,94,LUNG,,,,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-054,CT,CMS,XIO,4.34.02,117,LUNG,,,,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-061,CT,CMS,XIO,4.34.02,114,LUNG,,,,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-063,CT,CMS,XIO,4.34.02,114,LUNG,,,,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-064,CT,CMS,XIO,4.34.02,104,LUNG,,,,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-068,CT,CMS,XIO,4.34.02,105,LUNG,,,,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-073,CT,SIEMENS,SENSATION 16,VA70C,176,LUNG,,,maastro petct wholebodyc,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-078,CT,CMS,XIO,4.34.02,136,LUNG,,,,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-082,CT,SIEMENS,SENSATION 16,VA70C,176,LUNG,,,maastro petct wholebodyc,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-086,CT,SIEMENS,SENSATION 16,VA70C,176,LUNG,,,maastro petct wholebodyc,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-089,CT,CMS,XIO,4.34.02,94,LUNG,,,,,,adenocarcinoma
+NSCLC-Radiomics,LUNG1-092,CT,SIEMENS,SENSATION 16,VA70C,135,LUNG,,,maastro petct wholebodyc,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-093,CT,SIEMENS,SENSATION 16,VA70C,176,LUNG,,,maastro petct wholebodyc,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-095,CT,CMS,XIO,4.34.02,107,LUNG,,,,,,adenocarcinoma
+NSCLC-Radiomics,LUNG1-096,CT,SIEMENS,SENSATION 16,VA70C,176,LUNG,,,maastro petct wholebodyc,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-098,CT,SIEMENS,SENSATION OPEN,syngo CT 2006A,110,LUNG,,,rcct,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-099,CT,SIEMENS,SENSATION 10,syngo CT 2006G,117,LUNG,3.0,,rt thorax3mm,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-101,CT,CMS,XIO,4.34.02,112,LUNG,,,,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-104,CT,SIEMENS,SENSATION 16,VA70C,297,LUNG,,,maastro petct wholebodyc,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-105,CT,SIEMENS,SENSATION OPEN,syngo CT 2006A,112,LUNG,,,rcct,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-107,CT,CMS,XIO,4.34.02,116,LUNG,,,,,,adenocarcinoma
+NSCLC-Radiomics,LUNG1-109,CT,SIEMENS,SENSATION OPEN,syngo CT 2006A,97,LUNG,,,rcct,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-114,CT,SIEMENS,SENSATION OPEN,syngo CT 2006A,129,LUNG,3.0,,rt thorax3mm,,,adenocarcinoma
+NSCLC-Radiomics,LUNG1-115,CT,SIEMENS,SENSATION OPEN,syngo CT 2006A,106,LUNG,,,rc rt thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-116,CT,SIEMENS,SENSATION OPEN,syngo CT 2006A,142,LUNG,,,rcct,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-117,CT,CMS,XIO,4.34.02,90,LUNG,,,,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-121,CT,SIEMENS,SENSATION OPEN,syngo CT 2006A,125,LUNG,,,rcct,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-122,CT,SIEMENS,SENSATION OPEN,syngo CT 2006A,124,LUNG,,,rcct,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-123,CT,SIEMENS,SENSATION OPEN,syngo CT 2006A,114,LUNG,3.0,,rt thorax3mm,,,adenocarcinoma
+NSCLC-Radiomics,LUNG1-130,CT,SIEMENS,SENSATION OPEN,syngo CT 2006A,104,LUNG,,,rc rt thorax,,,adenocarcinoma
+NSCLC-Radiomics,LUNG1-131,CT,SIEMENS,SENSATION OPEN,syngo CT 2006A,114,LUNG,,,50 rcct,,,adenocarcinoma
+NSCLC-Radiomics,LUNG1-135,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,93,LUNG,,,1f contrast rcctpet thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-143,CT,SIEMENS,SENSATION 16,VA70C,134,LUNG,,,contrast petct rt thorax3mm,,,adenocarcinoma
+NSCLC-Radiomics,LUNG1-144,CT,SIEMENS,SENSATION 16,VA70C,134,LUNG,3.0,,petct repeat rt thorax3mm,,,adenocarcinoma
+NSCLC-Radiomics,LUNG1-145,CT,SIEMENS,SENSATION OPEN,syngo CT 2006A,111,LUNG,,,rc rt thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-146,CT,SIEMENS,SENSATION 16,VA70C,134,LUNG,3.0,,petct rt thorax3mm,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-150,CT,SIEMENS,SENSATION OPEN,syngo CT 2006A,120,LUNG,3.0,,rt thorax3mm,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-151,CT,SIEMENS,SENSATION OPEN,syngo CT 2006A,118,LUNG,,,50 rcct,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-155,CT,CMS,XIO,4.34.02,121,LUNG,,,,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-163,CT,SIEMENS,SENSATION OPEN,syngo CT 2006A,108,LUNG,,,rc rt thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-167,CT,SIEMENS,SENSATION 16,VA70C,134,LUNG,3.0,,petct rt thorax3mm,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-173,CT,CMS,XIO,4.34.02,106,LUNG,,,,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-176,CT,SIEMENS,SENSATION OPEN,syngo CT 2006A,106,LUNG,,,rc rt thorax,,,adenocarcinoma
+NSCLC-Radiomics,LUNG1-177,CT,CMS,XIO,4.34.02,94,LUNG,,,,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-181,CT,SIEMENS,SENSATION OPEN,syngo CT 2006A,142,LUNG,,,rt thorax3mmcontrast,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-190,CT,CMS,XIO,4.34.02,112,LUNG,,,,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-193,CT,SIEMENS,SENSATION OPEN,syngo CT 2006A,106,LUNG,,,rt thorax3mmcontrast,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-197,CT,SIEMENS,SENSATION OPEN,syngo CT 2006A,143,LUNG,,,high rc rt thorax,,,adenocarcinoma
+NSCLC-Radiomics,LUNG1-200,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,134,LUNG,,,contrast rcctpet thorax,,,adenocarcinoma
+NSCLC-Radiomics,LUNG1-201,CT,CMS,XIO,4.34.02,134,LUNG,,,,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-202,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,134,LUNG,,,1f contrast rcctpet thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-203,CT,CMS,XIO,4.34.02,112,LUNG,,,,,,adenocarcinoma
+NSCLC-Radiomics,LUNG1-206,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,134,LUNG,,,contrast rcctpet thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-208,CT,SIEMENS,SENSATION OPEN,syngo CT 2006A,116,LUNG,3.0,,rt thorax3mm,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-210,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,131,LUNG,,,rcctpet thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-222,CT,SIEMENS,SENSATION OPEN,syngo CT 2006A,109,LUNG,,,high rc rt thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-224,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,93,LUNG,,,rcctpet thorax,,,adenocarcinoma
+NSCLC-Radiomics,LUNG1-225,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,134,LUNG,,,contrast rcctpet thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-230,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,93,LUNG,,,contrast rcctpet thorax,,,adenocarcinoma
+NSCLC-Radiomics,LUNG1-233,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,134,LUNG,,,contrast rcctpet thorax,,,adenocarcinoma
+NSCLC-Radiomics,LUNG1-237,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,126,LUNG,,,contrast rcctpet thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-239,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,134,LUNG,,,contrast rcctpet thorax,,,adenocarcinoma
+NSCLC-Radiomics,LUNG1-242,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,134,LUNG,,,petct rt thorax3mmcontrast,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-250,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,134,LUNG,,,contrast rcctpet thorax,,,adenocarcinoma
+NSCLC-Radiomics,LUNG1-252,CT,SIEMENS,SENSATION OPEN,syngo CT 2006A,97,LUNG,,,low rc rt thorax,,,adenocarcinoma
+NSCLC-Radiomics,LUNG1-253,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,91,LUNG,,,contrast rcctpet thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-257,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,134,LUNG,,,dag0 rcctpet thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-258,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,134,LUNG,3.0,,petct rt thorax3mm,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-263,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,134,LUNG,,,dag0 rcctpet thorax,,,adenocarcinoma
+NSCLC-Radiomics,LUNG1-264,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,130,LUNG,,,contrast dag0 rcctpet thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-265,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,134,LUNG,,,contrast dag0 rcctpet thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-266,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,94,LUNG,,,contrast dag0 rcctpet thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-268,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,132,LUNG,,,dag0 rcctpet thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-273,CT,SIEMENS,SENSATION OPEN,syngo CT 2006A,136,LUNG,,,high rc rt thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-276,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,94,LUNG,,,dag0 rcctpet thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-279,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,134,LUNG,,,contrast dag0 rcctpet thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-284,CT,SIEMENS,SENSATION OPEN,syngo CT 2006A,97,LUNG,,,high rc rt thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-285,CT,SIEMENS,SENSATION OPEN,syngo CT 2006A,90,LUNG,,,low rc rt thorax,,,adenocarcinoma
+NSCLC-Radiomics,LUNG1-288,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,132,LUNG,,,contrast dag0 rcctpet thorax,,,adenocarcinoma
+NSCLC-Radiomics,LUNG1-290,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,134,LUNG,,,contrast dag0 rcctpet thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-292,CT,SIEMENS,SENSATION 10,syngo CT 2006G,125,LUNG,,,rt thorax3mmcontrast,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-295,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,130,LUNG,,,contrast dag0 rcctpet thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-296,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,133,LUNG,,,dag0 rcctpet thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-297,CT,SIEMENS,SENSATION OPEN,syngo CT 2006A,102,LUNG,,,high rc rt thorax,,,adenocarcinoma
+NSCLC-Radiomics,LUNG1-299,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,93,LUNG,,,contrast dag8 rcctpet thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-300,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,134,LUNG,,,dag0 rcctpet thorax,,,adenocarcinoma
+NSCLC-Radiomics,LUNG1-302,CT,SIEMENS,SENSATION OPEN,syngo CT 2006A,122,LUNG,,,low rc rt thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-312,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,134,LUNG,,,contrast dag0 rcctpet thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-314,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,96,LUNG,,,contrast rcctpet thorax,,,adenocarcinoma
+NSCLC-Radiomics,LUNG1-317,CT,SIEMENS,SENSATION OPEN,syngo CT 2006A,115,LUNG,,,high rc rt thorax,,,adenocarcinoma
+NSCLC-Radiomics,LUNG1-318,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,134,LUNG,,,1f contrast rcctpet thorax,,,adenocarcinoma
+NSCLC-Radiomics,LUNG1-320,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,131,LUNG,,,1f contrast rcctpet thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-321,CT,SIEMENS,SENSATION OPEN,syngo CT 2006A,130,LUNG,,,high rc rt thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-322,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,132,LUNG,,,8f rcctpet thorax,,,adenocarcinoma
+NSCLC-Radiomics,LUNG1-323,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,132,LUNG,,,1f rcctpet thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-325,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,134,LUNG,,,1f rcctpet thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-326,CT,SIEMENS,SENSATION OPEN,syngo CT 2006A,112,LUNG,,,1f contrast high rcct thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-329,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,134,LUNG,,,8f rcctpet thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-333,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,95,LUNG,,,1f contrast rcctpet thorax,,,adenocarcinoma
+NSCLC-Radiomics,LUNG1-334,CT,SIEMENS,SENSATION OPEN,syngo CT 2006A,99,LUNG,,,8f high rcct thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-335,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,134,LUNG,,,1f contrast rcctpet thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-336,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,134,LUNG,,,1f contrast rcctpet thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-339,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,134,LUNG,,,1f contrast rcctpet thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-340,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,92,LUNG,,,1f contrast rcctpet thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-341,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,134,LUNG,,,8f rcctpet thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-343,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,94,LUNG,,,1f contrast rcctpet thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-345,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,94,LUNG,,,1f contrast rcctpet thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-346,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,134,LUNG,,,1f rcctpet thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-347,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,94,LUNG,,,1f low rcctpet thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-349,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,131,LUNG,,,1f contrast rcctpet thorax,,,adenocarcinoma
+NSCLC-Radiomics,LUNG1-352,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,134,LUNG,,,1f contrast rcctpet thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-355,CT,SIEMENS,SENSATION OPEN,syngo CT 2006A,102,LUNG,,,8f high rcct thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-356,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,134,LUNG,,,1f contrast rcctpet thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-358,CT,SIEMENS,SENSATION OPEN,syngo CT 2006A,104,LUNG,,,1f high rcct thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-359,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,134,LUNG,,,1f contrast rcctpet thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-360,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,134,LUNG,,,1f contrast rcctpet thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-361,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,134,LUNG,,,1f rcctpet thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-362,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,134,LUNG,,,1f contrast rcctpet thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-363,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,94,LUNG,,,1f contrast rcctpet thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-364,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,134,LUNG,,,1f rcctpet thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-365,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,134,LUNG,,,1f contrast rcctpet thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-366,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,134,LUNG,,,1f rcctpet thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-367,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,134,LUNG,,,1f contrast rcctpet thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-368,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,131,LUNG,,,1f rcctpet thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-369,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,134,LUNG,,,1f contrast rcctpet thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-371,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,173,LUNG,,,petct rt thorax3mmcontrast,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-372,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,134,LUNG,,,1f contrast rcctpet thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-373,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,94,LUNG,,,1f contrast rcctpet thorax,,,adenocarcinoma
+NSCLC-Radiomics,LUNG1-374,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,130,LUNG,,,1f rcctpet thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-375,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,134,LUNG,,,1f contrast rcctpet thorax,,,adenocarcinoma
+NSCLC-Radiomics,LUNG1-376,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,134,LUNG,,,1f rcctpet thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-378,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,134,LUNG,,,1f contrast rcctpet thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-379,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,134,LUNG,,,1f rcctpet thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-380,CT,SIEMENS,SENSATION OPEN,syngo CT 2006A,131,LUNG,,,1f contrast high rcct thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-381,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,134,LUNG,,,1f rcctpet thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-382,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,132,LUNG,,,1f contrast rcctpet thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-383,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,134,LUNG,,,1f contrast rcctpet thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-384,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,134,LUNG,,,1f contrast rcctpet thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-385,CT,SIEMENS,SENSATION OPEN,syngo CT 2006A,114,LUNG,,,8f high rcct thorax,,,adenocarcinoma
+NSCLC-Radiomics,LUNG1-386,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,134,LUNG,,,1f contrast rcctpet thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-387,CT,SIEMENS,SENSATION OPEN,syngo CT 2006A,101,LUNG,,,1f high rcct thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-388,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,131,LUNG,,,1f contrast rcctpet thorax,,,adenocarcinoma
+NSCLC-Radiomics,LUNG1-389,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,93,LUNG,,,8f contrast rcctpet thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-390,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,129,LUNG,,,1f rcctpet thorax,,,adenocarcinoma
+NSCLC-Radiomics,LUNG1-391,CT,SIEMENS,SENSATION OPEN,syngo CT 2009E,119,LUNG,,,8f high rcct thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-392,CT,SIEMENS,SENSATION OPEN,syngo CT 2009E,122,LUNG,,,8f high rcct thorax,,,adenocarcinoma
+NSCLC-Radiomics,LUNG1-393,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,134,LUNG,,,1f contrast rcctpet thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-395,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,134,LUNG,,,1f rcctpet thorax,,,adenocarcinoma
+NSCLC-Radiomics,LUNG1-396,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,134,LUNG,,,1f contrast rcctpet thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-397,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,139,LUNG,,,1f rcctpet thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-398,CT,SIEMENS,SENSATION OPEN,syngo CT 2009E,123,LUNG,,,1f high rcct thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-399,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,134,LUNG,,,1f contrast rcctpet thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-400,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,134,LUNG,,,1f contrast rcctpet thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-401,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,134,LUNG,,,1f contrast rcctpet thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-403,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,134,LUNG,,,8f contrast rcctpet thorax,,,adenocarcinoma
+NSCLC-Radiomics,LUNG1-404,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,134,LUNG,,,8f contrast rcctpet thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-405,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,134,LUNG,,,1f contrast rcctpet thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-406,CT,SIEMENS,SENSATION OPEN,syngo CT 2009E,111,LUNG,,,8f contrast high rcct thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-407,CT,SIEMENS,SENSATION OPEN,syngo CT 2009E,126,LUNG,,,8f high rcct thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-408,CT,SIEMENS,SENSATION OPEN,syngo CT 2009E,107,LUNG,,,8f high rcct thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-409,CT,SIEMENS,SENSATION OPEN,syngo CT 2009E,126,LUNG,,,8f high rcct thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-410,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,134,LUNG,,,8f contrast rcctpet thorax,,,adenocarcinoma
+NSCLC-Radiomics,LUNG1-411,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,136,LUNG,,,8f contrast rcctpet thorax,,,adenocarcinoma
+NSCLC-Radiomics,LUNG1-412,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,134,LUNG,,,8f rcctpet thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-413,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,116,LUNG,3.0,,rt thorax3mm,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-414,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,134,LUNG,,,8f contrast rcctpet thorax,,,adenocarcinoma
+NSCLC-Radiomics,LUNG1-415,CT,SIEMENS,SENSATION OPEN,syngo CT 2009E,122,LUNG,3.0,,rt thorax3mm,,,adenocarcinoma
+NSCLC-Radiomics,LUNG1-416,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,131,LUNG,,,8f contrast rcctpet thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-417,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,131,LUNG,,,8f contrast rcctpet thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-418,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,133,LUNG,,,8f rcctpet thorax,,,adenocarcinoma
+NSCLC-Radiomics,LUNG1-419,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,134,LUNG,,,8f contrast rcctpet thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-420,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,134,LUNG,,,8f contrast rcctpet thorax,,,squamous cell carcinoma
+NSCLC-Radiomics,LUNG1-421,CT,SIEMENS,BIOGRAPH 40,syngo CT 2006A,134,LUNG,,,8f contrast rcctpet thorax,,,squamous cell carcinoma

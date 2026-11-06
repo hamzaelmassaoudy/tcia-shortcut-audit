@@ -1,0 +1,21 @@
+Europe PMC        lung_A     hits 30 saved 30
+Europe PMC        lung_B     hits 341 saved 341
+Europe PMC        kidney_A   hits 86 saved 86
+Europe PMC        kidney_B   hits 200 saved 200
+Europe PMC        pda_A      hits 37 saved 37
+Europe PMC        lidc_A     hits 45 saved 45
+PubMed            lung_P     hits 10 saved 10
+PubMed            kidney_P   hits 12 saved 12
+PubMed            pda_P      hits 2 saved 2
+PubMed            lidc_P     hits 8 saved 8
+arXiv             lung_X     hits 1 saved 1
+arXiv             lung_X2    hits 10 saved 10
+arXiv             kidney_X   hits 1 saved 1
+arXiv             kidney_X2  hits 6 saved 6
+arXiv             pda_X      hits 0 saved 0
+arXiv             lidc_X     hits 0 saved 0
+Semantic Scholar  lung_S     hits 344 saved 100
+Semantic Scholar  kidney_S   hits 219 saved 100
+Semantic Scholar  pda_S      hits 107 saved 100
+Semantic Scholar  lidc_S     hits 15 saved 15
+1104 records saved

@@ -1,0 +1,382 @@
+category,token,max_patients_in_a_task,n_tasks,collections,decision,word_class
+care pathway,claustro,3,1,TCGA-LUSC,kept,
+care pathway,comparison,4,2,"TCGA-BLCA, TCGA-BRCA, TCGA-KIRC, TCGA-LIHC, TCGA-LUAD, TCGA-LUSC",kept,
+care pathway,detectie,204,1,PROSTATEx,kept,
+care pathway,followup,15,1,UPENN-GBM,kept,
+care pathway,foreign,3,1,TCGA-BLCA,kept,
+care pathway,hematuria,5,6,"CPTAC-CCRCC, CPTAC-UCEC, TCGA-BLCA, TCGA-KIRC, TCGA-KIRP, TCGA-UCEC",kept,
+care pathway,hx,7,4,"CPTAC-CCRCC, TCGA-BLCA, TCGA-KIRC",kept,
+care pathway,kliniek,51,1,PROSTATEx,kept,
+care pathway,ltrc,5,1,"TCGA-LUAD, TCGA-LUSC",kept,
+care pathway,outside,4,2,"TCGA-BLCA, TCGA-BRCA, TCGA-KIRC, TCGA-LIHC, TCGA-LUAD, TCGA-LUSC",kept,
+care pathway,read,4,2,"TCGA-BLCA, TCGA-BRCA, TCGA-KIRC, TCGA-LIHC, TCGA-LUAD, TCGA-LUSC",kept,
+care pathway,stealth,51,1,UPENN-GBM,kept,
+care pathway,stone,4,4,"CPTAC-CCRCC, CPTAC-UCEC, TCGA-BLCA, TCGA-KIRC, TCGA-KIRP, TCGA-UCEC",kept,
+care pathway,workup,3,3,TCGA-KIRC,kept,
+protocol,0,24,3,"TCGA-LIHC, TCGA-UCEC",kept,unclear
+protocol,01,11,8,"CPTAC-CCRCC, NSCLC Radiogenomics, TCGA-KIRC, TCGA-LIHC, TCGA-LUAD, TCGA-LUSC, TCGA-UCEC",kept,unclear
+protocol,01routinechest,7,3,NSCLC Radiogenomics,kept,clinical choice: coverage
+protocol,02,22,4,"NSCLC Radiogenomics, TCGA-KIRC, TCGA-LIHC, TCGA-UCEC",kept,unclear
+protocol,03,4,3,"TCGA-KIRC, TCGA-LUAD",kept,unclear
+protocol,04,4,1,"TCGA-KIRC, TCGA-LIHC, TCGA-UCEC",kept,unclear
+protocol,06,10,3,"CPTAC-CCRCC, TCGA-KIRC, TCGA-KIRP",kept,unclear
+protocol,08,3,3,"CPTAC-CCRCC, TCGA-KIRC",kept,unclear
+protocol,1,14,15,"CPTAC-CCRCC, CPTAC-PDA, CPTAC-UCEC, Duke-Breast-Cancer-MRI, NSCLC Radiogenomics, TCGA-BLCA, TCGA-BRCA, TCGA-KIRC, TCGA-LIHC, TCGA-LUAD, TCGA-UCEC",kept,unclear
+protocol,1.0,34,5,"CPTAC-CCRCC, CPTAC-PDA, CPTAC-UCEC, NSCLC Radiogenomics, TCGA-LIHC, TCGA-LUAD, UPENN-GBM",kept,unclear
+protocol,1.25,6,5,"CPTAC-PDA, LIDC-IDRI, NSCLC Radiogenomics, TCGA-BLCA, TCGA-KIRC",kept,unclear
+protocol,1.25mm,21,4,"CPTAC-CCRCC, CPTAC-UCEC, NSCLC Radiogenomics, TCGA-BLCA, TCGA-UCEC",kept,technique
+protocol,1.5,34,3,"CPTAC-CCRCC, CPTAC-PDA, CPTAC-UCEC, TCGA-KIRC, TCGA-LIHC, TCGA-UCEC",kept,unclear
+protocol,100,3,2,"LIDC-IDRI, TCGA-BLCA",kept,unclear
+protocol,100ma,5,3,NSCLC Radiogenomics,kept,technique
+protocol,100ml,4,1,TCGA-BLCA,kept,clinical choice: contrast or phase
+protocol,100mls,6,1,TCGA-BLCA,kept,clinical choice: contrast or phase
+protocol,12,7,2,"CPTAC-UCEC, TCGA-BLCA, TCGA-BRCA, TCGA-LIHC",kept,unclear
+protocol,1mm,10,4,"NSCLC Radiogenomics, TCGA-LUAD",kept,technique
+protocol,2,73,15,"CPTAC-CCRCC, CPTAC-PDA, CPTAC-UCEC, HCC-TACE-Seg, LIDC-IDRI, NSCLC Radiogenomics, TCGA-BLCA, TCGA-KIRC, TCGA-KIRP, TCGA-LIHC, TCGA-LUAD, TCGA-UCEC",kept,unclear
+protocol,2.0,3,2,"CPTAC-CCRCC, CPTAC-PDA, CPTAC-UCEC, NSCLC Radiogenomics, TCGA-UCEC",kept,unclear
+protocol,2.1,3,1,TCGA-LUSC,kept,unclear
+protocol,2.5,15,3,"CPTAC-CCRCC, CPTAC-PDA, HCC-TACE-Seg, NSCLC Radiogenomics",kept,unclear
+protocol,2.5mm,12,7,"CPTAC-CCRCC, CPTAC-PDA, CPTAC-UCEC, NSCLC Radiogenomics, TCGA-BLCA",kept,technique
+protocol,20,3,1,"CPTAC-PDA, CPTAC-UCEC, NSCLC Radiogenomics, UPENN-GBM",kept,unclear
+protocol,23,3,3,"TCGA-BLCA, TCGA-KIRC",kept,unclear
+protocol,230,32,3,TCGA-KIRC,kept,unclear
+protocol,231,3,3,TCGA-KIRC,kept,unclear
+protocol,251,3,1,TCGA-BLCA,kept,unclear
+protocol,2d,6,2,"NSCLC Radiogenomics, TCGA-BLCA, TCGA-LUAD, TCGA-LUSC",kept,technique
+protocol,2phase,10,1,HCC-TACE-Seg,kept,clinical choice: contrast or phase
+protocol,3,46,14,"CPTAC-CCRCC, CPTAC-PDA, CPTAC-UCEC, HCC-TACE-Seg, LIDC-IDRI, NSCLC Radiogenomics, TCGA-BLCA, TCGA-BRCA, TCGA-KIRC, TCGA-LIHC, TCGA-LUAD, TCGA-LUSC",kept,unclear
+protocol,3.0,16,13,"CPTAC-CCRCC, CPTAC-PDA, CPTAC-UCEC, NSCLC Radiogenomics, TCGA-BLCA, TCGA-KIRC, TCGA-LIHC, TCGA-LUSC, TCGA-UCEC",kept,unclear
+protocol,3.75,7,2,"TCGA-BLCA, TCGA-KIRC, TCGA-LUAD",kept,unclear
+protocol,30,6,2,"CPTAC-CCRCC, CPTAC-PDA, CPTAC-UCEC, UPENN-GBM",kept,unclear
+protocol,30dir,42,1,UPENN-GBM,kept,technique
+protocol,3d,548,14,"CPTAC-CCRCC, CPTAC-PDA, Duke-Breast-Cancer-MRI, NSCLC Radiogenomics, TCGA-BLCA, TCGA-BRCA, TCGA-KIRC, UPENN-GBM",kept,technique
+protocol,3fazy,21,3,"CPTAC-CCRCC, CPTAC-PDA, CPTAC-UCEC",kept,clinical choice: contrast or phase
+protocol,3scan,5,1,PROSTATEx,kept,technique
+protocol,3x2,3,2,CPTAC-PDA,kept,technique
+protocol,4,4,2,"CPTAC-CCRCC, CPTAC-PDA, TCGA-BLCA",kept,unclear
+protocol,4.0,3,3,"NSCLC Radiogenomics, TCGA-BLCA, TCGA-LIHC",kept,unclear
+protocol,40,5,3,"CPTAC-CCRCC, LIDC-IDRI, NSCLC Radiogenomics, TCGA-BLCA, TCGA-LUAD, TCGA-LUSC",kept,unclear
+protocol,4bval,5,1,PROSTATEx,kept,technique
+protocol,5,8,3,"CPTAC-CCRCC, CPTAC-PDA, CPTAC-UCEC, LIDC-IDRI, NSCLC Radiogenomics, TCGA-BRCA, TCGA-KIRC",kept,unclear
+protocol,5.0,49,8,"CPTAC-CCRCC, NSCLC Radiogenomics, TCGA-BLCA, TCGA-KIRC, TCGA-KIRP, TCGA-LIHC, TCGA-LUAD, TCGA-LUSC, TCGA-UCEC",kept,unclear
+protocol,5.1,66,9,"CPTAC-CCRCC, CPTAC-PDA, LIDC-IDRI, NSCLC Radiogenomics, TCGA-BLCA, TCGA-KIRC, TCGA-LUAD, TCGA-LUSC, TCGA-UCEC",kept,unclear
+protocol,5.14,7,1,"TCGA-LUAD, TCGA-LUSC",kept,unclear
+protocol,5.2,7,9,"CPTAC-CCRCC, CPTAC-UCEC, LIDC-IDRI, NSCLC Radiogenomics, TCGA-KIRC, TCGA-LUAD, TCGA-LUSC",kept,unclear
+protocol,5.3,9,8,"LIDC-IDRI, NSCLC Radiogenomics, TCGA-KIRC, TCGA-LUSC",kept,unclear
+protocol,5.4,10,4,"LIDC-IDRI, NSCLC Radiogenomics, TCGA-BLCA, TCGA-KIRC, TCGA-UCEC",kept,unclear
+protocol,5.5,3,5,"CPTAC-UCEC, LIDC-IDRI, NSCLC Radiogenomics, TCGA-KIRC, TCGA-LUSC",kept,unclear
+protocol,5.7,20,5,"LIDC-IDRI, NSCLC Radiogenomics, TCGA-BLCA, TCGA-LIHC",kept,unclear
+protocol,5.9,4,2,"CPTAC-UCEC, LIDC-IDRI",kept,unclear
+protocol,500,3,3,TCGA-KIRC,kept,unclear
+protocol,5cc,19,3,"HCC-TACE-Seg, TCGA-KIRC",kept,clinical choice: contrast or phase
+protocol,5mm,5,6,"CPTAC-PDA, LIDC-IDRI, NSCLC Radiogenomics, TCGA-BLCA, TCGA-KIRC, TCGA-KIRP, TCGA-LIHC, TCGA-UCEC",kept,technique
+protocol,5s,3,1,"CPTAC-CCRCC, TCGA-KIRC, TCGA-KIRP, TCGA-LUAD, TCGA-LUSC",kept,unclear
+protocol,6.1,21,12,"CPTAC-CCRCC, CPTAC-PDA, CPTAC-UCEC, NSCLC Radiogenomics, TCGA-BLCA, TCGA-KIRC, TCGA-KIRP, TCGA-LIHC, TCGA-UCEC",kept,unclear
+protocol,6.10,8,3,"CPTAC-PDA, TCGA-KIRC, TCGA-KIRP, TCGA-LIHC",kept,unclear
+protocol,6.11,12,3,"TCGA-BLCA, TCGA-KIRC, TCGA-KIRP",kept,unclear
+protocol,6.12,7,3,"CPTAC-CCRCC, TCGA-KIRC, TCGA-KIRP, TCGA-LIHC",kept,unclear
+protocol,6.13,3,3,"TCGA-KIRC, TCGA-LIHC",kept,unclear
+protocol,6.14,23,3,TCGA-KIRC,kept,unclear
+protocol,6.15,18,3,TCGA-KIRC,kept,unclear
+protocol,6.16,6,3,TCGA-KIRC,kept,unclear
+protocol,6.2,20,7,"CPTAC-CCRCC, CPTAC-UCEC, NSCLC Radiogenomics, TCGA-BLCA, TCGA-KIRC, TCGA-LIHC, TCGA-UCEC",kept,unclear
+protocol,6.22,3,3,TCGA-KIRC,kept,unclear
+protocol,6.25,6,3,"CPTAC-UCEC, TCGA-KIRC",kept,unclear
+protocol,6.3,11,8,"CPTAC-CCRCC, CPTAC-PDA, HCC-TACE-Seg, TCGA-BLCA, TCGA-KIRC, TCGA-LIHC",kept,unclear
+protocol,6.5,6,7,"CPTAC-CCRCC, CPTAC-PDA, CPTAC-UCEC, TCGA-KIRC",kept,unclear
+protocol,6.66,6,2,"TCGA-BLCA, TCGA-LUAD",kept,unclear
+protocol,6.7,9,4,"CPTAC-CCRCC, CPTAC-UCEC, TCGA-BLCA, TCGA-KIRC, TCGA-LIHC",kept,unclear
+protocol,6.8,4,5,"CPTAC-PDA, LIDC-IDRI, TCGA-BLCA, TCGA-KIRC, TCGA-KIRP, TCGA-LIHC",kept,unclear
+protocol,6.9,10,3,"TCGA-KIRC, TCGA-KIRP, TCGA-LIHC, TCGA-LUAD",kept,unclear
+protocol,61,3,2,CPTAC-PDA,kept,unclear
+protocol,625,5,3,NSCLC Radiogenomics,kept,unclear
+protocol,74178,3,1,TCGA-BLCA,kept,clinical choice: purpose
+protocol,75,4,1,"TCGA-LUAD, TCGA-LUSC",kept,unclear
+protocol,7mm,6,3,TCGA-KIRC,kept,technique
+protocol,8,9,1,"CPTAC-UCEC, TCGA-BRCA, TCGA-KIRC, TCGA-LUAD",kept,unclear
+protocol,8.2,7,1,TCGA-UCEC,kept,unclear
+protocol,8min,4,3,TCGA-KIRC,kept,unclear
+protocol,a,47,15,"CPTAC-CCRCC, CPTAC-PDA, CPTAC-UCEC, HCC-TACE-Seg, LIDC-IDRI, NSCLC Radiogenomics, TCGA-BLCA, TCGA-KIRC, TCGA-KIRP, TCGA-LIHC, TCGA-UCEC",kept,clinical choice: coverage
+protocol,ab,57,7,"CPTAC-PDA, HCC-TACE-Seg, LIDC-IDRI, TCGA-BLCA, TCGA-KIRC",kept,clinical choice: coverage
+protocol,abd,122,19,"CPTAC-CCRCC, CPTAC-PDA, CPTAC-UCEC, HCC-TACE-Seg, LIDC-IDRI, NSCLC Radiogenomics, TCGA-BLCA, TCGA-KIRC, TCGA-KIRP, TCGA-LIHC, TCGA-LUAD, TCGA-LUSC, TCGA-UCEC",kept,clinical choice: coverage
+protocol,abdome,11,1,TCGA-BLCA,kept,clinical choice: coverage
+protocol,abdomen,78,16,"CPTAC-CCRCC, CPTAC-PDA, CPTAC-UCEC, HCC-TACE-Seg, NSCLC Radiogenomics, TCGA-BLCA, TCGA-KIRC, TCGA-KIRP, TCGA-LIHC, TCGA-LUAD, TCGA-UCEC",kept,clinical choice: coverage
+protocol,adult,40,15,"CPTAC-CCRCC, CPTAC-PDA, CPTAC-UCEC, NSCLC Radiogenomics, TCGA-BLCA, TCGA-KIRC, TCGA-LIHC, TCGA-UCEC",kept,technique
+protocol,ai,4,1,TCGA-BLCA,kept,unclear
+protocol,all,4,4,"CPTAC-UCEC, TCGA-KIRC, TCGA-LUAD, TCGA-LUSC",kept,unclear
+protocol,and,91,15,"CPTAC-CCRCC, CPTAC-PDA, CPTAC-UCEC, Duke-Breast-Cancer-MRI, LIDC-IDRI, NSCLC Radiogenomics, TCGA-BLCA, TCGA-KIRC, TCGA-LIHC, TCGA-LUAD, TCGA-LUSC, TCGA-UCEC, UPENN-GBM",kept,unclear
+protocol,angio,15,5,"CPTAC-CCRCC, CPTAC-PDA, LIDC-IDRI, NSCLC Radiogenomics, TCGA-KIRC, TCGA-LIHC",kept,clinical choice: contrast or phase
+protocol,ap,23,5,"HCC-TACE-Seg, TCGA-BLCA, TCGA-KIRC, TCGA-KIRP, TCGA-LIHC, TCGA-UCEC",kept,clinical choice: coverage
+protocol,applied,6,1,TCGA-BLCA,kept,unclear
+protocol,art,3,2,"TCGA-KIRP, TCGA-LIHC",kept,clinical choice: contrast or phase
+protocol,arterial,22,9,"CPTAC-CCRCC, CPTAC-PDA, CPTAC-UCEC, NSCLC Radiogenomics, TCGA-BLCA, TCGA-KIRC, TCGA-KIRP, TCGA-LIHC",kept,clinical choice: contrast or phase
+protocol,as,5,1,TCGA-BLCA,kept,unclear
+protocol,asset,5,1,TCGA-BRCA,kept,technique
+protocol,augment,3,2,CPTAC-PDA,kept,clinical choice: contrast or phase
+protocol,ax,919,9,"CPTAC-CCRCC, CPTAC-UCEC, Duke-Breast-Cancer-MRI, NSCLC Radiogenomics, TCGA-BLCA, TCGA-BRCA, TCGA-KIRC, UPENN-GBM",kept,technique
+protocol,axial,165,12,"CPTAC-CCRCC, CPTAC-PDA, NSCLC Radiogenomics, TCGA-BLCA, TCGA-BRCA, TCGA-KIRC, TCGA-KIRP, TCGA-LIHC, TCGA-UCEC, UPENN-GBM",kept,technique
+protocol,axials,10,3,"CPTAC-CCRCC, CPTAC-PDA, CPTAC-UCEC, NSCLC Radiogenomics, TCGA-BLCA, TCGA-BRCA",kept,technique
+protocol,b20f,10,3,"CPTAC-CCRCC, CPTAC-PDA, CPTAC-UCEC, NSCLC Radiogenomics, TCGA-KIRC, TCGA-LUAD, TCGA-LUSC, TCGA-UCEC",kept,technique
+protocol,b30f,18,3,"CPTAC-CCRCC, CPTAC-PDA, CPTAC-UCEC, TCGA-BLCA, TCGA-KIRC, TCGA-KIRP, TCGA-LIHC, TCGA-LUAD",kept,technique
+protocol,b31f,20,8,"CPTAC-CCRCC, CPTAC-PDA, CPTAC-UCEC, NSCLC Radiogenomics, TCGA-BLCA, TCGA-KIRC, TCGA-KIRP, TCGA-LIHC, TCGA-LUAD, TCGA-LUSC, TCGA-UCEC",kept,technique
+protocol,b31s,3,3,NSCLC Radiogenomics,kept,technique
+protocol,b40f,18,6,"CPTAC-CCRCC, NSCLC Radiogenomics, TCGA-BLCA, TCGA-KIRC, TCGA-LIHC, TCGA-UCEC",kept,technique
+protocol,b45,3,3,NSCLC Radiogenomics,kept,technique
+protocol,b45f,32,3,NSCLC Radiogenomics,kept,technique
+protocol,base,6,2,"TCGA-BLCA, TCGA-LUAD, TCGA-LUSC",kept,clinical choice: coverage
+protocol,bi,12,2,"TCGA-BLCA, TCGA-LIHC",kept,unclear
+protocol,bil,12,1,TCGA-BRCA,kept,clinical choice: coverage
+protocol,bilat,70,6,"Duke-Breast-Cancer-MRI, TCGA-BLCA, TCGA-BRCA",kept,clinical choice: coverage
+protocol,bilateral,706,5,"Duke-Breast-Cancer-MRI, TCGA-BRCA",kept,clinical choice: coverage
+protocol,bind,4,1,TCGA-BRCA,kept,unclear
+protocol,biphase,9,2,TCGA-LIHC,kept,clinical choice: contrast or phase
+protocol,bladder,22,1,"LIDC-IDRI, TCGA-BLCA, TCGA-KIRC",kept,clinical choice: coverage
+protocol,bmi,4,2,"CPTAC-CCRCC, CPTAC-PDA, CPTAC-UCEC",kept,unclear
+protocol,body,24,9,"CPTAC-CCRCC, CPTAC-PDA, CPTAC-UCEC, NSCLC Radiogenomics, TCGA-BLCA, TCGA-BRCA, TCGA-KIRC, TCGA-KIRP, TCGA-LIHC, TCGA-LUAD, TCGA-LUSC, TCGA-UCEC",kept,clinical choice: coverage
+protocol,bone,14,3,NSCLC Radiogenomics,kept,technique
+protocol,bottom,17,2,"LIDC-IDRI, TCGA-LUAD",kept,clinical choice: coverage
+protocol,brain,84,1,UPENN-GBM,kept,clinical choice: coverage
+protocol,breast,917,5,"Duke-Breast-Cancer-MRI, TCGA-BRCA, TCGA-LUSC",kept,clinical choice: coverage
+protocol,brzuch,23,5,"CPTAC-CCRCC, CPTAC-PDA, CPTAC-UCEC",kept,clinical choice: coverage
+protocol,brzuchmiednica,11,1,CPTAC-UCEC,kept,clinical choice: coverage
+protocol,brzuszna,10,4,"CPTAC-CCRCC, CPTAC-PDA",kept,clinical choice: coverage
+protocol,brzusznej,8,2,"CPTAC-CCRCC, CPTAC-PDA",kept,clinical choice: coverage
+protocol,c,37,14,"CPTAC-CCRCC, CPTAC-PDA, CPTAC-UCEC, HCC-TACE-Seg, LIDC-IDRI, NSCLC Radiogenomics, TCGA-BLCA, TCGA-KIRC, TCGA-KIRP, TCGA-LIHC, TCGA-LUAD, TCGA-UCEC, UPENN-GBM",kept,clinical choice: contrast or phase
+protocol,c0n,8,3,NSCLC Radiogenomics,kept,clinical choice: contrast or phase
+protocol,cad,10,1,TCGA-BRCA,blocked post hoc: processing,
+protocol,cap,33,13,"CPTAC-UCEC, HCC-TACE-Seg, LIDC-IDRI, NSCLC Radiogenomics, TCGA-BLCA, TCGA-KIRC, TCGA-KIRP, TCGA-LIHC, TCGA-LUAD, TCGA-LUSC, TCGA-UCEC",kept,clinical choice: coverage
+protocol,cat,4,1,TCGA-BLCA,kept,unclear
+protocol,cd,12,4,"TCGA-BLCA, TCGA-KIRC",moved post hoc to care pathway,
+protocol,ce,3,5,"CPTAC-CCRCC, CPTAC-PDA, CPTAC-UCEC, NSCLC Radiogenomics, TCGA-BLCA, TCGA-BRCA, TCGA-KIRP, TCGA-LIHC, TCGA-UCEC",kept,clinical choice: contrast or phase
+protocol,ch,46,6,"CPTAC-PDA, HCC-TACE-Seg, LIDC-IDRI, TCGA-BLCA, TCGA-KIRC, TCGA-UCEC",kept,clinical choice: coverage
+protocol,chest,142,19,"CPTAC-CCRCC, CPTAC-PDA, CPTAC-UCEC, HCC-TACE-Seg, LIDC-IDRI, NSCLC Radiogenomics, TCGA-BLCA, TCGA-KIRC, TCGA-KIRP, TCGA-LIHC, TCGA-LUAD, TCGA-LUSC, TCGA-UCEC",kept,clinical choice: coverage
+protocol,clinical,6,3,NSCLC Radiogenomics,kept,clinical choice: purpose
+protocol,co,8,5,"CPTAC-CCRCC, LIDC-IDRI, TCGA-BLCA, TCGA-KIRC",kept,clinical choice: contrast or phase
+protocol,collecting,24,3,TCGA-KIRC,kept,clinical choice: contrast or phase
+protocol,collimator,6,1,"TCGA-LUAD, TCGA-LUSC",kept,technique
+protocol,combined,4,2,TCGA-LIHC,kept,unclear
+protocol,comp,3,1,UPENN-GBM,kept,unclear
+protocol,con,25,7,"HCC-TACE-Seg, LIDC-IDRI, NSCLC Radiogenomics, TCGA-BRCA, TCGA-LIHC, TCGA-LUAD, TCGA-LUSC, TCGA-UCEC",kept,clinical choice: contrast or phase
+protocol,cont,66,15,"Duke-Breast-Cancer-MRI, HCC-TACE-Seg, LIDC-IDRI, NSCLC Radiogenomics, TCGA-BLCA, TCGA-BRCA, TCGA-KIRC, TCGA-KIRP, TCGA-LIHC, TCGA-LUAD, TCGA-LUSC",kept,clinical choice: contrast or phase
+protocol,contr,4,4,"TCGA-KIRC, TCGA-LUAD, TCGA-LUSC, TCGA-UCEC",kept,clinical choice: contrast or phase
+protocol,contra,4,4,"CPTAC-CCRCC, LIDC-IDRI, TCGA-KIRC, TCGA-LUAD, TCGA-LUSC",kept,clinical choice: contrast or phase
+protocol,contrast,91,25,"CPTAC-CCRCC, CPTAC-PDA, CPTAC-UCEC, Duke-Breast-Cancer-MRI, HCC-TACE-Seg, LIDC-IDRI, NSCLC Radiogenomics, TCGA-BLCA, TCGA-BRCA, TCGA-KIRC, TCGA-KIRP, TCGA-LIHC, TCGA-LUAD, TCGA-LUSC, TCGA-UCEC, UPENN-GBM",kept,clinical choice: contrast or phase
+protocol,cortical,3,2,CPTAC-CCRCC,kept,clinical choice: contrast or phase
+protocol,ct,218,19,"CPTAC-CCRCC, CPTAC-PDA, CPTAC-UCEC, HCC-TACE-Seg, LIDC-IDRI, NSCLC Radiogenomics, TCGA-BLCA, TCGA-KIRC, TCGA-KIRP, TCGA-LIHC, TCGA-LUAD, TCGA-LUSC, TCGA-UCEC",kept,unclear
+protocol,ctcap3k,3,3,TCGA-KIRC,kept,clinical choice: coverage
+protocol,delay,9,4,"CPTAC-CCRCC, CPTAC-UCEC, TCGA-BLCA, TCGA-KIRC, TCGA-LUAD",kept,clinical choice: contrast or phase
+protocol,delays,9,2,"CPTAC-CCRCC, CPTAC-UCEC, TCGA-BLCA, TCGA-KIRC, TCGA-KIRP",kept,clinical choice: contrast or phase
+protocol,desc,14,3,NSCLC Radiogenomics,kept,unclear
+protocol,diagnostic,14,3,"NSCLC Radiogenomics, TCGA-BLCA",moved post hoc to care pathway,
+protocol,diff,199,2,"PROSTATEx, UPENN-GBM",kept,technique
+protocol,diffusie,5,1,PROSTATEx,kept,technique
+protocol,dmpr,9,3,"CPTAC-UCEC, NSCLC Radiogenomics, TCGA-KIRP",kept,technique
+protocol,dom,4,3,NSCLC Radiogenomics,kept,unclear
+protocol,dose,10,5,"LIDC-IDRI, NSCLC Radiogenomics",kept,technique
+protocol,dr,66,6,"CPTAC-CCRCC, CPTAC-UCEC, Duke-Breast-Cancer-MRI, TCGA-LUSC",kept,technique
+protocol,dti,47,1,UPENN-GBM,kept,technique
+protocol,dye,6,3,NSCLC Radiogenomics,kept,clinical choice: contrast or phase
+protocol,dyn,681,5,"Duke-Breast-Cancer-MRI, TCGA-BRCA",kept,clinical choice: contrast or phase
+protocol,dynamic,138,4,"Duke-Breast-Cancer-MRI, TCGA-BRCA, TCGA-LUAD",kept,clinical choice: contrast or phase
+protocol,dynamics,74,4,Duke-Breast-Cancer-MRI,kept,clinical choice: contrast or phase
+protocol,dyndist,199,1,PROSTATEx,kept,clinical choice: contrast or phase
+protocol,dynviews,6,5,"Duke-Breast-Cancer-MRI, TCGA-BRCA",kept,clinical choice: contrast or phase
+protocol,e,3,4,"Duke-Breast-Cancer-MRI, LIDC-IDRI, TCGA-KIRC, TCGA-LUAD",kept,unclear
+protocol,enh,4,2,"CPTAC-CCRCC, TCGA-LIHC",kept,clinical choice: contrast or phase
+protocol,enhanced,25,4,"CPTAC-PDA, TCGA-BLCA, TCGA-LIHC",kept,clinical choice: contrast or phase
+protocol,ep2d,199,2,"PROSTATEx, UPENN-GBM",kept,technique
+protocol,et,6,2,"TCGA-BLCA, TCGA-LUAD",kept,unclear
+protocol,ethrive,11,1,TCGA-BRCA,kept,technique
+protocol,ez,4,1,TCGA-BLCA,kept,unclear
+protocol,fases,6,1,TCGA-BLCA,kept,clinical choice: contrast or phase
+protocol,fasesvol,4,1,TCGA-BLCA,kept,clinical choice: contrast or phase
+protocol,fat,3,1,TCGA-BRCA,kept,technique
+protocol,faza,6,2,"CPTAC-CCRCC, CPTAC-PDA",kept,clinical choice: contrast or phase
+protocol,fazowy,3,2,CPTAC-CCRCC,kept,clinical choice: contrast or phase
+protocol,fazy,12,4,"CPTAC-CCRCC, CPTAC-PDA",kept,clinical choice: contrast or phase
+protocol,feet,14,5,"CPTAC-UCEC, NSCLC Radiogenomics, TCGA-KIRC, TCGA-LUAD, TCGA-LUSC",kept,technique
+protocol,first,14,7,"CPTAC-UCEC, LIDC-IDRI, NSCLC Radiogenomics, TCGA-KIRC, TCGA-LUAD, TCGA-LUSC, UPENN-GBM",kept,technique
+protocol,fl3d,8,5,"Duke-Breast-Cancer-MRI, TCGA-BRCA",kept,technique
+protocol,flair,54,1,UPENN-GBM,kept,technique
+protocol,flow,3,1,UPENN-GBM,kept,technique
+protocol,for,48,4,"NSCLC Radiogenomics, TCGA-BLCA, TCGA-KIRC, TCGA-LIHC, TCGA-LUAD",kept,unclear
+protocol,forfile,9,4,"TCGA-BLCA, TCGA-KIRC",moved post hoc to care pathway,
+protocol,fs,67,6,"Duke-Breast-Cancer-MRI, PROSTATEx, TCGA-BRCA, UPENN-GBM",kept,technique
+protocol,functional,7,1,UPENN-GBM,kept,clinical choice: purpose
+protocol,gad,3,1,TCGA-BRCA,kept,clinical choice: contrast or phase
+protocol,general,14,4,Duke-Breast-Cancer-MRI,kept,unclear
+protocol,hd,4,3,"NSCLC Radiogenomics, TCGA-BRCA",kept,technique
+protocol,head,104,3,"LIDC-IDRI, NSCLC Radiogenomics, TCGA-KIRC, TCGA-LUSC, TCGA-UCEC, UPENN-GBM",kept,clinical choice: coverage
+protocol,helical,20,3,"CPTAC-CCRCC, TCGA-KIRC, TCGA-LIHC, TCGA-LUAD, TCGA-LUSC",kept,technique
+protocol,hi,3,1,"NSCLC Radiogenomics, TCGA-BLCA, TCGA-LUAD, TCGA-LUSC, TCGA-UCEC",kept,technique
+protocol,hip,7,1,TCGA-BLCA,kept,clinical choice: coverage
+protocol,hr,6,1,"TCGA-BRCA, TCGA-LIHC",kept,technique
+protocol,i,6,5,"CPTAC-CCRCC, CPTAC-PDA, CPTAC-UCEC, TCGA-KIRC, TCGA-LUSC",kept,clinical choice: contrast or phase
+protocol,i30f,34,1,"CPTAC-CCRCC, CPTAC-UCEC",kept,technique
+protocol,i31s,3,2,CPTAC-CCRCC,kept,technique
+protocol,i40f,6,1,"CPTAC-PDA, CPTAC-UCEC",kept,technique
+protocol,id2,3,1,TCGA-BLCA,kept,unclear
+protocol,image,7,3,"NSCLC Radiogenomics, TCGA-LUAD",kept,unclear
+protocol,in,5,3,"NSCLC Radiogenomics, TCGA-LUSC",kept,unclear
+protocol,inc,6,2,"TCGA-BLCA, TCGA-LUAD",kept,unclear
+protocol,interviews,3,1,TCGA-BRCA,kept,unclear
+protocol,ionic,8,2,TCGA-LIHC,kept,clinical choice: contrast or phase
+protocol,isotropic,4,1,UPENN-GBM,kept,technique
+protocol,iv,91,11,"CPTAC-CCRCC, CPTAC-PDA, CPTAC-UCEC, LIDC-IDRI, TCGA-BLCA, TCGA-KIRC, TCGA-UCEC, UPENN-GBM",kept,clinical choice: contrast or phase
+protocol,j,4,2,"CPTAC-CCRCC, CPTAC-PDA",kept,clinical choice: coverage
+protocol,j.brzuszna,7,2,CPTAC-CCRCC,kept,clinical choice: coverage
+protocol,jama,9,4,"CPTAC-CCRCC, CPTAC-PDA",kept,clinical choice: coverage
+protocol,jamy,10,4,"CPTAC-CCRCC, CPTAC-PDA",kept,clinical choice: coverage
+protocol,jb,6,4,"CPTAC-CCRCC, CPTAC-PDA",kept,clinical choice: coverage
+protocol,kidney,72,6,"CPTAC-CCRCC, TCGA-BLCA, TCGA-KIRC, TCGA-UCEC",kept,clinical choice: coverage
+protocol,kidneys,13,3,"TCGA-BLCA, TCGA-KIRC, TCGA-KIRP",kept,clinical choice: coverage
+protocol,klp,3,2,CPTAC-PDA,kept,clinical choice: coverage
+protocol,kontrastem,4,2,"CPTAC-CCRCC, CPTAC-PDA",kept,clinical choice: contrast or phase
+protocol,language,5,1,UPENN-GBM,kept,clinical choice: purpose
+protocol,large,4,3,"CPTAC-CCRCC, LIDC-IDRI, NSCLC Radiogenomics, TCGA-BLCA, TCGA-LIHC, TCGA-LUSC, TCGA-UCEC",kept,technique
+protocol,liv,5,1,HCC-TACE-Seg,kept,clinical choice: coverage
+protocol,liver,95,8,"CPTAC-CCRCC, CPTAC-PDA, HCC-TACE-Seg, LIDC-IDRI, TCGA-KIRC, TCGA-KIRP, TCGA-LIHC",kept,clinical choice: coverage
+protocol,lmtd,8,1,TCGA-UCEC,kept,technique
+protocol,low,9,5,"LIDC-IDRI, NSCLC Radiogenomics",kept,technique
+protocol,lung,74,9,"CPTAC-CCRCC, CPTAC-PDA, CPTAC-UCEC, LIDC-IDRI, NSCLC Radiogenomics, TCGA-KIRC, TCGA-LUAD, TCGA-LUSC, TCGA-UCEC",kept,unclear
+protocol,lungs,3,2,LIDC-IDRI,kept,clinical choice: coverage
+protocol,lym,5,1,"LIDC-IDRI, TCGA-KIRC",blocked post hoc: label,
+protocol,ma,6,2,"CPTAC-CCRCC, TCGA-BLCA, TCGA-LUAD",kept,technique
+protocol,mc,204,1,PROSTATEx,kept,unclear
+protocol,mcaprodet,45,1,PROSTATEx,kept,unclear
+protocol,mcaprodetn,6,1,PROSTATEx,kept,unclear
+protocol,mcaprodetw,102,1,PROSTATEx,kept,unclear
+protocol,mcproskl30,51,1,PROSTATEx,kept,unclear
+protocol,mddw,4,1,UPENN-GBM,kept,technique
+protocol,med,6,5,"CPTAC-CCRCC, LIDC-IDRI, TCGA-BLCA, TCGA-KIRC, TCGA-LUAD",kept,technique
+protocol,mid,6,2,"TCGA-BLCA, TCGA-LUAD, TCGA-LUSC",kept,clinical choice: coverage
+protocol,miednica,4,2,CPTAC-PDA,kept,clinical choice: coverage
+protocol,mix,38,1,PROSTATEx,kept,unclear
+protocol,mm,8,6,"CPTAC-CCRCC, CPTAC-PDA, NSCLC Radiogenomics, TCGA-BLCA, TCGA-LUAD",kept,technique
+protocol,mode,17,3,"CPTAC-PDA, TCGA-KIRC, TCGA-LIHC, TCGA-LUAD, TCGA-LUSC",kept,technique
+protocol,motor,5,1,UPENN-GBM,kept,clinical choice: purpose
+protocol,mp,180,4,Duke-Breast-Cancer-MRI,kept,unclear
+protocol,mprage,10,1,UPENN-GBM,kept,technique
+protocol,mr,153,7,"Duke-Breast-Cancer-MRI, PROSTATEx, TCGA-BRCA, UPENN-GBM",kept,unclear
+protocol,mri,660,5,"Duke-Breast-Cancer-MRI, TCGA-BRCA",kept,unclear
+protocol,multiphase,46,1,"CPTAC-CCRCC, TCGA-BRCA",kept,clinical choice: contrast or phase
+protocol,nd,6,1,PROSTATEx,kept,unclear
+protocol,nephro,3,1,"CPTAC-CCRCC, TCGA-BLCA, TCGA-KIRC, TCGA-KIRP",kept,clinical choice: contrast or phase
+protocol,new,29,1,"CPTAC-CCRCC, TCGA-KIRC, UPENN-GBM",kept,unclear
+protocol,non,68,14,"CPTAC-PDA, Duke-Breast-Cancer-MRI, LIDC-IDRI, NSCLC Radiogenomics, TCGA-BRCA, TCGA-KIRC, TCGA-LIHC",kept,unclear
+protocol,nonconchest,9,3,NSCLC Radiogenomics,kept,clinical choice: contrast or phase
+protocol,none,9,1,"CPTAC-CCRCC, TCGA-UCEC",kept,unclear
+protocol,nonenh,11,4,"CPTAC-PDA, TCGA-LIHC",kept,clinical choice: contrast or phase
+protocol,o,259,18,"CPTAC-CCRCC, CPTAC-UCEC, Duke-Breast-Cancer-MRI, HCC-TACE-Seg, LIDC-IDRI, NSCLC Radiogenomics, TCGA-BLCA, TCGA-KIRC, TCGA-KIRP, TCGA-LIHC, TCGA-LUAD, TCGA-LUSC, TCGA-UCEC",kept,clinical choice: contrast or phase
+protocol,omnipaque,3,1,"TCGA-KIRC, TCGA-LIHC",kept,clinical choice: contrast or phase
+protocol,only,30,4,"NSCLC Radiogenomics, TCGA-KIRC, UPENN-GBM",kept,unclear
+protocol,opoznione,8,2,CPTAC-CCRCC,kept,clinical choice: contrast or phase
+protocol,or,32,5,"CPTAC-CCRCC, LIDC-IDRI, TCGA-BLCA, TCGA-BRCA, TCGA-KIRC, TCGA-LIHC, TCGA-LUAD, TCGA-LUSC",kept,unclear
+protocol,p,47,15,"CPTAC-CCRCC, CPTAC-PDA, CPTAC-UCEC, HCC-TACE-Seg, LIDC-IDRI, NSCLC Radiogenomics, TCGA-BLCA, TCGA-KIRC, TCGA-KIRP, TCGA-LIHC, TCGA-LUSC, TCGA-UCEC, UPENN-GBM",kept,clinical choice: coverage
+protocol,p.venous,4,2,TCGA-LIHC,kept,clinical choice: contrast or phase
+protocol,p2,4,1,UPENN-GBM,kept,unclear
+protocol,panc,3,3,"CPTAC-PDA, TCGA-LIHC",kept,clinical choice: coverage
+protocol,pancreas,5,3,"CPTAC-PDA, TCGA-KIRC, TCGA-LIHC",kept,clinical choice: coverage
+protocol,parenchymal,4,4,"TCGA-BLCA, TCGA-KIRC",kept,clinical choice: contrast or phase
+protocol,pe,15,6,"LIDC-IDRI, NSCLC Radiogenomics, TCGA-KIRC, TCGA-KIRP, TCGA-LIHC, TCGA-LUAD, TCGA-UCEC",kept,clinical choice: purpose
+protocol,pel,92,16,"CPTAC-CCRCC, CPTAC-PDA, CPTAC-UCEC, HCC-TACE-Seg, LIDC-IDRI, NSCLC Radiogenomics, TCGA-BLCA, TCGA-KIRC, TCGA-KIRP, TCGA-LIHC, TCGA-LUSC, TCGA-UCEC",kept,clinical choice: coverage
+protocol,pelv,3,1,"CPTAC-UCEC, TCGA-BLCA, TCGA-KIRC, TCGA-KIRP, TCGA-LIHC, TCGA-UCEC",kept,clinical choice: coverage
+protocol,pelvis,71,18,"CPTAC-CCRCC, CPTAC-PDA, CPTAC-UCEC, HCC-TACE-Seg, LIDC-IDRI, NSCLC Radiogenomics, TCGA-BLCA, TCGA-KIRC, TCGA-KIRP, TCGA-LIHC, TCGA-LUAD, TCGA-LUSC, TCGA-UCEC",kept,clinical choice: coverage
+protocol,perfusion,14,1,UPENN-GBM,kept,clinical choice: contrast or phase
+protocol,perme,10,1,UPENN-GBM,kept,clinical choice: contrast or phase
+protocol,permeabilit,4,1,UPENN-GBM,kept,clinical choice: contrast or phase
+protocol,pet,41,5,"CPTAC-UCEC, NSCLC Radiogenomics, TCGA-BLCA, TCGA-KIRP, TCGA-LUAD, TCGA-LUSC",kept,clinical choice: purpose
+protocol,petct,8,3,"NSCLC Radiogenomics, TCGA-KIRP, TCGA-LUSC",kept,clinical choice: purpose
+protocol,pha,3,2,"TCGA-LIHC, TCGA-UCEC",kept,clinical choice: contrast or phase
+protocol,phase,44,11,"CPTAC-CCRCC, CPTAC-PDA, CPTAC-UCEC, HCC-TACE-Seg, LIDC-IDRI, NSCLC Radiogenomics, TCGA-BLCA, TCGA-BRCA, TCGA-KIRC, TCGA-KIRP, TCGA-LIHC, TCGA-UCEC",kept,clinical choice: contrast or phase
+protocol,phases,3,2,TCGA-LIHC,kept,clinical choice: contrast or phase
+protocol,phasic,4,2,TCGA-LIHC,kept,clinical choice: contrast or phase
+protocol,plc,3,2,TCGA-LIHC,blocked post hoc: label,
+protocol,pleura,3,3,"LIDC-IDRI, TCGA-KIRC",kept,clinical choice: coverage
+protocol,plus,10,3,"CPTAC-PDA, NSCLC Radiogenomics",kept,unclear
+protocol,portal,8,3,"CPTAC-CCRCC, TCGA-BLCA, TCGA-LIHC",kept,clinical choice: contrast or phase
+protocol,post,55,6,"LIDC-IDRI, TCGA-BLCA, TCGA-BRCA, TCGA-KIRC, TCGA-KIRP, TCGA-LUSC, TCGA-UCEC, UPENN-GBM",kept,clinical choice: contrast or phase
+protocol,pr,5,1,HCC-TACE-Seg,kept,unclear
+protocol,pre,276,11,"CPTAC-PDA, Duke-Breast-Cancer-MRI, HCC-TACE-Seg, LIDC-IDRI, TCGA-BLCA, TCGA-BRCA, TCGA-KIRC, TCGA-KIRP, TCGA-LIHC, TCGA-LUAD, TCGA-LUSC, UPENN-GBM",kept,clinical choice: contrast or phase
+protocol,prostaat,204,1,PROSTATEx,kept,clinical choice: coverage
+protocol,prot,5,4,"HCC-TACE-Seg, TCGA-KIRC, TCGA-LIHC",kept,unclear
+protocol,proto,3,1,"HCC-TACE-Seg, TCGA-KIRC, TCGA-LUAD",kept,unclear
+protocol,protocol,72,7,"CPTAC-CCRCC, CPTAC-UCEC, HCC-TACE-Seg, LIDC-IDRI, NSCLC Radiogenomics, TCGA-BLCA, TCGA-KIRC, TCGA-KIRP, TCGA-LUAD, TCGA-LUSC, TCGA-UCEC",kept,unclear
+protocol,ptct,6,2,"TCGA-BLCA, TCGA-LUAD",kept,clinical choice: purpose
+protocol,pv,5,2,"CPTAC-PDA, TCGA-LIHC",kept,clinical choice: contrast or phase
+protocol,rad,7,1,TCGA-UCEC,kept,unclear
+protocol,reach,3,3,NSCLC Radiogenomics,kept,unclear
+protocol,recon,81,12,"CPTAC-CCRCC, CPTAC-UCEC, HCC-TACE-Seg, LIDC-IDRI, NSCLC Radiogenomics, TCGA-BLCA, TCGA-BRCA, TCGA-KIRC, TCGA-KIRP, TCGA-LIHC, TCGA-LUAD, TCGA-LUSC, TCGA-UCEC",kept,technique
+protocol,reference,29,3,NSCLC Radiogenomics,kept,clinical choice: purpose
+protocol,renal,130,6,"CPTAC-CCRCC, CPTAC-UCEC, NSCLC Radiogenomics, TCGA-BLCA, TCGA-KIRC, TCGA-KIRP, TCGA-UCEC",kept,clinical choice: coverage
+protocol,res,3,1,"NSCLC Radiogenomics, TCGA-BLCA, TCGA-LUAD, TCGA-LUSC, TCGA-UCEC",kept,technique
+protocol,rh,3,4,Duke-Breast-Cancer-MRI,kept,unclear
+protocol,routine,175,21,"CPTAC-CCRCC, CPTAC-PDA, CPTAC-UCEC, Duke-Breast-Cancer-MRI, LIDC-IDRI, NSCLC Radiogenomics, TCGA-BLCA, TCGA-BRCA, TCGA-KIRC, TCGA-KIRP, TCGA-LIHC, TCGA-LUAD, TCGA-LUSC, TCGA-UCEC, UPENN-GBM",kept,clinical choice: purpose
+protocol,rt,3,1,"TCGA-BRCA, TCGA-KIRC, TCGA-LUAD, TCGA-LUSC",kept,unclear
+protocol,sag,43,1,"TCGA-BRCA, UPENN-GBM",kept,technique
+protocol,sas,4,3,NSCLC Radiogenomics,kept,unclear
+protocol,sat,3,1,TCGA-BRCA,kept,technique
+protocol,sec,20,5,"CPTAC-CCRCC, CPTAC-UCEC, NSCLC Radiogenomics, TCGA-BLCA, TCGA-KIRC, TCGA-UCEC",kept,unclear
+protocol,sense,15,1,TCGA-BRCA,kept,technique
+protocol,skull,7,5,"NSCLC Radiogenomics, TCGA-BLCA, TCGA-KIRP, TCGA-LUAD, TCGA-LUSC",kept,clinical choice: coverage
+protocol,slices,26,3,"NSCLC Radiogenomics, TCGA-LUSC",kept,technique
+protocol,sm,6,2,"CPTAC-UCEC, TCGA-BLCA, TCGA-LUAD",kept,technique
+protocol,soft,3,1,"CPTAC-CCRCC, CPTAC-UCEC, HCC-TACE-Seg, TCGA-KIRP, TCGA-LUAD, TCGA-LUSC, TCGA-UCEC",kept,technique
+protocol,sol,4,1,TCGA-BLCA,kept,unclear
+protocol,spair,3,4,Duke-Breast-Cancer-MRI,kept,technique
+protocol,spiral,3,1,TCGA-LUAD,kept,technique
+protocol,spn,4,3,NSCLC Radiogenomics,blocked post hoc: label,
+protocol,spo,4,3,TCGA-KIRC,kept,unclear
+protocol,st,4,4,"CPTAC-CCRCC, CPTAC-PDA, CPTAC-UCEC, TCGA-BLCA, TCGA-KIRC, TCGA-LIHC, TCGA-LUAD, TCGA-UCEC",kept,technique
+protocol,standard,13,2,"CPTAC-PDA, HCC-TACE-Seg, LIDC-IDRI, NSCLC Radiogenomics, TCGA-BLCA, TCGA-LUSC",kept,technique
+protocol,std,21,4,"CPTAC-PDA, NSCLC Radiogenomics, TCGA-BLCA",kept,technique
+protocol,study,5,1,"TCGA-BLCA, TCGA-LUAD, TCGA-LUSC",kept,unclear
+protocol,supine,7,1,TCGA-UCEC,kept,technique
+protocol,system,23,3,TCGA-KIRC,kept,clinical choice: contrast or phase
+protocol,t,32,2,"CPTAC-PDA, HCC-TACE-Seg, NSCLC Radiogenomics, TCGA-BLCA, UPENN-GBM",kept,unclear
+protocol,t1,124,6,"Duke-Breast-Cancer-MRI, NSCLC Radiogenomics, TCGA-BRCA, UPENN-GBM",kept,technique
+protocol,t2,99,1,"TCGA-BRCA, UPENN-GBM",kept,technique
+protocol,tera,52,1,UPENN-GBM,kept,unclear
+protocol,tetnicza,3,2,"CPTAC-CCRCC, CPTAC-PDA",kept,clinical choice: contrast or phase
+protocol,thick,10,3,NSCLC Radiogenomics,kept,technique
+protocol,thigh,8,2,"TCGA-BLCA, TCGA-KIRP, TCGA-LUAD, TCGA-LUSC",kept,clinical choice: coverage
+protocol,thin,40,4,"CPTAC-UCEC, NSCLC Radiogenomics, TCGA-KIRC, TCGA-KIRP, TCGA-LUAD",kept,technique
+protocol,thins,5,8,"CPTAC-PDA, CPTAC-UCEC, NSCLC Radiogenomics, TCGA-LIHC, TCGA-LUAD, TCGA-LUSC",kept,technique
+protocol,thorax,79,16,"CPTAC-CCRCC, CPTAC-UCEC, HCC-TACE-Seg, LIDC-IDRI, NSCLC Radiogenomics, TCGA-BLCA, TCGA-KIRC, TCGA-KIRP, TCGA-LIHC, TCGA-LUAD, TCGA-LUSC, TCGA-UCEC",kept,clinical choice: coverage
+protocol,thoraxpetct1,3,1,TCGA-LUAD,kept,clinical choice: purpose
+protocol,thrive,3,1,TCGA-BRCA,kept,technique
+protocol,through,3,2,LIDC-IDRI,kept,clinical choice: coverage
+protocol,tissue,3,1,"CPTAC-UCEC, TCGA-KIRP, TCGA-LUAD, TCGA-LUSC, TCGA-UCEC",kept,technique
+protocol,tk,13,4,"CPTAC-CCRCC, CPTAC-PDA",kept,unclear
+protocol,to,17,4,"LIDC-IDRI, NSCLC Radiogenomics, TCGA-BLCA, TCGA-KIRP, TCGA-LUAD, TCGA-LUSC",kept,clinical choice: coverage
+protocol,top,17,2,"LIDC-IDRI, TCGA-LUAD",kept,clinical choice: coverage
+protocol,torso,20,3,NSCLC Radiogenomics,kept,clinical choice: coverage
+protocol,tra,198,6,"Duke-Breast-Cancer-MRI, PROSTATEx, TCGA-BRCA, UPENN-GBM",kept,technique
+protocol,tri,4,2,TCGA-LIHC,kept,clinical choice: contrast or phase
+protocol,triphasic,7,2,"CPTAC-CCRCC, TCGA-BLCA, TCGA-LIHC",kept,clinical choice: contrast or phase
+protocol,trzustka,6,2,CPTAC-PDA,kept,clinical choice: coverage
+protocol,tse,31,1,"TCGA-BRCA, UPENN-GBM",kept,technique
+protocol,tx,3,1,TCGA-BLCA,kept,unclear
+protocol,ultravist,7,1,TCGA-BLCA,kept,clinical choice: contrast or phase
+protocol,unilateral,4,1,"Duke-Breast-Cancer-MRI, TCGA-BRCA",kept,clinical choice: coverage
+protocol,upper,3,1,"CPTAC-PDA, TCGA-BLCA, TCGA-LIHC",kept,clinical choice: coverage
+protocol,urogram,15,4,"CPTAC-CCRCC, TCGA-BLCA, TCGA-KIRC",kept,clinical choice: contrast or phase
+protocol,urography,10,1,"CPTAC-UCEC, TCGA-BLCA, TCGA-KIRC",kept,clinical choice: contrast or phase
+protocol,venous,12,6,"CPTAC-PDA, CPTAC-UCEC, HCC-TACE-Seg, TCGA-BLCA, TCGA-KIRC, TCGA-KIRP, TCGA-LIHC, TCGA-UCEC",kept,clinical choice: contrast or phase
+protocol,vibrant,57,1,TCGA-BRCA,kept,technique
+protocol,volume,7,1,TCGA-BLCA,kept,technique
+protocol,w,711,23,"CPTAC-CCRCC, CPTAC-PDA, CPTAC-UCEC, Duke-Breast-Cancer-MRI, HCC-TACE-Seg, LIDC-IDRI, NSCLC Radiogenomics, TCGA-BLCA, TCGA-BRCA, TCGA-KIRC, TCGA-KIRP, TCGA-LIHC, TCGA-LUAD, TCGA-LUSC, TCGA-UCEC, UPENN-GBM",kept,clinical choice: contrast or phase
+protocol,water,5,1,TCGA-BLCA,kept,clinical choice: contrast or phase
+protocol,wb,15,4,"CPTAC-UCEC, NSCLC Radiogenomics, TCGA-KIRP, TCGA-LUAD, TCGA-LUSC",kept,clinical choice: coverage
+protocol,wbs,3,1,TCGA-LUSC,kept,clinical choice: coverage
+protocol,wds,102,1,PROSTATEx,kept,unclear
+protocol,whole,4,2,NSCLC Radiogenomics,kept,clinical choice: coverage
+protocol,wholebody,4,3,"CPTAC-UCEC, NSCLC Radiogenomics",kept,clinical choice: coverage
+protocol,window,39,3,NSCLC Radiogenomics,kept,technique
+protocol,wip,9,1,TCGA-BRCA,kept,technique
+protocol,with,24,21,"CPTAC-CCRCC, CPTAC-UCEC, Duke-Breast-Cancer-MRI, HCC-TACE-Seg, LIDC-IDRI, NSCLC Radiogenomics, TCGA-BLCA, TCGA-KIRC, TCGA-KIRP, TCGA-LIHC, TCGA-LUAD, TCGA-LUSC, TCGA-UCEC, UPENN-GBM",kept,clinical choice: contrast or phase
+protocol,without,9,14,"CPTAC-CCRCC, CPTAC-UCEC, Duke-Breast-Cancer-MRI, LIDC-IDRI, TCGA-BLCA, TCGA-KIRC, TCGA-LUAD, TCGA-LUSC, TCGA-UCEC, UPENN-GBM",kept,clinical choice: contrast or phase
+protocol,wo,448,17,"CPTAC-CCRCC, CPTAC-PDA, Duke-Breast-Cancer-MRI, HCC-TACE-Seg, LIDC-IDRI, NSCLC Radiogenomics, TCGA-BLCA, TCGA-BRCA, TCGA-KIRC, TCGA-KIRP, TCGA-LIHC, TCGA-LUAD, TCGA-LUSC, TCGA-UCEC, UPENN-GBM",kept,clinical choice: contrast or phase
+protocol,wwo,14,6,"Duke-Breast-Cancer-MRI, TCGA-BLCA, TCGA-BRCA, TCGA-UCEC",kept,clinical choice: contrast or phase
+protocol,z,7,2,"CPTAC-CCRCC, CPTAC-PDA",kept,unclear
+protocol,zylna,3,2,"CPTAC-CCRCC, CPTAC-PDA",kept,clinical choice: contrast or phase

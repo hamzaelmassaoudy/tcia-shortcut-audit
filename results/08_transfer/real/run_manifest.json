@@ -1,0 +1,251 @@
+{
+  "settings_key": "91caab43a22adb36e6e5a33b44a7e841",
+  "notebook": "08_transfer.ipynb",
+  "mode": "real",
+  "plan": "7g (experiment B)",
+  "labels": "real",
+  "run_started_utc": "2026-10-30T10:19:13+00:00",
+  "run_finished_utc": "2026-10-30T12:48:59+00:00",
+  "in_colab": true,
+  "local_test_settings": {},
+  "input_runs": {
+    "01": "2026-10-28T12:20:42+00:00",
+    "02": "2026-10-28T15:29:58+00:00",
+    "03": "2026-10-28T16:27:39+00:00",
+    "04": "2026-10-28T19:04:36+00:00",
+    "05": "2026-10-29T04:57:15+00:00",
+    "06": "2026-10-29T14:04:31+00:00",
+    "07": "2026-10-29T18:25:18+00:00"
+  },
+  "input_cache_md5": {
+    "05": "23f84dc5fbdd3e3047f4a4ad0cad85f8",
+    "06": "bbe6202f8b48b6fe4fe4db6f462a9df7",
+    "07": "99f4d1df6e363a023b7a9b598dbddbfd"
+  },
+  "pairs": [
+    {
+      "pair": "lung: TCGA -> NSCLC Radiogenomics",
+      "source": "lung histology (LUAD vs LUSC)",
+      "target": "NSCLC Radiogenomics"
+    },
+    {
+      "pair": "lung: TCGA -> CPTAC",
+      "source": "lung histology (LUAD vs LUSC)",
+      "target": "CPTAC lung"
+    },
+    {
+      "pair": "kidney: TCGA -> C4KC-KiTS",
+      "source": "renal subtype (KIRC vs KIRP)",
+      "target": "C4KC-KiTS"
+    }
+  ],
+  "classes": {
+    "lung histology (LUAD vs LUSC)": [
+      "TCGA-LUAD",
+      "TCGA-LUSC"
+    ],
+    "renal subtype (KIRC vs KIRP)": [
+      "TCGA-KIRC",
+      "TCGA-KIRP"
+    ],
+    "NSCLC Radiogenomics": [
+      "adenocarcinoma",
+      "squamous"
+    ],
+    "CPTAC lung": [
+      "CPTAC-LUAD",
+      "CPTAC-LSCC"
+    ],
+    "C4KC-KiTS": [
+      "clear_cell_rcc",
+      "papillary"
+    ]
+  },
+  "kits_label_file": {
+    "url": "https://raw.githubusercontent.com/neheller/kits19/456b293435b25303bbc7995f094f83a0afdff0eb/data/kits.json",
+    "md5": "46c6e3266379fb6b82875be401fa071a"
+  },
+  "kits_series_reply_md5": "86c0b76ce82059be220247b9a694025a",
+  "main_series_rule_reproduces_nb01": true,
+  "same_versions_as_notebook05": true,
+  "reproduced_notebooks05_07": true,
+  "patients_new": 237,
+  "coverage": [
+    {
+      "dataset": "lung histology (LUAD vs LUSC)",
+      "role": "source",
+      "patients": 104,
+      "embedded": 104,
+      "coverage": 1.0
+    },
+    {
+      "dataset": "renal subtype (KIRC vs KIRP)",
+      "role": "source",
+      "patients": 259,
+      "embedded": 259,
+      "coverage": 1.0
+    },
+    {
+      "dataset": "NSCLC Radiogenomics",
+      "role": "target",
+      "patients": 199,
+      "embedded": 199,
+      "coverage": 1.0
+    },
+    {
+      "dataset": "CPTAC lung",
+      "role": "target",
+      "patients": 73,
+      "embedded": 73,
+      "coverage": 1.0
+    },
+    {
+      "dataset": "C4KC-KiTS",
+      "role": "target",
+      "patients": 164,
+      "embedded": 164,
+      "coverage": 1.0
+    }
+  ],
+  "settings": {
+    "SEED": 2026,
+    "N_SPLITS": 5,
+    "N_REPEATS": 5,
+    "MIN_COUNT": 3,
+    "FLAG_LOWER_CI": 0.6,
+    "FLAG_Q": 0.05,
+    "LR_PARAMS": {
+      "C": 1.0,
+      "class_weight": "balanced",
+      "max_iter": 5000
+    },
+    "BODY_HU": -500,
+    "OPEN_MM": 3.0,
+    "DILATE_MM": 5.0,
+    "AIR_HU": -1000,
+    "HDR_COLS": [
+      "hdr_slice_thickness",
+      "hdr_z_spacing",
+      "hdr_pixel_spacing",
+      "hdr_recon_diameter",
+      "hdr_kvp",
+      "hdr_tube_current",
+      "hdr_exposure",
+      "hdr_ctdivol",
+      "hdr_pitch",
+      "hdr_kernel",
+      "hdr_filter_type",
+      "hdr_patient_position"
+    ],
+    "PREP_KEY": "da9faacb9675",
+    "EMB_KEY": "80818aae140a",
+    "CTFM": [
+      "project-lighter/ct_fm_feature_extractor",
+      "527b0d1c262b433396c85ff2de84c427b26945a1",
+      [
+        3.0,
+        1.0,
+        1.0
+      ],
+      [
+        24,
+        128,
+        128
+      ],
+      0.625
+    ],
+    "MERLIN": [
+      "stanfordmimi/Merlin",
+      "66dd07585de79e4d8d70d67806da88f3ccaa5a0c",
+      "i3_resnet_clinical_longformer_best_clip_04-02-2024_23-21-36_epoch_99.pt"
+    ],
+    "N_BOOT": 2000,
+    "N_PERM": 999,
+    "SIL_HU": 0,
+    "REPRO_TOL": 0.001,
+    "PREP_KEY08": "19ac8d3f3283",
+    "EMB_KEY08": "3c93da2eba1c",
+    "INPUTS_B": [
+      "original",
+      "background"
+    ]
+  },
+  "versions": {
+    "python": "3.13.16",
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.6.1",
+    "joblib": "1.6.0",
+    "torch": "2.11.0+cu130",
+    "torchvision": "0.26.0+cu130",
+    "monai": "1.6.1",
+    "SimpleITK": "2.5.6",
+    "pydicom": "3.0.2",
+    "nibabel": "5.4.2",
+    "huggingface_hub": "1.33.0",
+    "merlin-vlm": "0.0.7",
+    "cpus": 12,
+    "gpu": "NVIDIA A100-SXM4-80GB"
+  },
+  "cache_files": {
+    "count": 477,
+    "combined_md5": "040ddb3ebfb4b444358b063666351d15"
+  },
+  "outputs": [
+    {
+      "file": "metadata_transfer.csv",
+      "bytes": 1100,
+      "rows": 2,
+      "md5": "cfa9634b4046efb9611e700d06e75b88"
+    },
+    {
+      "file": "per_pair/kidney_TCGA_C4KC_KiTS.json",
+      "bytes": 6155,
+      "rows": null,
+      "md5": "62bebdc2d36a42635de66d4453309aee"
+    },
+    {
+      "file": "per_pair/kidney_TCGA_C4KC_KiTS_scores.csv.gz",
+      "bytes": 40215,
+      "rows": 2728,
+      "md5": "50b59b01677feb1270d0797c22ddc9a4"
+    },
+    {
+      "file": "per_pair/lung_TCGA_CPTAC.json",
+      "bytes": 6888,
+      "rows": null,
+      "md5": "9549ef6d4ac34188722e177c2bf28ec1"
+    },
+    {
+      "file": "per_pair/lung_TCGA_CPTAC_scores.csv.gz",
+      "bytes": 16804,
+      "rows": 1124,
+      "md5": "3711f998b9b2f203de3346a4329d3643"
+    },
+    {
+      "file": "per_pair/lung_TCGA_NSCLC_Radiogenomics.json",
+      "bytes": 7104,
+      "rows": null,
+      "md5": "8e1e1da1c6c928ed066b185bde79648b"
+    },
+    {
+      "file": "per_pair/lung_TCGA_NSCLC_Radiogenomics_scores.csv.gz",
+      "bytes": 24125,
+      "rows": 1628,
+      "md5": "86552f3983abb97dd8bd2c147402a914"
+    },
+    {
+      "file": "transfer.csv",
+      "bytes": 8384,
+      "rows": 12,
+      "md5": "49fe7b63b3f42fcd5d207c4e1cad26a3"
+    },
+    {
+      "file": "transfer_scores.csv.gz",
+      "bytes": 80483,
+      "rows": 5480,
+      "md5": "5a15994f95eeb237a74cc666a928833e"
+    }
+  ]
+}

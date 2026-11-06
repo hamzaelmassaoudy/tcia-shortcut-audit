@@ -1,0 +1,175 @@
+{
+  "notebook": "10_figures_tables.ipynb",
+  "plan": "7i (post hoc sensitivity analysis) and section 8",
+  "run_started_utc": "2026-10-30T16:37:16+00:00",
+  "run_finished_utc": "2026-10-30T16:39:26+00:00",
+  "in_colab": true,
+  "input_runs": {
+    "01": "2026-10-28T12:20:42+00:00",
+    "02": "2026-10-28T15:29:58+00:00",
+    "03": "2026-10-28T16:27:39+00:00",
+    "04": "2026-10-28T19:04:36+00:00",
+    "05": "2026-10-29T04:57:15+00:00",
+    "06": "2026-10-29T14:04:31+00:00",
+    "07": "2026-10-29T18:25:18+00:00",
+    "08": "2026-10-30T10:19:13+00:00",
+    "09": "2026-10-30T14:38:52+00:00",
+    "07 rehearsal": "2026-10-29T18:25:18+00:00",
+    "07 decoding": "2026-10-29T18:25:18+00:00"
+  },
+  "versions": {
+    "python": "3.13.18",
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "scipy": "1.16.3",
+    "matplotlib": "3.10.0"
+  },
+  "settings": {
+    "SEED": 2026,
+    "N_TASK_PERM": 99999
+  },
+  "reproduced_notebook07_correlation": true,
+  "n_task_groups": 11,
+  "outputs": [
+    {
+      "file": "figures/fig1_workflow.pdf",
+      "bytes": 22379,
+      "md5": "e6333dd8ab724eff82c9eb72b7c99d63"
+    },
+    {
+      "file": "figures/fig1_workflow.png",
+      "bytes": 85479,
+      "md5": "161d29390627d475a2c94b94acd6b1c3"
+    },
+    {
+      "file": "figures/fig2_risk_map_field_groups.pdf",
+      "bytes": 40923,
+      "md5": "4ef8fdc49b055979bb3f79367587c1be"
+    },
+    {
+      "file": "figures/fig2_risk_map_field_groups.png",
+      "bytes": 408991,
+      "md5": "66f43c6b6dc9e5aa7988192744fc885d"
+    },
+    {
+      "file": "figures/fig3_metadata_screen_forest.pdf",
+      "bytes": 30740,
+      "md5": "c2f026ea217e6063be51789a8b522cf7"
+    },
+    {
+      "file": "figures/fig3_metadata_screen_forest.png",
+      "bytes": 274972,
+      "md5": "87702f184dbc10b1da32fa460cf3bc54"
+    },
+    {
+      "file": "figures/fig4_site_vs_protocol.pdf",
+      "bytes": 22966,
+      "md5": "bddafdb7ebbda8db897708fd7238d8b3"
+    },
+    {
+      "file": "figures/fig4_site_vs_protocol.png",
+      "bytes": 156873,
+      "md5": "130ab099c6c2af4fd773e9e698699888"
+    },
+    {
+      "file": "figures/fig5_diagnosis_without_patient.pdf",
+      "bytes": 26636,
+      "md5": "4861baf159e42369cb3b061f0791faff"
+    },
+    {
+      "file": "figures/fig5_diagnosis_without_patient.png",
+      "bytes": 105499,
+      "md5": "aea7b9203df295f3fa7748a3d0472549"
+    },
+    {
+      "file": "figures/fig6_screen_validation.pdf",
+      "bytes": 25751,
+      "md5": "a2f7cd1eee30a75ae68aba2917790b6a"
+    },
+    {
+      "file": "figures/fig6_screen_validation.png",
+      "bytes": 177189,
+      "md5": "a95c51df165157b3b26a62c143a57fdc"
+    },
+    {
+      "file": "figures/fig7_external_transfer.pdf",
+      "bytes": 31063,
+      "md5": "e57b3b06edd5f0fd285f977b48bb37d7"
+    },
+    {
+      "file": "figures/fig7_external_transfer.png",
+      "bytes": 197853,
+      "md5": "8186fe3ef784ce42928762f9b51944dc"
+    },
+    {
+      "file": "figures/figS1_acquisition_decoding.pdf",
+      "bytes": 25529,
+      "md5": "24181f95f01d0bf7e8d876a20f27bd76"
+    },
+    {
+      "file": "figures/figS1_acquisition_decoding.png",
+      "bytes": 130557,
+      "md5": "514e0e1e351269bf3e97e7efbf742a74"
+    },
+    {
+      "file": "figures/figS2_lung_fields_by_class.pdf",
+      "bytes": 18089,
+      "md5": "40119a9b000bcfac0257f8b065a87493"
+    },
+    {
+      "file": "figures/figS2_lung_fields_by_class.png",
+      "bytes": 78896,
+      "md5": "bb242ebcef9e2bf3dbbe96ca36da4f5a"
+    },
+    {
+      "file": "robustness_leave_one_out.csv",
+      "bytes": 6455,
+      "md5": "44995d5cfea973aca76a68790c59c32f"
+    },
+    {
+      "file": "robustness_leave_one_out_summary.csv",
+      "bytes": 444,
+      "md5": "a2d41a4e198119271c4af776d4596398"
+    },
+    {
+      "file": "robustness_screen_validation.csv",
+      "bytes": 1489,
+      "md5": "212cbc1be9c5071e3fc23d569dce447a"
+    },
+    {
+      "file": "tables/table1_metadata_screen.csv",
+      "bytes": 4460,
+      "md5": "d3fed227ea6e3d2aa37a3c2415619053"
+    },
+    {
+      "file": "tables/table2_patient_free_probes.csv",
+      "bytes": 1169,
+      "md5": "81d26d232b63c02e7f18eb7788c55fbc"
+    },
+    {
+      "file": "tables/table3_screen_validation.csv",
+      "bytes": 1150,
+      "md5": "30a97e93a0a836a89b7030042bd45160"
+    },
+    {
+      "file": "tables/table4_external_transfer.csv",
+      "bytes": 2032,
+      "md5": "b2b5573150ca8e831cf1cf17c93826d1"
+    },
+    {
+      "file": "tables/table5_cptac_posthoc.csv",
+      "bytes": 351,
+      "md5": "376611d3942b3475fdf28c3c490800a8"
+    },
+    {
+      "file": "tables/table5_cptac_posthoc_note.txt",
+      "bytes": 312,
+      "md5": "1ff0860d33c99dc946dbdc1b759d5085"
+    },
+    {
+      "file": "task_groups.csv",
+      "bytes": 960,
+      "md5": "1d1adb0500afc942be5f6e6417eebbbf"
+    }
+  ]
+}

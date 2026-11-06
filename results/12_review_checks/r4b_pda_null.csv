@@ -1,0 +1,2 @@
+analysis,observed_auc_this_machine,published_auc,n_permutations,n_null_at_or_below_observed,lower_tail_p,null_mean,null_2.5pct,null_97.5pct,n_null_at_or_below_published,seed,scikit_learn
+"CPTAC-PDA stage, Merlin silhouette, 5x5 CV; folds redrawn per permutation",0.3146909827760892,0.3134751773049645,2000,32,0.01649175412293853,0.494779179331307,0.3292603850050659,0.6626190476190477,31,2026,1.6.1

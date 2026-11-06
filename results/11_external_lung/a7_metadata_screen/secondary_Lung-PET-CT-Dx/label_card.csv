@@ -1,0 +1,313 @@
+collection,PatientID,modality,vendor,model,software_version,image_count,body_part,slice_thickness_mm,kernel,protocol_text,care_pathway_words,blocked_words,label
+Lung-PET-CT-Dx,Lung_Dx-A0001,CT,PHILIPS,BRILLIANCE16,2.3.5,64,,5.0,,2 5mm c chest thorax,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0002,CT,SIEMENS,SENSATION 10,syngo CT 2006G,30,CHEST,,B70F,8.0.0 adult athoraxroutine b70f thorax thoraxroutine,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0003,CT,SIEMENS,SENSATION 10,syngo CT 2006G,27,CHEST,10.0,B70F,10.0 adult athoraxroutine b70f thorax thoraxroutine,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0004,CT,SIEMENS,SENSATION 10,syngo CT 2006G,29,CHEST,,B70F,8.0.0 adult athoraxroutine b70f thorax thoraxroutine,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0005,CT,SIEMENS,SENSATION 10,syngo CT 2006G,29,CHEST,10.0,B70F,10.0 adult athoraxroutine b70f thorax thoraxroutine,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0006,CT,PHILIPS,BRILLIANCE16,2.3.5,52,,5.0,,2 5mm c chest sp thorax,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0007,CT,SIEMENS,SENSATION 10,syngo CT 2006G,29,CHEST,,B70F,8.0.0 adult athoraxroutine b70f thorax thoraxroutine,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0008,CT,PHILIPS,BRILLIANCE16,2.3.5,55,,5.0,,2 5mm c chest thorax,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0009,CT,SIEMENS,SENSATION 10,syngo CT 2006G,31,CHEST,10.0,B70F,10.0 adult athoraxroutine b70f thorax thoraxroutine,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0010,CT,GE,LIGHTSPEED PRO 16,06MW03.5,51,,5.0,,5.1 5mm chest routine,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0011,CT,GE,DISCOVERY CT750 HD,sles_hde3.5,663,,5.0,LUNG/STND,5.21 5mm a c phase ss50 stnd,,lung,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0012,CT,GE,LIGHTSPEED VCT,07MW18.4,36,,5.0,,5.84 5mm chest pos,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0013,CT,GE,DISCOVERY CT750 HD,sles_hde3.5,144,,5.0,STND,5.1 5mm a c chest phase routine ss50 stnd,,lung,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0014,CT,GE,DISCOVERY CT750 HD,sles_hde3.5,135,,5.0,STND,5.1 5mm a c chest phase routine ss50 stnd,,lung,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0015,CT,PHILIPS,BRILLIANCE16,2.3.5,66,,5.0,,2 5mm c chest thorax,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0016,CT,GE,LIGHTSPEED VCT,07MW18.4,28,,5.0,,2 5.1 5mm chest recon,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0017,CT,GE,DISCOVERY CT750 HD,sles_hde3.5,150,,5.0,STND,5.1 5mm c chest routine ss50 stnd,,lung,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0018,CT,GE,DISCOVERY CT750 HD,sles_hde3.5,474,,1.25,,1.25mm 5.1 c chest routine,,lung,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0019,CT,GE,OPTIMA CT660,cj.37,180,,5.0,,0.6sec 5.3 5mm c chest,,lung,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0020,CT,GE,DISCOVERY CT750 HD,sles_hde3.5,138,,5.0,STND,5.1 5mm c chest routine ss50 stnd,,lung,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0021,CT,GE,LIGHTSPEED VCT,07MW18.4,17,,5.0,,5.1 5mm c chest j,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0022,CT,PHILIPS,BRILLIANCE16,2.3.5,57,,5.0,,2 5mm c chest thorax,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0023,CT,GE,DISCOVERY CT750 HD,sles_hde3.5,180,,5.0,STND,5.1 5mm a c chest phase routine ss50 stnd,,lung,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0024,CT,GE,LIGHTSPEED VCT,07MW18.4,17,,5.0,,5.1 5mm chest,,lung,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0025,CT,GE,LIGHTSPEED VCT,07MW18.4,16,,5.0,,5.84 5mm pos,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0026,CT,SIEMENS,SENSATION 10,syngo CT 2006G,54,CHEST,,B70F,5.0.0 adult athoraxroutine b70f thorax thoraxroutine,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0027,CT,GE,LIGHTSPEED PRO 16,06MW03.5,27,,5.0,,5.1 5mm chest routine,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0028,CT,GE,LIGHTSPEED VCT,07MW18.4,66,,5.0,,5.1 5mm chest,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0029,CT,SIEMENS,SENSATION 10,syngo CT 2006G,57,CHEST,,B70F,5.0.0 adult athoraxroutine b70f thorax thoraxroutine,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0030,CT,GE,DISCOVERY CT750 HD,sles_hde3.5,168,,5.0,STND,5.1 5mm c chest lungcta routine ss50 stnd,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0031,CT,GE,DISCOVERY CT750 HD,sles_hde3.5,168,,5.0,STND,5.87 5mm a c ch chest phase routine ss50 stnd,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0032,CT,GE,DISCOVERY CT750 HD,sles_hde3.5,165,,5.0,STND,5.1 5mm a c chest phase routine ss50 stnd,,lung,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0033,CT,GE,DISCOVERY CT750 HD,sles_hde3.5,144,,5.0,STND,5.1 5mm a c chest phase routine ss50 stnd,,lung,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0034,CT,SIEMENS,SENSATION 10,syngo CT 2006G,51,CHEST,,B70F,5.0.0 adult athoraxroutine b70f thorax thoraxroutine,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0035,CT,GE,LIGHTSPEED VCT,07MW18.4,71,,5.0,,5.1 5mm chest,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0036,CT,GE,DISCOVERY CT750 HD,sles_hde3.5,162,,5.0,LUNG/STND,5.21 5mm a c phase ss50 stnd,,lung,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0037,CT,GE,DISCOVERY CT750 HD,sles_hde3.5,168,,5.0,STND,5.1 5mm a c chest phase routine ss50 stnd,,lung,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0038,CT,GE,LIGHTSPEED VCT,07MW18.4,13,,5.0,,5.1 5mm chest,,lung,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0039,CT,GE,DISCOVERY CT750 HD,sles_hde3.5,168,,5.0,STND,5.3 5mm a c chest phase ss50 stnd,,lung,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0040,CT,GE,DISCOVERY CT750 HD,sles_hde3.5,186,,5.0,LUNG/STND,5.21 5mm a c phase ss50 stnd,,lung,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0041,CT,SIEMENS,SENSATION 10,syngo CT 2006G,54,CHEST,,B70F,5.0.0 adult athoraxroutine b70f thorax thoraxroutine,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0042,CT,GE,DISCOVERY CT750 HD,sles_hde3.5,174,,5.0,STND,5.1 5mm c chest routine ss50 stnd,,lung,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0043,CT,SIEMENS,SENSATION 10,syngo CT 2006G,62,CHEST,,B70F,5.0.0 adult athoraxroutine b70f thorax thoraxroutine,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0044,CT,SIEMENS,SENSATION 10,syngo CT 2006G,57,CHEST,,B70F,5.0.0 adult athoraxroutine b70f thorax thoraxroutine,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0045,CT,GE,LIGHTSPEED VCT,07MW18.4,14,,5.0,,5.1 5mm chest routine,,lung,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0046,CT,GE,DISCOVERY CT750 HD,sles_hde3.5,156,CHEST,5.0,STND,5.88 5mm a c chest phase ss50 stnd,,lung,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0047,CT,SIEMENS,SENSATION 10,syngo CT 2006G,41,CHEST,6.0,B70F,5.0.0 adult b70f bheadseq6mm head thoraxroutine,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0048,CT,SIEMENS,SENSATION 10,syngo CT 2006G,52,CHEST,,B70F,5.0.0 adult athoraxroutine b70f thorax thoraxroutine,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0049,CT,GE,DISCOVERY CT750 HD,sles_hde3.5,168,,5.0,LUNG/STND,5.21 5mm a c phase ss50 stnd,,lung,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0050,CT,GE,LIGHTSPEED VCT,07MW18.4,17,,5.0,,5.1 5mm chest,,lung,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0051,CT,SIEMENS,SENSATION 10,syngo CT 2006G,62,CHEST,,B70F,5.0.0 adult athoraxroutine b70f thorax thoraxroutine,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0052,CT,SIEMENS,SENSATION 10,syngo CT 2006G,58,CHEST,,B70F,5.0.0 adult athoraxroutine b70f thorax thoraxroutine,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0053,CT,GE,DISCOVERY CT750 HD,sles_hde3.5,156,,5.0,STND,5.87 5mm a c ch chest phase routine ss50 stnd,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0054,CT,GE,DISCOVERY CT750 HD,sles_hde3.5,192,,5.0,STND,5.87 5mm a c ch chest phase routine ss50 stnd,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0055,CT,GE,DISCOVERY CT750 HD,sles_hde3.5,120,,5.0,STND,5.3 5mm a c chest phase ss50 stnd,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0056,CT,SIEMENS,SENSATION 10,syngo CT 2006G,50,CHEST,,B70F,5.0.0 adult athoraxroutine b70f thorax thoraxroutine,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0057,CT,PHILIPS,BRILLIANCE16,2.3.5,53,,5.0,,2 5mm c chest thorax,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0058,CT,GE,DISCOVERY CT750 HD,sles_hde3.5,144,,5.0,STND,5.1 5mm c chest routine ss50 stnd,,lung,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0059,CT,GE,LIGHTSPEED VCT,07MW18.4,61,,5.0,,5.1 5mm ch chest,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0061,CT,GE,DISCOVERY CT750 HD,sles_hde3.5,168,,5.0,STND,5.1 5mm c chest routine ss50 stnd,,lung,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0062,CT,GE,LIGHTSPEED VCT,07MW18.4,20,,5.0,,5.1 5mm chest,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0063,CT,GE,DISCOVERY CT750 HD,sles_hde3.5,156,,5.0,STND,5.87 5mm a c ch chest phase routine ss50 stnd,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0064,CT,GE,DISCOVERY CT750 HD,sles_hde3.5,168,,5.0,STND,5.1 5mm ab c chest routine ss50 stnd,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0065,CT,GE,DISCOVERY CT750 HD,sles_hde3.5,180,,5.0,LUNG/STND,5.21 5mm a c phase ss50 stnd,,lung,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0066,CT,GE,DISCOVERY CT750 HD,sles_hde3.5,120,,5.0,STND,5.1 5mm a c chest phase routine ss50 stnd,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0068,CT,GE,LIGHTSPEED VCT,07MW18.4,14,,5.0,,2 5.1 5mm chest lung3d recon,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0069,CT,GE,DISCOVERY CT750 HD,sles_hde3.5,180,CHEST,5.0,LUNG,5.24 5mm a c gsi phase qc,,lung,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0070,CT,PHILIPS,BRILLIANCE16,2.3.5,60,,5.0,,2 3 5mm c chest thorax,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0071,CT,GE,OPTIMA CT660,cj.37,168,,5.0,STD,5.1 5mm c chest routine std,,lung,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0072,CT,GE,DISCOVERY CT750 HD,sles_hde3.5,144,,5.0,STND,5.1 5mm c chest routine ss50 stnd,,lung,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0073,CT,SIEMENS,SENSATION 10,syngo CT 2006G,48,CHEST,,B70F,5.0.0 adult athoraxroutine b70f thorax thoraxroutine,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0074,CT,GE,LIGHTSPEED PRO 16,06MW03.5,67,,5.0,,1 5.1 5mm chest e routine,,lung,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0075,CT,GE,DISCOVERY CT750 HD,sles_hde.132,156,,5.0,STND,5.1 5mm a c chest phase routine ss50 stnd,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0077,CT,GE,DISCOVERY CT750 HD,sles_hde3.5,167,,5.0,STND,5.1 5mm a c chest phase routine ss50 stnd,,lung,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0078,CT,SIEMENS,BIOGRAPH64,VG62B,353,CHEST,1.0,B31F,01 1.0 adult b31f thorax thoraxroutine,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0080,CT,GE,LIGHTSPEED VCT,07MW18.4,250,,5.0,,3d 5.6 5mm chest lung3d,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0081,CT,SIEMENS,SENSATION 10,syngo CT 2006G,62,CHEST,,B70F,5.0.0 adult athoraxroutine b70f thorax thoraxroutine,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0082,CT,GE,DISCOVERY CT750 HD,sles_hde3.5,168,,5.0,STND,5.87 5mm a c ch chest phase routine ss50 stnd,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0083,CT,PHILIPS,ICT 256,4.1,310,CHEST,,,3d 4 chest idose imr thorax,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0084,CT,PHILIPS,ICT 256,4.1,310,CHEST,,,3d 4 chest idose imr thorax,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0085,CT,GE,OPTIMA CT660,cj.37,57,,5.0,STD,5.1 5mm chest routine std,,lung,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0086,CT,GE,DISCOVERY CT750 HD,sles_hde3.5,63,,5.0,STND,1 5 5mm c ch chest routine ss50 stnd,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0087,CT,PHILIPS,ICT 256,4.1,360,CHEST,,,3d 4 chest idose thorax,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0088,CT,SIEMENS,SENSATION 10,syngo CT 2006G,62,Thorax,3.0,B31S,3.0 adult athoraxroutine b31s hip thorax,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0089,CT,SIEMENS,SENSATION 10,syngo CT 2006G,61,CHEST,,B70F,5.0.0 adult athoraxroutine b70f thorax thoraxroutine,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0090,CT,PHILIPS,ICT 256,4.1,245,CHEST,,,3d 4 chest idose imr thorax,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0091,CT,GE,LIGHTSPEED VCT,07MW18.4,227,,5.0,,3d 5.6 5mm ch ch.3d chest,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0092,CT,GE,LIGHTSPEED VCT,07MW18.4,64,,5.0,,5.1 5mm chest,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0093,CT,GE,LIGHTSPEED VCT,07MW18.4,271,,5.0,,3d 5.6 5mm chest,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0094,CT,PHILIPS,ICT 256,4.1,300,CHEST,,,3 3d chest idose thorax,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0095,CT,PHILIPS,BRILLIANCE16,2.3.5,62,,5.0,,2 5mm c chest thorax,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0096,CT,GE,LIGHTSPEED VCT,07MW18.4,236,,5.0,,3d 5.6 5mm chest chest.3d,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0097,CT,GE,LIGHTSPEED VCT,07MW18.4,63,,5.0,,5.1 5mm chest,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0098,CT,GE,LIGHTSPEED VCT,07MW18.4,241,,5.0,,3d 5.1 5mm chest,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0099,CT,GE,DISCOVERY CT750 HD,sles_hde.132,162,,5.0,STND,5.1 5mm a c chest phase routine ss50 stnd,,lung,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0100,CT,SIEMENS,SENSATION 10,syngo CT 2006G,50,CHEST,,B70F,5.0.0 adult athoraxroutine b70f thorax thoraxroutine,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0101,CT,GE,DISCOVERY CT750 HD,sles_hde3.5,168,,5.0,STND,5.87 5mm a c ch chest phase routine ss50 stnd,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0102,CT,SIEMENS,SENSATION 10,syngo CT 2006G,54,CHEST,,B70F,5.0.0 adult athoraxroutine b70f thorax thoraxroutine,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0103,CT,PHILIPS,ICT 256,4.1,300,CHEST,,,3d 4 chest idose thorax,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0104,CT,GE,REVOLUTION CT,revo_1.5_m3d.9,601,CHEST,,,0.25 40 5.1 ao.cta ch.3d chest mm,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0105,CT,PHILIPS,ICT 256,4.1,295,CHEST,,,3d 4 chest idose imr thorax,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0106,CT,PHILIPS,ICT 256,4.1,340,CHEST,,,3 3d chest idose thorax,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0107,CT,GE,DISCOVERY CT750 HD,sles_hde3.5,120,,5.0,STND,5.1 5mm a c chest phase routine ss50 stnd,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0108,CT,GE,DISCOVERY CT750 HD,sles_hde.132,180,,5.0,STND,5.87 5mm a c ch chest phase routine ss50 stnd,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0109,CT,GE,LIGHTSPEED VCT,07MW18.4,226,,5.0,,3d 5.6 5mm chest,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0110,CT,GE,LIGHTSPEED VCT,07MW18.4,272,,5.0,,5.1 5mm c.3d chest,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0111,CT,GE,LIGHTSPEED VCT,07MW18.4,269,,5.0,,3d 5.6 5mm ch.3d chest,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0112,CT,GE,DISCOVERY CT750 HD,sles_hde.132,192,,5.0,STND,5.1 5mm a c chest phase routine ss50 stnd,,lung,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0113,CT,PHILIPS,ICT 256,4.1,320,CHEST,,,3d 4 chest idose thorax,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0114,CT,GE,DISCOVERY CT750 HD,sles_hde3.5,168,,5.0,STND,5.1 5mm c chest routine ss50 stnd,,lung,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0115,CT,GE,DISCOVERY CT750 HD,sles_hde3.5,144,,5.0,STND,5.3 5mm a c chest phase ss50 stnd,,lung,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0116,CT,GE,LIGHTSPEED VCT,07MW18.4,71,,5.0,,5.1 5mm chest,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0117,CT,PHILIPS,ICT 256,4.1,265,CHEST,,,3d 4 chest idose imr thorax,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0118,CT,GE,DISCOVERY CT750 HD,sles_hde3.5,156,,5.0,,5mm 6.85 a c ch liver no phase,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0119,CT,GE,LIGHTSPEED VCT,07MW18.4,58,,5.0,,5.1 5mm chest,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0120,CT,GE,DISCOVERY CT750 HD,sles_hde3.5,144,,5.0,STND,5.1 5mm a c chest phase routine ss50 stnd,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0121,CT,GE,LIGHTSPEED VCT,07MW18.4,56,,5.0,,5.1 5mm chest,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0123,CT,GE,DISCOVERY CT750 HD,sles_hde3.5,135,,5.0,STND,5.1 5mm a c chest phase routine ss50 stnd,,lung,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0124,CT,GE,LIGHTSPEED VCT,07MW18.4,53,,5.0,,5.1 5mm chest,,lung,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0125,CT,GE,DISCOVERY CT750 HD,sles_hde3.5,132,,5.0,STND,5.1 5mm a c chest phase routine ss50 stnd,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0126,CT,PHILIPS,ICT 256,4.1,300,CHEST,,,3d 4 chest idose thorax,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0127,CT,GE,DISCOVERY CT750 HD,sles_hde.132,192,,5.0,STND,5.3 5mm a c chest phase ss50 stnd,,lung,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0128,CT,GE,LIGHTSPEED PRO 16,06MW03.5,51,,5.0,,5.1 5mm chest routine,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0129,CT,GE,DISCOVERY CT750 HD,sles_hde3.5,270,,5.0,STND,5.5 5mm chest.3d ss50 stnd,,lung,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0130,CT,GE,DISCOVERY CT750 HD,sles_hde3.5,144,,5.0,STND,5.1 5mm c chest routine ss50 stnd,,lung,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0131,CT,GE,DISCOVERY CT750 HD,sles_hde3.5,195,,5.0,STND,5.1 5mm a c chest phase routine ss50 stnd,,lung,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0132,CT,PHILIPS,ICT 256,4.1,355,CHEST,,,3d 4 chest idose imr thorax,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0133,CT,PHILIPS,BRILLIANCE16,2.3.5,52,,5.0,,2 5mm c chest thorax,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0134,CT,PHILIPS,ICT 256,4.1,275,CHEST,,,3d 4 chest idose imr thorax,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0135,CT,GE,DISCOVERY CT750 HD,sles_hde.132,168,,5.0,STND,5.1 5mm c chest routine ss50 stnd,,lung,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0136,CT,GE,DISCOVERY CT750 HD,sles_hde3.5,156,,5.0,STND,5.1 5mm a c chest phase routine ss50 stnd,,lung,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0137,CT,GE,LIGHTSPEED VCT,07MW18.4,73,,5.0,,5.1 5mm chest,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0138,CT,SIEMENS,SENSATION 10,syngo CT 2006G,55,CHEST,,B70F,5.0.0 adult athoraxroutine b70f thorax thoraxroutine,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0139,CT,GE,DISCOVERY CT750 HD,sles_hde3.5,174,,5.0,STND,5.1 5mm a c chest phase routine ss50 stnd,,lung,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0140,CT,GE,DISCOVERY CT750 HD,sles_hde3.5,120,,5.0,STND,5.1 5mm a c chest phase routine ss50 stnd,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0141,CT,SIEMENS,SENSATION 10,syngo CT 2006G,60,CHEST,,B70F,5.0.0 adult athoraxroutine b70f thorax thoraxroutine,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0142,CT,SIEMENS,SENSATION 10,syngo CT 2006G,41,CHEST,,B70F,5.0.0 adult athoraxroutine b70f thorax thoraxroutine,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0143,CT,GE,DISCOVERY CT750 HD,sles_hde3.5,156,,5.0,STND,5.1 5mm a c chest phase routine ss50 stnd,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0144,CT,SIEMENS,SENSATION 10,syngo CT 2006G,51,CHEST,,B70F,6.0.0 adult athoraxroutine b70f thorax thoraxroutine,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0145,CT,GE,LIGHTSPEED PRO 16,07MW11.10,65,,,,2 5.1 chest recon routine,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0146,CT,SIEMENS,SENSATION 10,syngo CT 2006G,45,CHEST,,B70F,5.0.0 adult athoraxroutine b70f thorax thoraxroutine,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0147,CT,SIEMENS,SENSATION 10,syngo CT 2006G,48,CHEST,,B70F,5.0.0 adult athoraxroutine b70f thorax thoraxroutine,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0148,CT,SIEMENS,SENSATION 10,syngo CT 2006G,49,CHEST,,B70F,5.0.0 adult athoraxroutine b70f thorax thoraxroutine,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0149,CT,GE,LIGHTSPEED VCT,07MW18.4,56,,5.0,,5.1 5mm chest,,lung,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0150,CT,GE,DISCOVERY CT750 HD,sles_hde.132,174,,5.0,STND,5.1 5mm c chest routine ss50 stnd,,lung,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0152,CT,GE,DISCOVERY CT750 HD,sles_hde3.5,156,,5.0,STND,5.1 5mm a c chest phase routine ss50 stnd,,lung,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0153,CT,GE,DISCOVERY CT750 HD,sles_hde3.5,195,,5.0,STND,5.3 5mm a c chest phase ss50 stnd,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0154,CT,PHILIPS,BRILLIANCE16,2.3.5,64,,5.0,,2 5mm c chest thorax,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0155,CT,PHILIPS,BRILLIANCE16,2.3.5,46,,5.0,,2 5mm c chest thorax,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0156,CT,GE,DISCOVERY CT750 HD,sles_hde3.5,150,,5.0,STND,5.1 5mm a c chest phase routine ss50 stnd,,lung,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0157,CT,GE,DISCOVERY CT750 HD,sles_hde3.5,162,,5.0,STND,5.1 5mm a c chest phase routine ss50 stnd,,lung,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0159,CT,SIEMENS,SENSATION 10,syngo CT 2006G,49,CHEST,,B70F,6.0.0 adult athoraxroutine b70f thorax thoraxroutine,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0160,CT,SIEMENS,SENSATION 10,syngo CT 2006G,62,CHEST,,B70F,5.0.0 adult athoraxroutine b70f thorax thoraxroutine,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0161,CT,GE,LIGHTSPEED PRO 16,06MW03.5,57,,,,2 5.1 chest recon routine,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0162,CT,GE,DISCOVERY CT750 HD,sles_hde.132,150,,5.0,STND,5.1 5mm c chest routine ss50 stnd,,lung,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0163,CT,SIEMENS,SENSATION 10,syngo CT 2006G,57,CHEST,,B70F,5.0.0 adult athoraxroutine b70f thorax thoraxroutine,,,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0164,CT,SIEMENS,BIOGRAPH 64,VG51C,399,CHEST,1.0,B31F,01 1.0 adult b31f pthead thorax,,lung pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0165,CT,SIEMENS,BIOGRAPH 64,VG51C,727,ABDOMEN,1.0,B30F,03 1.0 adult b30f first head wb wholebody,,ct pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0166,CT,SIEMENS,BIOGRAPH 64,VG60A,369,CHEST,1.0,B31F,03 1.0 adult b31f first head thorax wholebody,,pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0167,CT,SIEMENS,BIOGRAPH 64,VG60A,348,CHEST,1.0,B31F,03 1.0 adult b31f cbm first head thorax wholebody,,pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0168,CT,SIEMENS,BIOGRAPH 64,VG51C,345,CHEST,1.0,B70F,01 1.0 adult b70f pthead thorax,,lung pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0169,CT,SIEMENS,BIOGRAPH 64,VG51C,273,CHEST,1.0,B70F,03 1.0 adult b70f first head thorax wholebody,,pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0170,CT,SIEMENS,BIOGRAPH 64,VG60A,382,CHEST,1.0,B31F,03 1.0 adult b31f cbm first head thorax wholebody,,pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0171,CT,SIEMENS,BIOGRAPH64,VG62A,348,CHEST,1.0,B70F,03 1.0 adult b70f cbm first head new thorax wholebody,,pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0173,CT,SIEMENS,BIOGRAPH 64,VG51C,407,CHEST,1.0,B70F,01 1.0 adult b70f body first thorax wholebody,,pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0174,CT,SIEMENS,BIOGRAPH 64,VG51C,391,CHEST,1.0,B70F,01 1.0 adult b70f body first thorax wholebody,,pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0175,CT,SIEMENS,BIOGRAPH 64,VG51C,403,CHEST,1.0,B70F,01 1.0 adult b70f body first thorax wholebody,,pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0176,CT,SIEMENS,BIOGRAPH 64,VG51C,391,CHEST,1.0,B31F,03 1.0 adult b31f first head thorax wholebody,,pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0177,CT,SIEMENS,BIOGRAPH 64,VG51C,395,CHEST,1.0,B31F,03 1.0 adult b31f first head thorax wholebody,,pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0178,CT,SIEMENS,BIOGRAPH 64,VG51C,374,CHEST,1.0,B70F,01 1.0 adult b70f body first thorax wholebody,,pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0179,CT,SIEMENS,BIOGRAPH64,VG62A,451,CHEST,1.0,B70F,01 1.0 adult b70f pthead thorax,,lung pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0180,CT,SIEMENS,BIOGRAPH 64,VG51C,382,CHEST,1.0,B31F,03 1.0 adult b31f first head thorax wholebody,,pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0181,CT,SIEMENS,BIOGRAPH 64,VG60A,490,CHEST,1.0,B31F,03 1.0 adult b31f cbm first head thorax wholebody,,pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0182,CT,SIEMENS,BIOGRAPH 64,VG51C,382,CHEST,1.0,B31F,07 1.0 adult b31f pthead thorax,,lung pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0183,CT,SIEMENS,BIOGRAPH64,VG62A,429,CHEST,1.0,B70F,03 1.0 adult b70f cbm first head new thorax wholebody,,pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0184,CT,SIEMENS,BIOGRAPH 64,VG51C,399,CHEST,1.0,B31F,03 1.0 adult b31f first head thorax wholebody,,pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0185,CT,SIEMENS,BIOGRAPH 64,VG51C,371,CHEST,1.0,B70F,03 1.0 adult b70f first head thorax wholebody,,pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0187,CT,SIEMENS,BIOGRAPH 64,VG51C,331,CHEST,1.0,B31F,07 1.0 adult b31f pthead thorax,,lung pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0188,CT,SIEMENS,BIOGRAPH 64,VG51C,305,CHEST,1.0,B70F,03 1.0 adult b70f first head thorax wholebody,,pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0189,CT,SIEMENS,BIOGRAPH 64,VG51C,309,CHEST,1.0,B70F,03 1.0 adult b70f first head thorax wholebody,,pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0190,CT,SIEMENS,BIOGRAPH 64,VG51C,316,CHEST,1.0,B70F,03 1.0 adult b70f first head thorax wholebody,,pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0191,CT,SIEMENS,BIOGRAPH 64,VG51C,373,CHEST,1.0,B31F,03 1.0 adult b31f first head thorax wholebody,,pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0192,CT,SIEMENS,BIOGRAPH 64,VG51C,427,CHEST,1.0,B70F,03 1.0 adult b70f first head thorax wholebody,,pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0193,CT,SIEMENS,BIOGRAPH 64,VG51C,463,CHEST,1.0,B70F,03 1.0 adult b70f first head thorax wholebody,,pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0194,CT,SIEMENS,BIOGRAPH64,VG62A,418,CHEST,1.0,B31F,01 1.0 adult b31f pthead thorax,,lung pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0195,CT,SIEMENS,BIOGRAPH 64,VG51C,353,CHEST,1.0,B70F,03 1.0 adult b70f first head thorax wholebody,,pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0196,CT,SIEMENS,BIOGRAPH 64,VG51C,303,CHEST,1.0,B70F,03 1.0 adult b70f first head thorax wholebody,,pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0197,CT,SIEMENS,BIOGRAPH 64,VG51C,399,CHEST,1.0,B31F,03 1.0 adult b31f first head thorax wholebody,,pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0198,CT,SIEMENS,BIOGRAPH 64,VG51C,429,CHEST,1.0,B31F,03 1.0 adult b31f first head thorax wholebody,,pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0199,CT,SIEMENS,BIOGRAPH 64,VG51C,451,CHEST,1.0,B31F,03 1.0 adult b31f first head thorax wholebody,,pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0200,CT,SIEMENS,BIOGRAPH 64,VG51C,352,CHEST,1.0,B31F,03 1.0 adult b31f first head thorax wholebody,,pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0201,CT,SIEMENS,BIOGRAPH 64,VG51C,365,CHEST,1.0,B31F,03 1.0 adult b31f first head thorax wholebody,,pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0202,CT,SIEMENS,BIOGRAPH 64,VG51C,403,CHEST,1.0,B70F,03 1.0 adult b70f first head thorax wholebody,,pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0203,CT,SIEMENS,BIOGRAPH 64,VG51C,350,CHEST,1.0,B31F,03 1.0 adult b31f first head thorax wholebody,,pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0204,CT,SIEMENS,BIOGRAPH 64,VG51C,373,CHEST,1.0,B31F,03 1.0 adult b31f first head thorax wholebody,,pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0205,CT,SIEMENS,BIOGRAPH 64,VG51C,399,CHEST,1.0,B31F,03 1.0 adult b31f first head thorax wholebody,,pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0206,CT,SIEMENS,BIOGRAPH 64,VG51C,429,CHEST,1.0,B70F,03 1.0 adult b70f first head thorax wholebody,,pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0208,CT,SIEMENS,BIOGRAPH 64,VG51C,324,CHEST,1.0,B31F,03 1.0 adult b31f first head thorax wholebody,,pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0210,CT,SIEMENS,BIOGRAPH 64,VG51C,307,CHEST,1.0,B70F,07 1.0 adult b70f pthead thorax,,lung pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0211,CT,SIEMENS,BIOGRAPH 64,VG51C,303,CHEST,1.0,B31F,03 1.0 adult b31f first head thorax wholebody,,pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0212,CT,SIEMENS,BIOGRAPH 64,VG51C,311,CHEST,1.0,B31F,03 1.0 adult b31f first head thorax wholebody,,pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0213,CT,SIEMENS,BIOGRAPH 64,VG51C,284,CHEST,1.0,B70F,03 1.0 adult b70f first head thorax wholebody,,pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0214,CT,SIEMENS,BIOGRAPH 64,VG51C,168,ABDOMEN,1.0,B30F,08 1.0 adult b30f only wb wholebody,,ct pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0216,CT,SIEMENS,BIOGRAPH 64,VG51C,348,CHEST,1.0,B70F,07 1.0 adult b70f pthead thorax,,lung pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0217,CT,SIEMENS,BIOGRAPH 64,VG51C,270,CHEST,1.0,B31F,01 1.0 adult b31f pthead thorax,,lung pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0218,CT,SIEMENS,BIOGRAPH 64,VG60A,386,CHEST,1.0,B31F,01 1.0 adult b31f pthead thorax,,lung pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0220,CT,SIEMENS,BIOGRAPH 64,VG51C,331,CHEST,1.0,B70F,07 1.0 adult b70f pthead thorax,,lung pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0221,CT,SIEMENS,BIOGRAPH 64,VG51C,243,ABDOMEN,3.0,B30F,08 3.0 adult b30f only wb wholebody,,ct pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0222,CT,SIEMENS,BIOGRAPH64,VG62B,384,CHEST,1.0,B70F,03 1.0 adult b70f cbm first head new thorax wholebody,,pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0223,CT,SIEMENS,BIOGRAPH 64,VG51C,310,CHEST,1.0,B31F,03 1.0 adult b31f first head thorax wholebody,,pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0224,CT,SIEMENS,BIOGRAPH 64,VG51C,313,CHEST,1.0,B31F,07 1.0 adult b31f pthead thorax,,lung pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0225,CT,SIEMENS,BIOGRAPH 64,VG51C,381,CHEST,1.0,B31F,03 1.0 adult b31f first head thorax wholebody,,pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0226,CT,SIEMENS,BIOGRAPH 64,VG51C,261,CHEST,1.0,B70F,03 1.0 adult b70f first head thorax wholebody,,pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0227,CT,SIEMENS,BIOGRAPH 64,VG51C,330,CHEST,1.0,B31F,01 1.0 adult b31f pthead thorax,,lung pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0228,CT,SIEMENS,BIOGRAPH 64,VG51C,322,CHEST,1.0,B31F,03 1.0 adult b31f first head thorax wholebody,,pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0229,CT,SIEMENS,BIOGRAPH 64,VG60A,171,ABDOMEN,1.0,B30F,02 1.0 adult b30f cbm only wb wholebody,,ct pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0230,CT,SIEMENS,BIOGRAPH 64,VG51C,297,CHEST,1.0,B70F,01 1.0 adult b70f pthead thorax,,lung pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0231,CT,SIEMENS,BIOGRAPH 64,VG60A,329,CHEST,1.0,B70F,03 1.0 adult b70f cbm first head thorax wholebody,,pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0232,CT,SIEMENS,BIOGRAPH 64,VG60A,342,CHEST,1.0,B31F,01 1.0 adult b31f pthead thorax,,lung pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0233,CT,SIEMENS,BIOGRAPH 64,VG60A,325,CHEST,1.0,B70F,03 1.0 adult b70f cbm first head thorax wholebody,,pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0234,CT,SIEMENS,BIOGRAPH 64,VG51C,311,CHEST,1.0,B70F,03 1.0 adult b70f first head thorax wholebody,,pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0235,CT,SIEMENS,BIOGRAPH 64,VG60A,420,CHEST,1.0,B31F,01 1.0 adult b31f pthead thorax,,lung pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0236,CT,SIEMENS,BIOGRAPH 64,VG60A,379,CHEST,1.0,B31F,03 1.0 adult b31f cbm first head thorax wholebody,,pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0237,CT,SIEMENS,BIOGRAPH 64,VG60A,388,CHEST,1.0,B70F,01 1.0 adult b70f pthead thorax,,lung pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0238,CT,SIEMENS,BIOGRAPH 64,VG60A,328,CHEST,1.0,B31F,03 1.0 adult b31f cbm first head thorax wholebody,,pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0239,CT,SIEMENS,BIOGRAPH64,VG62A,429,CHEST,1.0,B31F,03 1.0 adult b31f cbm first head new thorax wholebody,,pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0240,CT,SIEMENS,BIOGRAPH 64,VG51C,315,CHEST,1.0,B70F,01 1.0 adult b70f pthead thorax,,lung pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0241,CT,SIEMENS,BIOGRAPH 64,VG51C,394,CHEST,1.0,B31F,03 1.0 adult b31f first head thorax wholebody,,pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0242,CT,SIEMENS,BIOGRAPH 64,VG51C,466,CHEST,1.0,B31F,03 1.0 adult b31f first head thorax wholebody,,pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0243,CT,SIEMENS,BIOGRAPH 64,VG51C,310,CHEST,1.0,B31F,03 1.0 adult b31f first head thorax wholebody,,pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0244,CT,SIEMENS,BIOGRAPH 64,VG51C,340,CHEST,1.0,B31F,03 1.0 adult b31f first head thorax wholebody,,pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0246,CT,SIEMENS,BIOGRAPH 64,VG51C,342,CHEST,1.0,B31F,01 1.0 adult b31f pthead thorax,,lung pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0247,CT,SIEMENS,BIOGRAPH64,VG62B,386,CHEST,1.0,B70F,03 1.0 adult b70f cbm first head new thorax wholebody,,pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0248,CT,SIEMENS,BIOGRAPH 64,VG51C,366,CHEST,1.0,B31F,03 1.0 adult b31f first head thorax wholebody,,pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0249,CT,SIEMENS,BIOGRAPH 64,VG51C,428,CHEST,1.0,B70F,03 1.0 adult b70f first head thorax wholebody,,pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0250,CT,SIEMENS,BIOGRAPH 64,VG60A,395,CHEST,1.0,B31F,03 1.0 adult b31f cbm first head thorax wholebody,,pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0251,CT,SIEMENS,BIOGRAPH 64,VG60A,200,ABDOMEN,1.0,B30F,02 1.0 adult b30f cbm only wb wholebody,,ct pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0252,CT,SIEMENS,BIOGRAPH 64,VG60A,317,CHEST,1.0,B31F,03 1.0 adult b31f cbm first head thorax wholebody,,pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0253,CT,SIEMENS,BIOGRAPH64,VG62A,445,CHEST,1.0,B31F,03 1.0 adult b31f cbm first head new thorax wholebody,,pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0254,CT,SIEMENS,BIOGRAPH 64,VG60A,457,CHEST,1.0,B70F,01 1.0 adult b70f pthead thorax,,lung pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0255,CT,SIEMENS,BIOGRAPH64,VG62A,429,CHEST,1.0,B70F,03 1.0 adult b70f cbm first head new thorax wholebody,,pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0256,CT,SIEMENS,BIOGRAPH 64,VG60A,407,CHEST,1.0,B31F,01 1.0 adult b31f pthead thorax,,lung pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0257,CT,SIEMENS,BIOGRAPH64,VG62B,324,CHEST,1.0,B70F,03 1.0 adult b70f cbm first head new thorax wholebody,,pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0258,CT,SIEMENS,BIOGRAPH 64,VG60A,429,CHEST,1.0,B31F,01 1.0 adult b31f pthead thorax,,lung pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0259,CT,SIEMENS,BIOGRAPH64,VG62A,429,CHEST,1.0,B70F,02 1.0 adult b70f cbm only thorax,,lung pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0260,CT,SIEMENS,BIOGRAPH 64,VG60A,386,CHEST,1.0,B31F,01 1.0 adult b31f pthead thorax,,lung pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0261,CT,SIEMENS,BIOGRAPH64,VG62A,418,CHEST,1.0,B31F,01 1.0 adult b31f pthead thorax,,lung pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0262,CT,SIEMENS,BIOGRAPH 64,VG51C,373,CHEST,1.0,B31F,03 1.0 adult b31f first head thorax wholebody,,pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0263,CT,SIEMENS,BIOGRAPH 64,VG51C,261,ABDOMEN,1.0,B30F,08 1.0 adult b30f only wb wholebody,,ct pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0264,CT,SIEMENS,BIOGRAPH 64,VG60A,201,ABDOMEN,1.0,B30F,02 1.0 adult b30f cbm only wb wholebody,,ct pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-A0265,CT,SIEMENS,BIOGRAPH 64,VG60A,361,CHEST,1.0,B31F,03 1.0 adult b31f cbm first head thorax wholebody,,pet,adenocarcinoma
+Lung-PET-CT-Dx,Lung_Dx-G0001,CT,GE,LIGHTSPEED PRO 16,06MW03.5,45,,5.0,,5.1 5mm chest routine,,,squamous cell carcinoma
+Lung-PET-CT-Dx,Lung_Dx-G0002,CT,PHILIPS,BRILLIANCE16,2.3.5,51,,5.0,,2 5mm c chest thorax,,,squamous cell carcinoma
+Lung-PET-CT-Dx,Lung_Dx-G0003,CT,GE,LIGHTSPEED VCT,07MW18.4,153,,5.0,,5.88 5mm c chest rountine,,,squamous cell carcinoma
+Lung-PET-CT-Dx,Lung_Dx-G0004,CT,GE,DISCOVERY CT750 HD,sles_hde3.5,144,,5.0,STND,5.1 5mm a c chest phase routine ss50 stnd,,lung,squamous cell carcinoma
+Lung-PET-CT-Dx,Lung_Dx-G0005,CT,SIEMENS,SENSATION 10,syngo CT 2006G,21,CHEST,10.0,B70F,10.0 adult athoraxroutine b70f thorax thoraxroutine,,,squamous cell carcinoma
+Lung-PET-CT-Dx,Lung_Dx-G0006,CT,GE,DISCOVERY CT750 HD,sles_hde3.5,143,,5.0,STND,5.3 5mm a c chest phase ss50 stnd,,lung,squamous cell carcinoma
+Lung-PET-CT-Dx,Lung_Dx-G0007,CT,PHILIPS,BRILLIANCE16,2.3.5,50,,5.0,,2 5mm c chest thorax,,,squamous cell carcinoma
+Lung-PET-CT-Dx,Lung_Dx-G0008,CT,PHILIPS,BRILLIANCE16,2.3.5,53,,5.0,,2 5mm c chest thorax,,,squamous cell carcinoma
+Lung-PET-CT-Dx,Lung_Dx-G0009,CT,PHILIPS,BRILLIANCE16,2.3.5,43,,5.0,,2 5mm c chest thorax,,,squamous cell carcinoma
+Lung-PET-CT-Dx,Lung_Dx-G0010,CT,GE,LIGHTSPEED VCT,07MW18.4,15,,5.0,,5.1 5mm chest,,lung,squamous cell carcinoma
+Lung-PET-CT-Dx,Lung_Dx-G0011,CT,GE,DISCOVERY CT750 HD,sles_hde3.5,150,,5.0,STND,5.3 5mm a c chest phase ss50 stnd,,lung,squamous cell carcinoma
+Lung-PET-CT-Dx,Lung_Dx-G0012,CT,GE,DISCOVERY CT750 HD,sles_hde3.5,180,,5.0,STND,5.87 5mm a c ch chest phase routine ss50 stnd,,,squamous cell carcinoma
+Lung-PET-CT-Dx,Lung_Dx-G0013,CT,GE,DISCOVERY CT750 HD,sles_hde3.5,156,,5.0,STND,5.87 5mm a c ch chest phase routine ss50 stnd,,,squamous cell carcinoma
+Lung-PET-CT-Dx,Lung_Dx-G0014,CT,SIEMENS,SENSATION 10,syngo CT 2006G,31,CHEST,10.0,B40F,10.0 adult athoraxroutine b40f thorax thoraxroutine,,,squamous cell carcinoma
+Lung-PET-CT-Dx,Lung_Dx-G0015,CT,SIEMENS,SENSATION 10,syngo CT 2006G,38,CHEST,,B70F,5.0.0 abdo adult b70f thorax thoraxroutine,,,squamous cell carcinoma
+Lung-PET-CT-Dx,Lung_Dx-G0016,CT,GE,DISCOVERY CT750 HD,sles_hde3.5,168,,5.0,STND,5.3 5mm a c chest phase ss50 stnd,,lung,squamous cell carcinoma
+Lung-PET-CT-Dx,Lung_Dx-G0017,CT,GE,DISCOVERY CT750 HD,sles_hde3.5,186,,5.0,STND,5.3 5mm a c chest phase ss50 stnd,,lung,squamous cell carcinoma
+Lung-PET-CT-Dx,Lung_Dx-G0018,CT,GE,DISCOVERY CT750 HD,sles_hde.132,192,,5.0,STND,5.87 5mm a c ch chest phase routine ss50 stnd,,,squamous cell carcinoma
+Lung-PET-CT-Dx,Lung_Dx-G0019,CT,GE,LIGHTSPEED VCT,07MW18.4,63,,5.0,,1 5 5mm ch chest,,,squamous cell carcinoma
+Lung-PET-CT-Dx,Lung_Dx-G0020,CT,GE,LIGHTSPEED VCT,07MW18.4,59,,5.0,,5.1 5mm chest,,,squamous cell carcinoma
+Lung-PET-CT-Dx,Lung_Dx-G0021,CT,GE,DISCOVERY CT750 HD,sles_hde.132,168,,5.0,STND,5.1 5mm c chest routine ss50 stnd,,lung,squamous cell carcinoma
+Lung-PET-CT-Dx,Lung_Dx-G0022,CT,GE,DISCOVERY CT750 HD,sles_hde3.5,160,,5.0,STND,5.87 5mm a c ch chest phase routine ss50 stnd,,,squamous cell carcinoma
+Lung-PET-CT-Dx,Lung_Dx-G0023,CT,GE,DISCOVERY CT750 HD,sles_hde3.5,165,,5.0,STND,5.1 5mm a c chest phase routine ss50 stnd,,lung,squamous cell carcinoma
+Lung-PET-CT-Dx,Lung_Dx-G0024,CT,GE,LIGHTSPEED VCT,07MW18.4,60,,5.0,,5.1 5mm chest,,,squamous cell carcinoma
+Lung-PET-CT-Dx,Lung_Dx-G0025,CT,GE,DISCOVERY CT750 HD,sles_hde.132,186,,5.0,STND,5.1 5mm a c chest phase routine ss50 stnd,,lung,squamous cell carcinoma
+Lung-PET-CT-Dx,Lung_Dx-G0026,CT,GE,DISCOVERY CT750 HD,sles_hde3.5,156,,5.0,STND,5.87 5mm a c ch chest phase routine ss50 stnd,,,squamous cell carcinoma
+Lung-PET-CT-Dx,Lung_Dx-G0027,CT,GE,DISCOVERY CT750 HD,sles_hde3.5,150,,5.0,STND,5.1 5mm c chest routine ss50 stnd,,lung,squamous cell carcinoma
+Lung-PET-CT-Dx,Lung_Dx-G0028,CT,GE,DISCOVERY CT750 HD,sles_hde.132,192,,5.0,STND,5.1 5mm a c chest phase routine ss50 stnd,,lung,squamous cell carcinoma
+Lung-PET-CT-Dx,Lung_Dx-G0029,CT,GE,DISCOVERY CT750 HD,sles_hde3.5,168,,5.0,LUNG/STND,5.21 5mm a c phase ss50 stnd,,lung,squamous cell carcinoma
+Lung-PET-CT-Dx,Lung_Dx-G0030,CT,GE,DISCOVERY CT750 HD,sles_hde3.5,180,,5.0,STND,5.3 5mm a c chest phase ss50 stnd,,lung,squamous cell carcinoma
+Lung-PET-CT-Dx,Lung_Dx-G0031,CT,GE,DISCOVERY CT750 HD,sles_hde3.5,180,,5.0,STND,5.3 5mm a c chest phase ss50 stnd,,lung,squamous cell carcinoma
+Lung-PET-CT-Dx,Lung_Dx-G0032,CT,PHILIPS,ICT 256,4.1,59,CHEST,,,2 a c chest idose t thorax,,,squamous cell carcinoma
+Lung-PET-CT-Dx,Lung_Dx-G0033,CT,SIEMENS,BIOGRAPH 64,VG51C,357,CHEST,1.0,B70F,03 1.0 adult b70f first head thorax wholebody,,pet,squamous cell carcinoma
+Lung-PET-CT-Dx,Lung_Dx-G0034,CT,SIEMENS,BIOGRAPH 64,VG51C,329,CHEST,1.0,B70F,03 1.0 adult b70f first head thorax wholebody,,pet,squamous cell carcinoma
+Lung-PET-CT-Dx,Lung_Dx-G0035,CT,SIEMENS,BIOGRAPH 64,VG51C,161,ABDOMEN,1.0,B30F,08 1.0 adult b30f only wb wholebody,,ct pet,squamous cell carcinoma
+Lung-PET-CT-Dx,Lung_Dx-G0036,CT,SIEMENS,BIOGRAPH 64,VG51C,206,ABDOMEN,1.0,B30F,08 1.0 adult b30f only wb wholebody,,ct pet,squamous cell carcinoma
+Lung-PET-CT-Dx,Lung_Dx-G0037,CT,SIEMENS,BIOGRAPH 64,VG51C,400,ABDOMEN,1.0,B30F,03 1.0 adult b30f first head wb wholebody,,ct pet,squamous cell carcinoma
+Lung-PET-CT-Dx,Lung_Dx-G0038,CT,SIEMENS,BIOGRAPH 64,VG51C,371,CHEST,1.0,B31F,01 1.0 adult b31f pthead thorax,,lung pet,squamous cell carcinoma
+Lung-PET-CT-Dx,Lung_Dx-G0039,CT,SIEMENS,BIOGRAPH 64,VG51C,208,ABDOMEN,1.0,B30F,02 1.0 adult b30f only wb wholebody,,ct pet,squamous cell carcinoma
+Lung-PET-CT-Dx,Lung_Dx-G0040,CT,SIEMENS,BIOGRAPH 64,VG51C,362,CHEST,1.0,B70F,03 1.0 adult b70f first head thorax wholebody,,pet,squamous cell carcinoma
+Lung-PET-CT-Dx,Lung_Dx-G0041,CT,SIEMENS,BIOGRAPH64,VG62A,329,CHEST,1.0,B31F,03 1.0 adult b31f cbm first head new thorax wholebody,,pet,squamous cell carcinoma
+Lung-PET-CT-Dx,Lung_Dx-G0042,CT,SIEMENS,BIOGRAPH 64,VG60A,387,CHEST,1.0,B70F,03 1.0 adult b70f cbm first head thorax wholebody,,pet,squamous cell carcinoma
+Lung-PET-CT-Dx,Lung_Dx-G0043,CT,SIEMENS,BIOGRAPH 64,VG51C,407,CHEST,1.0,B31F,03 1.0 adult b31f first head thorax wholebody,,pet,squamous cell carcinoma
+Lung-PET-CT-Dx,Lung_Dx-G0044,CT,SIEMENS,BIOGRAPH 64,VG60A,392,CHEST,1.0,B70F,03 1.0 adult b70f cbm first head thorax wholebody,,pet,squamous cell carcinoma
+Lung-PET-CT-Dx,Lung_Dx-G0045,CT,SIEMENS,BIOGRAPH64,VG62B,376,CHEST,1.0,B70F,01 1.0 adult b70f pthead thorax,,lung pet,squamous cell carcinoma
+Lung-PET-CT-Dx,Lung_Dx-G0046,CT,SIEMENS,BIOGRAPH 64,VG60A,429,CHEST,1.0,B70F,03 1.0 adult b70f cbm first head thorax wholebody,,pet,squamous cell carcinoma
+Lung-PET-CT-Dx,Lung_Dx-G0047,CT,SIEMENS,BIOGRAPH 64,VG60A,230,CHEST,1.0,B70F,03 1.0 adult b70f cbm first head thorax wholebody,,pet,squamous cell carcinoma
+Lung-PET-CT-Dx,Lung_Dx-G0048,CT,SIEMENS,BIOGRAPH 64,VG60A,455,CHEST,1.0,B31F,01 1.0 adult b31f pthead thorax,,lung pet,squamous cell carcinoma
+Lung-PET-CT-Dx,Lung_Dx-G0049,CT,SIEMENS,BIOGRAPH 64,VG60A,468,CHEST,1.0,B70F,03 1.0 adult b70f cbm first head thorax wholebody,,pet,squamous cell carcinoma
+Lung-PET-CT-Dx,Lung_Dx-G0050,CT,SIEMENS,BIOGRAPH 64,VG60A,389,CHEST,1.0,B70F,03 1.0 adult b70f cbm first head thorax wholebody,,pet,squamous cell carcinoma
+Lung-PET-CT-Dx,Lung_Dx-G0051,CT,SIEMENS,BIOGRAPH 64,VG60A,411,CHEST,1.0,B70F,03 1.0 adult b70f cbm first head thorax wholebody,,pet,squamous cell carcinoma
+Lung-PET-CT-Dx,Lung_Dx-G0052,CT,SIEMENS,BIOGRAPH64,VG62A,417,CHEST,1.0,B70F,03 1.0 adult b70f cbm first head new thorax wholebody,,pet,squamous cell carcinoma
+Lung-PET-CT-Dx,Lung_Dx-G0053,CT,SIEMENS,BIOGRAPH 64,VG60A,408,CHEST,1.0,B70F,03 1.0 adult b70f cbm first head thorax wholebody,,pet,squamous cell carcinoma
+Lung-PET-CT-Dx,Lung_Dx-G0054,CT,SIEMENS,BIOGRAPH64,VG62A,411,CHEST,1.0,B31F,01 1.0 adult b31f pthead thorax,,lung pet,squamous cell carcinoma
+Lung-PET-CT-Dx,Lung_Dx-G0055,CT,SIEMENS,BIOGRAPH64,VG62A,429,CHEST,1.0,B31F,03 1.0 adult b31f cbm first head new thorax wholebody,,pet,squamous cell carcinoma
+Lung-PET-CT-Dx,Lung_Dx-G0056,CT,SIEMENS,BIOGRAPH 64,VG60A,481,CHEST,1.0,B31F,03 1.0 adult b31f cbm first head thorax wholebody,,pet,squamous cell carcinoma
+Lung-PET-CT-Dx,Lung_Dx-G0057,CT,SIEMENS,BIOGRAPH64,VG62B,247,ABDOMEN,1.0,B30F,02 1.0 adult b30f cbm new only wb wholebody,,ct pet,squamous cell carcinoma
+Lung-PET-CT-Dx,Lung_Dx-G0058,CT,SIEMENS,BIOGRAPH64,VG62A,401,CHEST,1.0,B70F,03 1.0 adult b70f cbm first head new thorax wholebody,,pet,squamous cell carcinoma
+Lung-PET-CT-Dx,Lung_Dx-G0059,CT,SIEMENS,BIOGRAPH 64,VG60A,409,CHEST,1.0,B31F,01 1.0 adult b31f pthead thorax,,lung pet,squamous cell carcinoma
+Lung-PET-CT-Dx,Lung_Dx-G0060,CT,SIEMENS,BIOGRAPH 64,VG60A,411,CHEST,1.0,B31F,01 1.0 adult b31f pthead thorax,,lung pet,squamous cell carcinoma
+Lung-PET-CT-Dx,Lung_Dx-G0062,CT,SIEMENS,BIOGRAPH 64,VG60A,370,CHEST,1.0,B70F,03 1.0 adult b70f cbm first head thorax wholebody,,pet,squamous cell carcinoma

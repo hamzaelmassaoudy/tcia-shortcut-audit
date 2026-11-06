@@ -1,0 +1,49 @@
+encoder,input,cohort,class,n,mean_score,median_score
+ctfm,background only,CPTAC lung,adenocarcinoma,37,1.071542610179094,1.7836938813573462
+ctfm,background only,CPTAC lung,squamous,36,2.234233236884177,2.431648103826636
+ctfm,background only,NSCLC Radiogenomics,adenocarcinoma,166,1.4158388377371132,1.7775808135791178
+ctfm,background only,NSCLC Radiogenomics,squamous,33,1.2538978395167542,2.0215503157083297
+ctfm,background only,NSCLC-Radiomics,adenocarcinoma,51,3.3175134040370438,2.9180946710392406
+ctfm,background only,NSCLC-Radiomics,squamous,152,4.363891643828095,4.371583176856149
+ctfm,background only,Lung-PET-CT-Dx,adenocarcinoma,251,2.9961882231666217,2.9049533513829764
+ctfm,background only,Lung-PET-CT-Dx,squamous,61,3.1945222612136646,2.896076123035749
+ctfm,full image,CPTAC lung,adenocarcinoma,37,-0.40009191996551235,-0.327228753207284
+ctfm,full image,CPTAC lung,squamous,36,0.35441692132087355,0.09954780637239366
+ctfm,full image,NSCLC Radiogenomics,adenocarcinoma,166,0.6607843090694383,0.6455380896370698
+ctfm,full image,NSCLC Radiogenomics,squamous,33,0.21308804708804363,0.1044938626837517
+ctfm,full image,NSCLC-Radiomics,adenocarcinoma,51,0.939527270951569,1.4536797298099071
+ctfm,full image,NSCLC-Radiomics,squamous,152,1.1439706233429066,1.1047623546011878
+ctfm,full image,Lung-PET-CT-Dx,adenocarcinoma,251,0.4724171329905541,0.6836574501951196
+ctfm,full image,Lung-PET-CT-Dx,squamous,61,0.4944241780340777,0.3198238455393427
+ctfm,silhouette,CPTAC lung,adenocarcinoma,37,-0.6658799922148748,-0.0218598555768043
+ctfm,silhouette,CPTAC lung,squamous,36,0.9442555632385221,1.2728805852298908
+ctfm,silhouette,NSCLC Radiogenomics,adenocarcinoma,166,0.7750392571464312,0.6972218591909094
+ctfm,silhouette,NSCLC Radiogenomics,squamous,33,0.23911127857176342,0.5639452108686924
+ctfm,silhouette,NSCLC-Radiomics,adenocarcinoma,51,0.35197353610074444,0.395325203437167
+ctfm,silhouette,NSCLC-Radiomics,squamous,152,0.5719583916165675,0.5528850548565964
+ctfm,silhouette,Lung-PET-CT-Dx,adenocarcinoma,251,-1.3972091963250453,-1.2197859059616856
+ctfm,silhouette,Lung-PET-CT-Dx,squamous,61,-0.7073328770258793,-0.2460776146216601
+merlin,background only,CPTAC lung,adenocarcinoma,37,-0.8010842179728223,-0.6039761215332728
+merlin,background only,CPTAC lung,squamous,36,0.2305940335902235,0.7569290271754787
+merlin,background only,NSCLC Radiogenomics,adenocarcinoma,166,-0.8865449484009933,-1.2588956641665017
+merlin,background only,NSCLC Radiogenomics,squamous,33,-1.5430980131912062,-0.6154407635786272
+merlin,background only,NSCLC-Radiomics,adenocarcinoma,51,1.3096705293954043,1.9549554925584625
+merlin,background only,NSCLC-Radiomics,squamous,152,1.7061706353057322,2.2615163211093163
+merlin,background only,Lung-PET-CT-Dx,adenocarcinoma,251,-1.2282803911448064,-1.2706629493843429
+merlin,background only,Lung-PET-CT-Dx,squamous,61,-1.5081176731637327,-1.8243685472161368
+merlin,full image,CPTAC lung,adenocarcinoma,37,-1.8848000465870882,-2.7405603447020224
+merlin,full image,CPTAC lung,squamous,36,-0.9881912114491236,-0.9381073705509902
+merlin,full image,NSCLC Radiogenomics,adenocarcinoma,166,0.6611584329782663,1.147295137054546
+merlin,full image,NSCLC Radiogenomics,squamous,33,0.07476168312090757,0.0353936692753877
+merlin,full image,NSCLC-Radiomics,adenocarcinoma,51,-0.46041710583425005,-0.114449239683303
+merlin,full image,NSCLC-Radiomics,squamous,152,-0.5403862980410067,-0.8619943372873291
+merlin,full image,Lung-PET-CT-Dx,adenocarcinoma,251,-3.321212655567585,-3.434256109324328
+merlin,full image,Lung-PET-CT-Dx,squamous,61,-3.6502693890573235,-4.036681020337442
+merlin,silhouette,CPTAC lung,adenocarcinoma,37,0.839461191920482,0.5460641431688984
+merlin,silhouette,CPTAC lung,squamous,36,0.8004150562855611,0.9162285264004773
+merlin,silhouette,NSCLC Radiogenomics,adenocarcinoma,166,1.3148779018405208,1.2125176686618446
+merlin,silhouette,NSCLC Radiogenomics,squamous,33,-0.6618112761199672,-0.90091083672149
+merlin,silhouette,NSCLC-Radiomics,adenocarcinoma,51,5.721459973536745,6.5970016748427565
+merlin,silhouette,NSCLC-Radiomics,squamous,152,5.672888653664195,5.383238201742097
+merlin,silhouette,Lung-PET-CT-Dx,adenocarcinoma,251,-1.7626096547144723,-1.7126977414856748
+merlin,silhouette,Lung-PET-CT-Dx,squamous,61,-1.199150443207256,-1.4622830443859214

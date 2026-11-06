@@ -1,0 +1,123 @@
+<local path>\results\12_review_checks\review_lib.py:9: UserWarning: A NumPy version >=1.23.5 and <2.3.0 is required for this version of SciPy (detected version 2.4.2)
+  from scipy import sparse
+<local path>\results\12_review_checks\review_lib.py:9: UserWarning: A NumPy version >=1.23.5 and <2.3.0 is required for this version of SciPy (detected version 2.4.2)
+  from scipy import sparse
+<local path>\results\12_review_checks\review_lib.py:9: UserWarning: A NumPy version >=1.23.5 and <2.3.0 is required for this version of SciPy (detected version 2.4.2)
+  from scipy import sparse
+<local path>\results\12_review_checks\review_lib.py:9: UserWarning: A NumPy version >=1.23.5 and <2.3.0 is required for this version of SciPy (detected version 2.4.2)
+  from scipy import sparse
+<local path>\results\12_review_checks\review_lib.py:9: UserWarning: A NumPy version >=1.23.5 and <2.3.0 is required for this version of SciPy (detected version 2.4.2)
+  from scipy import sparse
+<local path>\results\12_review_checks\review_lib.py:9: UserWarning: A NumPy version >=1.23.5 and <2.3.0 is required for this version of SciPy (detected version 2.4.2)
+  from scipy import sparse
+<local path>\results\12_review_checks\review_lib.py:9: UserWarning: A NumPy version >=1.23.5 and <2.3.0 is required for this version of SciPy (detected version 2.4.2)
+  from scipy import sparse
+<local path>\results\12_review_checks\review_lib.py:9: UserWarning: A NumPy version >=1.23.5 and <2.3.0 is required for this version of SciPy (detected version 2.4.2)
+  from scipy import sparse
+<local path>\results\12_review_checks\review_lib.py:9: UserWarning: A NumPy version >=1.23.5 and <2.3.0 is required for this version of SciPy (detected version 2.4.2)
+  from scipy import sparse
+<local path>\results\12_review_checks\review_lib.py:9: UserWarning: A NumPy version >=1.23.5 and <2.3.0 is required for this version of SciPy (detected version 2.4.2)
+  from scipy import sparse
+<local path>\results\12_review_checks\review_lib.py:9: UserWarning: A NumPy version >=1.23.5 and <2.3.0 is required for this version of SciPy (detected version 2.4.2)
+  from scipy import sparse
+<local path>\results\12_review_checks\review_lib.py:9: UserWarning: A NumPy version >=1.23.5 and <2.3.0 is required for this version of SciPy (detected version 2.4.2)
+  from scipy import sparse
+<local path>\results\12_review_checks\review_lib.py:9: UserWarning: A NumPy version >=1.23.5 and <2.3.0 is required for this version of SciPy (detected version 2.4.2)
+  from scipy import sparse
+renal subtype (KIRC vs KIRP)         ctfm   image      all scans              n 259 AUC 0.6028 (0.4884-0.7219) p 0.4230 [63 s]
+renal subtype (KIRC vs KIRP)         ctfm   image      without cut-off scans  n 252 AUC 0.5941 (0.4732-0.7152) p 0.1640 [99 s]
+renal subtype (KIRC vs KIRP)         ctfm   background all scans              n 259 AUC 0.6173 (0.5134-0.7226) p 0.3220 [136 s]
+renal subtype (KIRC vs KIRP)         ctfm   background without cut-off scans  n 252 AUC 0.6052 (0.5015-0.7045) p 0.2160 [180 s]
+renal subtype (KIRC vs KIRP)         ctfm   silhouette all scans              n 259 AUC 0.6542 (0.5497-0.7542) p 0.0550 [236 s]
+renal subtype (KIRC vs KIRP)         ctfm   silhouette without cut-off scans  n 252 AUC 0.6399 (0.5329-0.7471) p 0.2050 [297 s]
+renal subtype (KIRC vs KIRP)         merlin image      all scans              n 259 AUC 0.5181 (0.4087-0.6402) p 0.4050 [593 s]
+renal subtype (KIRC vs KIRP)         merlin image      without cut-off scans  n 252 AUC 0.5148 (0.4036-0.6343) p 0.6810 [893 s]
+renal subtype (KIRC vs KIRP)         merlin background all scans              n 259 AUC 0.6241 (0.5060-0.7409) p 0.0400 [1205 s]
+renal subtype (KIRC vs KIRP)         merlin background without cut-off scans  n 252 AUC 0.6185 (0.4934-0.7380) p 0.1350 [1501 s]
+renal subtype (KIRC vs KIRP)         merlin silhouette all scans              n 259 AUC 0.6091 (0.4844-0.7254) p 0.0480 [1811 s]
+renal subtype (KIRC vs KIRP)         merlin silhouette without cut-off scans  n 252 AUC 0.6093 (0.4806-0.7225) p 0.1650 [2141 s]
+CPTAC-PDA | stage                    ctfm   image      all scans              n 68 AUC 0.5552 (0.4174-0.6807) p 0.3620 [2177 s]
+CPTAC-PDA | stage                    ctfm   image      without cut-off scans  n 67 AUC 0.5600 (0.4156-0.7002) p 0.3780 [2206 s]
+CPTAC-PDA | stage                    ctfm   background all scans              n 68 AUC 0.5631 (0.4316-0.6801) p 0.0720 [2230 s]
+CPTAC-PDA | stage                    ctfm   background without cut-off scans  n 67 AUC 0.5653 (0.4275-0.6933) p 0.2950 [2262 s]
+CPTAC-PDA | stage                    ctfm   silhouette all scans              n 68 AUC 0.5722 (0.4420-0.7013) p 0.0680 [2283 s]
+CPTAC-PDA | stage                    ctfm   silhouette without cut-off scans  n 67 AUC 0.5687 (0.4205-0.7082) p 0.1480 [2309 s]
+CPTAC-PDA | stage                    merlin image      all scans              n 68 AUC 0.4395 (0.3100-0.5656) p 0.9310 [2358 s]
+CPTAC-PDA | stage                    merlin image      without cut-off scans  n 67 AUC 0.3987 (0.2671-0.5387) p 0.8720 [2404 s]
+CPTAC-PDA | stage                    merlin background all scans              n 68 AUC 0.5090 (0.3687-0.6479) p 0.2940 [2451 s]
+CPTAC-PDA | stage                    merlin background without cut-off scans  n 67 AUC 0.5721 (0.4292-0.7154) p 0.2060 [2500 s]
+CPTAC-PDA | stage                    merlin silhouette all scans              n 68 AUC 0.3147 (0.2138-0.4238) p 0.9340 [2558 s]
+CPTAC-PDA | stage                    merlin silhouette without cut-off scans  n 67 AUC 0.3368 (0.2346-0.4510) p 0.9680 [2605 s]
+lung histology (LUAD vs LUSC)        ctfm   image      all scans              n 104 AUC 0.5949 (0.4965-0.6893) p 0.0970 [2641 s]
+lung histology (LUAD vs LUSC)        ctfm   image      without cut-off scans  n 103 AUC 0.6118 (0.5130-0.7016) p 0.2760 [2673 s]
+lung histology (LUAD vs LUSC)        ctfm   background all scans              n 104 AUC 0.6961 (0.5997-0.7871) p 0.0120 [2702 s]
+lung histology (LUAD vs LUSC)        ctfm   background without cut-off scans  n 103 AUC 0.7094 (0.6105-0.7988) p 0.0160 [2739 s]
+lung histology (LUAD vs LUSC)        ctfm   silhouette all scans              n 104 AUC 0.5879 (0.4947-0.6860) p 0.2350 [2772 s]
+lung histology (LUAD vs LUSC)        ctfm   silhouette without cut-off scans  n 103 AUC 0.6049 (0.5016-0.7026) p 0.0950 [2804 s]
+lung histology (LUAD vs LUSC)        merlin image      all scans              n 104 AUC 0.7630 (0.6669-0.8516) p 0.0010 [2877 s]
+lung histology (LUAD vs LUSC)        merlin image      without cut-off scans  n 103 AUC 0.7512 (0.6563-0.8391) p 0.0020 [2944 s]
+lung histology (LUAD vs LUSC)        merlin background all scans              n 104 AUC 0.8214 (0.7385-0.8934) p 0.0010 [3024 s]
+lung histology (LUAD vs LUSC)        merlin background without cut-off scans  n 103 AUC 0.8023 (0.7165-0.8803) p 0.0010 [3104 s]
+lung histology (LUAD vs LUSC)        merlin silhouette all scans              n 104 AUC 0.5708 (0.4630-0.6736) p 0.1180 [3187 s]
+lung histology (LUAD vs LUSC)        merlin silhouette without cut-off scans  n 103 AUC 0.5676 (0.4600-0.6734) p 0.1700 [3271 s]
+                    key                       task_id         class  body_fraction_dilated  recon_diameter_mm
+TCGA-KIRC__TCGA-B8-5158  renal subtype (KIRC vs KIRP)     TCGA-KIRC               0.831965              395.0
+TCGA-KIRC__TCGA-B8-5162  renal subtype (KIRC vs KIRP)     TCGA-KIRC               0.805436              343.0
+TCGA-KIRC__TCGA-B8-5553  renal subtype (KIRC vs KIRP)     TCGA-KIRC               0.803303              348.0
+TCGA-KIRC__TCGA-B8-A54E  renal subtype (KIRC vs KIRP)     TCGA-KIRC               0.773873              368.0
+TCGA-KIRC__TCGA-CZ-4859  renal subtype (KIRC vs KIRP)     TCGA-KIRC               0.971967              278.0
+TCGA-KIRC__TCGA-CZ-4865  renal subtype (KIRC vs KIRP)     TCGA-KIRC               0.790287              256.0
+TCGA-KIRC__TCGA-CZ-5988  renal subtype (KIRC vs KIRP)     TCGA-KIRC               0.762803              389.0
+   CPTAC-PDA__C3N-02010             CPTAC-PDA | stage late (III-IV)               0.789419              317.0
+TCGA-LUSC__TCGA-34-5232 lung histology (LUAD vs LUSC)     TCGA-LUSC               0.786683              293.0
+                          task_id encoder      input                subset  n_patients  n_removed    auc  ci_low  ci_high  perm_p  stored_auc  stored_flagged  q_bh_4tasks  flagged  auc_minus_stored
+     renal subtype (KIRC vs KIRP)    ctfm      image             all scans         259          0 0.6028  0.4884   0.7219   0.423      0.6026           False       0.4230    False            0.0002
+     renal subtype (KIRC vs KIRP)    ctfm      image without cut-off scans         252          7 0.5941  0.4732   0.7152   0.164      0.6026           False       0.3280    False           -0.0085
+     renal subtype (KIRC vs KIRP)    ctfm background             all scans         259          0 0.6173  0.5134   0.7226   0.322      0.6171           False       0.3220    False            0.0002
+     renal subtype (KIRC vs KIRP)    ctfm background without cut-off scans         252          7 0.6052  0.5015   0.7045   0.216      0.6171           False       0.2880    False           -0.0119
+     renal subtype (KIRC vs KIRP)    ctfm silhouette             all scans         259          0 0.6542  0.5497   0.7542   0.055      0.6543           False       0.0907    False           -0.0001
+     renal subtype (KIRC vs KIRP)    ctfm silhouette without cut-off scans         252          7 0.6399  0.5329   0.7471   0.205      0.6543           False       0.2050    False           -0.0145
+     renal subtype (KIRC vs KIRP)  merlin      image             all scans         259          0 0.5181  0.4087   0.6402   0.405      0.5177           False       0.5400    False            0.0004
+     renal subtype (KIRC vs KIRP)  merlin      image without cut-off scans         252          7 0.5148  0.4036   0.6343   0.681      0.5177           False       0.8720    False           -0.0029
+     renal subtype (KIRC vs KIRP)  merlin background             all scans         259          0 0.6241  0.5060   0.7409   0.040      0.6236           False       0.0533    False            0.0005
+     renal subtype (KIRC vs KIRP)  merlin background without cut-off scans         252          7 0.6185  0.4934   0.7380   0.135      0.6236           False       0.1800    False           -0.0052
+     renal subtype (KIRC vs KIRP)  merlin silhouette             all scans         259          0 0.6091  0.4844   0.7254   0.048      0.6094           False       0.0960    False           -0.0002
+     renal subtype (KIRC vs KIRP)  merlin silhouette without cut-off scans         252          7 0.6093  0.4806   0.7225   0.165      0.6094           False       0.2267    False           -0.0000
+                CPTAC-PDA | stage    ctfm      image             all scans          68          0 0.5552  0.4174   0.6807   0.362      0.5552           False       0.4230    False            0.0000
+                CPTAC-PDA | stage    ctfm      image without cut-off scans          67          1 0.5600  0.4156   0.7002   0.378      0.5552           False       0.3780    False            0.0048
+                CPTAC-PDA | stage    ctfm background             all scans          68          0 0.5631  0.4316   0.6801   0.072      0.5629           False       0.0960    False            0.0002
+                CPTAC-PDA | stage    ctfm background without cut-off scans          67          1 0.5653  0.4275   0.6933   0.295      0.5629           False       0.2950    False            0.0024
+                CPTAC-PDA | stage    ctfm silhouette             all scans          68          0 0.5722  0.4420   0.7013   0.068      0.5722           False       0.0907    False            0.0000
+                CPTAC-PDA | stage    ctfm silhouette without cut-off scans          67          1 0.5687  0.4205   0.7082   0.148      0.5722           False       0.1973    False           -0.0035
+                CPTAC-PDA | stage  merlin      image             all scans          68          0 0.4395  0.3100   0.5656   0.931      0.4395           False       0.9310    False            0.0000
+                CPTAC-PDA | stage  merlin      image without cut-off scans          67          1 0.3987  0.2671   0.5387   0.872      0.4395           False       0.8720    False           -0.0408
+                CPTAC-PDA | stage  merlin background             all scans          68          0 0.5090  0.3687   0.6479   0.294      0.5086           False       0.2940    False            0.0004
+                CPTAC-PDA | stage  merlin background without cut-off scans          67          1 0.5721  0.4292   0.7154   0.206      0.5086           False       0.2060    False            0.0635
+                CPTAC-PDA | stage  merlin silhouette             all scans          68          0 0.3147  0.2138   0.4238   0.934      0.3135           False       0.9340    False            0.0012
+                CPTAC-PDA | stage  merlin silhouette without cut-off scans          67          1 0.3368  0.2346   0.4510   0.968      0.3135           False       0.9680    False            0.0233
+    lung histology (LUAD vs LUSC)    ctfm      image             all scans         104          0 0.5949  0.4965   0.6893   0.097      0.5949           False       0.1940    False           -0.0000
+    lung histology (LUAD vs LUSC)    ctfm      image without cut-off scans         103          1 0.6118  0.5130   0.7016   0.276      0.5949           False       0.3680    False            0.0169
+    lung histology (LUAD vs LUSC)    ctfm background             all scans         104          0 0.6961  0.5997   0.7871   0.012      0.6958           False       0.0240    False            0.0002
+    lung histology (LUAD vs LUSC)    ctfm background without cut-off scans         103          1 0.7094  0.6105   0.7988   0.016      0.6958           False       0.0320     True            0.0135
+    lung histology (LUAD vs LUSC)    ctfm silhouette             all scans         104          0 0.5879  0.4947   0.6860   0.235      0.5878           False       0.2350    False            0.0001
+    lung histology (LUAD vs LUSC)    ctfm silhouette without cut-off scans         103          1 0.6049  0.5016   0.7026   0.095      0.5878           False       0.1900    False            0.0171
+    lung histology (LUAD vs LUSC)  merlin      image             all scans         104          0 0.7630  0.6669   0.8516   0.001      0.7630            True       0.0040     True            0.0000
+    lung histology (LUAD vs LUSC)  merlin      image without cut-off scans         103          1 0.7512  0.6563   0.8391   0.002      0.7630            True       0.0080     True           -0.0119
+    lung histology (LUAD vs LUSC)  merlin background             all scans         104          0 0.8214  0.7385   0.8934   0.001      0.8214            True       0.0040     True            0.0000
+    lung histology (LUAD vs LUSC)  merlin background without cut-off scans         103          1 0.8023  0.7165   0.8803   0.001      0.8214            True       0.0040     True           -0.0191
+    lung histology (LUAD vs LUSC)  merlin silhouette             all scans         104          0 0.5708  0.4630   0.6736   0.118      0.5710           False       0.1573    False           -0.0002
+    lung histology (LUAD vs LUSC)  merlin silhouette without cut-off scans         103          1 0.5676  0.4600   0.6734   0.170      0.5710           False       0.2267    False           -0.0035
+LIDC-IDRI | primary vs metastatic    ctfm      image             all scans          94          0 0.7528  0.6591   0.8379   0.001      0.7528            True       0.0040     True            0.0000
+LIDC-IDRI | primary vs metastatic    ctfm      image without cut-off scans          94          0 0.7528  0.6591   0.8379   0.001      0.7528            True       0.0040     True            0.0000
+LIDC-IDRI | primary vs metastatic    ctfm background             all scans          94          0 0.7188  0.6203   0.8111   0.002      0.7188            True       0.0080     True            0.0000
+LIDC-IDRI | primary vs metastatic    ctfm background without cut-off scans          94          0 0.7188  0.6203   0.8111   0.002      0.7188            True       0.0080     True            0.0000
+LIDC-IDRI | primary vs metastatic    ctfm silhouette             all scans          94          0 0.6720  0.5722   0.7683   0.007      0.6720           False       0.0280    False            0.0000
+LIDC-IDRI | primary vs metastatic    ctfm silhouette without cut-off scans          94          0 0.6720  0.5722   0.7683   0.007      0.6720           False       0.0280    False            0.0000
+LIDC-IDRI | primary vs metastatic  merlin      image             all scans          94          0 0.6998  0.5997   0.7932   0.005      0.6998           False       0.0100    False            0.0000
+LIDC-IDRI | primary vs metastatic  merlin      image without cut-off scans          94          0 0.6998  0.5997   0.7932   0.005      0.6998           False       0.0100    False            0.0000
+LIDC-IDRI | primary vs metastatic  merlin background             all scans          94          0 0.7260  0.6285   0.8165   0.002      0.7260            True       0.0040     True            0.0000
+LIDC-IDRI | primary vs metastatic  merlin background without cut-off scans          94          0 0.7260  0.6285   0.8165   0.002      0.7260            True       0.0040     True            0.0000
+LIDC-IDRI | primary vs metastatic  merlin silhouette             all scans          94          0 0.6892  0.5813   0.7809   0.002      0.6892           False       0.0080    False            0.0000
+LIDC-IDRI | primary vs metastatic  merlin silhouette without cut-off scans          94          0 0.6892  0.5813   0.7809   0.002      0.6892           False       0.0080    False            0.0000
+finished in 3273 s
+exit 0

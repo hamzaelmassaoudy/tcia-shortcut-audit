@@ -1,0 +1,11 @@
+﻿Encoder,Input,Role,Tasks,Spearman rho,One-sided p,Flagged by both / metadata only / image only / neither,Reading
+CT-FM,background only,primary,19,0.51,0.0136,1 / 3 / 0 / 15,the screen is supported
+CT-FM,full image,descriptive,19,0.53,0.0102,1 / 3 / 1 / 14,(descriptive)
+CT-FM,silhouette,control,19,0.48,0.0189,0 / 4 / 0 / 15,(descriptive)
+Merlin,background only,secondary,19,0.32,0.0894,2 / 2 / 0 / 15,not supported
+Merlin,full image,descriptive,19,0.39,0.0502,1 / 3 / 0 / 15,(descriptive)
+Merlin,silhouette,control,19,0.23,0.1727,0 / 4 / 0 / 15,(descriptive)
+CT-FM,background only,"robustness (7i, post hoc): without the flagged tasks",15,0.19,0.2537,,the correlation depends on the flagged tasks
+CT-FM,background only,"robustness (7i, post hoc): patient-disjoint task groups (group means)",11,0.51,0.0573,,not shown over patient-disjoint task groups
+Merlin,background only,"robustness (7i, post hoc): without the flagged tasks",15,-0.05,0.5734,,the correlation depends on the flagged tasks
+Merlin,background only,"robustness (7i, post hoc): patient-disjoint task groups (group means)",11,0.22,0.2609,,not shown over patient-disjoint task groups

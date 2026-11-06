@@ -1,0 +1,29 @@
+{
+  "label": "POST HOC sensitivity check (not in plan 7j); written 2026-11-04 after the real results were read",
+  "patients_left_out": [
+    "Lung-PET-CT-Dx__Lung_Dx-A0187",
+    "Lung-PET-CT-Dx__Lung_Dx-A0194",
+    "Lung-PET-CT-Dx__Lung_Dx-A0205",
+    "Lung-PET-CT-Dx__Lung_Dx-A0210",
+    "Lung-PET-CT-Dx__Lung_Dx-A0214",
+    "Lung-PET-CT-Dx__Lung_Dx-A0227",
+    "Lung-PET-CT-Dx__Lung_Dx-A0230",
+    "Lung-PET-CT-Dx__Lung_Dx-A0232",
+    "Lung-PET-CT-Dx__Lung_Dx-A0246",
+    "Lung-PET-CT-Dx__Lung_Dx-A0253",
+    "Lung-PET-CT-Dx__Lung_Dx-A0256",
+    "Lung-PET-CT-Dx__Lung_Dx-A0260",
+    "Lung-PET-CT-Dx__Lung_Dx-A0261",
+    "Lung-PET-CT-Dx__Lung_Dx-G0034",
+    "Lung-PET-CT-Dx__Lung_Dx-G0047",
+    "Lung-PET-CT-Dx__Lung_Dx-G0048",
+    "Lung-PET-CT-Dx__Lung_Dx-G0060"
+  ],
+  "all_patients_reproduce_notebook11": true,
+  "background_transferred_without_swapped": {
+    "NSCLC-Radiomics": false,
+    "Lung-PET-CT-Dx": false
+  },
+  "reading_7j_without_swapped": "consistent across independent cohorts",
+  "any_change_in_transfer_decision": false
+}

@@ -1,0 +1,34 @@
+collection,field,fraction_filled,n_distinct,examples
+CPTAC-AML,AdmittingDiagnosesDescription,0.0,0,
+CPTAC-CCRCC,AdmittingDiagnosesDescription,0.041,2,OBS | OBS.
+CPTAC-CM,AdmittingDiagnosesDescription,0.0,0,
+CPTAC-LSCC,AdmittingDiagnosesDescription,0.0,0,
+CPTAC-LUAD,AdmittingDiagnosesDescription,0.0,0,
+CPTAC-PDA,AdmittingDiagnosesDescription,0.022,2,S00 | WEIGHT LOSS AND JAUNDICE
+CPTAC-SAR,AdmittingDiagnosesDescription,0.0,0,
+CPTAC-STAD,AdmittingDiagnosesDescription,0.0,0,
+CPTAC-UCEC,AdmittingDiagnosesDescription,0.0,0,
+Duke-Breast-Cancer-MRI,AdmittingDiagnosesDescription,0.0,0,
+HCC-TACE-Seg,AdmittingDiagnosesDescription,0.0,0,
+LIDC-IDRI,AdmittingDiagnosesDescription,0.0,0,
+NSCLC Radiogenomics,AdmittingDiagnosesDescription,0.0,0,
+PROSTATEx,AdmittingDiagnosesDescription,0.0,0,
+TCGA-BLCA,AdmittingDiagnosesDescription,0.016,3,HEMATURIA | BLADDER LESION  HEMATURIA | ABD PAIN SEPSIS
+TCGA-BRCA,AdmittingDiagnosesDescription,0.006,1,BREAST CA
+TCGA-CESC,AdmittingDiagnosesDescription,0.0,0,
+TCGA-COAD,AdmittingDiagnosesDescription,0.0,0,
+TCGA-ESCA,AdmittingDiagnosesDescription,0.0,0,
+TCGA-KICH,AdmittingDiagnosesDescription,0.067,1,ABDOMINAL PAIN
+TCGA-KIRC,AdmittingDiagnosesDescription,0.005,2,LIVER/KIDNEY/PELVIS | ABD PAIN
+TCGA-KIRP,AdmittingDiagnosesDescription,0.021,1,PAIN
+TCGA-LIHC,AdmittingDiagnosesDescription,0.03,5,LIVER | unknown | DVRTCLI COLON W/O HMRHG | DVRTCLO COLON W/O HMRHG | liver
+TCGA-LUAD,AdmittingDiagnosesDescription,0.039,5,"Lung Ca | CHEST | SPN | Ca Lung | ASTHMA, LONG TERM MEDS, H/O SMOKING"
+TCGA-LUSC,AdmittingDiagnosesDescription,0.027,2,ABNORMAL CXR - RT HILUM | Lung CA
+TCGA-OV,AdmittingDiagnosesDescription,0.028,9,BREAST CA | WEIGHT LOSS ABD PAIN  METFORMI | OTHER GU NEOPLASM NOS | ABD DISTENTION | 5276/1916988-1
+TCGA-PRAD,AdmittingDiagnosesDescription,0.05,1,C 11 Acetate Prostate Study
+TCGA-READ,AdmittingDiagnosesDescription,0.0,0,
+TCGA-SARC,AdmittingDiagnosesDescription,0.0,0,
+TCGA-STAD,AdmittingDiagnosesDescription,0.0,0,
+TCGA-THCA,AdmittingDiagnosesDescription,0.143,1,R/O PE
+TCGA-UCEC,AdmittingDiagnosesDescription,0.018,4,"OVARIAN CYST NEC/NOS | PALPABLE 7 cm VAGINAL NODULE | LACK OF ALERTNESS | ENDOMETRIAL CARCINOMA, ENDOMETRIAL GRADE 1 CANCER"
+UPENN-GBM,AdmittingDiagnosesDescription,0.002,1,gbm

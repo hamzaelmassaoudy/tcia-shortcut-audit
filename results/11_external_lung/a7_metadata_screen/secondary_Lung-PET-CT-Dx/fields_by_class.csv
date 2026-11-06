@@ -1,0 +1,44 @@
+field,value,share_adenocarcinoma,share_squamous cell carcinoma
+vendor,SIEMENS,0.514,0.525
+vendor,GE,0.39,0.393
+vendor,PHILIPS,0.096,0.082
+model,BIOGRAPH 64,0.331,0.361
+model,DISCOVERY CT750 HD,0.235,0.295
+model,SENSATION 10,0.131,0.049
+model,LIGHTSPEED VCT,0.116,0.082
+model,BIOGRAPH64,0.052,0.115
+model,BRILLIANCE16,0.044,0.066
+model,ICT 256,0.052,0.016
+model,LIGHTSPEED PRO 16,0.024,0.016
+model,OPTIMA CT660,0.012,0.0
+model,REVOLUTION CT,0.004,0.0
+software_version,VG51C,0.243,0.148
+software_version,sles_hde3.5,0.203,0.23
+software_version,syngo CT 2006G,0.131,0.049
+software_version,VG60A,0.088,0.213
+software_version,07MW18.4,0.116,0.082
+software_version,2.3.5,0.044,0.066
+software_version,4.1,0.052,0.016
+software_version,VG62A,0.036,0.082
+software_version,sles_hde.132,0.032,0.066
+software_version,06MW03.5,0.02,0.016
+software_version,VG62B,0.016,0.033
+software_version,cj.37,0.012,0.0
+software_version,revo_1.5_m3d.9,0.004,0.0
+software_version,07MW11.10,0.004,0.0
+kernel,B70F,0.275,0.279
+kernel,missing,0.251,0.18
+kernel,STND,0.203,0.279
+kernel,B31F,0.207,0.148
+kernel,B30F,0.028,0.082
+kernel,LUNG/STND,0.02,0.016
+kernel,STD,0.008,0.0
+kernel,LUNG,0.004,0.0
+kernel,B31S,0.004,0.0
+kernel,B40F,0.0,0.016
+body_part,CHEST,0.546,0.459
+body_part,missing,0.422,0.459
+body_part,ABDOMEN,0.028,0.082
+body_part,Thorax,0.004,0.0
+image_count,median,180.0,186.0
+slice_thickness_mm,median,5.0,5.0

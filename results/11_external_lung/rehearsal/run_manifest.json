@@ -1,0 +1,519 @@
+{
+  "settings_key": "55861707d117d9f69b7a26db5946c6e3",
+  "notebook": "11_external_lung.ipynb",
+  "mode": "rehearsal",
+  "plan": "7j (part A)",
+  "labels": "shuffled (rehearsal)",
+  "run_started_utc": "2026-11-03T16:31:30+00:00",
+  "run_finished_utc": "2026-11-03T17:49:48+00:00",
+  "in_colab": true,
+  "local_test_settings": {},
+  "input_runs": {
+    "01": "2026-10-28T12:20:42+00:00",
+    "02": "2026-10-28T15:29:58+00:00",
+    "03": "2026-10-28T16:27:39+00:00",
+    "04": "2026-10-28T19:04:36+00:00",
+    "05": "2026-10-29T04:57:15+00:00",
+    "06": "2026-10-29T14:04:31+00:00",
+    "07": "2026-10-29T18:25:18+00:00",
+    "08": "2026-10-30T10:19:13+00:00",
+    "09": "2026-10-30T14:38:52+00:00"
+  },
+  "input_caches": {
+    "05": {
+      "count": 1053,
+      "combined_md5": "23f84dc5fbdd3e3047f4a4ad0cad85f8"
+    },
+    "06": {
+      "count": 1052,
+      "combined_md5": "bbe6202f8b48b6fe4fe4db6f462a9df7"
+    },
+    "07": {
+      "count": 1450,
+      "combined_md5": "99f4d1df6e363a023b7a9b598dbddbfd"
+    },
+    "08": {
+      "count": 477,
+      "combined_md5": "040ddb3ebfb4b444358b063666351d15"
+    }
+  },
+  "pairs": [
+    {
+      "pair": "lung: TCGA -> NSCLC Radiogenomics",
+      "source": "lung histology (LUAD vs LUSC)",
+      "target": "NSCLC Radiogenomics"
+    },
+    {
+      "pair": "lung: TCGA -> CPTAC",
+      "source": "lung histology (LUAD vs LUSC)",
+      "target": "CPTAC lung"
+    },
+    {
+      "pair": "lung: TCGA -> NSCLC-Radiomics",
+      "source": "lung histology (LUAD vs LUSC)",
+      "target": "NSCLC-Radiomics"
+    },
+    {
+      "pair": "lung: TCGA -> Lung-PET-CT-Dx",
+      "source": "lung histology (LUAD vs LUSC)",
+      "target": "Lung-PET-CT-Dx"
+    }
+  ],
+  "classes": {
+    "lung histology (LUAD vs LUSC)": [
+      "TCGA-LUAD",
+      "TCGA-LUSC"
+    ],
+    "NSCLC Radiogenomics": [
+      "adenocarcinoma",
+      "squamous"
+    ],
+    "CPTAC lung": [
+      "CPTAC-LUAD",
+      "CPTAC-LSCC"
+    ],
+    "NSCLC-Radiomics": [
+      "adenocarcinoma",
+      "squamous cell carcinoma"
+    ],
+    "Lung-PET-CT-Dx": [
+      "A",
+      "G"
+    ]
+  },
+  "expected_labels_new": {
+    "NSCLC-Radiomics": {
+      "adenocarcinoma": 51,
+      "squamous cell carcinoma": 152
+    },
+    "Lung-PET-CT-Dx": {
+      "A": 251,
+      "G": 61
+    }
+  },
+  "lung1_label_file": {
+    "url": "https://www.cancerimagingarchive.net/wp-content/uploads/NSCLC-Radiomics-Lung1.clinical-version3-Oct-2019.csv",
+    "md5": "2d2638a2ac1d34edc6535b59b6f71510"
+  },
+  "dx_id_rule": "Lung_Dx-([ABEG])\\d{4}",
+  "series_reply_md5": {
+    "NSCLC-Radiomics": "187cf2fd6214492876e0b78ac2880c96",
+    "Lung-PET-CT-Dx": "9b81e264502f93629c1c625c457c5db6"
+  },
+  "new_patients_without_main_series": {
+    "NSCLC-Radiomics": [],
+    "Lung-PET-CT-Dx": []
+  },
+  "series_set_aside_amendment_2026_11_04": [
+    {
+      "key": "Lung-PET-CT-Dx__Lung_Dx-A0187",
+      "target": "Lung-PET-CT-Dx",
+      "rule_series": "1.3.6.1.4.1.14519.5.2.1.6655.2359.202811050699882479249397697041",
+      "rule_series_description": "<ALPHA Range>",
+      "set_aside": "1.3.6.1.4.1.14519.5.2.1.6655.2359.202811050699882479249397697041",
+      "used_series": "1.3.6.1.4.1.14519.5.2.1.6655.2359.192379917231021778302733454495",
+      "used_series_description": "Thorax  1.0  B31f",
+      "used_image_count": 331,
+      "status": "ok",
+      "error": NaN,
+      "session_utc": "2026-11-03T17:26:07+00:00"
+    },
+    {
+      "key": "Lung-PET-CT-Dx__Lung_Dx-A0246",
+      "target": "Lung-PET-CT-Dx",
+      "rule_series": "1.3.6.1.4.1.14519.5.2.1.6655.2359.246836077074676054621108228814",
+      "rule_series_description": "Range-CT WB  1.0  B30f-Tra-<ALPHA Range>",
+      "set_aside": "1.3.6.1.4.1.14519.5.2.1.6655.2359.246836077074676054621108228814;1.3.6.1.4.1.14519.5.2.1.6655.2359.198944768927386816679805563851",
+      "used_series": "1.3.6.1.4.1.14519.5.2.1.6655.2359.920860333547736650409830059336",
+      "used_series_description": "Thorax  1.0  B31f",
+      "used_image_count": 342,
+      "status": "ok",
+      "error": NaN,
+      "session_utc": "2026-11-03T17:26:07+00:00"
+    },
+    {
+      "key": "Lung-PET-CT-Dx__Lung_Dx-A0230",
+      "target": "Lung-PET-CT-Dx",
+      "rule_series": "1.3.6.1.4.1.14519.5.2.1.6655.2359.501287954600072091231651418325",
+      "rule_series_description": "Range-CT WB  1.0  B30f-Tra-<ALPHA Range>",
+      "set_aside": "1.3.6.1.4.1.14519.5.2.1.6655.2359.501287954600072091231651418325;1.3.6.1.4.1.14519.5.2.1.6655.2359.182772334595735756711663855465",
+      "used_series": "1.3.6.1.4.1.14519.5.2.1.6655.2359.181222301242858906064713152571",
+      "used_series_description": "Thorax  1.0  B70f",
+      "used_image_count": 297,
+      "status": "ok",
+      "error": NaN,
+      "session_utc": "2026-11-03T17:26:07+00:00"
+    },
+    {
+      "key": "Lung-PET-CT-Dx__Lung_Dx-A0210",
+      "target": "Lung-PET-CT-Dx",
+      "rule_series": "1.3.6.1.4.1.14519.5.2.1.6655.2359.205323629845989728283174544918",
+      "rule_series_description": "Range-CT WB  1.0  B30f-Tra-<ALPHA Range>",
+      "set_aside": "1.3.6.1.4.1.14519.5.2.1.6655.2359.205323629845989728283174544918;1.3.6.1.4.1.14519.5.2.1.6655.2359.201217860764273492149410018106",
+      "used_series": "1.3.6.1.4.1.14519.5.2.1.6655.2359.125383789385339184341362988843",
+      "used_series_description": "Thorax  1.0  B70f",
+      "used_image_count": 307,
+      "status": "ok",
+      "error": NaN,
+      "session_utc": "2026-11-03T17:26:07+00:00"
+    },
+    {
+      "key": "Lung-PET-CT-Dx__Lung_Dx-A0194",
+      "target": "Lung-PET-CT-Dx",
+      "rule_series": "1.3.6.1.4.1.14519.5.2.1.6655.2359.784211634388343051357694378100",
+      "rule_series_description": "Range-CT WB  1.0  B30f-Tra-<ALPHA Range>",
+      "set_aside": "1.3.6.1.4.1.14519.5.2.1.6655.2359.784211634388343051357694378100;1.3.6.1.4.1.14519.5.2.1.6655.2359.645097116766990617062756959928",
+      "used_series": "1.3.6.1.4.1.14519.5.2.1.6655.2359.236991883527125653975820299191",
+      "used_series_description": "Thorax  1.0  B31f",
+      "used_image_count": 418,
+      "status": "ok",
+      "error": NaN,
+      "session_utc": "2026-11-03T17:26:07+00:00"
+    },
+    {
+      "key": "Lung-PET-CT-Dx__Lung_Dx-A0227",
+      "target": "Lung-PET-CT-Dx",
+      "rule_series": "1.3.6.1.4.1.14519.5.2.1.6655.2359.243218059247003224340290557481",
+      "rule_series_description": "Range-CT WB  1.0  B30f-Tra-<ALPHA Range>",
+      "set_aside": "1.3.6.1.4.1.14519.5.2.1.6655.2359.243218059247003224340290557481;1.3.6.1.4.1.14519.5.2.1.6655.2359.305112736746204062263034564210",
+      "used_series": "1.3.6.1.4.1.14519.5.2.1.6655.2359.650302090413273490571357610460",
+      "used_series_description": "Thorax  1.0  B31f",
+      "used_image_count": 330,
+      "status": "ok",
+      "error": NaN,
+      "session_utc": "2026-11-03T17:26:07+00:00"
+    },
+    {
+      "key": "Lung-PET-CT-Dx__Lung_Dx-A0232",
+      "target": "Lung-PET-CT-Dx",
+      "rule_series": "1.3.6.1.4.1.14519.5.2.1.6655.2359.142902152138194793480772041143",
+      "rule_series_description": "Range-CT WB  1.0  B30f-Tra-<ALPHA Range>",
+      "set_aside": "1.3.6.1.4.1.14519.5.2.1.6655.2359.142902152138194793480772041143;1.3.6.1.4.1.14519.5.2.1.6655.2359.215242278437283207841907827175",
+      "used_series": "1.3.6.1.4.1.14519.5.2.1.6655.2359.216074581079343328894136819619",
+      "used_series_description": "Thorax  1.0  B31f",
+      "used_image_count": 342,
+      "status": "ok",
+      "error": NaN,
+      "session_utc": "2026-11-03T17:26:07+00:00"
+    },
+    {
+      "key": "Lung-PET-CT-Dx__Lung_Dx-A0214",
+      "target": "Lung-PET-CT-Dx",
+      "rule_series": "1.3.6.1.4.1.14519.5.2.1.6655.2359.156412916359027578749510788313",
+      "rule_series_description": "Range-CT WB  1.0  B30f-Tra-<ALPHA Range>",
+      "set_aside": "1.3.6.1.4.1.14519.5.2.1.6655.2359.156412916359027578749510788313;1.3.6.1.4.1.14519.5.2.1.6655.2359.333089560528667240507395157697",
+      "used_series": "1.3.6.1.4.1.14519.5.2.1.6655.2359.194671747437870948015442238384",
+      "used_series_description": "CT WB  1.0  B30f",
+      "used_image_count": 168,
+      "status": "ok",
+      "error": NaN,
+      "session_utc": "2026-11-03T17:26:07+00:00"
+    },
+    {
+      "key": "Lung-PET-CT-Dx__Lung_Dx-A0205",
+      "target": "Lung-PET-CT-Dx",
+      "rule_series": "1.3.6.1.4.1.14519.5.2.1.6655.2359.250630552145731599334053284829",
+      "rule_series_description": "Range-CT WB  1.0  B30f-Tra-<ALPHA Range>",
+      "set_aside": "1.3.6.1.4.1.14519.5.2.1.6655.2359.250630552145731599334053284829;1.3.6.1.4.1.14519.5.2.1.6655.2359.167215109663591985299882763152",
+      "used_series": "1.3.6.1.4.1.14519.5.2.1.6655.2359.220533691611917034778163769374",
+      "used_series_description": "Thorax  1.0  B31f",
+      "used_image_count": 399,
+      "status": "ok",
+      "error": NaN,
+      "session_utc": "2026-11-03T17:26:07+00:00"
+    },
+    {
+      "key": "Lung-PET-CT-Dx__Lung_Dx-A0261",
+      "target": "Lung-PET-CT-Dx",
+      "rule_series": "1.3.6.1.4.1.14519.5.2.1.6655.2359.197592838049238175102082872419",
+      "rule_series_description": "Range-CT WB  1.0  B30f-Tra-<ALPHA Range>",
+      "set_aside": "1.3.6.1.4.1.14519.5.2.1.6655.2359.197592838049238175102082872419;1.3.6.1.4.1.14519.5.2.1.6655.2359.144653145873995195858071202036",
+      "used_series": "1.3.6.1.4.1.14519.5.2.1.6655.2359.852408049222874112824521401106",
+      "used_series_description": "Thorax  1.0  B31f",
+      "used_image_count": 418,
+      "status": "ok",
+      "error": NaN,
+      "session_utc": "2026-11-03T17:26:07+00:00"
+    },
+    {
+      "key": "Lung-PET-CT-Dx__Lung_Dx-A0256",
+      "target": "Lung-PET-CT-Dx",
+      "rule_series": "1.3.6.1.4.1.14519.5.2.1.6655.2359.339236819734186676416098840226",
+      "rule_series_description": "Range-CT WB  1.0  B30f-Tra-<ALPHA Range>",
+      "set_aside": "1.3.6.1.4.1.14519.5.2.1.6655.2359.339236819734186676416098840226;1.3.6.1.4.1.14519.5.2.1.6655.2359.247199590891082089454511599477",
+      "used_series": "1.3.6.1.4.1.14519.5.2.1.6655.2359.286770509325526816773146683142",
+      "used_series_description": "Thorax  1.0  B31f",
+      "used_image_count": 407,
+      "status": "ok",
+      "error": NaN,
+      "session_utc": "2026-11-03T17:26:07+00:00"
+    },
+    {
+      "key": "Lung-PET-CT-Dx__Lung_Dx-G0047",
+      "target": "Lung-PET-CT-Dx",
+      "rule_series": "1.3.6.1.4.1.14519.5.2.1.6655.2359.206033462145849909607777465415",
+      "rule_series_description": "Range-CT WB  1.0  B30f-Tra-<ALPHA Range>",
+      "set_aside": "1.3.6.1.4.1.14519.5.2.1.6655.2359.206033462145849909607777465415",
+      "used_series": "1.3.6.1.4.1.14519.5.2.1.6655.2359.777290414071022500282773522167",
+      "used_series_description": "Thorax  1.0  B70f",
+      "used_image_count": 230,
+      "status": "ok",
+      "error": NaN,
+      "session_utc": "2026-11-03T17:26:07+00:00"
+    },
+    {
+      "key": "Lung-PET-CT-Dx__Lung_Dx-G0060",
+      "target": "Lung-PET-CT-Dx",
+      "rule_series": "1.3.6.1.4.1.14519.5.2.1.6655.2359.943143535908951753644561027697",
+      "rule_series_description": "Range-CT WB  1.0  B30f-Tra-<ALPHA Range>",
+      "set_aside": "1.3.6.1.4.1.14519.5.2.1.6655.2359.943143535908951753644561027697",
+      "used_series": "1.3.6.1.4.1.14519.5.2.1.6655.2359.239495378041614326064359025709",
+      "used_series_description": "Thorax  1.0  B31f",
+      "used_image_count": 411,
+      "status": "ok",
+      "error": NaN,
+      "session_utc": "2026-11-03T17:26:07+00:00"
+    },
+    {
+      "key": "Lung-PET-CT-Dx__Lung_Dx-A0260",
+      "target": "Lung-PET-CT-Dx",
+      "rule_series": "1.3.6.1.4.1.14519.5.2.1.6655.2359.183487725345274583838877397366",
+      "rule_series_description": "Range-CT WB  1.0  B30f-Tra-<ALPHA Range>",
+      "set_aside": "1.3.6.1.4.1.14519.5.2.1.6655.2359.183487725345274583838877397366;1.3.6.1.4.1.14519.5.2.1.6655.2359.253720471037999519513187301384",
+      "used_series": "1.3.6.1.4.1.14519.5.2.1.6655.2359.242831011686138786912875706249",
+      "used_series_description": "Thorax  1.0  B31f",
+      "used_image_count": 386,
+      "status": "ok",
+      "error": NaN,
+      "session_utc": "2026-11-03T17:26:07+00:00"
+    },
+    {
+      "key": "Lung-PET-CT-Dx__Lung_Dx-G0048",
+      "target": "Lung-PET-CT-Dx",
+      "rule_series": "1.3.6.1.4.1.14519.5.2.1.6655.2359.613920304331095789027453906345",
+      "rule_series_description": "Range-CT WB  1.0  B30f-Tra-<ALPHA Range>",
+      "set_aside": "1.3.6.1.4.1.14519.5.2.1.6655.2359.613920304331095789027453906345;1.3.6.1.4.1.14519.5.2.1.6655.2359.560806643425505637823099589973",
+      "used_series": "1.3.6.1.4.1.14519.5.2.1.6655.2359.297517039935434606734510485055",
+      "used_series_description": "Thorax  1.0  B31f",
+      "used_image_count": 455,
+      "status": "ok",
+      "error": NaN,
+      "session_utc": "2026-11-03T17:26:07+00:00"
+    },
+    {
+      "key": "Lung-PET-CT-Dx__Lung_Dx-G0034",
+      "target": "Lung-PET-CT-Dx",
+      "rule_series": "1.3.6.1.4.1.14519.5.2.1.6655.2359.990136148057180627890690825181",
+      "rule_series_description": "Range-CT WB  1.0  B30f-Tra-<ALPHA Range>",
+      "set_aside": "1.3.6.1.4.1.14519.5.2.1.6655.2359.990136148057180627890690825181",
+      "used_series": "1.3.6.1.4.1.14519.5.2.1.6655.2359.157585117423633104722288207646",
+      "used_series_description": "Thorax  1.0  B70f",
+      "used_image_count": 329,
+      "status": "ok",
+      "error": NaN,
+      "session_utc": "2026-11-03T17:26:07+00:00"
+    },
+    {
+      "key": "Lung-PET-CT-Dx__Lung_Dx-A0253",
+      "target": "Lung-PET-CT-Dx",
+      "rule_series": "1.3.6.1.4.1.14519.5.2.1.6655.2359.282840892464514254603507323574",
+      "rule_series_description": "Range-CT WB  1.0  B30f-Tra-<ALPHA Range>",
+      "set_aside": "1.3.6.1.4.1.14519.5.2.1.6655.2359.282840892464514254603507323574",
+      "used_series": "1.3.6.1.4.1.14519.5.2.1.6655.2359.277675602839111120537172261637",
+      "used_series_description": "Thorax  1.0  B31f",
+      "used_image_count": 445,
+      "status": "ok",
+      "error": NaN,
+      "session_utc": "2026-11-03T17:26:07+00:00"
+    }
+  ],
+  "main_series_rule_reproduces_nb01": true,
+  "same_versions_as_notebook05": false,
+  "reproduced_notebooks05_09": true,
+  "patients_new": 515,
+  "coverage": [
+    {
+      "dataset": "lung histology (LUAD vs LUSC)",
+      "role": "source",
+      "patients": 104,
+      "embedded": 104,
+      "coverage": 1.0
+    },
+    {
+      "dataset": "NSCLC Radiogenomics",
+      "role": "independent (notebook 08)",
+      "patients": 199,
+      "embedded": 199,
+      "coverage": 1.0
+    },
+    {
+      "dataset": "CPTAC lung",
+      "role": "one collection per class (notebook 08)",
+      "patients": 73,
+      "embedded": 73,
+      "coverage": 1.0
+    },
+    {
+      "dataset": "NSCLC-Radiomics",
+      "role": "independent (new, plan 7j)",
+      "patients": 203,
+      "embedded": 203,
+      "coverage": 1.0
+    },
+    {
+      "dataset": "Lung-PET-CT-Dx",
+      "role": "independent (new, plan 7j)",
+      "patients": 312,
+      "embedded": 312,
+      "coverage": 1.0
+    }
+  ],
+  "reading_7j": {
+    "background_transferred": {
+      "NSCLC-Radiomics": false,
+      "Lung-PET-CT-Dx": false
+    },
+    "reading_7j": "consistent across independent cohorts"
+  },
+  "settings": {
+    "SEED": 2026,
+    "N_SPLITS": 5,
+    "N_REPEATS": 5,
+    "MIN_COUNT": 3,
+    "FLAG_LOWER_CI": 0.6,
+    "FLAG_Q": 0.05,
+    "LR_PARAMS": {
+      "C": 1.0,
+      "class_weight": "balanced",
+      "max_iter": 5000
+    },
+    "BODY_HU": -500,
+    "OPEN_MM": 3.0,
+    "DILATE_MM": 5.0,
+    "AIR_HU": -1000,
+    "HDR_COLS": [
+      "hdr_slice_thickness",
+      "hdr_z_spacing",
+      "hdr_pixel_spacing",
+      "hdr_recon_diameter",
+      "hdr_kvp",
+      "hdr_tube_current",
+      "hdr_exposure",
+      "hdr_ctdivol",
+      "hdr_pitch",
+      "hdr_kernel",
+      "hdr_filter_type",
+      "hdr_patient_position"
+    ],
+    "PREP_KEY": "da9faacb9675",
+    "EMB_KEY": "80818aae140a",
+    "CTFM": [
+      "project-lighter/ct_fm_feature_extractor",
+      "527b0d1c262b433396c85ff2de84c427b26945a1",
+      [
+        3.0,
+        1.0,
+        1.0
+      ],
+      [
+        24,
+        128,
+        128
+      ],
+      0.625
+    ],
+    "MERLIN": [
+      "stanfordmimi/Merlin",
+      "66dd07585de79e4d8d70d67806da88f3ccaa5a0c",
+      "i3_resnet_clinical_longformer_best_clip_04-02-2024_23-21-36_epoch_99.pt"
+    ],
+    "N_BOOT": 2000,
+    "N_PERM": 999,
+    "SIL_HU": 0,
+    "REPRO_TOL": 0.001,
+    "PREP_KEY11": "19ac8d3f3283",
+    "EMB_KEY11": "3c93da2eba1c",
+    "INPUTS_B": [
+      "original",
+      "background"
+    ],
+    "VARIANTS": [
+      "original",
+      "background",
+      "silhouette"
+    ],
+    "MAX_SERIES_SET_ASIDE": 3
+  },
+  "versions": {
+    "python": "3.13.16",
+    "numpy": "2.4.6",
+    "pandas": "2.2.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.6.1",
+    "joblib": "1.6.0",
+    "torch": "2.11.0+cu130",
+    "torchvision": "0.26.0+cu130",
+    "monai": "1.6.1",
+    "SimpleITK": "2.5.6",
+    "pydicom": "3.0.2",
+    "nibabel": "5.4.2",
+    "huggingface_hub": "1.33.0",
+    "merlin-vlm": "0.0.7",
+    "cpus": 12,
+    "gpu": "NVIDIA A100-SXM4-80GB"
+  },
+  "cache_files": {
+    "count": 1035,
+    "combined_md5": "2fdf96406ffe6d35252adcf7b69ffd9c"
+  },
+  "outputs": [
+    {
+      "file": "analysis_cache.json",
+      "bytes": 43324,
+      "rows": null,
+      "md5": "1344a5a32e933347ff0475d2255c96b5"
+    },
+    {
+      "file": "field_differences_numeric.csv",
+      "bytes": 3450,
+      "rows": 30,
+      "md5": "b088b5998d607704fe0ae2463682114d"
+    },
+    {
+      "file": "reading_7j.json",
+      "bytes": 152,
+      "rows": null,
+      "md5": "721186123fa6dec6d1d82023d5f8ded5"
+    },
+    {
+      "file": "reproduction_check.csv",
+      "bytes": 6173,
+      "rows": 60,
+      "md5": "2c857b5f28dbbae01834f0b076990ae8"
+    },
+    {
+      "file": "silhouette_transfer.csv",
+      "bytes": 3152,
+      "rows": 8,
+      "md5": "4265b0514f616370c6012ea3cafd3384"
+    },
+    {
+      "file": "slice_thickness_prediction.csv",
+      "bytes": 673,
+      "rows": 4,
+      "md5": "fbc01c6a571d67c6c6639ff6700f4e32"
+    },
+    {
+      "file": "transfer.csv",
+      "bytes": 9829,
+      "rows": 16,
+      "md5": "87990b60bce37c85db1806069717d122"
+    },
+    {
+      "file": "transfer_scores.csv.gz",
+      "bytes": 66563,
+      "rows": 4722,
+      "md5": "032523f8dd8b626b268b4e691026f100"
+    }
+  ]
+}

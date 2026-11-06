@@ -1,0 +1,1355 @@
+collection,PatientID,site_source,tss,institution_raw,institution
+TCGA-BLCA,TCGA-4Z-AA7M,TCGA tissue source site,4Z,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-BLCA,TCGA-4Z-AA7N,TCGA tissue source site,4Z,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-BLCA,TCGA-4Z-AA7O,TCGA tissue source site,4Z,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-BLCA,TCGA-4Z-AA7S,TCGA tissue source site,4Z,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-BLCA,TCGA-4Z-AA7W,TCGA tissue source site,4Z,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-BLCA,TCGA-4Z-AA7Y,TCGA tissue source site,4Z,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-BLCA,TCGA-4Z-AA80,TCGA tissue source site,4Z,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-BLCA,TCGA-4Z-AA81,TCGA tissue source site,4Z,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-BLCA,TCGA-4Z-AA82,TCGA tissue source site,4Z,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-BLCA,TCGA-4Z-AA84,TCGA tissue source site,4Z,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-BLCA,TCGA-4Z-AA86,TCGA tissue source site,4Z,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-BLCA,TCGA-CU-A0YO,TCGA tissue source site,CU,UNC,unc
+TCGA-BLCA,TCGA-CU-A0YR,TCGA tissue source site,CU,UNC,unc
+TCGA-BLCA,TCGA-CU-A3KJ,TCGA tissue source site,CU,UNC,unc
+TCGA-BLCA,TCGA-CU-A3QU,TCGA tissue source site,CU,UNC,unc
+TCGA-BLCA,TCGA-CU-A3YL,TCGA tissue source site,CU,UNC,unc
+TCGA-BLCA,TCGA-CU-A5W6,TCGA tissue source site,CU,UNC,unc
+TCGA-BLCA,TCGA-DK-A1A5,TCGA tissue source site,DK,Memorial Sloan Kettering,memorial sloan kettering
+TCGA-BLCA,TCGA-DK-A1A6,TCGA tissue source site,DK,Memorial Sloan Kettering,memorial sloan kettering
+TCGA-BLCA,TCGA-DK-A1A7,TCGA tissue source site,DK,Memorial Sloan Kettering,memorial sloan kettering
+TCGA-BLCA,TCGA-DK-A1AA,TCGA tissue source site,DK,Memorial Sloan Kettering,memorial sloan kettering
+TCGA-BLCA,TCGA-DK-A2HX,TCGA tissue source site,DK,Memorial Sloan Kettering,memorial sloan kettering
+TCGA-BLCA,TCGA-DK-A2I6,TCGA tissue source site,DK,Memorial Sloan Kettering,memorial sloan kettering
+TCGA-BLCA,TCGA-DK-A3IK,TCGA tissue source site,DK,Memorial Sloan Kettering,memorial sloan kettering
+TCGA-BLCA,TCGA-DK-A3IM,TCGA tissue source site,DK,Memorial Sloan Kettering,memorial sloan kettering
+TCGA-BLCA,TCGA-DK-A3IN,TCGA tissue source site,DK,Memorial Sloan Kettering,memorial sloan kettering
+TCGA-BLCA,TCGA-DK-A3IV,TCGA tissue source site,DK,Memorial Sloan Kettering,memorial sloan kettering
+TCGA-BLCA,TCGA-DK-A3WW,TCGA tissue source site,DK,Memorial Sloan Kettering,memorial sloan kettering
+TCGA-BLCA,TCGA-DK-A6B0,TCGA tissue source site,DK,Memorial Sloan Kettering,memorial sloan kettering
+TCGA-BLCA,TCGA-DK-AA6M,TCGA tissue source site,DK,Memorial Sloan Kettering,memorial sloan kettering
+TCGA-BLCA,TCGA-DK-AA6P,TCGA tissue source site,DK,Memorial Sloan Kettering,memorial sloan kettering
+TCGA-BLCA,TCGA-DK-AA6Q,TCGA tissue source site,DK,Memorial Sloan Kettering,memorial sloan kettering
+TCGA-BLCA,TCGA-DK-AA74,TCGA tissue source site,DK,Memorial Sloan Kettering,memorial sloan kettering
+TCGA-BLCA,TCGA-DK-AA75,TCGA tissue source site,DK,Memorial Sloan Kettering,memorial sloan kettering
+TCGA-BLCA,TCGA-DK-AA76,TCGA tissue source site,DK,Memorial Sloan Kettering,memorial sloan kettering
+TCGA-BLCA,TCGA-DK-AA77,TCGA tissue source site,DK,Memorial Sloan Kettering,memorial sloan kettering
+TCGA-BLCA,TCGA-FD-A3B5,TCGA tissue source site,FD,BLN - University Of Chicago,university of chicago
+TCGA-BLCA,TCGA-FD-A3B6,TCGA tissue source site,FD,BLN - University Of Chicago,university of chicago
+TCGA-BLCA,TCGA-FD-A3B7,TCGA tissue source site,FD,BLN - University Of Chicago,university of chicago
+TCGA-BLCA,TCGA-FD-A3N6,TCGA tissue source site,FD,BLN - University Of Chicago,university of chicago
+TCGA-BLCA,TCGA-FD-A3SJ,TCGA tissue source site,FD,BLN - University Of Chicago,university of chicago
+TCGA-BLCA,TCGA-FD-A3SL,TCGA tissue source site,FD,BLN - University Of Chicago,university of chicago
+TCGA-BLCA,TCGA-FD-A3SO,TCGA tissue source site,FD,BLN - University Of Chicago,university of chicago
+TCGA-BLCA,TCGA-FD-A3SP,TCGA tissue source site,FD,BLN - University Of Chicago,university of chicago
+TCGA-BLCA,TCGA-FD-A43S,TCGA tissue source site,FD,BLN - University Of Chicago,university of chicago
+TCGA-BLCA,TCGA-FD-A43U,TCGA tissue source site,FD,BLN - University Of Chicago,university of chicago
+TCGA-BLCA,TCGA-FD-A43X,TCGA tissue source site,FD,BLN - University Of Chicago,university of chicago
+TCGA-BLCA,TCGA-FD-A43Y,TCGA tissue source site,FD,BLN - University Of Chicago,university of chicago
+TCGA-BLCA,TCGA-FD-A5BT,TCGA tissue source site,FD,BLN - University Of Chicago,university of chicago
+TCGA-BLCA,TCGA-FD-A5BU,TCGA tissue source site,FD,BLN - University Of Chicago,university of chicago
+TCGA-BLCA,TCGA-FD-A5BX,TCGA tissue source site,FD,BLN - University Of Chicago,university of chicago
+TCGA-BLCA,TCGA-FD-A5C0,TCGA tissue source site,FD,BLN - University Of Chicago,university of chicago
+TCGA-BLCA,TCGA-FD-A5C1,TCGA tissue source site,FD,BLN - University Of Chicago,university of chicago
+TCGA-BLCA,TCGA-FD-A62P,TCGA tissue source site,FD,BLN - University Of Chicago,university of chicago
+TCGA-BLCA,TCGA-FD-A6TB,TCGA tissue source site,FD,BLN - University Of Chicago,university of chicago
+TCGA-BLCA,TCGA-FD-A6TC,TCGA tissue source site,FD,BLN - University Of Chicago,university of chicago
+TCGA-BLCA,TCGA-FD-A6TE,TCGA tissue source site,FD,BLN - University Of Chicago,university of chicago
+TCGA-BLCA,TCGA-G2-A2EC,TCGA tissue source site,G2,MD Anderson,md anderson cancer center
+TCGA-BLCA,TCGA-G2-A2EF,TCGA tissue source site,G2,MD Anderson,md anderson cancer center
+TCGA-BLCA,TCGA-G2-A2EJ,TCGA tissue source site,G2,MD Anderson,md anderson cancer center
+TCGA-BLCA,TCGA-G2-A2EK,TCGA tissue source site,G2,MD Anderson,md anderson cancer center
+TCGA-BLCA,TCGA-G2-A2EL,TCGA tissue source site,G2,MD Anderson,md anderson cancer center
+TCGA-BLCA,TCGA-G2-A2EO,TCGA tissue source site,G2,MD Anderson,md anderson cancer center
+TCGA-BLCA,TCGA-G2-A2ES,TCGA tissue source site,G2,MD Anderson,md anderson cancer center
+TCGA-BLCA,TCGA-G2-A3IB,TCGA tissue source site,G2,MD Anderson,md anderson cancer center
+TCGA-BLCA,TCGA-G2-A3IE,TCGA tissue source site,G2,MD Anderson,md anderson cancer center
+TCGA-BLCA,TCGA-G2-A3VY,TCGA tissue source site,G2,MD Anderson,md anderson cancer center
+TCGA-BLCA,TCGA-G2-AA3B,TCGA tissue source site,G2,MD Anderson,md anderson cancer center
+TCGA-BLCA,TCGA-G2-AA3C,TCGA tissue source site,G2,MD Anderson,md anderson cancer center
+TCGA-BLCA,TCGA-G2-AA3D,TCGA tissue source site,G2,MD Anderson,md anderson cancer center
+TCGA-BLCA,TCGA-G2-AA3F,TCGA tissue source site,G2,MD Anderson,md anderson cancer center
+TCGA-BLCA,TCGA-K4-A3WU,TCGA tissue source site,K4,ABS - Lahey Clinic,lahey clinic
+TCGA-BLCA,TCGA-K4-A4AC,TCGA tissue source site,K4,ABS - Lahey Clinic,lahey clinic
+TCGA-BLCA,TCGA-K4-A54R,TCGA tissue source site,K4,ABS - Lahey Clinic,lahey clinic
+TCGA-BLCA,TCGA-K4-A5RH,TCGA tissue source site,K4,ABS - Lahey Clinic,lahey clinic
+TCGA-BLCA,TCGA-K4-A5RJ,TCGA tissue source site,K4,ABS - Lahey Clinic,lahey clinic
+TCGA-BLCA,TCGA-K4-AAQO,TCGA tissue source site,K4,ABS - Lahey Clinic,lahey clinic
+TCGA-BLCA,TCGA-XF-A8HG,TCGA tissue source site,XF,University of Southern California,university of southern california
+TCGA-BLCA,TCGA-XF-A9SI,TCGA tissue source site,XF,University of Southern California,university of southern california
+TCGA-BLCA,TCGA-XF-A9T0,TCGA tissue source site,XF,University of Southern California,university of southern california
+TCGA-BLCA,TCGA-XF-A9T3,TCGA tissue source site,XF,University of Southern California,university of southern california
+TCGA-BLCA,TCGA-XF-AAMX,TCGA tissue source site,XF,University of Southern California,university of southern california
+TCGA-BLCA,TCGA-XF-AAMY,TCGA tissue source site,XF,University of Southern California,university of southern california
+TCGA-BLCA,TCGA-XF-AAMZ,TCGA tissue source site,XF,University of Southern California,university of southern california
+TCGA-BLCA,TCGA-XF-AAN0,TCGA tissue source site,XF,University of Southern California,university of southern california
+TCGA-BLCA,TCGA-XF-AAN2,TCGA tissue source site,XF,University of Southern California,university of southern california
+TCGA-BLCA,TCGA-ZF-A9R0,TCGA tissue source site,ZF,University of Sheffield,university of sheffield
+TCGA-BLCA,TCGA-ZF-A9R2,TCGA tissue source site,ZF,University of Sheffield,university of sheffield
+TCGA-BLCA,TCGA-ZF-A9R3,TCGA tissue source site,ZF,University of Sheffield,university of sheffield
+TCGA-BLCA,TCGA-ZF-A9R4,TCGA tissue source site,ZF,University of Sheffield,university of sheffield
+TCGA-BLCA,TCGA-ZF-A9R5,TCGA tissue source site,ZF,University of Sheffield,university of sheffield
+TCGA-BLCA,TCGA-ZF-A9R7,TCGA tissue source site,ZF,University of Sheffield,university of sheffield
+TCGA-BLCA,TCGA-ZF-A9RE,TCGA tissue source site,ZF,University of Sheffield,university of sheffield
+TCGA-BLCA,TCGA-ZF-A9RG,TCGA tissue source site,ZF,University of Sheffield,university of sheffield
+TCGA-BLCA,TCGA-ZF-A9RL,TCGA tissue source site,ZF,University of Sheffield,university of sheffield
+TCGA-BLCA,TCGA-ZF-A9RM,TCGA tissue source site,ZF,University of Sheffield,university of sheffield
+TCGA-BLCA,TCGA-ZF-AA4N,TCGA tissue source site,ZF,University of Sheffield,university of sheffield
+TCGA-BLCA,TCGA-ZF-AA4R,TCGA tissue source site,ZF,University of Sheffield,university of sheffield
+TCGA-BLCA,TCGA-ZF-AA4T,TCGA tissue source site,ZF,University of Sheffield,university of sheffield
+TCGA-BLCA,TCGA-ZF-AA4U,TCGA tissue source site,ZF,University of Sheffield,university of sheffield
+TCGA-BLCA,TCGA-ZF-AA4X,TCGA tissue source site,ZF,University of Sheffield,university of sheffield
+TCGA-BLCA,TCGA-ZF-AA52,TCGA tissue source site,ZF,University of Sheffield,university of sheffield
+TCGA-BLCA,TCGA-ZF-AA54,TCGA tissue source site,ZF,University of Sheffield,university of sheffield
+TCGA-BLCA,TCGA-ZF-AA58,TCGA tissue source site,ZF,University of Sheffield,university of sheffield
+TCGA-BLCA,TCGA-ZF-AA5H,TCGA tissue source site,ZF,University of Sheffield,university of sheffield
+TCGA-BLCA,TCGA-ZF-AA5N,TCGA tissue source site,ZF,University of Sheffield,university of sheffield
+TCGA-BLCA,TCGA-ZF-AA5P,TCGA tissue source site,ZF,University of Sheffield,university of sheffield
+TCGA-BLCA,TCGA-4Z-AA87,TCGA tissue source site,4Z,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-BLCA,TCGA-4Z-AA89,TCGA tissue source site,4Z,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-BLCA,TCGA-DK-AA6T,TCGA tissue source site,DK,Memorial Sloan Kettering,memorial sloan kettering
+TCGA-BLCA,TCGA-ZF-A9R9,TCGA tissue source site,ZF,University of Sheffield,university of sheffield
+TCGA-BLCA,TCGA-ZF-A9RC,TCGA tissue source site,ZF,University of Sheffield,university of sheffield
+TCGA-BLCA,TCGA-ZF-A9RD,TCGA tissue source site,ZF,University of Sheffield,university of sheffield
+TCGA-BLCA,TCGA-ZF-A9RF,TCGA tissue source site,ZF,University of Sheffield,university of sheffield
+TCGA-BLCA,TCGA-ZF-A9RN,TCGA tissue source site,ZF,University of Sheffield,university of sheffield
+TCGA-BLCA,TCGA-ZF-AA4V,TCGA tissue source site,ZF,University of Sheffield,university of sheffield
+TCGA-BLCA,TCGA-ZF-AA4W,TCGA tissue source site,ZF,University of Sheffield,university of sheffield
+TCGA-BLCA,TCGA-ZF-AA51,TCGA tissue source site,ZF,University of Sheffield,university of sheffield
+TCGA-BLCA,TCGA-ZF-AA53,TCGA tissue source site,ZF,University of Sheffield,university of sheffield
+TCGA-BLCA,TCGA-ZF-AA56,TCGA tissue source site,ZF,University of Sheffield,university of sheffield
+TCGA-BRCA,TCGA-AO-A03M,TCGA tissue source site,AO,MSKCC,memorial sloan kettering
+TCGA-BRCA,TCGA-AO-A03V,TCGA tissue source site,AO,MSKCC,memorial sloan kettering
+TCGA-BRCA,TCGA-AO-A0J8,TCGA tissue source site,AO,MSKCC,memorial sloan kettering
+TCGA-BRCA,TCGA-AO-A0J9,TCGA tissue source site,AO,MSKCC,memorial sloan kettering
+TCGA-BRCA,TCGA-AO-A0JB,TCGA tissue source site,AO,MSKCC,memorial sloan kettering
+TCGA-BRCA,TCGA-AO-A0JF,TCGA tissue source site,AO,MSKCC,memorial sloan kettering
+TCGA-BRCA,TCGA-AO-A0JI,TCGA tissue source site,AO,MSKCC,memorial sloan kettering
+TCGA-BRCA,TCGA-AO-A0JM,TCGA tissue source site,AO,MSKCC,memorial sloan kettering
+TCGA-BRCA,TCGA-AO-A129,TCGA tissue source site,AO,MSKCC,memorial sloan kettering
+TCGA-BRCA,TCGA-AO-A12D,TCGA tissue source site,AO,MSKCC,memorial sloan kettering
+TCGA-BRCA,TCGA-AO-A12E,TCGA tissue source site,AO,MSKCC,memorial sloan kettering
+TCGA-BRCA,TCGA-AO-A12F,TCGA tissue source site,AO,MSKCC,memorial sloan kettering
+TCGA-BRCA,TCGA-AO-A12G,TCGA tissue source site,AO,MSKCC,memorial sloan kettering
+TCGA-BRCA,TCGA-AQ-A04H,TCGA tissue source site,AQ,UNC,unc
+TCGA-BRCA,TCGA-AR-A1AN,TCGA tissue source site,AR,Mayo,mayo clinic
+TCGA-BRCA,TCGA-AR-A1AQ,TCGA tissue source site,AR,Mayo,mayo clinic
+TCGA-BRCA,TCGA-AR-A1AX,TCGA tissue source site,AR,Mayo,mayo clinic
+TCGA-BRCA,TCGA-AR-A24M,TCGA tissue source site,AR,Mayo,mayo clinic
+TCGA-BRCA,TCGA-AR-A24R,TCGA tissue source site,AR,Mayo,mayo clinic
+TCGA-BRCA,TCGA-AR-A24S,TCGA tissue source site,AR,Mayo,mayo clinic
+TCGA-BRCA,TCGA-AR-A24U,TCGA tissue source site,AR,Mayo,mayo clinic
+TCGA-BRCA,TCGA-AR-A24W,TCGA tissue source site,AR,Mayo,mayo clinic
+TCGA-BRCA,TCGA-AR-A24X,TCGA tissue source site,AR,Mayo,mayo clinic
+TCGA-BRCA,TCGA-AR-A254,TCGA tissue source site,AR,Mayo,mayo clinic
+TCGA-BRCA,TCGA-BH-A0AW,TCGA tissue source site,BH,University of Pittsburgh,university of pittsburgh
+TCGA-BRCA,TCGA-BH-A0AZ,TCGA tissue source site,BH,University of Pittsburgh,university of pittsburgh
+TCGA-BRCA,TCGA-BH-A0B1,TCGA tissue source site,BH,University of Pittsburgh,university of pittsburgh
+TCGA-BRCA,TCGA-BH-A0B3,TCGA tissue source site,BH,University of Pittsburgh,university of pittsburgh
+TCGA-BRCA,TCGA-BH-A0B5,TCGA tissue source site,BH,University of Pittsburgh,university of pittsburgh
+TCGA-BRCA,TCGA-BH-A0B6,TCGA tissue source site,BH,University of Pittsburgh,university of pittsburgh
+TCGA-BRCA,TCGA-BH-A0BG,TCGA tissue source site,BH,University of Pittsburgh,university of pittsburgh
+TCGA-BRCA,TCGA-BH-A0BJ,TCGA tissue source site,BH,University of Pittsburgh,university of pittsburgh
+TCGA-BRCA,TCGA-BH-A0BM,TCGA tissue source site,BH,University of Pittsburgh,university of pittsburgh
+TCGA-BRCA,TCGA-BH-A0BQ,TCGA tissue source site,BH,University of Pittsburgh,university of pittsburgh
+TCGA-BRCA,TCGA-BH-A0BT,TCGA tissue source site,BH,University of Pittsburgh,university of pittsburgh
+TCGA-BRCA,TCGA-BH-A0C0,TCGA tissue source site,BH,University of Pittsburgh,university of pittsburgh
+TCGA-BRCA,TCGA-BH-A0DE,TCGA tissue source site,BH,University of Pittsburgh,university of pittsburgh
+TCGA-BRCA,TCGA-BH-A0DG,TCGA tissue source site,BH,University of Pittsburgh,university of pittsburgh
+TCGA-BRCA,TCGA-BH-A0DH,TCGA tissue source site,BH,University of Pittsburgh,university of pittsburgh
+TCGA-BRCA,TCGA-BH-A0DI,TCGA tissue source site,BH,University of Pittsburgh,university of pittsburgh
+TCGA-BRCA,TCGA-BH-A0DK,TCGA tissue source site,BH,University of Pittsburgh,university of pittsburgh
+TCGA-BRCA,TCGA-BH-A0DT,TCGA tissue source site,BH,University of Pittsburgh,university of pittsburgh
+TCGA-BRCA,TCGA-BH-A0DV,TCGA tissue source site,BH,University of Pittsburgh,university of pittsburgh
+TCGA-BRCA,TCGA-BH-A0DX,TCGA tissue source site,BH,University of Pittsburgh,university of pittsburgh
+TCGA-BRCA,TCGA-BH-A0DZ,TCGA tissue source site,BH,University of Pittsburgh,university of pittsburgh
+TCGA-BRCA,TCGA-BH-A0E0,TCGA tissue source site,BH,University of Pittsburgh,university of pittsburgh
+TCGA-BRCA,TCGA-BH-A0E1,TCGA tissue source site,BH,University of Pittsburgh,university of pittsburgh
+TCGA-BRCA,TCGA-BH-A0E2,TCGA tissue source site,BH,University of Pittsburgh,university of pittsburgh
+TCGA-BRCA,TCGA-BH-A0E9,TCGA tissue source site,BH,University of Pittsburgh,university of pittsburgh
+TCGA-BRCA,TCGA-BH-A0EI,TCGA tissue source site,BH,University of Pittsburgh,university of pittsburgh
+TCGA-BRCA,TCGA-BH-A0GY,TCGA tissue source site,BH,University of Pittsburgh,university of pittsburgh
+TCGA-BRCA,TCGA-BH-A0GZ,TCGA tissue source site,BH,University of Pittsburgh,university of pittsburgh
+TCGA-BRCA,TCGA-BH-A0H3,TCGA tissue source site,BH,University of Pittsburgh,university of pittsburgh
+TCGA-BRCA,TCGA-BH-A0H5,TCGA tissue source site,BH,University of Pittsburgh,university of pittsburgh
+TCGA-BRCA,TCGA-BH-A0H6,TCGA tissue source site,BH,University of Pittsburgh,university of pittsburgh
+TCGA-BRCA,TCGA-BH-A0H7,TCGA tissue source site,BH,University of Pittsburgh,university of pittsburgh
+TCGA-BRCA,TCGA-BH-A0H9,TCGA tissue source site,BH,University of Pittsburgh,university of pittsburgh
+TCGA-BRCA,TCGA-BH-A0HA,TCGA tissue source site,BH,University of Pittsburgh,university of pittsburgh
+TCGA-BRCA,TCGA-BH-A0HI,TCGA tissue source site,BH,University of Pittsburgh,university of pittsburgh
+TCGA-BRCA,TCGA-BH-A0HX,TCGA tissue source site,BH,University of Pittsburgh,university of pittsburgh
+TCGA-BRCA,TCGA-BH-A0HY,TCGA tissue source site,BH,University of Pittsburgh,university of pittsburgh
+TCGA-BRCA,TCGA-BH-A0RX,TCGA tissue source site,BH,University of Pittsburgh,university of pittsburgh
+TCGA-BRCA,TCGA-BH-A0W3,TCGA tissue source site,BH,University of Pittsburgh,university of pittsburgh
+TCGA-BRCA,TCGA-BH-A0W5,TCGA tissue source site,BH,University of Pittsburgh,university of pittsburgh
+TCGA-BRCA,TCGA-BH-A18F,TCGA tissue source site,BH,University of Pittsburgh,university of pittsburgh
+TCGA-BRCA,TCGA-BH-A18H,TCGA tissue source site,BH,University of Pittsburgh,university of pittsburgh
+TCGA-BRCA,TCGA-BH-A18I,TCGA tissue source site,BH,University of Pittsburgh,university of pittsburgh
+TCGA-BRCA,TCGA-BH-A201,TCGA tissue source site,BH,University of Pittsburgh,university of pittsburgh
+TCGA-BRCA,TCGA-BH-A202,TCGA tissue source site,BH,University of Pittsburgh,university of pittsburgh
+TCGA-BRCA,TCGA-BH-A28Q,TCGA tissue source site,BH,University of Pittsburgh,university of pittsburgh
+TCGA-BRCA,TCGA-E2-A105,TCGA tissue source site,E2,Roswell Park,roswell park
+TCGA-BRCA,TCGA-E2-A107,TCGA tissue source site,E2,Roswell Park,roswell park
+TCGA-BRCA,TCGA-E2-A108,TCGA tissue source site,E2,Roswell Park,roswell park
+TCGA-BRCA,TCGA-E2-A109,TCGA tissue source site,E2,Roswell Park,roswell park
+TCGA-BRCA,TCGA-E2-A10F,TCGA tissue source site,E2,Roswell Park,roswell park
+TCGA-BRCA,TCGA-E2-A14N,TCGA tissue source site,E2,Roswell Park,roswell park
+TCGA-BRCA,TCGA-E2-A14P,TCGA tissue source site,E2,Roswell Park,roswell park
+TCGA-BRCA,TCGA-E2-A14Q,TCGA tissue source site,E2,Roswell Park,roswell park
+TCGA-BRCA,TCGA-E2-A14S,TCGA tissue source site,E2,Roswell Park,roswell park
+TCGA-BRCA,TCGA-E2-A14T,TCGA tissue source site,E2,Roswell Park,roswell park
+TCGA-BRCA,TCGA-E2-A14V,TCGA tissue source site,E2,Roswell Park,roswell park
+TCGA-BRCA,TCGA-E2-A14X,TCGA tissue source site,E2,Roswell Park,roswell park
+TCGA-BRCA,TCGA-E2-A14Y,TCGA tissue source site,E2,Roswell Park,roswell park
+TCGA-BRCA,TCGA-E2-A150,TCGA tissue source site,E2,Roswell Park,roswell park
+TCGA-BRCA,TCGA-E2-A152,TCGA tissue source site,E2,Roswell Park,roswell park
+TCGA-BRCA,TCGA-E2-A159,TCGA tissue source site,E2,Roswell Park,roswell park
+TCGA-BRCA,TCGA-E2-A15A,TCGA tissue source site,E2,Roswell Park,roswell park
+TCGA-BRCA,TCGA-E2-A15E,TCGA tissue source site,E2,Roswell Park,roswell park
+TCGA-BRCA,TCGA-E2-A15F,TCGA tissue source site,E2,Roswell Park,roswell park
+TCGA-BRCA,TCGA-E2-A15H,TCGA tissue source site,E2,Roswell Park,roswell park
+TCGA-BRCA,TCGA-E2-A15I,TCGA tissue source site,E2,Roswell Park,roswell park
+TCGA-BRCA,TCGA-E2-A15J,TCGA tissue source site,E2,Roswell Park,roswell park
+TCGA-BRCA,TCGA-E2-A15K,TCGA tissue source site,E2,Roswell Park,roswell park
+TCGA-BRCA,TCGA-E2-A15L,TCGA tissue source site,E2,Roswell Park,roswell park
+TCGA-BRCA,TCGA-E2-A15M,TCGA tissue source site,E2,Roswell Park,roswell park
+TCGA-BRCA,TCGA-E2-A1B1,TCGA tissue source site,E2,Roswell Park,roswell park
+TCGA-BRCA,TCGA-E2-A1B5,TCGA tissue source site,E2,Roswell Park,roswell park
+TCGA-BRCA,TCGA-E2-A1B6,TCGA tissue source site,E2,Roswell Park,roswell park
+TCGA-BRCA,TCGA-E2-A1IE,TCGA tissue source site,E2,Roswell Park,roswell park
+TCGA-BRCA,TCGA-E2-A1IG,TCGA tissue source site,E2,Roswell Park,roswell park
+TCGA-BRCA,TCGA-E2-A1II,TCGA tissue source site,E2,Roswell Park,roswell park
+TCGA-BRCA,TCGA-E2-A1IJ,TCGA tissue source site,E2,Roswell Park,roswell park
+TCGA-BRCA,TCGA-E2-A1IK,TCGA tissue source site,E2,Roswell Park,roswell park
+TCGA-BRCA,TCGA-E2-A1IN,TCGA tissue source site,E2,Roswell Park,roswell park
+TCGA-BRCA,TCGA-E2-A1L7,TCGA tissue source site,E2,Roswell Park,roswell park
+TCGA-BRCA,TCGA-E2-A1L9,TCGA tissue source site,E2,Roswell Park,roswell park
+TCGA-BRCA,TCGA-E2-A1LG,TCGA tissue source site,E2,Roswell Park,roswell park
+TCGA-BRCA,TCGA-EW-A1IY,TCGA tissue source site,EW,University of Miami,university of miami
+TCGA-BRCA,TCGA-EW-A1IZ,TCGA tissue source site,EW,University of Miami,university of miami
+TCGA-BRCA,TCGA-EW-A1J6,TCGA tissue source site,EW,University of Miami,university of miami
+TCGA-BRCA,TCGA-EW-A1OY,TCGA tissue source site,EW,University of Miami,university of miami
+TCGA-BRCA,TCGA-EW-A1OZ,TCGA tissue source site,EW,University of Miami,university of miami
+TCGA-BRCA,TCGA-EW-A1P0,TCGA tissue source site,EW,University of Miami,university of miami
+TCGA-BRCA,TCGA-EW-A1P3,TCGA tissue source site,EW,University of Miami,university of miami
+TCGA-BRCA,TCGA-EW-A1P4,TCGA tissue source site,EW,University of Miami,university of miami
+TCGA-BRCA,TCGA-EW-A1PA,TCGA tissue source site,EW,University of Miami,university of miami
+TCGA-BRCA,TCGA-EW-A1PC,TCGA tissue source site,EW,University of Miami,university of miami
+TCGA-BRCA,TCGA-EW-A2FR,TCGA tissue source site,EW,University of Miami,university of miami
+TCGA-BRCA,TCGA-EW-A2FS,TCGA tissue source site,EW,University of Miami,university of miami
+TCGA-BRCA,TCGA-EW-A3E8,TCGA tissue source site,EW,University of Miami,university of miami
+TCGA-BRCA,TCGA-OL-A5D6,TCGA tissue source site,OL,University of Chicago,university of chicago
+TCGA-BRCA,TCGA-OL-A5D7,TCGA tissue source site,OL,University of Chicago,university of chicago
+TCGA-BRCA,TCGA-OL-A5D8,TCGA tissue source site,OL,University of Chicago,university of chicago
+TCGA-BRCA,TCGA-OL-A5DA,TCGA tissue source site,OL,University of Chicago,university of chicago
+TCGA-BRCA,TCGA-OL-A5RU,TCGA tissue source site,OL,University of Chicago,university of chicago
+TCGA-BRCA,TCGA-OL-A5RV,TCGA tissue source site,OL,University of Chicago,university of chicago
+TCGA-BRCA,TCGA-OL-A5RW,TCGA tissue source site,OL,University of Chicago,university of chicago
+TCGA-BRCA,TCGA-OL-A5RX,TCGA tissue source site,OL,University of Chicago,university of chicago
+TCGA-BRCA,TCGA-OL-A5RZ,TCGA tissue source site,OL,University of Chicago,university of chicago
+TCGA-BRCA,TCGA-OL-A66I,TCGA tissue source site,OL,University of Chicago,university of chicago
+TCGA-BRCA,TCGA-OL-A66J,TCGA tissue source site,OL,University of Chicago,university of chicago
+TCGA-BRCA,TCGA-OL-A66K,TCGA tissue source site,OL,University of Chicago,university of chicago
+TCGA-BRCA,TCGA-OL-A66L,TCGA tissue source site,OL,University of Chicago,university of chicago
+TCGA-BRCA,TCGA-OL-A66N,TCGA tissue source site,OL,University of Chicago,university of chicago
+TCGA-BRCA,TCGA-OL-A66O,TCGA tissue source site,OL,University of Chicago,university of chicago
+TCGA-BRCA,TCGA-OL-A6VO,TCGA tissue source site,OL,University of Chicago,university of chicago
+TCGA-BRCA,TCGA-OL-A6VR,TCGA tissue source site,OL,University of Chicago,university of chicago
+TCGA-CESC,TCGA-VS-A8EB,TCGA tissue source site,VS,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-CESC,TCGA-VS-A8EC,TCGA tissue source site,VS,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-CESC,TCGA-VS-A8EG,TCGA tissue source site,VS,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-CESC,TCGA-VS-A8EH,TCGA tissue source site,VS,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-CESC,TCGA-VS-A8EI,TCGA tissue source site,VS,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-CESC,TCGA-VS-A8EJ,TCGA tissue source site,VS,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-CESC,TCGA-VS-A8EK,TCGA tissue source site,VS,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-CESC,TCGA-VS-A8EL,TCGA tissue source site,VS,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-CESC,TCGA-VS-A8Q8,TCGA tissue source site,VS,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-CESC,TCGA-VS-A8Q9,TCGA tissue source site,VS,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-CESC,TCGA-VS-A8QA,TCGA tissue source site,VS,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-CESC,TCGA-VS-A8QC,TCGA tissue source site,VS,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-CESC,TCGA-VS-A8QF,TCGA tissue source site,VS,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-CESC,TCGA-VS-A8QH,TCGA tissue source site,VS,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-CESC,TCGA-VS-A8QM,TCGA tissue source site,VS,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-CESC,TCGA-VS-A94W,TCGA tissue source site,VS,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-CESC,TCGA-VS-A94X,TCGA tissue source site,VS,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-CESC,TCGA-VS-A94Y,TCGA tissue source site,VS,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-CESC,TCGA-VS-A94Z,TCGA tissue source site,VS,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-CESC,TCGA-VS-A950,TCGA tissue source site,VS,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-CESC,TCGA-VS-A952,TCGA tissue source site,VS,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-CESC,TCGA-VS-A953,TCGA tissue source site,VS,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-CESC,TCGA-VS-A954,TCGA tissue source site,VS,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-CESC,TCGA-VS-A957,TCGA tissue source site,VS,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-CESC,TCGA-VS-A958,TCGA tissue source site,VS,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-CESC,TCGA-VS-A959,TCGA tissue source site,VS,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-CESC,TCGA-VS-A9U5,TCGA tissue source site,VS,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-CESC,TCGA-VS-A9U6,TCGA tissue source site,VS,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-CESC,TCGA-VS-A9U7,TCGA tissue source site,VS,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-CESC,TCGA-VS-A9UA,TCGA tissue source site,VS,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-CESC,TCGA-VS-A9UB,TCGA tissue source site,VS,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-CESC,TCGA-VS-A9UC,TCGA tissue source site,VS,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-CESC,TCGA-VS-A9UD,TCGA tissue source site,VS,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-CESC,TCGA-VS-A9UH,TCGA tissue source site,VS,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-CESC,TCGA-VS-A9UI,TCGA tissue source site,VS,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-CESC,TCGA-VS-A9UJ,TCGA tissue source site,VS,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-CESC,TCGA-VS-A9UL,TCGA tissue source site,VS,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-CESC,TCGA-VS-A9UM,TCGA tissue source site,VS,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-CESC,TCGA-VS-A9UO,TCGA tissue source site,VS,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-CESC,TCGA-VS-A9UP,TCGA tissue source site,VS,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-CESC,TCGA-VS-A9UQ,TCGA tissue source site,VS,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-CESC,TCGA-VS-A9UR,TCGA tissue source site,VS,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-CESC,TCGA-VS-A9UT,TCGA tissue source site,VS,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-CESC,TCGA-VS-A9UU,TCGA tissue source site,VS,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-CESC,TCGA-VS-A9UV,TCGA tissue source site,VS,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-CESC,TCGA-VS-A9UY,TCGA tissue source site,VS,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-CESC,TCGA-VS-A9UZ,TCGA tissue source site,VS,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-CESC,TCGA-VS-A9V0,TCGA tissue source site,VS,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-CESC,TCGA-VS-A9V1,TCGA tissue source site,VS,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-CESC,TCGA-VS-A9V2,TCGA tissue source site,VS,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-CESC,TCGA-VS-A9V3,TCGA tissue source site,VS,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-CESC,TCGA-VS-A9V4,TCGA tissue source site,VS,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-CESC,TCGA-VS-A9V5,TCGA tissue source site,VS,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-CESC,TCGA-VS-AA62,TCGA tissue source site,VS,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-COAD,TCGA-AY-4070A,TCGA tissue source site,AY,UNC,unc
+TCGA-COAD,TCGA-AY-5543A,TCGA tissue source site,AY,UNC,unc
+TCGA-COAD,TCGA-AY-6197A,TCGA tissue source site,AY,UNC,unc
+TCGA-COAD,TCGA-AY-6386A,TCGA tissue source site,AY,UNC,unc
+TCGA-COAD,TCGA-AY-A54L,TCGA tissue source site,AY,UNC,unc
+TCGA-COAD,TCGA-CK-4951,TCGA tissue source site,CK,Harvard,harvard
+TCGA-COAD,TCGA-CK-5915,TCGA tissue source site,CK,Harvard,harvard
+TCGA-COAD,TCGA-CK-5916,TCGA tissue source site,CK,Harvard,harvard
+TCGA-COAD,TCGA-CK-6747,TCGA tissue source site,CK,Harvard,harvard
+TCGA-COAD,TCGA-CK-6748,TCGA tissue source site,CK,Harvard,harvard
+TCGA-COAD,TCGA-G4-6298,TCGA tissue source site,G4,Roswell Park,roswell park
+TCGA-COAD,TCGA-G4-6299,TCGA tissue source site,G4,Roswell Park,roswell park
+TCGA-COAD,TCGA-G4-6303,TCGA tissue source site,G4,Roswell Park,roswell park
+TCGA-COAD,TCGA-G4-6304,TCGA tissue source site,G4,Roswell Park,roswell park
+TCGA-COAD,TCGA-G4-6309,TCGA tissue source site,G4,Roswell Park,roswell park
+TCGA-COAD,TCGA-G4-6310,TCGA tissue source site,G4,Roswell Park,roswell park
+TCGA-COAD,TCGA-G4-6311,TCGA tissue source site,G4,Roswell Park,roswell park
+TCGA-COAD,TCGA-G4-6314,TCGA tissue source site,G4,Roswell Park,roswell park
+TCGA-COAD,TCGA-G4-6315,TCGA tissue source site,G4,Roswell Park,roswell park
+TCGA-COAD,TCGA-G4-6320,TCGA tissue source site,G4,Roswell Park,roswell park
+TCGA-COAD,TCGA-G4-6321,TCGA tissue source site,G4,Roswell Park,roswell park
+TCGA-COAD,TCGA-G4-6323,TCGA tissue source site,G4,Roswell Park,roswell park
+TCGA-COAD,TCGA-G4-6627,TCGA tissue source site,G4,Roswell Park,roswell park
+TCGA-COAD,TCGA-G4-6628,TCGA tissue source site,G4,Roswell Park,roswell park
+TCGA-ESCA,TCGA-VR-A8EO,TCGA tissue source site,VR,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-ESCA,TCGA-VR-A8EP,TCGA tissue source site,VR,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-ESCA,TCGA-VR-A8EQ,TCGA tissue source site,VR,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-ESCA,TCGA-VR-A8ER,TCGA tissue source site,VR,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-ESCA,TCGA-VR-A8ET,TCGA tissue source site,VR,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-ESCA,TCGA-VR-A8EU,TCGA tissue source site,VR,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-ESCA,TCGA-VR-A8EW,TCGA tissue source site,VR,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-ESCA,TCGA-VR-A8EX,TCGA tissue source site,VR,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-ESCA,TCGA-VR-A8EY,TCGA tissue source site,VR,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-ESCA,TCGA-VR-A8EZ,TCGA tissue source site,VR,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-ESCA,TCGA-VR-A8Q7,TCGA tissue source site,VR,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-ESCA,TCGA-VR-AA4D,TCGA tissue source site,VR,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-ESCA,TCGA-VR-AA4G,TCGA tissue source site,VR,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-ESCA,TCGA-VR-AA7B,TCGA tissue source site,VR,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-ESCA,TCGA-VR-AA7D,TCGA tissue source site,VR,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-ESCA,TCGA-VR-AA7I,TCGA tissue source site,VR,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-KICH,TCGA-KM-8438,TCGA tissue source site,KM,NCI Urologic Oncology Branch,nci urologic oncology branch
+TCGA-KICH,TCGA-KM-8440,TCGA tissue source site,KM,NCI Urologic Oncology Branch,nci urologic oncology branch
+TCGA-KICH,TCGA-KM-8441,TCGA tissue source site,KM,NCI Urologic Oncology Branch,nci urologic oncology branch
+TCGA-KICH,TCGA-KM-8442,TCGA tissue source site,KM,NCI Urologic Oncology Branch,nci urologic oncology branch
+TCGA-KICH,TCGA-KM-8443,TCGA tissue source site,KM,NCI Urologic Oncology Branch,nci urologic oncology branch
+TCGA-KICH,TCGA-KM-8477,TCGA tissue source site,KM,NCI Urologic Oncology Branch,nci urologic oncology branch
+TCGA-KICH,TCGA-KM-8639,TCGA tissue source site,KM,NCI Urologic Oncology Branch,nci urologic oncology branch
+TCGA-KICH,TCGA-KN-8419,TCGA tissue source site,KN,Harvard,harvard
+TCGA-KICH,TCGA-KN-8422,TCGA tissue source site,KN,Harvard,harvard
+TCGA-KICH,TCGA-KN-8424,TCGA tissue source site,KN,Harvard,harvard
+TCGA-KICH,TCGA-KN-8425,TCGA tissue source site,KN,Harvard,harvard
+TCGA-KICH,TCGA-KN-8430,TCGA tissue source site,KN,Harvard,harvard
+TCGA-KICH,TCGA-KM-8439,TCGA tissue source site,KM,NCI Urologic Oncology Branch,nci urologic oncology branch
+TCGA-KICH,TCGA-KM-8476,TCGA tissue source site,KM,NCI Urologic Oncology Branch,nci urologic oncology branch
+TCGA-KICH,TCGA-KN-8427,TCGA tissue source site,KN,Harvard,harvard
+TCGA-KIRC,TCGA-B0-4698,TCGA tissue source site,B0,University of Pittsburgh,university of pittsburgh
+TCGA-KIRC,TCGA-B0-4712,TCGA tissue source site,B0,University of Pittsburgh,university of pittsburgh
+TCGA-KIRC,TCGA-B0-4713,TCGA tissue source site,B0,University of Pittsburgh,university of pittsburgh
+TCGA-KIRC,TCGA-B0-4821,TCGA tissue source site,B0,University of Pittsburgh,university of pittsburgh
+TCGA-KIRC,TCGA-B0-4833,TCGA tissue source site,B0,University of Pittsburgh,university of pittsburgh
+TCGA-KIRC,TCGA-B0-4839,TCGA tissue source site,B0,University of Pittsburgh,university of pittsburgh
+TCGA-KIRC,TCGA-B0-4843,TCGA tissue source site,B0,University of Pittsburgh,university of pittsburgh
+TCGA-KIRC,TCGA-B0-4845,TCGA tissue source site,B0,University of Pittsburgh,university of pittsburgh
+TCGA-KIRC,TCGA-B0-5077,TCGA tissue source site,B0,University of Pittsburgh,university of pittsburgh
+TCGA-KIRC,TCGA-B0-5081,TCGA tissue source site,B0,University of Pittsburgh,university of pittsburgh
+TCGA-KIRC,TCGA-B0-5085,TCGA tissue source site,B0,University of Pittsburgh,university of pittsburgh
+TCGA-KIRC,TCGA-B0-5097,TCGA tissue source site,B0,University of Pittsburgh,university of pittsburgh
+TCGA-KIRC,TCGA-B0-5099,TCGA tissue source site,B0,University of Pittsburgh,university of pittsburgh
+TCGA-KIRC,TCGA-B0-5106,TCGA tissue source site,B0,University of Pittsburgh,university of pittsburgh
+TCGA-KIRC,TCGA-B0-5110,TCGA tissue source site,B0,University of Pittsburgh,university of pittsburgh
+TCGA-KIRC,TCGA-B0-5115,TCGA tissue source site,B0,University of Pittsburgh,university of pittsburgh
+TCGA-KIRC,TCGA-B0-5117,TCGA tissue source site,B0,University of Pittsburgh,university of pittsburgh
+TCGA-KIRC,TCGA-B0-5121,TCGA tissue source site,B0,University of Pittsburgh,university of pittsburgh
+TCGA-KIRC,TCGA-B0-5399,TCGA tissue source site,B0,University of Pittsburgh,university of pittsburgh
+TCGA-KIRC,TCGA-B0-5696,TCGA tissue source site,B0,University of Pittsburgh,university of pittsburgh
+TCGA-KIRC,TCGA-B0-5697,TCGA tissue source site,B0,University of Pittsburgh,university of pittsburgh
+TCGA-KIRC,TCGA-B0-5698,TCGA tissue source site,B0,University of Pittsburgh,university of pittsburgh
+TCGA-KIRC,TCGA-B0-5702,TCGA tissue source site,B0,University of Pittsburgh,university of pittsburgh
+TCGA-KIRC,TCGA-B0-5703,TCGA tissue source site,B0,University of Pittsburgh,university of pittsburgh
+TCGA-KIRC,TCGA-B0-5706,TCGA tissue source site,B0,University of Pittsburgh,university of pittsburgh
+TCGA-KIRC,TCGA-B0-5707,TCGA tissue source site,B0,University of Pittsburgh,university of pittsburgh
+TCGA-KIRC,TCGA-B0-5709,TCGA tissue source site,B0,University of Pittsburgh,university of pittsburgh
+TCGA-KIRC,TCGA-B0-5711,TCGA tissue source site,B0,University of Pittsburgh,university of pittsburgh
+TCGA-KIRC,TCGA-B0-5712,TCGA tissue source site,B0,University of Pittsburgh,university of pittsburgh
+TCGA-KIRC,TCGA-B0-5812,TCGA tissue source site,B0,University of Pittsburgh,university of pittsburgh
+TCGA-KIRC,TCGA-B8-4143,TCGA tissue source site,B8,UNC,unc
+TCGA-KIRC,TCGA-B8-4146,TCGA tissue source site,B8,UNC,unc
+TCGA-KIRC,TCGA-B8-4148,TCGA tissue source site,B8,UNC,unc
+TCGA-KIRC,TCGA-B8-4151,TCGA tissue source site,B8,UNC,unc
+TCGA-KIRC,TCGA-B8-4153,TCGA tissue source site,B8,UNC,unc
+TCGA-KIRC,TCGA-B8-4154,TCGA tissue source site,B8,UNC,unc
+TCGA-KIRC,TCGA-B8-4619,TCGA tissue source site,B8,UNC,unc
+TCGA-KIRC,TCGA-B8-4620,TCGA tissue source site,B8,UNC,unc
+TCGA-KIRC,TCGA-B8-4622,TCGA tissue source site,B8,UNC,unc
+TCGA-KIRC,TCGA-B8-5158,TCGA tissue source site,B8,UNC,unc
+TCGA-KIRC,TCGA-B8-5159,TCGA tissue source site,B8,UNC,unc
+TCGA-KIRC,TCGA-B8-5162,TCGA tissue source site,B8,UNC,unc
+TCGA-KIRC,TCGA-B8-5163,TCGA tissue source site,B8,UNC,unc
+TCGA-KIRC,TCGA-B8-5164,TCGA tissue source site,B8,UNC,unc
+TCGA-KIRC,TCGA-B8-5165,TCGA tissue source site,B8,UNC,unc
+TCGA-KIRC,TCGA-B8-5545,TCGA tissue source site,B8,UNC,unc
+TCGA-KIRC,TCGA-B8-5546,TCGA tissue source site,B8,UNC,unc
+TCGA-KIRC,TCGA-B8-5549,TCGA tissue source site,B8,UNC,unc
+TCGA-KIRC,TCGA-B8-5550,TCGA tissue source site,B8,UNC,unc
+TCGA-KIRC,TCGA-B8-5551,TCGA tissue source site,B8,UNC,unc
+TCGA-KIRC,TCGA-B8-5553,TCGA tissue source site,B8,UNC,unc
+TCGA-KIRC,TCGA-B8-A54D,TCGA tissue source site,B8,UNC,unc
+TCGA-KIRC,TCGA-B8-A54E,TCGA tissue source site,B8,UNC,unc
+TCGA-KIRC,TCGA-B8-A54F,TCGA tissue source site,B8,UNC,unc
+TCGA-KIRC,TCGA-B8-A54G,TCGA tissue source site,B8,UNC,unc
+TCGA-KIRC,TCGA-BP-4164,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-4166,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-4167,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-4169,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-4173,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-4177,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-4330,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-4334,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-4335,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-4342,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-4343,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-4345,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-4346,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-4347,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-4349,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-4351,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-4352,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-4353,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-4354,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-4355,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-4759,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-4762,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-4763,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-4766,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-4768,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-4769,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-4770,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-4771,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-4774,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-4775,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-4777,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-4781,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-4782,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-4784,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-4789,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-4790,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-4797,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-4799,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-4801,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-4803,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-4804,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-4807,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-4960,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-4962,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-4964,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-4965,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-4967,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-4970,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-4971,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-4972,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-4975,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-4976,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-4977,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-4982,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-4986,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-4988,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-4989,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-4992,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-4994,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-4995,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-4999,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-5000,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-5001,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-5004,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-5006,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-5007,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-5009,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-5010,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-5168,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-5169,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-5174,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-5175,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-5180,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-5181,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-5183,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-5184,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-5186,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-5187,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-5189,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-5190,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-5191,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-5192,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-5194,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-5195,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-5196,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-5199,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-5200,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-5202,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-CJ-4635,TCGA tissue source site,CJ,MD Anderson Cancer Center,md anderson cancer center
+TCGA-KIRC,TCGA-CJ-4636,TCGA tissue source site,CJ,MD Anderson Cancer Center,md anderson cancer center
+TCGA-KIRC,TCGA-CJ-4637,TCGA tissue source site,CJ,MD Anderson Cancer Center,md anderson cancer center
+TCGA-KIRC,TCGA-CJ-4641,TCGA tissue source site,CJ,MD Anderson Cancer Center,md anderson cancer center
+TCGA-KIRC,TCGA-CJ-4642,TCGA tissue source site,CJ,MD Anderson Cancer Center,md anderson cancer center
+TCGA-KIRC,TCGA-CJ-4643,TCGA tissue source site,CJ,MD Anderson Cancer Center,md anderson cancer center
+TCGA-KIRC,TCGA-CJ-4870,TCGA tissue source site,CJ,MD Anderson Cancer Center,md anderson cancer center
+TCGA-KIRC,TCGA-CJ-4871,TCGA tissue source site,CJ,MD Anderson Cancer Center,md anderson cancer center
+TCGA-KIRC,TCGA-CJ-4872,TCGA tissue source site,CJ,MD Anderson Cancer Center,md anderson cancer center
+TCGA-KIRC,TCGA-CJ-4873,TCGA tissue source site,CJ,MD Anderson Cancer Center,md anderson cancer center
+TCGA-KIRC,TCGA-CJ-4876,TCGA tissue source site,CJ,MD Anderson Cancer Center,md anderson cancer center
+TCGA-KIRC,TCGA-CJ-4884,TCGA tissue source site,CJ,MD Anderson Cancer Center,md anderson cancer center
+TCGA-KIRC,TCGA-CJ-4885,TCGA tissue source site,CJ,MD Anderson Cancer Center,md anderson cancer center
+TCGA-KIRC,TCGA-CJ-4886,TCGA tissue source site,CJ,MD Anderson Cancer Center,md anderson cancer center
+TCGA-KIRC,TCGA-CJ-4887,TCGA tissue source site,CJ,MD Anderson Cancer Center,md anderson cancer center
+TCGA-KIRC,TCGA-CJ-4889,TCGA tissue source site,CJ,MD Anderson Cancer Center,md anderson cancer center
+TCGA-KIRC,TCGA-CJ-4891,TCGA tissue source site,CJ,MD Anderson Cancer Center,md anderson cancer center
+TCGA-KIRC,TCGA-CJ-4892,TCGA tissue source site,CJ,MD Anderson Cancer Center,md anderson cancer center
+TCGA-KIRC,TCGA-CJ-4893,TCGA tissue source site,CJ,MD Anderson Cancer Center,md anderson cancer center
+TCGA-KIRC,TCGA-CJ-4894,TCGA tissue source site,CJ,MD Anderson Cancer Center,md anderson cancer center
+TCGA-KIRC,TCGA-CJ-4895,TCGA tissue source site,CJ,MD Anderson Cancer Center,md anderson cancer center
+TCGA-KIRC,TCGA-CJ-4897,TCGA tissue source site,CJ,MD Anderson Cancer Center,md anderson cancer center
+TCGA-KIRC,TCGA-CJ-4899,TCGA tissue source site,CJ,MD Anderson Cancer Center,md anderson cancer center
+TCGA-KIRC,TCGA-CJ-4900,TCGA tissue source site,CJ,MD Anderson Cancer Center,md anderson cancer center
+TCGA-KIRC,TCGA-CJ-4901,TCGA tissue source site,CJ,MD Anderson Cancer Center,md anderson cancer center
+TCGA-KIRC,TCGA-CJ-4902,TCGA tissue source site,CJ,MD Anderson Cancer Center,md anderson cancer center
+TCGA-KIRC,TCGA-CJ-4903,TCGA tissue source site,CJ,MD Anderson Cancer Center,md anderson cancer center
+TCGA-KIRC,TCGA-CJ-4904,TCGA tissue source site,CJ,MD Anderson Cancer Center,md anderson cancer center
+TCGA-KIRC,TCGA-CJ-4905,TCGA tissue source site,CJ,MD Anderson Cancer Center,md anderson cancer center
+TCGA-KIRC,TCGA-CJ-4907,TCGA tissue source site,CJ,MD Anderson Cancer Center,md anderson cancer center
+TCGA-KIRC,TCGA-CJ-4908,TCGA tissue source site,CJ,MD Anderson Cancer Center,md anderson cancer center
+TCGA-KIRC,TCGA-CJ-4912,TCGA tissue source site,CJ,MD Anderson Cancer Center,md anderson cancer center
+TCGA-KIRC,TCGA-CJ-4913,TCGA tissue source site,CJ,MD Anderson Cancer Center,md anderson cancer center
+TCGA-KIRC,TCGA-CJ-4916,TCGA tissue source site,CJ,MD Anderson Cancer Center,md anderson cancer center
+TCGA-KIRC,TCGA-CJ-4918,TCGA tissue source site,CJ,MD Anderson Cancer Center,md anderson cancer center
+TCGA-KIRC,TCGA-CJ-4920,TCGA tissue source site,CJ,MD Anderson Cancer Center,md anderson cancer center
+TCGA-KIRC,TCGA-CJ-4923,TCGA tissue source site,CJ,MD Anderson Cancer Center,md anderson cancer center
+TCGA-KIRC,TCGA-CJ-5671,TCGA tissue source site,CJ,MD Anderson Cancer Center,md anderson cancer center
+TCGA-KIRC,TCGA-CJ-5672,TCGA tissue source site,CJ,MD Anderson Cancer Center,md anderson cancer center
+TCGA-KIRC,TCGA-CJ-5675,TCGA tissue source site,CJ,MD Anderson Cancer Center,md anderson cancer center
+TCGA-KIRC,TCGA-CJ-5677,TCGA tissue source site,CJ,MD Anderson Cancer Center,md anderson cancer center
+TCGA-KIRC,TCGA-CJ-5678,TCGA tissue source site,CJ,MD Anderson Cancer Center,md anderson cancer center
+TCGA-KIRC,TCGA-CJ-5679,TCGA tissue source site,CJ,MD Anderson Cancer Center,md anderson cancer center
+TCGA-KIRC,TCGA-CJ-5680,TCGA tissue source site,CJ,MD Anderson Cancer Center,md anderson cancer center
+TCGA-KIRC,TCGA-CJ-5681,TCGA tissue source site,CJ,MD Anderson Cancer Center,md anderson cancer center
+TCGA-KIRC,TCGA-CJ-5683,TCGA tissue source site,CJ,MD Anderson Cancer Center,md anderson cancer center
+TCGA-KIRC,TCGA-CJ-5686,TCGA tissue source site,CJ,MD Anderson Cancer Center,md anderson cancer center
+TCGA-KIRC,TCGA-CJ-6027,TCGA tissue source site,CJ,MD Anderson Cancer Center,md anderson cancer center
+TCGA-KIRC,TCGA-CJ-6028,TCGA tissue source site,CJ,MD Anderson Cancer Center,md anderson cancer center
+TCGA-KIRC,TCGA-CJ-6030,TCGA tissue source site,CJ,MD Anderson Cancer Center,md anderson cancer center
+TCGA-KIRC,TCGA-CJ-6033,TCGA tissue source site,CJ,MD Anderson Cancer Center,md anderson cancer center
+TCGA-KIRC,TCGA-CW-5580,TCGA tissue source site,CW,Mayo Clinic - Rochester,mayo clinic
+TCGA-KIRC,TCGA-CW-5581,TCGA tissue source site,CW,Mayo Clinic - Rochester,mayo clinic
+TCGA-KIRC,TCGA-CW-5583,TCGA tissue source site,CW,Mayo Clinic - Rochester,mayo clinic
+TCGA-KIRC,TCGA-CW-5584,TCGA tissue source site,CW,Mayo Clinic - Rochester,mayo clinic
+TCGA-KIRC,TCGA-CW-5585,TCGA tissue source site,CW,Mayo Clinic - Rochester,mayo clinic
+TCGA-KIRC,TCGA-CW-5587,TCGA tissue source site,CW,Mayo Clinic - Rochester,mayo clinic
+TCGA-KIRC,TCGA-CW-5588,TCGA tissue source site,CW,Mayo Clinic - Rochester,mayo clinic
+TCGA-KIRC,TCGA-CW-5589,TCGA tissue source site,CW,Mayo Clinic - Rochester,mayo clinic
+TCGA-KIRC,TCGA-CW-5590,TCGA tissue source site,CW,Mayo Clinic - Rochester,mayo clinic
+TCGA-KIRC,TCGA-CW-6087,TCGA tissue source site,CW,Mayo Clinic - Rochester,mayo clinic
+TCGA-KIRC,TCGA-CW-6088,TCGA tissue source site,CW,Mayo Clinic - Rochester,mayo clinic
+TCGA-KIRC,TCGA-CW-6090,TCGA tissue source site,CW,Mayo Clinic - Rochester,mayo clinic
+TCGA-KIRC,TCGA-CW-6093,TCGA tissue source site,CW,Mayo Clinic - Rochester,mayo clinic
+TCGA-KIRC,TCGA-CW-6096,TCGA tissue source site,CW,Mayo Clinic - Rochester,mayo clinic
+TCGA-KIRC,TCGA-CW-6097,TCGA tissue source site,CW,Mayo Clinic - Rochester,mayo clinic
+TCGA-KIRC,TCGA-CZ-4857,TCGA tissue source site,CZ,Harvard,harvard
+TCGA-KIRC,TCGA-CZ-4858,TCGA tissue source site,CZ,Harvard,harvard
+TCGA-KIRC,TCGA-CZ-4859,TCGA tissue source site,CZ,Harvard,harvard
+TCGA-KIRC,TCGA-CZ-4861,TCGA tissue source site,CZ,Harvard,harvard
+TCGA-KIRC,TCGA-CZ-4862,TCGA tissue source site,CZ,Harvard,harvard
+TCGA-KIRC,TCGA-CZ-4863,TCGA tissue source site,CZ,Harvard,harvard
+TCGA-KIRC,TCGA-CZ-4865,TCGA tissue source site,CZ,Harvard,harvard
+TCGA-KIRC,TCGA-CZ-4866,TCGA tissue source site,CZ,Harvard,harvard
+TCGA-KIRC,TCGA-CZ-5451,TCGA tissue source site,CZ,Harvard,harvard
+TCGA-KIRC,TCGA-CZ-5452,TCGA tissue source site,CZ,Harvard,harvard
+TCGA-KIRC,TCGA-CZ-5462,TCGA tissue source site,CZ,Harvard,harvard
+TCGA-KIRC,TCGA-CZ-5468,TCGA tissue source site,CZ,Harvard,harvard
+TCGA-KIRC,TCGA-CZ-5984,TCGA tissue source site,CZ,Harvard,harvard
+TCGA-KIRC,TCGA-CZ-5985,TCGA tissue source site,CZ,Harvard,harvard
+TCGA-KIRC,TCGA-CZ-5988,TCGA tissue source site,CZ,Harvard,harvard
+TCGA-KIRC,TCGA-DV-5565,TCGA tissue source site,DV,NCI Urologic Oncology Branch,nci urologic oncology branch
+TCGA-KIRC,TCGA-DV-5566,TCGA tissue source site,DV,NCI Urologic Oncology Branch,nci urologic oncology branch
+TCGA-KIRC,TCGA-DV-5567,TCGA tissue source site,DV,NCI Urologic Oncology Branch,nci urologic oncology branch
+TCGA-KIRC,TCGA-DV-5568,TCGA tissue source site,DV,NCI Urologic Oncology Branch,nci urologic oncology branch
+TCGA-KIRC,TCGA-DV-5573,TCGA tissue source site,DV,NCI Urologic Oncology Branch,nci urologic oncology branch
+TCGA-KIRC,TCGA-DV-5574,TCGA tissue source site,DV,NCI Urologic Oncology Branch,nci urologic oncology branch
+TCGA-KIRC,TCGA-DV-5575,TCGA tissue source site,DV,NCI Urologic Oncology Branch,nci urologic oncology branch
+TCGA-KIRC,TCGA-DV-5576,TCGA tissue source site,DV,NCI Urologic Oncology Branch,nci urologic oncology branch
+TCGA-KIRC,TCGA-DV-A4W0,TCGA tissue source site,DV,NCI Urologic Oncology Branch,nci urologic oncology branch
+TCGA-KIRC,TCGA-G6-A5PC,TCGA tissue source site,G6,Roswell Park,roswell park
+TCGA-KIRC,TCGA-G6-A8L6,TCGA tissue source site,G6,Roswell Park,roswell park
+TCGA-KIRC,TCGA-G6-A8L7,TCGA tissue source site,G6,Roswell Park,roswell park
+TCGA-KIRC,TCGA-B0-4849,TCGA tissue source site,B0,University of Pittsburgh,university of pittsburgh
+TCGA-KIRC,TCGA-B0-5109,TCGA tissue source site,B0,University of Pittsburgh,university of pittsburgh
+TCGA-KIRC,TCGA-B8-4621,TCGA tissue source site,B8,UNC,unc
+TCGA-KIRC,TCGA-B8-5552,TCGA tissue source site,B8,UNC,unc
+TCGA-KIRC,TCGA-BP-4170,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-4331,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-4760,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-4761,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-4787,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-4795,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-4963,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-4973,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-5173,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-5176,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-5178,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-5185,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-5198,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-BP-5201,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA-CJ-6031,TCGA tissue source site,CJ,MD Anderson Cancer Center,md anderson cancer center
+TCGA-KIRC,TCGA-CW-5591,TCGA tissue source site,CW,Mayo Clinic - Rochester,mayo clinic
+TCGA-KIRC,TCGA-CZ-4860,TCGA tissue source site,CZ,Harvard,harvard
+TCGA-KIRC,TCGA-CZ-5454,TCGA tissue source site,CZ,Harvard,harvard
+TCGA-KIRC,TCGA-CZ-5455,TCGA tissue source site,CZ,Harvard,harvard
+TCGA-KIRC,TCGA-CZ-5460,TCGA tissue source site,CZ,Harvard,harvard
+TCGA-KIRC,TCGA-CZ-5464,TCGA tissue source site,CZ,Harvard,harvard
+TCGA-KIRC,TCGA-CZ-5466,TCGA tissue source site,CZ,Harvard,harvard
+TCGA-KIRC,TCGA-CZ-5987,TCGA tissue source site,CZ,Harvard,harvard
+TCGA-KIRC,TCGA-CZ-5989,TCGA tissue source site,CZ,Harvard,harvard
+TCGA-KIRC,TCGA-DV-A4VX,TCGA tissue source site,DV,NCI Urologic Oncology Branch,nci urologic oncology branch
+TCGA-KIRC,TCGA-DV-A4VZ,TCGA tissue source site,DV,NCI Urologic Oncology Branch,nci urologic oncology branch
+TCGA-KIRP,TCGA-B9-4113,TCGA tissue source site,B9,UNC,unc
+TCGA-KIRP,TCGA-B9-4114,TCGA tissue source site,B9,UNC,unc
+TCGA-KIRP,TCGA-B9-4117,TCGA tissue source site,B9,UNC,unc
+TCGA-KIRP,TCGA-B9-4617,TCGA tissue source site,B9,UNC,unc
+TCGA-KIRP,TCGA-B9-5156,TCGA tissue source site,B9,UNC,unc
+TCGA-KIRP,TCGA-B9-7268,TCGA tissue source site,B9,UNC,unc
+TCGA-KIRP,TCGA-B9-A44B,TCGA tissue source site,B9,UNC,unc
+TCGA-KIRP,TCGA-DW-5560,TCGA tissue source site,DW,NCI Urologic Oncology Branch,nci urologic oncology branch
+TCGA-KIRP,TCGA-DW-7834,TCGA tissue source site,DW,NCI Urologic Oncology Branch,nci urologic oncology branch
+TCGA-KIRP,TCGA-DW-7836,TCGA tissue source site,DW,NCI Urologic Oncology Branch,nci urologic oncology branch
+TCGA-KIRP,TCGA-DW-7840,TCGA tissue source site,DW,NCI Urologic Oncology Branch,nci urologic oncology branch
+TCGA-KIRP,TCGA-G7-6792,TCGA tissue source site,G7,Roswell Park,roswell park
+TCGA-KIRP,TCGA-G7-6795,TCGA tissue source site,G7,Roswell Park,roswell park
+TCGA-KIRP,TCGA-G7-6796,TCGA tissue source site,G7,Roswell Park,roswell park
+TCGA-KIRP,TCGA-G7-6797,TCGA tissue source site,G7,Roswell Park,roswell park
+TCGA-KIRP,TCGA-G7-7501,TCGA tissue source site,G7,Roswell Park,roswell park
+TCGA-KIRP,TCGA-G7-7502,TCGA tissue source site,G7,Roswell Park,roswell park
+TCGA-KIRP,TCGA-G7-A4TM,TCGA tissue source site,G7,Roswell Park,roswell park
+TCGA-KIRP,TCGA-G7-A8LB,TCGA tissue source site,G7,Roswell Park,roswell park
+TCGA-KIRP,TCGA-G7-A8LC,TCGA tissue source site,G7,Roswell Park,roswell park
+TCGA-KIRP,TCGA-G7-A8LD,TCGA tissue source site,G7,Roswell Park,roswell park
+TCGA-KIRP,TCGA-G7-A8LE,TCGA tissue source site,G7,Roswell Park,roswell park
+TCGA-KIRP,TCGA-IZ-8195,TCGA tissue source site,IZ,ABS - Lahey Clinic,lahey clinic
+TCGA-KIRP,TCGA-B9-4115,TCGA tissue source site,B9,UNC,unc
+TCGA-KIRP,TCGA-B9-4116,TCGA tissue source site,B9,UNC,unc
+TCGA-KIRP,TCGA-B9-5155,TCGA tissue source site,B9,UNC,unc
+TCGA-KIRP,TCGA-DW-5561,TCGA tissue source site,DW,NCI Urologic Oncology Branch,nci urologic oncology branch
+TCGA-KIRP,TCGA-DW-7837,TCGA tissue source site,DW,NCI Urologic Oncology Branch,nci urologic oncology branch
+TCGA-KIRP,TCGA-DW-7838,TCGA tissue source site,DW,NCI Urologic Oncology Branch,nci urologic oncology branch
+TCGA-KIRP,TCGA-DW-7839,TCGA tissue source site,DW,NCI Urologic Oncology Branch,nci urologic oncology branch
+TCGA-KIRP,TCGA-DW-7841,TCGA tissue source site,DW,NCI Urologic Oncology Branch,nci urologic oncology branch
+TCGA-KIRP,TCGA-DW-7842,TCGA tissue source site,DW,NCI Urologic Oncology Branch,nci urologic oncology branch
+TCGA-KIRP,TCGA-IZ-8196,TCGA tissue source site,IZ,ABS - Lahey Clinic,lahey clinic
+TCGA-LIHC,TCGA-BC-A10W,TCGA tissue source site,BC,UNC,unc
+TCGA-LIHC,TCGA-BC-A10X,TCGA tissue source site,BC,UNC,unc
+TCGA-LIHC,TCGA-BC-A10Z,TCGA tissue source site,BC,UNC,unc
+TCGA-LIHC,TCGA-BC-A112,TCGA tissue source site,BC,UNC,unc
+TCGA-LIHC,TCGA-BC-A3KF,TCGA tissue source site,BC,UNC,unc
+TCGA-LIHC,TCGA-BC-A69H,TCGA tissue source site,BC,UNC,unc
+TCGA-LIHC,TCGA-DD-A113,TCGA tissue source site,DD,Mayo Clinic - Rochester,mayo clinic
+TCGA-LIHC,TCGA-DD-A114,TCGA tissue source site,DD,Mayo Clinic - Rochester,mayo clinic
+TCGA-LIHC,TCGA-DD-A115,TCGA tissue source site,DD,Mayo Clinic - Rochester,mayo clinic
+TCGA-LIHC,TCGA-DD-A116,TCGA tissue source site,DD,Mayo Clinic - Rochester,mayo clinic
+TCGA-LIHC,TCGA-DD-A118,TCGA tissue source site,DD,Mayo Clinic - Rochester,mayo clinic
+TCGA-LIHC,TCGA-DD-A119,TCGA tissue source site,DD,Mayo Clinic - Rochester,mayo clinic
+TCGA-LIHC,TCGA-DD-A11A,TCGA tissue source site,DD,Mayo Clinic - Rochester,mayo clinic
+TCGA-LIHC,TCGA-DD-A11C,TCGA tissue source site,DD,Mayo Clinic - Rochester,mayo clinic
+TCGA-LIHC,TCGA-DD-A11D,TCGA tissue source site,DD,Mayo Clinic - Rochester,mayo clinic
+TCGA-LIHC,TCGA-DD-A1E9,TCGA tissue source site,DD,Mayo Clinic - Rochester,mayo clinic
+TCGA-LIHC,TCGA-DD-A1EA,TCGA tissue source site,DD,Mayo Clinic - Rochester,mayo clinic
+TCGA-LIHC,TCGA-DD-A1EB,TCGA tissue source site,DD,Mayo Clinic - Rochester,mayo clinic
+TCGA-LIHC,TCGA-DD-A1EC,TCGA tissue source site,DD,Mayo Clinic - Rochester,mayo clinic
+TCGA-LIHC,TCGA-DD-A1ED,TCGA tissue source site,DD,Mayo Clinic - Rochester,mayo clinic
+TCGA-LIHC,TCGA-DD-A1EE,TCGA tissue source site,DD,Mayo Clinic - Rochester,mayo clinic
+TCGA-LIHC,TCGA-DD-A1EG,TCGA tissue source site,DD,Mayo Clinic - Rochester,mayo clinic
+TCGA-LIHC,TCGA-DD-A1EH,TCGA tissue source site,DD,Mayo Clinic - Rochester,mayo clinic
+TCGA-LIHC,TCGA-DD-A1EI,TCGA tissue source site,DD,Mayo Clinic - Rochester,mayo clinic
+TCGA-LIHC,TCGA-DD-A1EJ,TCGA tissue source site,DD,Mayo Clinic - Rochester,mayo clinic
+TCGA-LIHC,TCGA-DD-A1EK,TCGA tissue source site,DD,Mayo Clinic - Rochester,mayo clinic
+TCGA-LIHC,TCGA-DD-A1EL,TCGA tissue source site,DD,Mayo Clinic - Rochester,mayo clinic
+TCGA-LIHC,TCGA-DD-A39V,TCGA tissue source site,DD,Mayo Clinic - Rochester,mayo clinic
+TCGA-LIHC,TCGA-DD-A39X,TCGA tissue source site,DD,Mayo Clinic - Rochester,mayo clinic
+TCGA-LIHC,TCGA-DD-A39Y,TCGA tissue source site,DD,Mayo Clinic - Rochester,mayo clinic
+TCGA-LIHC,TCGA-DD-A3A0,TCGA tissue source site,DD,Mayo Clinic - Rochester,mayo clinic
+TCGA-LIHC,TCGA-DD-A3A1,TCGA tissue source site,DD,Mayo Clinic - Rochester,mayo clinic
+TCGA-LIHC,TCGA-DD-A3A4,TCGA tissue source site,DD,Mayo Clinic - Rochester,mayo clinic
+TCGA-LIHC,TCGA-DD-A3A6,TCGA tissue source site,DD,Mayo Clinic - Rochester,mayo clinic
+TCGA-LIHC,TCGA-DD-A3A7,TCGA tissue source site,DD,Mayo Clinic - Rochester,mayo clinic
+TCGA-LIHC,TCGA-DD-A3A8,TCGA tissue source site,DD,Mayo Clinic - Rochester,mayo clinic
+TCGA-LIHC,TCGA-DD-A3A9,TCGA tissue source site,DD,Mayo Clinic - Rochester,mayo clinic
+TCGA-LIHC,TCGA-DD-A4NA,TCGA tissue source site,DD,Mayo Clinic - Rochester,mayo clinic
+TCGA-LIHC,TCGA-DD-A4ND,TCGA tissue source site,DD,Mayo Clinic - Rochester,mayo clinic
+TCGA-LIHC,TCGA-DD-A4NE,TCGA tissue source site,DD,Mayo Clinic - Rochester,mayo clinic
+TCGA-LIHC,TCGA-DD-A4NF,TCGA tissue source site,DD,Mayo Clinic - Rochester,mayo clinic
+TCGA-LIHC,TCGA-DD-A4NG,TCGA tissue source site,DD,Mayo Clinic - Rochester,mayo clinic
+TCGA-LIHC,TCGA-DD-A4NI,TCGA tissue source site,DD,Mayo Clinic - Rochester,mayo clinic
+TCGA-LIHC,TCGA-DD-A4NJ,TCGA tissue source site,DD,Mayo Clinic - Rochester,mayo clinic
+TCGA-LIHC,TCGA-DD-A4NK,TCGA tissue source site,DD,Mayo Clinic - Rochester,mayo clinic
+TCGA-LIHC,TCGA-DD-A4NL,TCGA tissue source site,DD,Mayo Clinic - Rochester,mayo clinic
+TCGA-LIHC,TCGA-DD-A4NN,TCGA tissue source site,DD,Mayo Clinic - Rochester,mayo clinic
+TCGA-LIHC,TCGA-DD-A4NO,TCGA tissue source site,DD,Mayo Clinic - Rochester,mayo clinic
+TCGA-LIHC,TCGA-DD-A4NQ,TCGA tissue source site,DD,Mayo Clinic - Rochester,mayo clinic
+TCGA-LIHC,TCGA-DD-A4NR,TCGA tissue source site,DD,Mayo Clinic - Rochester,mayo clinic
+TCGA-LIHC,TCGA-DD-A4NS,TCGA tissue source site,DD,Mayo Clinic - Rochester,mayo clinic
+TCGA-LIHC,TCGA-DD-A4NV,TCGA tissue source site,DD,Mayo Clinic - Rochester,mayo clinic
+TCGA-LIHC,TCGA-G3-A25S,TCGA tissue source site,G3,Alberta Health Services,alberta health services
+TCGA-LIHC,TCGA-G3-A25U,TCGA tissue source site,G3,Alberta Health Services,alberta health services
+TCGA-LIHC,TCGA-G3-A25X,TCGA tissue source site,G3,Alberta Health Services,alberta health services
+TCGA-LIHC,TCGA-G3-A25Y,TCGA tissue source site,G3,Alberta Health Services,alberta health services
+TCGA-LIHC,TCGA-G3-A25Z,TCGA tissue source site,G3,Alberta Health Services,alberta health services
+TCGA-LIHC,TCGA-G3-A3CG,TCGA tissue source site,G3,Alberta Health Services,alberta health services
+TCGA-LIHC,TCGA-G3-A3CH,TCGA tissue source site,G3,Alberta Health Services,alberta health services
+TCGA-LIHC,TCGA-G3-A3CI,TCGA tissue source site,G3,Alberta Health Services,alberta health services
+TCGA-LIHC,TCGA-G3-A3CK,TCGA tissue source site,G3,Alberta Health Services,alberta health services
+TCGA-LIHC,TCGA-G3-A5SI,TCGA tissue source site,G3,Alberta Health Services,alberta health services
+TCGA-LIHC,TCGA-G3-A5SJ,TCGA tissue source site,G3,Alberta Health Services,alberta health services
+TCGA-LIHC,TCGA-G3-A5SK,TCGA tissue source site,G3,Alberta Health Services,alberta health services
+TCGA-LIHC,TCGA-G3-A5SL,TCGA tissue source site,G3,Alberta Health Services,alberta health services
+TCGA-LIHC,TCGA-G3-A6UC,TCGA tissue source site,G3,Alberta Health Services,alberta health services
+TCGA-LIHC,TCGA-G3-A7M5,TCGA tissue source site,G3,Alberta Health Services,alberta health services
+TCGA-LIHC,TCGA-G3-A7M8,TCGA tissue source site,G3,Alberta Health Services,alberta health services
+TCGA-LIHC,TCGA-G3-A7M9,TCGA tissue source site,G3,Alberta Health Services,alberta health services
+TCGA-LIHC,TCGA-G3-AAUZ,TCGA tissue source site,G3,Alberta Health Services,alberta health services
+TCGA-LIHC,TCGA-G3-AAV4,TCGA tissue source site,G3,Alberta Health Services,alberta health services
+TCGA-LIHC,TCGA-G3-AAV5,TCGA tissue source site,G3,Alberta Health Services,alberta health services
+TCGA-LIHC,TCGA-G3-AAV6,TCGA tissue source site,G3,Alberta Health Services,alberta health services
+TCGA-LIHC,TCGA-K7-A5RG,TCGA tissue source site,K7,ABS - Lahey Clinic,lahey clinic
+TCGA-LIHC,TCGA-K7-A6G5,TCGA tissue source site,K7,ABS - Lahey Clinic,lahey clinic
+TCGA-LIHC,TCGA-BC-4073,TCGA tissue source site,BC,UNC,unc
+TCGA-LIHC,TCGA-BC-A10Y,TCGA tissue source site,BC,UNC,unc
+TCGA-LIHC,TCGA-BC-A110,TCGA tissue source site,BC,UNC,unc
+TCGA-LIHC,TCGA-BC-A216,TCGA tissue source site,BC,UNC,unc
+TCGA-LIHC,TCGA-BC-A217,TCGA tissue source site,BC,UNC,unc
+TCGA-LIHC,TCGA-BC-A3KG,TCGA tissue source site,BC,UNC,unc
+TCGA-LIHC,TCGA-BC-A5W4,TCGA tissue source site,BC,UNC,unc
+TCGA-LIHC,TCGA-BC-A69I,TCGA tissue source site,BC,UNC,unc
+TCGA-LIHC,TCGA-DD-A11B,TCGA tissue source site,DD,Mayo Clinic - Rochester,mayo clinic
+TCGA-LIHC,TCGA-DD-A1EF,TCGA tissue source site,DD,Mayo Clinic - Rochester,mayo clinic
+TCGA-LIHC,TCGA-DD-A4NB,TCGA tissue source site,DD,Mayo Clinic - Rochester,mayo clinic
+TCGA-LIHC,TCGA-DD-A4NH,TCGA tissue source site,DD,Mayo Clinic - Rochester,mayo clinic
+TCGA-LIHC,TCGA-DD-A4NP,TCGA tissue source site,DD,Mayo Clinic - Rochester,mayo clinic
+TCGA-LIHC,TCGA-G3-A25T,TCGA tissue source site,G3,Alberta Health Services,alberta health services
+TCGA-LIHC,TCGA-G3-A3CJ,TCGA tissue source site,G3,Alberta Health Services,alberta health services
+TCGA-LIHC,TCGA-G3-A7M7,TCGA tissue source site,G3,Alberta Health Services,alberta health services
+TCGA-LIHC,TCGA-G3-AAV1,TCGA tissue source site,G3,Alberta Health Services,alberta health services
+TCGA-LIHC,TCGA-G3-AAV2,TCGA tissue source site,G3,Alberta Health Services,alberta health services
+TCGA-LIHC,TCGA-G3-AAV3,TCGA tissue source site,G3,Alberta Health Services,alberta health services
+TCGA-LIHC,TCGA-G3-AAV7,TCGA tissue source site,G3,Alberta Health Services,alberta health services
+TCGA-LIHC,TCGA-K7-A5RF,TCGA tissue source site,K7,ABS - Lahey Clinic,lahey clinic
+TCGA-LIHC,TCGA-K7-AAU7,TCGA tissue source site,K7,ABS - Lahey Clinic,lahey clinic
+TCGA-LUAD,TCGA-17-Z011,TCGA tissue source site,17,Washington University,washington university
+TCGA-LUAD,TCGA-17-Z013,TCGA tissue source site,17,Washington University,washington university
+TCGA-LUAD,TCGA-17-Z015,TCGA tissue source site,17,Washington University,washington university
+TCGA-LUAD,TCGA-17-Z016,TCGA tissue source site,17,Washington University,washington university
+TCGA-LUAD,TCGA-17-Z017,TCGA tissue source site,17,Washington University,washington university
+TCGA-LUAD,TCGA-17-Z018,TCGA tissue source site,17,Washington University,washington university
+TCGA-LUAD,TCGA-17-Z019,TCGA tissue source site,17,Washington University,washington university
+TCGA-LUAD,TCGA-17-Z020,TCGA tissue source site,17,Washington University,washington university
+TCGA-LUAD,TCGA-17-Z021,TCGA tissue source site,17,Washington University,washington university
+TCGA-LUAD,TCGA-17-Z023,TCGA tissue source site,17,Washington University,washington university
+TCGA-LUAD,TCGA-17-Z024,TCGA tissue source site,17,Washington University,washington university
+TCGA-LUAD,TCGA-17-Z027,TCGA tissue source site,17,Washington University,washington university
+TCGA-LUAD,TCGA-17-Z028,TCGA tissue source site,17,Washington University,washington university
+TCGA-LUAD,TCGA-17-Z029,TCGA tissue source site,17,Washington University,washington university
+TCGA-LUAD,TCGA-17-Z030,TCGA tissue source site,17,Washington University,washington university
+TCGA-LUAD,TCGA-17-Z031,TCGA tissue source site,17,Washington University,washington university
+TCGA-LUAD,TCGA-17-Z032,TCGA tissue source site,17,Washington University,washington university
+TCGA-LUAD,TCGA-17-Z033,TCGA tissue source site,17,Washington University,washington university
+TCGA-LUAD,TCGA-17-Z034,TCGA tissue source site,17,Washington University,washington university
+TCGA-LUAD,TCGA-17-Z035,TCGA tissue source site,17,Washington University,washington university
+TCGA-LUAD,TCGA-17-Z036,TCGA tissue source site,17,Washington University,washington university
+TCGA-LUAD,TCGA-17-Z038,TCGA tissue source site,17,Washington University,washington university
+TCGA-LUAD,TCGA-17-Z039,TCGA tissue source site,17,Washington University,washington university
+TCGA-LUAD,TCGA-17-Z042,TCGA tissue source site,17,Washington University,washington university
+TCGA-LUAD,TCGA-17-Z043,TCGA tissue source site,17,Washington University,washington university
+TCGA-LUAD,TCGA-17-Z045,TCGA tissue source site,17,Washington University,washington university
+TCGA-LUAD,TCGA-17-Z048,TCGA tissue source site,17,Washington University,washington university
+TCGA-LUAD,TCGA-17-Z050,TCGA tissue source site,17,Washington University,washington university
+TCGA-LUAD,TCGA-17-Z051,TCGA tissue source site,17,Washington University,washington university
+TCGA-LUAD,TCGA-17-Z052,TCGA tissue source site,17,Washington University,washington university
+TCGA-LUAD,TCGA-17-Z053,TCGA tissue source site,17,Washington University,washington university
+TCGA-LUAD,TCGA-17-Z054,TCGA tissue source site,17,Washington University,washington university
+TCGA-LUAD,TCGA-17-Z056,TCGA tissue source site,17,Washington University,washington university
+TCGA-LUAD,TCGA-17-Z058,TCGA tissue source site,17,Washington University,washington university
+TCGA-LUAD,TCGA-17-Z059,TCGA tissue source site,17,Washington University,washington university
+TCGA-LUAD,TCGA-17-Z060,TCGA tissue source site,17,Washington University,washington university
+TCGA-LUAD,TCGA-17-Z061,TCGA tissue source site,17,Washington University,washington university
+TCGA-LUAD,TCGA-17-Z062,TCGA tissue source site,17,Washington University,washington university
+TCGA-LUAD,TCGA-38-4625,TCGA tissue source site,38,UNC,unc
+TCGA-LUAD,TCGA-38-4626,TCGA tissue source site,38,UNC,unc
+TCGA-LUAD,TCGA-38-4628,TCGA tissue source site,38,UNC,unc
+TCGA-LUAD,TCGA-38-4629,TCGA tissue source site,38,UNC,unc
+TCGA-LUAD,TCGA-38-6178,TCGA tissue source site,38,UNC,unc
+TCGA-LUAD,TCGA-38-A44F,TCGA tissue source site,38,UNC,unc
+TCGA-LUAD,TCGA-50-5044,TCGA tissue source site,50,University of Pittsburgh,university of pittsburgh
+TCGA-LUAD,TCGA-50-5045,TCGA tissue source site,50,University of Pittsburgh,university of pittsburgh
+TCGA-LUAD,TCGA-50-5049,TCGA tissue source site,50,University of Pittsburgh,university of pittsburgh
+TCGA-LUAD,TCGA-50-5051,TCGA tissue source site,50,University of Pittsburgh,university of pittsburgh
+TCGA-LUAD,TCGA-50-5066,TCGA tissue source site,50,University of Pittsburgh,university of pittsburgh
+TCGA-LUAD,TCGA-50-5072,TCGA tissue source site,50,University of Pittsburgh,university of pittsburgh
+TCGA-LUAD,TCGA-50-5936,TCGA tissue source site,50,University of Pittsburgh,university of pittsburgh
+TCGA-LUAD,TCGA-50-5941,TCGA tissue source site,50,University of Pittsburgh,university of pittsburgh
+TCGA-LUAD,TCGA-50-5942,TCGA tissue source site,50,University of Pittsburgh,university of pittsburgh
+TCGA-LUAD,TCGA-50-5946,TCGA tissue source site,50,University of Pittsburgh,university of pittsburgh
+TCGA-LUAD,TCGA-50-6590,TCGA tissue source site,50,University of Pittsburgh,university of pittsburgh
+TCGA-LUAD,TCGA-50-6591,TCGA tissue source site,50,University of Pittsburgh,university of pittsburgh
+TCGA-LUAD,TCGA-50-6592,TCGA tissue source site,50,University of Pittsburgh,university of pittsburgh
+TCGA-LUAD,TCGA-50-6593,TCGA tissue source site,50,University of Pittsburgh,university of pittsburgh
+TCGA-LUAD,TCGA-50-6594,TCGA tissue source site,50,University of Pittsburgh,university of pittsburgh
+TCGA-LUAD,TCGA-50-6595,TCGA tissue source site,50,University of Pittsburgh,university of pittsburgh
+TCGA-LUAD,TCGA-50-6673,TCGA tissue source site,50,University of Pittsburgh,university of pittsburgh
+TCGA-LUAD,TCGA-50-8459,TCGA tissue source site,50,University of Pittsburgh,university of pittsburgh
+TCGA-LUAD,TCGA-50-8460,TCGA tissue source site,50,University of Pittsburgh,university of pittsburgh
+TCGA-LUAD,TCGA-J2-8192,TCGA tissue source site,J2,ABS - Lahey Clinic,lahey clinic
+TCGA-LUAD,TCGA-J2-A4AD,TCGA tissue source site,J2,ABS - Lahey Clinic,lahey clinic
+TCGA-LUAD,TCGA-J2-A4AE,TCGA tissue source site,J2,ABS - Lahey Clinic,lahey clinic
+TCGA-LUAD,TCGA-J2-A4AG,TCGA tissue source site,J2,ABS - Lahey Clinic,lahey clinic
+TCGA-LUSC,TCGA-34-2605,TCGA tissue source site,34,University of Pittsburgh,university of pittsburgh
+TCGA-LUSC,TCGA-34-2609,TCGA tissue source site,34,University of Pittsburgh,university of pittsburgh
+TCGA-LUSC,TCGA-34-5231,TCGA tissue source site,34,University of Pittsburgh,university of pittsburgh
+TCGA-LUSC,TCGA-34-5232,TCGA tissue source site,34,University of Pittsburgh,university of pittsburgh
+TCGA-LUSC,TCGA-34-5234,TCGA tissue source site,34,University of Pittsburgh,university of pittsburgh
+TCGA-LUSC,TCGA-34-5236,TCGA tissue source site,34,University of Pittsburgh,university of pittsburgh
+TCGA-LUSC,TCGA-34-5239,TCGA tissue source site,34,University of Pittsburgh,university of pittsburgh
+TCGA-LUSC,TCGA-34-5240,TCGA tissue source site,34,University of Pittsburgh,university of pittsburgh
+TCGA-LUSC,TCGA-34-5241,TCGA tissue source site,34,University of Pittsburgh,university of pittsburgh
+TCGA-LUSC,TCGA-34-5928,TCGA tissue source site,34,University of Pittsburgh,university of pittsburgh
+TCGA-LUSC,TCGA-34-7107,TCGA tissue source site,34,University of Pittsburgh,university of pittsburgh
+TCGA-LUSC,TCGA-34-8454,TCGA tissue source site,34,University of Pittsburgh,university of pittsburgh
+TCGA-LUSC,TCGA-34-8455,TCGA tissue source site,34,University of Pittsburgh,university of pittsburgh
+TCGA-LUSC,TCGA-34-A5IX,TCGA tissue source site,34,University of Pittsburgh,university of pittsburgh
+TCGA-LUSC,TCGA-51-4079,TCGA tissue source site,51,UNC,unc
+TCGA-LUSC,TCGA-51-4080,TCGA tissue source site,51,UNC,unc
+TCGA-LUSC,TCGA-51-6867,TCGA tissue source site,51,UNC,unc
+TCGA-LUSC,TCGA-60-2695,TCGA tissue source site,60,Roswell Park,roswell park
+TCGA-LUSC,TCGA-60-2696,TCGA tissue source site,60,Roswell Park,roswell park
+TCGA-LUSC,TCGA-60-2710,TCGA tissue source site,60,Roswell Park,roswell park
+TCGA-LUSC,TCGA-60-2711,TCGA tissue source site,60,Roswell Park,roswell park
+TCGA-LUSC,TCGA-60-2712,TCGA tissue source site,60,Roswell Park,roswell park
+TCGA-LUSC,TCGA-60-2715,TCGA tissue source site,60,Roswell Park,roswell park
+TCGA-LUSC,TCGA-60-2716,TCGA tissue source site,60,Roswell Park,roswell park
+TCGA-LUSC,TCGA-60-2719,TCGA tissue source site,60,Roswell Park,roswell park
+TCGA-LUSC,TCGA-60-2721,TCGA tissue source site,60,Roswell Park,roswell park
+TCGA-LUSC,TCGA-60-2722,TCGA tissue source site,60,Roswell Park,roswell park
+TCGA-LUSC,TCGA-60-2723,TCGA tissue source site,60,Roswell Park,roswell park
+TCGA-LUSC,TCGA-60-2724,TCGA tissue source site,60,Roswell Park,roswell park
+TCGA-LUSC,TCGA-60-2725,TCGA tissue source site,60,Roswell Park,roswell park
+TCGA-LUSC,TCGA-60-2726,TCGA tissue source site,60,Roswell Park,roswell park
+TCGA-LUSC,TCGA-92-7340,TCGA tissue source site,92,Washington University - St. Louis,washington university
+TCGA-LUSC,TCGA-92-7341,TCGA tissue source site,92,Washington University - St. Louis,washington university
+TCGA-LUSC,TCGA-92-8063,TCGA tissue source site,92,Washington University - St. Louis,washington university
+TCGA-LUSC,TCGA-92-8064,TCGA tissue source site,92,Washington University - St. Louis,washington university
+TCGA-LUSC,TCGA-92-8065,TCGA tissue source site,92,Washington University - St. Louis,washington university
+TCGA-LUSC,TCGA-J1-A4AH,TCGA tissue source site,J1,ABS - Lahey Clinic,lahey clinic
+TCGA-OV,TCGA-09-0364,TCGA tissue source site,09,UCSF,ucsf
+TCGA-OV,TCGA-09-0367,TCGA tissue source site,09,UCSF,ucsf
+TCGA-OV,TCGA-09-0369,TCGA tissue source site,09,UCSF,ucsf
+TCGA-OV,TCGA-09-1659,TCGA tissue source site,09,UCSF,ucsf
+TCGA-OV,TCGA-09-1667,TCGA tissue source site,09,UCSF,ucsf
+TCGA-OV,TCGA-09-1669,TCGA tissue source site,09,UCSF,ucsf
+TCGA-OV,TCGA-09-1672,TCGA tissue source site,09,UCSF,ucsf
+TCGA-OV,TCGA-09-1673,TCGA tissue source site,09,UCSF,ucsf
+TCGA-OV,TCGA-09-1674,TCGA tissue source site,09,UCSF,ucsf
+TCGA-OV,TCGA-09-1675,TCGA tissue source site,09,UCSF,ucsf
+TCGA-OV,TCGA-09-2043,TCGA tissue source site,09,UCSF,ucsf
+TCGA-OV,TCGA-09-2044,TCGA tissue source site,09,UCSF,ucsf
+TCGA-OV,TCGA-09-2045,TCGA tissue source site,09,UCSF,ucsf
+TCGA-OV,TCGA-09-2050,TCGA tissue source site,09,UCSF,ucsf
+TCGA-OV,TCGA-09-2051,TCGA tissue source site,09,UCSF,ucsf
+TCGA-OV,TCGA-09-2053,TCGA tissue source site,09,UCSF,ucsf
+TCGA-OV,TCGA-09-2054,TCGA tissue source site,09,UCSF,ucsf
+TCGA-OV,TCGA-09-2055,TCGA tissue source site,09,UCSF,ucsf
+TCGA-OV,TCGA-10-0925,TCGA tissue source site,10,MD Anderson Cancer Center,md anderson cancer center
+TCGA-OV,TCGA-10-0927,TCGA tissue source site,10,MD Anderson Cancer Center,md anderson cancer center
+TCGA-OV,TCGA-10-0931,TCGA tissue source site,10,MD Anderson Cancer Center,md anderson cancer center
+TCGA-OV,TCGA-10-0933,TCGA tissue source site,10,MD Anderson Cancer Center,md anderson cancer center
+TCGA-OV,TCGA-10-0934,TCGA tissue source site,10,MD Anderson Cancer Center,md anderson cancer center
+TCGA-OV,TCGA-10-0935,TCGA tissue source site,10,MD Anderson Cancer Center,md anderson cancer center
+TCGA-OV,TCGA-10-0936,TCGA tissue source site,10,MD Anderson Cancer Center,md anderson cancer center
+TCGA-OV,TCGA-10-0937,TCGA tissue source site,10,MD Anderson Cancer Center,md anderson cancer center
+TCGA-OV,TCGA-13-0720,TCGA tissue source site,13,Memorial Sloan Kettering,memorial sloan kettering
+TCGA-OV,TCGA-13-0724,TCGA tissue source site,13,Memorial Sloan Kettering,memorial sloan kettering
+TCGA-OV,TCGA-13-0761,TCGA tissue source site,13,Memorial Sloan Kettering,memorial sloan kettering
+TCGA-OV,TCGA-13-0762,TCGA tissue source site,13,Memorial Sloan Kettering,memorial sloan kettering
+TCGA-OV,TCGA-13-0768,TCGA tissue source site,13,Memorial Sloan Kettering,memorial sloan kettering
+TCGA-OV,TCGA-13-0793,TCGA tissue source site,13,Memorial Sloan Kettering,memorial sloan kettering
+TCGA-OV,TCGA-13-0794,TCGA tissue source site,13,Memorial Sloan Kettering,memorial sloan kettering
+TCGA-OV,TCGA-13-0795,TCGA tissue source site,13,Memorial Sloan Kettering,memorial sloan kettering
+TCGA-OV,TCGA-13-0797,TCGA tissue source site,13,Memorial Sloan Kettering,memorial sloan kettering
+TCGA-OV,TCGA-13-0799,TCGA tissue source site,13,Memorial Sloan Kettering,memorial sloan kettering
+TCGA-OV,TCGA-13-0800,TCGA tissue source site,13,Memorial Sloan Kettering,memorial sloan kettering
+TCGA-OV,TCGA-13-0802,TCGA tissue source site,13,Memorial Sloan Kettering,memorial sloan kettering
+TCGA-OV,TCGA-13-0807,TCGA tissue source site,13,Memorial Sloan Kettering,memorial sloan kettering
+TCGA-OV,TCGA-13-0883,TCGA tissue source site,13,Memorial Sloan Kettering,memorial sloan kettering
+TCGA-OV,TCGA-13-0904,TCGA tissue source site,13,Memorial Sloan Kettering,memorial sloan kettering
+TCGA-OV,TCGA-13-0910,TCGA tissue source site,13,Memorial Sloan Kettering,memorial sloan kettering
+TCGA-OV,TCGA-13-0911,TCGA tissue source site,13,Memorial Sloan Kettering,memorial sloan kettering
+TCGA-OV,TCGA-13-0916,TCGA tissue source site,13,Memorial Sloan Kettering,memorial sloan kettering
+TCGA-OV,TCGA-13-0920,TCGA tissue source site,13,Memorial Sloan Kettering,memorial sloan kettering
+TCGA-OV,TCGA-13-0921,TCGA tissue source site,13,Memorial Sloan Kettering,memorial sloan kettering
+TCGA-OV,TCGA-13-0924,TCGA tissue source site,13,Memorial Sloan Kettering,memorial sloan kettering
+TCGA-OV,TCGA-13-1405,TCGA tissue source site,13,Memorial Sloan Kettering,memorial sloan kettering
+TCGA-OV,TCGA-13-1408,TCGA tissue source site,13,Memorial Sloan Kettering,memorial sloan kettering
+TCGA-OV,TCGA-13-1409,TCGA tissue source site,13,Memorial Sloan Kettering,memorial sloan kettering
+TCGA-OV,TCGA-13-1410,TCGA tissue source site,13,Memorial Sloan Kettering,memorial sloan kettering
+TCGA-OV,TCGA-13-1411,TCGA tissue source site,13,Memorial Sloan Kettering,memorial sloan kettering
+TCGA-OV,TCGA-13-1412,TCGA tissue source site,13,Memorial Sloan Kettering,memorial sloan kettering
+TCGA-OV,TCGA-13-1484,TCGA tissue source site,13,Memorial Sloan Kettering,memorial sloan kettering
+TCGA-OV,TCGA-13-1488,TCGA tissue source site,13,Memorial Sloan Kettering,memorial sloan kettering
+TCGA-OV,TCGA-13-1495,TCGA tissue source site,13,Memorial Sloan Kettering,memorial sloan kettering
+TCGA-OV,TCGA-13-1499,TCGA tissue source site,13,Memorial Sloan Kettering,memorial sloan kettering
+TCGA-OV,TCGA-13-1504,TCGA tissue source site,13,Memorial Sloan Kettering,memorial sloan kettering
+TCGA-OV,TCGA-13-1505,TCGA tissue source site,13,Memorial Sloan Kettering,memorial sloan kettering
+TCGA-OV,TCGA-13-1506,TCGA tissue source site,13,Memorial Sloan Kettering,memorial sloan kettering
+TCGA-OV,TCGA-13-1507,TCGA tissue source site,13,Memorial Sloan Kettering,memorial sloan kettering
+TCGA-OV,TCGA-13-1509,TCGA tissue source site,13,Memorial Sloan Kettering,memorial sloan kettering
+TCGA-OV,TCGA-13-1511,TCGA tissue source site,13,Memorial Sloan Kettering,memorial sloan kettering
+TCGA-OV,TCGA-13-2057,TCGA tissue source site,13,Memorial Sloan Kettering,memorial sloan kettering
+TCGA-OV,TCGA-13-2059,TCGA tissue source site,13,Memorial Sloan Kettering,memorial sloan kettering
+TCGA-OV,TCGA-13-2060,TCGA tissue source site,13,Memorial Sloan Kettering,memorial sloan kettering
+TCGA-OV,TCGA-13-2066,TCGA tissue source site,13,Memorial Sloan Kettering,memorial sloan kettering
+TCGA-OV,TCGA-13-2071,TCGA tissue source site,13,Memorial Sloan Kettering,memorial sloan kettering
+TCGA-OV,TCGA-24-0966,TCGA tissue source site,24,Washington University,washington university
+TCGA-OV,TCGA-24-0970,TCGA tissue source site,24,Washington University,washington university
+TCGA-OV,TCGA-24-0975,TCGA tissue source site,24,Washington University,washington university
+TCGA-OV,TCGA-24-0980,TCGA tissue source site,24,Washington University,washington university
+TCGA-OV,TCGA-24-1103,TCGA tissue source site,24,Washington University,washington university
+TCGA-OV,TCGA-24-1413,TCGA tissue source site,24,Washington University,washington university
+TCGA-OV,TCGA-24-1418,TCGA tissue source site,24,Washington University,washington university
+TCGA-OV,TCGA-24-1423,TCGA tissue source site,24,Washington University,washington university
+TCGA-OV,TCGA-24-1425,TCGA tissue source site,24,Washington University,washington university
+TCGA-OV,TCGA-24-1427,TCGA tissue source site,24,Washington University,washington university
+TCGA-OV,TCGA-24-1614,TCGA tissue source site,24,Washington University,washington university
+TCGA-OV,TCGA-24-1616,TCGA tissue source site,24,Washington University,washington university
+TCGA-OV,TCGA-24-1932,TCGA tissue source site,24,Washington University,washington university
+TCGA-OV,TCGA-24-2254,TCGA tissue source site,24,Washington University,washington university
+TCGA-OV,TCGA-25-1314,TCGA tissue source site,25,Mayo Clinic - Rochester,mayo clinic
+TCGA-OV,TCGA-25-1315,TCGA tissue source site,25,Mayo Clinic - Rochester,mayo clinic
+TCGA-OV,TCGA-25-1316,TCGA tissue source site,25,Mayo Clinic - Rochester,mayo clinic
+TCGA-OV,TCGA-25-1318,TCGA tissue source site,25,Mayo Clinic - Rochester,mayo clinic
+TCGA-OV,TCGA-25-1320,TCGA tissue source site,25,Mayo Clinic - Rochester,mayo clinic
+TCGA-OV,TCGA-25-1321,TCGA tissue source site,25,Mayo Clinic - Rochester,mayo clinic
+TCGA-OV,TCGA-25-1322,TCGA tissue source site,25,Mayo Clinic - Rochester,mayo clinic
+TCGA-OV,TCGA-25-1325,TCGA tissue source site,25,Mayo Clinic - Rochester,mayo clinic
+TCGA-OV,TCGA-25-1326,TCGA tissue source site,25,Mayo Clinic - Rochester,mayo clinic
+TCGA-OV,TCGA-25-1328,TCGA tissue source site,25,Mayo Clinic - Rochester,mayo clinic
+TCGA-OV,TCGA-25-1623,TCGA tissue source site,25,Mayo Clinic - Rochester,mayo clinic
+TCGA-OV,TCGA-25-1626,TCGA tissue source site,25,Mayo Clinic - Rochester,mayo clinic
+TCGA-OV,TCGA-25-1628,TCGA tissue source site,25,Mayo Clinic - Rochester,mayo clinic
+TCGA-OV,TCGA-25-1631,TCGA tissue source site,25,Mayo Clinic - Rochester,mayo clinic
+TCGA-OV,TCGA-25-1632,TCGA tissue source site,25,Mayo Clinic - Rochester,mayo clinic
+TCGA-OV,TCGA-25-1633,TCGA tissue source site,25,Mayo Clinic - Rochester,mayo clinic
+TCGA-OV,TCGA-25-1634,TCGA tissue source site,25,Mayo Clinic - Rochester,mayo clinic
+TCGA-OV,TCGA-25-1635,TCGA tissue source site,25,Mayo Clinic - Rochester,mayo clinic
+TCGA-OV,TCGA-25-1878,TCGA tissue source site,25,Mayo Clinic - Rochester,mayo clinic
+TCGA-OV,TCGA-25-2042,TCGA tissue source site,25,Mayo Clinic - Rochester,mayo clinic
+TCGA-OV,TCGA-25-2390,TCGA tissue source site,25,Mayo Clinic - Rochester,mayo clinic
+TCGA-OV,TCGA-25-2391,TCGA tissue source site,25,Mayo Clinic - Rochester,mayo clinic
+TCGA-OV,TCGA-25-2393,TCGA tissue source site,25,Mayo Clinic - Rochester,mayo clinic
+TCGA-OV,TCGA-25-2397,TCGA tissue source site,25,Mayo Clinic - Rochester,mayo clinic
+TCGA-OV,TCGA-25-2398,TCGA tissue source site,25,Mayo Clinic - Rochester,mayo clinic
+TCGA-OV,TCGA-25-2399,TCGA tissue source site,25,Mayo Clinic - Rochester,mayo clinic
+TCGA-OV,TCGA-25-2400,TCGA tissue source site,25,Mayo Clinic - Rochester,mayo clinic
+TCGA-OV,TCGA-25-2404,TCGA tissue source site,25,Mayo Clinic - Rochester,mayo clinic
+TCGA-OV,TCGA-25-2409,TCGA tissue source site,25,Mayo Clinic - Rochester,mayo clinic
+TCGA-OV,TCGA-30-1891,TCGA tissue source site,30,Harvard,harvard
+TCGA-OV,TCGA-61-1725,TCGA tissue source site,61,University of Pittsburgh,university of pittsburgh
+TCGA-OV,TCGA-61-1727,TCGA tissue source site,61,University of Pittsburgh,university of pittsburgh
+TCGA-OV,TCGA-61-1730,TCGA tissue source site,61,University of Pittsburgh,university of pittsburgh
+TCGA-OV,TCGA-61-1733,TCGA tissue source site,61,University of Pittsburgh,university of pittsburgh
+TCGA-OV,TCGA-61-1737,TCGA tissue source site,61,University of Pittsburgh,university of pittsburgh
+TCGA-OV,TCGA-61-1738,TCGA tissue source site,61,University of Pittsburgh,university of pittsburgh
+TCGA-OV,TCGA-61-1740,TCGA tissue source site,61,University of Pittsburgh,university of pittsburgh
+TCGA-OV,TCGA-61-1900,TCGA tissue source site,61,University of Pittsburgh,university of pittsburgh
+TCGA-OV,TCGA-61-1901,TCGA tissue source site,61,University of Pittsburgh,university of pittsburgh
+TCGA-OV,TCGA-61-1903,TCGA tissue source site,61,University of Pittsburgh,university of pittsburgh
+TCGA-OV,TCGA-61-1906,TCGA tissue source site,61,University of Pittsburgh,university of pittsburgh
+TCGA-OV,TCGA-61-1907,TCGA tissue source site,61,University of Pittsburgh,university of pittsburgh
+TCGA-OV,TCGA-61-1910,TCGA tissue source site,61,University of Pittsburgh,university of pittsburgh
+TCGA-OV,TCGA-61-1911,TCGA tissue source site,61,University of Pittsburgh,university of pittsburgh
+TCGA-OV,TCGA-61-1998,TCGA tissue source site,61,University of Pittsburgh,university of pittsburgh
+TCGA-OV,TCGA-61-2000,TCGA tissue source site,61,University of Pittsburgh,university of pittsburgh
+TCGA-OV,TCGA-61-2002,TCGA tissue source site,61,University of Pittsburgh,university of pittsburgh
+TCGA-OV,TCGA-61-2003,TCGA tissue source site,61,University of Pittsburgh,university of pittsburgh
+TCGA-OV,TCGA-61-2009,TCGA tissue source site,61,University of Pittsburgh,university of pittsburgh
+TCGA-OV,TCGA-61-2012,TCGA tissue source site,61,University of Pittsburgh,university of pittsburgh
+TCGA-OV,TCGA-61-2016,TCGA tissue source site,61,University of Pittsburgh,university of pittsburgh
+TCGA-OV,TCGA-61-2018,TCGA tissue source site,61,University of Pittsburgh,university of pittsburgh
+TCGA-OV,TCGA-61-2087,TCGA tissue source site,61,University of Pittsburgh,university of pittsburgh
+TCGA-OV,TCGA-61-2611,TCGA tissue source site,61,University of Pittsburgh,university of pittsburgh
+TCGA-OV,TCGA-61-2614,TCGA tissue source site,61,University of Pittsburgh,university of pittsburgh
+TCGA-OV,TCGA-OY-A56P,TCGA tissue source site,OY,University of North Carolina,unc
+TCGA-OV,TCGA-OY-A56Q,TCGA tissue source site,OY,University of North Carolina,unc
+TCGA-PRAD,TCGA-VP-A878,TCGA tissue source site,VP,Washington University,washington university
+TCGA-PRAD,TCGA-VP-A879,TCGA tissue source site,VP,Washington University,washington university
+TCGA-PRAD,TCGA-VP-A87C,TCGA tissue source site,VP,Washington University,washington university
+TCGA-PRAD,TCGA-VP-A87D,TCGA tissue source site,VP,Washington University,washington university
+TCGA-PRAD,TCGA-EJ-5495,TCGA tissue source site,EJ,University of Pittsburgh,university of pittsburgh
+TCGA-PRAD,TCGA-EJ-5518,TCGA tissue source site,EJ,University of Pittsburgh,university of pittsburgh
+TCGA-PRAD,TCGA-EJ-5542,TCGA tissue source site,EJ,University of Pittsburgh,university of pittsburgh
+TCGA-PRAD,TCGA-J4-8198,TCGA tissue source site,J4,ABS - Lahey Clinic,lahey clinic
+TCGA-PRAD,TCGA-J4-A67M,TCGA tissue source site,J4,ABS - Lahey Clinic,lahey clinic
+TCGA-PRAD,TCGA-J4-A67O,TCGA tissue source site,J4,ABS - Lahey Clinic,lahey clinic
+TCGA-PRAD,TCGA-J4-A67S,TCGA tissue source site,J4,ABS - Lahey Clinic,lahey clinic
+TCGA-PRAD,TCGA-J4-A6G1,TCGA tissue source site,J4,ABS - Lahey Clinic,lahey clinic
+TCGA-PRAD,TCGA-J4-A6G3,TCGA tissue source site,J4,ABS - Lahey Clinic,lahey clinic
+TCGA-PRAD,TCGA-J4-AATZ,TCGA tissue source site,J4,ABS - Lahey Clinic,lahey clinic
+TCGA-READ,TCGA-BM-6198,TCGA tissue source site,BM,UNC,unc
+TCGA-READ,TCGA-CL-4957,TCGA tissue source site,CL,Harvard,harvard
+TCGA-READ,TCGA-CL-5917,TCGA tissue source site,CL,Harvard,harvard
+TCGA-SARC,TCGA-QQ-A5V2,TCGA tissue source site,QQ,Roswell Park,roswell park
+TCGA-SARC,TCGA-QQ-A5VC,TCGA tissue source site,QQ,Roswell Park,roswell park
+TCGA-SARC,TCGA-QQ-A8VF,TCGA tissue source site,QQ,Roswell Park,roswell park
+TCGA-SARC,TCGA-QQ-A8VG,TCGA tissue source site,QQ,Roswell Park,roswell park
+TCGA-SARC,TCGA-QQ-A8VH,TCGA tissue source site,QQ,Roswell Park,roswell park
+TCGA-STAD,TCGA-VQ-A8DL,TCGA tissue source site,VQ,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-STAD,TCGA-VQ-A8DT,TCGA tissue source site,VQ,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-STAD,TCGA-VQ-A8DU,TCGA tissue source site,VQ,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-STAD,TCGA-VQ-A8DZ,TCGA tissue source site,VQ,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-STAD,TCGA-VQ-A8E0,TCGA tissue source site,VQ,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-STAD,TCGA-VQ-A8E2,TCGA tissue source site,VQ,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-STAD,TCGA-VQ-A8E3,TCGA tissue source site,VQ,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-STAD,TCGA-VQ-A8E7,TCGA tissue source site,VQ,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-STAD,TCGA-VQ-A8P2,TCGA tissue source site,VQ,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-STAD,TCGA-VQ-A8P3,TCGA tissue source site,VQ,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-STAD,TCGA-VQ-A8P5,TCGA tissue source site,VQ,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-STAD,TCGA-VQ-A8P8,TCGA tissue source site,VQ,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-STAD,TCGA-VQ-A8PB,TCGA tissue source site,VQ,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-STAD,TCGA-VQ-A8PD,TCGA tissue source site,VQ,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-STAD,TCGA-VQ-A8PE,TCGA tissue source site,VQ,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-STAD,TCGA-VQ-A8PF,TCGA tissue source site,VQ,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-STAD,TCGA-VQ-A8PK,TCGA tissue source site,VQ,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-STAD,TCGA-VQ-A8PT,TCGA tissue source site,VQ,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-STAD,TCGA-VQ-A91A,TCGA tissue source site,VQ,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-STAD,TCGA-VQ-A91D,TCGA tissue source site,VQ,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-STAD,TCGA-VQ-A91E,TCGA tissue source site,VQ,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-STAD,TCGA-VQ-A91Q,TCGA tissue source site,VQ,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-STAD,TCGA-VQ-A91S,TCGA tissue source site,VQ,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-STAD,TCGA-VQ-A91U,TCGA tissue source site,VQ,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-STAD,TCGA-VQ-A91V,TCGA tissue source site,VQ,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-STAD,TCGA-VQ-A91X,TCGA tissue source site,VQ,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-STAD,TCGA-VQ-A91Y,TCGA tissue source site,VQ,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-STAD,TCGA-VQ-A91Z,TCGA tissue source site,VQ,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-STAD,TCGA-VQ-A922,TCGA tissue source site,VQ,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-STAD,TCGA-VQ-A92D,TCGA tissue source site,VQ,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-STAD,TCGA-VQ-A94O,TCGA tissue source site,VQ,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-STAD,TCGA-VQ-A94P,TCGA tissue source site,VQ,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-STAD,TCGA-VQ-A94R,TCGA tissue source site,VQ,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-STAD,TCGA-VQ-A94T,TCGA tissue source site,VQ,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-STAD,TCGA-VQ-A94U,TCGA tissue source site,VQ,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-STAD,TCGA-VQ-AA64,TCGA tissue source site,VQ,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-STAD,TCGA-VQ-AA68,TCGA tissue source site,VQ,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-STAD,TCGA-VQ-AA69,TCGA tissue source site,VQ,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-STAD,TCGA-VQ-AA6A,TCGA tissue source site,VQ,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-STAD,TCGA-VQ-AA6B,TCGA tissue source site,VQ,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-STAD,TCGA-VQ-AA6D,TCGA tissue source site,VQ,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-STAD,TCGA-VQ-AA6F,TCGA tissue source site,VQ,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-STAD,TCGA-VQ-AA6G,TCGA tissue source site,VQ,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-STAD,TCGA-VQ-AA6I,TCGA tissue source site,VQ,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-STAD,TCGA-VQ-AA6J,TCGA tissue source site,VQ,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-STAD,TCGA-VQ-AA6K,TCGA tissue source site,VQ,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-THCA,TCGA-DE-A4MA,TCGA tissue source site,DE,University of North Carolina,unc
+TCGA-THCA,TCGA-DE-A4MB,TCGA tissue source site,DE,University of North Carolina,unc
+TCGA-THCA,TCGA-DE-A4MC,TCGA tissue source site,DE,University of North Carolina,unc
+TCGA-THCA,TCGA-DE-A4MD,TCGA tissue source site,DE,University of North Carolina,unc
+TCGA-THCA,TCGA-E3-A3DZ,TCGA tissue source site,E3,Roswell Park,roswell park
+TCGA-THCA,TCGA-E3-A3E5,TCGA tissue source site,E3,Roswell Park,roswell park
+TCGA-UCEC,TCGA-D1-A0ZO,TCGA tissue source site,D1,Mayo Clinic,mayo clinic
+TCGA-UCEC,TCGA-D1-A0ZP,TCGA tissue source site,D1,Mayo Clinic,mayo clinic
+TCGA-UCEC,TCGA-D1-A0ZQ,TCGA tissue source site,D1,Mayo Clinic,mayo clinic
+TCGA-UCEC,TCGA-D1-A0ZR,TCGA tissue source site,D1,Mayo Clinic,mayo clinic
+TCGA-UCEC,TCGA-D1-A0ZU,TCGA tissue source site,D1,Mayo Clinic,mayo clinic
+TCGA-UCEC,TCGA-D1-A0ZV,TCGA tissue source site,D1,Mayo Clinic,mayo clinic
+TCGA-UCEC,TCGA-D1-A103,TCGA tissue source site,D1,Mayo Clinic,mayo clinic
+TCGA-UCEC,TCGA-D1-A15V,TCGA tissue source site,D1,Mayo Clinic,mayo clinic
+TCGA-UCEC,TCGA-D1-A15W,TCGA tissue source site,D1,Mayo Clinic,mayo clinic
+TCGA-UCEC,TCGA-D1-A15X,TCGA tissue source site,D1,Mayo Clinic,mayo clinic
+TCGA-UCEC,TCGA-D1-A15Z,TCGA tissue source site,D1,Mayo Clinic,mayo clinic
+TCGA-UCEC,TCGA-D1-A160,TCGA tissue source site,D1,Mayo Clinic,mayo clinic
+TCGA-UCEC,TCGA-D1-A163,TCGA tissue source site,D1,Mayo Clinic,mayo clinic
+TCGA-UCEC,TCGA-D1-A167,TCGA tissue source site,D1,Mayo Clinic,mayo clinic
+TCGA-UCEC,TCGA-D1-A168,TCGA tissue source site,D1,Mayo Clinic,mayo clinic
+TCGA-UCEC,TCGA-D1-A169,TCGA tissue source site,D1,Mayo Clinic,mayo clinic
+TCGA-UCEC,TCGA-D1-A16B,TCGA tissue source site,D1,Mayo Clinic,mayo clinic
+TCGA-UCEC,TCGA-D1-A16D,TCGA tissue source site,D1,Mayo Clinic,mayo clinic
+TCGA-UCEC,TCGA-D1-A16E,TCGA tissue source site,D1,Mayo Clinic,mayo clinic
+TCGA-UCEC,TCGA-D1-A16G,TCGA tissue source site,D1,Mayo Clinic,mayo clinic
+TCGA-UCEC,TCGA-D1-A16I,TCGA tissue source site,D1,Mayo Clinic,mayo clinic
+TCGA-UCEC,TCGA-D1-A16J,TCGA tissue source site,D1,Mayo Clinic,mayo clinic
+TCGA-UCEC,TCGA-D1-A16N,TCGA tissue source site,D1,Mayo Clinic,mayo clinic
+TCGA-UCEC,TCGA-D1-A16O,TCGA tissue source site,D1,Mayo Clinic,mayo clinic
+TCGA-UCEC,TCGA-D1-A16Q,TCGA tissue source site,D1,Mayo Clinic,mayo clinic
+TCGA-UCEC,TCGA-D1-A16S,TCGA tissue source site,D1,Mayo Clinic,mayo clinic
+TCGA-UCEC,TCGA-D1-A174,TCGA tissue source site,D1,Mayo Clinic,mayo clinic
+TCGA-UCEC,TCGA-D1-A175,TCGA tissue source site,D1,Mayo Clinic,mayo clinic
+TCGA-UCEC,TCGA-D1-A177,TCGA tissue source site,D1,Mayo Clinic,mayo clinic
+TCGA-UCEC,TCGA-D1-A179,TCGA tissue source site,D1,Mayo Clinic,mayo clinic
+TCGA-UCEC,TCGA-D1-A17C,TCGA tissue source site,D1,Mayo Clinic,mayo clinic
+TCGA-UCEC,TCGA-D1-A17D,TCGA tissue source site,D1,Mayo Clinic,mayo clinic
+TCGA-UCEC,TCGA-D1-A17K,TCGA tissue source site,D1,Mayo Clinic,mayo clinic
+TCGA-UCEC,TCGA-D1-A17M,TCGA tissue source site,D1,Mayo Clinic,mayo clinic
+TCGA-UCEC,TCGA-D1-A17T,TCGA tissue source site,D1,Mayo Clinic,mayo clinic
+TCGA-UCEC,TCGA-D1-A17U,TCGA tissue source site,D1,Mayo Clinic,mayo clinic
+TCGA-UCEC,TCGA-D1-A1NS,TCGA tissue source site,D1,Mayo Clinic,mayo clinic
+TCGA-UCEC,TCGA-D1-A1NU,TCGA tissue source site,D1,Mayo Clinic,mayo clinic
+TCGA-UCEC,TCGA-D1-A1NW,TCGA tissue source site,D1,Mayo Clinic,mayo clinic
+TCGA-UCEC,TCGA-D1-A1NX,TCGA tissue source site,D1,Mayo Clinic,mayo clinic
+TCGA-UCEC,TCGA-D1-A1NY,TCGA tissue source site,D1,Mayo Clinic,mayo clinic
+TCGA-UCEC,TCGA-D1-A1NZ,TCGA tissue source site,D1,Mayo Clinic,mayo clinic
+TCGA-UCEC,TCGA-D1-A1O0,TCGA tissue source site,D1,Mayo Clinic,mayo clinic
+TCGA-UCEC,TCGA-D1-A1O5,TCGA tissue source site,D1,Mayo Clinic,mayo clinic
+TCGA-UCEC,TCGA-D1-A1O8,TCGA tissue source site,D1,Mayo Clinic,mayo clinic
+TCGA-UCEC,TCGA-D1-A2G5,TCGA tissue source site,D1,Mayo Clinic,mayo clinic
+TCGA-UCEC,TCGA-D1-A2G6,TCGA tissue source site,D1,Mayo Clinic,mayo clinic
+TCGA-UCEC,TCGA-D1-A2G7,TCGA tissue source site,D1,Mayo Clinic,mayo clinic
+TCGA-UCEC,TCGA-DI-A0WH,TCGA tissue source site,DI,MD Anderson,md anderson cancer center
+TCGA-UCEC,TCGA-DI-A1BY,TCGA tissue source site,DI,MD Anderson,md anderson cancer center
+TCGA-UCEC,TCGA-DI-A1NN,TCGA tissue source site,DI,MD Anderson,md anderson cancer center
+TCGA-UCEC,TCGA-DI-A1NO,TCGA tissue source site,DI,MD Anderson,md anderson cancer center
+TCGA-UCEC,TCGA-DI-A2QT,TCGA tissue source site,DI,MD Anderson,md anderson cancer center
+TCGA-UCEC,TCGA-DI-A2QU,TCGA tissue source site,DI,MD Anderson,md anderson cancer center
+TCGA-UCEC,TCGA-DI-A2QY,TCGA tissue source site,DI,MD Anderson,md anderson cancer center
+TCGA-UCEC,TCGA-FI-A2CX,TCGA tissue source site,FI,Washington University,washington university
+TCGA-UCEC,TCGA-FI-A2CY,TCGA tissue source site,FI,Washington University,washington university
+TCGA-UCEC,TCGA-FI-A2D4,TCGA tissue source site,FI,Washington University,washington university
+TCGA-UCEC,TCGA-FI-A2D5,TCGA tissue source site,FI,Washington University,washington university
+TCGA-UCEC,TCGA-FI-A2EW,TCGA tissue source site,FI,Washington University,washington university
+TCGA-UCEC,TCGA-FI-A2EX,TCGA tissue source site,FI,Washington University,washington university
+TCGA-UCEC,TCGA-FI-A2EY,TCGA tissue source site,FI,Washington University,washington university
+TCGA-UCEC,TCGA-FI-A2F4,TCGA tissue source site,FI,Washington University,washington university
+TCGA-UCEC,TCGA-FI-A2F8,TCGA tissue source site,FI,Washington University,washington university
+NSCLC Radiogenomics,AMC-001,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,AMC-002,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,AMC-003,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,AMC-004,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,AMC-005,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,AMC-006,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,AMC-007,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,AMC-008,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,AMC-009,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,AMC-010,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,AMC-011,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,AMC-012,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,AMC-013,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,AMC-014,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,AMC-015,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,AMC-016,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,AMC-017,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,AMC-018,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,AMC-019,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,AMC-020,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,AMC-021,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,AMC-022,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,AMC-023,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,AMC-024,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,AMC-025,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,AMC-026,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,AMC-027,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,AMC-028,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,AMC-029,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,AMC-030,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,AMC-031,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,AMC-032,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,AMC-033,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,AMC-034,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,AMC-035,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,AMC-036,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,AMC-037,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,AMC-038,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,AMC-039,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,AMC-040,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,AMC-041,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,AMC-042,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,AMC-043,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,AMC-044,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,AMC-045,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,AMC-046,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,AMC-047,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,AMC-048,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,AMC-049,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,R01-001,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,R01-002,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,R01-003,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-004,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-005,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,R01-006,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-007,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-008,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,R01-009,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-010,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-011,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,R01-012,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,R01-013,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,R01-014,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,R01-015,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-016,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-017,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,R01-018,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-019,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-020,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,R01-021,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,R01-022,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-023,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-024,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-025,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-026,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,R01-027,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-028,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-029,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,R01-030,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-031,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-032,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-033,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-034,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-035,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-036,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-037,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-038,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-039,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-040,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-041,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-042,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-043,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-044,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-045,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-046,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-047,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-048,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,R01-049,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,R01-050,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,R01-051,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,R01-052,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-053,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-054,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-055,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-056,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-057,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-058,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-059,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-060,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-061,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-062,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-063,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-064,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-065,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-066,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-067,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-068,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-069,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-070,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-071,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-072,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-073,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-074,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,R01-075,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,R01-076,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,R01-077,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,R01-078,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,R01-079,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,R01-080,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-081,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-082,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-083,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-084,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-085,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-086,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-087,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-088,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-089,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,R01-090,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,R01-091,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,R01-092,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-093,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-094,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-095,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-096,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-097,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-098,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,R01-099,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,R01-100,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,R01-101,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,R01-102,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,R01-103,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,R01-104,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,R01-105,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,R01-106,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,R01-107,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,R01-108,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-109,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-110,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-111,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-112,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-113,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-114,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-115,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-116,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-117,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-118,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-119,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-120,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-121,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-122,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-123,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-124,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-125,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,R01-126,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,R01-127,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,R01-128,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,R01-129,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,R01-130,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,R01-131,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,R01-132,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,R01-133,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,R01-134,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,R01-135,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,R01-136,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,R01-137,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,R01-138,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,R01-139,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,R01-140,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,R01-141,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,R01-142,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,R01-143,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,R01-144,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,R01-145,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,R01-146,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,R01-147,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,R01-148,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,R01-149,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,R01-150,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,R01-151,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,R01-152,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,R01-153,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-154,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-156,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-157,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,R01-158,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,R01-159,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,R01-160,clinical file: Patient affiliation,,VA,VA
+NSCLC Radiogenomics,R01-161,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,R01-162,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,R01-163,clinical file: Patient affiliation,,VA,VA

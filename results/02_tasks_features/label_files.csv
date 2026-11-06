@@ -1,0 +1,8 @@
+collection,file,url,status,bytes,md5,checked_utc
+Duke-Breast-Cancer-MRI,Clinical_and_Other_Features.xlsx,https://www.cancerimagingarchive.net/wp-content/uploads/Clinical_and_Other_Features.xlsx,downloaded now,595608,13d3a4833d945ff843453f8138517f65,2026-10-28T15:30:05+00:00
+UPENN-GBM,UPENN-GBM_clinical_info_v2.1.csv,https://www.cancerimagingarchive.net/wp-content/uploads/UPENN-GBM_clinical_info_v2.1.csv,downloaded now,66491,160160309e355c5e815424e2e9e1c6da,2026-10-28T15:30:05+00:00
+LIDC-IDRI,tcia-diagnosis-data-2012-04-20.xls,https://www.cancerimagingarchive.net/wp-content/uploads/tcia-diagnosis-data-2012-04-20.xls,downloaded now,46080,00c00621419e16d96b92f19d63cd10f4,2026-10-28T15:30:05+00:00
+PROSTATEx,ProstateX-TrainingLesionInformationv2.zip,https://www.cancerimagingarchive.net/wp-content/uploads/ProstateX-TrainingLesionInformationv2.zip,downloaded now,287527,0156733c14f2035cb5d9dbe0fa227829,2026-10-28T15:30:05+00:00
+NSCLC Radiogenomics,NSCLCR01Radiogenomic_DATA_LABELS_2018-05-22_1500-shifted.csv,https://www.cancerimagingarchive.net/wp-content/uploads/NSCLCR01Radiogenomic_DATA_LABELS_2018-05-22_1500-shifted.csv,downloaded now,66643,f0f65ae858c3677432f3fcb99553b78a,2026-10-28T15:30:05+00:00
+HCC-TACE-Seg,HCC-TACE-Seg_clinical_data-V2.xlsx,https://www.cancerimagingarchive.net/wp-content/uploads/HCC-TACE-Seg_clinical_data-V2.xlsx,downloaded now,128507,63af6363b9d0fe453c48e75402e9082c,2026-10-28T15:30:05+00:00
+TCGA (all),GDC_tissue_source_site_codes.html,https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tissue-source-site-codes,saved web page,163421,1337b55407cd7d854a9f6ec3c48b91cc,

@@ -1,0 +1,31 @@
+                                  analysis  observed_auc  paper_auc  null_mean  null_2.5pct  null_97.5pct  share_null_at_or_below_observed  n_null                per_repeat_auc
+           kidney metadata, sites held out         0.247      0.247      0.487        0.339         0.640                            0.000     200                           NaN
+CPTAC-PDA stage, Merlin silhouette, 5x5 CV         0.315      0.313      0.471        0.335         0.651                            0.005     200 0.259 0.348 0.302 0.411 0.253
+ fold                         site  n_TCGA-KIRC  n_TCGA-KIRP  train_share_KIRP  mean_p_KIRP_in_site  fold_auc
+    0     memorial sloan kettering         88.0          0.0             0.135                0.460       NaN
+    0                         FOLD          NaN          NaN               NaN                  NaN       NaN
+    1    md anderson cancer center         51.0          0.0             0.111                0.332       NaN
+    1                         FOLD          NaN          NaN               NaN                  NaN       NaN
+    2                 lahey clinic          0.0          1.0             0.066                0.223       NaN
+    2                          unc         25.0          7.0             0.066                0.174       NaN
+    2                         FOLD          NaN          NaN               NaN                  NaN     0.445
+    3                 roswell park          3.0         11.0             0.056                0.255       NaN
+    3     university of pittsburgh         30.0          0.0             0.056                0.322       NaN
+    3                         FOLD          NaN          NaN               NaN                  NaN     0.284
+    4                      harvard         15.0          0.0             0.088                0.687       NaN
+    4                  mayo clinic         15.0          0.0             0.088                0.248       NaN
+    4 nci urologic oncology branch          9.0          4.0             0.088                0.294       NaN
+    4                         FOLD          NaN          NaN               NaN                  NaN     0.250
+                            task_id site  n_TCGA-LUAD  n_TCGA-LUSC mixed_class  n_sites  n_mixed_class_sites  patients_in_mixed_class_sites  patients_with_site  n_TCGA-KIRC  n_TCGA-KIRP  n_mutant  n_wildtype  n_adenocarcinoma  n_squamous  n_early (I-II)  n_late (III-IV)  n_high (G3-G4)  n_low (G1-G2)
+      lung histology (LUAD vs LUSC)  ALL          NaN          NaN         NaN      5.0                  4.0                           90.0               104.0          NaN          NaN       NaN         NaN               NaN         NaN             NaN              NaN             NaN            NaN
+       renal subtype (KIRC vs KIRP)  ALL          NaN          NaN         NaN      9.0                  3.0                           59.0               259.0          NaN          NaN       NaN         NaN               NaN         NaN             NaN              NaN             NaN            NaN
+NSCLC Radiogenomics | EGFR mutation  ALL          NaN          NaN         NaN      2.0                  2.0                          166.0               166.0          NaN          NaN       NaN         NaN               NaN         NaN             NaN              NaN             NaN            NaN
+NSCLC Radiogenomics | KRAS mutation  ALL          NaN          NaN         NaN      2.0                  2.0                          165.0               165.0          NaN          NaN       NaN         NaN               NaN         NaN             NaN              NaN             NaN            NaN
+    NSCLC Radiogenomics | histology  ALL          NaN          NaN         NaN      2.0                  2.0                          199.0               199.0          NaN          NaN       NaN         NaN               NaN         NaN             NaN              NaN             NaN            NaN
+                  TCGA-BLCA | stage  ALL          NaN          NaN         NaN      8.0                  7.0                          101.0               107.0          NaN          NaN       NaN         NaN               NaN         NaN             NaN              NaN             NaN            NaN
+                  TCGA-BRCA | stage  ALL          NaN          NaN         NaN      7.0                  6.0                          136.0               137.0          NaN          NaN       NaN         NaN               NaN         NaN             NaN              NaN             NaN            NaN
+                  TCGA-KIRC | grade  ALL          NaN          NaN         NaN      8.0                  7.0                          233.0               236.0          NaN          NaN       NaN         NaN               NaN         NaN             NaN              NaN             NaN            NaN
+                  TCGA-KIRC | stage  ALL          NaN          NaN         NaN      8.0                  7.0                          227.0               236.0          NaN          NaN       NaN         NaN               NaN         NaN             NaN              NaN             NaN            NaN
+                  TCGA-LIHC | grade  ALL          NaN          NaN         NaN      4.0                  3.0                           73.0                75.0          NaN          NaN       NaN         NaN               NaN         NaN             NaN              NaN             NaN            NaN
+                  TCGA-LIHC | stage  ALL          NaN          NaN         NaN      4.0                  3.0                           71.0                73.0          NaN          NaN       NaN         NaN               NaN         NaN             NaN              NaN             NaN            NaN
+                  TCGA-UCEC | grade  ALL          NaN          NaN         NaN      3.0                  2.0                           55.0                64.0          NaN          NaN       NaN         NaN               NaN         NaN             NaN              NaN             NaN            NaN

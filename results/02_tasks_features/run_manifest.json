@@ -1,0 +1,358 @@
+{
+  "notebook": "02_labels_features_tasks.ipynb",
+  "run_started_utc": "2026-10-28T15:29:58+00:00",
+  "run_finished_utc": "2026-10-28T15:30:13+00:00",
+  "in_colab": true,
+  "input_notebook01_run": "2026-10-28T12:20:42+00:00",
+  "label_files": [
+    {
+      "collection": "Duke-Breast-Cancer-MRI",
+      "file": "Clinical_and_Other_Features.xlsx",
+      "url": "https://www.cancerimagingarchive.net/wp-content/uploads/Clinical_and_Other_Features.xlsx",
+      "status": "downloaded now",
+      "bytes": 595608,
+      "md5": "13d3a4833d945ff843453f8138517f65",
+      "checked_utc": "2026-10-28T15:30:05+00:00"
+    },
+    {
+      "collection": "UPENN-GBM",
+      "file": "UPENN-GBM_clinical_info_v2.1.csv",
+      "url": "https://www.cancerimagingarchive.net/wp-content/uploads/UPENN-GBM_clinical_info_v2.1.csv",
+      "status": "downloaded now",
+      "bytes": 66491,
+      "md5": "160160309e355c5e815424e2e9e1c6da",
+      "checked_utc": "2026-10-28T15:30:05+00:00"
+    },
+    {
+      "collection": "LIDC-IDRI",
+      "file": "tcia-diagnosis-data-2012-04-20.xls",
+      "url": "https://www.cancerimagingarchive.net/wp-content/uploads/tcia-diagnosis-data-2012-04-20.xls",
+      "status": "downloaded now",
+      "bytes": 46080,
+      "md5": "00c00621419e16d96b92f19d63cd10f4",
+      "checked_utc": "2026-10-28T15:30:05+00:00"
+    },
+    {
+      "collection": "PROSTATEx",
+      "file": "ProstateX-TrainingLesionInformationv2.zip",
+      "url": "https://www.cancerimagingarchive.net/wp-content/uploads/ProstateX-TrainingLesionInformationv2.zip",
+      "status": "downloaded now",
+      "bytes": 287527,
+      "md5": "0156733c14f2035cb5d9dbe0fa227829",
+      "checked_utc": "2026-10-28T15:30:05+00:00"
+    },
+    {
+      "collection": "NSCLC Radiogenomics",
+      "file": "NSCLCR01Radiogenomic_DATA_LABELS_2018-05-22_1500-shifted.csv",
+      "url": "https://www.cancerimagingarchive.net/wp-content/uploads/NSCLCR01Radiogenomic_DATA_LABELS_2018-05-22_1500-shifted.csv",
+      "status": "downloaded now",
+      "bytes": 66643,
+      "md5": "f0f65ae858c3677432f3fcb99553b78a",
+      "checked_utc": "2026-10-28T15:30:05+00:00"
+    },
+    {
+      "collection": "HCC-TACE-Seg",
+      "file": "HCC-TACE-Seg_clinical_data-V2.xlsx",
+      "url": "https://www.cancerimagingarchive.net/wp-content/uploads/HCC-TACE-Seg_clinical_data-V2.xlsx",
+      "status": "downloaded now",
+      "bytes": 128507,
+      "md5": "63af6363b9d0fe453c48e75402e9082c",
+      "checked_utc": "2026-10-28T15:30:05+00:00"
+    },
+    {
+      "collection": "TCGA (all)",
+      "file": "GDC_tissue_source_site_codes.html",
+      "url": "https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tissue-source-site-codes",
+      "bytes": 163421,
+      "md5": "1337b55407cd7d854a9f6ec3c48b91cc",
+      "status": "saved web page"
+    }
+  ],
+  "settings": {
+    "MIN_PER_CLASS": 20,
+    "STUDY_YEAR_USED": false,
+    "COLLECTION_DEFINED_TASKS": {
+      "lung histology (LUAD vs LUSC)": [
+        "TCGA-LUAD",
+        "TCGA-LUSC"
+      ],
+      "renal subtype (KIRC vs KIRP vs KICH)": [
+        "TCGA-KIRC",
+        "TCGA-KIRP",
+        "TCGA-KICH"
+      ],
+      "renal subtype (KIRC vs KIRP)": [
+        "TCGA-KIRC",
+        "TCGA-KIRP"
+      ],
+      "renal subtype (KIRC vs KICH)": [
+        "TCGA-KIRC",
+        "TCGA-KICH"
+      ],
+      "renal subtype (KIRP vs KICH)": [
+        "TCGA-KIRP",
+        "TCGA-KICH"
+      ]
+    },
+    "COLLECTION_DEFINED_MODALITY": "CT",
+    "BLOCKED_PHRASES": "(?:high|low)[\\s_-]*grade",
+    "LABEL_WORDS": [
+      "adeno",
+      "adenocarcinoma",
+      "benign",
+      "braintumor",
+      "ca",
+      "cancer",
+      "carcinoma",
+      "ccrcc",
+      "chromophobe",
+      "cptac",
+      "egfr",
+      "endometrial",
+      "endometrio",
+      "gbm",
+      "glioblastoma",
+      "glioma",
+      "grade",
+      "hcc",
+      "her2",
+      "idh",
+      "kanker",
+      "kich",
+      "kirc",
+      "kirp",
+      "kras",
+      "lesion",
+      "lesions",
+      "lgg",
+      "lidc",
+      "luad",
+      "luminal",
+      "lusc",
+      "lymphoma",
+      "malignancy",
+      "malignant",
+      "mass",
+      "masses",
+      "melanoma",
+      "met",
+      "metastases",
+      "metastasis",
+      "metastatic",
+      "mets",
+      "mgmt",
+      "neoplasm",
+      "nodule",
+      "nodules",
+      "onc",
+      "onco",
+      "oncology",
+      "papillary",
+      "prostatex",
+      "rcc",
+      "sarcoma",
+      "squamous",
+      "stage",
+      "tcga",
+      "tnbc",
+      "triple",
+      "tumor",
+      "tumors",
+      "tumour",
+      "upenn",
+      "vhl"
+    ],
+    "SITE_WORDS": [
+      "amc",
+      "bjh",
+      "bwh",
+      "duke",
+      "emory",
+      "fmc",
+      "mayo",
+      "mdacc",
+      "mskcc",
+      "osf",
+      "penn",
+      "radboud",
+      "roswell",
+      "rpci",
+      "stanford",
+      "uob",
+      "va"
+    ],
+    "CARE_PATHWAY_WORDS": [
+      "acrin",
+      "biopsy",
+      "bx",
+      "claustro",
+      "comparison",
+      "detectie",
+      "detection",
+      "external",
+      "follow",
+      "followup",
+      "foreign",
+      "fu",
+      "guided",
+      "hematuria",
+      "hx",
+      "jaundice",
+      "kliniek",
+      "ltrc",
+      "nlst",
+      "opinion",
+      "outside",
+      "pain",
+      "postop",
+      "preop",
+      "read",
+      "research",
+      "restaging",
+      "screen",
+      "screening",
+      "second",
+      "staging",
+      "stealth",
+      "stone",
+      "surveillance",
+      "trauma",
+      "trial",
+      "workup"
+    ],
+    "PROCESSING_WORDS": [
+      "captk",
+      "processed"
+    ],
+    "NON_ACQUISITION_MODALITIES": [
+      "ANN",
+      "KO",
+      "OT",
+      "PR",
+      "REG",
+      "RTDOSE",
+      "RTPLAN",
+      "RTSTRUCT",
+      "SEG",
+      "SR"
+    ],
+    "KERNEL_RE": "\\b((?:[bhiq]r|[bcdhiq]|fc)\\d{2}[fsh]?)\\b",
+    "GE_KERNEL_WORDS": [
+      "bone",
+      "detail",
+      "edge",
+      "lung",
+      "soft",
+      "standard",
+      "std",
+      "stnd"
+    ],
+    "THICK_MM_RE": "(\\d+(?:\\.\\d+)?)\\s*mm\\b",
+    "THICK_BEFORE_KERNEL_RE": "(\\d+(?:\\.\\d+)?)\\s+(?:(?:[bhiq]r|[bcdhiq]|fc)\\d{2}[fsh]?|standard|std|stnd|soft|lung|bone|detail)\\b",
+    "USUAL_THICKNESSES": [
+      0.5,
+      0.6,
+      0.625,
+      0.75,
+      0.8,
+      1.0,
+      1.25,
+      1.5,
+      2.0,
+      2.5,
+      3.0,
+      3.75,
+      4.0,
+      5.0,
+      6.0,
+      7.0,
+      7.5,
+      8.0,
+      10.0
+    ],
+    "TSS_URL": "https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tissue-source-site-codes",
+    "INSTITUTION_PREFIX_RE": "^[a-z]{2,4} - ",
+    "INSTITUTION_ALIASES": {
+      "mskcc": "memorial sloan kettering",
+      "memorial sloan kettering cancer center": "memorial sloan kettering",
+      "mayo clinic - rochester": "mayo clinic",
+      "mayo": "mayo clinic",
+      "md anderson": "md anderson cancer center",
+      "university of north carolina": "unc",
+      "washington university - st. louis": "washington university"
+    }
+  },
+  "versions": {
+    "python": "3.13.18",
+    "pandas": "2.2.3",
+    "numpy": "2.1.3"
+  },
+  "outputs": [
+    {
+      "file": "feature_coverage.csv",
+      "bytes": 1405,
+      "rows": 33,
+      "md5": "3ccd8cb74b35129457759a513129893b"
+    },
+    {
+      "file": "label_files.csv",
+      "bytes": 1619,
+      "rows": 7,
+      "md5": "758b0fbef645d4dad52b9d588b282677"
+    },
+    {
+      "file": "labels_long.csv",
+      "bytes": 1084633,
+      "rows": 8467,
+      "md5": "ef27be958776129af5060648984f7a5a"
+    },
+    {
+      "file": "patient_features.csv",
+      "bytes": 592135,
+      "rows": 4883,
+      "md5": "dc1c6ce8aff7a9b4495a787d39a5ec9e"
+    },
+    {
+      "file": "patient_sites.csv",
+      "bytes": 117088,
+      "rows": 1354,
+      "md5": "d21e52453f4fcfff0801e943f9ff387a"
+    },
+    {
+      "file": "patient_tokens.csv.gz",
+      "bytes": 129486,
+      "rows": 35016,
+      "md5": "ad5c3d47e8acb343cebbb9f30c941bf2"
+    },
+    {
+      "file": "site_summary.csv",
+      "bytes": 2027,
+      "rows": 21,
+      "md5": "369a89702f83a4102fd2047878e6ee3b"
+    },
+    {
+      "file": "site_token_candidates.csv",
+      "bytes": 4913,
+      "rows": 221,
+      "md5": "f426c3e61901f360459c37c7483d0c22"
+    },
+    {
+      "file": "tasks_final.csv",
+      "bytes": 7184,
+      "rows": 52,
+      "md5": "c7c0f74e4fa9cdda28dde0261843cea4"
+    },
+    {
+      "file": "token_review.csv",
+      "bytes": 40648,
+      "rows": 1471,
+      "md5": "1699355cd2659ddd85e8f36d55369caf"
+    },
+    {
+      "file": "tokens_blocked.csv",
+      "bytes": 2305,
+      "rows": 65,
+      "md5": "222e134eb3b306f810f2b02d5ffea678"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+field,value,share_adenocarcinoma,share_squamous cell carcinoma
+vendor,SIEMENS,0.765,0.783
+vendor,CMS,0.235,0.217
+model,BIOGRAPH 40,0.471,0.493
+model,SENSATION OPEN,0.255,0.217
+model,XIO,0.235,0.217
+model,SENSATION 16,0.039,0.059
+model,SENSATION 10,0.0,0.013
+software_version,syngo CT 2006A,0.686,0.671
+software_version,4.34.02,0.235,0.217
+software_version,VA70C,0.039,0.059
+software_version,syngo CT 2009E,0.039,0.039
+software_version,syngo CT 2006G,0.0,0.013
+kernel,missing,1.0,1.0
+body_part,LUNG,1.0,1.0
+image_count,median,122.0,130.0
+slice_thickness_mm,median,3.0,3.0

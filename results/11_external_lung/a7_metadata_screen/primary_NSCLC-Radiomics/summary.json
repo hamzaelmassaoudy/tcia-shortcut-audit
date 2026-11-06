@@ -1,0 +1,31 @@
+{
+  "tool_version": "1.0.0",
+  "collections": [
+    "NSCLC-Radiomics"
+  ],
+  "modality": "CT",
+  "classes": {
+    "adenocarcinoma": 51,
+    "squamous cell carcinoma": 152
+  },
+  "n_patients": 203,
+  "auc": 0.5557275541795665,
+  "ci_low": 0.4737869473310722,
+  "ci_high": 0.6353586151839088,
+  "perm_p": 0.088,
+  "perm_observed_single_cv": 0.572561919504644,
+  "null_mean_auc": 0.49087135380995034,
+  "flagged": false,
+  "flag_rule": "lower CI >= 0.6 and permutation p < 0.05 (apply BH first for a family of tasks)",
+  "settings": {
+    "seed": 2026,
+    "n_boot": 2000,
+    "n_perm": 999,
+    "min_count": 3,
+    "cv": "5-fold stratified, 5 repeats",
+    "model": "logistic regression, C=1, balanced"
+  },
+  "started_utc": "2026-11-03T18:55:04+00:00",
+  "finished_utc": "2026-11-03T18:55:25+00:00",
+  "runtime_s": 21.5
+}

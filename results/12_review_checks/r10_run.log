@@ -1,0 +1,192 @@
+<local path>\tool\tcia_shortcut_audit.py:31: UserWarning: A NumPy version >=1.23.5 and <2.3.0 is required for this version of SciPy (detected version 2.4.2)
+  from scipy import sparse
+TCIA acquisition-shortcut audit 1.0.1, started 2026-11-06T03:39:23+00:00
+Series metadata from <local path>\results\01_inventory\series_metadata.csv.gz: 3030 series of ['TCGA-KIRC', 'TCGA-KIRP']
+<local path>\results\12_review_checks\r10_series_rule.py:48: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  series = series.replace(r'^\s*$', np.nan, regex=True).copy()
+Modality CT: 259 labelled patients with a main series
+Classes: TCGA-KIRC (236), TCGA-KIRP (23)
+Fitting the metadata-only model (5 x 5 cross-validation) ...
+<local path>\tool\tcia_shortcut_audit.py:31: UserWarning: A NumPy version >=1.23.5 and <2.3.0 is required for this version of SciPy (detected version 2.4.2)
+  from scipy import sparse
+<local path>\tool\tcia_shortcut_audit.py:31: UserWarning: A NumPy version >=1.23.5 and <2.3.0 is required for this version of SciPy (detected version 2.4.2)
+  from scipy import sparse
+<local path>\tool\tcia_shortcut_audit.py:31: UserWarning: A NumPy version >=1.23.5 and <2.3.0 is required for this version of SciPy (detected version 2.4.2)
+  from scipy import sparse
+<local path>\tool\tcia_shortcut_audit.py:31: UserWarning: A NumPy version >=1.23.5 and <2.3.0 is required for this version of SciPy (detected version 2.4.2)
+  from scipy import sparse
+<local path>\tool\tcia_shortcut_audit.py:31: UserWarning: A NumPy version >=1.23.5 and <2.3.0 is required for this version of SciPy (detected version 2.4.2)
+  from scipy import sparse
+<local path>\tool\tcia_shortcut_audit.py:31: UserWarning: A NumPy version >=1.23.5 and <2.3.0 is required for this version of SciPy (detected version 2.4.2)
+  from scipy import sparse
+<local path>\tool\tcia_shortcut_audit.py:31: UserWarning: A NumPy version >=1.23.5 and <2.3.0 is required for this version of SciPy (detected version 2.4.2)
+  from scipy import sparse
+<local path>\tool\tcia_shortcut_audit.py:31: UserWarning: A NumPy version >=1.23.5 and <2.3.0 is required for this version of SciPy (detected version 2.4.2)
+  from scipy import sparse
+<local path>\tool\tcia_shortcut_audit.py:31: UserWarning: A NumPy version >=1.23.5 and <2.3.0 is required for this version of SciPy (detected version 2.4.2)
+  from scipy import sparse
+<local path>\tool\tcia_shortcut_audit.py:31: UserWarning: A NumPy version >=1.23.5 and <2.3.0 is required for this version of SciPy (detected version 2.4.2)
+  from scipy import sparse
+<local path>\tool\tcia_shortcut_audit.py:31: UserWarning: A NumPy version >=1.23.5 and <2.3.0 is required for this version of SciPy (detected version 2.4.2)
+  from scipy import sparse
+<local path>\tool\tcia_shortcut_audit.py:31: UserWarning: A NumPy version >=1.23.5 and <2.3.0 is required for this version of SciPy (detected version 2.4.2)
+  from scipy import sparse
+Metadata-only AUC 0.846 (95% CI 0.759-0.921), permutation p 0.0010 -> FLAGGED: acquisition metadata predicts the label
+Field groups: alone and left out ...
+Done in 265.3 s. Report: <local path>\results\12_review_checks\_r10_work\original_0\report.md
+original     renal subtype (KIRC vs KIRP)         AUC 0.8465 (0.7589-0.9210) p 0.0010  [266 s]
+TCIA acquisition-shortcut audit 1.0.1, started 2026-11-06T03:43:49+00:00
+Series metadata from <local path>\results\01_inventory\series_metadata.csv.gz: 1669 series of ['CPTAC-PDA']
+<local path>\results\12_review_checks\r10_series_rule.py:48: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  series = series.replace(r'^\s*$', np.nan, regex=True).copy()
+Modality CT: 68 labelled patients with a main series
+Classes: early (I-II) (47), late (III-IV) (21)
+Fitting the metadata-only model (5 x 5 cross-validation) ...
+Metadata-only AUC 0.843 (95% CI 0.737-0.926), permutation p 0.0010 -> FLAGGED: acquisition metadata predicts the label
+Field groups: alone and left out ...
+Done in 106.6 s. Report: <local path>\results\12_review_checks\_r10_work\original_1\report.md
+original     CPTAC-PDA | stage                    AUC 0.8434 (0.7369-0.9260) p 0.0010  [373 s]
+TCIA acquisition-shortcut audit 1.0.1, started 2026-11-06T03:45:36+00:00
+Series metadata from <local path>\results\01_inventory\series_metadata.csv.gz: 903 series of ['TCGA-LUAD', 'TCGA-LUSC']
+<local path>\results\12_review_checks\r10_series_rule.py:48: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  series = series.replace(r'^\s*$', np.nan, regex=True).copy()
+Modality CT: 104 labelled patients with a main series
+Classes: TCGA-LUAD (67), TCGA-LUSC (37)
+Fitting the metadata-only model (5 x 5 cross-validation) ...
+Metadata-only AUC 0.827 (95% CI 0.745-0.901), permutation p 0.0010 -> FLAGGED: acquisition metadata predicts the label
+Field groups: alone and left out ...
+Done in 84.0 s. Report: <local path>\results\12_review_checks\_r10_work\original_2\report.md
+original     lung histology (LUAD vs LUSC)        AUC 0.8273 (0.7449-0.9006) p 0.0010  [457 s]
+TCIA acquisition-shortcut audit 1.0.1, started 2026-11-06T03:47:00+00:00
+Series metadata from <local path>\results\01_inventory\series_metadata.csv.gz: 15116 series of ['LIDC-IDRI']
+Modality CT: 94 labelled patients with a main series
+Classes: metastatic (51), primary lung cancer (43)
+Fitting the metadata-only model (5 x 5 cross-validation) ...
+Metadata-only AUC 0.790 (95% CI 0.695-0.875), permutation p 0.0010 -> FLAGGED: acquisition metadata predicts the label
+Field groups: alone and left out ...
+Done in 88.0 s. Report: <local path>\results\12_review_checks\_r10_work\original_3\report.md
+original     LIDC-IDRI | primary vs metastatic    AUC 0.7902 (0.6953-0.8748) p 0.0010  [546 s]
+TCIA acquisition-shortcut audit 1.0.1, started 2026-11-06T03:48:29+00:00
+Series metadata from <local path>\results\01_inventory\series_metadata.csv.gz: 3030 series of ['TCGA-KIRC', 'TCGA-KIRP']
+<local path>\results\12_review_checks\r10_series_rule.py:48: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  series = series.replace(r'^\s*$', np.nan, regex=True).copy()
+Modality CT: 259 labelled patients with a main series
+Classes: TCGA-KIRC (236), TCGA-KIRP (23)
+Fitting the metadata-only model (5 x 5 cross-validation) ...
+Metadata-only AUC 0.880 (95% CI 0.806-0.937), permutation p 0.0010 -> FLAGGED: acquisition metadata predicts the label
+Field groups: alone and left out ...
+Done in 54.1 s. Report: <local path>\results\12_review_checks\_r10_work\fewest_4\report.md
+fewest       renal subtype (KIRC vs KIRP)         AUC 0.8796 (0.8062-0.9367) p 0.0010  [600 s]
+TCIA acquisition-shortcut audit 1.0.1, started 2026-11-06T03:49:23+00:00
+Series metadata from <local path>\results\01_inventory\series_metadata.csv.gz: 1669 series of ['CPTAC-PDA']
+<local path>\results\12_review_checks\r10_series_rule.py:48: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  series = series.replace(r'^\s*$', np.nan, regex=True).copy()
+Modality CT: 68 labelled patients with a main series
+Classes: early (I-II) (47), late (III-IV) (21)
+Fitting the metadata-only model (5 x 5 cross-validation) ...
+Metadata-only AUC 0.774 (95% CI 0.656-0.879), permutation p 0.0100 -> FLAGGED: acquisition metadata predicts the label
+Field groups: alone and left out ...
+Done in 34.9 s. Report: <local path>\results\12_review_checks\_r10_work\fewest_5\report.md
+fewest       CPTAC-PDA | stage                    AUC 0.7743 (0.6560-0.8790) p 0.0100  [635 s]
+TCIA acquisition-shortcut audit 1.0.1, started 2026-11-06T03:49:58+00:00
+Series metadata from <local path>\results\01_inventory\series_metadata.csv.gz: 903 series of ['TCGA-LUAD', 'TCGA-LUSC']
+<local path>\results\12_review_checks\r10_series_rule.py:48: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  series = series.replace(r'^\s*$', np.nan, regex=True).copy()
+Modality CT: 104 labelled patients with a main series
+Classes: TCGA-LUAD (67), TCGA-LUSC (37)
+Fitting the metadata-only model (5 x 5 cross-validation) ...
+Metadata-only AUC 0.830 (95% CI 0.750-0.899), permutation p 0.0010 -> FLAGGED: acquisition metadata predicts the label
+Field groups: alone and left out ...
+Done in 36.9 s. Report: <local path>\results\12_review_checks\_r10_work\fewest_6\report.md
+fewest       lung histology (LUAD vs LUSC)        AUC 0.8304 (0.7500-0.8986) p 0.0010  [672 s]
+TCIA acquisition-shortcut audit 1.0.1, started 2026-11-06T03:50:35+00:00
+Series metadata from <local path>\results\01_inventory\series_metadata.csv.gz: 15116 series of ['LIDC-IDRI']
+Modality CT: 94 labelled patients with a main series
+Classes: metastatic (51), primary lung cancer (43)
+Fitting the metadata-only model (5 x 5 cross-validation) ...
+Metadata-only AUC 0.790 (95% CI 0.695-0.875), permutation p 0.0010 -> FLAGGED: acquisition metadata predicts the label
+Field groups: alone and left out ...
+Done in 50.5 s. Report: <local path>\results\12_review_checks\_r10_work\fewest_7\report.md
+fewest       LIDC-IDRI | primary vs metastatic    AUC 0.7902 (0.6953-0.8748) p 0.0010  [723 s]
+TCIA acquisition-shortcut audit 1.0.1, started 2026-11-06T03:51:26+00:00
+Series metadata from <local path>\results\01_inventory\series_metadata.csv.gz: 3030 series of ['TCGA-KIRC', 'TCGA-KIRP']
+<local path>\results\12_review_checks\r10_series_rule.py:48: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  series = series.replace(r'^\s*$', np.nan, regex=True).copy()
+Modality CT: 259 labelled patients with a main series
+Classes: TCGA-KIRC (236), TCGA-KIRP (23)
+Fitting the metadata-only model (5 x 5 cross-validation) ...
+Metadata-only AUC 0.839 (95% CI 0.746-0.919), permutation p 0.0010 -> FLAGGED: acquisition metadata predicts the label
+Field groups: alone and left out ...
+Done in 42.2 s. Report: <local path>\results\12_review_checks\_r10_work\nearest_5mm_8\report.md
+nearest_5mm  renal subtype (KIRC vs KIRP)         AUC 0.8391 (0.7456-0.9186) p 0.0010  [765 s]
+TCIA acquisition-shortcut audit 1.0.1, started 2026-11-06T03:52:08+00:00
+Series metadata from <local path>\results\01_inventory\series_metadata.csv.gz: 1669 series of ['CPTAC-PDA']
+<local path>\results\12_review_checks\r10_series_rule.py:48: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  series = series.replace(r'^\s*$', np.nan, regex=True).copy()
+Modality CT: 68 labelled patients with a main series
+Classes: early (I-II) (47), late (III-IV) (21)
+Fitting the metadata-only model (5 x 5 cross-validation) ...
+Metadata-only AUC 0.827 (95% CI 0.714-0.918), permutation p 0.0010 -> FLAGGED: acquisition metadata predicts the label
+Field groups: alone and left out ...
+Done in 28.2 s. Report: <local path>\results\12_review_checks\_r10_work\nearest_5mm_9\report.md
+nearest_5mm  CPTAC-PDA | stage                    AUC 0.8265 (0.7142-0.9180) p 0.0010  [794 s]
+TCIA acquisition-shortcut audit 1.0.1, started 2026-11-06T03:52:37+00:00
+Series metadata from <local path>\results\01_inventory\series_metadata.csv.gz: 903 series of ['TCGA-LUAD', 'TCGA-LUSC']
+<local path>\results\12_review_checks\r10_series_rule.py:48: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  series = series.replace(r'^\s*$', np.nan, regex=True).copy()
+Modality CT: 104 labelled patients with a main series
+Classes: TCGA-LUAD (67), TCGA-LUSC (37)
+Fitting the metadata-only model (5 x 5 cross-validation) ...
+Metadata-only AUC 0.827 (95% CI 0.745-0.901), permutation p 0.0010 -> FLAGGED: acquisition metadata predicts the label
+Field groups: alone and left out ...
+Done in 29.1 s. Report: <local path>\results\12_review_checks\_r10_work\nearest_5mm_10\report.md
+nearest_5mm  lung histology (LUAD vs LUSC)        AUC 0.8273 (0.7449-0.9006) p 0.0010  [823 s]
+TCIA acquisition-shortcut audit 1.0.1, started 2026-11-06T03:53:06+00:00
+Series metadata from <local path>\results\01_inventory\series_metadata.csv.gz: 15116 series of ['LIDC-IDRI']
+Modality CT: 94 labelled patients with a main series
+Classes: metastatic (51), primary lung cancer (43)
+Fitting the metadata-only model (5 x 5 cross-validation) ...
+Metadata-only AUC 0.790 (95% CI 0.695-0.875), permutation p 0.0010 -> FLAGGED: acquisition metadata predicts the label
+Field groups: alone and left out ...
+Done in 36.7 s. Report: <local path>\results\12_review_checks\_r10_work\nearest_5mm_11\report.md
+nearest_5mm  LIDC-IDRI | primary vs metastatic    AUC 0.7902 (0.6953-0.8748) p 0.0010  [860 s]
+                          task_id        rule  n_patients    auc  ci_low  ci_high  perm_p  null_mean_auc  n_changed  share_changed  q_bh_4tasks  flag_holds  nb03_largest_difference nb03_reproduced
+     renal subtype (KIRC vs KIRP)    original         259 0.8465  0.7589   0.9210   0.001         0.4946          0         0.0000       0.0010        True                   0.0000            True
+                CPTAC-PDA | stage    original          68 0.8434  0.7369   0.9260   0.001         0.4882          0         0.0000       0.0010        True                   0.0032           False
+    lung histology (LUAD vs LUSC)    original         104 0.8273  0.7449   0.9006   0.001         0.4936          0         0.0000       0.0010        True                   0.0000            True
+LIDC-IDRI | primary vs metastatic    original          94 0.7902  0.6953   0.8748   0.001         0.4869          0         0.0000       0.0010        True                   0.0000            True
+     renal subtype (KIRC vs KIRP)      fewest         259 0.8796  0.8062   0.9367   0.001         0.4939        212         0.8185       0.0013        True                      NaN             NaN
+                CPTAC-PDA | stage      fewest          68 0.7743  0.6560   0.8790   0.010         0.4892         58         0.8529       0.0100        True                      NaN             NaN
+    lung histology (LUAD vs LUSC)      fewest         104 0.8304  0.7500   0.8986   0.001         0.4936         63         0.6058       0.0013        True                      NaN             NaN
+LIDC-IDRI | primary vs metastatic      fewest          94 0.7902  0.6953   0.8748   0.001         0.4869          0         0.0000       0.0013        True                      NaN             NaN
+     renal subtype (KIRC vs KIRP) nearest_5mm         259 0.8391  0.7456   0.9186   0.001         0.4937         11         0.0425       0.0010        True                      NaN             NaN
+                CPTAC-PDA | stage nearest_5mm          68 0.8265  0.7142   0.9180   0.001         0.4883         12         0.1765       0.0010        True                      NaN             NaN
+    lung histology (LUAD vs LUSC) nearest_5mm         104 0.8273  0.7449   0.9006   0.001         0.4936          0         0.0000       0.0010        True                      NaN             NaN
+LIDC-IDRI | primary vs metastatic nearest_5mm          94 0.7902  0.6953   0.8748   0.001         0.4869          0         0.0000       0.0010        True                      NaN             NaN
+                          task_id        rule               class   n  median_image_count  parsed_thickness_known  median_parsed_thickness_mm
+     renal subtype (KIRC vs KIRP)    original           TCGA-KIRC 236               133.0                      50                        5.00
+     renal subtype (KIRC vs KIRP)    original           TCGA-KIRP  23               107.0                       8                        5.00
+                CPTAC-PDA | stage    original        early (I-II)  47               194.0                      13                        2.50
+                CPTAC-PDA | stage    original       late (III-IV)  21               391.0                       4                        1.75
+    lung histology (LUAD vs LUSC)    original           TCGA-LUAD  67                62.0                      24                        5.00
+    lung histology (LUAD vs LUSC)    original           TCGA-LUSC  37               126.0                       9                        5.00
+LIDC-IDRI | primary vs metastatic    original          metastatic  51               144.0                       3                        5.00
+LIDC-IDRI | primary vs metastatic    original primary lung cancer  43               260.0                       1                        5.00
+     renal subtype (KIRC vs KIRP)      fewest           TCGA-KIRC 236                56.5                      57                        5.00
+     renal subtype (KIRC vs KIRP)      fewest           TCGA-KIRP  23                58.0                       8                        5.00
+                CPTAC-PDA | stage      fewest        early (I-II)  47                38.0                      10                        3.00
+                CPTAC-PDA | stage      fewest       late (III-IV)  21                81.0                       5                        5.00
+    lung histology (LUAD vs LUSC)      fewest           TCGA-LUAD  67                52.0                      22                        5.00
+    lung histology (LUAD vs LUSC)      fewest           TCGA-LUSC  37                70.0                       9                        5.00
+LIDC-IDRI | primary vs metastatic      fewest          metastatic  51               144.0                       3                        5.00
+LIDC-IDRI | primary vs metastatic      fewest primary lung cancer  43               260.0                       1                        5.00
+     renal subtype (KIRC vs KIRP) nearest_5mm           TCGA-KIRC 236               133.0                      58                        5.00
+     renal subtype (KIRC vs KIRP) nearest_5mm           TCGA-KIRP  23               107.0                       9                        5.00
+                CPTAC-PDA | stage nearest_5mm        early (I-II)  47               171.0                      18                        3.00
+                CPTAC-PDA | stage nearest_5mm       late (III-IV)  21               256.0                       5                        5.00
+    lung histology (LUAD vs LUSC) nearest_5mm           TCGA-LUAD  67                62.0                      24                        5.00
+    lung histology (LUAD vs LUSC) nearest_5mm           TCGA-LUSC  37               126.0                       9                        5.00
+LIDC-IDRI | primary vs metastatic nearest_5mm          metastatic  51               144.0                       3                        5.00
+LIDC-IDRI | primary vs metastatic nearest_5mm primary lung cancer  43               260.0                       1                        5.00
+finished in 860 s
+exit 0

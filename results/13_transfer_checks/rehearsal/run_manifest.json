@@ -1,0 +1,22 @@
+{
+  "check": "R17, R18 (plan 7l)",
+  "mode": "rehearsal",
+  "run_utc": "2026-11-06T16:00:37+00:00",
+  "plan_sha256": "c3e4cff374f5756eaae6d351d441e37de11f906d6a4080ee91fdaf067da80600",
+  "script_sha256": "960241049bb4a6d834b1c8eeb480970ab7cf5b0a9cf1e4a5f483d2888c9171a7",
+  "rehearsal_gates": {
+    "r17_natural_auc_0.35_0.65": true,
+    "r18_within_sex_0.35_0.65": true
+  },
+  "versions": {
+    "numpy": "2.4.2",
+    "pandas": "2.2.3",
+    "python": "3.12.10"
+  },
+  "outputs": {
+    "r17_cohort_offsets.csv": "cf59822868829bde72a1cc3cf484e62cb535df02501c5e1ae2d81860aaf18794",
+    "r17_crossed_assembly.csv": "7fd0c3806a9f43a0b3e89498bfa03b78bb10a01891e5133f8256323042ee7dc4",
+    "r17_summary.csv": "57b4bff11027ed94b41d95fbf559c8b31a6c6958e9c1cb7c9a21a200029bceb6",
+    "r18_within_sex.csv": "54554afb97c6b1b511d50312d4f3f667b72ca1781adfe8c2f15ce9124f93f66e"
+  }
+}

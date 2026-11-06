@@ -1,0 +1,2 @@
+# Keep every file byte for byte, so that MANIFEST.md5 and the run records stay valid after cloning.
+* -text

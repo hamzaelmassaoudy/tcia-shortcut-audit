@@ -1,0 +1,70 @@
+collection,site_source,tss,institution_raw,institution
+NSCLC Radiogenomics,clinical file: Patient affiliation,,Stanford,Stanford
+NSCLC Radiogenomics,clinical file: Patient affiliation,,VA,VA
+TCGA-BLCA,TCGA tissue source site,4Z,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-BLCA,TCGA tissue source site,K4,ABS - Lahey Clinic,lahey clinic
+TCGA-BLCA,TCGA tissue source site,G2,MD Anderson,md anderson cancer center
+TCGA-BLCA,TCGA tissue source site,DK,Memorial Sloan Kettering,memorial sloan kettering
+TCGA-BLCA,TCGA tissue source site,CU,UNC,unc
+TCGA-BLCA,TCGA tissue source site,FD,BLN - University Of Chicago,university of chicago
+TCGA-BLCA,TCGA tissue source site,ZF,University of Sheffield,university of sheffield
+TCGA-BLCA,TCGA tissue source site,XF,University of Southern California,university of southern california
+TCGA-BRCA,TCGA tissue source site,AR,Mayo,mayo clinic
+TCGA-BRCA,TCGA tissue source site,AO,MSKCC,memorial sloan kettering
+TCGA-BRCA,TCGA tissue source site,E2,Roswell Park,roswell park
+TCGA-BRCA,TCGA tissue source site,AQ,UNC,unc
+TCGA-BRCA,TCGA tissue source site,OL,University of Chicago,university of chicago
+TCGA-BRCA,TCGA tissue source site,EW,University of Miami,university of miami
+TCGA-BRCA,TCGA tissue source site,BH,University of Pittsburgh,university of pittsburgh
+TCGA-CESC,TCGA tissue source site,VS,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-COAD,TCGA tissue source site,CK,Harvard,harvard
+TCGA-COAD,TCGA tissue source site,G4,Roswell Park,roswell park
+TCGA-COAD,TCGA tissue source site,AY,UNC,unc
+TCGA-ESCA,TCGA tissue source site,VR,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-KICH,TCGA tissue source site,KN,Harvard,harvard
+TCGA-KICH,TCGA tissue source site,KM,NCI Urologic Oncology Branch,nci urologic oncology branch
+TCGA-KIRC,TCGA tissue source site,CZ,Harvard,harvard
+TCGA-KIRC,TCGA tissue source site,CW,Mayo Clinic - Rochester,mayo clinic
+TCGA-KIRC,TCGA tissue source site,CJ,MD Anderson Cancer Center,md anderson cancer center
+TCGA-KIRC,TCGA tissue source site,BP,MSKCC,memorial sloan kettering
+TCGA-KIRC,TCGA tissue source site,DV,NCI Urologic Oncology Branch,nci urologic oncology branch
+TCGA-KIRC,TCGA tissue source site,G6,Roswell Park,roswell park
+TCGA-KIRC,TCGA tissue source site,B8,UNC,unc
+TCGA-KIRC,TCGA tissue source site,B0,University of Pittsburgh,university of pittsburgh
+TCGA-KIRP,TCGA tissue source site,IZ,ABS - Lahey Clinic,lahey clinic
+TCGA-KIRP,TCGA tissue source site,DW,NCI Urologic Oncology Branch,nci urologic oncology branch
+TCGA-KIRP,TCGA tissue source site,G7,Roswell Park,roswell park
+TCGA-KIRP,TCGA tissue source site,B9,UNC,unc
+TCGA-LIHC,TCGA tissue source site,G3,Alberta Health Services,alberta health services
+TCGA-LIHC,TCGA tissue source site,K7,ABS - Lahey Clinic,lahey clinic
+TCGA-LIHC,TCGA tissue source site,DD,Mayo Clinic - Rochester,mayo clinic
+TCGA-LIHC,TCGA tissue source site,BC,UNC,unc
+TCGA-LUAD,TCGA tissue source site,J2,ABS - Lahey Clinic,lahey clinic
+TCGA-LUAD,TCGA tissue source site,38,UNC,unc
+TCGA-LUAD,TCGA tissue source site,50,University of Pittsburgh,university of pittsburgh
+TCGA-LUAD,TCGA tissue source site,17,Washington University,washington university
+TCGA-LUSC,TCGA tissue source site,J1,ABS - Lahey Clinic,lahey clinic
+TCGA-LUSC,TCGA tissue source site,60,Roswell Park,roswell park
+TCGA-LUSC,TCGA tissue source site,51,UNC,unc
+TCGA-LUSC,TCGA tissue source site,34,University of Pittsburgh,university of pittsburgh
+TCGA-LUSC,TCGA tissue source site,92,Washington University - St. Louis,washington university
+TCGA-OV,TCGA tissue source site,30,Harvard,harvard
+TCGA-OV,TCGA tissue source site,25,Mayo Clinic - Rochester,mayo clinic
+TCGA-OV,TCGA tissue source site,10,MD Anderson Cancer Center,md anderson cancer center
+TCGA-OV,TCGA tissue source site,13,Memorial Sloan Kettering,memorial sloan kettering
+TCGA-OV,TCGA tissue source site,09,UCSF,ucsf
+TCGA-OV,TCGA tissue source site,OY,University of North Carolina,unc
+TCGA-OV,TCGA tissue source site,61,University of Pittsburgh,university of pittsburgh
+TCGA-OV,TCGA tissue source site,24,Washington University,washington university
+TCGA-PRAD,TCGA tissue source site,J4,ABS - Lahey Clinic,lahey clinic
+TCGA-PRAD,TCGA tissue source site,EJ,University of Pittsburgh,university of pittsburgh
+TCGA-PRAD,TCGA tissue source site,VP,Washington University,washington university
+TCGA-READ,TCGA tissue source site,CL,Harvard,harvard
+TCGA-READ,TCGA tissue source site,BM,UNC,unc
+TCGA-SARC,TCGA tissue source site,QQ,Roswell Park,roswell park
+TCGA-STAD,TCGA tissue source site,VQ,Barretos Cancer Hospital,barretos cancer hospital
+TCGA-THCA,TCGA tissue source site,E3,Roswell Park,roswell park
+TCGA-THCA,TCGA tissue source site,DE,University of North Carolina,unc
+TCGA-UCEC,TCGA tissue source site,D1,Mayo Clinic,mayo clinic
+TCGA-UCEC,TCGA tissue source site,DI,MD Anderson,md anderson cancer center
+TCGA-UCEC,TCGA tissue source site,FI,Washington University,washington university

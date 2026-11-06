@@ -1,0 +1,66 @@
+collection,token,category,n_patients
+CPTAC-CCRCC,mass,label (blocked),10
+CPTAC-CCRCC,hcc,label (blocked),1
+CPTAC-CM,onco,label (blocked),1
+CPTAC-CM,oncology,label (blocked),1
+CPTAC-CM,tumor,label (blocked),1
+CPTAC-LSCC,oncology,label (blocked),1
+CPTAC-LUAD,nodule,label (blocked),1
+CPTAC-LUAD,oncology,label (blocked),1
+CPTAC-PDA,mass,label (blocked),2
+CPTAC-SAR,mass,label (blocked),1
+CPTAC-STAD,oncology,label (blocked),15
+CPTAC-UCEC,cancer,label (blocked),1
+Duke-Breast-Cancer-MRI,ca,label (blocked),12
+Duke-Breast-Cancer-MRI,lesion,label (blocked),2
+HCC-TACE-Seg,osf,site (blocked),1
+LIDC-IDRI,ca,label (blocked),1
+NSCLC Radiogenomics,va,site (blocked),23
+NSCLC Radiogenomics,ca,label (blocked),4
+NSCLC Radiogenomics,nodule,label (blocked),3
+NSCLC Radiogenomics,cancer,label (blocked),2
+NSCLC Radiogenomics,mass,label (blocked),2
+PROSTATEx,kanker,label (blocked),270
+TCGA-BRCA,tumor,label (blocked),11
+TCGA-BRCA,lesion,label (blocked),1
+TCGA-CESC,endometrio,label (blocked),1
+TCGA-COAD,roswell,site (blocked),3
+TCGA-COAD,bwh,site (blocked),1
+TCGA-COAD,ca,label (blocked),1
+TCGA-KICH,mass,label (blocked),3
+TCGA-KICH,uob,site (blocked),3
+TCGA-KICH,osf,site (blocked),2
+TCGA-KIRC,mass,label (blocked),87
+TCGA-KIRC,vhl,label (blocked),5
+TCGA-KIRC,mayo,site (blocked),3
+TCGA-KIRC,uob,site (blocked),3
+TCGA-KIRC,ca,label (blocked),1
+TCGA-KIRC,osf,site (blocked),1
+TCGA-KIRC,rcc,label (blocked),1
+TCGA-KIRP,mass,label (blocked),5
+TCGA-KIRP,osf,site (blocked),1
+TCGA-KIRP,tumor,label (blocked),1
+TCGA-KIRP,uob,site (blocked),1
+TCGA-KIRP,vhl,label (blocked),1
+TCGA-LIHC,fmc,site (blocked),5
+TCGA-LIHC,ca,label (blocked),2
+TCGA-LIHC,hcc,label (blocked),1
+TCGA-LIHC,triple,label (blocked),1
+TCGA-LUAD,tumor,label (blocked),1
+TCGA-LUSC,rpci,site (blocked),3
+TCGA-LUSC,bjh,site (blocked),2
+TCGA-LUSC,roswell,site (blocked),1
+TCGA-LUSC,tumor,label (blocked),1
+TCGA-OV,onc,label (blocked),4
+TCGA-OV,mayo,site (blocked),2
+TCGA-OV,mass,label (blocked),1
+TCGA-SARC,ca,label (blocked),1
+TCGA-UCEC,onc,label (blocked),7
+TCGA-UCEC,mayo,site (blocked),1
+TCGA-UCEC,osf,site (blocked),1
+UPENN-GBM,captk,processing (blocked),509
+UPENN-GBM,processed,processing (blocked),509
+UPENN-GBM,braintumor,label (blocked),187
+UPENN-GBM,tumor,label (blocked),119
+UPENN-GBM,grade,label (blocked),15
+UPENN-GBM,metastasis,label (blocked),1

@@ -1,0 +1,13 @@
+mode,encoder,check,n_points,spearman_rho,perm_p_one_sided,wording,reproduces_nb07
+rehearsal,ctfm,"all 19 tasks (notebook 07, recomputed)",19,-0.29473684210526313,0.89093,not supported,True
+rehearsal,ctfm,without the flagged tasks,15,-0.2642857142857143,0.83246,the correlation depends on the flagged tasks,
+rehearsal,ctfm,patient-disjoint task groups (group means),11,-0.4090909090909091,0.89877,not shown over patient-disjoint task groups,
+rehearsal,merlin,"all 19 tasks (notebook 07, recomputed)",19,0.06491228070175438,0.39357,not supported,True
+rehearsal,merlin,without the flagged tasks,15,0.16428571428571428,0.27544,the correlation depends on the flagged tasks,
+rehearsal,merlin,patient-disjoint task groups (group means),11,0.32727272727272727,0.16497,not shown over patient-disjoint task groups,
+real,ctfm,"all 19 tasks (notebook 07, recomputed)",19,0.5105263157894737,0.01361,the screen is supported,True
+real,ctfm,without the flagged tasks,15,0.18571428571428572,0.25368,the correlation depends on the flagged tasks,
+real,ctfm,patient-disjoint task groups (group means),11,0.509090909090909,0.05729,not shown over patient-disjoint task groups,
+real,merlin,"all 19 tasks (notebook 07, recomputed)",19,0.3192982456140351,0.08945,not supported,True
+real,merlin,without the flagged tasks,15,-0.05,0.57341,the correlation depends on the flagged tasks,
+real,merlin,patient-disjoint task groups (group means),11,0.21818181818181817,0.26086,not shown over patient-disjoint task groups,

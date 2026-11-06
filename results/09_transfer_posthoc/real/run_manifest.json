@@ -1,0 +1,145 @@
+{
+  "notebook": "09_transfer_posthoc.ipynb",
+  "mode": "real",
+  "plan": "7h (post hoc)",
+  "labels": "real",
+  "run_started_utc": "2026-10-30T14:38:52+00:00",
+  "run_finished_utc": "2026-10-30T15:22:00+00:00",
+  "in_colab": true,
+  "local_test_settings": {},
+  "input_runs": {
+    "01": "2026-10-28T12:20:42+00:00",
+    "02": "2026-10-28T15:29:58+00:00",
+    "03": "2026-10-28T16:27:39+00:00",
+    "04": "2026-10-28T19:04:36+00:00",
+    "05": "2026-10-29T04:57:15+00:00",
+    "06": "2026-10-29T14:04:31+00:00",
+    "07": "2026-10-29T18:25:18+00:00",
+    "08": "2026-10-30T10:19:13+00:00"
+  },
+  "input_caches": {
+    "05": {
+      "count": 1053,
+      "combined_md5": "23f84dc5fbdd3e3047f4a4ad0cad85f8"
+    },
+    "06": {
+      "count": 1052,
+      "combined_md5": "bbe6202f8b48b6fe4fe4db6f462a9df7"
+    },
+    "07": {
+      "count": 1450,
+      "combined_md5": "99f4d1df6e363a023b7a9b598dbddbfd"
+    },
+    "08": {
+      "count": 477,
+      "combined_md5": "040ddb3ebfb4b444358b063666351d15"
+    }
+  },
+  "same_versions_as_notebook05": true,
+  "reproduced_notebooks06_08": true,
+  "patients_with_all_inputs": 376,
+  "settings": {
+    "SEED": 2026,
+    "N_SPLITS": 5,
+    "N_REPEATS": 5,
+    "MIN_COUNT": 3,
+    "LR_PARAMS": {
+      "C": 1.0,
+      "class_weight": "balanced",
+      "max_iter": 5000
+    },
+    "HDR_COLS": [
+      "hdr_slice_thickness",
+      "hdr_z_spacing",
+      "hdr_pixel_spacing",
+      "hdr_recon_diameter",
+      "hdr_kvp",
+      "hdr_tube_current",
+      "hdr_exposure",
+      "hdr_ctdivol",
+      "hdr_pitch",
+      "hdr_kernel",
+      "hdr_filter_type",
+      "hdr_patient_position"
+    ],
+    "N_BOOT": 2000,
+    "N_PERM": 999,
+    "REPRO_TOL": 0.001,
+    "BODY_COLS": [
+      "body_area_cm2"
+    ],
+    "FIELDS_NUMERIC": [
+      "hdr_slice_thickness",
+      "hdr_z_spacing",
+      "hdr_recon_diameter",
+      "hdr_kvp",
+      "hdr_tube_current",
+      "body_area_cm2"
+    ],
+    "FIELDS_CATEGORICAL": [
+      "manufacturer",
+      "hdr_kernel",
+      "hdr_patient_position",
+      "hdr_contrast_agent_given"
+    ]
+  },
+  "versions": {
+    "python": "3.13.18",
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.6.1",
+    "joblib": "1.6.0",
+    "cpus": 2
+  },
+  "outputs": [
+    {
+      "file": "cptac_background_score_vs_fields.csv",
+      "bytes": 5480,
+      "rows": 60,
+      "md5": "8a3620e585390e43cfdac9a7c4d30d4e"
+    },
+    {
+      "file": "field_differences_categorical.csv",
+      "bytes": 9978,
+      "rows": 105,
+      "md5": "770e189a658992d616e654e6b09f744a"
+    },
+    {
+      "file": "field_differences_numeric.csv",
+      "bytes": 2095,
+      "rows": 18,
+      "md5": "c2ae999bf7d663a594d1710e9614c535"
+    },
+    {
+      "file": "header_body_transfer.csv",
+      "bytes": 1275,
+      "rows": 2,
+      "md5": "91427dd6b31a6a16290931310853a926"
+    },
+    {
+      "file": "header_missing_share.csv",
+      "bytes": 1920,
+      "rows": 39,
+      "md5": "cae2c9a45c9a4b6870f3057bb8351b91"
+    },
+    {
+      "file": "reproduction_check.csv",
+      "bytes": 760,
+      "rows": 8,
+      "md5": "c3f23d92f14a2f0f09eb2a20778c65bd"
+    },
+    {
+      "file": "silhouette_transfer.csv",
+      "bytes": 1956,
+      "rows": 4,
+      "md5": "11df0e706d01652d2c43f6a90c5aa9d3"
+    },
+    {
+      "file": "transfer_scores.csv.gz",
+      "bytes": 23390,
+      "rows": 1632,
+      "md5": "4ce68a13e943010e5f31aa765dea19af"
+    }
+  ]
+}

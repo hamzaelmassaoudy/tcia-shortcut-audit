@@ -1,0 +1,241 @@
+task_id,encoder,class,field,test,n,statistic,p,n_levels
+renal subtype (KIRC vs KIRP),ctfm,TCGA-KIRC,hdr_slice_thickness,Spearman rho,236,0.08457657092637719,0.19541950461004753,
+renal subtype (KIRC vs KIRP),ctfm,TCGA-KIRC,hdr_z_spacing,Spearman rho,236,0.04503353598304762,0.49114146456508523,
+renal subtype (KIRC vs KIRP),ctfm,TCGA-KIRC,hdr_pixel_spacing,Spearman rho,236,-0.10406592766165207,0.11081623511792474,
+renal subtype (KIRC vs KIRP),ctfm,TCGA-KIRC,hdr_recon_diameter,Spearman rho,235,-0.09557378234862676,0.14411106188330772,
+renal subtype (KIRC vs KIRP),ctfm,TCGA-KIRC,hdr_kvp,Spearman rho,236,-0.02773469128176827,0.6716476903733846,
+renal subtype (KIRC vs KIRP),ctfm,TCGA-KIRC,hdr_tube_current,Spearman rho,231,-0.002916356559575437,0.9648371089095918,
+renal subtype (KIRC vs KIRP),ctfm,TCGA-KIRC,hdr_exposure,Spearman rho,231,-0.07416802488905715,0.26156991720346195,
+renal subtype (KIRC vs KIRP),ctfm,TCGA-KIRC,hdr_ctdivol,Spearman rho,12,-0.34676060182748136,0.2694793884630332,
+renal subtype (KIRC vs KIRP),ctfm,TCGA-KIRC,hdr_pitch,Spearman rho,53,-0.298170857729426,0.030117049393602963,
+renal subtype (KIRC vs KIRP),ctfm,TCGA-KIRC,hdr_coverage_mm,Spearman rho,236,-0.20486911946397565,0.0015552188781288714,
+renal subtype (KIRC vs KIRP),ctfm,TCGA-KIRC,body_area_cm2,Spearman rho,236,0.026058694372041426,0.6904360564235589,
+renal subtype (KIRC vs KIRP),ctfm,TCGA-KIRC,hdr_kernel,Kruskal-Wallis H,225,14.686857593704303,0.04022961143662266,8.0
+renal subtype (KIRC vs KIRP),ctfm,TCGA-KIRC,hdr_filter_type,Kruskal-Wallis H,228,9.120028870152964,0.05816835907530157,5.0
+renal subtype (KIRC vs KIRP),ctfm,TCGA-KIRC,hdr_patient_position,Kruskal-Wallis H,235,12.675842615012016,0.00037041024977090155,2.0
+renal subtype (KIRC vs KIRP),ctfm,TCGA-KIRC,hdr_manufacturer,Kruskal-Wallis H,235,10.867194096303706,0.004367357917946018,3.0
+renal subtype (KIRC vs KIRP),ctfm,TCGA-KIRP,hdr_slice_thickness,Spearman rho,23,0.27191304349606393,0.20942837191759658,
+renal subtype (KIRC vs KIRP),ctfm,TCGA-KIRP,hdr_z_spacing,Spearman rho,23,0.12006806853947025,0.5852755297499841,
+renal subtype (KIRC vs KIRP),ctfm,TCGA-KIRP,hdr_pixel_spacing,Spearman rho,23,-0.4520279164736988,0.030351983424736412,
+renal subtype (KIRC vs KIRP),ctfm,TCGA-KIRP,hdr_recon_diameter,Spearman rho,22,-0.4833242207111134,0.022681964038759692,
+renal subtype (KIRC vs KIRP),ctfm,TCGA-KIRP,hdr_kvp,Spearman rho,23,,,
+renal subtype (KIRC vs KIRP),ctfm,TCGA-KIRP,hdr_tube_current,Spearman rho,23,-0.06429281087700311,0.770711708142579,
+renal subtype (KIRC vs KIRP),ctfm,TCGA-KIRP,hdr_exposure,Spearman rho,23,0.158102766798419,0.47121646253366734,
+renal subtype (KIRC vs KIRP),ctfm,TCGA-KIRP,hdr_ctdivol,Spearman rho,5,,,
+renal subtype (KIRC vs KIRP),ctfm,TCGA-KIRP,hdr_pitch,Spearman rho,10,-0.2977607242843649,0.4033909353914916,
+renal subtype (KIRC vs KIRP),ctfm,TCGA-KIRP,hdr_coverage_mm,Spearman rho,23,-0.24802371541501977,0.2538330249039902,
+renal subtype (KIRC vs KIRP),ctfm,TCGA-KIRP,body_area_cm2,Spearman rho,23,0.0800395256916996,0.7165801831888988,
+renal subtype (KIRC vs KIRP),ctfm,TCGA-KIRP,hdr_kernel,Kruskal-Wallis H,19,1.6290909090909054,0.44284057278973954,3.0
+renal subtype (KIRC vs KIRP),ctfm,TCGA-KIRP,hdr_filter_type,Kruskal-Wallis H,19,1.5340909090909136,0.2154995090693228,2.0
+renal subtype (KIRC vs KIRP),ctfm,TCGA-KIRP,hdr_patient_position,Kruskal-Wallis H,23,1.6116071428571388,0.204266034434916,2.0
+renal subtype (KIRC vs KIRP),ctfm,TCGA-KIRP,hdr_manufacturer,Kruskal-Wallis H,20,2.1948051948051983,0.13847671503211265,2.0
+renal subtype (KIRC vs KIRP),merlin,TCGA-KIRC,hdr_slice_thickness,Spearman rho,236,-0.07607937594574653,0.24432834643839793,
+renal subtype (KIRC vs KIRP),merlin,TCGA-KIRC,hdr_z_spacing,Spearman rho,236,-0.058030603536466045,0.37481093420092837,
+renal subtype (KIRC vs KIRP),merlin,TCGA-KIRC,hdr_pixel_spacing,Spearman rho,236,0.021158141314807154,0.7464317589943527,
+renal subtype (KIRC vs KIRP),merlin,TCGA-KIRC,hdr_recon_diameter,Spearman rho,235,0.009043491892664658,0.8903212694698726,
+renal subtype (KIRC vs KIRP),merlin,TCGA-KIRC,hdr_kvp,Spearman rho,236,0.007896811250197013,0.9039517267325747,
+renal subtype (KIRC vs KIRP),merlin,TCGA-KIRC,hdr_tube_current,Spearman rho,231,0.12126285590400349,0.06579275517396313,
+renal subtype (KIRC vs KIRP),merlin,TCGA-KIRC,hdr_exposure,Spearman rho,231,-0.1714912564248138,0.009009898115425212,
+renal subtype (KIRC vs KIRP),merlin,TCGA-KIRC,hdr_ctdivol,Spearman rho,12,0.3817869252443987,0.22070801550440275,
+renal subtype (KIRC vs KIRP),merlin,TCGA-KIRC,hdr_pitch,Spearman rho,53,0.1428500752165735,0.3075335730373126,
+renal subtype (KIRC vs KIRP),merlin,TCGA-KIRC,hdr_coverage_mm,Spearman rho,236,-0.1542739173674523,0.017709673005402445,
+renal subtype (KIRC vs KIRP),merlin,TCGA-KIRC,body_area_cm2,Spearman rho,236,0.1919175412088539,0.0030743396974093414,
+renal subtype (KIRC vs KIRP),merlin,TCGA-KIRC,hdr_kernel,Kruskal-Wallis H,225,27.911920728286418,0.0002281213631259502,8.0
+renal subtype (KIRC vs KIRP),merlin,TCGA-KIRC,hdr_filter_type,Kruskal-Wallis H,228,15.232842218163228,0.004241869041552523,5.0
+renal subtype (KIRC vs KIRP),merlin,TCGA-KIRC,hdr_patient_position,Kruskal-Wallis H,235,6.08153753026636,0.013660182951782576,2.0
+renal subtype (KIRC vs KIRP),merlin,TCGA-KIRC,hdr_manufacturer,Kruskal-Wallis H,235,14.8053466245741,0.000609620873856771,3.0
+renal subtype (KIRC vs KIRP),merlin,TCGA-KIRP,hdr_slice_thickness,Spearman rho,23,-0.10940501279488689,0.6192425855929395,
+renal subtype (KIRC vs KIRP),merlin,TCGA-KIRP,hdr_z_spacing,Spearman rho,23,-0.1029917210138567,0.6400469975601646,
+renal subtype (KIRC vs KIRP),merlin,TCGA-KIRP,hdr_pixel_spacing,Spearman rho,23,-0.39070246609871123,0.0652849706996324,
+renal subtype (KIRC vs KIRP),merlin,TCGA-KIRP,hdr_recon_diameter,Spearman rho,22,-0.3872246680551026,0.07500485117886271,
+renal subtype (KIRC vs KIRP),merlin,TCGA-KIRP,hdr_kvp,Spearman rho,23,,,
+renal subtype (KIRC vs KIRP),merlin,TCGA-KIRP,hdr_tube_current,Spearman rho,23,-0.3056381317075994,0.15611760813080255,
+renal subtype (KIRC vs KIRP),merlin,TCGA-KIRP,hdr_exposure,Spearman rho,23,0.2015810276679842,0.3563437597255916,
+renal subtype (KIRC vs KIRP),merlin,TCGA-KIRP,hdr_ctdivol,Spearman rho,5,,,
+renal subtype (KIRC vs KIRP),merlin,TCGA-KIRP,hdr_pitch,Spearman rho,10,-0.5068267647393445,0.13489907456747677,
+renal subtype (KIRC vs KIRP),merlin,TCGA-KIRP,hdr_coverage_mm,Spearman rho,23,-0.20256916996047433,0.35394111111825355,
+renal subtype (KIRC vs KIRP),merlin,TCGA-KIRP,body_area_cm2,Spearman rho,23,-0.22134387351778656,0.3101099751667687,
+renal subtype (KIRC vs KIRP),merlin,TCGA-KIRP,hdr_kernel,Kruskal-Wallis H,19,1.5732057416268006,0.455389186445492,3.0
+renal subtype (KIRC vs KIRP),merlin,TCGA-KIRP,hdr_filter_type,Kruskal-Wallis H,19,1.336363636363643,0.24767626769188894,2.0
+renal subtype (KIRC vs KIRP),merlin,TCGA-KIRP,hdr_patient_position,Kruskal-Wallis H,23,0.004464285714277594,0.9467287346481523,2.0
+renal subtype (KIRC vs KIRP),merlin,TCGA-KIRP,hdr_manufacturer,Kruskal-Wallis H,20,1.3867243867243815,0.23895905206052603,2.0
+CPTAC-PDA | stage,ctfm,early (I-II),hdr_slice_thickness,Spearman rho,47,-0.007998602795748582,0.9574451752646147,
+CPTAC-PDA | stage,ctfm,early (I-II),hdr_z_spacing,Spearman rho,47,-0.1558042923111665,0.2956621005103841,
+CPTAC-PDA | stage,ctfm,early (I-II),hdr_pixel_spacing,Spearman rho,47,0.02090125089379583,0.8890958332917206,
+CPTAC-PDA | stage,ctfm,early (I-II),hdr_recon_diameter,Spearman rho,47,0.019856767204535036,0.8946058886321513,
+CPTAC-PDA | stage,ctfm,early (I-II),hdr_kvp,Spearman rho,47,-0.11967622902795402,0.42298598072607574,
+CPTAC-PDA | stage,ctfm,early (I-II),hdr_tube_current,Spearman rho,43,-0.06358316068730435,0.6854283365908833,
+CPTAC-PDA | stage,ctfm,early (I-II),hdr_exposure,Spearman rho,42,0.31619505977736084,0.04134964490595672,
+CPTAC-PDA | stage,ctfm,early (I-II),hdr_ctdivol,Spearman rho,12,-0.1958041958041958,0.5419358857313175,
+CPTAC-PDA | stage,ctfm,early (I-II),hdr_pitch,Spearman rho,38,0.3126287419399746,0.05600396174181229,
+CPTAC-PDA | stage,ctfm,early (I-II),hdr_coverage_mm,Spearman rho,47,-0.01052327263973569,0.9440319700386541,
+CPTAC-PDA | stage,ctfm,early (I-II),body_area_cm2,Spearman rho,47,-0.025670675300647552,0.8640048308334375,
+CPTAC-PDA | stage,ctfm,early (I-II),hdr_kernel,Kruskal-Wallis H,36,2.639339339339344,0.2672235594346479,3.0
+CPTAC-PDA | stage,ctfm,early (I-II),hdr_filter_type,Kruskal-Wallis H,35,6.724904214559402,0.034650188706718904,3.0
+CPTAC-PDA | stage,ctfm,early (I-II),hdr_patient_position,Kruskal-Wallis H,46,4.089361702127661,0.04315393604975661,2.0
+CPTAC-PDA | stage,ctfm,early (I-II),hdr_manufacturer,Kruskal-Wallis H,41,11.301277584204428,0.0035152705304948902,3.0
+CPTAC-PDA | stage,ctfm,late (III-IV),hdr_slice_thickness,Spearman rho,21,-0.14156652629633878,0.5404646662899373,
+CPTAC-PDA | stage,ctfm,late (III-IV),hdr_z_spacing,Spearman rho,21,-0.2068126605035669,0.36839618132530805,
+CPTAC-PDA | stage,ctfm,late (III-IV),hdr_pixel_spacing,Spearman rho,21,0.06753246753246753,0.7711624988673799,
+CPTAC-PDA | stage,ctfm,late (III-IV),hdr_recon_diameter,Spearman rho,21,0.09090909090909091,0.6951310760397713,
+CPTAC-PDA | stage,ctfm,late (III-IV),hdr_kvp,Spearman rho,21,0.29439815585406476,0.19517280542697754,
+CPTAC-PDA | stage,ctfm,late (III-IV),hdr_tube_current,Spearman rho,20,-0.19488342612459275,0.41030011700058533,
+CPTAC-PDA | stage,ctfm,late (III-IV),hdr_exposure,Spearman rho,20,-0.1090635654412865,0.6471601539778697,
+CPTAC-PDA | stage,ctfm,late (III-IV),hdr_ctdivol,Spearman rho,11,-0.4090909090909091,0.2115450103420961,
+CPTAC-PDA | stage,ctfm,late (III-IV),hdr_pitch,Spearman rho,17,-0.06423925440081556,0.8065007519831725,
+CPTAC-PDA | stage,ctfm,late (III-IV),hdr_coverage_mm,Spearman rho,21,0.01948051948051948,0.9332057914291583,
+CPTAC-PDA | stage,ctfm,late (III-IV),body_area_cm2,Spearman rho,21,-0.12207792207792208,0.5980864852006569,
+CPTAC-PDA | stage,ctfm,late (III-IV),hdr_kernel,Kruskal-Wallis H,10,,,1.0
+CPTAC-PDA | stage,ctfm,late (III-IV),hdr_filter_type,Kruskal-Wallis H,15,0.033333333333338544,0.9834714538216149,3.0
+CPTAC-PDA | stage,ctfm,late (III-IV),hdr_patient_position,Kruskal-Wallis H,21,0.4508348794063153,0.5019387498867423,2.0
+CPTAC-PDA | stage,ctfm,late (III-IV),hdr_manufacturer,Kruskal-Wallis H,11,2.13333333333334,0.14412703481601052,2.0
+CPTAC-PDA | stage,merlin,early (I-II),hdr_slice_thickness,Spearman rho,47,-0.044732926746593925,0.7652719870867424,
+CPTAC-PDA | stage,merlin,early (I-II),hdr_z_spacing,Spearman rho,47,-0.140962972626118,0.3446071912498365,
+CPTAC-PDA | stage,merlin,early (I-II),hdr_pixel_spacing,Spearman rho,47,0.1094993310713859,0.4637519276777875,
+CPTAC-PDA | stage,merlin,early (I-II),hdr_recon_diameter,Spearman rho,47,0.1092122196249427,0.4649318379884745,
+CPTAC-PDA | stage,merlin,early (I-II),hdr_kvp,Spearman rho,47,0.23240991438301573,0.11594377622982815,
+CPTAC-PDA | stage,merlin,early (I-II),hdr_tube_current,Spearman rho,43,-0.31217670579728757,0.04154953767845359,
+CPTAC-PDA | stage,merlin,early (I-II),hdr_exposure,Spearman rho,42,0.35179640146555313,0.02233202872737954,
+CPTAC-PDA | stage,merlin,early (I-II),hdr_ctdivol,Spearman rho,12,-0.3426573426573427,0.27556745095678037,
+CPTAC-PDA | stage,merlin,early (I-II),hdr_pitch,Spearman rho,38,0.014838165919020334,0.9295445843466326,
+CPTAC-PDA | stage,merlin,early (I-II),hdr_coverage_mm,Spearman rho,47,-0.40832610649348045,0.004381338115618913,
+CPTAC-PDA | stage,merlin,early (I-II),body_area_cm2,Spearman rho,47,0.0583950046253469,0.6966187093885128,
+CPTAC-PDA | stage,merlin,early (I-II),hdr_kernel,Kruskal-Wallis H,36,0.6564564564564535,0.720198631289386,3.0
+CPTAC-PDA | stage,merlin,early (I-II),hdr_filter_type,Kruskal-Wallis H,35,4.500054734537514,0.10539634011242893,3.0
+CPTAC-PDA | stage,merlin,early (I-II),hdr_patient_position,Kruskal-Wallis H,46,0.7755319148936053,0.3785111319290687,2.0
+CPTAC-PDA | stage,merlin,early (I-II),hdr_manufacturer,Kruskal-Wallis H,41,4.245993031358893,0.1196724902051041,3.0
+CPTAC-PDA | stage,merlin,late (III-IV),hdr_slice_thickness,Spearman rho,21,-0.16615789471401265,0.4716272736650172,
+CPTAC-PDA | stage,merlin,late (III-IV),hdr_z_spacing,Spearman rho,21,-0.3311620449835596,0.14253954366763472,
+CPTAC-PDA | stage,merlin,late (III-IV),hdr_pixel_spacing,Spearman rho,21,0.032467532467532464,0.8888886581323974,
+CPTAC-PDA | stage,merlin,late (III-IV),hdr_recon_diameter,Spearman rho,21,0.03896103896103896,0.8668411213715635,
+CPTAC-PDA | stage,merlin,late (III-IV),hdr_kvp,Spearman rho,21,0.15384677822051124,0.5055224226342534,
+CPTAC-PDA | stage,merlin,late (III-IV),hdr_tube_current,Spearman rho,20,-0.17908206724962578,0.4499789057848316,
+CPTAC-PDA | stage,merlin,late (III-IV),hdr_exposure,Spearman rho,20,-0.27529148242421286,0.24009902290353932,
+CPTAC-PDA | stage,merlin,late (III-IV),hdr_ctdivol,Spearman rho,11,-0.2545454545454546,0.4500365768888285,
+CPTAC-PDA | stage,merlin,late (III-IV),hdr_pitch,Spearman rho,17,0.2446033148338746,0.3440526385768381,
+CPTAC-PDA | stage,merlin,late (III-IV),hdr_coverage_mm,Spearman rho,21,0.02727272727272727,0.9065844922540648,
+CPTAC-PDA | stage,merlin,late (III-IV),body_area_cm2,Spearman rho,21,-0.2558441558441559,0.2629729422417229,
+CPTAC-PDA | stage,merlin,late (III-IV),hdr_kernel,Kruskal-Wallis H,10,,,1.0
+CPTAC-PDA | stage,merlin,late (III-IV),hdr_filter_type,Kruskal-Wallis H,15,1.3555555555555614,0.5077440597374444,3.0
+CPTAC-PDA | stage,merlin,late (III-IV),hdr_patient_position,Kruskal-Wallis H,21,0.4508348794063153,0.5019387498867423,2.0
+CPTAC-PDA | stage,merlin,late (III-IV),hdr_manufacturer,Kruskal-Wallis H,11,0.30000000000000426,0.5838824207703623,2.0
+lung histology (LUAD vs LUSC),ctfm,TCGA-LUAD,hdr_slice_thickness,Spearman rho,67,-0.4546606355880598,0.00011103018527015004,
+lung histology (LUAD vs LUSC),ctfm,TCGA-LUAD,hdr_z_spacing,Spearman rho,67,-0.42667366133843654,0.00031759891641142525,
+lung histology (LUAD vs LUSC),ctfm,TCGA-LUAD,hdr_pixel_spacing,Spearman rho,67,0.2776918571773797,0.02289526106421476,
+lung histology (LUAD vs LUSC),ctfm,TCGA-LUAD,hdr_recon_diameter,Spearman rho,48,0.1831398965493349,0.2127812133769527,
+lung histology (LUAD vs LUSC),ctfm,TCGA-LUAD,hdr_kvp,Spearman rho,67,-0.1772299634158771,0.15135118189306077,
+lung histology (LUAD vs LUSC),ctfm,TCGA-LUAD,hdr_tube_current,Spearman rho,65,0.08830320433933204,0.48425350328032557,
+lung histology (LUAD vs LUSC),ctfm,TCGA-LUAD,hdr_exposure,Spearman rho,67,0.0508517479916577,0.6827812062537135,
+lung histology (LUAD vs LUSC),ctfm,TCGA-LUAD,hdr_ctdivol,Spearman rho,0,,,
+lung histology (LUAD vs LUSC),ctfm,TCGA-LUAD,hdr_pitch,Spearman rho,9,,,
+lung histology (LUAD vs LUSC),ctfm,TCGA-LUAD,hdr_coverage_mm,Spearman rho,67,0.23965187521281528,0.050785735726114514,
+lung histology (LUAD vs LUSC),ctfm,TCGA-LUAD,body_area_cm2,Spearman rho,67,0.3580892329794877,0.0029273466732281164,
+lung histology (LUAD vs LUSC),ctfm,TCGA-LUAD,hdr_kernel,Kruskal-Wallis H,51,22.994016297782622,0.000338456342587066,6.0
+lung histology (LUAD vs LUSC),ctfm,TCGA-LUAD,hdr_filter_type,Kruskal-Wallis H,48,19.77049080501766,0.00018938341588583017,4.0
+lung histology (LUAD vs LUSC),ctfm,TCGA-LUAD,hdr_patient_position,Kruskal-Wallis H,63,17.326527777777812,0.00017281932231571535,3.0
+lung histology (LUAD vs LUSC),ctfm,TCGA-LUAD,hdr_manufacturer,Kruskal-Wallis H,67,21.574655819774733,3.4031932066314288e-06,2.0
+lung histology (LUAD vs LUSC),ctfm,TCGA-LUSC,hdr_slice_thickness,Spearman rho,37,-0.004932063008220187,0.9768877132567957,
+lung histology (LUAD vs LUSC),ctfm,TCGA-LUSC,hdr_z_spacing,Spearman rho,37,0.05379113750382144,0.7518526427471667,
+lung histology (LUAD vs LUSC),ctfm,TCGA-LUSC,hdr_pixel_spacing,Spearman rho,37,0.15787976380101315,0.3506883870623426,
+lung histology (LUAD vs LUSC),ctfm,TCGA-LUSC,hdr_recon_diameter,Spearman rho,36,0.16709979352908988,0.33001346613060556,
+lung histology (LUAD vs LUSC),ctfm,TCGA-LUSC,hdr_kvp,Spearman rho,37,0.21961371785999692,0.19154591684976566,
+lung histology (LUAD vs LUSC),ctfm,TCGA-LUSC,hdr_tube_current,Spearman rho,37,0.1412392650566312,0.4043771553139388,
+lung histology (LUAD vs LUSC),ctfm,TCGA-LUSC,hdr_exposure,Spearman rho,37,-0.2325388502415396,0.1660520354263719,
+lung histology (LUAD vs LUSC),ctfm,TCGA-LUSC,hdr_ctdivol,Spearman rho,5,,,
+lung histology (LUAD vs LUSC),ctfm,TCGA-LUSC,hdr_pitch,Spearman rho,14,0.3815660488443048,0.1782417604787583,
+lung histology (LUAD vs LUSC),ctfm,TCGA-LUSC,hdr_coverage_mm,Spearman rho,37,0.24543098224440305,0.14315033730795237,
+lung histology (LUAD vs LUSC),ctfm,TCGA-LUSC,body_area_cm2,Spearman rho,37,-0.0035561877667140817,0.9833341726423862,
+lung histology (LUAD vs LUSC),ctfm,TCGA-LUSC,hdr_kernel,Kruskal-Wallis H,23,2.5967604433077582,0.27297359184247527,3.0
+lung histology (LUAD vs LUSC),ctfm,TCGA-LUSC,hdr_filter_type,Kruskal-Wallis H,31,0.8152173913043441,0.366582209410513,2.0
+lung histology (LUAD vs LUSC),ctfm,TCGA-LUSC,hdr_patient_position,Kruskal-Wallis H,36,0.02196510892163417,0.8821799558880529,2.0
+lung histology (LUAD vs LUSC),ctfm,TCGA-LUSC,hdr_manufacturer,Kruskal-Wallis H,37,2.2644999690766383,0.32230725364373136,3.0
+lung histology (LUAD vs LUSC),merlin,TCGA-LUAD,hdr_slice_thickness,Spearman rho,67,-0.3095571131116074,0.010800211052793288,
+lung histology (LUAD vs LUSC),merlin,TCGA-LUAD,hdr_z_spacing,Spearman rho,67,-0.26910249718221996,0.027662473242048267,
+lung histology (LUAD vs LUSC),merlin,TCGA-LUAD,hdr_pixel_spacing,Spearman rho,67,0.2871545415988088,0.01846878223052999,
+lung histology (LUAD vs LUSC),merlin,TCGA-LUAD,hdr_recon_diameter,Spearman rho,48,0.21057006233265282,0.15083723796714607,
+lung histology (LUAD vs LUSC),merlin,TCGA-LUAD,hdr_kvp,Spearman rho,67,-0.23727544859852057,0.05319423749368472,
+lung histology (LUAD vs LUSC),merlin,TCGA-LUAD,hdr_tube_current,Spearman rho,65,0.06096136499720545,0.6295226132911579,
+lung histology (LUAD vs LUSC),merlin,TCGA-LUAD,hdr_exposure,Spearman rho,67,-0.05271290996065581,0.6718220880930226,
+lung histology (LUAD vs LUSC),merlin,TCGA-LUAD,hdr_ctdivol,Spearman rho,0,,,
+lung histology (LUAD vs LUSC),merlin,TCGA-LUAD,hdr_pitch,Spearman rho,9,,,
+lung histology (LUAD vs LUSC),merlin,TCGA-LUAD,hdr_coverage_mm,Spearman rho,67,0.3337559101776808,0.005777976350066569,
+lung histology (LUAD vs LUSC),merlin,TCGA-LUAD,body_area_cm2,Spearman rho,67,0.2558863436826563,0.03661442541203878,
+lung histology (LUAD vs LUSC),merlin,TCGA-LUAD,hdr_kernel,Kruskal-Wallis H,51,9.355829801464637,0.09568567308162117,6.0
+lung histology (LUAD vs LUSC),merlin,TCGA-LUAD,hdr_filter_type,Kruskal-Wallis H,48,8.934084938323139,0.03018022246201085,4.0
+lung histology (LUAD vs LUSC),merlin,TCGA-LUAD,hdr_patient_position,Kruskal-Wallis H,63,10.969384920634923,0.004149811114650233,3.0
+lung histology (LUAD vs LUSC),merlin,TCGA-LUAD,hdr_manufacturer,Kruskal-Wallis H,67,10.367647058823508,0.0012824288875297768,2.0
+lung histology (LUAD vs LUSC),merlin,TCGA-LUSC,hdr_slice_thickness,Spearman rho,37,0.1674372159713725,0.3219104460383466,
+lung histology (LUAD vs LUSC),merlin,TCGA-LUSC,hdr_z_spacing,Spearman rho,37,0.19851787004874516,0.2388528604150837,
+lung histology (LUAD vs LUSC),merlin,TCGA-LUSC,hdr_pixel_spacing,Spearman rho,37,0.05932379678968793,0.7272585217456707,
+lung histology (LUAD vs LUSC),merlin,TCGA-LUSC,hdr_recon_diameter,Spearman rho,36,0.03155754614636063,0.8550269141947708,
+lung histology (LUAD vs LUSC),merlin,TCGA-LUSC,hdr_kvp,Spearman rho,37,0.0030672306963686726,0.9856253800153867,
+lung histology (LUAD vs LUSC),merlin,TCGA-LUSC,hdr_tube_current,Spearman rho,37,0.08324934010894636,0.6242348605294152,
+lung histology (LUAD vs LUSC),merlin,TCGA-LUSC,hdr_exposure,Spearman rho,37,-0.0013043994659137866,0.9938866543717675,
+lung histology (LUAD vs LUSC),merlin,TCGA-LUSC,hdr_ctdivol,Spearman rho,5,,,
+lung histology (LUAD vs LUSC),merlin,TCGA-LUSC,hdr_pitch,Spearman rho,14,-0.08682341231187773,0.7678926670247102,
+lung histology (LUAD vs LUSC),merlin,TCGA-LUSC,hdr_coverage_mm,Spearman rho,37,0.055542407974071874,0.7440403763675039,
+lung histology (LUAD vs LUSC),merlin,TCGA-LUSC,body_area_cm2,Spearman rho,37,0.1341868183973447,0.42847594450798654,
+lung histology (LUAD vs LUSC),merlin,TCGA-LUSC,hdr_kernel,Kruskal-Wallis H,23,5.666666666666671,0.05881647164242976,3.0
+lung histology (LUAD vs LUSC),merlin,TCGA-LUSC,hdr_filter_type,Kruskal-Wallis H,31,7.094429347826079,0.007732390791435582,2.0
+lung histology (LUAD vs LUSC),merlin,TCGA-LUSC,hdr_patient_position,Kruskal-Wallis H,36,4.237096628400991,0.03954974654768369,2.0
+lung histology (LUAD vs LUSC),merlin,TCGA-LUSC,hdr_manufacturer,Kruskal-Wallis H,37,6.347034448636293,0.04185612133357325,3.0
+LIDC-IDRI | primary vs metastatic,ctfm,metastatic,hdr_slice_thickness,Spearman rho,51,-0.03711850193195381,0.7959465209831577,
+LIDC-IDRI | primary vs metastatic,ctfm,metastatic,hdr_z_spacing,Spearman rho,51,-0.03711850193195381,0.7959465209831577,
+LIDC-IDRI | primary vs metastatic,ctfm,metastatic,hdr_pixel_spacing,Spearman rho,51,-0.1836817066063423,0.196967407441026,
+LIDC-IDRI | primary vs metastatic,ctfm,metastatic,hdr_recon_diameter,Spearman rho,51,-0.1836817066063423,0.196967407441026,
+LIDC-IDRI | primary vs metastatic,ctfm,metastatic,hdr_kvp,Spearman rho,51,,,
+LIDC-IDRI | primary vs metastatic,ctfm,metastatic,hdr_tube_current,Spearman rho,51,-0.08586577197745851,0.5490992835514693,
+LIDC-IDRI | primary vs metastatic,ctfm,metastatic,hdr_exposure,Spearman rho,51,-0.008546655406454431,0.952535357494793,
+LIDC-IDRI | primary vs metastatic,ctfm,metastatic,hdr_ctdivol,Spearman rho,0,,,
+LIDC-IDRI | primary vs metastatic,ctfm,metastatic,hdr_pitch,Spearman rho,38,0.005400641082262607,0.9743286146760043,
+LIDC-IDRI | primary vs metastatic,ctfm,metastatic,hdr_coverage_mm,Spearman rho,51,0.06755462397784057,0.6376299953559326,
+LIDC-IDRI | primary vs metastatic,ctfm,metastatic,body_area_cm2,Spearman rho,51,-0.1554751131221719,0.27596448399513934,
+LIDC-IDRI | primary vs metastatic,ctfm,metastatic,hdr_kernel,Kruskal-Wallis H,50,0.3676470588235077,0.5442896244294141,2.0
+LIDC-IDRI | primary vs metastatic,ctfm,metastatic,hdr_filter_type,Kruskal-Wallis H,50,,,1.0
+LIDC-IDRI | primary vs metastatic,ctfm,metastatic,hdr_patient_position,Kruskal-Wallis H,49,,,1.0
+LIDC-IDRI | primary vs metastatic,ctfm,metastatic,hdr_manufacturer,Kruskal-Wallis H,50,,,1.0
+LIDC-IDRI | primary vs metastatic,ctfm,primary lung cancer,hdr_slice_thickness,Spearman rho,43,-0.256555789463238,0.09677339994074272,
+LIDC-IDRI | primary vs metastatic,ctfm,primary lung cancer,hdr_z_spacing,Spearman rho,43,-0.49108214651936816,0.0008265413317744994,
+LIDC-IDRI | primary vs metastatic,ctfm,primary lung cancer,hdr_pixel_spacing,Spearman rho,43,-0.34646917570936825,0.022845575875764818,
+LIDC-IDRI | primary vs metastatic,ctfm,primary lung cancer,hdr_recon_diameter,Spearman rho,43,-0.34255495061355407,0.024537583072664976,
+LIDC-IDRI | primary vs metastatic,ctfm,primary lung cancer,hdr_kvp,Spearman rho,43,,,
+LIDC-IDRI | primary vs metastatic,ctfm,primary lung cancer,hdr_tube_current,Spearman rho,43,-0.2172192106008672,0.16175310792154277,
+LIDC-IDRI | primary vs metastatic,ctfm,primary lung cancer,hdr_exposure,Spearman rho,43,0.2627303550951949,0.08873318880914224,
+LIDC-IDRI | primary vs metastatic,ctfm,primary lung cancer,hdr_ctdivol,Spearman rho,0,,,
+LIDC-IDRI | primary vs metastatic,ctfm,primary lung cancer,hdr_pitch,Spearman rho,12,-0.4231087082783561,0.17054578472437207,
+LIDC-IDRI | primary vs metastatic,ctfm,primary lung cancer,hdr_coverage_mm,Spearman rho,43,-0.18531313191759974,0.23416045851717887,
+LIDC-IDRI | primary vs metastatic,ctfm,primary lung cancer,body_area_cm2,Spearman rho,43,-0.10570824524312894,0.4999022887660606,
+LIDC-IDRI | primary vs metastatic,ctfm,primary lung cancer,hdr_kernel,Kruskal-Wallis H,40,10.394441241685143,0.005531918372274818,3.0
+LIDC-IDRI | primary vs metastatic,ctfm,primary lung cancer,hdr_filter_type,Kruskal-Wallis H,40,9.639498432601869,0.0019043723148434008,2.0
+LIDC-IDRI | primary vs metastatic,ctfm,primary lung cancer,hdr_patient_position,Kruskal-Wallis H,42,,,1.0
+LIDC-IDRI | primary vs metastatic,ctfm,primary lung cancer,hdr_manufacturer,Kruskal-Wallis H,43,8.577474249888041,0.0034034715102695167,2.0
+LIDC-IDRI | primary vs metastatic,merlin,metastatic,hdr_slice_thickness,Spearman rho,51,0.015222446557532321,0.9155656571792505,
+LIDC-IDRI | primary vs metastatic,merlin,metastatic,hdr_z_spacing,Spearman rho,51,0.015222446557532321,0.9155656571792505,
+LIDC-IDRI | primary vs metastatic,merlin,metastatic,hdr_pixel_spacing,Spearman rho,51,-0.07239139347418828,0.613682003294113,
+LIDC-IDRI | primary vs metastatic,merlin,metastatic,hdr_recon_diameter,Spearman rho,51,-0.07239139347418828,0.613682003294113,
+LIDC-IDRI | primary vs metastatic,merlin,metastatic,hdr_kvp,Spearman rho,51,,,
+LIDC-IDRI | primary vs metastatic,merlin,metastatic,hdr_tube_current,Spearman rho,51,0.24332459808898185,0.08532872374202442,
+LIDC-IDRI | primary vs metastatic,merlin,metastatic,hdr_exposure,Spearman rho,51,-0.008546655406454431,0.952535357494793,
+LIDC-IDRI | primary vs metastatic,merlin,metastatic,hdr_ctdivol,Spearman rho,0,,,
+LIDC-IDRI | primary vs metastatic,merlin,metastatic,hdr_pitch,Spearman rho,38,0.09929815080796475,0.5530900676055859,
+LIDC-IDRI | primary vs metastatic,merlin,metastatic,hdr_coverage_mm,Spearman rho,51,-0.09550200367585923,0.505002825384031,
+LIDC-IDRI | primary vs metastatic,merlin,metastatic,body_area_cm2,Spearman rho,51,-0.049683257918552035,0.7291719558969114,
+LIDC-IDRI | primary vs metastatic,merlin,metastatic,hdr_kernel,Kruskal-Wallis H,50,2.1176470588235077,0.14561009539686487,2.0
+LIDC-IDRI | primary vs metastatic,merlin,metastatic,hdr_filter_type,Kruskal-Wallis H,50,,,1.0
+LIDC-IDRI | primary vs metastatic,merlin,metastatic,hdr_patient_position,Kruskal-Wallis H,49,,,1.0
+LIDC-IDRI | primary vs metastatic,merlin,metastatic,hdr_manufacturer,Kruskal-Wallis H,50,,,1.0
+LIDC-IDRI | primary vs metastatic,merlin,primary lung cancer,hdr_slice_thickness,Spearman rho,43,-0.41231039390075797,0.006006466758951725,
+LIDC-IDRI | primary vs metastatic,merlin,primary lung cancer,hdr_z_spacing,Spearman rho,43,-0.6167860346137651,1.0605030328236156e-05,
+LIDC-IDRI | primary vs metastatic,merlin,primary lung cancer,hdr_pixel_spacing,Spearman rho,43,-0.32533280729874625,0.03327277112339449,
+LIDC-IDRI | primary vs metastatic,merlin,primary lung cancer,hdr_recon_diameter,Spearman rho,43,-0.3228608924095784,0.03471460783794701,
+LIDC-IDRI | primary vs metastatic,merlin,primary lung cancer,hdr_kvp,Spearman rho,43,,,
+LIDC-IDRI | primary vs metastatic,merlin,primary lung cancer,hdr_tube_current,Spearman rho,43,-0.1419753272926592,0.3637868075116686,
+LIDC-IDRI | primary vs metastatic,merlin,primary lung cancer,hdr_exposure,Spearman rho,43,0.11454287423574684,0.4645426126012169,
+LIDC-IDRI | primary vs metastatic,merlin,primary lung cancer,hdr_ctdivol,Spearman rho,0,,,
+LIDC-IDRI | primary vs metastatic,merlin,primary lung cancer,hdr_pitch,Spearman rho,12,0.321109287532681,0.3088152735779348,
+LIDC-IDRI | primary vs metastatic,merlin,primary lung cancer,hdr_coverage_mm,Spearman rho,43,-0.3523900593467791,0.020472259037659944,
+LIDC-IDRI | primary vs metastatic,merlin,primary lung cancer,body_area_cm2,Spearman rho,43,-0.020386590154032016,0.8967579573465754,
+LIDC-IDRI | primary vs metastatic,merlin,primary lung cancer,hdr_kernel,Kruskal-Wallis H,40,6.410494456762763,0.0405488755656853,3.0
+LIDC-IDRI | primary vs metastatic,merlin,primary lung cancer,hdr_filter_type,Kruskal-Wallis H,40,6.397048704029373,0.011431023592013916,2.0
+LIDC-IDRI | primary vs metastatic,merlin,primary lung cancer,hdr_patient_position,Kruskal-Wallis H,42,,,1.0
+LIDC-IDRI | primary vs metastatic,merlin,primary lung cancer,hdr_manufacturer,Kruskal-Wallis H,43,7.126511419614843,0.0075952361456979945,2.0

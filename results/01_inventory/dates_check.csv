@@ -1,0 +1,34 @@
+collection,min_study_year,max_study_year,fraction_study_dates_missing,n_series_dated_after_release,n_patients_with_diagnosis_year,median_study_minus_diagnosis_year,fraction_within_2_years,suggested_verdict
+CPTAC-AML,2012,2013,0.0,0,5,-7.0,0.0,no reference (fewer than 10 patients with a diagnosis year)
+CPTAC-CCRCC,1999,2012,0.0,0,64,-8.0,0.0,looks shifted
+CPTAC-CM,2000,2012,0.0,0,14,-8.0,0.071,looks shifted
+CPTAC-LSCC,1999,2011,0.0,0,22,-15.0,0.0,looks shifted
+CPTAC-LUAD,1999,2013,0.0,0,36,-8.0,0.0,looks shifted
+CPTAC-PDA,1999,2012,0.0,0,69,-14.0,0.0,looks shifted
+CPTAC-SAR,1999,2012,0.0,0,0,,,no reference (fewer than 10 patients with a diagnosis year)
+CPTAC-STAD,2005,2017,0.0,0,19,-8.0,0.0,looks shifted
+CPTAC-UCEC,1998,2020,0.0,0,69,-16.0,0.043,looks shifted
+TCGA-BLCA,1986,2007,0.0,0,107,-10.0,0.009,looks shifted
+TCGA-BRCA,1995,2006,0.0,0,137,-7.0,0.007,looks shifted
+TCGA-CESC,2002,2007,0.0,0,54,-6.0,0.0,looks shifted
+TCGA-COAD,1995,2003,0.0,0,20,-8.0,0.0,looks shifted
+TCGA-ESCA,2002,2007,0.0,0,16,-6.0,0.0,looks shifted
+TCGA-KICH,1991,2003,0.0,0,12,-8.0,0.0,looks shifted
+TCGA-KIRC,1984,2006,0.0,0,236,-14.5,0.0,looks shifted
+TCGA-KIRP,1994,2007,0.0,0,23,-7.0,0.043,looks shifted
+TCGA-LIHC,1991,2007,0.0,0,75,-7.0,0.013,looks shifted
+TCGA-LUAD,1982,2005,0.0,0,29,-9.0,0.0,looks shifted
+TCGA-LUSC,1988,2006,0.0,0,37,-11.0,0.0,looks shifted
+TCGA-OV,1980,2007,0.0,0,138,-12.0,0.0,looks shifted
+TCGA-PRAD,1991,2008,0.0,0,10,-6.0,0.0,looks shifted
+TCGA-READ,1991,1997,0.0,0,3,-11.0,0.0,no reference (fewer than 10 patients with a diagnosis year)
+TCGA-SARC,1997,2003,0.0,0,4,-8.0,0.0,no reference (fewer than 10 patients with a diagnosis year)
+TCGA-STAD,1997,2001,0.0,0,46,-12.0,0.0,looks shifted
+TCGA-THCA,1996,2004,0.0,0,6,-7.0,0.0,no reference (fewer than 10 patients with a diagnosis year)
+TCGA-UCEC,1980,2001,0.0,0,64,-18.0,0.0,looks shifted
+LIDC-IDRI,2000,2000,0.0,0,0,,,no reference (fewer than 10 patients with a diagnosis year)
+Duke-Breast-Cancer-MRI,1990,1990,0.0,0,0,,,no reference (fewer than 10 patients with a diagnosis year)
+NSCLC Radiogenomics,1989,1996,0.0,0,0,,,no reference (fewer than 10 patients with a diagnosis year)
+PROSTATEx,2011,2012,0.0,0,0,,,no reference (fewer than 10 patients with a diagnosis year)
+UPENN-GBM,2001,2014,0.0,0,0,,,no reference (fewer than 10 patients with a diagnosis year)
+HCC-TACE-Seg,1997,2006,0.0,0,0,,,no reference (fewer than 10 patients with a diagnosis year)

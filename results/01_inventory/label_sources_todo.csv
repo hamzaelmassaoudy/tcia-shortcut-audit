@@ -1,0 +1,7 @@
+collection,on_tcia_api,doi,primary_modality,n_patients_with_main_series,label_planned,label_file_status
+LIDC-IDRI,True,http://doi.org/10.7937/k9/tcia.2015.1buvfjr7; https://doi.org/10.7937/k9/tcia.2015.lo9ql9sx; https://doi.org/10.7937/tcia.2018.h7umfurq,CT,1010,nodule malignancy rating (radiologists),to locate on the DOI page; save under labels/LIDC_IDRI
+Duke-Breast-Cancer-MRI,True,https://doi.org/10.7937/tcia.e3sv-re93,MR,922,molecular subtype,to locate on the DOI page; save under labels/Duke_Breast_Cancer_MRI
+NSCLC Radiogenomics,True,https://doi.org/10.7937/k9/tcia.2017.7hs46erv,CT,203,histology; mutations,to locate on the DOI page; save under labels/NSCLC_Radiogenomics
+PROSTATEx,True,https//doi.org/10.7937/tcia.nbb4-4655; https://doi.org/10.7937/k9tcia.2017.murs5cl; https://doi.org/10.7937/tcia.2019.deg7zg1u,MR,346,clinical significance,to locate on the DOI page; save under labels/PROSTATEx
+UPENN-GBM,True,https://doi.org/10.7937/tcia.709x-dn49,MR,630,molecular markers,to locate on the DOI page; save under labels/UPENN_GBM
+HCC-TACE-Seg,True,https://doi.org/10.7937/tcia.5fna-0924,CT,105,to define from the clinical file,to locate on the DOI page; save under labels/HCC_TACE_Seg

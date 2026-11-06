@@ -1,0 +1,17 @@
+group,class,n_patients,n_sex_known,male_share,n_age_known,median_age,age_q1,age_q3
+renal subtype (KIRC vs KIRP),TCGA-KIRC,236,236,0.644,232,59.0,51.0,69.0
+renal subtype (KIRC vs KIRP),TCGA-KIRP,23,23,0.87,23,56.0,48.0,65.0
+CPTAC-PDA | stage,early (I-II),47,47,0.553,43,67.0,62.0,71.0
+CPTAC-PDA | stage,late (III-IV),21,20,0.45,20,61.5,57.75,73.25
+lung histology (LUAD vs LUSC),TCGA-LUAD,67,67,0.418,65,66.0,60.0,72.0
+lung histology (LUAD vs LUSC),TCGA-LUSC,37,37,0.568,37,72.0,64.0,75.0
+LIDC-IDRI | primary vs metastatic,metastatic,51,51,0.549,50,61.5,50.25,67.75
+LIDC-IDRI | primary vs metastatic,primary lung cancer,43,32,0.375,18,64.0,61.0,70.5
+external lung cohort: CPTAC,adenocarcinoma,37,36,0.611,36,67.0,60.0,71.0
+external lung cohort: CPTAC,squamous cell carcinoma,36,36,0.694,32,67.5,63.75,70.0
+external lung cohort: Lung-PET-CT-Dx,adenocarcinoma,251,0,,0,,,
+external lung cohort: Lung-PET-CT-Dx,squamous cell carcinoma,61,0,,0,,,
+external lung cohort: NSCLC Radiogenomics,adenocarcinoma,166,156,0.577,166,68.0,62.0,75.5
+external lung cohort: NSCLC Radiogenomics,squamous cell carcinoma,33,29,0.793,33,70.0,66.0,74.0
+external lung cohort: NSCLC-Radiomics,adenocarcinoma,51,0,,0,,,
+external lung cohort: NSCLC-Radiomics,squamous cell carcinoma,152,0,,0,,,

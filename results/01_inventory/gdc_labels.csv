@@ -1,0 +1,1480 @@
+PatientID,gdc_project,disease_type,primary_site,diagnosis_choice,n_primary_diagnoses,primary_diagnosis,morphology,tumor_grade,ajcc_pathologic_stage,ajcc_clinical_stage,year_of_diagnosis,n_gdc_records
+C3L-01459,CPTAC-3,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, NOS",8312/3,G2,Stage I,,2017.0,1
+C3N-01342,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G2,Stage I,,2017.0,1
+C3L-00599,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G1,Stage IIB,,2016.0,1
+C3N-01165,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G2,Stage III,,2016.0,1
+C3N-01382,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G3,Stage III,,2017.0,1
+C3L-00625,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G2,Stage IIB,,2017.0,1
+C3L-01464,CPTAC-3,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, NOS",8312/3,G4,Stage III,,2017.0,1
+C3N-01716,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G3,Stage IV,,2017.0,1
+C3L-01958,CPTAC-3,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, NOS",8312/3,G2,Stage III,,2017.0,1
+C3L-02613,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G3,Stage IIB,,2017.0,1
+C3N-00957,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G2,Stage IIA,,2016.0,1
+C3N-00511,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G2,Stage IIB,,2016.0,1
+C3L-01462,CPTAC-3,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, NOS",8312/3,G2,Stage I,,2017.0,1
+C3N-00247,CPTAC-3,Squamous Cell Neoplasms,Bronchus and lung,primary,1,"Squamous cell carcinoma, NOS",8070/3,G3,Stage IIA,,2016.0,1
+C3L-01467,CPTAC-3,Adenomas and Adenocarcinomas,Kidney,primary,1,Oncocytoma,8290/0,GX,Stage I,,2017.0,1
+C3L-01962,CPTAC-3,Adenomas and Adenocarcinomas,Kidney,primary,1,Papillary renal cell carcinoma,8260/3,G2,Stage I,,2017.0,1
+C3L-00401,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G2,Stage IIB,,2016.0,1
+C3N-00497,CPTAC-3,Squamous Cell Neoplasms,Bronchus and lung,primary,1,"Squamous cell carcinoma, NOS",8070/3,G2,Stage IIB,,2016.0,1
+C3L-00815,CPTAC-3,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, NOS",8312/3,G2,Stage I,,2017.0,1
+C3N-01715,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G3,Stage III,,2017.0,1
+C3N-00513,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G3,Stage IIB,,2016.0,1
+C3N-01375,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G2,Stage IIB,,2017.0,1
+C3L-02606,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G2,Stage IIB,,2017.0,1
+C3L-01036,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G2,Stage IIB,,2017.0,1
+C3L-02513,CPTAC-3,Adenomas and Adenocarcinomas,Bronchus and lung,primary,1,"Adenocarcinoma, NOS",8140/3,G1,Stage IA,,2017.0,1
+C3L-01458,CPTAC-3,Adenomas and Adenocarcinomas,Kidney,primary,1,Oncocytoma,8290/0,G1,Stage I,,2017.0,1
+C3L-00792,CPTAC-3,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, NOS",8312/3,G3,Stage II,,2016.0,1
+C3N-01802,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G3,Stage II,,2017.0,1
+C3L-01960,CPTAC-3,Adenomas and Adenocarcinomas,Kidney,primary,1,Papillary renal cell carcinoma,8260/3,G2,Stage I,,2017.0,1
+C3L-02116,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G2,Stage IB,,2017.0,1
+C3L-00893,CPTAC-3,Adenomas and Adenocarcinomas,Bronchus and lung,primary,1,"Adenocarcinoma, NOS",8140/3,G1,Stage IB,,2017.0,1
+C3L-00771,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G2,Stage III,,2016.0,1
+C3N-00310,CPTAC-3,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, NOS",8312/3,G2,Stage III,,2016.0,1
+C3L-08791,CPTAC-3,Adenomas and Adenocarcinomas,Stomach,primary,1,"Adenocarcinoma, NOS",8140/3,G3,Stage IIIB,,2022.0,1
+C3L-01732,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G2,Stage II,,2017.0,1
+C3L-03635,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G2,Stage IB,,2018.0,1
+C3N-01510,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G2,Stage II,,2016.0,1
+C3L-00422,CPTAC-3,Adenomas and Adenocarcinomas,Bronchus and lung,primary,1,"Adenocarcinoma, NOS",8140/3,G3,Stage IB,,2016.0,1
+C3N-00302,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G3,Stage IV,,2016.0,1
+C3L-01465,CPTAC-3,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, NOS",8312/3,G3,Stage IV,,2017.0,1
+C3L-02747,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G2,Stage IA,,2017.0,1
+C3N-01879,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G1,Stage I,,2017.0,1
+C3N-01383,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G2,Stage III,,2017.0,1
+C3N-01803,CPTAC-3,Adenomas and Adenocarcinomas,Kidney,primary,1,Unknown,Unknown,G4,Stage IV,,2017.0,1
+C3N-01003,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G3,Stage IVB,,2016.0,1
+C3L-04495,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G2,Stage III,,2018.0,1
+C3L-05849,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G3,Stage IIIC2,,2019.0,1
+C3N-00303,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G3,Stage III,,2016.0,1
+C3N-00194,CPTAC-3,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, NOS",8312/3,G3,Stage IV,,2016.0,1
+C3N-00199,CPTAC-3,Adenomas and Adenocarcinomas,Bronchus and lung,primary,1,"Adenocarcinoma, NOS",8140/3,G2,Stage IA,,2016.0,1
+C3L-00608,CPTAC-3,Adenomas and Adenocarcinomas,Kidney,primary,1,Oncocytoma,8290/0,GX,Stage I,,2016.0,1
+C3L-01463,CPTAC-3,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, chromophobe type",8317/3,GX,Stage I,,2017.0,1
+C3N-01167,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G2,Stage IIB,,2017.0,1
+C3N-00512,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G2,Stage IIB,,2016.0,1
+C3N-00518,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G3,Stage IIB,,2016.0,1
+C3N-01007,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G2,Stage I,,2016.0,1
+C3N-00198,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G2,Stage IIB,,2016.0,1
+C3L-01954,CPTAC-3,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, NOS",8312/3,G3,Stage I,,2017.0,1
+C3N-01008,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G2,Stage I,,2016.0,1
+C3L-02610,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G2,Stage IIA,,2017.0,1
+C3N-01828,CPTAC-3,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, NOS",8312/3,G2,Stage IV,,2017.0,1
+C3N-01166,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G2,Stage III,,2016.0,1
+C3N-01714,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G2,Stage IIB,,2017.0,1
+C3L-01689,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G2,Stage IIB,,2017.0,1
+C3N-01172,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G2,Stage I,,2017.0,1
+C3L-01976,CPTAC-3,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, NOS",8312/3,G2,Stage I,,2017.0,1
+C3L-05554,CPTAC-3,Nevi and Melanomas,Skin,primary,1,"Malignant melanoma, NOS",8720/3,Not Reported,Stage IIC,,2019.0,1
+C3N-00249,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G2,Stage IIB,,2016.0,1
+C3L-06113,CPTAC-3,Nevi and Melanomas,Skin,primary,1,"Malignant melanoma, NOS",8720/3,Not Reported,Stage IIIC,,2019.0,1
+C3N-01171,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G2,Stage I,,2017.0,1
+C3L-00766,CPTAC-3,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, NOS",8312/3,G2,Stage I,,2016.0,1
+C3L-03629,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G2,Stage IIB,,2018.0,1
+C3L-00938,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G2,Stage I,,2016.0,1
+C3N-01808,CPTAC-3,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, NOS",8312/3,G2,Stage I,,2017.0,1
+C3L-02890,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G3,Stage IIB,,2017.0,1
+C3N-00437,CPTAC-3,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, NOS",8312/3,G3,Stage III,,2016.0,1
+C3L-01031,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G2,Stage IIA,,2017.0,1
+C3L-01744,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G2,Stage I,,2017.0,1
+C3N-01648,CPTAC-3,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, NOS",8312/3,G2,Stage II,,2017.0,1
+C3L-02744,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G3,Stage IA,,2017.0,1
+C3N-01536,CPTAC-3,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, NOS",8312/3,G2,Stage III,,2017.0,1
+C3N-01341,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G2,Stage I,,2017.0,1
+C3N-00858,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G2,Stage III,,2016.0,1
+C3L-02202,CPTAC-3,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, NOS",8312/3,G1,Stage I,,2017.0,1
+C3L-04853,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G2,Stage IIA,,2018.0,1
+C3N-00734,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G1,Stage III,,2016.0,1
+C3L-02403,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G2,Stage I,,2017.0,1
+C3N-01892,CPTAC-3,Squamous Cell Neoplasms,Bronchus and lung,primary,1,"Squamous cell carcinoma, NOS",8070/3,G2,Stage IIB,,2017.0,1
+C3N-01219,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G3,Stage III,,2016.0,1
+C3N-00872,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G1,Stage I,,2016.0,1
+C3N-00305,CPTAC-3,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, NOS",8312/3,G1,Stage I,,2016.0,1
+C3L-06421,CPTAC-3,Adenomas and Adenocarcinomas,Stomach,primary,1,"Adenocarcinoma, NOS",8140/3,G3,Stage IIIA,,2019.0,1
+C3N-01012,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G2,Stage IB,,2018.0,1
+C3L-06937,CPTAC-3,Adenomas and Adenocarcinomas,Stomach,primary,1,"Adenocarcinoma, NOS",8140/3,G4,Stage IIIB,,2020.0,1
+C3L-03624,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G2,Stage IIB,,2018.0,1
+C3L-04848,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G3,Stage IIB,,2018.0,1
+C3L-03356,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G2,Stage IIB,,2018.0,1
+C3N-00959,CPTAC-3,Adenomas and Adenocarcinomas,Bronchus and lung,primary,1,"Adenocarcinoma, NOS",8140/3,G2,Stage IB,,2016.0,1
+C3N-00738,CPTAC-3,Adenomas and Adenocarcinomas,Bronchus and lung,primary,1,"Adenocarcinoma, NOS",8140/3,G1,Stage IA,,2016.0,1
+C3L-00963,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G3,Stage I,,2016.0,1
+C3N-01843,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G2,Stage III,,2017.0,1
+C3N-01875,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G1,Stage I,,2017.0,1
+C3L-02109,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G2,Stage III,,2017.0,1
+C3N-02012,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G2,Stage I,,2017.0,1
+C3N-01194,CPTAC-3,Squamous Cell Neoplasms,Bronchus and lung,primary,1,"Squamous cell carcinoma, NOS",8070/3,G3,Stage IA,,2016.0,1
+C3N-01361,CPTAC-3,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, NOS",8312/3,G2,Stage I,,2016.0,1
+C3N-01346,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G3,Stage III,,2017.0,1
+C3L-02841,CPTAC-3,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, NOS",8312/3,G4,Stage III,,2017.0,1
+C3N-00732,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G1,Stage I,,2016.0,1
+C3N-01502,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G2,Stage III,,2017.0,1
+C3L-02118,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G2,Stage IB,,2017.0,1
+C3N-01902,CPTAC-3,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, NOS",8312/3,G2,Stage III,,2017.0,1
+C3N-01846,CPTAC-3,Squamous Cell Neoplasms,Bronchus and lung,primary,1,"Squamous cell carcinoma, NOS",8070/3,G2,Stage IB,,2017.0,1
+C3L-02115,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G2,Stage IIB,,2017.0,1
+C3N-01381,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G2,Stage III,,2017.0,1
+C3L-06774,CPTAC-3,Adenomas and Adenocarcinomas,Stomach,primary,1,"Adenocarcinoma, NOS",8140/3,G2,Stage IIB,,2019.0,1
+C3L-00961,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G1,Stage I,,2016.0,1
+C3L-00189,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G2,Stage IIB,,2016.0,1
+C3N-00737,CPTAC-3,Adenomas and Adenocarcinomas,Bronchus and lung,primary,1,"Adenocarcinoma, NOS",8140/3,G2,Stage IA,,2016.0,1
+C3L-00800,CPTAC-3,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, NOS",8312/3,G2,Stage I,,2016.0,1
+C3N-00514,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G2,Stage IIB,,2016.0,1
+C3N-00953,CPTAC-3,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, NOS",8312/3,G3,Stage II,,2016.0,1
+C3L-01248,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G1,Stage I,,2017.0,1
+C3L-06935,CPTAC-3,Adenomas and Adenocarcinomas,Stomach,primary,1,"Adenocarcinoma, NOS",8140/3,G4,Stage IIIA,,2020.0,1
+C3N-00958,CPTAC-3,Adenomas and Adenocarcinomas,Kidney,primary,1,Papillary renal cell carcinoma,8260/3,G3,Stage II,,2016.0,1
+C3L-01703,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G3,Stage IIA,,2017.0,1
+C3L-06940,CPTAC-3,Adenomas and Adenocarcinomas,Stomach,primary,1,"Adenocarcinoma, NOS",8140/3,G2,Stage IIIB,,2020.0,1
+C3L-00812,CPTAC-3,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, NOS",8312/3,G2,Stage I,,2016.0,1
+C3N-00494,CPTAC-3,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, NOS",8312/3,G2,Stage I,,2016.0,1
+C3L-05387,CPTAC-3,Myeloid Leukemias,Hematopoietic and reticuloendothelial systems,primary,1,"Acute myeloid leukemia, NOS",9861/3,Not Reported,Not Reported,,2019.0,1
+C3L-05678,CPTAC-3,Myeloid Leukemias,Hematopoietic and reticuloendothelial systems,primary,1,"Acute myeloid leukemia, NOS",9861/3,Not Reported,Not Reported,,2019.0,1
+C3N-01654,CPTAC-3,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, NOS",8312/3,G2,Stage III,,2017.0,1
+C3N-01898,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G3,Stage IIA,,2017.0,1
+C3L-08152,CPTAC-3,Adenomas and Adenocarcinomas,Stomach,primary,1,"Adenocarcinoma, NOS",8140/3,G4,Stage IIA,,2021.0,1
+C3L-01924,CPTAC-3,Adenomas and Adenocarcinomas,Bronchus and lung,primary,1,"Adenocarcinoma, NOS",8140/3,G2,Stage IA,,2017.0,1
+C3N-01766,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G2,Stage I,,2017.0,1
+C3N-01874,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G1,Stage I,,2017.0,1
+C3L-02888,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G2,Stage IIA,,2017.0,1
+C3L-03642,CPTAC-3,Adenomas and Adenocarcinomas,Bronchus and lung,primary,1,"Adenocarcinoma, NOS",8140/3,G2,Stage IA3,,2018.0,1
+C3N-00866,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G1,Stage I,,2016.0,1
+C3L-02412,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G1,Stage I,,2017.0,1
+C3L-03628,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G2,Stage IIB,,2018.0,1
+C3L-06715,CPTAC-3,Nevi and Melanomas,Skin,primary,1,"Malignant melanoma, NOS",8720/3,Not Reported,Stage IIC,,2019.0,1
+C3N-01651,CPTAC-3,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, NOS",8312/3,G3,Stage II,,2017.0,1
+C3N-00743,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G2,Stage I,,2016.0,1
+C3N-01178,CPTAC-3,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, NOS",8312/3,G2,Stage III,,2016.0,1
+C3L-01034,CPTAC-3,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, NOS",8312/3,G2,Stage I,,2017.0,1
+C3L-01277,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G3,Stage IV,,2017.0,1
+C3L-02515,CPTAC-3,Adenomas and Adenocarcinomas,Bronchus and lung,primary,1,"Adenocarcinoma, NOS",8140/3,G2,Stage IIIA,,2017.0,1
+C3L-02112,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G2,Stage IIB,,2017.0,1
+C3L-03639,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G3,Stage IB,,2018.0,1
+C3L-08146,CPTAC-3,Adenomas and Adenocarcinomas,Stomach,primary,1,"Adenocarcinoma, NOS",8140/3,G3,Stage IIIA,,2021.0,1
+C3L-00622,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G1,Stage IIB,,2017.0,1
+C3N-01893,CPTAC-3,Squamous Cell Neoplasms,Bronchus and lung,primary,1,"Squamous cell carcinoma, NOS",8070/3,G2,Stage IIIA,,2017.0,1
+C3L-06706,CPTAC-3,Adenomas and Adenocarcinomas,Stomach,primary,1,"Adenocarcinoma, NOS",8140/3,G3,Stage IIB,,2019.0,1
+C3N-01799,CPTAC-3,Adenomas and Adenocarcinomas,Bronchus and lung,primary,1,"Adenocarcinoma, NOS",8140/3,G2,Stage IIA,,2017.0,1
+C3L-01687,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G2,Stage IIB,,2017.0,1
+C3L-01925,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G3,Stage IV,,2017.0,1
+C3L-03632,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G1,Stage IB,,2018.0,1
+C3L-00263,CPTAC-3,Adenomas and Adenocarcinomas,Bronchus and lung,primary,1,"Adenocarcinoma, NOS",8140/3,G2,Stage IIA,,2016.0,1
+C3L-00598,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G2,Stage IIB,,2016.0,1
+C3L-03717,CPTAC-3,Adenomas and Adenocarcinomas,Bronchus and lung,primary,1,"Adenocarcinoma, NOS",8140/3,G1,Stage IA3,,2017.0,1
+C3N-00246,CPTAC-3,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, NOS",8312/3,G2,Stage I,,2016.0,1
+C3N-01806,CPTAC-3,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, NOS",8312/3,G4,Stage III,,2017.0,1
+C3L-08169,CPTAC-3,Adenomas and Adenocarcinomas,Stomach,primary,1,"Adenocarcinoma, NOS",8140/3,G4,Stage IIB,,2021.0,1
+C3L-01032,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G3,Stage IIB,,2017.0,1
+C3N-00313,CPTAC-3,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, NOS",8312/3,G2,Stage I,,2016.0,1
+C3N-00244,CPTAC-3,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, NOS",8312/3,G2,Stage I,,2016.0,1
+C3L-07123,CPTAC-3,Adenomas and Adenocarcinomas,Stomach,primary,1,"Adenocarcinoma, NOS",8140/3,G3,Stage IIB,,2020.0,1
+C3L-05571,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G3,Stage IIIC1,,2019.0,1
+C3L-04479,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G3,Stage IIB,,2018.0,1
+C3L-03743,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G3,Stage IIB,,2018.0,1
+C3L-03123,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G2,Stage IIB,,2017.0,1
+C3N-00832,CPTAC-3,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, NOS",8312/3,G2,Stage I,,2016.0,1
+C3L-00610,CPTAC-3,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, NOS",8312/3,G3,Stage I,,2016.0,1
+C3N-01897,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G2,Stage IV,,2017.0,1
+C3L-01247,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G3,Stage III,,2017.0,1
+C3N-02063,CPTAC-3,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, NOS",8312/3,G2,Stage I,,2017.0,1
+C3N-01876,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G2,Stage I,,2017.0,1
+C3L-00947,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G2,Stage I,,2016.0,1
+C3N-01871,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G2,Stage I,,2017.0,1
+C3L-00799,CPTAC-3,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, NOS",8312/3,G2,Stage I,,2016.0,1
+C3L-01064,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G2,Stage I,,2016.0,1
+C3N-00380,CPTAC-3,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, NOS",8312/3,G2,Stage I,,2016.0,1
+C3N-01873,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G2,Stage I,,2017.0,1
+C3L-00770,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G2,Stage I,,2016.0,1
+C3L-10231,CPTAC-3,Adenomas and Adenocarcinomas,Stomach,primary,1,"Adenocarcinoma, NOS",8140/3,G2,Stage IIIA,,2022.0,1
+C3L-01330,CPTAC-3,Adenomas and Adenocarcinomas,Bronchus and lung,primary,1,"Adenocarcinoma, NOS",8140/3,G2,Stage IA,,2017.0,1
+C3N-02262,CPTAC-3,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, NOS",8312/3,G3,Stage I,,2017.0,1
+C3N-01764,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G3,Stage II,,2017.0,1
+C3L-03622,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,first listed,0,"Infiltrating duct carcinoma, NOS",8500/3,G3,Stage IIB,,,1
+C3L-03721,CPTAC-3,Adenomas and Adenocarcinomas,Bronchus and lung,primary,1,"Adenocarcinoma, NOS",8140/3,G2,Stage IA,,2018.0,1
+C3L-06418,CPTAC-3,Adenomas and Adenocarcinomas,Stomach,primary,1,"Adenocarcinoma, NOS",8140/3,G3,Stage IIIA,,2019.0,1
+C3L-08154,CPTAC-3,Adenomas and Adenocarcinomas,Stomach,primary,1,"Adenocarcinoma, NOS",8140/3,G4,Stage IIIA,,2021.0,1
+C3L-03630,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G2,Stage IIB,,2018.0,1
+C3L-06776,CPTAC-3,Adenomas and Adenocarcinomas,Stomach,primary,1,"Adenocarcinoma, NOS",8140/3,G4,Stage IIIA,,2019.0,1
+C3N-00729,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G2,Stage IB,,2016.0,1
+C3L-02508,CPTAC-3,Adenomas and Adenocarcinomas,Bronchus and lung,primary,1,"Adenocarcinoma, NOS",8140/3,G2,Stage IB,,2017.0,1
+C3N-01878,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G2,Stage II,,2017.0,1
+C3L-01352,CPTAC-3,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, NOS",8312/3,G2,Stage I,,2017.0,1
+C3L-06707,CPTAC-3,Adenomas and Adenocarcinomas,Stomach,primary,1,"Adenocarcinoma, NOS",8140/3,G3,Stage IIB,,2019.0,1
+C3L-05386,CPTAC-3,Myeloid Leukemias,Hematopoietic and reticuloendothelial systems,primary,1,"Acute myeloid leukemia, NOS",9861/3,Not Reported,Not Reported,,2018.0,1
+C3N-00293,CPTAC-3,Adenomas and Adenocarcinomas,Bronchus and lung,primary,1,"Adenocarcinoma, NOS",8140/3,GX,Stage IB,,2016.0,1
+C3N-00491,CPTAC-3,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, NOS",8312/3,G2,Stage IV,,2016.0,1
+C3L-00817,CPTAC-3,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, NOS",8312/3,G2,Stage I,,2017.0,1
+C3L-05848,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G3,Stage IVB,,2019.0,1
+C3L-02399,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G1,Stage I,,2017.0,1
+C3N-01524,CPTAC-3,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, NOS",8312/3,G3,Stage II,,2017.0,1
+C3L-01246,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G3,Stage I,,2017.0,1
+C3N-00492,CPTAC-3,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, NOS",8312/3,G3,Stage II,,2016.0,1
+C3N-01989,CPTAC-3,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, NOS",8312/3,G2,Stage II,,2017.0,1
+C3N-00312,CPTAC-3,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, NOS",8312/3,G3,Stage III,,2016.0,1
+C3N-00704,CPTAC-3,Adenomas and Adenocarcinomas,Bronchus and lung,primary,1,"Adenocarcinoma, NOS",8140/3,G2,Stage IB,,2016.0,1
+C3L-06423,CPTAC-3,Adenomas and Adenocarcinomas,Stomach,primary,1,"Adenocarcinoma, NOS",8140/3,G2,Stage IIB,,2019.0,1
+C3N-02010,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G3,Stage III,,2018.0,1
+C3N-01344,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G2,Stage I,,2017.0,1
+C3L-03348,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G2,Stage IIB,,2017.0,1
+C3N-02015,CPTAC-3,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, NOS",8312/3,G2,Stage I,,2017.0,1
+C3L-03467,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G3,Stage IIIC1,,2017.0,1
+C3L-06933,CPTAC-3,Nevi and Melanomas,Skin,primary,1,"Malignant melanoma, NOS",8720/3,Not Reported,Stage IIC,,2020.0,1
+C3N-00520,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G1,Stage III,,2016.0,1
+C3L-08145,CPTAC-3,Adenomas and Adenocarcinomas,Stomach,primary,1,"Adenocarcinoma, NOS",8140/3,G2,Stage IIA,,2021.0,1
+C3N-00435,CPTAC-3,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, NOS",8312/3,G3,Stage III,,2016.0,1
+C3N-00733,CPTAC-3,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, NOS",8312/3,G2,Stage III,,2016.0,1
+C3L-04475,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G2,Stage III,,2018.0,1
+C3N-01765,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G2,Stage III,,2017.0,1
+C3N-00294,CPTAC-3,Adenomas and Adenocarcinomas,Bronchus and lung,primary,1,"Adenocarcinoma, NOS",8140/3,GX,Stage IIB,,2016.0,1
+C3N-01349,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G3,Stage I,,2017.0,1
+C3N-00860,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G1,Stage I,,2016.0,1
+C3L-05811,CPTAC-3,Myeloid Leukemias,Hematopoietic and reticuloendothelial systems,primary,1,"Acute myeloid leukemia, NOS",9861/3,Not Reported,Not Reported,,2020.0,1
+C3N-01877,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G2,Stage III,,2017.0,1
+C3L-06087,CPTAC-3,Myeloid Leukemias,Hematopoietic and reticuloendothelial systems,primary,1,"Acute myeloid leukemia, NOS",9861/3,Not Reported,Not Reported,,2020.0,1
+C3L-08144,CPTAC-3,Adenomas and Adenocarcinomas,Stomach,primary,1,"Adenocarcinoma, NOS",8140/3,G1,Stage IIIC,,2021.0,1
+C3L-06435,CPTAC-3,Nevi and Melanomas,Skin,primary,1,"Malignant melanoma, NOS",8720/3,Not Reported,Stage IIC,,2019.0,1
+C3L-04473,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G2,Stage III,,2018.0,1
+C3N-01761,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G3,Stage I,,2017.0,1
+C3L-01000,CPTAC-3,Squamous Cell Neoplasms,Bronchus and lung,primary,1,"Squamous cell carcinoma, NOS",8070/3,G3,Stage IB,,2017.0,1
+C3N-01646,CPTAC-3,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, NOS",8312/3,G3,Stage III,,2017.0,1
+C3N-01905,CPTAC-3,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, NOS",8312/3,G2,Stage III,,2017.0,1
+C3N-01880,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G2,Stage I,,2017.0,1
+TCGA-38-4625,TCGA-LUAD,Adenomas and Adenocarcinomas,Bronchus and lung,primary,1,"Adenocarcinoma, NOS",8140/3,,Stage IB,,2002.0,1
+TCGA-17-Z050,TCGA-LUAD,Adenomas and Adenocarcinomas,Bronchus and lung,none,0,,,,,,,1
+TCGA-17-Z060,TCGA-LUAD,Adenomas and Adenocarcinomas,Bronchus and lung,none,0,,,,,,,1
+TCGA-17-Z021,TCGA-LUAD,Adenomas and Adenocarcinomas,Bronchus and lung,none,0,,,,,,,1
+TCGA-17-Z019,TCGA-LUAD,Adenomas and Adenocarcinomas,Bronchus and lung,none,0,,,,,,,1
+TCGA-17-Z051,TCGA-LUAD,Adenomas and Adenocarcinomas,Bronchus and lung,none,0,,,,,,,1
+TCGA-17-Z058,TCGA-LUAD,Adenomas and Adenocarcinomas,Bronchus and lung,none,0,,,,,,,1
+TCGA-17-Z056,TCGA-LUAD,Adenomas and Adenocarcinomas,Bronchus and lung,none,0,,,,,,,1
+TCGA-17-Z027,TCGA-LUAD,Adenomas and Adenocarcinomas,Bronchus and lung,none,0,,,,,,,1
+TCGA-17-Z011,TCGA-LUAD,Adenomas and Adenocarcinomas,Bronchus and lung,none,0,,,,,,,1
+TCGA-17-Z054,TCGA-LUAD,Adenomas and Adenocarcinomas,Bronchus and lung,none,0,,,,,,,1
+TCGA-17-Z052,TCGA-LUAD,Adenomas and Adenocarcinomas,Bronchus and lung,none,0,,,,,,,1
+TCGA-17-Z062,TCGA-LUAD,Adenomas and Adenocarcinomas,Bronchus and lung,none,0,,,,,,,1
+TCGA-17-Z036,TCGA-LUAD,Adenomas and Adenocarcinomas,Bronchus and lung,none,0,,,,,,,1
+TCGA-17-Z048,TCGA-LUAD,Adenomas and Adenocarcinomas,Bronchus and lung,none,0,,,,,,,1
+TCGA-17-Z030,TCGA-LUAD,Adenomas and Adenocarcinomas,Bronchus and lung,none,0,,,,,,,1
+TCGA-34-2605,TCGA-LUSC,Squamous Cell Neoplasms,Bronchus and lung,primary,1,"Squamous cell carcinoma, NOS",8070/3,,Stage IIIB,,2006.0,1
+TCGA-34-2609,TCGA-LUSC,Squamous Cell Neoplasms,Bronchus and lung,primary,1,"Squamous cell carcinoma, NOS",8070/3,,Stage IIB,,2004.0,1
+TCGA-34-5234,TCGA-LUSC,Squamous Cell Neoplasms,Bronchus and lung,primary,1,"Squamous cell carcinoma, NOS",8070/3,,Stage IA,,2007.0,1
+TCGA-34-8455,TCGA-LUSC,Squamous Cell Neoplasms,Bronchus and lung,primary,1,"Squamous cell carcinoma, NOS",8070/3,,Stage IV,,2011.0,1
+TCGA-34-5240,TCGA-LUSC,Squamous Cell Neoplasms,Bronchus and lung,primary,1,Basaloid squamous cell carcinoma,8083/3,,Stage IIB,,2009.0,1
+TCGA-34-5239,TCGA-LUSC,Squamous Cell Neoplasms,Bronchus and lung,primary,1,"Squamous cell carcinoma, NOS",8070/3,,Stage IIIA,,2010.0,1
+TCGA-34-5232,TCGA-LUSC,Squamous Cell Neoplasms,Bronchus and lung,primary,1,"Squamous cell carcinoma, NOS",8070/3,,Stage IIA,,2006.0,1
+TCGA-34-8454,TCGA-LUSC,Squamous Cell Neoplasms,Bronchus and lung,primary,1,"Squamous cell carcinoma, NOS",8070/3,,Stage IIIA,,2011.0,1
+TCGA-34-5236,TCGA-LUSC,Squamous Cell Neoplasms,Bronchus and lung,primary,1,"Squamous cell carcinoma, NOS",8070/3,,Stage IIB,,2007.0,1
+TCGA-34-5928,TCGA-LUSC,Squamous Cell Neoplasms,Bronchus and lung,primary,1,"Squamous cell carcinoma, NOS",8070/3,,Stage IIB,,2010.0,1
+TCGA-34-7107,TCGA-LUSC,Squamous Cell Neoplasms,Bronchus and lung,primary,1,"Squamous cell carcinoma, NOS",8070/3,,Stage II,,2011.0,1
+TCGA-34-A5IX,TCGA-LUSC,Squamous Cell Neoplasms,Bronchus and lung,primary,1,"Squamous cell carcinoma, NOS",8070/3,,Stage IIB,,2012.0,1
+TCGA-34-5231,TCGA-LUSC,Squamous Cell Neoplasms,Bronchus and lung,primary,1,"Squamous cell carcinoma, NOS",8070/3,,Stage IA,,2006.0,1
+TCGA-34-5241,TCGA-LUSC,Squamous Cell Neoplasms,Bronchus and lung,primary,1,"Squamous cell carcinoma, NOS",8070/3,,Stage IB,,2009.0,1
+TCGA-13-0920,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2007.0,1
+TCGA-10-0925,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G1,,,2000.0,1
+TCGA-13-0911,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2005.0,1
+TCGA-13-1408,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2008.0,1
+TCGA-13-1505,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2008.0,1
+TCGA-10-0927,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G2,,,2000.0,1
+TCGA-10-0933,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2003.0,1
+TCGA-24-2254,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2003.0,1
+TCGA-09-0367,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2001.0,1
+TCGA-10-0937,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2005.0,1
+TCGA-13-1488,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2002.0,1
+TCGA-13-0724,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2002.0,1
+TCGA-13-0795,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2007.0,1
+TCGA-25-1322,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2001.0,1
+TCGA-13-0910,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2005.0,1
+TCGA-13-2066,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2009.0,1
+TCGA-13-1410,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,GX,,,2008.0,1
+TCGA-13-2059,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2009.0,1
+TCGA-25-2390,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,,,,2003.0,1
+TCGA-25-1635,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2002.0,1
+TCGA-25-2393,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2003.0,1
+TCGA-13-0799,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2008.0,1
+TCGA-09-1675,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G2,,,2001.0,1
+TCGA-13-1484,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2000.0,1
+TCGA-13-0924,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2008.0,1
+TCGA-13-1411,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2008.0,1
+TCGA-25-2409,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2005.0,1
+TCGA-24-0966,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2008.0,1
+TCGA-09-2044,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2009.0,1
+TCGA-13-1506,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2008.0,1
+TCGA-13-1495,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G2,,,2004.0,1
+TCGA-25-1878,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,1994.0,1
+TCGA-09-2055,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2007.0,1
+TCGA-09-1673,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2008.0,1
+TCGA-09-1659,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,1997.0,1
+TCGA-25-1320,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2001.0,1
+TCGA-13-0916,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2006.0,1
+TCGA-13-0794,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2006.0,1
+TCGA-25-1313,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2000.0,1
+TCGA-25-2400,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2004.0,1
+TCGA-09-2054,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2005.0,1
+TCGA-25-1326,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2002.0,1
+TCGA-25-2399,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2004.0,1
+TCGA-25-1634,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2002.0,1
+TCGA-24-1103,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2001.0,1
+TCGA-09-2053,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2005.0,1
+TCGA-09-1667,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G2,,,2004.0,1
+TCGA-13-0768,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2008.0,1
+TCGA-09-2051,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2004.0,1
+TCGA-13-1499,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2005.0,1
+TCGA-25-2391,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2003.0,1
+TCGA-25-2398,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2004.0,1
+TCGA-25-1315,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2000.0,1
+TCGA-24-0975,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2004.0,1
+TCGA-13-2057,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2008.0,1
+TCGA-24-1425,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2008.0,1
+TCGA-25-1317,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2000.0,1
+TCGA-13-1504,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2007.0,1
+TCGA-30-1891,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G2,,,2004.0,1
+TCGA-25-1316,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2000.0,1
+TCGA-24-0970,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2005.0,1
+TCGA-10-0931,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2002.0,1
+TCGA-25-1323,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2001.0,1
+TCGA-25-2404,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2005.0,1
+TCGA-13-1509,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2008.0,1
+TCGA-25-1632,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2002.0,1
+TCGA-13-1412,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2008.0,1
+TCGA-13-0800,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2008.0,1
+TCGA-24-1614,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2001.0,1
+TCGA-24-0980,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2003.0,1
+TCGA-25-1325,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2002.0,1
+TCGA-13-1409,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2008.0,1
+TCGA-25-1623,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2006.0,1
+TCGA-09-1669,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2004.0,1
+TCGA-24-1423,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2008.0,1
+TCGA-13-1405,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2008.0,1
+TCGA-25-1628,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2002.0,1
+TCGA-09-2045,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G2,,,1996.0,1
+TCGA-13-0761,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2006.0,1
+TCGA-24-1427,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2008.0,1
+TCGA-13-0807,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2005.0,1
+TCGA-25-1314,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2000.0,1
+TCGA-13-0904,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2004.0,1
+TCGA-13-2071,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2009.0,1
+TCGA-13-0720,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2001.0,1
+TCGA-13-0797,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2008.0,1
+TCGA-25-1318,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2000.0,1
+TCGA-24-1418,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2008.0,1
+TCGA-13-2060,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2009.0,1
+TCGA-09-0369,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2003.0,1
+TCGA-09-1674,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2008.0,1
+TCGA-25-1633,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2002.0,1
+TCGA-09-2043,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2009.0,1
+TCGA-13-0921,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2008.0,1
+TCGA-09-2050,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G2,,,2003.0,1
+TCGA-13-0802,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2008.0,1
+TCGA-24-1413,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2008.0,1
+TCGA-10-0935,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2003.0,1
+TCGA-25-2397,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2004.0,1
+TCGA-13-1507,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2008.0,1
+TCGA-13-0883,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2002.0,1
+TCGA-24-1616,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2001.0,1
+TCGA-13-0793,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2006.0,1
+TCGA-13-0762,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2006.0,1
+TCGA-10-0934,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2003.0,1
+TCGA-25-1626,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2006.0,1
+TCGA-09-1672,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G1,,,2008.0,1
+TCGA-09-0364,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,1998.0,1
+TCGA-25-1631,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2002.0,1
+TCGA-25-1321,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2001.0,1
+TCGA-10-0936,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2005.0,1
+TCGA-13-1511,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2008.0,1
+TCGA-25-1328,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2001.0,1
+TCGA-25-2042,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2006.0,1
+TCGA-4Z-AA7S,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Papillary transitional cell carcinoma,8130/3,High Grade,Stage III,,2010.0,1
+TCGA-4Z-AA7M,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage III,,2013.0,1
+TCGA-4Z-AA82,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage IV,,2010.0,1
+TCGA-4Z-AA81,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Papillary transitional cell carcinoma,8130/3,High Grade,Stage II,,2010.0,1
+TCGA-4Z-AA87,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage III,,2010.0,1
+TCGA-4Z-AA7Y,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Papillary transitional cell carcinoma,8130/3,High Grade,Stage II,,2010.0,1
+TCGA-4Z-AA80,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Papillary transitional cell carcinoma,8130/3,High Grade,Stage II,,2012.0,1
+TCGA-4Z-AA89,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Papillary transitional cell carcinoma,8130/3,High Grade,Stage IV,,2011.0,1
+TCGA-4Z-AA7N,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage III,,2010.0,1
+TCGA-4Z-AA7W,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage II,,2012.0,1
+TCGA-4Z-AA7O,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Papillary transitional cell carcinoma,8130/3,High Grade,Stage II,,2013.0,1
+TCGA-4Z-AA86,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage IV,,2009.0,1
+TCGA-4Z-AA84,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage IV,,2008.0,1
+C3N-03029,CPTAC-3,Nevi and Melanomas,Skin,primary,1,"Malignant melanoma, NOS",8720/3,Not Reported,Stage IIIC,,2017.0,1
+C3N-02330,CPTAC-3,Nevi and Melanomas,Skin,primary,1,"Malignant melanoma, NOS",8720/3,Not Reported,Stage IB,,2017.0,1
+C3N-03460,CPTAC-3,Nevi and Melanomas,Skin,primary,1,"Malignant melanoma, NOS",8720/3,Not Reported,Stage IIB,,2017.0,1
+C3N-03614,CPTAC-3,Nevi and Melanomas,Skin,primary,1,"Malignant melanoma, NOS",8720/3,Not Reported,Stage IB,,2018.0,1
+C3N-02721,CPTAC-3,Adenomas and Adenocarcinomas,Bronchus and lung,primary,1,"Adenocarcinoma, NOS",8140/3,G2,Stage IB,,2017.0,1
+C3N-02978,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G2,Stage I,,2017.0,1
+C3N-02595,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G3,Stage IV,,2017.0,1
+C3N-02295,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G1,Stage III,,2017.0,1
+TCGA-38-4629,TCGA-LUAD,Adenomas and Adenocarcinomas,Bronchus and lung,primary,1,"Adenocarcinoma, NOS",8140/3,,Stage IIB,,2003.0,1
+TCGA-17-Z034,TCGA-LUAD,Adenomas and Adenocarcinomas,Bronchus and lung,none,0,,,,,,,1
+TCGA-17-Z059,TCGA-LUAD,Adenomas and Adenocarcinomas,Bronchus and lung,none,0,,,,,,,1
+TCGA-38-6178,TCGA-LUAD,Adenomas and Adenocarcinomas,Bronchus and lung,primary,1,"Adenocarcinoma, NOS",8140/3,,Stage IIIA,,2010.0,1
+TCGA-17-Z017,TCGA-LUAD,Adenomas and Adenocarcinomas,Bronchus and lung,none,0,,,,,,,1
+TCGA-17-Z038,TCGA-LUAD,Adenomas and Adenocarcinomas,Bronchus and lung,none,0,,,,,,,1
+TCGA-17-Z028,TCGA-LUAD,Adenomas and Adenocarcinomas,Bronchus and lung,none,0,,,,,,,1
+TCGA-17-Z015,TCGA-LUAD,Adenomas and Adenocarcinomas,Bronchus and lung,none,0,,,,,,,1
+TCGA-50-5045,TCGA-LUAD,Adenomas and Adenocarcinomas,Bronchus and lung,primary,1,"Adenocarcinoma, NOS",8140/3,,,,2004.0,1
+TCGA-17-Z033,TCGA-LUAD,Adenomas and Adenocarcinomas,Bronchus and lung,none,0,,,,,,,1
+TCGA-17-Z013,TCGA-LUAD,Adenomas and Adenocarcinomas,Bronchus and lung,none,0,,,,,,,1
+TCGA-38-4626,TCGA-LUAD,Adenomas and Adenocarcinomas,Bronchus and lung,primary,1,"Adenocarcinoma, NOS",8140/3,,,,2003.0,1
+TCGA-38-A44F,TCGA-LUAD,Acinar Cell Neoplasms,Bronchus and lung,primary,1,Acinar cell carcinoma,8550/3,,Stage IB,,2012.0,1
+TCGA-17-Z039,TCGA-LUAD,Adenomas and Adenocarcinomas,Bronchus and lung,none,0,,,,,,,1
+TCGA-17-Z053,TCGA-LUAD,Adenomas and Adenocarcinomas,Bronchus and lung,none,0,,,,,,,1
+TCGA-17-Z018,TCGA-LUAD,Adenomas and Adenocarcinomas,Bronchus and lung,none,0,,,,,,,1
+TCGA-17-Z031,TCGA-LUAD,Adenomas and Adenocarcinomas,Bronchus and lung,none,0,,,,,,,1
+TCGA-17-Z035,TCGA-LUAD,Adenomas and Adenocarcinomas,Bronchus and lung,none,0,,,,,,,1
+TCGA-38-4628,TCGA-LUAD,Adenomas and Adenocarcinomas,Bronchus and lung,primary,1,"Adenocarcinoma, NOS",8140/3,,Stage IIB,,2002.0,1
+TCGA-17-Z023,TCGA-LUAD,Adenomas and Adenocarcinomas,Bronchus and lung,none,0,,,,,,,1
+TCGA-17-Z032,TCGA-LUAD,Adenomas and Adenocarcinomas,Bronchus and lung,none,0,,,,,,,1
+TCGA-17-Z016,TCGA-LUAD,Adenomas and Adenocarcinomas,Bronchus and lung,none,0,,,,,,,1
+TCGA-17-Z024,TCGA-LUAD,Adenomas and Adenocarcinomas,Bronchus and lung,none,0,,,,,,,1
+TCGA-17-Z042,TCGA-LUAD,Adenomas and Adenocarcinomas,Bronchus and lung,none,0,,,,,,,1
+TCGA-17-Z020,TCGA-LUAD,Adenomas and Adenocarcinomas,Bronchus and lung,none,0,,,,,,,1
+TCGA-17-Z045,TCGA-LUAD,Adenomas and Adenocarcinomas,Bronchus and lung,none,0,,,,,,,1
+TCGA-17-Z061,TCGA-LUAD,Adenomas and Adenocarcinomas,Bronchus and lung,none,0,,,,,,,1
+TCGA-17-Z043,TCGA-LUAD,Adenomas and Adenocarcinomas,Bronchus and lung,none,0,,,,,,,1
+TCGA-50-5044,TCGA-LUAD,Adenomas and Adenocarcinomas,Bronchus and lung,primary,1,"Adenocarcinoma, NOS",8140/3,,Stage IIIB,,2002.0,1
+TCGA-17-Z029,TCGA-LUAD,Adenomas and Adenocarcinomas,Bronchus and lung,none,0,,,,,,,1
+C3N-02818,CPTAC-3,Adenomas and Adenocarcinomas,Kidney,primary,1,Papillary renal cell carcinoma,8260/3,G2,Stage I,,2017.0,1
+C3N-04294,CPTAC-3,Nevi and Melanomas,Skin,primary,1,"Malignant melanoma, NOS",8720/3,Not Reported,Stage IIID,,2018.0,1
+C3N-04293,CPTAC-3,Nevi and Melanomas,Skin,primary,1,"Malignant melanoma, NOS",8720/3,Not Reported,Stage IV,,2018.0,1
+C3N-02440,CPTAC-3,Adenomas and Adenocarcinomas,Kidney,primary,1,Unknown,Unknown,G2,Stage II,,2017.0,1
+C3N-02324,CPTAC-3,Nevi and Melanomas,Skin,primary,1,"Malignant melanoma, NOS",8720/3,Not Reported,Stage IIB,,2010.0,1
+C3N-03417,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G1,Stage I,,2017.0,1
+C3N-02715,CPTAC-3,Adenomas and Adenocarcinomas,Bronchus and lung,primary,1,"Adenocarcinoma, NOS",8140/3,G2,Stage IIIA,,2017.0,1
+C3N-02948,CPTAC-3,Adenomas and Adenocarcinomas,Bronchus and lung,primary,1,"Adenocarcinoma, NOS",8140/3,G1,Stage IA,,2017.0,1
+C3N-03767,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G3,Stage II,,2018.0,1
+C3N-02436,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G1,Stage I,,2017.0,1
+C3N-03039,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G2,Not Reported,,,1
+C3N-03007,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G2,Stage III,,2017.0,1
+C3N-02265,CPTAC-3,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, NOS",8312/3,G1,Stage III,,2017.0,1
+C3N-02950,CPTAC-3,Adenomas and Adenocarcinomas,Bronchus and lung,primary,1,"Adenocarcinoma, NOS",8140/3,G2,Stage IB,,2018.0,1
+C3N-02288,CPTAC-3,Squamous Cell Neoplasms,Bronchus and lung,primary,1,"Squamous cell carcinoma, NOS",8070/3,G2,Stage III,,2017.0,1
+C3N-03486,CPTAC-3,Squamous Cell Neoplasms,Bronchus and lung,primary,1,"Squamous cell carcinoma, NOS",8070/3,GX,Stage IA,,2018.0,1
+C3N-03424,CPTAC-3,Squamous Cell Neoplasms,Bronchus and lung,primary,1,"Squamous cell carcinoma, NOS",8070/3,G3,Stage IA,,2017.0,1
+C3N-04162,CPTAC-3,Squamous Cell Neoplasms,Bronchus and lung,primary,1,"Squamous cell carcinoma, NOS",8070/3,G2,Stage IIA,,2018.0,1
+C3N-02281,CPTAC-3,Adenomas and Adenocarcinomas,Bronchus and lung,primary,1,"Adenocarcinoma, NOS",8140/3,G1,Stage IIA,,2017.0,1
+C3N-03426,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G2,Not Reported,,2017.0,1
+C3N-03911,CPTAC-3,Adenomas and Adenocarcinomas,Bronchus and lung,primary,1,"Adenocarcinoma, NOS",8140/3,G2,Stage IB,,2018.0,1
+C3N-02678,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G1,Stage II,,2017.0,1
+C3N-02672,CPTAC-3,Adenomas and Adenocarcinomas,Bronchus and lung,primary,1,"Adenocarcinoma, NOS",8140/3,G3,Stage IIB,,2017.0,1
+C3N-02637,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G2,Stage I,,2017.0,1
+C3N-03754,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G2,Stage III,,2018.0,1
+C3N-08896,CPTAC-3,Adenomas and Adenocarcinomas,Stomach,primary,1,"Adenocarcinoma, NOS",8140/3,G3,Stage IA,,2021.0,1
+C3N-02523,CPTAC-3,Squamous Cell Neoplasms,Bronchus and lung,primary,1,"Squamous cell carcinoma, NOS",8070/3,G2,Stage IA,,2018.0,1
+C3N-02285,CPTAC-3,Squamous Cell Neoplasms,Bronchus and lung,primary,1,"Squamous cell carcinoma, NOS",8070/3,G2,Stage IIB,,2017.0,1
+C3N-02723,CPTAC-3,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, NOS",8312/3,G3,Stage IV,,2017.0,1
+C3N-02270,CPTAC-3,Nevi and Melanomas,Skin,primary,1,"Malignant melanoma, NOS",8720/3,Not Reported,Stage IIID,,2017.0,1
+C3N-02263,CPTAC-3,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, NOS",8312/3,G2,Stage I,,2017.0,1
+C3N-02289,CPTAC-3,Squamous Cell Neoplasms,Bronchus and lung,primary,1,"Squamous cell carcinoma, NOS",8070/3,G2,Stage IIA,,2017.0,1
+C3N-03765,CPTAC-3,Adenomas and Adenocarcinomas,Bronchus and lung,primary,1,"Adenocarcinoma, NOS",8140/3,G2,Stage IA,,2018.0,1
+C3N-03420,CPTAC-3,Adenomas and Adenocarcinomas,Bronchus and lung,primary,1,"Adenocarcinoma, NOS",8140/3,G1,Stage IIB,,2017.0,1
+C3N-02811,CPTAC-3,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, NOS",8312/3,G3,Stage I,,2017.0,1
+C3N-03222,CPTAC-3,Adenomas and Adenocarcinomas,Bronchus and lung,primary,1,"Adenocarcinoma, NOS",8140/3,G2,Stage IB,,2017.0,1
+C3N-02675,CPTAC-3,Squamous Cell Neoplasms,Bronchus and lung,primary,1,"Squamous cell carcinoma, NOS",8070/3,G2,Stage IIIA,,2017.0,1
+C3N-02494,CPTAC-3,Squamous Cell Neoplasms,Bronchus and lung,primary,1,"Squamous cell carcinoma, NOS",8070/3,G3,Stage IA,,2017.0,1
+C3N-02439,CPTAC-3,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, NOS",8312/3,G3,Stage III,,2017.0,1
+C3N-02290,CPTAC-3,Adenomas and Adenocarcinomas,Bronchus and lung,primary,1,"Adenocarcinoma, NOS",8140/3,G2,Stage IB,,2017.0,1
+C3N-02633,CPTAC-3,Nevi and Melanomas,Skin,primary,1,"Malignant melanoma, NOS",8720/3,Not Reported,Stage IIIB,,2017.0,1
+C3N-02437,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G2,Stage III,,2017.0,1
+C3N-02639,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G3,Stage I,,2017.0,1
+C3N-03019,CPTAC-3,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, NOS",8312/3,G2,Stage I,,2017.0,1
+C3N-03006,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G2,Stage IIB,,2017.0,1
+C3N-02589,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G2,Stage IIA,,2017.0,1
+C3N-03000,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G3,Stage IV,,2017.0,1
+C3N-03425,CPTAC-3,Squamous Cell Neoplasms,Bronchus and lung,primary,1,"Squamous cell carcinoma, NOS",8070/3,G2,Stage IB,,2017.0,1
+C3N-02973,CPTAC-3,Adenomas and Adenocarcinomas,Bronchus and lung,primary,1,"Adenocarcinoma, NOS",8140/3,G1,Stage IA,,2017.0,1
+C3N-02434,CPTAC-3,Squamous Cell Neoplasms,Bronchus and lung,primary,1,"Squamous cell carcinoma, NOS",8070/3,G2,Stage IB,,2017.0,1
+C3N-02979,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G3,Stage I,,2017.0,1
+C3N-03233,CPTAC-3,Adenomas and Adenocarcinomas,Bronchus and lung,primary,1,"Adenocarcinoma, NOS",8140/3,G2,Stage IA,,2018.0,1
+C3N-03670,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G2,Stage III,,2018.0,1
+C3N-02339,CPTAC-3,Squamous Cell Neoplasms,Bronchus and lung,primary,1,"Squamous cell carcinoma, NOS",8070/3,G2,Stage IIA,,2017.0,1
+C3N-02298,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G1,Stage I,,2017.0,1
+C3N-02284,CPTAC-3,Squamous Cell Neoplasms,Bronchus and lung,primary,1,"Squamous cell carcinoma, NOS",8070/3,G2,Stage IIB,,2017.0,1
+C3N-03764,CPTAC-3,Adenomas and Adenocarcinomas,Bronchus and lung,primary,1,"Adenocarcinoma, NOS",8140/3,G3,Stage IIB,,2018.0,1
+C3N-02976,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G3,Stage I,,2017.0,1
+C3N-04382,CPTAC-3,Adenomas and Adenocarcinomas,Bronchus and lung,primary,1,"Adenocarcinoma, NOS",8140/3,G3,Stage IB,,2018.0,1
+C3N-02282,CPTAC-3,Squamous Cell Neoplasms,Bronchus and lung,primary,1,"Squamous cell carcinoma, NOS",8070/3,G3,Stage IIIA,,2017.0,1
+C3N-02947,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G2,Stage I,,2017.0,1
+C3N-02274,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G2,Stage I,,2017.0,1
+C3N-02451,CPTAC-3,Adenomas and Adenocarcinomas,Bronchus and lung,primary,1,"Adenocarcinoma, NOS",8140/3,G2,Stage IIB,,2017.0,1
+C3N-02632,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G2,Stage I,,2017.0,1
+C3N-03430,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G2,Not Reported,,2017.0,1
+C3N-02789,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G2,Stage II,,2017.0,1
+C3N-02971,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G1,Stage III,,2017.0,1
+C3N-04173,CPTAC-3,Adenomas and Adenocarcinomas,Bronchus and lung,primary,1,"Adenocarcinoma, NOS",8140/3,G2,Stage IA,,2018.0,1
+C3N-02635,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G3,Stage IIIC1,,2017.0,1
+C3N-02592,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G2,Stage IIB,,2017.0,1
+C3N-02332,CPTAC-3,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, NOS",8312/3,G2,Stage III,,2017.0,1
+C3N-03038,CPTAC-3,Adenomas and Adenocarcinomas,Bronchus and lung,primary,1,"Adenocarcinoma, NOS",8140/3,G2,Not Reported,,,1
+C3N-03018,CPTAC-3,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, NOS",8312/3,G2,Stage I,,2017.0,1
+C3N-02972,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G2,Stage IIIC1,,2017.0,1
+C3N-02631,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G3,Stage II,,2017.0,1
+C3N-02998,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G2,Stage III,,2017.0,1
+C3N-03005,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G2,Stage I,,2017.0,1
+C3N-03415,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G3,Stage I,,2017.0,1
+C3N-02300,CPTAC-3,Squamous Cell Neoplasms,Bronchus and lung,primary,1,"Squamous cell carcinoma, NOS",8070/3,G2,Stage IIB,,2017.0,1
+C3N-02598,CPTAC-3,Adenomas and Adenocarcinomas,"Uterus, NOS",primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G2,Stage IV,,2017.0,1
+C3N-02283,CPTAC-3,Squamous Cell Neoplasms,Bronchus and lung,primary,1,"Squamous cell carcinoma, NOS",8070/3,GX,Stage IIB,,2017.0,1
+C3N-02997,CPTAC-3,Ductal and Lobular Neoplasms,Pancreas,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,G3,Stage III,,2017.0,1
+TCGA-50-6594,TCGA-LUAD,Adenomas and Adenocarcinomas,Bronchus and lung,primary,1,"Adenocarcinoma, NOS",8140/3,,Stage IIIA,,2009.0,1
+TCGA-50-6592,TCGA-LUAD,Adenomas and Adenocarcinomas,Bronchus and lung,primary,1,"Adenocarcinoma, NOS",8140/3,,Stage IB,,2007.0,1
+TCGA-50-5049,TCGA-LUAD,Adenomas and Adenocarcinomas,Bronchus and lung,primary,1,"Adenocarcinoma, NOS",8140/3,,Stage IA,,2006.0,1
+TCGA-50-6591,TCGA-LUAD,Adenomas and Adenocarcinomas,Bronchus and lung,primary,1,"Adenocarcinoma, NOS",8140/3,,Stage IV,,2007.0,1
+TCGA-50-5066,TCGA-LUAD,Adenomas and Adenocarcinomas,Bronchus and lung,primary,1,Adenocarcinoma with mixed subtypes,8255/3,,Stage IB,,2009.0,1
+TCGA-50-5946,TCGA-LUAD,Adenomas and Adenocarcinomas,Bronchus and lung,primary,1,Adenocarcinoma with mixed subtypes,8255/3,,Stage IA,,2010.0,1
+TCGA-50-6593,TCGA-LUAD,Adenomas and Adenocarcinomas,Bronchus and lung,primary,1,Adenocarcinoma with mixed subtypes,8255/3,,Stage IIIA,,2008.0,1
+TCGA-60-2696,TCGA-LUSC,Squamous Cell Neoplasms,Bronchus and lung,primary,1,"Squamous cell carcinoma, NOS",8070/3,,Stage IIA,,2009.0,1
+TCGA-51-6867,TCGA-LUSC,Squamous Cell Neoplasms,Bronchus and lung,primary,1,"Squamous cell carcinoma, NOS",8070/3,,Stage I,,2003.0,1
+TCGA-60-2712,TCGA-LUSC,Squamous Cell Neoplasms,Bronchus and lung,primary,1,"Squamous cell carcinoma, NOS",8070/3,,Stage IIB,,2006.0,1
+TCGA-60-2695,TCGA-LUSC,Squamous Cell Neoplasms,Bronchus and lung,primary,1,Basaloid squamous cell carcinoma,8083/3,,Stage IB,,2009.0,1
+TCGA-60-2710,TCGA-LUSC,Squamous Cell Neoplasms,Bronchus and lung,primary,1,"Squamous cell carcinoma, NOS",8070/3,,Stage IIA,,2005.0,1
+TCGA-60-2715,TCGA-LUSC,Squamous Cell Neoplasms,Bronchus and lung,primary,1,"Squamous cell carcinoma, NOS",8070/3,,Stage IA,,2008.0,1
+TCGA-60-2719,TCGA-LUSC,Squamous Cell Neoplasms,Bronchus and lung,primary,1,"Squamous cell carcinoma, NOS",8070/3,,Stage IB,,2007.0,1
+TCGA-60-2722,TCGA-LUSC,Squamous Cell Neoplasms,Bronchus and lung,primary,1,"Squamous cell carcinoma, NOS",8070/3,,Stage IIB,,2008.0,1
+TCGA-60-2726,TCGA-LUSC,Squamous Cell Neoplasms,Bronchus and lung,primary,1,"Squamous cell carcinoma, NOS",8070/3,,Stage IIA,,2009.0,1
+TCGA-51-4080,TCGA-LUSC,Squamous Cell Neoplasms,Bronchus and lung,primary,1,Basaloid squamous cell carcinoma,8083/3,,Stage IIIB,,2009.0,1
+TCGA-92-8064,TCGA-LUSC,Squamous Cell Neoplasms,Bronchus and lung,primary,1,"Squamous cell carcinoma, NOS",8070/3,,,,2011.0,1
+TCGA-60-2725,TCGA-LUSC,Squamous Cell Neoplasms,Bronchus and lung,primary,1,"Squamous cell carcinoma, NOS",8070/3,,Stage IB,,2009.0,1
+TCGA-92-8065,TCGA-LUSC,Squamous Cell Neoplasms,Bronchus and lung,primary,1,"Squamous cell carcinoma, keratinizing, NOS",8071/3,,Stage IIB,,2012.0,1
+TCGA-92-7341,TCGA-LUSC,Squamous Cell Neoplasms,Bronchus and lung,primary,1,"Squamous cell carcinoma, NOS",8070/3,,Stage IB,,2011.0,1
+TCGA-60-2711,TCGA-LUSC,Squamous Cell Neoplasms,Bronchus and lung,primary,1,"Squamous cell carcinoma, NOS",8070/3,,Stage IB,,2007.0,1
+TCGA-60-2721,TCGA-LUSC,Squamous Cell Neoplasms,Bronchus and lung,primary,1,"Squamous cell carcinoma, NOS",8070/3,,Stage IB,,2008.0,1
+TCGA-92-8063,TCGA-LUSC,Squamous Cell Neoplasms,Bronchus and lung,primary,1,"Squamous cell carcinoma, NOS",8070/3,,Stage IIIA,,2011.0,1
+TCGA-60-2716,TCGA-LUSC,Squamous Cell Neoplasms,Bronchus and lung,primary,1,"Squamous cell carcinoma, NOS",8070/3,,Stage IIB,,2007.0,1
+TCGA-92-7340,TCGA-LUSC,Squamous Cell Neoplasms,Bronchus and lung,primary,1,"Squamous cell carcinoma, NOS",8070/3,,Stage IIA,,2011.0,1
+TCGA-51-4079,TCGA-LUSC,Squamous Cell Neoplasms,Bronchus and lung,primary,1,"Squamous cell carcinoma, NOS",8070/3,,Stage IB,,2009.0,1
+TCGA-60-2724,TCGA-LUSC,Squamous Cell Neoplasms,Bronchus and lung,primary,1,"Squamous cell carcinoma, NOS",8070/3,,Stage IIIA,,2008.0,1
+TCGA-60-2723,TCGA-LUSC,Squamous Cell Neoplasms,Bronchus and lung,primary,1,"Squamous cell carcinoma, NOS",8070/3,,Stage IB,,2008.0,1
+TCGA-BM-6198,TCGA-READ,Adenomas and Adenocarcinomas,Rectum,primary,1,"Adenocarcinoma, NOS",8140/3,,Stage IIIB,,2010.0,1
+TCGA-61-2009,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2006.0,1
+TCGA-61-2018,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2005.0,1
+TCGA-61-1730,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2007.0,1
+TCGA-61-1727,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2007.0,1
+TCGA-61-1903,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2007.0,1
+TCGA-61-1906,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2006.0,1
+TCGA-61-1900,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2008.0,1
+TCGA-61-2087,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2009.0,1
+TCGA-61-1725,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2007.0,1
+TCGA-61-1737,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2005.0,1
+TCGA-61-2002,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2008.0,1
+TCGA-61-1911,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2005.0,1
+TCGA-61-2611,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2008.0,1
+TCGA-61-2000,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2008.0,1
+TCGA-61-2097,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G2,,,2003.0,1
+TCGA-61-2003,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G2,,,2008.0,1
+TCGA-61-1907,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2006.0,1
+TCGA-61-1738,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2005.0,1
+TCGA-61-1740,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2005.0,1
+TCGA-61-1733,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2006.0,1
+TCGA-61-2614,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2007.0,1
+TCGA-61-2012,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G2,,,2006.0,1
+TCGA-61-2016,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2006.0,1
+TCGA-61-1998,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2009.0,1
+TCGA-61-1910,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2006.0,1
+TCGA-61-1901,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2008.0,1
+TCGA-AY-A54L,TCGA-COAD,Adenomas and Adenocarcinomas,Colon,primary,1,"Adenocarcinoma, NOS",8140/3,,Stage I,,2012.0,1
+TCGA-BC-A112,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G2,,,2009.0,1
+TCGA-BC-A110,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G1,,,2003.0,1
+TCGA-BC-4073,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G3,Stage IIIA,,2009.0,1
+TCGA-BC-A3KF,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G2,Stage I,,2011.0,1
+TCGA-BC-A10W,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G3,,,2002.0,1
+TCGA-BC-A10X,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G2,Stage IIIA,,2002.0,1
+TCGA-BC-A216,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G2,Stage IIIA,,2008.0,1
+TCGA-BC-A10Y,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G3,,,2002.0,1
+TCGA-BC-A5W4,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G3,Stage IIIA,,2012.0,1
+TCGA-BC-A217,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G3,Stage II,,2010.0,1
+TCGA-BC-A10Z,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G2,Stage I,,2003.0,1
+TCGA-BC-A69I,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G1,Stage I,,2013.0,1
+TCGA-BC-A3KG,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G3,Stage II,,2011.0,1
+TCGA-BC-A69H,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G3,Stage II,,2013.0,1
+TCGA-B9-A44B,TCGA-KIRP,Adenomas and Adenocarcinomas,Kidney,primary,1,"Papillary adenocarcinoma, NOS",8260/3,,Stage III,Stage III,2012.0,1
+TCGA-B9-5155,TCGA-KIRP,Adenomas and Adenocarcinomas,Kidney,primary,1,"Papillary adenocarcinoma, NOS",8260/3,,Stage III,Stage III,2010.0,1
+TCGA-B9-4617,TCGA-KIRP,Adenomas and Adenocarcinomas,Kidney,primary,1,"Papillary adenocarcinoma, NOS",8260/3,,,Stage I,2010.0,1
+TCGA-B9-5156,TCGA-KIRP,Adenomas and Adenocarcinomas,Kidney,primary,1,"Papillary adenocarcinoma, NOS",8260/3,,,Stage I,2010.0,1
+TCGA-B9-4116,TCGA-KIRP,Adenomas and Adenocarcinomas,Kidney,primary,1,"Papillary adenocarcinoma, NOS",8260/3,,,Stage II,2010.0,1
+TCGA-B9-4113,TCGA-KIRP,Adenomas and Adenocarcinomas,Kidney,primary,1,"Papillary adenocarcinoma, NOS",8260/3,,Stage I,Stage I,2002.0,1
+TCGA-B9-4117,TCGA-KIRP,Adenomas and Adenocarcinomas,Kidney,primary,1,"Papillary adenocarcinoma, NOS",8260/3,,,Stage II,2009.0,1
+TCGA-B9-4115,TCGA-KIRP,Adenomas and Adenocarcinomas,Kidney,primary,1,"Papillary adenocarcinoma, NOS",8260/3,,Stage I,Stage I,2009.0,1
+TCGA-B9-7268,TCGA-KIRP,Adenomas and Adenocarcinomas,Kidney,primary,1,"Papillary adenocarcinoma, NOS",8260/3,,Stage II,Stage I,2011.0,1
+TCGA-B9-4114,TCGA-KIRP,Adenomas and Adenocarcinomas,Kidney,primary,1,"Papillary adenocarcinoma, NOS",8260/3,,,Stage IV,2009.0,1
+TCGA-BH-A0B6,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage I,,2006.0,1
+TCGA-AO-A0JI,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIA,,2007.0,1
+TCGA-BH-A0C0,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIA,,2007.0,1
+TCGA-BH-A0B1,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIB,,2007.0,1
+TCGA-AR-A1AX,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage I,,2007.0,1
+TCGA-BH-A0B3,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIB,,2007.0,1
+TCGA-BH-A0W5,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIA,,2008.0,1
+TCGA-AR-A24M,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,Infiltrating duct and lobular carcinoma,8522/3,,Stage IIIA,,2005.0,1
+TCGA-BH-A0BM,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIB,,2007.0,1
+TCGA-AR-A24R,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIIA,,2006.0,1
+TCGA-AO-A129,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIB,,2002.0,1
+TCGA-AO-A0J8,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Lobular carcinoma, NOS",8520/3,,Stage IIA,,2009.0,1
+TCGA-BH-A0GY,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIA,,2008.0,1
+TCGA-BH-A0DE,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIA,,2007.0,1
+TCGA-AR-A1AN,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIA,,2006.0,1
+TCGA-BH-A0H9,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIA,,2007.0,1
+TCGA-BH-A0BQ,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage I,,2007.0,1
+TCGA-AO-A0J9,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Lobular carcinoma, NOS",8520/3,,Stage IIIC,,2007.0,1
+TCGA-BH-A0GZ,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIA,,2009.0,1
+TCGA-AO-A03M,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage I,,2006.0,1
+TCGA-AR-A24X,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,Infiltrating duct and lobular carcinoma,8522/3,,Stage IIA,,2006.0,1
+TCGA-AR-A24S,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage I,,2006.0,1
+TCGA-BH-A0DT,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIA,,2007.0,1
+TCGA-BH-A18I,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIA,,2010.0,1
+TCGA-AR-A254,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIIA,,2007.0,1
+TCGA-AR-A24W,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIB,,2006.0,1
+TCGA-BH-A0E1,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIB,,2009.0,1
+TCGA-BH-A0H3,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage I,,2008.0,1
+TCGA-AR-A1AQ,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIA,,2007.0,1
+TCGA-BH-A0DX,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage I,,2007.0,1
+TCGA-BH-A0HY,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage I,,2009.0,1
+TCGA-BH-A0E2,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIIA,,2009.0,1
+TCGA-AO-A12D,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIA,,2005.0,1
+TCGA-BH-A0H7,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIIA,,2008.0,1
+TCGA-BH-A0BT,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIA,,2007.0,1
+TCGA-BH-A0BG,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage I,,2008.0,1
+TCGA-BH-A202,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage II,,2011.0,1
+TCGA-BH-A201,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IA,,2011.0,1
+TCGA-BH-A0H6,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage I,,2008.0,1
+TCGA-AO-A0JF,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIA,,2009.0,1
+TCGA-BH-A0HA,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage I,,2008.0,1
+TCGA-BH-A0DI,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIB,,2009.0,1
+TCGA-BH-A0BJ,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIB,,2008.0,1
+TCGA-BH-A0DG,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIA,,2007.0,1
+TCGA-BH-A28Q,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Lobular carcinoma, NOS",8520/3,,Stage IIB,,2010.0,1
+TCGA-BH-A0DK,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIA,,2009.0,1
+TCGA-BH-A0EI,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIA,,2008.0,1
+TCGA-BH-A0AW,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIA,,2008.0,1
+TCGA-AO-A03V,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage I,,2008.0,1
+TCGA-BH-A0E9,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Lobular carcinoma, NOS",8520/3,,Stage IIB,,2006.0,1
+TCGA-AO-A0JM,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIB,,2005.0,1
+TCGA-AO-A12G,TCGA-BRCA,"Epithelial Neoplasms, NOS",Breast,primary,1,Pleomorphic carcinoma,8022/3,,Stage IIA,,2006.0,1
+TCGA-BH-A0B5,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Lobular carcinoma, NOS",8520/3,,Stage IIIA,,2007.0,1
+TCGA-BH-A0DZ,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIB,,2009.0,1
+TCGA-BH-A0DH,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIB,,2007.0,1
+TCGA-AO-A12F,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIA,,2006.0,1
+TCGA-BH-A0HI,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IA,,2008.0,1
+TCGA-BH-A0DV,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIIA,,2007.0,1
+TCGA-BH-A18F,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIA,,2010.0,1
+TCGA-AO-A0JB,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIIA,,2007.0,1
+TCGA-AQ-A04H,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIIA,,2009.0,1
+TCGA-AO-A12E,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Lobular carcinoma, NOS",8520/3,,Stage IIB,,2005.0,1
+TCGA-BH-A0E0,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIIC,,2009.0,1
+TCGA-AR-A24U,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIA,,2006.0,1
+TCGA-BH-A0H5,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage I,,2008.0,1
+TCGA-BH-A18H,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IA,,2010.0,1
+TCGA-BH-A0RX,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIA,,2010.0,1
+TCGA-BH-A0AZ,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIIA,,2008.0,1
+TCGA-BH-A0HX,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIB,,2008.0,1
+TCGA-BH-A0W3,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIA,,2010.0,1
+TCGA-50-5072,TCGA-LUAD,Adenomas and Adenocarcinomas,Bronchus and lung,primary,1,"Adenocarcinoma, NOS",8140/3,,Stage IIIA,,2009.0,1
+TCGA-50-5942,TCGA-LUAD,Adenomas and Adenocarcinomas,Bronchus and lung,primary,1,"Adenocarcinoma, NOS",8140/3,,Stage IA,,2009.0,1
+TCGA-50-6595,TCGA-LUAD,Adenomas and Adenocarcinomas,Bronchus and lung,primary,1,"Adenocarcinoma, NOS",8140/3,,Stage IIIA,,2009.0,1
+TCGA-50-5051,TCGA-LUAD,Adenomas and Adenocarcinomas,Bronchus and lung,primary,1,"Adenocarcinoma, NOS",8140/3,,Stage IIIA,,2007.0,1
+TCGA-50-6590,TCGA-LUAD,Adenomas and Adenocarcinomas,Bronchus and lung,primary,1,"Adenocarcinoma, NOS",8140/3,,Stage IB,,2005.0,1
+TCGA-50-8459,TCGA-LUAD,"Cystic, Mucinous and Serous Neoplasms",Bronchus and lung,primary,1,Mucinous adenocarcinoma,8480/3,,Stage IIB,,2012.0,1
+TCGA-50-6673,TCGA-LUAD,Adenomas and Adenocarcinomas,Bronchus and lung,primary,1,"Adenocarcinoma, NOS",8140/3,,Stage I,,2004.0,1
+TCGA-50-5055,TCGA-LUAD,Adenomas and Adenocarcinomas,Bronchus and lung,primary,1,Adenocarcinoma with mixed subtypes,8255/3,,Stage IIA,,2008.0,1
+TCGA-50-8460,TCGA-LUAD,Adenomas and Adenocarcinomas,Bronchus and lung,primary,1,"Papillary adenocarcinoma, NOS",8260/3,,Stage IA,,2012.0,1
+TCGA-50-5936,TCGA-LUAD,"Cystic, Mucinous and Serous Neoplasms",Bronchus and lung,primary,1,Mucinous adenocarcinoma,8480/3,,Stage IIIA,,2007.0,1
+TCGA-50-5941,TCGA-LUAD,Adenomas and Adenocarcinomas,Bronchus and lung,primary,1,"Adenocarcinoma, NOS",8140/3,,Stage IIIA,,2010.0,1
+TCGA-BP-4166,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage III,,2003.0,1
+TCGA-BP-4169,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage II,,2003.0,1
+TCGA-BP-4782,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2005.0,1
+TCGA-BP-4173,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage II,,2004.0,1
+TCGA-BP-4999,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2007.0,1
+TCGA-B0-5115,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage IV,,2009.0,1
+TCGA-B0-5812,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage I,,2003.0,1
+TCGA-B8-4148,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage I,,2009.0,1
+TCGA-BP-4976,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage I,,2006.0,1
+TCGA-B8-4621,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage I,,2010.0,1
+TCGA-BP-4787,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G4,Stage IV,,2007.0,1
+TCGA-B8-5162,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage II,,2010.0,1
+TCGA-BP-4799,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage III,,2007.0,1
+TCGA-BP-4771,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G4,Stage IV,,2005.0,1
+TCGA-B8-5550,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage III,,2010.0,1
+TCGA-B8-A54E,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, NOS",8312/3,G3,Stage I,,2011.0,1
+TCGA-BP-5006,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2007.0,1
+TCGA-B0-5085,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage III,,2005.0,1
+TCGA-BP-4762,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage I,,2004.0,1
+TCGA-B8-4619,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2010.0,1
+TCGA-B8-5553,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2010.0,1
+TCGA-B8-5165,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2010.0,1
+TCGA-BP-4347,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage III,,2006.0,1
+TCGA-B0-5703,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage I,,2009.0,1
+TCGA-BP-4973,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage III,,2006.0,1
+TCGA-BP-4989,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage III,,2007.0,1
+TCGA-B0-5109,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G4,Stage III,,2009.0,1
+TCGA-B8-5552,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2010.0,1
+TCGA-B8-4153,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage III,,2010.0,1
+TCGA-BP-4774,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2005.0,1
+TCGA-BP-4992,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G4,Stage I,,2007.0,1
+TCGA-BP-4801,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2007.0,1
+TCGA-B8-5159,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage I,,2010.0,1
+TCGA-B0-5117,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2010.0,1
+TCGA-BP-4759,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2004.0,1
+TCGA-B8-4622,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage IV,,2010.0,1
+TCGA-BP-5007,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage II,,2007.0,1
+TCGA-B0-5709,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage III,,2003.0,1
+TCGA-BP-5004,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage I,,2007.0,1
+TCGA-BP-4351,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage III,,2006.0,1
+TCGA-BP-4963,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage I,,2005.0,1
+TCGA-BP-4777,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage I,,2005.0,1
+TCGA-B8-4146,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2009.0,1
+TCGA-B8-4620,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage III,,2010.0,1
+TCGA-B0-4698,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G4,Stage IV,,2003.0,1
+TCGA-B8-5163,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage III,,2010.0,1
+TCGA-B0-5697,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2007.0,1
+TCGA-BP-4982,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage I,,2006.0,1
+TCGA-BP-4971,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage III,,2006.0,1
+TCGA-BP-4167,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage III,,2003.0,1
+TCGA-BP-4766,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage I,,2004.0,1
+TCGA-BP-5000,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage I,,2007.0,1
+TCGA-BP-4355,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G4,Stage III,,2008.0,1
+TCGA-B0-5399,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2010.0,1
+TCGA-BP-4349,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2006.0,1
+TCGA-B8-5545,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2010.0,1
+TCGA-BP-4790,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2007.0,1
+TCGA-BP-4807,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage I,,2008.0,1
+TCGA-BP-4995,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage I,,2007.0,1
+TCGA-BP-4795,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2007.0,1
+TCGA-BP-4354,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G4,Stage IV,,2006.0,1
+TCGA-BP-4353,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2007.0,1
+TCGA-BP-4775,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2005.0,1
+TCGA-BP-4342,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage II,,2003.0,1
+TCGA-B0-5088,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage I,,2006.0,1
+TCGA-B0-4712,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage IV,,2006.0,1
+TCGA-BP-4334,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage III,,2003.0,1
+TCGA-BP-4965,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2005.0,1
+TCGA-BP-4994,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage I,,2007.0,1
+TCGA-BP-4986,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage I,,2006.0,1
+TCGA-BP-4760,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2004.0,1
+TCGA-BP-4331,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2002.0,1
+TCGA-B0-4839,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2003.0,1
+TCGA-B0-5081,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage III,,2005.0,1
+TCGA-B8-A54F,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, NOS",8312/3,G2,Stage I,,2012.0,1
+TCGA-BP-4346,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage III,,2006.0,1
+TCGA-BP-4988,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2007.0,1
+TCGA-BP-4784,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2005.0,1
+TCGA-B0-5121,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2010.0,1
+TCGA-BP-4164,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage III,,2002.0,1
+TCGA-B0-5702,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2007.0,1
+TCGA-B0-5698,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage I,,2005.0,1
+TCGA-BP-4781,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage I,,2005.0,1
+TCGA-BP-4170,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2003.0,1
+TCGA-B0-5711,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage III,,2004.0,1
+TCGA-BP-4345,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage III,,2006.0,1
+TCGA-B8-4154,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2010.0,1
+TCGA-B0-4713,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage III,,2010.0,1
+TCGA-BP-4768,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2005.0,1
+TCGA-BP-4972,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage III,,2006.0,1
+TCGA-BP-4177,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2005.0,1
+TCGA-B8-A54D,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, NOS",8312/3,G2,Stage III,,2011.0,1
+TCGA-BP-4789,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2007.0,1
+TCGA-B8-5549,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage I,,2010.0,1
+TCGA-B0-4821,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage III,,2002.0,1
+TCGA-B0-4849,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage III,,2004.0,1
+TCGA-B0-5712,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage IV,,2004.0,1
+TCGA-B8-5546,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2010.0,1
+TCGA-B8-4151,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage III,,2009.0,1
+TCGA-BP-4960,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage II,,2004.0,1
+TCGA-BP-4970,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage III,,2006.0,1
+TCGA-BP-4770,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G4,Stage IV,,2005.0,1
+TCGA-BP-4977,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage I,,2006.0,1
+TCGA-B0-4845,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage IV,,2003.0,1
+TCGA-BP-4804,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2008.0,1
+TCGA-BP-5001,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2007.0,1
+TCGA-BP-4964,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2005.0,1
+TCGA-BP-4769,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2005.0,1
+TCGA-BP-4797,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage III,,2007.0,1
+TCGA-B8-4143,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage IV,,2002.0,1
+TCGA-BP-4335,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage IV,,2003.0,1
+TCGA-BP-4763,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2004.0,1
+TCGA-BP-4975,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage I,,2006.0,1
+TCGA-B0-4833,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2003.0,1
+TCGA-B8-5158,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G4,Stage III,,2010.0,1
+TCGA-B0-5106,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2004.0,1
+TCGA-BP-4962,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage II,,2005.0,1
+TCGA-B8-A54G,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, NOS",8312/3,G3,Stage I,,2012.0,1
+TCGA-B0-5110,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2009.0,1
+TCGA-B8-5164,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage III,,2010.0,1
+TCGA-B0-5099,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage III,,2002.0,1
+TCGA-BP-4343,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage III,,2003.0,1
+TCGA-BP-4330,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage III,,2002.0,1
+TCGA-BP-4352,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G4,Stage IV,,2007.0,1
+TCGA-B0-5097,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage III,,2010.0,1
+TCGA-B0-5077,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage I,,2005.0,1
+TCGA-B0-4843,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage III,,2004.0,1
+TCGA-B8-5551,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage I,,2010.0,1
+TCGA-B0-5707,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage I,,2004.0,1
+TCGA-BP-4967,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage III,,2005.0,1
+TCGA-B0-5696,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G4,Stage III,,2007.0,1
+TCGA-BP-4761,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G4,Stage III,,2004.0,1
+TCGA-BP-4803,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage III,,2008.0,1
+TCGA-B0-5706,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage II,,2004.0,1
+TCGA-CL-5917,TCGA-READ,Adenomas and Adenocarcinomas,Rectosigmoid junction,primary,1,"Adenocarcinoma, NOS",8140/3,,Stage IIIC,,2006.0,1
+TCGA-CL-4957,TCGA-READ,Adenomas and Adenocarcinomas,Rectum,primary,1,"Adenocarcinoma, NOS",8140/3,,,,2008.0,1
+TCGA-DE-A4MD,TCGA-THCA,Adenomas and Adenocarcinomas,Thyroid gland,primary,1,"Papillary adenocarcinoma, NOS",8260/3,,Stage IVA,,2011.0,1
+TCGA-DE-A4MB,TCGA-THCA,Adenomas and Adenocarcinomas,Thyroid gland,primary,1,"Papillary adenocarcinoma, NOS",8260/3,,Stage IVA,,2011.0,1
+TCGA-D1-A1NW,TCGA-UCEC,"Cystic, Mucinous and Serous Neoplasms",Corpus uteri,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2010.0,1
+TCGA-D1-A0ZU,TCGA-UCEC,Adenomas and Adenocarcinomas,Corpus uteri,primary,1,"Endometrioid adenocarcinoma, secretory variant",8382/3,G2,,,2009.0,1
+TCGA-D1-A17B,TCGA-UCEC,Adenomas and Adenocarcinomas,Corpus uteri,primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G2,,,2009.0,1
+TCGA-D1-A177,TCGA-UCEC,Adenomas and Adenocarcinomas,Corpus uteri,primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G2,,,2010.0,1
+TCGA-DI-A2QT,TCGA-UCEC,"Cystic, Mucinous and Serous Neoplasms",Corpus uteri,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2008.0,1
+TCGA-D1-A1O5,TCGA-UCEC,Adenomas and Adenocarcinomas,Corpus uteri,primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G1,,,2010.0,1
+TCGA-D1-A175,TCGA-UCEC,Adenomas and Adenocarcinomas,Corpus uteri,primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G3,,,2009.0,1
+TCGA-D1-A15V,TCGA-UCEC,"Cystic, Mucinous and Serous Neoplasms",Corpus uteri,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2008.0,1
+TCGA-D1-A2G5,TCGA-UCEC,Adenomas and Adenocarcinomas,Corpus uteri,primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G3,,,2007.0,1
+TCGA-D1-A0ZO,TCGA-UCEC,Adenomas and Adenocarcinomas,Corpus uteri,primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G1,,,2009.0,1
+TCGA-D1-A16O,TCGA-UCEC,Adenomas and Adenocarcinomas,Corpus uteri,primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G1,,,2008.0,1
+TCGA-DI-A1BY,TCGA-UCEC,Adenomas and Adenocarcinomas,Corpus uteri,primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G2,,,2008.0,1
+TCGA-D1-A1NZ,TCGA-UCEC,Adenomas and Adenocarcinomas,Corpus uteri,primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G1,,,2010.0,1
+TCGA-D1-A17C,TCGA-UCEC,Adenomas and Adenocarcinomas,Corpus uteri,primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G1,,,2010.0,1
+TCGA-D1-A174,TCGA-UCEC,Adenomas and Adenocarcinomas,Corpus uteri,primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G3,,,2010.0,1
+TCGA-D1-A15W,TCGA-UCEC,Adenomas and Adenocarcinomas,Corpus uteri,primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G1,,,2008.0,1
+TCGA-D1-A0ZP,TCGA-UCEC,"Cystic, Mucinous and Serous Neoplasms",Corpus uteri,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2009.0,1
+TCGA-DI-A1NO,TCGA-UCEC,Adenomas and Adenocarcinomas,Corpus uteri,primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G3,,,2009.0,1
+TCGA-D1-A168,TCGA-UCEC,Adenomas and Adenocarcinomas,Corpus uteri,primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G3,,,2008.0,1
+TCGA-D1-A1O0,TCGA-UCEC,Adenomas and Adenocarcinomas,Corpus uteri,primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G3,,,2010.0,1
+TCGA-D1-A17U,TCGA-UCEC,Adenomas and Adenocarcinomas,Corpus uteri,primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G2,,,2010.0,1
+TCGA-D1-A0ZQ,TCGA-UCEC,Adenomas and Adenocarcinomas,Corpus uteri,primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G2,,,2009.0,1
+TCGA-CK-5915,TCGA-COAD,Adenomas and Adenocarcinomas,Colon,primary,1,"Adenocarcinoma, NOS",8140/3,,Stage I,,2007.0,1
+TCGA-CK-4951,TCGA-COAD,"Cystic, Mucinous and Serous Neoplasms",Colon,primary,1,Mucinous adenocarcinoma,8480/3,,Stage IIA,,2007.0,1
+TCGA-CK-5916,TCGA-COAD,Adenomas and Adenocarcinomas,Colon,primary,1,"Adenocarcinoma, NOS",8140/3,,Stage I,,2003.0,1
+TCGA-CK-6747,TCGA-COAD,Adenomas and Adenocarcinomas,Colon,primary,1,"Adenocarcinoma, NOS",8140/3,,Stage IIA,,2008.0,1
+TCGA-CK-6748,TCGA-COAD,"Cystic, Mucinous and Serous Neoplasms",Colon,primary,1,Mucinous adenocarcinoma,8480/3,,Stage IV,,2008.0,1
+TCGA-DE-A4MC,TCGA-THCA,Adenomas and Adenocarcinomas,Thyroid gland,primary,1,"Papillary adenocarcinoma, NOS",8260/3,,Stage I,,2011.0,1
+TCGA-DE-A4MA,TCGA-THCA,Adenomas and Adenocarcinomas,Thyroid gland,primary,1,"Papillary adenocarcinoma, NOS",8260/3,,Stage III,,2011.0,1
+TCGA-DD-A3A6,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G2,Stage II,,1997.0,1
+TCGA-DD-A4NV,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G1,Stage IIIA,,2007.0,1
+TCGA-DD-A1EC,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G3,Stage I,,2004.0,1
+TCGA-DD-A1EB,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G2,Stage I,,2001.0,1
+TCGA-DD-A39X,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G2,Stage I,,1998.0,1
+TCGA-DD-A4NF,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G2,Stage I,,2011.0,1
+TCGA-DD-A4NP,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G3,Stage I,,2005.0,1
+TCGA-DD-A11C,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G3,Stage I,,2006.0,1
+TCGA-DD-A114,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G3,Stage II,,2005.0,1
+TCGA-DD-A11D,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G2,Stage I,,2006.0,1
+TCGA-DD-A1ED,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G1,Stage I,,2006.0,1
+TCGA-DD-A4NB,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, fibrolamellar",8171/3,G2,Stage I,,2011.0,1
+TCGA-DD-A11B,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G2,Stage I,,2005.0,1
+TCGA-DD-A1EF,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G3,Stage I,,2007.0,1
+TCGA-DD-A1EL,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G3,Stage II,,2009.0,1
+TCGA-DD-A1EI,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G2,Stage I,,2008.0,1
+TCGA-DD-A4NH,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G3,Stage IIIB,,2011.0,1
+TCGA-DD-A3A9,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G2,Stage IVB,,2001.0,1
+TCGA-DD-A115,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G2,Stage IIIA,,2002.0,1
+TCGA-DD-A4NI,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G2,Stage II,,2011.0,1
+TCGA-DD-A1EJ,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G2,Stage IIIC,,2008.0,1
+TCGA-DD-A4NR,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G3,Stage I,,2005.0,1
+TCGA-DD-A4NK,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G2,Stage IIIA,,2004.0,1
+TCGA-DD-A11A,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G3,Stage I,,2004.0,1
+TCGA-DD-A3A7,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G3,Stage IIIB,,1998.0,1
+TCGA-DD-A1EE,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G3,Stage IIIA,,2006.0,1
+TCGA-DD-A119,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G3,Stage IV,,2003.0,1
+TCGA-DD-A3A8,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G2,Stage II,,2001.0,1
+TCGA-DD-A1EG,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G3,Stage I,,2007.0,1
+TCGA-DD-A4NO,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G1,Stage I,,2007.0,1
+TCGA-DD-A118,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G2,Stage II,,2003.0,1
+TCGA-DD-A1EA,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G2,Stage II,,2002.0,1
+TCGA-DD-A1E9,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G2,Stage I,,2002.0,1
+TCGA-DD-A4NJ,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G2,Stage II,,2011.0,1
+TCGA-DD-A3A1,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G2,Stage IIIA,,2001.0,1
+TCGA-DD-A4NG,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G2,Stage IIIA,,2011.0,1
+TCGA-DD-A116,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G3,Stage IIIA,,2002.0,1
+TCGA-DD-A1EK,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G2,Stage IVB,,2008.0,1
+TCGA-DD-A4NS,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G2,Stage I,,2005.0,1
+TCGA-DD-A3A4,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G3,Stage IIIA,,1998.0,1
+TCGA-DD-A3A0,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G2,Stage I,,2001.0,1
+TCGA-DD-A113,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G3,Stage II,,2006.0,1
+TCGA-DD-A4NN,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G3,Stage I,,2004.0,1
+TCGA-DD-A4NE,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G3,Stage IIIA,,2011.0,1
+TCGA-DD-A39Y,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G3,Stage I,,2002.0,1
+TCGA-DD-A4NA,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G3,Stage IIIC,,2009.0,1
+TCGA-DD-A4NQ,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G3,Stage II,,2007.0,1
+TCGA-DD-A4ND,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G3,Stage I,,2007.0,1
+TCGA-DD-A1EH,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G3,Stage III,,2008.0,1
+TCGA-DD-A39V,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G3,Stage II,,2000.0,1
+TCGA-DD-A4NL,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G1,Stage I,,2007.0,1
+TCGA-DW-7841,TCGA-KIRP,Adenomas and Adenocarcinomas,Kidney,primary,1,"Papillary adenocarcinoma, NOS",8260/3,,Stage I,Stage I,2010.0,1
+TCGA-DW-5560,TCGA-KIRP,Adenomas and Adenocarcinomas,Kidney,primary,1,"Papillary adenocarcinoma, NOS",8260/3,,Stage I,Stage I,2009.0,1
+TCGA-DW-7836,TCGA-KIRP,Adenomas and Adenocarcinomas,Kidney,primary,1,"Papillary adenocarcinoma, NOS",8260/3,,Stage I,Stage I,2008.0,1
+TCGA-DW-7837,TCGA-KIRP,Adenomas and Adenocarcinomas,Kidney,primary,1,"Papillary adenocarcinoma, NOS",8260/3,,Stage I,Stage I,2007.0,1
+TCGA-DW-7840,TCGA-KIRP,Adenomas and Adenocarcinomas,Kidney,primary,1,"Papillary adenocarcinoma, NOS",8260/3,,Stage I,Stage I,2011.0,1
+TCGA-DW-7842,TCGA-KIRP,Adenomas and Adenocarcinomas,Kidney,primary,1,"Papillary adenocarcinoma, NOS",8260/3,,Stage I,Stage I,2011.0,1
+TCGA-DW-7838,TCGA-KIRP,Adenomas and Adenocarcinomas,Kidney,primary,1,"Papillary adenocarcinoma, NOS",8260/3,,Stage I,Stage I,2009.0,1
+TCGA-DW-7834,TCGA-KIRP,Adenomas and Adenocarcinomas,Kidney,primary,1,"Papillary adenocarcinoma, NOS",8260/3,,Stage I,Stage I,2001.0,1
+TCGA-DW-5561,TCGA-KIRP,Adenomas and Adenocarcinomas,Kidney,primary,1,"Papillary adenocarcinoma, NOS",8260/3,,Stage I,Stage I,2008.0,1
+TCGA-DW-7839,TCGA-KIRP,Adenomas and Adenocarcinomas,Kidney,primary,1,"Papillary adenocarcinoma, NOS",8260/3,,Stage I,Stage I,2010.0,1
+TCGA-CU-A3KJ,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage III,,2011.0,1
+TCGA-CU-A3QU,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage IV,,2011.0,1
+TCGA-DK-A3IV,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage II,,2011.0,1
+TCGA-DK-A1A5,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage II,,2010.0,1
+TCGA-DK-AA75,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage III,,2013.0,1
+TCGA-DK-AA74,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage III,,2010.0,1
+TCGA-DK-AA6M,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage II,,2010.0,1
+TCGA-CU-A3YL,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Papillary transitional cell carcinoma,8130/3,High Grade,Stage III,,2011.0,1
+TCGA-DK-AA77,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage II,,2013.0,1
+TCGA-DK-A3WW,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage III,,2011.0,1
+TCGA-DK-A1A7,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage IV,,2010.0,1
+TCGA-DK-A3IK,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage IV,,2011.0,1
+TCGA-DK-A3IM,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage III,,2011.0,1
+TCGA-DK-AA6P,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage II,,2013.0,1
+TCGA-DK-AA6Q,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage IV,,2012.0,1
+TCGA-DK-A6B0,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage II,,2007.0,1
+TCGA-CU-A5W6,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage III,,2012.0,1
+TCGA-DK-A1A6,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage IV,,2008.0,1
+TCGA-D1-A16B,TCGA-UCEC,Adenomas and Adenocarcinomas,Corpus uteri,primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G2,,,2008.0,1
+TCGA-D1-A103,TCGA-UCEC,Adenomas and Adenocarcinomas,Corpus uteri,primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G1,,,2009.0,1
+TCGA-D1-A16D,TCGA-UCEC,Adenomas and Adenocarcinomas,Corpus uteri,primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G2,,,2008.0,1
+TCGA-D1-A17M,TCGA-UCEC,Adenomas and Adenocarcinomas,Corpus uteri,primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G1,,,2009.0,1
+TCGA-D1-A16N,TCGA-UCEC,Adenomas and Adenocarcinomas,Corpus uteri,primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G3,,,2009.0,1
+TCGA-D1-A2G7,TCGA-UCEC,"Cystic, Mucinous and Serous Neoplasms",Corpus uteri,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2007.0,1
+TCGA-D1-A0ZV,TCGA-UCEC,Adenomas and Adenocarcinomas,Corpus uteri,primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G2,,,2009.0,1
+TCGA-DI-A1NN,TCGA-UCEC,"Cystic, Mucinous and Serous Neoplasms",Corpus uteri,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2008.0,1
+TCGA-D1-A1O8,TCGA-UCEC,Adenomas and Adenocarcinomas,Corpus uteri,primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G3,,,2010.0,1
+TCGA-DI-A2QU,TCGA-UCEC,"Cystic, Mucinous and Serous Neoplasms",Corpus uteri,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2005.0,1
+TCGA-DI-A2QY,TCGA-UCEC,"Cystic, Mucinous and Serous Neoplasms",Corpus uteri,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2003.0,1
+TCGA-D1-A2G6,TCGA-UCEC,Adenomas and Adenocarcinomas,Corpus uteri,primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G3,,,2007.0,1
+TCGA-DI-A0WH,TCGA-UCEC,Adenomas and Adenocarcinomas,Corpus uteri,primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G3,,,2010.0,1
+TCGA-D1-A163,TCGA-UCEC,Adenomas and Adenocarcinomas,Corpus uteri,primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G2,,,2008.0,1
+TCGA-D1-A1NS,TCGA-UCEC,Adenomas and Adenocarcinomas,Corpus uteri,primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G1,,,2010.0,1
+TCGA-D1-A16J,TCGA-UCEC,Adenomas and Adenocarcinomas,Corpus uteri,primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G2,,,2008.0,1
+TCGA-D1-A17T,TCGA-UCEC,Adenomas and Adenocarcinomas,Corpus uteri,primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G2,,,2010.0,1
+TCGA-D1-A160,TCGA-UCEC,Adenomas and Adenocarcinomas,Corpus uteri,primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G2,,,2008.0,1
+TCGA-D1-A16E,TCGA-UCEC,Adenomas and Adenocarcinomas,Corpus uteri,primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G1,,,2008.0,1
+TCGA-D1-A16G,TCGA-UCEC,"Cystic, Mucinous and Serous Neoplasms",Corpus uteri,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,High Grade,,,2008.0,1
+TCGA-D1-A1NU,TCGA-UCEC,"Cystic, Mucinous and Serous Neoplasms",Corpus uteri,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2010.0,1
+TCGA-D1-A1NX,TCGA-UCEC,"Cystic, Mucinous and Serous Neoplasms",Corpus uteri,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2010.0,1
+TCGA-D1-A1NY,TCGA-UCEC,Adenomas and Adenocarcinomas,Corpus uteri,primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G3,,,2010.0,1
+TCGA-D1-A16S,TCGA-UCEC,"Cystic, Mucinous and Serous Neoplasms",Corpus uteri,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,High Grade,,,2010.0,1
+TCGA-D1-A0ZR,TCGA-UCEC,Adenomas and Adenocarcinomas,Corpus uteri,primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G2,,,2009.0,1
+TCGA-D1-A15X,TCGA-UCEC,"Cystic, Mucinous and Serous Neoplasms",Corpus uteri,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,High Grade,,,2008.0,1
+TCGA-D1-A179,TCGA-UCEC,"Cystic, Mucinous and Serous Neoplasms",Corpus uteri,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,High Grade,,,2010.0,1
+TCGA-D1-A167,TCGA-UCEC,Adenomas and Adenocarcinomas,Corpus uteri,primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G2,,,2008.0,1
+TCGA-D1-A16I,TCGA-UCEC,"Cystic, Mucinous and Serous Neoplasms",Corpus uteri,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,High Grade,,,2008.0,1
+TCGA-D1-A17K,TCGA-UCEC,Adenomas and Adenocarcinomas,Corpus uteri,primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G2,,,2009.0,1
+TCGA-D1-A17D,TCGA-UCEC,Adenomas and Adenocarcinomas,Corpus uteri,primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G3,,,2009.0,1
+TCGA-D1-A16Q,TCGA-UCEC,Adenomas and Adenocarcinomas,Corpus uteri,primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G2,,,2010.0,1
+TCGA-D1-A169,TCGA-UCEC,Adenomas and Adenocarcinomas,Corpus uteri,primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G2,,,2008.0,1
+TCGA-D1-A15Z,TCGA-UCEC,Adenomas and Adenocarcinomas,Corpus uteri,primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G2,,,2008.0,1
+TCGA-DK-A2HX,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage IV,,2010.0,1
+TCGA-CU-A0YR,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage IV,,2010.0,1
+TCGA-DK-A2I6,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage IV,,2005.0,1
+TCGA-DK-A3IN,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage III,,2011.0,1
+TCGA-CU-A0YO,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Papillary transitional cell carcinoma,8130/3,High Grade,Stage IV,,2009.0,1
+TCGA-DK-A1AA,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage III,,2010.0,1
+TCGA-DK-AA76,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage II,,2013.0,1
+TCGA-DK-AA6T,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage II,,2013.0,1
+TCGA-E2-A14Y,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIA,,2009.0,1
+TCGA-E2-A109,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIA,,2007.0,1
+TCGA-E2-A159,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIA,,2009.0,1
+TCGA-E2-A14T,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIA,,2008.0,1
+TCGA-E2-A14N,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIB,,2007.0,1
+TCGA-E2-A150,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIA,,2009.0,1
+TCGA-E2-A14P,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIIC,,2008.0,1
+TCGA-E2-A105,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIA,,2007.0,1
+TCGA-E2-A107,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Lobular carcinoma, NOS",8520/3,,Stage IIIA,,2008.0,1
+TCGA-E2-A152,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage I,,2009.0,1
+TCGA-E2-A14V,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIB,,2008.0,1
+TCGA-E2-A108,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIIA,,2009.0,1
+TCGA-E2-A14S,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage I,,2008.0,1
+TCGA-E2-A10F,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Lobular carcinoma, NOS",8520/3,,Stage IIA,,2008.0,1
+TCGA-E2-A14X,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIIA,,2009.0,1
+TCGA-E2-A14Q,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIB,,2008.0,1
+TCGA-DV-5568,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2009.0,1
+TCGA-BP-5009,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage I,,2007.0,1
+TCGA-BP-5201,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G4,Stage IV,,2008.0,1
+TCGA-BP-5191,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage III,,2007.0,1
+TCGA-CJ-4916,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage III,,2007.0,1
+TCGA-CJ-4894,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage III,,2005.0,1
+TCGA-DV-5574,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2008.0,1
+TCGA-CJ-4642,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage II,,2005.0,1
+TCGA-CJ-6033,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G4,Stage IV,,2004.0,1
+TCGA-CJ-4873,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage III,,2004.0,1
+TCGA-CZ-5466,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage III,,2007.0,1
+TCGA-CW-5589,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2004.0,1
+TCGA-BP-5199,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G4,Stage II,,2006.0,1
+TCGA-DV-5576,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2008.0,1
+TCGA-BP-5168,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2002.0,1
+TCGA-CZ-5464,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage IV,,2007.0,1
+TCGA-CW-5583,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2003.0,1
+TCGA-DV-5566,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2007.0,1
+TCGA-CW-5587,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage III,,2003.0,1
+TCGA-CZ-5455,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G4,Stage IV,,2006.0,1
+TCGA-DV-5575,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2007.0,1
+TCGA-CJ-4871,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G4,Stage IV,,2004.0,1
+TCGA-CJ-4643,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage II,,2005.0,1
+TCGA-CW-5588,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2004.0,1
+TCGA-CJ-5683,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage I,,2004.0,1
+TCGA-CJ-5678,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage IV,,2003.0,1
+TCGA-CJ-4892,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2005.0,1
+TCGA-CJ-4905,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2006.0,1
+TCGA-CZ-5468,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G4,Stage IV,,2007.0,1
+TCGA-CZ-4863,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage III,,2006.0,1
+TCGA-CZ-5985,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage II,,2006.0,1
+TCGA-BP-5198,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage III,,2008.0,1
+TCGA-CJ-4899,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2006.0,1
+TCGA-CZ-5989,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage II,,2006.0,1
+TCGA-CZ-5451,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage II,,2006.0,1
+TCGA-CZ-4858,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G4,Stage II,,2005.0,1
+TCGA-BP-5196,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2008.0,1
+TCGA-BP-5202,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage III,,2008.0,1
+TCGA-CJ-4895,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G4,Stage IV,,2005.0,1
+TCGA-CJ-4641,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G4,Stage IV,,2005.0,1
+TCGA-CJ-4887,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage IV,,2005.0,1
+TCGA-CZ-5460,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage IV,,2006.0,1
+TCGA-CJ-5675,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage II,,2004.0,1
+TCGA-BP-5010,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G4,Stage III,,2007.0,1
+TCGA-CJ-5677,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G4,Stage IV,,2004.0,1
+TCGA-CZ-5462,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage IV,,2007.0,1
+TCGA-DV-A4VX,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G4,Stage IV,,2008.0,1
+TCGA-BP-5183,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage III,,2007.0,1
+TCGA-CJ-4902,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage III,,2006.0,1
+TCGA-BP-5190,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage I,,2007.0,1
+TCGA-CW-6093,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G1,Stage I,,2004.0,1
+TCGA-CJ-4872,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G4,Stage I,,2004.0,1
+TCGA-CW-5591,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage IV,,2004.0,1
+TCGA-BP-5200,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G4,Stage II,,2008.0,1
+TCGA-CJ-4901,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage III,,2006.0,1
+TCGA-BP-5187,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2007.0,1
+TCGA-BP-5192,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2007.0,1
+TCGA-CJ-6031,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage I,,2003.0,1
+TCGA-CJ-4897,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage III,,2005.0,1
+TCGA-CJ-4913,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G4,Stage III,,2006.0,1
+TCGA-CJ-4889,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G4,Stage I,,2005.0,1
+TCGA-DV-5573,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2008.0,1
+TCGA-CJ-4900,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G4,Stage IV,,2006.0,1
+TCGA-CZ-4862,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2006.0,1
+TCGA-CZ-4861,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage II,,2005.0,1
+TCGA-DV-5565,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2007.0,1
+TCGA-CJ-4891,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G4,Stage III,,2005.0,1
+TCGA-CJ-6030,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage I,,2003.0,1
+TCGA-CJ-6027,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G4,Stage I,,2003.0,1
+TCGA-CJ-5679,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G4,Stage III,,2003.0,1
+TCGA-BP-5189,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G4,Stage I,,2007.0,1
+TCGA-DV-5567,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2008.0,1
+TCGA-BP-5178,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G4,Stage IV,,2004.0,1
+TCGA-CW-6090,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage I,,2003.0,1
+TCGA-CJ-4636,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage III,,2004.0,1
+TCGA-CJ-4884,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage III,,2005.0,1
+TCGA-CZ-4865,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2006.0,1
+TCGA-CW-6096,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2004.0,1
+TCGA-CJ-4904,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage IV,,2006.0,1
+TCGA-BP-5194,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2008.0,1
+TCGA-CJ-5680,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G4,Stage IV,,2003.0,1
+TCGA-BP-5181,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2006.0,1
+TCGA-CJ-4920,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2004.0,1
+TCGA-CW-5584,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage III,,2003.0,1
+TCGA-CZ-5984,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage I,,2005.0,1
+TCGA-CJ-4637,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G4,Stage IV,,2004.0,1
+TCGA-CJ-4870,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage III,,2004.0,1
+TCGA-BP-5195,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2008.0,1
+TCGA-CW-5580,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage IV,,2003.0,1
+TCGA-DV-A4VZ,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2007.0,1
+TCGA-CJ-4893,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage I,,2005.0,1
+TCGA-CJ-4908,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2006.0,1
+TCGA-BP-5184,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage I,,2007.0,1
+TCGA-BP-5176,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2004.0,1
+TCGA-CJ-5671,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage I,,2004.0,1
+TCGA-CZ-4866,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage I,,2006.0,1
+TCGA-CW-5590,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage IV,,2004.0,1
+TCGA-CJ-4886,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage I,,2005.0,1
+TCGA-BP-5169,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G4,Stage I,,2004.0,1
+TCGA-CZ-5454,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage IV,,2006.0,1
+TCGA-CJ-4912,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage II,,2006.0,1
+TCGA-BP-5185,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage I,,2007.0,1
+TCGA-DV-A4W0,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage I,,2008.0,1
+TCGA-CW-6088,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2003.0,1
+TCGA-CW-6097,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G4,Stage III,,2004.0,1
+TCGA-CZ-4860,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G4,Stage IV,,2005.0,1
+TCGA-CW-6087,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G4,Stage IV,,2003.0,1
+TCGA-CZ-4859,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2005.0,1
+TCGA-BP-5173,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2004.0,1
+TCGA-BP-5180,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2004.0,1
+TCGA-CJ-4903,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage I,,2006.0,1
+TCGA-CJ-6028,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G4,Stage IV,,2003.0,1
+TCGA-CZ-4857,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage IV,,2005.0,1
+TCGA-CJ-4876,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage II,,2004.0,1
+TCGA-CJ-4635,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage I,,2004.0,1
+TCGA-CZ-5452,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage II,,2006.0,1
+TCGA-CJ-5672,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage I,,2004.0,1
+TCGA-CZ-5988,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2006.0,1
+TCGA-CZ-5987,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage IV,,2006.0,1
+TCGA-CJ-4885,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage IV,,2005.0,1
+TCGA-BP-5174,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2004.0,1
+TCGA-CW-5585,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage IV,,2003.0,1
+TCGA-CJ-5686,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage I,,2005.0,1
+TCGA-CJ-4923,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G4,Stage IV,,2004.0,1
+TCGA-BP-5175,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage I,,2004.0,1
+TCGA-CJ-4918,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G4,Stage IV,,2005.0,1
+TCGA-CJ-5681,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage IV,,2003.0,1
+TCGA-CW-5581,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage I,,2003.0,1
+TCGA-BP-5186,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G2,Stage I,,2007.0,1
+TCGA-CJ-4907,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage III,,2006.0,1
+TCGA-J2-8194,TCGA-LUAD,Adenomas and Adenocarcinomas,Bronchus and lung,primary,1,Adenocarcinoma with mixed subtypes,8255/3,,Stage IIB,,2011.0,1
+TCGA-J2-A4AE,TCGA-LUAD,Adenomas and Adenocarcinomas,Bronchus and lung,primary,1,"Adenocarcinoma, NOS",8140/3,,Stage IA,,2012.0,1
+TCGA-G4-6314,TCGA-COAD,Adenomas and Adenocarcinomas,Colon,primary,1,"Adenocarcinoma, NOS",8140/3,,Stage IV,,2008.0,1
+TCGA-G4-6628,TCGA-COAD,Adenomas and Adenocarcinomas,Colon,primary,1,"Adenocarcinoma, NOS",8140/3,,Stage I,,2006.0,1
+TCGA-G4-6298,TCGA-COAD,Adenomas and Adenocarcinomas,Colon,primary,1,"Adenocarcinoma, NOS",8140/3,,Stage IIIB,,2005.0,1
+TCGA-G4-6310,TCGA-COAD,Adenomas and Adenocarcinomas,Colon,primary,1,"Adenocarcinoma, NOS",8140/3,,Stage IIIB,,2008.0,1
+TCGA-G4-6321,TCGA-COAD,Adenomas and Adenocarcinomas,Colon,primary,1,"Adenocarcinoma, NOS",8140/3,,Stage III,,2009.0,1
+TCGA-J1-A4AH,TCGA-LUSC,Squamous Cell Neoplasms,Bronchus and lung,primary,1,"Squamous cell carcinoma, NOS",8070/3,,Stage IIA,,2012.0,1
+TCGA-VR-A8ER,TCGA-ESCA,Squamous Cell Neoplasms,Esophagus,primary,1,"Squamous cell carcinoma, NOS",8070/3,GX,Stage III,Stage III,2009.0,1
+TCGA-VR-AA7D,TCGA-ESCA,Squamous Cell Neoplasms,Esophagus,primary,1,"Squamous cell carcinoma, NOS",8070/3,G2,Stage IIIC,Stage IIIC,2012.0,1
+TCGA-VR-AA4D,TCGA-ESCA,Adenomas and Adenocarcinomas,Esophagus,primary,1,"Adenocarcinoma, NOS",8140/3,G2,Stage IIB,Stage IA,2010.0,1
+TCGA-VR-A8EO,TCGA-ESCA,Squamous Cell Neoplasms,Esophagus,primary,1,"Squamous cell carcinoma, NOS",8070/3,G3,Stage IIA,Stage IIA,2013.0,1
+TCGA-VR-AA7B,TCGA-ESCA,Squamous Cell Neoplasms,Esophagus,primary,1,"Squamous cell carcinoma, NOS",8070/3,G2,Stage IV,Stage IIB,2011.0,1
+TCGA-VR-A8EX,TCGA-ESCA,Squamous Cell Neoplasms,Esophagus,primary,1,"Squamous cell carcinoma, NOS",8070/3,G2,Stage IVA,Stage IVA,2009.0,1
+TCGA-VR-A8Q7,TCGA-ESCA,Squamous Cell Neoplasms,Esophagus,primary,1,"Squamous cell carcinoma, NOS",8070/3,G3,Stage IIIA,Stage IIIA,2010.0,1
+TCGA-VR-A8EQ,TCGA-ESCA,Adenomas and Adenocarcinomas,Esophagus,primary,1,Tubular adenocarcinoma,8211/3,G2,Stage III,Stage III,2009.0,1
+TCGA-VR-A8EW,TCGA-ESCA,Squamous Cell Neoplasms,Esophagus,primary,1,"Squamous cell carcinoma, NOS",8070/3,G2,Stage IIIB,Stage IIIB,2012.0,1
+TCGA-VR-AA7I,TCGA-ESCA,Squamous Cell Neoplasms,Esophagus,primary,1,"Squamous cell carcinoma, NOS",8070/3,G1,Stage III,Stage III,2010.0,1
+TCGA-VR-A8EU,TCGA-ESCA,Squamous Cell Neoplasms,Esophagus,primary,1,"Squamous cell carcinoma, NOS",8070/3,G2,Stage IV,Stage IV,2011.0,1
+TCGA-VR-A8EY,TCGA-ESCA,Squamous Cell Neoplasms,Esophagus,primary,1,"Squamous cell carcinoma, NOS",8070/3,G1,Stage IIA,Stage IIA,2012.0,1
+TCGA-VR-A8ET,TCGA-ESCA,Squamous Cell Neoplasms,Esophagus,primary,1,"Squamous cell carcinoma, NOS",8070/3,G2,Stage IIA,Stage IIA,2010.0,1
+TCGA-VR-A8EP,TCGA-ESCA,Squamous Cell Neoplasms,Esophagus,primary,1,"Squamous cell carcinoma, NOS",8070/3,G3,Stage IIIB,Stage IIB,2013.0,1
+TCGA-VR-AA4G,TCGA-ESCA,Squamous Cell Neoplasms,Esophagus,primary,1,"Squamous cell carcinoma, NOS",8070/3,G2,Stage IIIA,Stage IIIA,2013.0,1
+TCGA-VR-A8EZ,TCGA-ESCA,Squamous Cell Neoplasms,Esophagus,primary,1,"Squamous cell carcinoma, NOS",8070/3,G2,Stage IIIC,Stage IIA,2013.0,1
+TCGA-KM-8442,TCGA-KICH,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, chromophobe type",8317/3,,Stage II,,2009.0,1
+TCGA-KN-8430,TCGA-KICH,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, chromophobe type",8317/3,,Stage I,,2007.0,1
+TCGA-KM-8439,TCGA-KICH,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, chromophobe type",8317/3,,Stage I,,2011.0,1
+TCGA-KM-8441,TCGA-KICH,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, chromophobe type",8317/3,,Stage I,,2011.0,1
+TCGA-KM-8639,TCGA-KICH,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, chromophobe type",8317/3,,Stage I,,2005.0,1
+TCGA-KN-8425,TCGA-KICH,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, chromophobe type",8317/3,,Stage I,,2005.0,1
+TCGA-KM-8477,TCGA-KICH,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, chromophobe type",8317/3,,Stage I,,2005.0,1
+TCGA-KM-8438,TCGA-KICH,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, chromophobe type",8317/3,,Stage II,,2000.0,1
+TCGA-KM-8443,TCGA-KICH,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, chromophobe type",8317/3,,Stage II,,2009.0,1
+TCGA-KN-8422,TCGA-KICH,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, chromophobe type",8317/3,,Stage I,,2005.0,1
+TCGA-KM-8476,TCGA-KICH,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, chromophobe type",8317/3,,Stage I,,2002.0,1
+TCGA-KM-8440,TCGA-KICH,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, chromophobe type",8317/3,,Stage III,,2009.0,1
+TCGA-KN-8424,TCGA-KICH,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, chromophobe type",8317/3,,Stage I,,2005.0,1
+TCGA-KN-8427,TCGA-KICH,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, chromophobe type",8317/3,,Stage IV,,2006.0,1
+TCGA-KN-8419,TCGA-KICH,Adenomas and Adenocarcinomas,Kidney,primary,1,"Renal cell carcinoma, chromophobe type",8317/3,,Stage II,,2004.0,1
+TCGA-E3-A3E5,TCGA-THCA,Adenomas and Adenocarcinomas,Thyroid gland,primary,1,"Papillary adenocarcinoma, NOS",8260/3,,Stage IVA,,2010.0,1
+TCGA-E3-A3DZ,TCGA-THCA,Adenomas and Adenocarcinomas,Thyroid gland,primary,1,"Papillary carcinoma, follicular variant",8340/3,,Stage III,,2010.0,1
+TCGA-VQ-A94U,TCGA-STAD,"Cystic, Mucinous and Serous Neoplasms",Stomach,primary,1,Signet ring cell carcinoma,8490/3,G3,Stage IIB,,2012.0,1
+TCGA-VQ-AA6G,TCGA-STAD,Adenomas and Adenocarcinomas,Stomach,primary,1,"Adenocarcinoma, intestinal type",8144/3,G2,Stage IIA,,2011.0,1
+TCGA-VQ-A92D,TCGA-STAD,Adenomas and Adenocarcinomas,Stomach,primary,1,Tubular adenocarcinoma,8211/3,G2,Stage IB,,2009.0,1
+TCGA-VQ-A8P8,TCGA-STAD,Adenomas and Adenocarcinomas,Stomach,primary,1,"Adenocarcinoma, intestinal type",8144/3,G2,Stage IIB,,2012.0,1
+TCGA-VQ-A8E2,TCGA-STAD,Adenomas and Adenocarcinomas,Stomach,primary,1,Tubular adenocarcinoma,8211/3,G2,Stage IIIB,,2011.0,1
+TCGA-VQ-A8P5,TCGA-STAD,Adenomas and Adenocarcinomas,Stomach,primary,1,"Adenocarcinoma, intestinal type",8144/3,G3,Stage IIA,,2011.0,1
+TCGA-VQ-A91Q,TCGA-STAD,Adenomas and Adenocarcinomas,Stomach,primary,1,Tubular adenocarcinoma,8211/3,G3,Stage IV,,2009.0,1
+TCGA-VQ-A91Z,TCGA-STAD,Adenomas and Adenocarcinomas,Stomach,primary,1,Tubular adenocarcinoma,8211/3,G2,Stage IIIA,,2010.0,1
+TCGA-VQ-AA6F,TCGA-STAD,Adenomas and Adenocarcinomas,Stomach,primary,1,"Adenocarcinoma, NOS",8140/3,G2,Stage IIB,,2010.0,1
+TCGA-VQ-A91E,TCGA-STAD,Adenomas and Adenocarcinomas,Stomach,primary,1,"Adenocarcinoma, intestinal type",8144/3,G3,Stage IIIB,,2013.0,1
+TCGA-VQ-A91D,TCGA-STAD,Adenomas and Adenocarcinomas,Stomach,primary,1,"Adenocarcinoma, intestinal type",8144/3,G2,Stage IIIC,,2010.0,1
+TCGA-VQ-A8E3,TCGA-STAD,Adenomas and Adenocarcinomas,Stomach,primary,1,"Adenocarcinoma, NOS",8140/3,G3,Stage IIA,,2011.0,1
+TCGA-VQ-A8E0,TCGA-STAD,Adenomas and Adenocarcinomas,Stomach,primary,1,"Adenocarcinoma, intestinal type",8144/3,G3,Stage IIIA,,2011.0,1
+TCGA-VQ-A91A,TCGA-STAD,"Cystic, Mucinous and Serous Neoplasms",Stomach,primary,1,Mucinous adenocarcinoma,8480/3,G1,Stage IIIB,,2011.0,1
+TCGA-VQ-AA64,TCGA-STAD,Adenomas and Adenocarcinomas,Stomach,primary,1,"Adenocarcinoma, intestinal type",8144/3,G2,Stage IIIB,,2011.0,1
+TCGA-VQ-A91V,TCGA-STAD,Adenomas and Adenocarcinomas,Stomach,primary,1,Tubular adenocarcinoma,8211/3,G2,Stage IIIA,,2011.0,1
+TCGA-VQ-A91X,TCGA-STAD,Adenomas and Adenocarcinomas,Stomach,primary,1,"Adenocarcinoma, intestinal type",8144/3,G3,Stage IIIB,,2010.0,1
+TCGA-FI-A2CX,TCGA-UCEC,Adenomas and Adenocarcinomas,Corpus uteri,primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G3,,,2008.0,1
+TCGA-FI-A2F4,TCGA-UCEC,Adenomas and Adenocarcinomas,Corpus uteri,primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G3,,,2009.0,1
+TCGA-FI-A2D5,TCGA-UCEC,Adenomas and Adenocarcinomas,Corpus uteri,primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G3,,,2009.0,1
+TCGA-FI-A2EX,TCGA-UCEC,"Cystic, Mucinous and Serous Neoplasms",Corpus uteri,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2005.0,1
+TCGA-FI-A2CY,TCGA-UCEC,"Cystic, Mucinous and Serous Neoplasms",Corpus uteri,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2008.0,1
+TCGA-EJ-5542,TCGA-PRAD,Acinar Cell Neoplasms,Prostate gland,primary,1,Acinar cell carcinoma,8550/3,,,,2010.0,1
+TCGA-J4-A6G3,TCGA-PRAD,Adenomas and Adenocarcinomas,Prostate gland,primary,1,"Adenocarcinoma, NOS",8140/3,,,,2012.0,1
+TCGA-OY-A56P,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,Papillary serous cystadenocarcinoma,8460/3,G3,,,2010.0,1
+TCGA-OY-A56Q,TCGA-OV,"Cystic, Mucinous and Serous Neoplasms",Ovary,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2012.0,1
+TCGA-G4-6627,TCGA-COAD,Adenomas and Adenocarcinomas,Colon,primary,1,"Adenocarcinoma, NOS",8140/3,,Stage IIA,,2007.0,1
+TCGA-G4-6311,TCGA-COAD,Adenomas and Adenocarcinomas,Colon,primary,1,"Adenocarcinoma, NOS",8140/3,,Stage III,,2008.0,1
+TCGA-G4-6304,TCGA-COAD,Adenomas and Adenocarcinomas,Colon,primary,1,"Adenocarcinoma, NOS",8140/3,,Stage IIB,,2006.0,1
+TCGA-G4-6299,TCGA-COAD,Adenomas and Adenocarcinomas,Colon,primary,1,"Adenocarcinoma, NOS",8140/3,,Stage IIIC,,2005.0,1
+TCGA-G4-6315,TCGA-COAD,Adenomas and Adenocarcinomas,Colon,primary,1,"Adenocarcinoma, NOS",8140/3,,Stage IV,,2008.0,1
+TCGA-G4-6309,TCGA-COAD,Adenomas and Adenocarcinomas,Colon,primary,1,"Adenocarcinoma, NOS",8140/3,,Stage IIIB,,2007.0,1
+TCGA-G4-6320,TCGA-COAD,Adenomas and Adenocarcinomas,Colon,primary,1,"Adenocarcinoma, NOS",8140/3,,Stage III,,2009.0,1
+TCGA-G4-6323,TCGA-COAD,Adenomas and Adenocarcinomas,Colon,primary,1,"Adenocarcinoma, NOS",8140/3,,Stage IA,,2010.0,1
+TCGA-G4-6303,TCGA-COAD,Adenomas and Adenocarcinomas,Colon,primary,1,"Adenocarcinoma, NOS",8140/3,,Stage IV,,2006.0,1
+TCGA-G4-6322,TCGA-COAD,"Cystic, Mucinous and Serous Neoplasms",Colon,primary,1,Mucinous adenocarcinoma,8480/3,,Stage IIIB,,2009.0,1
+TCGA-VS-A8EG,TCGA-CESC,Squamous Cell Neoplasms,Cervix uteri,primary,1,"Squamous cell carcinoma, NOS",8070/3,GX,,,2011.0,1
+TCGA-VS-A8EH,TCGA-CESC,Squamous Cell Neoplasms,Cervix uteri,primary,1,"Squamous cell carcinoma, NOS",8070/3,G2,,,2012.0,1
+TCGA-VS-A94Y,TCGA-CESC,Squamous Cell Neoplasms,Cervix uteri,primary,1,"Squamous cell carcinoma, NOS",8070/3,GX,,,2010.0,1
+TCGA-VS-A8QA,TCGA-CESC,Squamous Cell Neoplasms,Cervix uteri,primary,1,"Squamous cell carcinoma, NOS",8070/3,GX,,,2011.0,1
+TCGA-VS-A8QF,TCGA-CESC,Squamous Cell Neoplasms,Cervix uteri,primary,1,"Squamous cell carcinoma, NOS",8070/3,G2,,,2010.0,1
+TCGA-VS-A94X,TCGA-CESC,Squamous Cell Neoplasms,Cervix uteri,primary,1,"Squamous cell carcinoma, NOS",8070/3,G2,,,2010.0,1
+TCGA-VS-A8QM,TCGA-CESC,Squamous Cell Neoplasms,Cervix uteri,primary,1,"Squamous cell carcinoma, NOS",8070/3,GX,,,2009.0,1
+TCGA-VS-A8EB,TCGA-CESC,Squamous Cell Neoplasms,Cervix uteri,primary,1,"Squamous cell carcinoma, NOS",8070/3,GX,,,2010.0,1
+TCGA-VS-A8EJ,TCGA-CESC,Squamous Cell Neoplasms,Cervix uteri,primary,1,"Squamous cell carcinoma, NOS",8070/3,G3,,,2008.0,1
+TCGA-VS-A94W,TCGA-CESC,Squamous Cell Neoplasms,Cervix uteri,primary,1,"Squamous cell carcinoma, NOS",8070/3,G2,,,2011.0,1
+TCGA-VS-A950,TCGA-CESC,Squamous Cell Neoplasms,Cervix uteri,primary,1,"Squamous cell carcinoma, NOS",8070/3,G3,,,2011.0,1
+TCGA-VS-A8Q9,TCGA-CESC,Squamous Cell Neoplasms,Cervix uteri,primary,1,"Squamous cell carcinoma, NOS",8070/3,G2,,,2010.0,1
+TCGA-VS-A94Z,TCGA-CESC,Squamous Cell Neoplasms,Cervix uteri,primary,1,"Squamous cell carcinoma, NOS",8070/3,G2,,,2012.0,1
+TCGA-VS-A8Q8,TCGA-CESC,Squamous Cell Neoplasms,Cervix uteri,primary,1,"Squamous cell carcinoma, NOS",8070/3,G2,,,2010.0,1
+TCGA-VS-A8EI,TCGA-CESC,Squamous Cell Neoplasms,Cervix uteri,primary,1,"Squamous cell carcinoma, NOS",8070/3,GX,,,2012.0,1
+TCGA-VS-A9U5,TCGA-CESC,Squamous Cell Neoplasms,Cervix uteri,primary,1,"Squamous cell carcinoma, NOS",8070/3,G3,,,2010.0,1
+TCGA-VS-A958,TCGA-CESC,Squamous Cell Neoplasms,Cervix uteri,primary,1,"Squamous cell carcinoma, large cell, nonkeratinizing, NOS",8072/3,G2,,,2010.0,1
+TCGA-VS-A9U6,TCGA-CESC,Squamous Cell Neoplasms,Cervix uteri,primary,1,"Squamous cell carcinoma, large cell, nonkeratinizing, NOS",8072/3,GX,,,2011.0,1
+TCGA-VS-A954,TCGA-CESC,Squamous Cell Neoplasms,Cervix uteri,primary,1,"Squamous cell carcinoma, NOS",8070/3,G2,,,2010.0,1
+TCGA-VS-A952,TCGA-CESC,"Cystic, Mucinous and Serous Neoplasms",Cervix uteri,primary,1,"Mucinous adenocarcinoma, endocervical type",8482/3,G2,,,2010.0,1
+TCGA-VS-A8EC,TCGA-CESC,Squamous Cell Neoplasms,Cervix uteri,primary,1,"Squamous cell carcinoma, NOS",8070/3,G2,,,2011.0,1
+TCGA-VS-A8QH,TCGA-CESC,"Cystic, Mucinous and Serous Neoplasms",Cervix uteri,primary,1,"Mucinous adenocarcinoma, endocervical type",8482/3,G2,,,2010.0,1
+TCGA-VS-A957,TCGA-CESC,Squamous Cell Neoplasms,Cervix uteri,primary,1,"Squamous cell carcinoma, NOS",8070/3,G3,,,2010.0,1
+TCGA-VS-A8QC,TCGA-CESC,Squamous Cell Neoplasms,Cervix uteri,primary,1,"Squamous cell carcinoma, NOS",8070/3,G2,,,2009.0,1
+TCGA-VS-A8EK,TCGA-CESC,Squamous Cell Neoplasms,Cervix uteri,primary,1,"Squamous cell carcinoma, NOS",8070/3,G2,,,2008.0,1
+TCGA-VS-A953,TCGA-CESC,Squamous Cell Neoplasms,Cervix uteri,primary,1,"Squamous cell carcinoma, NOS",8070/3,GX,,,2010.0,1
+TCGA-VS-A8EL,TCGA-CESC,Squamous Cell Neoplasms,Cervix uteri,primary,1,"Squamous cell carcinoma, NOS",8070/3,G3,,,2009.0,1
+TCGA-VS-A959,TCGA-CESC,Squamous Cell Neoplasms,Cervix uteri,primary,1,"Squamous cell carcinoma, NOS",8070/3,G3,,,2010.0,1
+TCGA-QQ-A8VG,TCGA-SARC,Nerve Sheath Tumors,"Connective, subcutaneous and other soft tissues",primary,1,Malignant peripheral nerve sheath tumor,9540/3,,,,2009.0,1
+TCGA-QQ-A5VC,TCGA-SARC,Myomatous Neoplasms,"Connective, subcutaneous and other soft tissues",primary,1,"Leiomyosarcoma, NOS",8890/3,,,,2011.0,1
+TCGA-QQ-A8VF,TCGA-SARC,Myomatous Neoplasms,"Connective, subcutaneous and other soft tissues",primary,1,"Leiomyosarcoma, NOS",8890/3,,,,2005.0,1
+TCGA-QQ-A8VH,TCGA-SARC,Nerve Sheath Tumors,Retroperitoneum and peritoneum,primary,1,Malignant peripheral nerve sheath tumor,9540/3,,,,2010.0,1
+TCGA-QQ-A5V2,TCGA-SARC,Fibromatous Neoplasms,"Connective, subcutaneous and other soft tissues",primary,1,Malignant fibrous histiocytoma,8830/3,,,,2006.0,1
+TCGA-VQ-A8P2,TCGA-STAD,"Cystic, Mucinous and Serous Neoplasms",Stomach,primary,1,Mucinous adenocarcinoma,8480/3,G2,Stage IIIA,,2011.0,1
+TCGA-VQ-A94P,TCGA-STAD,"Cystic, Mucinous and Serous Neoplasms",Stomach,primary,1,Signet ring cell carcinoma,8490/3,GX,,,2011.0,1
+TCGA-VQ-AA6J,TCGA-STAD,Adenomas and Adenocarcinomas,Stomach,primary,1,"Adenocarcinoma, intestinal type",8144/3,G3,Stage IIIB,,2012.0,1
+TCGA-VQ-A8DZ,TCGA-STAD,"Cystic, Mucinous and Serous Neoplasms",Stomach,primary,1,Signet ring cell carcinoma,8490/3,G3,Stage IV,,2011.0,1
+TCGA-VQ-A8PB,TCGA-STAD,Adenomas and Adenocarcinomas,Stomach,primary,1,"Papillary adenocarcinoma, NOS",8260/3,G2,Stage II,,2011.0,1
+TCGA-VQ-A91S,TCGA-STAD,Adenomas and Adenocarcinomas,Stomach,primary,1,Tubular adenocarcinoma,8211/3,GX,Stage IIIB,,2012.0,1
+TCGA-VQ-A94O,TCGA-STAD,Adenomas and Adenocarcinomas,Stomach,primary,1,"Adenocarcinoma, intestinal type",8144/3,G2,Stage IIIC,,2012.0,1
+TCGA-VQ-A8PE,TCGA-STAD,Adenomas and Adenocarcinomas,Stomach,primary,1,Tubular adenocarcinoma,8211/3,G3,Stage IIIB,,2012.0,1
+TCGA-VQ-A91U,TCGA-STAD,Adenomas and Adenocarcinomas,Stomach,primary,1,"Adenocarcinoma, intestinal type",8144/3,G2,Stage IIIA,,2011.0,1
+TCGA-VQ-A94T,TCGA-STAD,Adenomas and Adenocarcinomas,Stomach,primary,1,"Carcinoma, diffuse type",8145/3,G3,Stage IIIB,,2011.0,1
+TCGA-VQ-AA6A,TCGA-STAD,Adenomas and Adenocarcinomas,Stomach,primary,1,"Adenocarcinoma, intestinal type",8144/3,G2,Stage IIIC,,2012.0,1
+TCGA-VQ-AA6I,TCGA-STAD,Adenomas and Adenocarcinomas,Stomach,primary,1,"Adenocarcinoma, NOS",8140/3,G3,Stage IIIB,,2012.0,1
+TCGA-VQ-AA68,TCGA-STAD,Adenomas and Adenocarcinomas,Stomach,primary,1,Tubular adenocarcinoma,8211/3,G2,Stage IIIC,,2011.0,1
+TCGA-VQ-AA6B,TCGA-STAD,Adenomas and Adenocarcinomas,Stomach,primary,1,"Adenocarcinoma, intestinal type",8144/3,G2,Stage IIIB,,2012.0,1
+TCGA-VQ-AA69,TCGA-STAD,Adenomas and Adenocarcinomas,Stomach,primary,1,"Adenocarcinoma, NOS",8140/3,G2,Stage IIIA,,2011.0,1
+TCGA-VQ-A8PK,TCGA-STAD,Adenomas and Adenocarcinomas,Stomach,primary,1,"Adenocarcinoma, intestinal type",8144/3,G2,Stage IIIB,,2011.0,1
+TCGA-VQ-AA6D,TCGA-STAD,Adenomas and Adenocarcinomas,Stomach,primary,1,Tubular adenocarcinoma,8211/3,G2,Stage IIIA,,2013.0,1
+TCGA-VQ-A8PT,TCGA-STAD,Adenomas and Adenocarcinomas,Stomach,primary,1,"Adenocarcinoma, intestinal type",8144/3,G3,Stage IIIB,,2012.0,1
+TCGA-VQ-A8P3,TCGA-STAD,Adenomas and Adenocarcinomas,Stomach,primary,1,Tubular adenocarcinoma,8211/3,G2,Stage IIIA,,2011.0,1
+TCGA-VQ-A8DU,TCGA-STAD,Adenomas and Adenocarcinomas,Stomach,primary,1,Tubular adenocarcinoma,8211/3,G2,Stage IIIA,,2010.0,1
+TCGA-VQ-A8DL,TCGA-STAD,Adenomas and Adenocarcinomas,Stomach,primary,1,Tubular adenocarcinoma,8211/3,G2,Stage IIA,,2010.0,1
+TCGA-VQ-A8PD,TCGA-STAD,Adenomas and Adenocarcinomas,Stomach,primary,1,"Adenocarcinoma, NOS",8140/3,G2,Stage IIIC,,2012.0,1
+TCGA-VQ-A8E7,TCGA-STAD,Adenomas and Adenocarcinomas,Stomach,primary,1,Tubular adenocarcinoma,8211/3,G2,Stage IV,,2012.0,1
+TCGA-VQ-A8DT,TCGA-STAD,Adenomas and Adenocarcinomas,Stomach,primary,1,"Adenocarcinoma, intestinal type",8144/3,G3,Stage IIIB,,2010.0,1
+TCGA-VQ-A91Y,TCGA-STAD,Adenomas and Adenocarcinomas,Stomach,primary,1,Tubular adenocarcinoma,8211/3,G3,Stage IIIC,,2011.0,1
+TCGA-VQ-AA6K,TCGA-STAD,"Cystic, Mucinous and Serous Neoplasms",Stomach,primary,1,Signet ring cell carcinoma,8490/3,G3,Stage IIIC,,2012.0,1
+TCGA-VQ-A922,TCGA-STAD,Adenomas and Adenocarcinomas,Stomach,primary,1,Tubular adenocarcinoma,8211/3,G2,Stage IV,,2010.0,1
+TCGA-VQ-A8PF,TCGA-STAD,Adenomas and Adenocarcinomas,Stomach,primary,1,Tubular adenocarcinoma,8211/3,G3,Stage IIIB,,2012.0,1
+TCGA-VQ-A94R,TCGA-STAD,Adenomas and Adenocarcinomas,Stomach,primary,1,"Adenocarcinoma, intestinal type",8144/3,G2,,,2010.0,1
+TCGA-G3-A3CG,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G2,Stage I,,2011.0,1
+TCGA-G3-AAV5,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G2,Stage II,,2013.0,1
+TCGA-G3-A25T,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G2,Stage IIIA,,2007.0,1
+TCGA-K7-A5RG,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G1,Stage I,,2012.0,1
+TCGA-K7-A5RF,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G1,Stage I,,2012.0,1
+TCGA-G3-A7M7,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G1,Stage I,,2013.0,1
+TCGA-G3-A7M8,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G1,Stage I,,2013.0,1
+TCGA-G3-A25X,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G3,Stage II,,2007.0,1
+TCGA-G3-AAV4,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G1,Stage I,,2012.0,1
+TCGA-G3-A7M9,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G2,Stage IIIB,,2013.0,1
+TCGA-G3-A5SI,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G2,Stage II,,2011.0,1
+TCGA-G3-AAV2,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G1,Stage I,,2013.0,1
+TCGA-K7-AAU7,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,Combined hepatocellular carcinoma and cholangiocarcinoma,8180/3,G2,Stage II,,2013.0,1
+TCGA-G3-A25Y,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G3,Stage I,,2006.0,1
+TCGA-G3-A5SK,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G1,Stage I,,2012.0,1
+TCGA-G3-A5SJ,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G2,Stage I,,2012.0,1
+TCGA-G3-A25Z,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G2,Stage I,,2010.0,1
+TCGA-G3-A3CK,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G2,Stage I,,2011.0,1
+TCGA-G3-A3CH,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G2,Stage IIIA,,2010.0,1
+TCGA-G3-AAV7,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G2,Stage II,,2013.0,1
+TCGA-K7-A6G5,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G2,Stage I,,2013.0,1
+TCGA-G3-A7M5,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G2,Stage I,,2013.0,1
+TCGA-G3-A6UC,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G2,Stage IIIB,,2012.0,1
+TCGA-G3-A5SL,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G2,Stage II,,2012.0,1
+TCGA-G3-AAV6,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G3,Stage IIIA,,2013.0,1
+TCGA-G3-A3CI,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G2,Stage I,,2011.0,1
+TCGA-G3-A25S,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G2,Stage I,,2009.0,1
+TCGA-G3-A25U,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G3,Stage I,,2007.0,1
+TCGA-G3-A3CJ,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G2,Stage II,,2011.0,1
+TCGA-G3-AAUZ,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G2,Stage I,,2013.0,1
+TCGA-G3-AAV1,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G3,Stage IIIC,,2013.0,1
+TCGA-G3-AAV3,TCGA-LIHC,Adenomas and Adenocarcinomas,Liver and intrahepatic bile ducts,primary,1,"Hepatocellular carcinoma, NOS",8170/3,G2,Stage II,,2013.0,1
+TCGA-G7-A8LE,TCGA-KIRP,Adenomas and Adenocarcinomas,Kidney,primary,1,"Papillary adenocarcinoma, NOS",8260/3,,Stage I,,2008.0,1
+TCGA-G7-A8LC,TCGA-KIRP,Adenomas and Adenocarcinomas,Kidney,primary,1,"Papillary adenocarcinoma, NOS",8260/3,,Stage I,Stage I,2013.0,1
+TCGA-G7-6795,TCGA-KIRP,Adenomas and Adenocarcinomas,Kidney,primary,1,"Papillary adenocarcinoma, NOS",8260/3,,Stage I,Stage I,2008.0,1
+TCGA-G7-6797,TCGA-KIRP,Adenomas and Adenocarcinomas,Kidney,primary,1,"Papillary adenocarcinoma, NOS",8260/3,,Stage III,Stage III,2010.0,1
+TCGA-G7-6792,TCGA-KIRP,Adenomas and Adenocarcinomas,Kidney,primary,1,"Papillary adenocarcinoma, NOS",8260/3,,Stage I,Stage I,2007.0,1
+TCGA-G7-7501,TCGA-KIRP,Adenomas and Adenocarcinomas,Kidney,primary,1,"Papillary adenocarcinoma, NOS",8260/3,,Stage III,Stage III,2011.0,1
+TCGA-G7-6796,TCGA-KIRP,Adenomas and Adenocarcinomas,Kidney,primary,1,"Papillary adenocarcinoma, NOS",8260/3,,Stage I,Stage I,2008.0,1
+TCGA-IZ-8196,TCGA-KIRP,Adenomas and Adenocarcinomas,Kidney,primary,1,"Papillary adenocarcinoma, NOS",8260/3,,Stage I,Stage I,2012.0,1
+TCGA-G7-A4TM,TCGA-KIRP,Adenomas and Adenocarcinomas,Kidney,primary,1,"Papillary adenocarcinoma, NOS",8260/3,,Stage I,Stage I,2011.0,1
+TCGA-IZ-8195,TCGA-KIRP,Adenomas and Adenocarcinomas,Kidney,primary,1,"Papillary adenocarcinoma, NOS",8260/3,,Stage II,Stage II,2012.0,1
+TCGA-G7-A8LB,TCGA-KIRP,Adenomas and Adenocarcinomas,Kidney,primary,1,"Papillary adenocarcinoma, NOS",8260/3,,Stage IV,,2013.0,1
+TCGA-G7-7502,TCGA-KIRP,Adenomas and Adenocarcinomas,Kidney,primary,1,"Papillary adenocarcinoma, NOS",8260/3,,Stage I,Stage I,2011.0,1
+TCGA-G7-A8LD,TCGA-KIRP,Adenomas and Adenocarcinomas,Kidney,primary,1,"Papillary adenocarcinoma, NOS",8260/3,,Stage III,,2012.0,1
+TCGA-FD-A3B6,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Papillary transitional cell carcinoma,8130/3,High Grade,Stage II,,2011.0,1
+TCGA-G2-A3IB,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage II,,2008.0,1
+TCGA-G2-A2ES,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage II,,2009.0,1
+TCGA-FD-A3B7,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage III,,2011.0,1
+TCGA-K4-AAQO,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage III,,2013.0,1
+TCGA-FD-A5BT,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage III,,2011.0,1
+TCGA-G2-A3VY,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage II,,2012.0,1
+TCGA-G2-A3IE,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage II,,2007.0,1
+TCGA-FD-A43Y,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage III,,2012.0,1
+TCGA-K4-A5RH,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage III,,2012.0,1
+TCGA-K4-A4AC,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage II,,2012.0,1
+TCGA-G2-AA3B,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage II,,2009.0,1
+TCGA-G2-A2EL,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage II,,2009.0,1
+TCGA-FD-A6TB,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage III,,2012.0,1
+TCGA-FD-A3SL,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage IV,,2011.0,1
+TCGA-FD-A3B5,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage IV,,2011.0,1
+TCGA-K4-A54R,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage II,,2012.0,1
+TCGA-K4-A5RJ,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Papillary transitional cell carcinoma,8130/3,High Grade,Stage II,,2012.0,1
+TCGA-FD-A6TE,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage IV,,2013.0,1
+TCGA-G2-A2EK,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage II,,2010.0,1
+TCGA-FD-A3SP,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage III,,2012.0,1
+TCGA-FD-A5BX,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage IV,,2012.0,1
+TCGA-FD-A3SJ,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage IV,,2010.0,1
+TCGA-FD-A62P,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage II,,2012.0,1
+TCGA-FD-A43S,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage III,,2012.0,1
+TCGA-FD-A3N6,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage II,,2011.0,1
+TCGA-FD-A3SO,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage IV,,2012.0,1
+TCGA-FD-A5BU,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage II,,2012.0,1
+TCGA-G2-AA3F,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage IV,,2012.0,1
+TCGA-G2-A2EO,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage III,,2009.0,1
+TCGA-FI-A2EW,TCGA-UCEC,"Cystic, Mucinous and Serous Neoplasms",Corpus uteri,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2005.0,1
+TCGA-FI-A2EY,TCGA-UCEC,"Cystic, Mucinous and Serous Neoplasms",Corpus uteri,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2006.0,1
+TCGA-FI-A2D4,TCGA-UCEC,Adenomas and Adenocarcinomas,Corpus uteri,primary,1,"Endometrioid adenocarcinoma, NOS",8380/3,G3,,,2009.0,1
+TCGA-FI-A2F8,TCGA-UCEC,"Cystic, Mucinous and Serous Neoplasms",Corpus uteri,primary,1,"Serous cystadenocarcinoma, NOS",8441/3,G3,,,2009.0,1
+TCGA-VP-A878,TCGA-PRAD,Adenomas and Adenocarcinomas,Prostate gland,primary,1,"Adenocarcinoma, NOS",8140/3,,,,2006.0,1
+TCGA-J4-A67M,TCGA-PRAD,Adenomas and Adenocarcinomas,Prostate gland,primary,1,"Adenocarcinoma, NOS",8140/3,,,,2011.0,1
+TCGA-J4-AATZ,TCGA-PRAD,Adenomas and Adenocarcinomas,Prostate gland,primary,1,"Adenocarcinoma, NOS",8140/3,,,,2013.0,1
+TCGA-VP-A87C,TCGA-PRAD,Adenomas and Adenocarcinomas,Prostate gland,primary,1,"Adenocarcinoma, NOS",8140/3,,,,2007.0,1
+TCGA-EJ-5495,TCGA-PRAD,Acinar Cell Neoplasms,Prostate gland,primary,1,Acinar cell carcinoma,8550/3,,,,2009.0,1
+TCGA-J4-A67S,TCGA-PRAD,Adenomas and Adenocarcinomas,Prostate gland,primary,1,"Adenocarcinoma, NOS",8140/3,,,,2012.0,1
+TCGA-J4-8198,TCGA-PRAD,Acinar Cell Neoplasms,Prostate gland,primary,1,Acinar cell carcinoma,8550/3,,,,2011.0,1
+TCGA-J4-A6G1,TCGA-PRAD,Adenomas and Adenocarcinomas,Prostate gland,primary,1,"Adenocarcinoma, NOS",8140/3,,,,2012.0,1
+TCGA-J4-A67O,TCGA-PRAD,Adenomas and Adenocarcinomas,Prostate gland,primary,1,"Adenocarcinoma, NOS",8140/3,,,,2012.0,1
+TCGA-VP-A87D,TCGA-PRAD,Adenomas and Adenocarcinomas,Prostate gland,primary,1,"Adenocarcinoma, NOS",8140/3,,,,2007.0,1
+TCGA-VP-A879,TCGA-PRAD,Adenomas and Adenocarcinomas,Prostate gland,primary,1,"Adenocarcinoma, NOS",8140/3,,,,2006.0,1
+TCGA-EJ-5518,TCGA-PRAD,Acinar Cell Neoplasms,Prostate gland,primary,1,Acinar cell carcinoma,8550/3,,,,2008.0,1
+TCGA-FD-A43X,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Papillary transitional cell carcinoma,8130/3,High Grade,Stage II,,2012.0,1
+TCGA-K4-A3WU,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage III,,2012.0,1
+TCGA-G2-AA3C,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage IV,,2009.0,1
+TCGA-G2-A2EJ,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage II,,2009.0,1
+TCGA-FD-A6TC,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage III,,2013.0,1
+TCGA-FD-A5C0,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage IV,,2012.0,1
+TCGA-FD-A5C1,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage III,,2009.0,1
+TCGA-G2-AA3D,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage IV,,2009.0,1
+TCGA-FD-A43U,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage IV,,2012.0,1
+TCGA-G2-A2EC,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage II,,2010.0,1
+TCGA-G2-A2EF,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage II,,2007.0,1
+TCGA-E2-A1L7,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIIA,,2009.0,1
+TCGA-OL-A66N,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Lobular carcinoma, NOS",8520/3,,Stage IIIC,,2011.0,1
+TCGA-EW-A1OY,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIA,,2009.0,1
+TCGA-OL-A66K,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Lobular carcinoma, NOS",8520/3,,Stage IIA,,2010.0,1
+TCGA-E2-A15L,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Lobular carcinoma, NOS",8520/3,,Stage IIA,,2010.0,1
+TCGA-OL-A5D7,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIA,,2009.0,1
+TCGA-EW-A1PC,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIB,,2011.0,1
+TCGA-E2-A1B1,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIB,,2007.0,1
+TCGA-EW-A1J2,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Lobular carcinoma, NOS",8520/3,,,,2010.0,1
+TCGA-EW-A423,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Lobular carcinoma, NOS",8520/3,,Stage IIA,,2012.0,1
+TCGA-OL-A5RZ,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IA,,2012.0,1
+TCGA-OL-A5RX,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IA,,2011.0,1
+TCGA-E2-A15M,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Lobular carcinoma, NOS",8520/3,,Stage IIA,,2010.0,1
+TCGA-E2-A1IJ,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Lobular carcinoma, NOS",8520/3,,Stage I,,2009.0,1
+TCGA-EW-A1OZ,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIA,,2008.0,1
+TCGA-EW-A3E8,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Lobular carcinoma, NOS",8520/3,,Stage IIB,,2011.0,1
+TCGA-OL-A66J,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Lobular carcinoma, NOS",8520/3,,Stage I,,2008.0,1
+TCGA-E2-A15A,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIIC,,2009.0,1
+TCGA-E2-A1II,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage I,,2008.0,1
+TCGA-EW-A1PA,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIB,,2010.0,1
+TCGA-E2-A15J,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage I,,2009.0,1
+TCGA-EW-A1P4,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Medullary carcinoma, NOS",8510/3,,Stage IIA,,2009.0,1
+TCGA-OL-A66L,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IA,,2010.0,1
+TCGA-EW-A2FR,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIIC,,2008.0,1
+TCGA-E2-A15F,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage I,,2009.0,1
+TCGA-E2-A1LG,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Lobular carcinoma, NOS",8520/3,,Stage IIA,,2010.0,1
+TCGA-OL-A5D6,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIA,,2009.0,1
+TCGA-E2-A15K,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIB,,2010.0,1
+TCGA-E2-A1IG,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIB,,2009.0,1
+TCGA-E2-A15H,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIA,,2009.0,1
+TCGA-EW-A2FS,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIB,,2008.0,1
+TCGA-EW-A1IZ,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIIA,,2010.0,1
+TCGA-OL-A6VR,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IA,,2011.0,1
+TCGA-OL-A5D8,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIB,,2009.0,1
+TCGA-E2-A1IK,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIA,,2009.0,1
+TCGA-E2-A1IN,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage I,,2010.0,1
+TCGA-E2-A1L9,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIA,,2009.0,1
+TCGA-E2-A1B6,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIA,,2008.0,1
+TCGA-E2-A15I,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIA,,2009.0,1
+TCGA-E2-A1B5,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Lobular carcinoma, NOS",8520/3,,Stage IIA,,2008.0,1
+TCGA-OL-A66I,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIA,,2008.0,1
+TCGA-OL-A6VO,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IA,,2012.0,1
+TCGA-EW-A1IY,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage I,,2009.0,1
+TCGA-OL-A5RU,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIA,,2010.0,1
+TCGA-EW-A1P0,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,Infiltrating duct mixed with other types of carcinoma,8523/3,,Stage IIB,,2008.0,1
+TCGA-OL-A5RW,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIA,,2010.0,1
+TCGA-E2-A15E,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIA,,2009.0,1
+TCGA-E2-A1IE,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIB,,2008.0,1
+TCGA-EW-A1P3,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIA,,2008.0,1
+TCGA-OL-A5DA,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Lobular carcinoma, NOS",8520/3,,Stage IIA,,2009.0,1
+TCGA-OL-A66O,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIB,,2012.0,1
+TCGA-EW-A1J6,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage I,,2009.0,1
+TCGA-OL-A5RV,TCGA-BRCA,Ductal and Lobular Neoplasms,Breast,primary,1,"Infiltrating duct carcinoma, NOS",8500/3,,Stage IIIC,,2011.0,1
+TCGA-J2-8192,TCGA-LUAD,Adenomas and Adenocarcinomas,Bronchus and lung,primary,1,"Adenocarcinoma, NOS",8140/3,,Stage IIA,,2011.0,1
+TCGA-J2-A4AD,TCGA-LUAD,Adenomas and Adenocarcinomas,Bronchus and lung,primary,1,"Adenocarcinoma, NOS",8140/3,,Stage IA,,2012.0,1
+TCGA-J2-A4AG,TCGA-LUAD,Adenomas and Adenocarcinomas,Bronchus and lung,primary,1,"Adenocarcinoma, NOS",8140/3,,Stage IA,,2012.0,1
+TCGA-G6-A5PC,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G4,Stage IV,,2012.0,1
+TCGA-G6-A8L7,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage I,,2008.0,1
+TCGA-G6-A8L6,TCGA-KIRC,Adenomas and Adenocarcinomas,Kidney,primary,1,"Clear cell adenocarcinoma, NOS",8310/3,G3,Stage IV,,2013.0,1
+TCGA-VS-A9V2,TCGA-CESC,Squamous Cell Neoplasms,Cervix uteri,primary,1,"Squamous cell carcinoma, NOS",8070/3,G2,,,2013.0,1
+TCGA-VS-AA62,TCGA-CESC,Squamous Cell Neoplasms,Cervix uteri,primary,1,"Squamous cell carcinoma, NOS",8070/3,G2,,,2009.0,1
+TCGA-VS-A9V3,TCGA-CESC,Squamous Cell Neoplasms,Cervix uteri,primary,1,"Squamous cell carcinoma, NOS",8070/3,G3,,,2013.0,1
+TCGA-VS-A9UQ,TCGA-CESC,"Cystic, Mucinous and Serous Neoplasms",Cervix uteri,primary,1,"Mucinous adenocarcinoma, endocervical type",8482/3,G2,,,2011.0,1
+TCGA-VS-A9UU,TCGA-CESC,Squamous Cell Neoplasms,Cervix uteri,primary,1,"Squamous cell carcinoma, NOS",8070/3,G1,,,2013.0,1
+TCGA-VS-A9UO,TCGA-CESC,"Cystic, Mucinous and Serous Neoplasms",Cervix uteri,primary,1,"Mucinous adenocarcinoma, endocervical type",8482/3,G2,,,2011.0,1
+TCGA-VS-A9UA,TCGA-CESC,Squamous Cell Neoplasms,Cervix uteri,primary,1,"Squamous cell carcinoma, NOS",8070/3,G3,,,2012.0,1
+TCGA-VS-A9UD,TCGA-CESC,Squamous Cell Neoplasms,Cervix uteri,primary,1,"Squamous cell carcinoma, NOS",8070/3,G2,,,2013.0,1
+TCGA-VS-A9UZ,TCGA-CESC,"Cystic, Mucinous and Serous Neoplasms",Cervix uteri,primary,1,"Mucinous adenocarcinoma, endocervical type",8482/3,G2,,,2009.0,1
+TCGA-VS-A9UH,TCGA-CESC,Squamous Cell Neoplasms,Cervix uteri,primary,1,"Squamous cell carcinoma, NOS",8070/3,GX,,,2010.0,1
+TCGA-VS-A9U7,TCGA-CESC,Squamous Cell Neoplasms,Cervix uteri,primary,1,"Squamous cell carcinoma, NOS",8070/3,G3,,,2011.0,1
+TCGA-VS-A9V4,TCGA-CESC,"Cystic, Mucinous and Serous Neoplasms",Cervix uteri,primary,1,"Mucinous adenocarcinoma, endocervical type",8482/3,G2,,,2013.0,1
+TCGA-VS-A9UJ,TCGA-CESC,Squamous Cell Neoplasms,Cervix uteri,primary,1,"Squamous cell carcinoma, NOS",8070/3,GX,,,2012.0,1
+TCGA-VS-A9UL,TCGA-CESC,Squamous Cell Neoplasms,Cervix uteri,primary,1,"Squamous cell carcinoma, NOS",8070/3,G3,,,2010.0,1
+TCGA-VS-A9UI,TCGA-CESC,Squamous Cell Neoplasms,Cervix uteri,primary,1,"Squamous cell carcinoma, NOS",8070/3,GX,,,2011.0,1
+TCGA-VS-A9UY,TCGA-CESC,Squamous Cell Neoplasms,Cervix uteri,primary,1,"Squamous cell carcinoma, NOS",8070/3,G2,,,2012.0,1
+TCGA-VS-A9V0,TCGA-CESC,"Cystic, Mucinous and Serous Neoplasms",Cervix uteri,primary,1,"Mucinous adenocarcinoma, endocervical type",8482/3,G3,,,2013.0,1
+TCGA-VS-A9V1,TCGA-CESC,"Cystic, Mucinous and Serous Neoplasms",Cervix uteri,primary,1,"Mucinous adenocarcinoma, endocervical type",8482/3,G2,,,2013.0,1
+TCGA-VS-A9UT,TCGA-CESC,"Cystic, Mucinous and Serous Neoplasms",Cervix uteri,primary,1,"Mucinous adenocarcinoma, endocervical type",8482/3,G3,,,2013.0,1
+TCGA-VS-A9UR,TCGA-CESC,"Cystic, Mucinous and Serous Neoplasms",Cervix uteri,primary,1,"Mucinous adenocarcinoma, endocervical type",8482/3,GX,,,2013.0,1
+TCGA-VS-A9UV,TCGA-CESC,Squamous Cell Neoplasms,Cervix uteri,primary,1,"Squamous cell carcinoma, NOS",8070/3,GX,,,2013.0,1
+TCGA-VS-A9UB,TCGA-CESC,Squamous Cell Neoplasms,Cervix uteri,primary,1,"Squamous cell carcinoma, NOS",8070/3,G3,,,2012.0,1
+TCGA-VS-A9UC,TCGA-CESC,Squamous Cell Neoplasms,Cervix uteri,primary,1,"Squamous cell carcinoma, NOS",8070/3,G2,,,2012.0,1
+TCGA-VS-A9V5,TCGA-CESC,"Cystic, Mucinous and Serous Neoplasms",Cervix uteri,primary,1,"Mucinous adenocarcinoma, endocervical type",8482/3,G2,,,2011.0,1
+TCGA-VS-A9UM,TCGA-CESC,Squamous Cell Neoplasms,Cervix uteri,primary,1,"Squamous cell carcinoma, NOS",8070/3,G2,,,2011.0,1
+TCGA-VS-A9UP,TCGA-CESC,"Cystic, Mucinous and Serous Neoplasms",Cervix uteri,primary,1,"Mucinous adenocarcinoma, endocervical type",8482/3,G3,,,2011.0,1
+TCGA-ZF-A9R5,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage III,,2011.0,1
+TCGA-ZF-A9R3,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage II,,2012.0,1
+TCGA-ZF-AA4R,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage IV,,2008.0,1
+TCGA-ZF-AA54,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage III,,2009.0,1
+TCGA-ZF-AA4N,TCGA-BLCA,"Epithelial Neoplasms, NOS",Bladder,primary,1,"Carcinoma, NOS",8010/3,High Grade,Stage II,,2011.0,1
+TCGA-ZF-AA4V,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage III,,2008.0,1
+TCGA-ZF-A9RL,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage II,,2007.0,1
+TCGA-ZF-AA58,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage IV,,2010.0,1
+TCGA-ZF-A9R9,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage IV,,2010.0,1
+TCGA-ZF-AA51,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage II,,2009.0,1
+TCGA-XF-AAMX,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage III,,2006.0,1
+TCGA-ZF-AA5N,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage IV,,2013.0,1
+TCGA-ZF-AA5P,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage IV,,2013.0,1
+TCGA-ZF-A9RF,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage II,,2009.0,1
+TCGA-ZF-A9R4,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage II,,2012.0,1
+TCGA-ZF-A9RC,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage III,,2007.0,1
+TCGA-ZF-AA4U,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage III,,2008.0,1
+TCGA-ZF-A9R0,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage III,,2013.0,1
+TCGA-XF-A9T0,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage III,,2007.0,1
+TCGA-XF-A9T3,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage IV,,2008.0,1
+TCGA-ZF-AA4W,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage III,,2009.0,1
+TCGA-XF-A9SI,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Papillary transitional cell carcinoma,8130/3,High Grade,Stage II,,2006.0,1
+TCGA-ZF-AA52,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage III,,2009.0,1
+TCGA-ZF-A9RN,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage III,,2010.0,1
+TCGA-ZF-A9RM,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage II,,2010.0,1
+TCGA-XF-AAN2,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage II,,2007.0,1
+TCGA-XF-AAMY,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Papillary transitional cell carcinoma,8130/3,High Grade,Stage III,,2006.0,1
+TCGA-ZF-A9R2,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Papillary transitional cell carcinoma,8130/3,High Grade,Stage II,,2013.0,1
+TCGA-XF-A8HG,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage III,,2005.0,1
+TCGA-ZF-A9R7,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage II,,2011.0,1
+TCGA-ZF-AA53,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage II,,2010.0,1
+TCGA-ZF-AA5H,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage IV,,2012.0,1
+TCGA-ZF-AA4X,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage II,,2009.0,1
+TCGA-XF-AAN0,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage IV,,2007.0,1
+TCGA-ZF-AA56,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage III,,2010.0,1
+TCGA-XF-AAMZ,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Papillary transitional cell carcinoma,8130/3,High Grade,Stage IV,,2007.0,1
+TCGA-ZF-AA4T,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage IV,,2008.0,1
+TCGA-ZF-A9RD,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage IV,,2008.0,1
+TCGA-ZF-A9RG,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage III,,2010.0,1
+TCGA-ZF-A9RE,TCGA-BLCA,Transitional Cell Papillomas and Carcinomas,Bladder,primary,1,Transitional cell carcinoma,8120/3,High Grade,Stage II,,2010.0,1

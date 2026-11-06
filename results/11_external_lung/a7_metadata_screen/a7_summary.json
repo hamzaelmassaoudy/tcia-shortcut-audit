@@ -1,0 +1,65 @@
+{
+  "plan": "7j A.7",
+  "tool_version": "1.0.0",
+  "series_reply_md5": {
+    "NSCLC-Radiomics": "187cf2fd6214492876e0b78ac2880c96",
+    "Lung-PET-CT-Dx": "9b81e264502f93629c1c625c457c5db6"
+  },
+  "series_check": {
+    "NSCLC-Radiomics": {
+      "patients": 203,
+      "same_series_as_notebook11": 203
+    },
+    "Lung-PET-CT-Dx": {
+      "patients": 312,
+      "same_series_as_notebook11": 312
+    },
+    "Lung-PET-CT-Dx (A.9 set-asides removed)": {
+      "patients": 312,
+      "same_series_as_notebook11": 312
+    }
+  },
+  "new_tasks": [
+    {
+      "family": "26 + 2 (primary runs of the new tasks)",
+      "task_id": "NSCLC-Radiomics | histology",
+      "auc": 0.5557275541795665,
+      "ci_low": 0.4737869473310722,
+      "ci_high": 0.6353586151839088,
+      "perm_p": 0.088,
+      "q_bh_28": 0.20533333333333334,
+      "flag_28": false
+    },
+    {
+      "family": "26 + 2 (primary runs of the new tasks)",
+      "task_id": "Lung-PET-CT-Dx | histology",
+      "auc": 0.6378159493174842,
+      "ci_low": 0.5652679707911837,
+      "ci_high": 0.7078174375938772,
+      "perm_p": 0.007,
+      "q_bh_28": 0.032,
+      "flag_28": false
+    },
+    {
+      "family": "26 + 2 (secondary runs of the new tasks)",
+      "task_id": "NSCLC-Radiomics | histology",
+      "auc": 0.5557275541795665,
+      "ci_low": 0.4737869473310722,
+      "ci_high": 0.6353586151839088,
+      "perm_p": 0.088,
+      "q_bh_28": 0.20533333333333334,
+      "flag_28": false
+    },
+    {
+      "family": "26 + 2 (secondary runs of the new tasks)",
+      "task_id": "Lung-PET-CT-Dx (A.9 set-asides removed) | histology",
+      "auc": 0.6367578864868395,
+      "ci_low": 0.5644148219236031,
+      "ci_high": 0.7083696256418649,
+      "perm_p": 0.004,
+      "q_bh_28": 0.0224,
+      "flag_28": false
+    }
+  ],
+  "original_flags_changed_by_28_task_bh": []
+}

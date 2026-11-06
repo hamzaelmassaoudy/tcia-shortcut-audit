@@ -1,0 +1,39 @@
+table,field,role,fraction_filled
+series,SeriesInstanceUID,identifier: blocked,1.0
+series,StudyInstanceUID,identifier: blocked,1.0
+series,Modality,scanner/protocol,1.0
+series,ProtocolName,"scanner/protocol: text, label-word blocklist",0.5933
+series,SeriesDate,date: only if judged real (7a.5),0.9803
+series,SeriesDescription,"scanner/protocol: text, label-word blocklist",0.9737
+series,BodyPartExamined,scanner/protocol,0.8064
+series,SeriesNumber,scanner/protocol,0.997
+series,Collection,blocked: names the source (7a.3),1.0
+series,PatientID,identifier: blocked (TCGA site code used only for grouping),1.0
+series,Manufacturer,scanner/protocol,0.9723
+series,ManufacturerModelName,scanner/protocol,0.9812
+series,ImageCount,scanner/protocol (main series),1.0
+series,TimeStamp,blocked: TCIA ingest time (7a.3),1.0
+series,LicenseName,blocked: license (7a.3),0.9988
+series,LicenseURI,blocked: license (7a.3),0.9988
+series,CollectionURI,blocked: names the source (7a.3),1.0
+series,FileSize,sensitivity analysis only (7a.3),1.0
+series,DateReleased,blocked: release date (7a.3),1.0
+series,StudyDesc,"scanner/protocol: text, label-word blocklist",0.8392
+series,StudyDate,date: only if judged real (7a.5),1.0
+series,ThirdPartyAnalysis,blocked: TCIA curation flag; flagged series are never the main series,0.4245
+series,SoftwareVersions,scanner/protocol,0.9681
+series,AnnotationsFlag,UNCLASSIFIED: review before notebook 03,0.0183
+studies,StudyInstanceUID,identifier: blocked,1.0
+studies,StudyDate,date: only if judged real (7a.5),1.0
+studies,StudyDescription,"scanner/protocol: text, label-word blocklist",0.9046
+studies,PatientAge,demographic: not an acquisition feature,0.7985
+studies,PatientID,identifier: blocked (TCGA site code used only for grouping),1.0
+studies,PatientName,identifier: blocked,0.8567
+studies,PatientSex,demographic: not an acquisition feature,0.8639
+studies,Collection,blocked: names the source (7a.3),1.0
+studies,SeriesCount,care pathway (7a.4),1.0
+studies,LongitudinalTemporalEventType,care pathway: reference event for the offset (7a.4),0.084
+studies,LongitudinalTemporalOffsetFromEvent,"care pathway: days from the event, e.g. diagnosis (7a.4)",0.084
+studies,EthnicGroup,demographic: not an acquisition feature,0.1536
+studies,AdmittingDiagnosesDescription,blocked: may name the diagnosis (7a.3),0.0055
+studies,StudyID,UNCLASSIFIED: review before notebook 03,0.0011

@@ -1,0 +1,7 @@
+['CPTAC-PDA__C3L-00189.png', 'CPTAC-PDA__C3L-00401.png', 'LIDC-IDRI__LIDC-IDRI-0068.png', 'LIDC-IDRI__LIDC-IDRI-0071.png', 'TCGA-KIRC__TCGA-B0-4698.png', 'TCGA-KIRC__TCGA-B0-4712.png', 'TCGA-LUAD__TCGA-17-Z011.png', 'TCGA-LUAD__TCGA-17-Z013.png']
+                                   count   mean    std    min     5%    50%    95%    max
+task_id                                                                                  
+CPTAC-PDA | stage                   68.0  0.522  0.082  0.376  0.398  0.522  0.618  0.789
+LIDC-IDRI | primary vs metastatic   94.0  0.528  0.083  0.338  0.397  0.528  0.663  0.745
+lung histology (LUAD vs LUSC)      104.0  0.540  0.147  0.189  0.247  0.569  0.723  0.787
+renal subtype (KIRC vs KIRP)       259.0  0.526  0.097  0.142  0.385  0.525  0.693  0.972

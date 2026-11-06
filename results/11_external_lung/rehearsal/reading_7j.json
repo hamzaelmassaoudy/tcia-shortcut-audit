@@ -1,0 +1,7 @@
+{
+  "background_transferred": {
+    "NSCLC-Radiomics": false,
+    "Lung-PET-CT-Dx": false
+  },
+  "reading_7j": "consistent across independent cohorts"
+}

@@ -1,0 +1,14 @@
+collection,on_tcia_api,in_idc,idc_patients,idc_series,idc_modalities,idc_has_CT_or_MR
+Duke-Breast-Cancer-MRI,True,True,922,6058,MR;SEG,True
+HCC-TACE-Seg,True,True,105,1020,CT;SEG,True
+LIDC-IDRI,True,True,1010,15116,CR;CT;DX;SEG;SR,True
+NSCLC Radiogenomics,True,True,211,1722,CT;PT;SEG,True
+PROSTATEx,True,True,346,19177,MR;SEG;SR,True
+TCGA-GBM,False,True,607,4286,ANN;OT;SEG;SM,False
+TCGA-KICH,True,True,113,468,CT;MR;SEG;SM,True
+TCGA-KIRC,True,True,537,6123,CR;CT;MR;SEG;SM,True
+TCGA-KIRP,True,True,291,1194,CT;MR;PT;SEG;SM,True
+TCGA-LGG,False,True,516,1572,SM,False
+TCGA-LUAD,True,True,560,4848,ANN;CT;NM;PT;SEG;SM,True
+TCGA-LUSC,True,True,504,4170,ANN;CT;NM;PT;SEG;SM,True
+UPENN-GBM,True,True,630,6064,MR;SEG,True

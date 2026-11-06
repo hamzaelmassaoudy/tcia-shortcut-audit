@@ -1,0 +1,27 @@
+﻿Task,Collection(s),Modality,Label,Type,Patients,Classes,Metadata-only AUC (95% CI),Permutation q (BH),Flagged
+renal subtype (KIRC vs KIRP),"TCGA-KIRC, TCGA-KIRP",CT,source collection,collection-defined (6b),259,TCGA-KIRC: 236 | TCGA-KIRP: 23,0.846 (0.759–0.921),0.006,yes
+CPTAC-PDA | stage,CPTAC-PDA,CT,GDC ajcc_pathologic_stage,within collection (6a),68,early (I-II): 47 | late (III-IV): 21,0.840 (0.734–0.923),0.006,yes
+lung histology (LUAD vs LUSC),"TCGA-LUAD, TCGA-LUSC",CT,source collection,collection-defined (6b),104,TCGA-LUAD: 67 | TCGA-LUSC: 37,0.827 (0.745–0.901),0.006,yes
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI,CT,tcia-diagnosis-data-2012-04-20.xls,within collection (6a),94,metastatic: 51 | primary lung cancer: 43,0.790 (0.695–0.875),0.006,yes
+LIDC-IDRI | benign vs malignant,LIDC-IDRI,CT,tcia-diagnosis-data-2012-04-20.xls,within collection (6a),130,benign: 36 | malignant: 94,0.688 (0.595–0.777),0.026,no
+TCGA-LIHC | grade,TCGA-LIHC,CT,GDC tumor_grade,within collection (6a),75,high (G3-G4): 27 | low (G1-G2): 48,0.688 (0.570–0.796),0.035,no
+TCGA-BLCA | stage,TCGA-BLCA,CT,GDC ajcc_pathologic_stage,within collection (6a),107,early (I-II): 41 | late (III-IV): 66,0.625 (0.520–0.728),0.15,no
+TCGA-KIRC | stage,TCGA-KIRC,CT,GDC ajcc_pathologic_stage,within collection (6a),236,early (I-II): 141 | late (III-IV): 95,0.615 (0.544–0.679),0.037,no
+NSCLC Radiogenomics | histology,NSCLC Radiogenomics,CT,NSCLCR01Radiogenomic_DATA_LABELS_2018-05-22_1500-shifted.csv,within collection (6a),199,adenocarcinoma: 166 | squamous: 33,0.604 (0.517–0.688),0.203,no
+PROSTATEx | clinically significant,PROSTATEx,MR,ProstateX-Findings-Train.csv,within collection (6a),204,not significant: 134 | significant: 70,0.589 (0.521–0.660),0.15,no
+NSCLC Radiogenomics | EGFR mutation,NSCLC Radiogenomics,CT,NSCLCR01Radiogenomic_DATA_LABELS_2018-05-22_1500-shifted.csv,within collection (6a),166,mutant: 41 | wildtype: 125,0.554 (0.459–0.651),0.499,no
+TCGA-LIHC | stage,TCGA-LIHC,CT,GDC ajcc_pathologic_stage,within collection (6a),73,early (I-II): 52 | late (III-IV): 21,0.528 (0.377–0.680),0.692,no
+UPENN-GBM | MGMT methylation,UPENN-GBM,MR,UPENN-GBM_clinical_info_v2.1.csv,within collection (6a),262,methylated: 111 | unmethylated: 151,0.519 (0.456–0.582),0.729,no
+Duke-Breast-Cancer-MRI | PR status,Duke-Breast-Cancer-MRI,MR,Clinical_and_Other_Features.xlsx,within collection (6a),922,negative: 324 | positive: 598,0.512 (0.476–0.547),0.666,no
+TCGA-KIRC | grade,TCGA-KIRC,CT,GDC tumor_grade,within collection (6a),236,high (G3-G4): 138 | low (G1-G2): 98,0.510 (0.446–0.576),0.58,no
+Duke-Breast-Cancer-MRI | molecular subtype,Duke-Breast-Cancer-MRI,MR,Clinical_and_Other_Features.xlsx,within collection (6a),922,ER/PR+ HER2+: 104 | HER2-enriched: 59 | luminal-like: 595 | triple negative: 164,0.504 (0.474–0.535),0.526,no
+Duke-Breast-Cancer-MRI | ER status,Duke-Breast-Cancer-MRI,MR,Clinical_and_Other_Features.xlsx,within collection (6a),922,negative: 236 | positive: 686,0.501 (0.464–0.540),0.711,no
+Duke-Breast-Cancer-MRI | HER2 status,Duke-Breast-Cancer-MRI,MR,Clinical_and_Other_Features.xlsx,within collection (6a),922,negative: 759 | positive: 163,0.496 (0.452–0.542),0.666,no
+TCGA-UCEC | grade,TCGA-UCEC,CT,GDC tumor_grade,within collection (6a),64,high (G3-G4): 36 | low (G1-G2): 28,0.494 (0.361–0.619),0.846,no
+HCC-TACE-Seg | stage,HCC-TACE-Seg,CT,HCC-TACE-Seg_clinical_data-V2.xlsx,within collection (6a),105,early (I-II): 57 | late (III-IV): 48,0.479 (0.383–0.582),0.719,no
+CPTAC-CCRCC | grade,CPTAC-CCRCC,CT,GDC tumor_grade,within collection (6a),63,high (G3-G4): 20 | low (G1-G2): 43,0.431 (0.299–0.578),0.979,no
+NSCLC Radiogenomics | KRAS mutation,NSCLC Radiogenomics,CT,NSCLCR01Radiogenomic_DATA_LABELS_2018-05-22_1500-shifted.csv,within collection (6a),165,mutant: 36 | wildtype: 129,0.426 (0.335–0.522),0.979,no
+CPTAC-CCRCC | stage,CPTAC-CCRCC,CT,GDC ajcc_pathologic_stage,within collection (6a),64,early (I-II): 41 | late (III-IV): 23,0.392 (0.264–0.521),0.979,no
+TCGA-BRCA | stage,TCGA-BRCA,MR,GDC ajcc_pathologic_stage,within collection (6a),137,early (I-II): 115 | late (III-IV): 22,0.377 (0.263–0.514),0.979,no
+CPTAC-UCEC | grade,CPTAC-UCEC,CT,GDC tumor_grade,within collection (6a),69,high (G3-G4): 20 | low (G1-G2): 49,0.370 (0.251–0.495),0.979,no
+CPTAC-PDA | grade,CPTAC-PDA,CT,GDC tumor_grade,within collection (6a),71,high (G3-G4): 20 | low (G1-G2): 51,0.369 (0.248–0.501),0.979,no

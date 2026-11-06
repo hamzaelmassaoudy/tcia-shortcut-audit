@@ -1,0 +1,22 @@
+task_id,site_level,n_sites,n_sites_5_per_class,patients_in_those_sites,largest_sites
+NSCLC Radiogenomics | EGFR mutation,institution,2,2,166,Stanford: 91; VA: 75
+NSCLC Radiogenomics | KRAS mutation,institution,2,2,165,Stanford: 91; VA: 74
+NSCLC Radiogenomics | histology,institution,2,2,199,Stanford: 109; VA: 90
+TCGA-BLCA | stage,tss,8,4,72,FD: 21; ZF: 21; DK: 19; G2: 14
+TCGA-BLCA | stage,institution,8,4,72,university of sheffield: 21; university of chicago: 21; memorial sloan kettering: 19; md anderson cancer center: 14
+TCGA-BRCA | stage,tss,7,2,83,BH: 46; E2: 37; OL: 17; AO: 13
+TCGA-BRCA | stage,institution,7,2,83,university of pittsburgh: 46; roswell park: 37; university of chicago: 17; university of miami: 13
+TCGA-KIRC | grade,tss,8,6,224,BP: 88; CJ: 51; B0: 30; B8: 25
+TCGA-KIRC | grade,institution,8,6,224,memorial sloan kettering: 88; md anderson cancer center: 51; university of pittsburgh: 30; unc: 25
+TCGA-KIRC | stage,tss,8,5,209,BP: 88; CJ: 51; B0: 30; B8: 25
+TCGA-KIRC | stage,institution,8,5,209,memorial sloan kettering: 88; md anderson cancer center: 51; university of pittsburgh: 30; unc: 25
+TCGA-LIHC | grade,tss,4,1,46,DD: 46; G3: 21; BC: 6; K7: 2
+TCGA-LIHC | grade,institution,4,1,46,mayo clinic: 46; alberta health services: 21; unc: 6; lahey clinic: 2
+TCGA-LIHC | stage,tss,4,1,46,DD: 46; G3: 21; BC: 4; K7: 2
+TCGA-LIHC | stage,institution,4,1,46,mayo clinic: 46; alberta health services: 21; unc: 4; lahey clinic: 2
+TCGA-UCEC | grade,tss,3,1,48,D1: 48; FI: 9; DI: 7
+TCGA-UCEC | grade,institution,3,1,48,mayo clinic: 48; washington university: 9; md anderson cancer center: 7
+lung histology (LUAD vs LUSC),tss,9,0,0,17: 38; 50: 19; 34: 14; 60: 14
+lung histology (LUAD vs LUSC),institution,5,2,76,washington university: 43; university of pittsburgh: 33; roswell park: 14; unc: 9
+renal subtype (KIRC vs KIRP),tss,12,0,0,BP: 88; CJ: 51; B0: 30; B8: 25
+renal subtype (KIRC vs KIRP),institution,9,1,32,memorial sloan kettering: 88; md anderson cancer center: 51; unc: 32; university of pittsburgh: 30

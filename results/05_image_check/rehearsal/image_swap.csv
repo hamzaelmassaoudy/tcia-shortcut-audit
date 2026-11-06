@@ -1,0 +1,9 @@
+task_id,encoder,applicable,median_z_spacing_TCGA-KIRC,median_z_spacing_TCGA-KIRP,rule_met,median_z_spacing_early (I-II),median_z_spacing_late (III-IV),median_z_spacing_TCGA-LUAD,median_z_spacing_TCGA-LUSC,median_z_spacing_metastatic,median_z_spacing_primary lung cancer,thin_class,thick_class,target_z_spacing,n_swapped,shift_toward_thick,shift_ci_low,shift_ci_high,control_shift,control_ci_low,control_ci_high,swap_minus_control,difference_ci_low,difference_ci_high,median_abs_hu_change_swap,median_abs_hu_change_control
+renal subtype (KIRC vs KIRP),ctfm,False,4.999999999999985,5.0,False,,,,,,,,,,,,,,,,,,,,,
+renal subtype (KIRC vs KIRP),merlin,False,4.999999999999985,5.0,False,,,,,,,,,,,,,,,,,,,,,
+CPTAC-PDA | stage,ctfm,False,,,False,2.0,2.0,,,,,,,,,,,,,,,,,,,
+CPTAC-PDA | stage,merlin,False,,,False,2.0,2.0,,,,,,,,,,,,,,,,,,,
+lung histology (LUAD vs LUSC),ctfm,False,,,False,,,5.0,5.0,,,,,,,,,,,,,,,,,
+lung histology (LUAD vs LUSC),merlin,False,,,False,,,5.0,5.0,,,,,,,,,,,,,,,,,
+LIDC-IDRI | primary vs metastatic,ctfm,True,,,False,,,,,2.5,1.25,primary lung cancer,metastatic,2.5,25.0,0.0190800962783012,-0.010616622082312222,0.05274967095066123,0.04496318116685778,0.008078095621629384,0.08504993239018828,-0.025883084888556587,-0.06834457844148471,0.010925212374307625,28.039194107055664,29.40690040588379
+LIDC-IDRI | primary vs metastatic,merlin,True,,,False,,,,,2.5,1.25,primary lung cancer,metastatic,2.5,25.0,0.06069013059700727,-0.007352129259210536,0.13594278160746048,-0.09463101783631574,-0.1734906651689509,-0.02417683002409239,0.155321148433323,0.08719876759831456,0.22839729920049912,28.039194107055664,29.40690040588379

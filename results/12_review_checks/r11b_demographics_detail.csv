@@ -1,0 +1,9 @@
+task_id,class0,class0_n,class0_sex_missing,class0_age_missing,class1,class1_n,class1_sex_missing,class1_age_missing,model,n_patients,n_per_class,auc,ci_low,ci_high,perm_p
+renal subtype (KIRC vs KIRP),TCGA-KIRC,236,0,4,TCGA-KIRP,23,0,0,missingness indicators only,259,236 | 23,0.4857774502579219,0.4451677783446391,0.5227950966950735,0.402
+renal subtype (KIRC vs KIRP),TCGA-KIRC,236,0,4,TCGA-KIRP,23,0,0,"sex + age, patients with both recorded",255,232 | 23,0.5776236881559221,0.4723784321373127,0.6738657849503438,0.232
+CPTAC-PDA | stage,early (I-II),47,0,4,late (III-IV),21,1,1,missingness indicators only,68,47 | 21,0.4938196555217832,0.3984364583333333,0.5829214773279793,0.828
+CPTAC-PDA | stage,early (I-II),47,0,4,late (III-IV),21,1,1,"sex + age, patients with both recorded",63,43 | 20,0.5224418604651163,0.3820091187270502,0.655505115089514,0.4
+lung histology (LUAD vs LUSC),TCGA-LUAD,67,0,2,TCGA-LUSC,37,0,0,missingness indicators only,104,67 | 37,0.48438886647841867,0.43091334093982425,0.5397496853471118,0.071
+lung histology (LUAD vs LUSC),TCGA-LUAD,67,0,2,TCGA-LUSC,37,0,0,"sex + age, patients with both recorded",102,65 | 37,0.5594178794178795,0.44804508092265133,0.6646307746979387,0.081
+LIDC-IDRI | primary vs metastatic,metastatic,51,0,1,primary lung cancer,43,11,25,missingness indicators only,94,51 | 43,0.7435476516187871,0.649509093915344,0.8314856491659123,0.001
+LIDC-IDRI | primary vs metastatic,metastatic,51,0,1,primary lung cancer,43,11,25,"sex + age, patients with both recorded",68,50 | 18,0.6183333333333334,0.47207962892603844,0.7555082406783469,0.053

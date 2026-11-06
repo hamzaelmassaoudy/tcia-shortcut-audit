@@ -1,0 +1,61 @@
+quantity,value,recorded,reproduced
+"source internal AUC, ctfm, image",0.5949173053650666,0.5949173053650666,True
+"source internal AUC, ctfm, background",0.6958450988301734,0.6958450988301734,True
+"source internal AUC, ctfm, silhouette",0.5878176684146833,0.5878176684146833,True
+"source internal AUC, merlin, image",0.7630496167809601,0.7630496167809601,True
+"source internal AUC, merlin, background",0.8213795885437676,0.8213795885437676,True
+"source internal AUC, merlin, silhouette",0.5710367083501411,0.5710367083501411,True
+"lung: TCGA -> NSCLC Radiogenomics, ctfm, image: external_auc",0.3660094925155166,0.3660094925155166,True
+"lung: TCGA -> NSCLC Radiogenomics, ctfm, image: external_ci_low",0.26783587380361573,0.2678358738036157,True
+"lung: TCGA -> NSCLC Radiogenomics, ctfm, image: external_ci_high",0.4654245642642865,0.4654245642642865,True
+"lung: TCGA -> NSCLC Radiogenomics, ctfm, image: target_internal_auc",0.6080321285140562,0.6080321285140562,True
+"lung: TCGA -> NSCLC Radiogenomics, ctfm, background: external_auc",0.49342825848849947,0.4934282584884994,True
+"lung: TCGA -> NSCLC Radiogenomics, ctfm, background: external_ci_low",0.3916207531072649,0.3916207531072649,True
+"lung: TCGA -> NSCLC Radiogenomics, ctfm, background: external_ci_high",0.594599624808671,0.594599624808671,True
+"lung: TCGA -> NSCLC Radiogenomics, ctfm, background: target_internal_auc",0.6203723986856516,0.6203723986856516,True
+"lung: TCGA -> NSCLC Radiogenomics, ctfm, silhouette external AUC",0.45874406717780214,0.4587440671778021,True
+"lung: TCGA -> NSCLC Radiogenomics, merlin, image: external_auc",0.48028477546549836,0.4802847754654983,True
+"lung: TCGA -> NSCLC Radiogenomics, merlin, image: external_ci_low",0.3611323958126284,0.3611323958126284,True
+"lung: TCGA -> NSCLC Radiogenomics, merlin, image: external_ci_high",0.5971330313472654,0.5971330313472654,True
+"lung: TCGA -> NSCLC Radiogenomics, merlin, image: target_internal_auc",0.6345016429353779,0.6345016429353779,True
+"lung: TCGA -> NSCLC Radiogenomics, merlin, background: external_auc",0.438846294267981,0.438846294267981,True
+"lung: TCGA -> NSCLC Radiogenomics, merlin, background: external_ci_low",0.3379251433067326,0.3379251433067326,True
+"lung: TCGA -> NSCLC Radiogenomics, merlin, background: external_ci_high",0.5474188475997686,0.5474188475997686,True
+"lung: TCGA -> NSCLC Radiogenomics, merlin, background: target_internal_auc",0.5704636728733115,0.5704636728733115,True
+"lung: TCGA -> NSCLC Radiogenomics, merlin, silhouette external AUC",0.43866374589266155,0.4386637458926615,True
+"lung: TCGA -> CPTAC, ctfm, image: external_auc",0.5067567567567568,0.5067567567567568,True
+"lung: TCGA -> CPTAC, ctfm, image: external_ci_low",0.369163066036131,0.369163066036131,True
+"lung: TCGA -> CPTAC, ctfm, image: external_ci_high",0.6405643229459368,0.6405643229459368,True
+"lung: TCGA -> CPTAC, ctfm, image: target_internal_auc",0.4546546546546546,0.4546546546546546,True
+"lung: TCGA -> CPTAC, ctfm, background: external_auc",0.6771771771771772,0.6771771771771772,True
+"lung: TCGA -> CPTAC, ctfm, background: external_ci_low",0.5529852934978083,0.5529852934978083,True
+"lung: TCGA -> CPTAC, ctfm, background: external_ci_high",0.7956285868005738,0.7956285868005738,True
+"lung: TCGA -> CPTAC, ctfm, background: target_internal_auc",0.44804804804804804,0.448048048048048,True
+"lung: TCGA -> CPTAC, ctfm, silhouette external AUC",0.6373873873873874,0.6373873873873874,True
+"lung: TCGA -> CPTAC, merlin, image: external_auc",0.6951951951951952,0.6951951951951952,True
+"lung: TCGA -> CPTAC, merlin, image: external_ci_low",0.5701162142669813,0.5701162142669813,True
+"lung: TCGA -> CPTAC, merlin, image: external_ci_high",0.8093093093093093,0.8093093093093093,True
+"lung: TCGA -> CPTAC, merlin, image: target_internal_auc",0.7298798798798799,0.7298798798798799,True
+"lung: TCGA -> CPTAC, merlin, background: external_auc",0.7394894894894894,0.7394894894894894,True
+"lung: TCGA -> CPTAC, merlin, background: external_ci_low",0.6097556390977443,0.6097556390977443,True
+"lung: TCGA -> CPTAC, merlin, background: external_ci_high",0.8545707070707069,0.8545707070707069,True
+"lung: TCGA -> CPTAC, merlin, background: target_internal_auc",0.6036036036036035,0.6036036036036035,True
+"lung: TCGA -> CPTAC, merlin, silhouette external AUC",0.6764264264264265,0.6764264264264265,True
+lung histology (LUAD vs LUSC): hdr_slice_thickness AUC (squamous higher),0.3370310609116579,0.3370310609116579,True
+lung histology (LUAD vs LUSC): hdr_z_spacing AUC (squamous higher),0.3249294070189593,0.3249294070189593,True
+lung histology (LUAD vs LUSC): hdr_recon_diameter AUC (squamous higher),0.5289351851851852,0.5289351851851852,True
+lung histology (LUAD vs LUSC): hdr_kvp AUC (squamous higher),0.4233561920129084,0.4233561920129084,True
+lung histology (LUAD vs LUSC): hdr_tube_current AUC (squamous higher),0.48336798336798337,0.4833679833679833,True
+lung histology (LUAD vs LUSC): body_area_cm2 AUC (squamous higher),0.5159338442920532,0.5159338442920532,True
+NSCLC Radiogenomics: hdr_slice_thickness AUC (squamous higher),0.6491420226359985,0.6491420226359985,True
+NSCLC Radiogenomics: hdr_z_spacing AUC (squamous higher),0.6650237312887916,0.6650237312887916,True
+NSCLC Radiogenomics: hdr_recon_diameter AUC (squamous higher),0.6975173420956553,0.6975173420956553,True
+NSCLC Radiogenomics: hdr_kvp AUC (squamous higher),0.526378240233662,0.526378240233662,True
+NSCLC Radiogenomics: hdr_tube_current AUC (squamous higher),0.4314005716619028,0.4314005716619028,True
+NSCLC Radiogenomics: body_area_cm2 AUC (squamous higher),0.628696604600219,0.628696604600219,True
+CPTAC lung: hdr_slice_thickness AUC (squamous higher),0.35923423423423423,0.3592342342342342,True
+CPTAC lung: hdr_z_spacing AUC (squamous higher),0.3768768768768769,0.3768768768768769,True
+CPTAC lung: hdr_recon_diameter AUC (squamous higher),0.5153903903903904,0.5153903903903904,True
+CPTAC lung: hdr_kvp AUC (squamous higher),0.5581831831831832,0.5581831831831832,True
+CPTAC lung: hdr_tube_current AUC (squamous higher),0.37424924924924924,0.3742492492492492,True
+CPTAC lung: body_area_cm2 AUC (squamous higher),0.47372372372372373,0.4737237237237237,True

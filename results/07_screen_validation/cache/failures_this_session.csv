@@ -1,0 +1,2 @@
+key,status,error
+TCGA-BLCA__TCGA-FD-A5C0,failed,"RuntimeError('Exception thrown in SimpleITK ImageSeriesReader_Execute: /tmp/SimpleITK-build/ITK-prefix/include/ITK-5.4/itkImageBase.hxx:77:\nITK ERROR: Image(0x2ae779d0): Zero-valued spacing is not supported and may result in undefined behavior.\nRefusing to change spacing from [1, 1, 1] to [0.870117, 0.870117, 0]')"

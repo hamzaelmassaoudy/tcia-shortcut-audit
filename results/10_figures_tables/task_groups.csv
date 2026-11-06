@@ -1,0 +1,20 @@
+task_id,group,group_size
+CPTAC-CCRCC | grade,CPTAC-CCRCC | grade,2
+CPTAC-CCRCC | stage,CPTAC-CCRCC | grade,2
+CPTAC-PDA | grade,CPTAC-PDA | grade,2
+CPTAC-PDA | stage,CPTAC-PDA | grade,2
+CPTAC-UCEC | grade,CPTAC-UCEC | grade,1
+HCC-TACE-Seg | stage,HCC-TACE-Seg | stage,1
+LIDC-IDRI | benign vs malignant,LIDC-IDRI | benign vs malignant,2
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI | benign vs malignant,2
+NSCLC Radiogenomics | EGFR mutation,NSCLC Radiogenomics | EGFR mutation,3
+NSCLC Radiogenomics | KRAS mutation,NSCLC Radiogenomics | EGFR mutation,3
+NSCLC Radiogenomics | histology,NSCLC Radiogenomics | EGFR mutation,3
+TCGA-BLCA | stage,TCGA-BLCA | stage,1
+TCGA-KIRC | grade,TCGA-KIRC | grade,3
+TCGA-KIRC | stage,TCGA-KIRC | grade,3
+renal subtype (KIRC vs KIRP),TCGA-KIRC | grade,3
+TCGA-LIHC | grade,TCGA-LIHC | grade,2
+TCGA-LIHC | stage,TCGA-LIHC | grade,2
+TCGA-UCEC | grade,TCGA-UCEC | grade,1
+lung histology (LUAD vs LUSC),lung histology (LUAD vs LUSC),1

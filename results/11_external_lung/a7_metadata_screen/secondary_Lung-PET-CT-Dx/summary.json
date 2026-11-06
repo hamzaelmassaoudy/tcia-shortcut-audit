@@ -1,0 +1,31 @@
+{
+  "tool_version": "1.0.0",
+  "collections": [
+    "Lung-PET-CT-Dx"
+  ],
+  "modality": "CT",
+  "classes": {
+    "adenocarcinoma": 251,
+    "squamous cell carcinoma": 61
+  },
+  "n_patients": 312,
+  "auc": 0.6367578864868395,
+  "ci_low": 0.5644148219236031,
+  "ci_high": 0.7083696256418649,
+  "perm_p": 0.004,
+  "perm_observed_single_cv": 0.6354255110704722,
+  "null_mean_auc": 0.4934871191484084,
+  "flagged": false,
+  "flag_rule": "lower CI >= 0.6 and permutation p < 0.05 (apply BH first for a family of tasks)",
+  "settings": {
+    "seed": 2026,
+    "n_boot": 2000,
+    "n_perm": 999,
+    "min_count": 3,
+    "cv": "5-fold stratified, 5 repeats",
+    "model": "logistic regression, C=1, balanced"
+  },
+  "started_utc": "2026-11-03T18:55:43+00:00",
+  "finished_utc": "2026-11-03T18:56:01+00:00",
+  "runtime_s": 17.6
+}

@@ -1,0 +1,40 @@
+exclusion_reason
+                                             26
+smallest class < 20 patients with imaging    24
+one class only                                2
+                                   task_id  missingness_auc  ci_low  ci_high  metadata_auc                                       note
+              renal subtype (KIRC vs KIRP)            0.539   0.424    0.662         0.846                                           
+                         CPTAC-PDA | stage            0.549   0.406    0.691         0.840                                           
+             lung histology (LUAD vs LUSC)            0.688   0.597    0.779         0.827                                           
+         LIDC-IDRI | primary vs metastatic            0.643   0.543    0.735         0.790                                           
+           LIDC-IDRI | benign vs malignant            0.514   0.438    0.592         0.688                                           
+                         TCGA-LIHC | grade            0.510   0.395    0.629         0.688                                           
+                         TCGA-BLCA | stage            0.551   0.454    0.650         0.625                                           
+                         TCGA-KIRC | stage            0.445   0.404    0.486         0.615                                           
+           NSCLC Radiogenomics | histology            0.619   0.523    0.715         0.604                                           
+        PROSTATEx | clinically significant              NaN     NaN      NaN           NaN every field equally filled in all patients
+       NSCLC Radiogenomics | EGFR mutation            0.614   0.515    0.710         0.554                                           
+                         TCGA-LIHC | stage            0.469   0.359    0.581         0.528                                           
+              UPENN-GBM | MGMT methylation            0.450   0.403    0.498         0.519                                           
+        Duke-Breast-Cancer-MRI | PR status              NaN     NaN      NaN           NaN every field equally filled in all patients
+                         TCGA-KIRC | grade            0.496   0.455    0.539         0.510                                           
+Duke-Breast-Cancer-MRI | molecular subtype              NaN     NaN      NaN           NaN every field equally filled in all patients
+        Duke-Breast-Cancer-MRI | ER status              NaN     NaN      NaN           NaN every field equally filled in all patients
+      Duke-Breast-Cancer-MRI | HER2 status              NaN     NaN      NaN           NaN every field equally filled in all patients
+                         TCGA-UCEC | grade            0.577   0.445    0.707         0.494                                           
+                      HCC-TACE-Seg | stage            0.429   0.382    0.475         0.479                                           
+                       CPTAC-CCRCC | grade            0.603   0.465    0.743         0.431                                           
+       NSCLC Radiogenomics | KRAS mutation            0.411   0.319    0.509         0.426                                           
+                       CPTAC-CCRCC | stage            0.338   0.245    0.433         0.392                                           
+                         TCGA-BRCA | stage            0.487   0.425    0.549         0.377                                           
+                        CPTAC-UCEC | grade            0.442   0.328    0.554         0.370                                           
+                         CPTAC-PDA | grade            0.381   0.264    0.506         0.369                                           
+                          task_id               class   n                               body_part_top3  contrast_given_share  contrast_missing_share  coverage_mm_median  z_spacing_mm_median
+     renal subtype (KIRC vs KIRP)           TCGA-KIRC 236                        KIDNEY 94%; Kidney 6%                 0.703                     0.0             467.775                 5.00
+     renal subtype (KIRC vs KIRP)           TCGA-KIRP  23                                  KIDNEY 100%                 0.435                     0.0             458.000                 5.00
+                CPTAC-PDA | stage        early (I-II)  47       PANCREAS 45%; ABDOMEN 30%; missing 21%                 0.553                     0.0             422.500                 2.50
+                CPTAC-PDA | stage       late (III-IV)  21 ABDOMEN 62%; missing 19%; CHESTABDPELVIS 14%                 0.714                     0.0             402.000                 1.20
+    lung histology (LUAD vs LUSC)           TCGA-LUAD  67                          CHEST 57%; LUNG 43%                 0.119                     0.0             312.000                 5.00
+    lung histology (LUAD vs LUSC)           TCGA-LUSC  37                                    LUNG 100%                 0.297                     0.0             350.000                 3.27
+LIDC-IDRI | primary vs metastatic          metastatic  51                                   CHEST 100%                 0.863                     0.0             326.250                 2.50
+LIDC-IDRI | primary vs metastatic primary lung cancer  43                                   CHEST 100%                 0.488                     0.0             332.500                 1.25

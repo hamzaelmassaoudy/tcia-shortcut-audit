@@ -1,0 +1,157 @@
+collection,n_patients,modalities,has_CT,has_MR,body_parts,subject_type,species,is_tcga,is_cptac,human_ct_or_mr
+4D-Lung,20,CT;RTSTRUCT,True,False,LUNG,human,Homo sapiens,False,False,True
+A091105,83,RTSTRUCT,False,False,ABDOMEN;ARM;ARMPITSHOULDER;BACK;BUTTOCKS;CHEST;HEADNECK;LEFTSHOULDER;LOWERLIMB;NECK;PELVIS;RIGHTARM;RIGHTSHOULDER;SHOULDER;UPPERLIMB,human,Homo sapiens,False,False,False
+ACNS0332,85,RTSTRUCT,False,False,BRAIN;HEADNECK;SPINE,human,Homo sapiens,False,False,False
+ACRIN-6698,385,MR;SEG,False,True,BREAST;TSPINE,human,Homo sapiens,False,False,True
+ACRIN-Contralateral-Breast-MR,984,CR;MR,False,True,BREAST,human,Homo sapiens,False,False,True
+ACRIN-FLT-Breast,83,CT;OT;PT,True,False,ABDOMEN;BREAST;CHEST,human,Homo sapiens,False,False,True
+ACRIN-HNSCC-FDG-PET-CT,258,RTSTRUCT,False,False,ABDOMEN;CHEST;HEAD;HEADNECK;NECK,human,Homo sapiens,False,False,False
+ACRIN-NSCLC-FDG-PET,242,CR;CT;DX;MR;NM;OT;PT,True,True,ABDOMEN;ABDOMENPELVIS;BRAIN;CHEST;CHESTABDOMEN;CHESTABDPELVIS;HEAD;OUTSIDE FIL;THORAX,human,Homo sapiens,False,False,True
+AHEP0731,80,RTSTRUCT,False,False,ABDOMEN;CHEST,human,Homo sapiens,False,False,False
+AHOD0831,165,RTSTRUCT,False,False,ABDOMEN;CHEST;HEADNECK;NECK;NECKCHESTABDPEL;PELVIS,human,Homo sapiens,False,False,False
+ARAR0331,108,RTSTRUCT,False,False,ABDOMEN;CHEST;HEADNECK;NECK,human,Homo sapiens,False,False,False
+AREN0532,542,RTSTRUCT,False,False,ABDOMEN;CHEST;CHESTABDOMEN,human,Homo sapiens,False,False,False
+AREN0533,294,RTSTRUCT,False,False,ABDOMEN;CHEST;CHESTABDOMEN;HEADNECK,human,Homo sapiens,False,False,False
+AREN0534,239,RTSTRUCT,False,False,ABDOMEN;CHEST,human,Homo sapiens,False,False,False
+Adrenal-ACC-Ki67-Seg,53,CT;SEG,True,False,ABDOMEN;ABDOMENPELVIS;ADRENAL,human,Homo sapiens,False,False,True
+Advanced-MRI-Breast-Lesions,632,MR;SEG,False,True,BREAST,human,Homo sapiens,False,False,True
+Anti-PD-1_Lung,46,CT;OT;PT,True,False,ABDOMEN;CHEST;CHESTABDPELVIS;HEAD,human,Homo sapiens,False,False,True
+B-mode-and-CEUS-Liver,120,US,False,False,LIVER,human,Homo sapiens,False,False,False
+BREAST-DIAGNOSIS,50,SR,False,False,,human,Homo sapiens,False,False,False
+Breast-Cancer-Screening-DBT,5060,MG,False,False,BREAST,human,Homo sapiens,False,False,False
+Breast-MRI-NACT-Pilot,64,MR;SEG;SR,False,True,BREAST,human,Homo sapiens,False,False,True
+C4KC-KiTS,210,CT;SEG,True,False,ABDOMEN;ABDOMENPELVIS;CHEST;CHESTABDPELVIS;KIDNEY;WO INTER,human,Homo sapiens,False,False,True
+CALGB50303,155,RTSTRUCT,False,False,ABDOMEN;ADRENAL;CHEST;EXTREMITY;HEAD;HEADNECK;NECK;NECKCHESTABDPEL;PELVIS;SCROTUM,human,Homo sapiens,False,False,False
+CBIS-DDSM,6671,MG,False,False,BREAST,human,Homo sapiens,False,False,False
+CC-Radiomics-Phantom,17,CT;RTSTRUCT,True,False,PHANTOM,phantom,Homo sapiens,False,False,False
+CC-Radiomics-Phantom-2,251,CT,True,False,CHEST,phantom,Homo sapiens,False,False,False
+CC-Radiomics-Phantom-3,95,CT;RTSTRUCT,True,False,,phantom,Homo sapiens,False,False,False
+CC-Tumor-Heterogeneity,23,CT;MR;PT;REG;RTSTRUCT,True,True,PELVIS,human,Homo sapiens,False,False,True
+CMB-AML,9,CT;MR;XA,True,True,BRAIN;CHEST,human,Homo sapiens,False,False,True
+CMB-BRCA,50,CT;MG;MR;PT;US,True,True,ABDOMEN;BRAIN;BREAST;CHEST;CSPINE;HEAD;LIVER;LSPINE;NECK;PELVIS;SPINE;WHOLEBODY,human,Homo sapiens,False,False,True
+CMB-CRC,62,CT;DX;MR;NM;PT;US;XA,True,True,ABDOMEN;ABDOMENPELVIS;CHEST;CHESTABDPELVIS;CSPINE;HEAD;LIVER;LSPINE;PELVIS;SHOULDER;SPINE;TSPINE;WHOLEBODY,human,Homo sapiens,False,False,True
+CMB-GEC,12,CT;MR;PT,True,True,ABDOMEN;ABDOMENPELVIS;CHEST;WHOLEBODY,human,Homo sapiens,False,False,True
+CMB-LCA,129,CT;DX;MR;NM;PT;US,True,True,ABDOMEN;ABDOMENPELVIS;BODY;BRAIN;CHEST;CHESTABDPELVIS;HEAD;HEADNECK;HIP;LIVER;LOWERLIMB;LSPINE;LUNG;NECK;PELVIS;SPINE;TSPINE;WHOLEBODY,human,Homo sapiens,False,False,True
+CMB-MEL,32,CT;MR;PT;US,True,True,ABDOMEN;ABDOMENPELVIS;BRAIN;CHEST;CHESTABDOMEN;CHESTABDPELVIS;FOOT;HEAD;LIVER;NECK;NECKCHEST;NECKCHESTABDOMEN;NECKCHESTABDPELV;SPINE;WHOLEBODY,human,Homo sapiens,False,False,True
+CMB-MML,110,CR;CT;DX;MR;PT;XA,True,True,ABDOMEN;BRAIN;CHEST;CHESTABDPELVIS;COCCYX;CSPINE;EXTREMITY;FEMUR;HEAD;HIP;LSPINE;LUNG;NECK;PELVIS;SHOULDER;SKULL;SPINE;SSPINE;TSPINE;WHOLEBODY,human,Homo sapiens,False,False,True
+CMB-OV,19,CT;MR,True,True,ABDOMEN;ABDOMENPELVIS;CHEST;CHESTABDOMEN;CHESTABDPELVIS;KIDNEY,human,Homo sapiens,False,False,True
+CMB-PCA,26,CT;DX;MR;NM;PT;RF,True,True,ABDOMEN;ABDOMENPELVIS;CHEST;CHESTABDOMEN;CHESTABDPELVIS;HEAD;LSPINE;PELVIS;PROSTATE;TLSPINE;WHOLEBODY,human,Homo sapiens,False,False,True
+CMMD,1775,MG,False,False,BREAST,human,Homo sapiens,False,False,False
+COVID-19-AR,105,CR;CT;DX,True,False,ABDOMEN;ABDOMENPELVIS;BLADDER;CHEST;CHESTABDOMEN;CHESTABDPELVIS;KIDNEY;PELVIS;THORAX,human,Homo sapiens,False,False,True
+COVID-19-NY-SBU,1384,CR;CT;DX;MR;NM;OT;PT;SR,True,True,ABDOMEN;ABDOMENPELVIS;CHEST;CHESTABDPELVIS;KIDNEY,human,Homo sapiens,False,False,True
+CPTAC-AML,5,CT;US,True,False,ABDOMEN;CHEST;HEAD,human,Homo sapiens,False,True,True
+CPTAC-CCRCC,71,CT;MR;RTSTRUCT,True,True,ABDOMEN;ABDOMENPELVIS;CHEST;CHESTABDOMEN;CHESTABDPELVIS;EXTREMITY;HEADNECK;KIDNEY;LIVER;PELVIS,human,Homo sapiens,False,True,True
+CPTAC-CM,18,CT;MR;PT,True,True,ABDOMEN;ABDOMENPELVIS;BRAIN;CHEST;CHESTABDOMEN;CHESTABDPELVIS;HEAD;NECK;NECKCHESTABDOME;NECKCHESTABDPEL;PELVIS;WHOLEBODY,human,Homo sapiens,False,True,True
+CPTAC-LSCC,36,CT;PT,True,False,CHEST;CHESTABDOMEN;CHESTABDPELVIS,human,Homo sapiens,False,True,True
+CPTAC-LUAD,38,CT;MR;PT,True,True,ABDOMEN;CHEST;CHESTABDOMEN;LSSPINE;NECK;NECKCHESTABDPELV;WHOLEBODY,human,Homo sapiens,False,True,True
+CPTAC-PDA,110,CT;MR;PT;RTSTRUCT;US,True,True,ABDOMEN;ABDOMENPELVIS;CHEST;CHESTABDOMEN;CHESTABDPELVIS;NECKCHESTABDPEL;PANCREAS;PELVIS,human,Homo sapiens,False,True,True
+CPTAC-SAR,24,CT;MR;PT,True,True,ABDOMEN;CHEST;EXTREMITY;PELVIS;WHOLEBODY,human,Homo sapiens,False,True,True
+CPTAC-STAD,20,CT;US,True,False,ABDOMEN;ABDOMENPELVIS;CHEST;CHESTABDPELVIS,human,Homo sapiens,False,True,True
+CPTAC-UCEC,90,CT;MR;PT;RTSTRUCT;US,True,True,ABDOMEN;ABDOMENPELVIS;CHEST;CHESTABDOMEN;CHESTABDPELVIS;NECK;NECKCHESTABDOME;NECKCHESTABDPEL;PELVIS,human,Homo sapiens,False,True,True
+CT COLONOGRAPHY,825,CT,True,False,COLON,human,Homo sapiens,False,False,True
+CT Lymph Nodes,176,CT;SEG,True,False,ABDOMEN;MEDIASTINUM,human,Homo sapiens,False,False,True
+CT-Phantom4Radiomics,1,CT;SEG,True,False,CHEST,phantom,Homo sapiens,False,False,False
+CT-vs-PET-Ventilation-Imaging,20,CT;PT;RWV,True,False,ABDOMEN;CHEST,human,Homo sapiens,False,False,True
+CT4Harmonization-Multicentric,1,CT;SEG,True,False,ABDOMEN;CHEST;CHESTABDOMEN,phantom,Homo sapiens,False,False,False
+CTpred-Sunitinib-panNET,38,CT,True,False,ABDOMEN;CHEST,human,Homo sapiens,False,False,True
+Colorectal-Liver-Metastases,197,CT;SEG,True,False,ABDOMEN,human,Homo sapiens,False,False,True
+DRO-Toolkit,32,CT;SEG,True,False,,phantom,Homo sapiens,False,False,False
+Duke-Breast-Cancer-MRI,922,MR;SEG,False,True,BREAST,human,Homo sapiens,False,False,True
+EA1141,500,CT;MG;MR,True,True,BREAST;CHEST;EXTREMITY,human,Homo sapiens,False,False,True
+EAY131,2813,CT;MR;NM;PT;RTSTRUCT;SEG;XA,True,True,ABDOMEN;ABDOMENPELVIS;ANKLE;AORTA;BONYPELVIS;BRAIN;CHEST;CHESTABDOMEN;CHESTABDPELVIS;EXTREMITY;EYE;FEMUR;HEAD;HEADNECK;LIVER;LOWERLIMB;LSPINE;NECK;PELVIS;SHOULDER;SPINE;TSPINE;WHOLEBODY,human,Homo sapiens,False,False,True
+FDG-PET-CT-Lesions,900,CT;PT;SEG,True,False,ABDOMEN;WHOLEBODY,human,Homo sapiens,False,False,True
+GBM-DSC-MRI-DRO,3,MR,False,True,PHANTOM,phantom,Homo sapiens,False,False,False
+HCC-TACE-Seg,105,CT;SEG,True,False,LIVER,human,Homo sapiens,False,False,True
+ICDC-Glioma,57,MR,False,True,HEAD,animal or mixed,Canis lupus familiaris,False,False,False
+ISPY1,222,MR;SEG;SR,False,True,BREAST,human,Homo sapiens,False,False,True
+ISPY2,719,MR;SEG,False,True,BREAST;TSPINE,human,Homo sapiens,False,False,True
+LCTSC,60,CT;RTSTRUCT,True,False,LUNG,human,Homo sapiens,False,False,True
+LDCT-and-Projection-data,200,CT,True,False,ABDOMEN;CHEST,human,Homo sapiens,False,False,True
+LIDC-IDRI,1010,CR;CT;DX;SEG;SR,True,False,CHEST,human,Homo sapiens,False,False,True
+Lung Phantom,1,CT;SEG,True,False,,phantom,Homo sapiens,False,False,False
+Lung-Fused-CT-Pathology,6,CT;FUSION;SEG,True,False,ABDOMEN;CHEST;FUSION;SEG,human,Homo sapiens,False,False,True
+Lung-PET-CT-Dx,355,CT;PT,True,False,ABDOMEN;CHEST;THORAX,human,Homo sapiens,False,False,True
+LungCT-Diagnosis,61,CT,True,False,LUNG,human,Homo sapiens,False,False,True
+MIDI-B-Curated-Test,322,CR;CT;DX;MG;MR;PT;SR;US,True,True,ABDOMEN;BLADDER;BREAST;CERVIX;CHEST;CHESTABDOMEN;CHESTABDPELVIS;COLON;KIDNEY;LUNG;OVARY;PANCREAS;PELVIS;PROSTATE;THYROID,human,Homo sapiens,False,False,True
+MIDI-B-Curated-Validation,216,CR;CT;DX;MG;MR;PT;SR;US,True,True,ABDOMEN;BLADDER;BREAST;CERVIX;CHEST;COLON;KIDNEY;LUNG;OVARY;PANCREAS;PELVIS;PROSTATE,human,Homo sapiens,False,False,True
+MIDI-B-Synthetic-Test,322,CR;CT;DX;MG;MR;PT;SR;US,True,True,ABDOMEN;BLADDER;BREAST;CERVIX;CHEST;CHESTABDOMEN;CHESTABDPELVIS;COLON;KIDNEY;LEFT BREAST;LUNG;OVARY;PANCREAS;PELVIS;PROSTATE;THYROID,human,Homo sapiens,False,False,True
+MIDI-B-Synthetic-Validation,216,CR;CT;DX;MG;MR;PT;SR;US,True,True,ABDOMEN;BLADDER;BREAST;CERVIX;CHEST;COLON;KIDNEY;LUNG;OVARY;PANCREAS;PELVIS;PROSTATE,human,Homo sapiens,False,False,True
+MIDRC-RICORD-1A,110,CT,True,False,ABDOMEN;CHEST,human,Homo sapiens,False,False,True
+MIDRC-RICORD-1B,117,CT,True,False,CHEST,human,Homo sapiens,False,False,True
+MIDRC-RICORD-1C,361,CR;DX,False,False,ABDOMEN;BREAST;CHEST,human,Homo sapiens,False,False,False
+MRI-DIR,9,CT;MR;RTSTRUCT,True,True,,human,Homo sapiens,False,False,True
+Mediastinal-Lymph-Node-SEG,513,CT;SEG,True,False,ABDOMEN;CHEST;CHESTABDOMEN;CHESTABDPELVIS;NECK;NECKCHESTABDPELV,human,Homo sapiens,False,False,True
+Mouse-Astrocytoma,48,MR,False,True,SKULL,animal or mixed,Mus musculus,False,False,False
+Mouse-Mammary,32,MR,False,True,ABDOMEN,animal or mixed,Mus musculus,False,False,False
+NLST,501,CT;SEG,True,False,CHEST;LUNG,human,Homo sapiens,False,False,True
+NSCLC Radiogenomics,211,CT;PT;SEG,True,False,ABDOMEN;CHEST;HEART;THORAX,human,Homo sapiens,False,False,True
+NSCLC-Radiomics,422,CT;RTSTRUCT;SEG,True,False,LUNG,human,Homo sapiens,False,False,True
+NSCLC-Radiomics-Genomics,89,CT,True,False,LUNG,human,Homo sapiens,False,False,True
+NSCLC-Radiomics-Interobserver1,22,CT;RTSTRUCT;SEG,True,False,LUNG,human,Homo sapiens,False,False,True
+NaF PROSTATE,9,CT;PT,True,False,PROSTATE,human,Homo sapiens,False,False,True
+PDMR-292921-168-R,20,MR;SR,False,True,ABDOMEN,animal or mixed,Mus musculus,False,False,False
+PDMR-425362-245-T,20,MR;SR,False,True,ABDOMEN,animal or mixed,Mus musculus,False,False,False
+PDMR-521955-158-R4,20,MR;SR,False,True,ABDOMEN,animal or mixed,Mus musculus,False,False,False
+PDMR-833975-119-R,20,MR;SR,False,True,ABDOMEN,animal or mixed,Mus musculus,False,False,False
+PDMR-997537-175-T,24,MR;SR,False,True,ABDOMEN,animal or mixed,Mus musculus,False,False,False
+PDMR-BL0293-F563,19,MR,False,True,ABDOMEN,animal or mixed,Mus musculus,False,False,False
+PDMR-Texture-Analysis,175,MR;SR,False,True,ABDOMEN,animal or mixed,Mus musculus,False,False,False
+PROSTATE-DIAGNOSIS,92,MR,False,True,PROSTATE,human,Homo sapiens,False,False,True
+PROSTATE-MRI,26,MR,False,True,PROSTATE,human,Homo sapiens,False,False,True
+PROSTATEx,346,MR;SEG,False,True,PROSTATE,human,Homo sapiens,False,False,True
+PSMA-PET-CT-Lesions,378,CT;PT;SEG,True,False,ABDOMEN;NECKCHESTABDOME;WHOLEBODY,human,Homo sapiens,False,False,True
+Pancreas-CT,80,CT,True,False,PANCREAS,human,Homo sapiens,False,False,True
+Pancreatic-CT-CBCT-SEG,40,CT;RTDOSE;RTSTRUCT,True,False,ABDOMEN;CHEST,human,Homo sapiens,False,False,True
+Pediatric-CT-SEG,359,CT;RTSTRUCT,True,False,ABDOMEN,human,Homo sapiens,False,False,True
+Pelvic-Reference-Data,58,CT,True,False,,human,Homo sapiens,False,False,True
+Phantom FDA,7,CT,True,False,,phantom,Homo sapiens,False,False,False
+Prostate Fused-MRI-Pathology,28,MR,False,True,PROSTATE,human,Homo sapiens,False,False,True
+Prostate-3T,64,MR,False,True,PROSTATE,human,Homo sapiens,False,False,True
+Prostate-Anatomical-Edge-Cases,131,CT;RTSTRUCT,True,False,PELVIS,human,Homo sapiens,False,False,True
+Prostate-MRI-US-Biopsy,1151,MR;US,False,True,ABDOMEN;PELVIS;PROSTATE;TSPINE,human,Homo sapiens,False,False,True
+Pseudo-PHI-DICOM-Data,42,CR;CT;DX;MG;MR;PT,True,True,BLADDER;BREAST;CHEST;EXTREMITY;KIDNEY;PELVIS;UTERUS,human,Homo sapiens,False,False,True
+QIBA CT-1C,1,CT;PR;SEG;SR,True,False,CHEST,phantom,Homo sapiens,False,False,False
+QIBA-CT-Liver-Phantom,3,CT,True,False,LIVER,phantom,Homo sapiens,False,False,False
+QIN Breast DCE-MRI,10,KO;MR,False,True,BREAST,human,Homo sapiens,False,False,True
+QIN LUNG CT,47,CT;SEG,True,False,CHEST;LUNG,human,Homo sapiens,False,False,True
+QIN PET Phantom,2,PT,False,False,PHANTOM,phantom,Homo sapiens,False,False,False
+QIN-BREAST,68,CT;MR;PT,True,True,BREAST,human,Homo sapiens,False,False,True
+QIN-BREAST-02,13,MR,False,True,,human,Homo sapiens,False,False,True
+QIN-PROSTATE-Repeatability,15,MR;SEG;SR,False,True,PROSTATE,human,Homo sapiens,False,False,True
+QIN-SARCOMA,15,MR,False,True,BREAST;CALF;CHEST;ELBOW;KNEE;LOWERLIMB;SHOULDER;THIGH,human,Homo sapiens,False,False,True
+RIDER Breast MRI,5,MR,False,True,BREAST,human,Homo sapiens,False,False,True
+RIDER Lung CT,32,CT;PR;RTSTRUCT;SEG;SR,True,False,CHEST,human,Homo sapiens,False,False,True
+RIDER Lung PET-CT,243,CT;PT,True,False,CHEST,human,Homo sapiens,False,False,True
+RIDER PHANTOM MRI,10,MR,False,True,PHANTOM,phantom,Homo sapiens,False,False,False
+RIDER PHANTOM PET-CT,20,CT;PT,True,False,PHANTOM,phantom,Homo sapiens,False,False,False
+RIDER Pilot,8,CR;CT;DX;PR;SEG;SR,True,False,CHEST,human,Homo sapiens,False,False,True
+ReMIND,114,MR;SEG;US,False,True,BRAIN,human,Homo sapiens,False,False,True
+S0819,1281,RTSTRUCT,False,False,ABDOMEN;BRAIN;CHEST;EXTREMITY;HEADNECK;LOWERLIMB;NECK;PELVIS;SPINE;WHOLEBODY,human,Homo sapiens,False,False,False
+SPIE-AAPM Lung CT Challenge,70,CT,True,False,LUNG,human,Homo sapiens,False,False,True
+Soft-tissue-Sarcoma,51,CT;MR;PT;RTSTRUCT,True,True,EXTREMITY,human,Homo sapiens,False,False,True
+Spinal-Multiple-Myeloma-SEG,67,CT;SEG,True,False,LSPINE,human,Homo sapiens,False,False,True
+Spine-Mets-CT-SEG,55,CT;SEG,True,False,ABDOMEN;CHEST;PELVIS;SPINE,human,Homo sapiens,False,False,True
+StageII-Colorectal-CT,230,CT,True,False,ABDOMEN;PELVIS,human,Homo sapiens,False,False,True
+TCGA-BLCA,120,CR;CT;DX;MR;PT,True,True,ABDOMEN;BLADDER;CHEST,human,Homo sapiens,True,False,True
+TCGA-BRCA,139,MG;MR;SR,False,True,BREAST,human,Homo sapiens,True,False,True
+TCGA-CESC,54,MR,False,True,CERVIX,human,Homo sapiens,True,False,True
+TCGA-COAD,25,CT;OT,True,False,COLON,human,Homo sapiens,True,False,True
+TCGA-ESCA,16,CT,True,False,ESOPHAGUS,human,Homo sapiens,True,False,True
+TCGA-KICH,15,CT;MR,True,True,KIDNEY,human,Homo sapiens,True,False,True
+TCGA-KIRC,267,CR;CT;MR,True,True,KIDNEY,human,Homo sapiens,True,False,True
+TCGA-KIRP,33,CT;MR;PT,True,True,KIDNEY,human,Homo sapiens,True,False,True
+TCGA-LIHC,97,CT;MR;PT,True,True,LIVER,human,Homo sapiens,True,False,True
+TCGA-LUAD,69,CT;NM;PT,True,False,CHEST;LUNG,human,Homo sapiens,True,False,True
+TCGA-LUSC,37,CT;NM;PT,True,False,LUNG,human,Homo sapiens,True,False,True
+TCGA-OV,143,CT;MR;OT,True,True,OVARY,human,Homo sapiens,True,False,True
+TCGA-PRAD,14,CT;MR;PT,True,True,PROSTATE,human,Homo sapiens,True,False,True
+TCGA-READ,3,CT;MR,True,True,RECTUM,human,Homo sapiens,True,False,True
+TCGA-SARC,5,CT;MR,True,True,CHESTABDPELVIS;LOWERLIMB;TSPINE,human,Homo sapiens,True,False,True
+TCGA-STAD,46,CT,True,False,STOMACH,human,Homo sapiens,True,False,True
+TCGA-THCA,6,CT;PT,True,False,THYROID,human,Homo sapiens,True,False,True
+TCGA-UCEC,65,CR;CT;MR;PT,True,True,ABDOMEN;UTERUS,human,Homo sapiens,True,False,True
+UPENN-GBM,630,MR,False,True,BRAIN;CSPINE;HEAD;HEADNECK;OTHER;UNKNOWN,human,Homo sapiens,False,False,True
+VAREPOP-APOLLO,41,CR;CT;DX;MR;NM;PT;RF;US,True,True,ABDOMEN;ABDOMENPELVIS;ADRENAL;CHEST;CHESTABDOMEN;CHESTABDPELVIS;CSPINE;CTSPINE;ELBOW;EXTREMITY;FEMORALA;HEAD;HEART;HIP;KNEE;LSPINE;NECK;PELVIS;SHOULDER;THORAX,human,Homo sapiens,False,False,True
+VICTRE,2994,MG,False,False,BREAST,human,Homo sapiens,False,False,False
+Vestibular-Schwannoma-MC-RC,160,MR,False,True,BRAIN;EAR;HEAD;HEADNECK;IAC;OPTICCANAL,human,Homo sapiens,False,False,True
+Vestibular-Schwannoma-SEG,242,MR;RTDOSE;RTPLAN;RTSTRUCT,False,True,BRAIN,human,Homo sapiens,False,False,True

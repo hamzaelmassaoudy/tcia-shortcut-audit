@@ -1,0 +1,5 @@
+target,role,slice_thickness_auc,ci_low,ci_high,tcga_auc,direction,background_transferred,consistent_with_prediction
+NSCLC Radiogenomics,independent (notebook 08),0.4284410368747718,0.3408748630887185,0.520335146597824,0.49616780960064544,no clear difference,False,True
+CPTAC lung,one collection per class (notebook 08),0.41929429429429427,0.295446001367054,0.5526387061403509,0.49616780960064544,no clear difference,False,True
+NSCLC-Radiomics,"independent (new, plan 7j)",,,,0.49616780960064544,not available,False,True
+Lung-PET-CT-Dx,"independent (new, plan 7j)",0.5032656260205082,0.43093536099791585,0.5691157490093207,0.49616780960064544,no clear difference,False,True

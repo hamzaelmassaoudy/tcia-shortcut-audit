@@ -1,0 +1,40 @@
+dataset,field,n,missing_share
+lung histology (LUAD vs LUSC),hdr_slice_thickness,104,0.0
+lung histology (LUAD vs LUSC),hdr_z_spacing,104,0.0
+lung histology (LUAD vs LUSC),hdr_pixel_spacing,104,0.0
+lung histology (LUAD vs LUSC),hdr_recon_diameter,104,0.19230769230769232
+lung histology (LUAD vs LUSC),hdr_kvp,104,0.0
+lung histology (LUAD vs LUSC),hdr_tube_current,104,0.019230769230769232
+lung histology (LUAD vs LUSC),hdr_exposure,104,0.0
+lung histology (LUAD vs LUSC),hdr_ctdivol,104,0.9519230769230769
+lung histology (LUAD vs LUSC),hdr_pitch,104,0.7788461538461539
+lung histology (LUAD vs LUSC),hdr_kernel,104,0.009615384615384616
+lung histology (LUAD vs LUSC),hdr_filter_type,104,0.18269230769230768
+lung histology (LUAD vs LUSC),hdr_patient_position,104,0.0
+lung histology (LUAD vs LUSC),body_area_cm2,104,0.0
+CPTAC lung,hdr_slice_thickness,73,0.0
+CPTAC lung,hdr_z_spacing,73,0.0
+CPTAC lung,hdr_pixel_spacing,73,0.0
+CPTAC lung,hdr_recon_diameter,73,0.0
+CPTAC lung,hdr_kvp,73,0.0
+CPTAC lung,hdr_tube_current,73,0.0
+CPTAC lung,hdr_exposure,73,0.0
+CPTAC lung,hdr_ctdivol,73,0.5616438356164384
+CPTAC lung,hdr_pitch,73,0.3972602739726027
+CPTAC lung,hdr_kernel,73,0.0
+CPTAC lung,hdr_filter_type,73,0.1232876712328767
+CPTAC lung,hdr_patient_position,73,0.0
+CPTAC lung,body_area_cm2,73,0.0
+NSCLC Radiogenomics,hdr_slice_thickness,199,0.0
+NSCLC Radiogenomics,hdr_z_spacing,199,0.0
+NSCLC Radiogenomics,hdr_pixel_spacing,199,0.0
+NSCLC Radiogenomics,hdr_recon_diameter,199,0.0
+NSCLC Radiogenomics,hdr_kvp,199,0.0
+NSCLC Radiogenomics,hdr_tube_current,199,0.05025125628140704
+NSCLC Radiogenomics,hdr_exposure,199,0.05025125628140704
+NSCLC Radiogenomics,hdr_ctdivol,199,0.8040201005025126
+NSCLC Radiogenomics,hdr_pitch,199,0.2964824120603015
+NSCLC Radiogenomics,hdr_kernel,199,0.0
+NSCLC Radiogenomics,hdr_filter_type,199,0.05527638190954774
+NSCLC Radiogenomics,hdr_patient_position,199,0.0
+NSCLC Radiogenomics,body_area_cm2,199,0.0

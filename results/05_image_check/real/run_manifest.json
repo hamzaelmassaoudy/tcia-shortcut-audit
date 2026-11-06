@@ -1,0 +1,623 @@
+{
+  "settings_key": "406a129f367b8daa4873e5a848b7461e",
+  "notebook": "05_image_model_check.ipynb",
+  "mode": "real",
+  "labels": "real",
+  "run_started_utc": "2026-10-29T04:57:15+00:00",
+  "run_finished_utc": "2026-10-29T07:16:38+00:00",
+  "in_colab": true,
+  "local_test_settings": {},
+  "input_runs": {
+    "01": "2026-10-28T12:20:42+00:00",
+    "02": "2026-10-28T15:29:58+00:00",
+    "03": "2026-10-28T16:27:39+00:00",
+    "04": "2026-10-28T19:04:36+00:00"
+  },
+  "tasks": {
+    "renal subtype (KIRC vs KIRP)": "hospital",
+    "CPTAC-PDA | stage": "description language",
+    "lung histology (LUAD vs LUSC)": "hospital",
+    "LIDC-IDRI | primary vs metastatic": "scanner vendor"
+  },
+  "reproduced_notebook03": true,
+  "same_versions_as_notebook03": true,
+  "patients_total": 525,
+  "patients_embedded": 525,
+  "settings": {
+    "SEED": 2026,
+    "N_SPLITS": 5,
+    "N_REPEATS": 5,
+    "N_BOOT": 2000,
+    "N_PERM": 999,
+    "MIN_COUNT": 3,
+    "FLAG_LOWER_CI": 0.6,
+    "FLAG_Q": 0.05,
+    "LR_PARAMS": {
+      "C": 1.0,
+      "class_weight": "balanced",
+      "max_iter": 5000
+    },
+    "BODY_HU": -500,
+    "OPEN_MM": 3.0,
+    "DILATE_MM": 5.0,
+    "AIR_HU": -1000,
+    "CTFM": [
+      "project-lighter/ct_fm_feature_extractor",
+      "527b0d1c262b433396c85ff2de84c427b26945a1",
+      [
+        3.0,
+        1.0,
+        1.0
+      ],
+      [
+        24,
+        128,
+        128
+      ],
+      0.625
+    ],
+    "MERLIN": [
+      "stanfordmimi/Merlin",
+      "66dd07585de79e4d8d70d67806da88f3ccaa5a0c",
+      "i3_resnet_clinical_longformer_best_clip_04-02-2024_23-21-36_epoch_99.pt"
+    ],
+    "SWAP_MIN_DIFF_MM": 0.5,
+    "SWAP_MIN_GAP_MM": 0.1,
+    "SWAP_SHIFT_MIN": 0.05,
+    "CONTROL_SIGMAS_MM": [
+      0.25,
+      0.5,
+      0.75,
+      1.0,
+      1.25,
+      1.5,
+      1.75,
+      2.0,
+      2.25,
+      2.5,
+      2.75,
+      3.0,
+      3.5,
+      4.0,
+      5.0,
+      6.0
+    ],
+    "HDR_COLS": [
+      "hdr_slice_thickness",
+      "hdr_z_spacing",
+      "hdr_pixel_spacing",
+      "hdr_recon_diameter",
+      "hdr_kvp",
+      "hdr_tube_current",
+      "hdr_exposure",
+      "hdr_ctdivol",
+      "hdr_pitch",
+      "hdr_kernel",
+      "hdr_filter_type",
+      "hdr_patient_position"
+    ],
+    "PREP_KEY": "da9faacb9675",
+    "EMB_KEY": "80818aae140a"
+  },
+  "versions": {
+    "python": "3.13.16",
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.6.1",
+    "joblib": "1.6.0",
+    "torch": "2.11.0+cu130",
+    "torchvision": "0.26.0+cu130",
+    "monai": "1.6.1",
+    "SimpleITK": "2.5.6",
+    "pydicom": "3.0.2",
+    "nibabel": "5.4.2",
+    "huggingface_hub": "1.33.0",
+    "merlin-vlm": "0.0.7",
+    "cpus": 12,
+    "gpu": "NVIDIA A100-SXM4-80GB"
+  },
+  "merlin_official_check": {
+    "patient": "CPTAC-PDA__C3L-00189",
+    "max_abs_diff": 0.0,
+    "max_abs_value": 1.9389615058898926
+  },
+  "cache_files": {
+    "count": 1053,
+    "combined_md5": "23f84dc5fbdd3e3047f4a4ad0cad85f8"
+  },
+  "outputs": [
+    {
+      "file": "header_audit.csv",
+      "bytes": 2890,
+      "rows": 4,
+      "md5": "a71080b50fb91f13f1f4fe1adcd76bd1"
+    },
+    {
+      "file": "image_heldout_hospitals.csv",
+      "bytes": 481,
+      "rows": 4,
+      "md5": "355039792bece2286fdab4a711e0a4ab"
+    },
+    {
+      "file": "image_probe.csv",
+      "bytes": 3348,
+      "rows": 8,
+      "md5": "1f216961598eb5ab5774b2d7ce918107"
+    },
+    {
+      "file": "image_swap.csv",
+      "bytes": 2625,
+      "rows": 8,
+      "md5": "3c126544db9308a00f977a1510364758"
+    },
+    {
+      "file": "image_vs_metadata.csv",
+      "bytes": 2606,
+      "rows": 8,
+      "md5": "e159db88f72de9a3194d8bd78aa31778"
+    },
+    {
+      "file": "image_within_group.csv",
+      "bytes": 1862,
+      "rows": 8,
+      "md5": "d2596647358d46cf9a4728bb6007dd12"
+    },
+    {
+      "file": "oof_image_predictions.csv.gz",
+      "bytes": 32690,
+      "rows": 1050,
+      "md5": "bd2a10ea040af0892a10963fdc9d97ff"
+    },
+    {
+      "file": "per_task/CPTAC_PDA_stage.json",
+      "bytes": 6659,
+      "rows": null,
+      "md5": "b74f40951d47fcd6a0de510b26055f5a"
+    },
+    {
+      "file": "per_task/CPTAC_PDA_stage_oof.csv.gz",
+      "bytes": 4412,
+      "rows": 136,
+      "md5": "c44fc466c52297227d14a353142e332d"
+    },
+    {
+      "file": "per_task/LIDC_IDRI_primary_vs_metastatic.json",
+      "bytes": 6766,
+      "rows": null,
+      "md5": "2c41a399a4ad689f143bec8ad0bf7f7f"
+    },
+    {
+      "file": "per_task/LIDC_IDRI_primary_vs_metastatic_oof.csv.gz",
+      "bytes": 6038,
+      "rows": 188,
+      "md5": "c9666e7ec768f4fde72cc37b03d474aa"
+    },
+    {
+      "file": "per_task/lung_histology_LUAD_vs_LUSC.json",
+      "bytes": 7096,
+      "rows": null,
+      "md5": "9ddd1bcdc6c72788305051de602cb798"
+    },
+    {
+      "file": "per_task/lung_histology_LUAD_vs_LUSC_oof.csv.gz",
+      "bytes": 6760,
+      "rows": 208,
+      "md5": "5f80a669be0e38b4b1be9fd334c125bc"
+    },
+    {
+      "file": "per_task/renal_subtype_KIRC_vs_KIRP.json",
+      "bytes": 6000,
+      "rows": null,
+      "md5": "1369ab5a4e471352d39ae3841d6da045"
+    },
+    {
+      "file": "per_task/renal_subtype_KIRC_vs_KIRP_oof.csv.gz",
+      "bytes": 16478,
+      "rows": 518,
+      "md5": "1014e86eac9ccee144e0a54c62920ea0"
+    },
+    {
+      "file": "reproduction_check.csv",
+      "bytes": 422,
+      "rows": 4,
+      "md5": "c9fcb542604eff79f74ce6b6a08c91bd"
+    },
+    {
+      "file": "shortcut_wording.csv",
+      "bytes": 542,
+      "rows": 8,
+      "md5": "6904c72d9b4d3076098307d954a0f25c"
+    },
+    {
+      "file": "swap_embeddings/CPTAC-PDA__C3L-04495__2.500.npz",
+      "bytes": 23114,
+      "rows": null,
+      "md5": "9c33b5cafc826abdfa0c7984d046be2a"
+    },
+    {
+      "file": "swap_embeddings/CPTAC-PDA__C3N-00302__2.500.npz",
+      "bytes": 23174,
+      "rows": null,
+      "md5": "6265ea91305b843ee359c3bd47a60b3b"
+    },
+    {
+      "file": "swap_embeddings/CPTAC-PDA__C3N-01165__2.500.npz",
+      "bytes": 23166,
+      "rows": null,
+      "md5": "82f7bc0225b61fb7dcf306fc0b50f6bc"
+    },
+    {
+      "file": "swap_embeddings/CPTAC-PDA__C3N-01166__2.500.npz",
+      "bytes": 23170,
+      "rows": null,
+      "md5": "e1b9688de90041796f7d6e6c33cdf573"
+    },
+    {
+      "file": "swap_embeddings/CPTAC-PDA__C3N-01382__2.500.npz",
+      "bytes": 23170,
+      "rows": null,
+      "md5": "b017692b26e4ce7840e00eeecc46846d"
+    },
+    {
+      "file": "swap_embeddings/CPTAC-PDA__C3N-01383__2.500.npz",
+      "bytes": 23174,
+      "rows": null,
+      "md5": "ab69daa9aaab32c0da1ebf351a3f90af"
+    },
+    {
+      "file": "swap_embeddings/CPTAC-PDA__C3N-01715__2.500.npz",
+      "bytes": 23166,
+      "rows": null,
+      "md5": "a82b570b5e21ce12fda80d161005fff6"
+    },
+    {
+      "file": "swap_embeddings/CPTAC-PDA__C3N-01716__2.500.npz",
+      "bytes": 23102,
+      "rows": null,
+      "md5": "cf3e21e6d2d80b0baa45b46f43c2adc4"
+    },
+    {
+      "file": "swap_embeddings/CPTAC-PDA__C3N-02010__2.500.npz",
+      "bytes": 23106,
+      "rows": null,
+      "md5": "3694a819e3c24c09668433b8f7e4f26e"
+    },
+    {
+      "file": "swap_embeddings/CPTAC-PDA__C3N-02971__2.500.npz",
+      "bytes": 23106,
+      "rows": null,
+      "md5": "117f76b485db544fb8f76c02cdd2a170"
+    },
+    {
+      "file": "swap_embeddings/CPTAC-PDA__C3N-02997__2.500.npz",
+      "bytes": 23114,
+      "rows": null,
+      "md5": "2f8dbc0c926a6a9587a7541af07d53ea"
+    },
+    {
+      "file": "swap_embeddings/CPTAC-PDA__C3N-03000__2.500.npz",
+      "bytes": 23106,
+      "rows": null,
+      "md5": "59f447d1fbfa3e95b318924e711ec2d0"
+    },
+    {
+      "file": "swap_embeddings/CPTAC-PDA__C3N-03670__2.500.npz",
+      "bytes": 23178,
+      "rows": null,
+      "md5": "409a493339f3a4a2bbaeebb6c2c4c454"
+    },
+    {
+      "file": "swap_embeddings/CPTAC-PDA__C3N-03754__2.500.npz",
+      "bytes": 23110,
+      "rows": null,
+      "md5": "a30935a6e12bee67f1f0dc700a579fe8"
+    },
+    {
+      "file": "swap_embeddings/LIDC-IDRI__LIDC-IDRI-0072__2.500.npz",
+      "bytes": 23114,
+      "rows": null,
+      "md5": "b1746263ef6ffd85c1de7877fb7e0d6c"
+    },
+    {
+      "file": "swap_embeddings/LIDC-IDRI__LIDC-IDRI-0138__2.500.npz",
+      "bytes": 23134,
+      "rows": null,
+      "md5": "d0a5476d260cbf4ebf182b2af1432580"
+    },
+    {
+      "file": "swap_embeddings/LIDC-IDRI__LIDC-IDRI-0211__2.500.npz",
+      "bytes": 23110,
+      "rows": null,
+      "md5": "2cd0ef3f4e4968dea0c9dbb7320cc4d6"
+    },
+    {
+      "file": "swap_embeddings/LIDC-IDRI__LIDC-IDRI-0249__2.500.npz",
+      "bytes": 23102,
+      "rows": null,
+      "md5": "e1e64dd816dfad8e0d776a2bf5074bdc"
+    },
+    {
+      "file": "swap_embeddings/LIDC-IDRI__LIDC-IDRI-0314__2.500.npz",
+      "bytes": 23098,
+      "rows": null,
+      "md5": "171b2e376058a07a43469dc8036ddb16"
+    },
+    {
+      "file": "swap_embeddings/LIDC-IDRI__LIDC-IDRI-0325__2.500.npz",
+      "bytes": 23098,
+      "rows": null,
+      "md5": "ee5d88d8bd168d81c533377b71a54bd4"
+    },
+    {
+      "file": "swap_embeddings/LIDC-IDRI__LIDC-IDRI-0332__2.500.npz",
+      "bytes": 23106,
+      "rows": null,
+      "md5": "f7e7911b88c01f7004014634e04327e4"
+    },
+    {
+      "file": "swap_embeddings/LIDC-IDRI__LIDC-IDRI-0377__2.500.npz",
+      "bytes": 23110,
+      "rows": null,
+      "md5": "d5bb9b24daf7f02bec7bac9251590220"
+    },
+    {
+      "file": "swap_embeddings/LIDC-IDRI__LIDC-IDRI-0385__2.500.npz",
+      "bytes": 23106,
+      "rows": null,
+      "md5": "f8850e36e984b6272c49f7215e5e702e"
+    },
+    {
+      "file": "swap_embeddings/LIDC-IDRI__LIDC-IDRI-0454__2.500.npz",
+      "bytes": 23102,
+      "rows": null,
+      "md5": "6386a72b2b31cd04fb30156b318e5668"
+    },
+    {
+      "file": "swap_embeddings/LIDC-IDRI__LIDC-IDRI-0470__2.500.npz",
+      "bytes": 23114,
+      "rows": null,
+      "md5": "06e1529036c47c3632f21b60f0080794"
+    },
+    {
+      "file": "swap_embeddings/LIDC-IDRI__LIDC-IDRI-0493__2.500.npz",
+      "bytes": 23118,
+      "rows": null,
+      "md5": "fefc066c80b088c0781e14dfb88aceff"
+    },
+    {
+      "file": "swap_embeddings/LIDC-IDRI__LIDC-IDRI-0522__2.500.npz",
+      "bytes": 23102,
+      "rows": null,
+      "md5": "56bde067021227db049c54b6446fcaba"
+    },
+    {
+      "file": "swap_embeddings/LIDC-IDRI__LIDC-IDRI-0543__2.500.npz",
+      "bytes": 23114,
+      "rows": null,
+      "md5": "2b73f01681fc73bc83a871fb99417a4f"
+    },
+    {
+      "file": "swap_embeddings/LIDC-IDRI__LIDC-IDRI-0562__2.500.npz",
+      "bytes": 23102,
+      "rows": null,
+      "md5": "6c789ce7d146499fa157a61f3ebfb21c"
+    },
+    {
+      "file": "swap_embeddings/LIDC-IDRI__LIDC-IDRI-0568__2.500.npz",
+      "bytes": 23110,
+      "rows": null,
+      "md5": "0ca5f4375e8f3d6129b8482e821ad9a3"
+    },
+    {
+      "file": "swap_embeddings/LIDC-IDRI__LIDC-IDRI-0580__2.500.npz",
+      "bytes": 23114,
+      "rows": null,
+      "md5": "568d5d9b71ba9eca8340055540a16220"
+    },
+    {
+      "file": "swap_embeddings/LIDC-IDRI__LIDC-IDRI-0610__2.500.npz",
+      "bytes": 23110,
+      "rows": null,
+      "md5": "a0a694ad3a70ab632053221f1d208812"
+    },
+    {
+      "file": "swap_embeddings/LIDC-IDRI__LIDC-IDRI-0766__2.500.npz",
+      "bytes": 23102,
+      "rows": null,
+      "md5": "2ccef8887264d6060dc6daaed91f32a6"
+    },
+    {
+      "file": "swap_embeddings/LIDC-IDRI__LIDC-IDRI-0771__2.500.npz",
+      "bytes": 23106,
+      "rows": null,
+      "md5": "2e574b2cfd6c372c5888d4640a3612c6"
+    },
+    {
+      "file": "swap_embeddings/LIDC-IDRI__LIDC-IDRI-0811__2.500.npz",
+      "bytes": 23098,
+      "rows": null,
+      "md5": "cb9635204adbba2c86670ce01de0674f"
+    },
+    {
+      "file": "swap_embeddings/LIDC-IDRI__LIDC-IDRI-0875__2.500.npz",
+      "bytes": 23098,
+      "rows": null,
+      "md5": "814a7f3bd88f1b24726750605ccf3899"
+    },
+    {
+      "file": "swap_embeddings/LIDC-IDRI__LIDC-IDRI-0905__2.500.npz",
+      "bytes": 23098,
+      "rows": null,
+      "md5": "ebb68be48fa79f2081bf01eea013c2e9"
+    },
+    {
+      "file": "swap_embeddings/LIDC-IDRI__LIDC-IDRI-0921__2.500.npz",
+      "bytes": 23114,
+      "rows": null,
+      "md5": "d1d6cc09790cd9902313cc5b79126426"
+    },
+    {
+      "file": "swap_embeddings/LIDC-IDRI__LIDC-IDRI-0924__2.500.npz",
+      "bytes": 23114,
+      "rows": null,
+      "md5": "5d1c4ae43352a31d4dce415525f84eee"
+    },
+    {
+      "file": "swap_embeddings/LIDC-IDRI__LIDC-IDRI-0939__2.500.npz",
+      "bytes": 23110,
+      "rows": null,
+      "md5": "857f6c783a23c2be443fd59fc27551d0"
+    },
+    {
+      "file": "swap_embeddings/LIDC-IDRI__LIDC-IDRI-0965__2.500.npz",
+      "bytes": 23110,
+      "rows": null,
+      "md5": "b3e6960d34babdb0bacc461f42ce1215"
+    },
+    {
+      "file": "swap_embeddings/LIDC-IDRI__LIDC-IDRI-0994__2.500.npz",
+      "bytes": 23106,
+      "rows": null,
+      "md5": "ff8328f641ef94e3f34aed3846aa25cd"
+    },
+    {
+      "file": "swap_embeddings/LIDC-IDRI__LIDC-IDRI-1002__2.500.npz",
+      "bytes": 23102,
+      "rows": null,
+      "md5": "ba527eb9ce9e799527e38d7ee745f1ef"
+    },
+    {
+      "file": "swap_embeddings/LIDC-IDRI__LIDC-IDRI-1004__2.500.npz",
+      "bytes": 23110,
+      "rows": null,
+      "md5": "f2eaf11b86f3d69505bd6d3c0ccb39d4"
+    },
+    {
+      "file": "swap_embeddings/TCGA-LUSC__TCGA-34-5231__5.000.npz",
+      "bytes": 23110,
+      "rows": null,
+      "md5": "08b36785b101d3dc12481e30ba5e8ff6"
+    },
+    {
+      "file": "swap_embeddings/TCGA-LUSC__TCGA-34-5234__5.000.npz",
+      "bytes": 23118,
+      "rows": null,
+      "md5": "54a9746bdf0d4b65a6e0c3862bbe7ba3"
+    },
+    {
+      "file": "swap_embeddings/TCGA-LUSC__TCGA-34-5236__5.000.npz",
+      "bytes": 23182,
+      "rows": null,
+      "md5": "2971f76d13d7f99b534dc75f07a9e844"
+    },
+    {
+      "file": "swap_embeddings/TCGA-LUSC__TCGA-34-5928__5.000.npz",
+      "bytes": 23102,
+      "rows": null,
+      "md5": "fed412edfff170a1c18a427c0c4104e7"
+    },
+    {
+      "file": "swap_embeddings/TCGA-LUSC__TCGA-34-8454__5.000.npz",
+      "bytes": 23102,
+      "rows": null,
+      "md5": "d97e4ec747e91b9eb355d44ba4e0b4df"
+    },
+    {
+      "file": "swap_embeddings/TCGA-LUSC__TCGA-34-8455__5.000.npz",
+      "bytes": 23098,
+      "rows": null,
+      "md5": "2ae817945e0000f5caa5ded8d8547d3b"
+    },
+    {
+      "file": "swap_embeddings/TCGA-LUSC__TCGA-34-A5IX__5.000.npz",
+      "bytes": 23098,
+      "rows": null,
+      "md5": "259a518c4c2e7a0da7d0e732eaa83377"
+    },
+    {
+      "file": "swap_embeddings/TCGA-LUSC__TCGA-51-6867__5.000.npz",
+      "bytes": 23094,
+      "rows": null,
+      "md5": "6b90ca4ce4df722cd10fec68e5b4555f"
+    },
+    {
+      "file": "swap_embeddings/TCGA-LUSC__TCGA-60-2711__5.000.npz",
+      "bytes": 23186,
+      "rows": null,
+      "md5": "ef88bc5bae8d2e576faf66ae4bde953a"
+    },
+    {
+      "file": "swap_embeddings/TCGA-LUSC__TCGA-60-2715__5.000.npz",
+      "bytes": 23106,
+      "rows": null,
+      "md5": "0f37c63407ecdf8684f926636a20bd5b"
+    },
+    {
+      "file": "swap_embeddings/TCGA-LUSC__TCGA-60-2716__5.000.npz",
+      "bytes": 23102,
+      "rows": null,
+      "md5": "be07093a039805f4137d1e808117982f"
+    },
+    {
+      "file": "swap_embeddings/TCGA-LUSC__TCGA-60-2719__5.000.npz",
+      "bytes": 23182,
+      "rows": null,
+      "md5": "6c2732072c460682583c55bc57f5b036"
+    },
+    {
+      "file": "swap_embeddings/TCGA-LUSC__TCGA-60-2721__5.000.npz",
+      "bytes": 23174,
+      "rows": null,
+      "md5": "4f2fa828885dc288002b4ff39cd0d32f"
+    },
+    {
+      "file": "swap_embeddings/TCGA-LUSC__TCGA-60-2722__5.000.npz",
+      "bytes": 23110,
+      "rows": null,
+      "md5": "cfbae7219e8056ab392eb71175c3686c"
+    },
+    {
+      "file": "swap_embeddings/TCGA-LUSC__TCGA-60-2726__5.000.npz",
+      "bytes": 23106,
+      "rows": null,
+      "md5": "171e5ec99e449e587c0b3793a045ae66"
+    },
+    {
+      "file": "swap_embeddings/TCGA-LUSC__TCGA-92-7340__5.000.npz",
+      "bytes": 23126,
+      "rows": null,
+      "md5": "9068d6ca17c72771359aa010235bdf82"
+    },
+    {
+      "file": "swap_embeddings/TCGA-LUSC__TCGA-92-7341__5.000.npz",
+      "bytes": 23114,
+      "rows": null,
+      "md5": "ee409b2e0f7095cabd7c176d2f2c18a6"
+    },
+    {
+      "file": "swap_embeddings/TCGA-LUSC__TCGA-92-8063__5.000.npz",
+      "bytes": 23114,
+      "rows": null,
+      "md5": "376d5694a5c8c5fefcb13264861458db"
+    },
+    {
+      "file": "swap_embeddings/TCGA-LUSC__TCGA-92-8064__5.000.npz",
+      "bytes": 23118,
+      "rows": null,
+      "md5": "559ea3f210dccd16ac7fd81329df17e5"
+    },
+    {
+      "file": "swap_embeddings/TCGA-LUSC__TCGA-92-8065__5.000.npz",
+      "bytes": 23106,
+      "rows": null,
+      "md5": "f000ed724e087c9f0171ce3f09b241be"
+    },
+    {
+      "file": "swap_embeddings/TCGA-LUSC__TCGA-J1-A4AH__5.000.npz",
+      "bytes": 23122,
+      "rows": null,
+      "md5": "b0533d9f6208b89299dac0ebe4bc799d"
+    }
+  ]
+}

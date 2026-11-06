@@ -1,0 +1,75 @@
+task_id,site,n_TCGA-LUAD,n_TCGA-LUSC,mixed_class,n_sites,n_mixed_class_sites,patients_in_mixed_class_sites,patients_with_site,n_TCGA-KIRC,n_TCGA-KIRP,n_mutant,n_wildtype,n_adenocarcinoma,n_squamous,n_early (I-II),n_late (III-IV),n_high (G3-G4),n_low (G1-G2)
+lung histology (LUAD vs LUSC),lahey clinic,4.0,1.0,True,,,,,,,,,,,,,,
+lung histology (LUAD vs LUSC),roswell park,0.0,14.0,False,,,,,,,,,,,,,,
+lung histology (LUAD vs LUSC),unc,6.0,3.0,True,,,,,,,,,,,,,,
+lung histology (LUAD vs LUSC),university of pittsburgh,19.0,14.0,True,,,,,,,,,,,,,,
+lung histology (LUAD vs LUSC),washington university,38.0,5.0,True,,,,,,,,,,,,,,
+lung histology (LUAD vs LUSC),ALL,,,,5.0,4.0,90.0,104.0,,,,,,,,,,
+renal subtype (KIRC vs KIRP),harvard,,,False,,,,,15.0,0.0,,,,,,,,
+renal subtype (KIRC vs KIRP),lahey clinic,,,False,,,,,0.0,1.0,,,,,,,,
+renal subtype (KIRC vs KIRP),mayo clinic,,,False,,,,,15.0,0.0,,,,,,,,
+renal subtype (KIRC vs KIRP),md anderson cancer center,,,False,,,,,51.0,0.0,,,,,,,,
+renal subtype (KIRC vs KIRP),memorial sloan kettering,,,False,,,,,88.0,0.0,,,,,,,,
+renal subtype (KIRC vs KIRP),nci urologic oncology branch,,,True,,,,,9.0,4.0,,,,,,,,
+renal subtype (KIRC vs KIRP),roswell park,,,True,,,,,3.0,11.0,,,,,,,,
+renal subtype (KIRC vs KIRP),unc,,,True,,,,,25.0,7.0,,,,,,,,
+renal subtype (KIRC vs KIRP),university of pittsburgh,,,False,,,,,30.0,0.0,,,,,,,,
+renal subtype (KIRC vs KIRP),ALL,,,,9.0,3.0,59.0,259.0,,,,,,,,,,
+NSCLC Radiogenomics | EGFR mutation,Stanford,,,True,,,,,,,33.0,58.0,,,,,,
+NSCLC Radiogenomics | EGFR mutation,VA,,,True,,,,,,,8.0,67.0,,,,,,
+NSCLC Radiogenomics | EGFR mutation,ALL,,,,2.0,2.0,166.0,166.0,,,,,,,,,,
+NSCLC Radiogenomics | KRAS mutation,Stanford,,,True,,,,,,,17.0,74.0,,,,,,
+NSCLC Radiogenomics | KRAS mutation,VA,,,True,,,,,,,19.0,55.0,,,,,,
+NSCLC Radiogenomics | KRAS mutation,ALL,,,,2.0,2.0,165.0,165.0,,,,,,,,,,
+NSCLC Radiogenomics | histology,Stanford,,,True,,,,,,,,,101.0,8.0,,,,
+NSCLC Radiogenomics | histology,VA,,,True,,,,,,,,,65.0,25.0,,,,
+NSCLC Radiogenomics | histology,ALL,,,,2.0,2.0,199.0,199.0,,,,,,,,,,
+TCGA-BLCA | stage,barretos cancer hospital,,,True,,,,,,,,,,,5.0,6.0,,
+TCGA-BLCA | stage,lahey clinic,,,True,,,,,,,,,,,3.0,3.0,,
+TCGA-BLCA | stage,md anderson cancer center,,,True,,,,,,,,,,,10.0,4.0,,
+TCGA-BLCA | stage,memorial sloan kettering,,,True,,,,,,,,,,,7.0,12.0,,
+TCGA-BLCA | stage,unc,,,False,,,,,,,,,,,0.0,6.0,,
+TCGA-BLCA | stage,university of chicago,,,True,,,,,,,,,,,5.0,16.0,,
+TCGA-BLCA | stage,university of sheffield,,,True,,,,,,,,,,,9.0,12.0,,
+TCGA-BLCA | stage,university of southern california,,,True,,,,,,,,,,,2.0,7.0,,
+TCGA-BLCA | stage,ALL,,,,8.0,7.0,101.0,107.0,,,,,,,,,,
+TCGA-BRCA | stage,mayo clinic,,,True,,,,,,,,,,,7.0,3.0,,
+TCGA-BRCA | stage,memorial sloan kettering,,,True,,,,,,,,,,,11.0,2.0,,
+TCGA-BRCA | stage,roswell park,,,True,,,,,,,,,,,31.0,6.0,,
+TCGA-BRCA | stage,unc,,,False,,,,,,,,,,,0.0,1.0,,
+TCGA-BRCA | stage,university of chicago,,,True,,,,,,,,,,,15.0,2.0,,
+TCGA-BRCA | stage,university of miami,,,True,,,,,,,,,,,11.0,2.0,,
+TCGA-BRCA | stage,university of pittsburgh,,,True,,,,,,,,,,,40.0,6.0,,
+TCGA-BRCA | stage,ALL,,,,7.0,6.0,136.0,137.0,,,,,,,,,,
+TCGA-KIRC | grade,harvard,,,True,,,,,,,,,,,,,8.0,7.0
+TCGA-KIRC | grade,mayo clinic,,,True,,,,,,,,,,,,,7.0,8.0
+TCGA-KIRC | grade,md anderson cancer center,,,True,,,,,,,,,,,,,44.0,7.0
+TCGA-KIRC | grade,memorial sloan kettering,,,True,,,,,,,,,,,,,46.0,42.0
+TCGA-KIRC | grade,nci urologic oncology branch,,,True,,,,,,,,,,,,,1.0,8.0
+TCGA-KIRC | grade,roswell park,,,False,,,,,,,,,,,,,3.0,0.0
+TCGA-KIRC | grade,unc,,,True,,,,,,,,,,,,,13.0,12.0
+TCGA-KIRC | grade,university of pittsburgh,,,True,,,,,,,,,,,,,16.0,14.0
+TCGA-KIRC | grade,ALL,,,,8.0,7.0,233.0,236.0,,,,,,,,,,
+TCGA-KIRC | stage,harvard,,,True,,,,,,,,,,,11.0,4.0,,
+TCGA-KIRC | stage,mayo clinic,,,True,,,,,,,,,,,8.0,7.0,,
+TCGA-KIRC | stage,md anderson cancer center,,,True,,,,,,,,,,,22.0,29.0,,
+TCGA-KIRC | stage,memorial sloan kettering,,,True,,,,,,,,,,,60.0,28.0,,
+TCGA-KIRC | stage,nci urologic oncology branch,,,False,,,,,,,,,,,9.0,0.0,,
+TCGA-KIRC | stage,roswell park,,,True,,,,,,,,,,,1.0,2.0,,
+TCGA-KIRC | stage,unc,,,True,,,,,,,,,,,15.0,10.0,,
+TCGA-KIRC | stage,university of pittsburgh,,,True,,,,,,,,,,,15.0,15.0,,
+TCGA-KIRC | stage,ALL,,,,8.0,7.0,227.0,236.0,,,,,,,,,,
+TCGA-LIHC | grade,alberta health services,,,True,,,,,,,,,,,,,4.0,17.0
+TCGA-LIHC | grade,lahey clinic,,,False,,,,,,,,,,,,,0.0,2.0
+TCGA-LIHC | grade,mayo clinic,,,True,,,,,,,,,,,,,21.0,25.0
+TCGA-LIHC | grade,unc,,,True,,,,,,,,,,,,,2.0,4.0
+TCGA-LIHC | grade,ALL,,,,4.0,3.0,73.0,75.0,,,,,,,,,,
+TCGA-LIHC | stage,alberta health services,,,True,,,,,,,,,,,17.0,4.0,,
+TCGA-LIHC | stage,lahey clinic,,,False,,,,,,,,,,,2.0,0.0,,
+TCGA-LIHC | stage,mayo clinic,,,True,,,,,,,,,,,30.0,16.0,,
+TCGA-LIHC | stage,unc,,,True,,,,,,,,,,,3.0,1.0,,
+TCGA-LIHC | stage,ALL,,,,4.0,3.0,71.0,73.0,,,,,,,,,,
+TCGA-UCEC | grade,mayo clinic,,,True,,,,,,,,,,,,,21.0,27.0
+TCGA-UCEC | grade,md anderson cancer center,,,True,,,,,,,,,,,,,6.0,1.0
+TCGA-UCEC | grade,washington university,,,False,,,,,,,,,,,,,9.0,0.0
+TCGA-UCEC | grade,ALL,,,,3.0,2.0,55.0,64.0,,,,,,,,,,

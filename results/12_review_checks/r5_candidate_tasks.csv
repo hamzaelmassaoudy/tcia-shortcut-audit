@@ -1,0 +1,53 @@
+task_id,task_type,label_source,collections,modality,n_patients,n_classes,class_counts,min_class_n,eligible,exclusion_reason
+lung histology (LUAD vs LUSC),collection-defined (6b),source collection,"TCGA-LUAD, TCGA-LUSC",CT,104,2,TCGA-LUAD: 67; TCGA-LUSC: 37,37,True,
+renal subtype (KIRC vs KIRP),collection-defined (6b),source collection,"TCGA-KIRC, TCGA-KIRP",CT,259,2,TCGA-KIRC: 236; TCGA-KIRP: 23,23,True,
+CPTAC-CCRCC | grade,within collection (6a),GDC tumor_grade,CPTAC-CCRCC,CT,63,2,low (G1-G2): 43; high (G3-G4): 20,20,True,
+CPTAC-CCRCC | stage,within collection (6a),GDC ajcc_pathologic_stage,CPTAC-CCRCC,CT,64,2,early (I-II): 41; late (III-IV): 23,23,True,
+CPTAC-PDA | grade,within collection (6a),GDC tumor_grade,CPTAC-PDA,CT,71,2,low (G1-G2): 51; high (G3-G4): 20,20,True,
+CPTAC-PDA | stage,within collection (6a),GDC ajcc_pathologic_stage,CPTAC-PDA,CT,68,2,early (I-II): 47; late (III-IV): 21,21,True,
+CPTAC-UCEC | grade,within collection (6a),GDC tumor_grade,CPTAC-UCEC,CT,69,2,low (G1-G2): 49; high (G3-G4): 20,20,True,
+Duke-Breast-Cancer-MRI | ER status,within collection (6a),Clinical_and_Other_Features.xlsx,Duke-Breast-Cancer-MRI,MR,922,2,positive: 686; negative: 236,236,True,
+Duke-Breast-Cancer-MRI | HER2 status,within collection (6a),Clinical_and_Other_Features.xlsx,Duke-Breast-Cancer-MRI,MR,922,2,negative: 759; positive: 163,163,True,
+Duke-Breast-Cancer-MRI | PR status,within collection (6a),Clinical_and_Other_Features.xlsx,Duke-Breast-Cancer-MRI,MR,922,2,positive: 598; negative: 324,324,True,
+Duke-Breast-Cancer-MRI | molecular subtype,within collection (6a),Clinical_and_Other_Features.xlsx,Duke-Breast-Cancer-MRI,MR,922,4,luminal-like: 595; triple negative: 164; ER/PR+ HER2+: 104; HER2-enriched: 59,59,True,
+HCC-TACE-Seg | stage,within collection (6a),HCC-TACE-Seg_clinical_data-V2.xlsx,HCC-TACE-Seg,CT,105,2,early (I-II): 57; late (III-IV): 48,48,True,
+LIDC-IDRI | benign vs malignant,within collection (6a),tcia-diagnosis-data-2012-04-20.xls,LIDC-IDRI,CT,130,2,malignant: 94; benign: 36,36,True,
+LIDC-IDRI | primary vs metastatic,within collection (6a),tcia-diagnosis-data-2012-04-20.xls,LIDC-IDRI,CT,94,2,metastatic: 51; primary lung cancer: 43,43,True,
+NSCLC Radiogenomics | EGFR mutation,within collection (6a),NSCLCR01Radiogenomic_DATA_LABELS_2018-05-22_1500-shifted.csv,NSCLC Radiogenomics,CT,166,2,wildtype: 125; mutant: 41,41,True,
+NSCLC Radiogenomics | KRAS mutation,within collection (6a),NSCLCR01Radiogenomic_DATA_LABELS_2018-05-22_1500-shifted.csv,NSCLC Radiogenomics,CT,165,2,wildtype: 129; mutant: 36,36,True,
+NSCLC Radiogenomics | histology,within collection (6a),NSCLCR01Radiogenomic_DATA_LABELS_2018-05-22_1500-shifted.csv,NSCLC Radiogenomics,CT,199,2,adenocarcinoma: 166; squamous: 33,33,True,
+PROSTATEx | clinically significant,within collection (6a),ProstateX-Findings-Train.csv,PROSTATEx,MR,204,2,not significant: 134; significant: 70,70,True,
+TCGA-BLCA | stage,within collection (6a),GDC ajcc_pathologic_stage,TCGA-BLCA,CT,107,2,late (III-IV): 66; early (I-II): 41,41,True,
+TCGA-BRCA | stage,within collection (6a),GDC ajcc_pathologic_stage,TCGA-BRCA,MR,137,2,early (I-II): 115; late (III-IV): 22,22,True,
+TCGA-KIRC | grade,within collection (6a),GDC tumor_grade,TCGA-KIRC,CT,236,2,high (G3-G4): 138; low (G1-G2): 98,98,True,
+TCGA-KIRC | stage,within collection (6a),GDC ajcc_pathologic_stage,TCGA-KIRC,CT,236,2,early (I-II): 141; late (III-IV): 95,95,True,
+TCGA-LIHC | grade,within collection (6a),GDC tumor_grade,TCGA-LIHC,CT,75,2,low (G1-G2): 48; high (G3-G4): 27,27,True,
+TCGA-LIHC | stage,within collection (6a),GDC ajcc_pathologic_stage,TCGA-LIHC,CT,73,2,early (I-II): 52; late (III-IV): 21,21,True,
+TCGA-UCEC | grade,within collection (6a),GDC tumor_grade,TCGA-UCEC,CT,64,2,high (G3-G4): 36; low (G1-G2): 28,28,True,
+UPENN-GBM | MGMT methylation,within collection (6a),UPENN-GBM_clinical_info_v2.1.csv,UPENN-GBM,MR,262,2,unmethylated: 151; methylated: 111,111,True,
+renal subtype (KIRC vs KICH),collection-defined (6b),source collection,"TCGA-KICH, TCGA-KIRC",CT,248,2,TCGA-KIRC: 236; TCGA-KICH: 12,12,False,smallest class < 20 patients with imaging
+renal subtype (KIRC vs KIRP vs KICH),collection-defined (6b),source collection,"TCGA-KICH, TCGA-KIRC, TCGA-KIRP",CT,271,3,TCGA-KIRC: 236; TCGA-KIRP: 23; TCGA-KICH: 12,12,False,smallest class < 20 patients with imaging
+renal subtype (KIRP vs KICH),collection-defined (6b),source collection,"TCGA-KICH, TCGA-KIRP",CT,35,2,TCGA-KIRP: 23; TCGA-KICH: 12,12,False,smallest class < 20 patients with imaging
+CPTAC-CM | stage,within collection (6a),GDC ajcc_pathologic_stage,CPTAC-CM,CT,14,2,early (I-II): 8; late (III-IV): 6,6,False,smallest class < 20 patients with imaging
+CPTAC-LSCC | grade,within collection (6a),GDC tumor_grade,CPTAC-LSCC,CT,20,2,low (G1-G2): 15; high (G3-G4): 5,5,False,smallest class < 20 patients with imaging
+CPTAC-LSCC | stage,within collection (6a),GDC ajcc_pathologic_stage,CPTAC-LSCC,CT,22,2,early (I-II): 19; late (III-IV): 3,3,False,smallest class < 20 patients with imaging
+CPTAC-LUAD | grade,within collection (6a),GDC tumor_grade,CPTAC-LUAD,CT,35,2,low (G1-G2): 30; high (G3-G4): 5,5,False,smallest class < 20 patients with imaging
+CPTAC-LUAD | stage,within collection (6a),GDC ajcc_pathologic_stage,CPTAC-LUAD,CT,36,2,early (I-II): 33; late (III-IV): 3,3,False,smallest class < 20 patients with imaging
+CPTAC-STAD | grade,within collection (6a),GDC tumor_grade,CPTAC-STAD,CT,19,2,high (G3-G4): 14; low (G1-G2): 5,5,False,smallest class < 20 patients with imaging
+CPTAC-STAD | stage,within collection (6a),GDC ajcc_pathologic_stage,CPTAC-STAD,CT,19,2,late (III-IV): 10; early (I-II): 9,9,False,smallest class < 20 patients with imaging
+CPTAC-UCEC | stage,within collection (6a),GDC ajcc_pathologic_stage,CPTAC-UCEC,CT,69,2,early (I-II): 51; late (III-IV): 18,18,False,smallest class < 20 patients with imaging
+TCGA-BLCA | grade,within collection (6a),GDC tumor_grade,TCGA-BLCA,CT,107,1,high (G3-G4): 107,107,False,one class only
+TCGA-CESC | grade,within collection (6a),GDC tumor_grade,TCGA-CESC,MR,41,2,low (G1-G2): 27; high (G3-G4): 14,14,False,smallest class < 20 patients with imaging
+TCGA-COAD | stage,within collection (6a),GDC ajcc_pathologic_stage,TCGA-COAD,CT,20,2,late (III-IV): 11; early (I-II): 9,9,False,smallest class < 20 patients with imaging
+TCGA-ESCA | grade,within collection (6a),GDC tumor_grade,TCGA-ESCA,CT,15,2,low (G1-G2): 12; high (G3-G4): 3,3,False,smallest class < 20 patients with imaging
+TCGA-ESCA | stage,within collection (6a),GDC ajcc_pathologic_stage,TCGA-ESCA,CT,16,2,late (III-IV): 12; early (I-II): 4,4,False,smallest class < 20 patients with imaging
+TCGA-KICH | stage,within collection (6a),GDC ajcc_pathologic_stage,TCGA-KICH,CT,12,2,early (I-II): 11; late (III-IV): 1,1,False,smallest class < 20 patients with imaging
+TCGA-KIRP | stage,within collection (6a),GDC ajcc_pathologic_stage,TCGA-KIRP,CT,19,2,early (I-II): 14; late (III-IV): 5,5,False,smallest class < 20 patients with imaging
+TCGA-LUAD | stage,within collection (6a),GDC ajcc_pathologic_stage,TCGA-LUAD,CT,27,2,early (I-II): 17; late (III-IV): 10,10,False,smallest class < 20 patients with imaging
+TCGA-LUSC | stage,within collection (6a),GDC ajcc_pathologic_stage,TCGA-LUSC,CT,36,2,early (I-II): 29; late (III-IV): 7,7,False,smallest class < 20 patients with imaging
+TCGA-OV | grade,within collection (6a),GDC tumor_grade,TCGA-OV,CT,136,2,high (G3-G4): 125; low (G1-G2): 11,11,False,smallest class < 20 patients with imaging
+TCGA-READ | stage,within collection (6a),GDC ajcc_pathologic_stage,TCGA-READ,CT,2,1,late (III-IV): 2,2,False,one class only
+TCGA-STAD | grade,within collection (6a),GDC tumor_grade,TCGA-STAD,CT,44,2,low (G1-G2): 27; high (G3-G4): 17,17,False,smallest class < 20 patients with imaging
+TCGA-STAD | stage,within collection (6a),GDC ajcc_pathologic_stage,TCGA-STAD,CT,44,2,late (III-IV): 35; early (I-II): 9,9,False,smallest class < 20 patients with imaging
+TCGA-THCA | stage,within collection (6a),GDC ajcc_pathologic_stage,TCGA-THCA,CT,6,2,late (III-IV): 5; early (I-II): 1,1,False,smallest class < 20 patients with imaging
+UPENN-GBM | IDH1 mutation,within collection (6a),UPENN-GBM_clinical_info_v2.1.csv,UPENN-GBM,MR,515,2,wildtype: 499; mutated: 16,16,False,smallest class < 20 patients with imaging

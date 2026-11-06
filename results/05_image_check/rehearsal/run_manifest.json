@@ -1,0 +1,383 @@
+{
+  "settings_key": "bf112f6571e627f6ac20c550e00777e3",
+  "notebook": "05_image_model_check.ipynb",
+  "mode": "rehearsal",
+  "labels": "shuffled (rehearsal)",
+  "run_started_utc": "2026-10-29T04:57:15+00:00",
+  "run_finished_utc": "2026-10-29T06:46:28+00:00",
+  "in_colab": true,
+  "local_test_settings": {},
+  "input_runs": {
+    "01": "2026-10-28T12:20:42+00:00",
+    "02": "2026-10-28T15:29:58+00:00",
+    "03": "2026-10-28T16:27:39+00:00",
+    "04": "2026-10-28T19:04:36+00:00"
+  },
+  "tasks": {
+    "renal subtype (KIRC vs KIRP)": "hospital",
+    "CPTAC-PDA | stage": "description language",
+    "lung histology (LUAD vs LUSC)": "hospital",
+    "LIDC-IDRI | primary vs metastatic": "scanner vendor"
+  },
+  "reproduced_notebook03": true,
+  "same_versions_as_notebook03": true,
+  "patients_total": 525,
+  "patients_embedded": 525,
+  "settings": {
+    "SEED": 2026,
+    "N_SPLITS": 5,
+    "N_REPEATS": 5,
+    "N_BOOT": 2000,
+    "N_PERM": 999,
+    "MIN_COUNT": 3,
+    "FLAG_LOWER_CI": 0.6,
+    "FLAG_Q": 0.05,
+    "LR_PARAMS": {
+      "C": 1.0,
+      "class_weight": "balanced",
+      "max_iter": 5000
+    },
+    "BODY_HU": -500,
+    "OPEN_MM": 3.0,
+    "DILATE_MM": 5.0,
+    "AIR_HU": -1000,
+    "CTFM": [
+      "project-lighter/ct_fm_feature_extractor",
+      "527b0d1c262b433396c85ff2de84c427b26945a1",
+      [
+        3.0,
+        1.0,
+        1.0
+      ],
+      [
+        24,
+        128,
+        128
+      ],
+      0.625
+    ],
+    "MERLIN": [
+      "stanfordmimi/Merlin",
+      "66dd07585de79e4d8d70d67806da88f3ccaa5a0c",
+      "i3_resnet_clinical_longformer_best_clip_04-02-2024_23-21-36_epoch_99.pt"
+    ],
+    "SWAP_MIN_DIFF_MM": 0.5,
+    "SWAP_MIN_GAP_MM": 0.1,
+    "SWAP_SHIFT_MIN": 0.05,
+    "CONTROL_SIGMAS_MM": [
+      0.25,
+      0.5,
+      0.75,
+      1.0,
+      1.25,
+      1.5,
+      1.75,
+      2.0,
+      2.25,
+      2.5,
+      2.75,
+      3.0,
+      3.5,
+      4.0,
+      5.0,
+      6.0
+    ],
+    "HDR_COLS": [
+      "hdr_slice_thickness",
+      "hdr_z_spacing",
+      "hdr_pixel_spacing",
+      "hdr_recon_diameter",
+      "hdr_kvp",
+      "hdr_tube_current",
+      "hdr_exposure",
+      "hdr_ctdivol",
+      "hdr_pitch",
+      "hdr_kernel",
+      "hdr_filter_type",
+      "hdr_patient_position"
+    ],
+    "PREP_KEY": "da9faacb9675",
+    "EMB_KEY": "80818aae140a"
+  },
+  "versions": {
+    "python": "3.13.16",
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.6.1",
+    "joblib": "1.6.0",
+    "torch": "2.11.0+cu130",
+    "torchvision": "0.26.0+cu130",
+    "monai": "1.6.1",
+    "SimpleITK": "2.5.6",
+    "pydicom": "3.0.2",
+    "nibabel": "5.4.2",
+    "huggingface_hub": "1.33.0",
+    "merlin-vlm": "0.0.7",
+    "cpus": 12,
+    "gpu": "NVIDIA A100-SXM4-80GB"
+  },
+  "merlin_official_check": {
+    "patient": "CPTAC-PDA__C3L-00189",
+    "max_abs_diff": 0.0,
+    "max_abs_value": 1.9389615058898926
+  },
+  "cache_files": {
+    "count": 1053,
+    "combined_md5": "23f84dc5fbdd3e3047f4a4ad0cad85f8"
+  },
+  "outputs": [
+    {
+      "file": "header_audit.csv",
+      "bytes": 2901,
+      "rows": 4,
+      "md5": "f054c2568b39e78b4e2eea1327b581e9"
+    },
+    {
+      "file": "image_heldout_hospitals.csv",
+      "bytes": 478,
+      "rows": 4,
+      "md5": "383cefb306d6215f4f775ac3ea060879"
+    },
+    {
+      "file": "image_probe.csv",
+      "bytes": 3409,
+      "rows": 8,
+      "md5": "58983c153e3af4e46c5eda0110ce9ed8"
+    },
+    {
+      "file": "image_swap.csv",
+      "bytes": 1640,
+      "rows": 8,
+      "md5": "164d6f08cc76a2d74b4ab8e5ca684578"
+    },
+    {
+      "file": "image_vs_metadata.csv",
+      "bytes": 2625,
+      "rows": 8,
+      "md5": "210326470e2492a56e95095779b053e8"
+    },
+    {
+      "file": "image_within_group.csv",
+      "bytes": 1911,
+      "rows": 8,
+      "md5": "c825219f3e6dacf6c5188437b25d4d94"
+    },
+    {
+      "file": "oof_image_predictions.csv.gz",
+      "bytes": 32627,
+      "rows": 1050,
+      "md5": "2fff459d0ad8da9867287b3824a28b30"
+    },
+    {
+      "file": "per_task/CPTAC_PDA_stage.json",
+      "bytes": 5514,
+      "rows": null,
+      "md5": "6604ed4693dc92744e9e9215f2a13430"
+    },
+    {
+      "file": "per_task/CPTAC_PDA_stage_oof.csv.gz",
+      "bytes": 4396,
+      "rows": 136,
+      "md5": "8e110e56ab6c7697a6b673c6a10d6b8d"
+    },
+    {
+      "file": "per_task/LIDC_IDRI_primary_vs_metastatic.json",
+      "bytes": 6779,
+      "rows": null,
+      "md5": "ce3cc53dd41d4e93b2f15fae8c2a6749"
+    },
+    {
+      "file": "per_task/LIDC_IDRI_primary_vs_metastatic_oof.csv.gz",
+      "bytes": 6038,
+      "rows": 188,
+      "md5": "22dcaa314c16ccbd674548db7bb8765f"
+    },
+    {
+      "file": "per_task/lung_histology_LUAD_vs_LUSC.json",
+      "bytes": 5983,
+      "rows": null,
+      "md5": "e6265ec92e0c4efbeca215fa6eded809"
+    },
+    {
+      "file": "per_task/lung_histology_LUAD_vs_LUSC_oof.csv.gz",
+      "bytes": 6758,
+      "rows": 208,
+      "md5": "3292fde9ba9c6a3a0f8e7074d1d2c083"
+    },
+    {
+      "file": "per_task/renal_subtype_KIRC_vs_KIRP.json",
+      "bytes": 6001,
+      "rows": null,
+      "md5": "5bdcbb17c7d5316e67046ef268a9c461"
+    },
+    {
+      "file": "per_task/renal_subtype_KIRC_vs_KIRP_oof.csv.gz",
+      "bytes": 16483,
+      "rows": 518,
+      "md5": "c27d4eacfd0a5068f514117dd0ad0329"
+    },
+    {
+      "file": "reproduction_check.csv",
+      "bytes": 422,
+      "rows": 4,
+      "md5": "c9fcb542604eff79f74ce6b6a08c91bd"
+    },
+    {
+      "file": "shortcut_wording.csv",
+      "bytes": 550,
+      "rows": 8,
+      "md5": "3ba4b6fc59ca517448a772afad8902ce"
+    },
+    {
+      "file": "swap_embeddings/LIDC-IDRI__LIDC-IDRI-0068__2.500.npz",
+      "bytes": 23118,
+      "rows": null,
+      "md5": "a11547a642e0b2861f9711f67bba4dd0"
+    },
+    {
+      "file": "swap_embeddings/LIDC-IDRI__LIDC-IDRI-0071__2.500.npz",
+      "bytes": 23106,
+      "rows": null,
+      "md5": "46148055e76d65e08f80ecdfaa044277"
+    },
+    {
+      "file": "swap_embeddings/LIDC-IDRI__LIDC-IDRI-0072__2.500.npz",
+      "bytes": 23114,
+      "rows": null,
+      "md5": "b1746263ef6ffd85c1de7877fb7e0d6c"
+    },
+    {
+      "file": "swap_embeddings/LIDC-IDRI__LIDC-IDRI-0091__2.500.npz",
+      "bytes": 23118,
+      "rows": null,
+      "md5": "24326675b967dda7ac88b27d0b8f350c"
+    },
+    {
+      "file": "swap_embeddings/LIDC-IDRI__LIDC-IDRI-0118__2.500.npz",
+      "bytes": 23118,
+      "rows": null,
+      "md5": "e5d8a1428a63453ba583e9c3ba20d045"
+    },
+    {
+      "file": "swap_embeddings/LIDC-IDRI__LIDC-IDRI-0129__2.500.npz",
+      "bytes": 23118,
+      "rows": null,
+      "md5": "457924a341d7c9cfbd897259dac9cdc3"
+    },
+    {
+      "file": "swap_embeddings/LIDC-IDRI__LIDC-IDRI-0161__2.500.npz",
+      "bytes": 23118,
+      "rows": null,
+      "md5": "9dfef4f09055170ff138c896e4f0e9ff"
+    },
+    {
+      "file": "swap_embeddings/LIDC-IDRI__LIDC-IDRI-0192__2.500.npz",
+      "bytes": 23118,
+      "rows": null,
+      "md5": "18c83a7b76a91e6e55833579da3325f2"
+    },
+    {
+      "file": "swap_embeddings/LIDC-IDRI__LIDC-IDRI-0223__2.500.npz",
+      "bytes": 23102,
+      "rows": null,
+      "md5": "4d1cbf6f9aa7c344f03c2d2cb95df160"
+    },
+    {
+      "file": "swap_embeddings/LIDC-IDRI__LIDC-IDRI-0249__2.500.npz",
+      "bytes": 23102,
+      "rows": null,
+      "md5": "e1e64dd816dfad8e0d776a2bf5074bdc"
+    },
+    {
+      "file": "swap_embeddings/LIDC-IDRI__LIDC-IDRI-0264__2.500.npz",
+      "bytes": 23114,
+      "rows": null,
+      "md5": "c65a6e1062072bd118ca9e51aacb702b"
+    },
+    {
+      "file": "swap_embeddings/LIDC-IDRI__LIDC-IDRI-0266__2.500.npz",
+      "bytes": 23106,
+      "rows": null,
+      "md5": "643758c013cd4b37aee13dbf22304e33"
+    },
+    {
+      "file": "swap_embeddings/LIDC-IDRI__LIDC-IDRI-0325__2.500.npz",
+      "bytes": 23098,
+      "rows": null,
+      "md5": "ee5d88d8bd168d81c533377b71a54bd4"
+    },
+    {
+      "file": "swap_embeddings/LIDC-IDRI__LIDC-IDRI-0377__2.500.npz",
+      "bytes": 23110,
+      "rows": null,
+      "md5": "d5bb9b24daf7f02bec7bac9251590220"
+    },
+    {
+      "file": "swap_embeddings/LIDC-IDRI__LIDC-IDRI-0454__2.500.npz",
+      "bytes": 23102,
+      "rows": null,
+      "md5": "6386a72b2b31cd04fb30156b318e5668"
+    },
+    {
+      "file": "swap_embeddings/LIDC-IDRI__LIDC-IDRI-0543__2.500.npz",
+      "bytes": 23114,
+      "rows": null,
+      "md5": "2b73f01681fc73bc83a871fb99417a4f"
+    },
+    {
+      "file": "swap_embeddings/LIDC-IDRI__LIDC-IDRI-0562__2.500.npz",
+      "bytes": 23102,
+      "rows": null,
+      "md5": "6c789ce7d146499fa157a61f3ebfb21c"
+    },
+    {
+      "file": "swap_embeddings/LIDC-IDRI__LIDC-IDRI-0766__2.500.npz",
+      "bytes": 23102,
+      "rows": null,
+      "md5": "2ccef8887264d6060dc6daaed91f32a6"
+    },
+    {
+      "file": "swap_embeddings/LIDC-IDRI__LIDC-IDRI-0771__2.500.npz",
+      "bytes": 23106,
+      "rows": null,
+      "md5": "2e574b2cfd6c372c5888d4640a3612c6"
+    },
+    {
+      "file": "swap_embeddings/LIDC-IDRI__LIDC-IDRI-0811__2.500.npz",
+      "bytes": 23098,
+      "rows": null,
+      "md5": "cb9635204adbba2c86670ce01de0674f"
+    },
+    {
+      "file": "swap_embeddings/LIDC-IDRI__LIDC-IDRI-0893__2.500.npz",
+      "bytes": 23086,
+      "rows": null,
+      "md5": "046c4c64c713605cb89579b5c5007817"
+    },
+    {
+      "file": "swap_embeddings/LIDC-IDRI__LIDC-IDRI-0905__2.500.npz",
+      "bytes": 23098,
+      "rows": null,
+      "md5": "ebb68be48fa79f2081bf01eea013c2e9"
+    },
+    {
+      "file": "swap_embeddings/LIDC-IDRI__LIDC-IDRI-0965__2.500.npz",
+      "bytes": 23110,
+      "rows": null,
+      "md5": "b3e6960d34babdb0bacc461f42ce1215"
+    },
+    {
+      "file": "swap_embeddings/LIDC-IDRI__LIDC-IDRI-0994__2.500.npz",
+      "bytes": 23106,
+      "rows": null,
+      "md5": "ff8328f641ef94e3f34aed3846aa25cd"
+    },
+    {
+      "file": "swap_embeddings/LIDC-IDRI__LIDC-IDRI-1004__2.500.npz",
+      "bytes": 23110,
+      "rows": null,
+      "md5": "f2eaf11b86f3d69505bd6d3c0ccb39d4"
+    }
+  ]
+}

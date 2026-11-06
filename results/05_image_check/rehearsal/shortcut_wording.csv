@@ -1,0 +1,9 @@
+task_id,encoder,image_flagged,background_flagged,swap_rule_met,shortcut_wording_allowed
+renal subtype (KIRC vs KIRP),ctfm,False,False,False,False
+renal subtype (KIRC vs KIRP),merlin,False,False,False,False
+CPTAC-PDA | stage,ctfm,False,False,False,False
+CPTAC-PDA | stage,merlin,False,False,False,False
+lung histology (LUAD vs LUSC),ctfm,False,False,False,False
+lung histology (LUAD vs LUSC),merlin,False,False,False,False
+LIDC-IDRI | primary vs metastatic,ctfm,False,False,False,False
+LIDC-IDRI | primary vs metastatic,merlin,False,False,False,False

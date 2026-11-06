@@ -1,0 +1,44 @@
+<local path>\results\12_review_checks\review_lib.py:9: UserWarning: A NumPy version >=1.23.5 and <2.3.0 is required for this version of SciPy (detected version 2.4.2)
+  from scipy import sparse
+<local path>\results\12_review_checks\review_lib.py:9: UserWarning: A NumPy version >=1.23.5 and <2.3.0 is required for this version of SciPy (detected version 2.4.2)
+  from scipy import sparse
+<local path>\results\12_review_checks\review_lib.py:9: UserWarning: A NumPy version >=1.23.5 and <2.3.0 is required for this version of SciPy (detected version 2.4.2)
+  from scipy import sparse
+<local path>\results\12_review_checks\review_lib.py:9: UserWarning: A NumPy version >=1.23.5 and <2.3.0 is required for this version of SciPy (detected version 2.4.2)
+  from scipy import sparse
+<local path>\results\12_review_checks\review_lib.py:9: UserWarning: A NumPy version >=1.23.5 and <2.3.0 is required for this version of SciPy (detected version 2.4.2)
+  from scipy import sparse
+<local path>\results\12_review_checks\review_lib.py:9: UserWarning: A NumPy version >=1.23.5 and <2.3.0 is required for this version of SciPy (detected version 2.4.2)
+  from scipy import sparse
+<local path>\results\12_review_checks\review_lib.py:9: UserWarning: A NumPy version >=1.23.5 and <2.3.0 is required for this version of SciPy (detected version 2.4.2)
+  from scipy import sparse
+<local path>\results\12_review_checks\review_lib.py:9: UserWarning: A NumPy version >=1.23.5 and <2.3.0 is required for this version of SciPy (detected version 2.4.2)
+  from scipy import sparse
+<local path>\results\12_review_checks\review_lib.py:9: UserWarning: A NumPy version >=1.23.5 and <2.3.0 is required for this version of SciPy (detected version 2.4.2)
+  from scipy import sparse
+<local path>\results\12_review_checks\review_lib.py:9: UserWarning: A NumPy version >=1.23.5 and <2.3.0 is required for this version of SciPy (detected version 2.4.2)
+  from scipy import sparse
+<local path>\results\12_review_checks\review_lib.py:9: UserWarning: A NumPy version >=1.23.5 and <2.3.0 is required for this version of SciPy (detected version 2.4.2)
+  from scipy import sparse
+<local path>\results\12_review_checks\review_lib.py:9: UserWarning: A NumPy version >=1.23.5 and <2.3.0 is required for this version of SciPy (detected version 2.4.2)
+  from scipy import sparse
+<local path>\results\12_review_checks\review_lib.py:9: UserWarning: A NumPy version >=1.23.5 and <2.3.0 is required for this version of SciPy (detected version 2.4.2)
+  from scipy import sparse
+renal subtype (KIRC vs KIRP)         missingness indicators only              0.486 n 259 [468 s]
+renal subtype (KIRC vs KIRP)         sex + age, patients with both recorded   0.578 n 255 [529 s]
+CPTAC-PDA | stage                    missingness indicators only              0.494 n 68 [567 s]
+CPTAC-PDA | stage                    sex + age, patients with both recorded   0.522 n 63 [587 s]
+lung histology (LUAD vs LUSC)        missingness indicators only              0.484 n 104 [606 s]
+lung histology (LUAD vs LUSC)        sex + age, patients with both recorded   0.559 n 102 [630 s]
+LIDC-IDRI | primary vs metastatic    missingness indicators only              0.744 n 94 [641 s]
+LIDC-IDRI | primary vs metastatic    sex + age, patients with both recorded   0.618 n 68 [653 s]
+                          task_id       class0  class0_n  class0_sex_missing  class0_age_missing              class1  class1_n  class1_sex_missing  class1_age_missing                                  model  n_patients n_per_class   auc  ci_low  ci_high  perm_p
+     renal subtype (KIRC vs KIRP)    TCGA-KIRC       236                   0                   4           TCGA-KIRP        23                   0                   0            missingness indicators only         259    236 | 23 0.486   0.445    0.523   0.402
+     renal subtype (KIRC vs KIRP)    TCGA-KIRC       236                   0                   4           TCGA-KIRP        23                   0                   0 sex + age, patients with both recorded         255    232 | 23 0.578   0.472    0.674   0.232
+                CPTAC-PDA | stage early (I-II)        47                   0                   4       late (III-IV)        21                   1                   1            missingness indicators only          68     47 | 21 0.494   0.398    0.583   0.828
+                CPTAC-PDA | stage early (I-II)        47                   0                   4       late (III-IV)        21                   1                   1 sex + age, patients with both recorded          63     43 | 20 0.522   0.382    0.656   0.400
+    lung histology (LUAD vs LUSC)    TCGA-LUAD        67                   0                   2           TCGA-LUSC        37                   0                   0            missingness indicators only         104     67 | 37 0.484   0.431    0.540   0.071
+    lung histology (LUAD vs LUSC)    TCGA-LUAD        67                   0                   2           TCGA-LUSC        37                   0                   0 sex + age, patients with both recorded         102     65 | 37 0.559   0.448    0.665   0.081
+LIDC-IDRI | primary vs metastatic   metastatic        51                   0                   1 primary lung cancer        43                  11                  25            missingness indicators only          94     51 | 43 0.744   0.650    0.831   0.001
+LIDC-IDRI | primary vs metastatic   metastatic        51                   0                   1 primary lung cancer        43                  11                  25 sex + age, patients with both recorded          68     50 | 18 0.618   0.472    0.756   0.053
+exit 0

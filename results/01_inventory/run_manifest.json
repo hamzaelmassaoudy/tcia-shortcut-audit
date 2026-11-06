@@ -1,0 +1,234 @@
+{
+  "notebook": "01_tcia_inventory.ipynb",
+  "run_started_utc": "2026-10-28T12:20:42+00:00",
+  "run_finished_utc": "2026-10-28T12:41:33+00:00",
+  "in_colab": true,
+  "test_collections": [],
+  "apis": {
+    "tcia": "https://services.cancerimagingarchive.net/nbia-api/services/v1",
+    "gdc": "https://api.gdc.cancer.gov"
+  },
+  "api_calls": {
+    "network": 541,
+    "cache": 0
+  },
+  "failures": [],
+  "settings": {
+    "MIN_PER_CLASS": 20,
+    "MIN_IMAGES": 10,
+    "IMAGING_MODALITIES": [
+      "CT",
+      "MR"
+    ],
+    "EXCLUDE_SERIES_PATTERN": "scout|locali[sz]er|\\bloc\\b|topogram|survey|calibration|\\bcal\\b|bolus|smart\\s*prep|monitor|dose\\s*(?:report|info)|screen\\s*save|secondary|derived|\\bmpr\\b|\\bmip\\b|reformat|fusion",
+    "CANDIDATES_NON_TCGA": {
+      "LIDC-IDRI": "nodule malignancy rating (radiologists)",
+      "Duke-Breast-Cancer-MRI": "molecular subtype",
+      "NSCLC Radiogenomics": "histology; mutations",
+      "PROSTATEx": "clinical significance",
+      "UPENN-GBM": "molecular markers",
+      "HCC-TACE-Seg": "to define from the clinical file"
+    },
+    "COLLECTION_DEFINED_TASKS": {
+      "glioma_grade": [
+        "TCGA-GBM",
+        "TCGA-LGG"
+      ],
+      "renal_subtype": [
+        "TCGA-KIRC",
+        "TCGA-KIRP",
+        "TCGA-KICH"
+      ],
+      "lung_histology": [
+        "TCGA-LUAD",
+        "TCGA-LUSC"
+      ]
+    }
+  },
+  "candidates": [
+    "CPTAC-AML",
+    "CPTAC-CCRCC",
+    "CPTAC-CM",
+    "CPTAC-LSCC",
+    "CPTAC-LUAD",
+    "CPTAC-PDA",
+    "CPTAC-SAR",
+    "CPTAC-STAD",
+    "CPTAC-UCEC",
+    "TCGA-BLCA",
+    "TCGA-BRCA",
+    "TCGA-CESC",
+    "TCGA-COAD",
+    "TCGA-ESCA",
+    "TCGA-KICH",
+    "TCGA-KIRC",
+    "TCGA-KIRP",
+    "TCGA-LIHC",
+    "TCGA-LUAD",
+    "TCGA-LUSC",
+    "TCGA-OV",
+    "TCGA-PRAD",
+    "TCGA-READ",
+    "TCGA-SARC",
+    "TCGA-STAD",
+    "TCGA-THCA",
+    "TCGA-UCEC",
+    "LIDC-IDRI",
+    "Duke-Breast-Cancer-MRI",
+    "NSCLC Radiogenomics",
+    "PROSTATEx",
+    "UPENN-GBM",
+    "HCC-TACE-Seg"
+  ],
+  "primary_modality": {
+    "CPTAC-AML": "CT",
+    "CPTAC-CCRCC": "CT",
+    "CPTAC-CM": "CT",
+    "CPTAC-LSCC": "CT",
+    "CPTAC-LUAD": "CT",
+    "CPTAC-PDA": "CT",
+    "CPTAC-SAR": "CT",
+    "CPTAC-STAD": "CT",
+    "CPTAC-UCEC": "CT",
+    "Duke-Breast-Cancer-MRI": "MR",
+    "HCC-TACE-Seg": "CT",
+    "LIDC-IDRI": "CT",
+    "NSCLC Radiogenomics": "CT",
+    "PROSTATEx": "MR",
+    "TCGA-BLCA": "CT",
+    "TCGA-BRCA": "MR",
+    "TCGA-CESC": "MR",
+    "TCGA-COAD": "CT",
+    "TCGA-ESCA": "CT",
+    "TCGA-KICH": "CT",
+    "TCGA-KIRC": "CT",
+    "TCGA-KIRP": "CT",
+    "TCGA-LIHC": "CT",
+    "TCGA-LUAD": "CT",
+    "TCGA-LUSC": "CT",
+    "TCGA-OV": "CT",
+    "TCGA-PRAD": "MR",
+    "TCGA-READ": "CT",
+    "TCGA-SARC": "CT",
+    "TCGA-STAD": "CT",
+    "TCGA-THCA": "CT",
+    "TCGA-UCEC": "CT",
+    "UPENN-GBM": "MR"
+  },
+  "versions": {
+    "python": "3.13.18",
+    "pandas": "2.2.3",
+    "numpy": "2.1.3",
+    "requests": "2.32.4"
+  },
+  "outputs": [
+    {
+      "file": "candidates_missing.csv",
+      "bytes": 67,
+      "rows": 2,
+      "md5": "f808bb7733f8a4d1c5a96ff62c41e158"
+    },
+    {
+      "file": "collection_overlap.csv",
+      "bytes": 22,
+      "rows": 0,
+      "md5": "d339e586351a7d09a5a0aa89c4ecd4cf"
+    },
+    {
+      "file": "collections_inventory.csv",
+      "bytes": 16280,
+      "rows": 156,
+      "md5": "78ed7931f1f0dd1c17326a794192d43e"
+    },
+    {
+      "file": "dates_check.csv",
+      "bytes": 2423,
+      "rows": 33,
+      "md5": "ceeec69eb2d74dfd80cf40efa1d14df8"
+    },
+    {
+      "file": "field_roles.csv",
+      "bytes": 2381,
+      "rows": 38,
+      "md5": "4850a8efb6c5b9f196c224317107b88e"
+    },
+    {
+      "file": "gdc_labels.csv",
+      "bytes": 196177,
+      "rows": 1479,
+      "md5": "38c8ddf5ba26dccdc45ac1eabbb199f4"
+    },
+    {
+      "file": "idc_availability.csv",
+      "bytes": 717,
+      "rows": 13,
+      "md5": "b0b2e23eca82e86fa50ea488f88fa462"
+    },
+    {
+      "file": "idc_index_columns.txt",
+      "bytes": 494,
+      "rows": null,
+      "md5": "170bf0286289d93c17ca948c46bb9de9"
+    },
+    {
+      "file": "label_counts_raw.csv",
+      "bytes": 17877,
+      "rows": 422,
+      "md5": "d7d3a2056f5865dc0dad07e8a7d7ff07"
+    },
+    {
+      "file": "label_sources_todo.csv",
+      "bytes": 1197,
+      "rows": 6,
+      "md5": "0d144c1d74abb7c1a372524b15c43d6d"
+    },
+    {
+      "file": "leak_fields_check.csv",
+      "bytes": 2253,
+      "rows": 33,
+      "md5": "2fd621f3aa9ae2f71153a8e1ffa95d63"
+    },
+    {
+      "file": "main_series.csv",
+      "bytes": 1293579,
+      "rows": 4883,
+      "md5": "252097b5f0bb362831f028591a89c7b6"
+    },
+    {
+      "file": "metadata_coverage.csv",
+      "bytes": 2604,
+      "rows": 33,
+      "md5": "7b289b93c7c2efbf336dfef846cc7ba2"
+    },
+    {
+      "file": "patients_without_main_series.csv",
+      "bytes": 498,
+      "rows": 17,
+      "md5": "babe26767b296f7fc1d4adc519d3e6fa"
+    },
+    {
+      "file": "series_exclusions.csv",
+      "bytes": 1113,
+      "rows": 33,
+      "md5": "bfa7919bced1b5cb24851dfbc3a362c9"
+    },
+    {
+      "file": "series_metadata.csv.gz",
+      "bytes": 2703974,
+      "rows": 63468,
+      "md5": "d0d69eeee08ee7da98a51a75f72d1f4f"
+    },
+    {
+      "file": "studies.csv.gz",
+      "bytes": 281957,
+      "rows": 9126,
+      "md5": "392ec7510c703673cff3f07d2d610037"
+    },
+    {
+      "file": "task_eligibility.csv",
+      "bytes": 6345,
+      "rows": 66,
+      "md5": "b5d556cd4ce557b482bc96b7b51b6988"
+    }
+  ]
+}

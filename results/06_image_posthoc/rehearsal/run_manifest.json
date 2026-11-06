@@ -1,0 +1,198 @@
+{
+  "settings_key": "1c4ad7e1daf23a0ecea3e27c3c6e0304",
+  "notebook": "06_image_posthoc_checks.ipynb",
+  "mode": "rehearsal",
+  "post_hoc": true,
+  "labels": "shuffled (rehearsal)",
+  "run_started_utc": "2026-10-29T14:04:31+00:00",
+  "run_finished_utc": "2026-10-29T17:29:22+00:00",
+  "in_colab": true,
+  "local_test_settings": {},
+  "input_runs": {
+    "01": "2026-10-28T12:20:42+00:00",
+    "02": "2026-10-28T15:29:58+00:00",
+    "03": "2026-10-28T16:27:39+00:00",
+    "04": "2026-10-28T19:04:36+00:00",
+    "05": "2026-10-29T04:57:15+00:00"
+  },
+  "input_notebook05_cache_md5": "23f84dc5fbdd3e3047f4a4ad0cad85f8",
+  "tasks": {
+    "renal subtype (KIRC vs KIRP)": "hospital",
+    "CPTAC-PDA | stage": "description language",
+    "lung histology (LUAD vs LUSC)": "hospital",
+    "LIDC-IDRI | primary vs metastatic": "scanner vendor"
+  },
+  "same_versions_as_notebook05": true,
+  "reproduced_notebook05": true,
+  "patients_total": 525,
+  "patients_with_silhouette": 525,
+  "reembedding_check": {
+    "patients": 525,
+    "same_mask_as_nb05": 525,
+    "ctfm_max_abs_diff": 0.0012521743774414062,
+    "merlin_max_abs_diff": 0.0008715391159057617,
+    "ctfm_median_max_abs_value": 207.5225067138672,
+    "merlin_median_max_abs_value": 1.50400972366333
+  },
+  "settings": {
+    "SEED": 2026,
+    "N_SPLITS": 5,
+    "N_REPEATS": 5,
+    "MIN_COUNT": 3,
+    "FLAG_LOWER_CI": 0.6,
+    "FLAG_Q": 0.05,
+    "LR_PARAMS": {
+      "C": 1.0,
+      "class_weight": "balanced",
+      "max_iter": 5000
+    },
+    "BODY_HU": -500,
+    "OPEN_MM": 3.0,
+    "DILATE_MM": 5.0,
+    "AIR_HU": -1000,
+    "HDR_COLS": [
+      "hdr_slice_thickness",
+      "hdr_z_spacing",
+      "hdr_pixel_spacing",
+      "hdr_recon_diameter",
+      "hdr_kvp",
+      "hdr_tube_current",
+      "hdr_exposure",
+      "hdr_ctdivol",
+      "hdr_pitch",
+      "hdr_kernel",
+      "hdr_filter_type",
+      "hdr_patient_position"
+    ],
+    "PREP_KEY": "da9faacb9675",
+    "EMB_KEY": "80818aae140a",
+    "CTFM": [
+      "project-lighter/ct_fm_feature_extractor",
+      "527b0d1c262b433396c85ff2de84c427b26945a1",
+      [
+        3.0,
+        1.0,
+        1.0
+      ],
+      [
+        24,
+        128,
+        128
+      ],
+      0.625
+    ],
+    "MERLIN": [
+      "stanfordmimi/Merlin",
+      "66dd07585de79e4d8d70d67806da88f3ccaa5a0c",
+      "i3_resnet_clinical_longformer_best_clip_04-02-2024_23-21-36_epoch_99.pt"
+    ],
+    "N_BOOT": 2000,
+    "N_PERM": 999,
+    "SIL_HU": 0,
+    "REPRO_TOL": 0.001,
+    "PREP_KEY06": "806d24f3636b",
+    "EMB_KEY06": "3c93da2eba1c"
+  },
+  "versions": {
+    "python": "3.13.16",
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.6.1",
+    "joblib": "1.6.0",
+    "torch": "2.11.0+cu130",
+    "torchvision": "0.26.0+cu130",
+    "monai": "1.6.1",
+    "SimpleITK": "2.5.6",
+    "pydicom": "3.0.2",
+    "nibabel": "5.4.2",
+    "huggingface_hub": "1.33.0",
+    "merlin-vlm": "0.0.7",
+    "cpus": 12,
+    "gpu": "NVIDIA L4"
+  },
+  "cache_files": {
+    "count": 1052,
+    "combined_md5": "bbe6202f8b48b6fe4fe4db6f462a9df7"
+  },
+  "outputs": [
+    {
+      "file": "acquisition_controlled.csv",
+      "bytes": 5706,
+      "rows": 24,
+      "md5": "cc8f3644d99dc4236d59fddb7f544444"
+    },
+    {
+      "file": "background_header_fields.csv",
+      "bytes": 27537,
+      "rows": 240,
+      "md5": "e5e849dc05ea046c61d676c04330dd96"
+    },
+    {
+      "file": "background_vs_header.csv",
+      "bytes": 2640,
+      "rows": 8,
+      "md5": "c80588317343004982f5be9ee1c21095"
+    },
+    {
+      "file": "oof_posthoc_predictions.csv.gz",
+      "bytes": 44383,
+      "rows": 1050,
+      "md5": "5384db9f4dbfc721250f759d4027b924"
+    },
+    {
+      "file": "per_task/CPTAC_PDA_stage.json",
+      "bytes": 17678,
+      "rows": null,
+      "md5": "6dab641aa06419690f089484fc84ed44"
+    },
+    {
+      "file": "per_task/CPTAC_PDA_stage_oof.csv.gz",
+      "bytes": 5764,
+      "rows": 136,
+      "md5": "73811225e16d3da2d2698f15bd453806"
+    },
+    {
+      "file": "per_task/LIDC_IDRI_primary_vs_metastatic.json",
+      "bytes": 18644,
+      "rows": null,
+      "md5": "3c323731fe4ffd5acd64fcd9ae0def11"
+    },
+    {
+      "file": "per_task/LIDC_IDRI_primary_vs_metastatic_oof.csv.gz",
+      "bytes": 7941,
+      "rows": 188,
+      "md5": "24c07392263fe4474a17c78e40d40fa3"
+    },
+    {
+      "file": "per_task/lung_histology_LUAD_vs_LUSC.json",
+      "bytes": 18320,
+      "rows": null,
+      "md5": "5dcda495ce5e3efa134a8ba7c3db6932"
+    },
+    {
+      "file": "per_task/lung_histology_LUAD_vs_LUSC_oof.csv.gz",
+      "bytes": 8834,
+      "rows": 208,
+      "md5": "cbd6737c69c3abf19b923a23131d0505"
+    },
+    {
+      "file": "per_task/renal_subtype_KIRC_vs_KIRP.json",
+      "bytes": 18276,
+      "rows": null,
+      "md5": "c85096ceca3869b89e945c0dd5efabe2"
+    },
+    {
+      "file": "per_task/renal_subtype_KIRC_vs_KIRP_oof.csv.gz",
+      "bytes": 23274,
+      "rows": 518,
+      "md5": "ecf802024e3466a5a20ef1695bbc1b85"
+    },
+    {
+      "file": "silhouette_probe.csv",
+      "bytes": 3399,
+      "rows": 8,
+      "md5": "e273a27de44ee33e620b9df8ad22e15e"
+    }
+  ]
+}

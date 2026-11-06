@@ -1,0 +1,124 @@
+# tcia-shortcut-audit
+
+**Can public cancer CT benchmarks be solved from how the scans were acquired, rather than from the patient?** This
+repository holds the open screening tool, the full analysis code, every result with its run record, and the frozen
+foundation-model embeddings for the study *Screening public cancer CT benchmarks for acquisition shortcuts: tissue-free
+prediction and the limits of external validation*.
+
+**Author:** Hamza El Massaoudy, School of Computer Science, Nanjing University of Information Science and Technology, Nanjing, China. Further authors will be listed when the paper is published.
+
+## Key findings
+
+The study screened 26 patient-level classification tasks built from 33 collections of The Cancer Imaging Archive (TCIA):
+63,468 series and 2,775 patients. The screen uses acquisition metadata only, retrieved without downloading any image.
+
+- **Metadata alone predicted the label in 4 of 26 tasks** (AUC 0.79–0.85), including both tasks whose classes are
+  separate collections (TCGA-LUAD vs TCGA-LUSC; TCGA-KIRC vs TCGA-KIRP).
+- **With segmented body tissue replaced by air**, frozen CT foundation-model probes (CT-FM, Merlin) still predicted lung
+  adenocarcinoma vs squamous cell carcinoma (AUC 0.82) and, less robustly, LIDC-IDRI primary vs metastatic cancer
+  (AUC 0.72–0.73). In the 15 unflagged CT tasks, no background-only probe was flagged.
+- **An external dataset assembled like the training data can reproduce a tissue-free association instead of
+  exposing it.** TCGA lung models did not transfer to three independent cohorts (714 patients; AUC 0.37–0.56). They
+  did transfer to CPTAC, which is assembled like TCGA (background only, AUC 0.68–0.74), through body-outline
+  information rather than recorded acquisition fields: the TCGA metadata model did not transfer (AUC 0.42). Sex did not
+  explain the transfer (within-sex AUC 0.65–0.75).
+- **External AUC depends on how the test set is assembled.** When the two classes of a test set were drawn from
+  different cohorts, the same fixed background-only probes gave external AUCs from 0.29 to 0.75, with apparent transfer
+  and reversal even on sets built only from independent cohorts.
+
+## Quick start: audit a TCIA task before downloading it
+
+```bash
+pip install -r tool/requirements.txt
+python tool/tcia_shortcut_audit.py --collections TCGA-LUAD TCGA-LUSC --label-by-collection --out audit_lung
+```
+
+- **Your own labels:** pass a labels file (`--labels labels.csv`, with columns `PatientID,label` and optionally
+  `collection,site`) instead of `--label-by-collection`.
+- **Output:** the tool writes `report.md` with the verdict, the field groups that carry the signal, field distributions
+  by class and, when sites are given, the site analyses.
+- **Speed and scope:** it needs only the public TCIA interface and runs in minutes on a laptop.
+- **Manual:** [`tool/README.md`](tool/README.md).
+
+A flag means the task needs an audit before an image model is trusted, not that a model uses the shortcut. A task that is
+not flagged is not shown to be free of shortcuts.
+
+## Repository layout
+
+| Folder | Content |
+|---|---|
+| `tool/` | The audit tool `tcia_shortcut_audit` (v1.0.1; v1.0.0 in `tool/versions/`), manual, requirements and a reproduction test |
+| `notebooks/` | Analysis notebooks 01–11 as run in Google Colab; `notebooks/executed/` holds the copies with the outputs of the recorded runs |
+| `results/NN_*/` | Outputs of notebook NN. Each run folder has `run_manifest.json` (package versions, settings, MD5 of every output). Image analyses keep the shuffled-label rehearsal (`rehearsal/`) next to the real run (`real/`) |
+| `results/*/cache/embeddings/` | Frozen CT-FM and Merlin embeddings per patient (`.npz`): full image, background only, silhouette |
+| `results/*/cache/api/` | Saved replies of the TCIA interface |
+| `results/13_transfer_checks/` | Post hoc checks R17 (crossed assembly of external test sets) and R18 (sex and the CPTAC transfer), fixed in `protocol/analysis_plan_7l.md` before they were run; rehearsal and real runs with run records |
+| `results/12_review_checks/` | Post hoc robustness checks R1–R16: seeds, a refitting sensitivity analysis, a strict external test, duplicate screening, site tables, mask quality control, sex and age by class (R1–R9); other main-series rules, single-property baselines, scans cut off by the field of view, kernel decoding within vendor, the AUC needed for a flag, multiplicity control and a planning record (R10–R16, fixed in plan section 7k before they were run) |
+| `literature/RQ5/` | Literature search scripts and log, raw and de-duplicated records, screening decisions with reasons, extraction tables |
+| `protocol/analysis_plan.md` | The dated analysis plan: research questions, data and methods, each step dated |
+| `protocol/analysis_plan_7l.md` | Plan section 7l (checks R17 and R18), written on 6 Nov 2026 before they were run |
+| `figures/make_figures.py` | Rebuilds all figures from `results/`, after checking each input against its run record |
+| `environment/requirements.txt` | Package versions of the recorded runs |
+
+## Reproducing the results
+
+1. **Check integrity:** run `md5sum -c MANIFEST.md5`. The run records `results/*/run_manifest.json` give the MD5 of every
+   output as it was written.
+2. **Without images (CPU):**
+   - Post hoc checks, from the saved results and embeddings:
+     ```bash
+     cd results/12_review_checks
+     python r7_external_strict.py            # strict external test, about 30 s
+     python r3_cv_seed_sensitivity.py        # 20 further cross-validation seeds
+     python r8_refit_bootstrap.py            # refitting sensitivity analysis, about 80 min on 12 cores
+     python r11_baselines.py                 # single-property baselines (plan 7k)
+     cd ../13_transfer_checks
+     python r17_r18_transfer_checks.py rehearsal   # labels permuted within each cohort
+     python r17_r18_transfer_checks.py real        # crossed assembly and sex, a few minutes
+     ```
+     `review_lib.py` (R1–R9) and `review_lib2.py` (R10–R16) execute the model code of notebook 05 verbatim, so these
+     checks use the study's own functions.
+   - Figures: `python figures/make_figures.py . figures/out`.
+   - The tool's reproduction of the metadata audit: `python tool/tests/reproduce_notebook03.py .`
+   - Metadata audit (notebooks 03–04): runs from the saved inputs in `results/02_tasks_features/`.
+3. **With images (GPU):** notebooks 05–11 download the main CT series from TCIA (about 100 GB in total). They pin the
+   encoder revisions (CT-FM `527b0d1c`, Merlin `66dd0758`) and run a shuffled-label rehearsal before the real labels.
+
+The image notebooks ran on Colab with Python 3.13 and the versions in `environment/requirements.txt`. Checks R1–R9
+were rerun locally with the same scikit-learn, NumPy, SciPy and pandas versions; checks R10–R16 ran with Python
+3.12.10, NumPy 2.4.2, pandas 2.2.3, SciPy 1.14.1 and scikit-learn 1.5.2. Image-probe AUCs reproduce within about
+0.0012; the difference is consistent with floating-point differences between machines
+(`results/12_review_checks/r4b_reproduction.csv`).
+
+## Where each result comes from
+
+| Result | Source file |
+|---|---|
+| Metadata audit of the 26 tasks | `results/03_audit/audit_primary.csv` |
+| Field groups; site analyses | `results/03_audit/audit_feature_groups.csv`; `results/03_audit/audit_sites.csv` |
+| Image probes of the flagged tasks | `results/05_image_check/real/image_probe.csv`, `results/06_image_posthoc/real/silhouette_probe.csv` |
+| Screen validation (19 CT tasks) | `results/07_screen_validation/real/`, `results/10_figures_tables/robustness_screen_validation.csv` |
+| External transfer | `results/08_transfer/real/transfer.csv`, `results/11_external_lung/real/transfer.csv`, `results/09_transfer_posthoc/real/` |
+| Acquisition decoding | `results/07_screen_validation/decoding/acquisition_decoding.csv` |
+| Published studies on the flagged tasks | `literature/RQ5/extraction_v2.csv` |
+| Post hoc checks | `results/12_review_checks/`, `results/13_transfer_checks/` |
+| Sex and the CPTAC transfer; crossed assembly | `results/13_transfer_checks/real/r18_within_sex.csv`; `results/13_transfer_checks/real/r17_crossed_assembly.csv` |
+
+## How the analyses were run
+
+- **Plans before data:** each analysis was written into a dated plan (`protocol/analysis_plan.md`,
+  `protocol/analysis_plan_7l.md`) before it was run on real labels. Analyses added after results were seen are labelled
+  post hoc there and in the paper. The dates are the author's records, not external time stamps; this repository is a
+  single release snapshot. `results/12_review_checks/r16_planning_record.csv` lists, for each analysis, the results
+  already seen when it was planned.
+- **Rehearsals and records:** every image analysis ran first on shuffled labels, and every run logged the checksums of
+  its outputs.
+- **Research responsibility:** The author is responsible for study design, analysis plans, interpretation and reporting.
+
+## Data and licences
+
+- **No images are included.** All images are public in TCIA, under each collection's licence. Labels came from the
+  Genomic Data Commons, the collections' clinical files and the KiTS19 clinical file.
+- **Code:** MIT licence (`LICENSE`).
+- **Derived data** (tables, results, embeddings): CC BY 4.0. Please also cite the TCIA collections you use.
+- **Citation:** see `CITATION.cff`. The paper's reference will be added when it is published.

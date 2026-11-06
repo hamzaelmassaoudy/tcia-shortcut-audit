@@ -1,0 +1,51 @@
+
+######## NSCLC-Radiomics
+TCIA acquisition-shortcut audit 1.0.0, started 2026-11-03T18:55:04+00:00
+Series metadata from <local path> 1265 series of ['NSCLC-Radiomics']
+Modality CT: 203 labelled patients with a main series
+Classes: adenocarcinoma (51), squamous cell carcinoma (152)
+Fitting the metadata-only model (5 x 5 cross-validation) ...
+Metadata-only AUC 0.556 (95% CI 0.474-0.635), permutation p 0.0880 -> not flagged
+Field groups: alone and left out ...
+Done in 21.5 s. Report: <local path>
+
+######## Lung-PET-CT-Dx
+TCIA acquisition-shortcut audit 1.0.0, started 2026-11-03T18:55:25+00:00
+Series metadata from <local path> 1295 series of ['Lung-PET-CT-Dx']
+Modality CT: 312 labelled patients with a main series
+Classes: adenocarcinoma (251), squamous cell carcinoma (61)
+Fitting the metadata-only model (5 x 5 cross-validation) ...
+Metadata-only AUC 0.638 (95% CI 0.565-0.708), permutation p 0.0070 -> not flagged
+Field groups: alone and left out ...
+Done in 18.2 s. Report: <local path>
+
+######## Lung-PET-CT-Dx (A.9 set-asides removed)
+TCIA acquisition-shortcut audit 1.0.0, started 2026-11-03T18:55:43+00:00
+Series metadata from <local path> 1266 series of ['Lung-PET-CT-Dx']
+Modality CT: 312 labelled patients with a main series
+Classes: adenocarcinoma (251), squamous cell carcinoma (61)
+Fitting the metadata-only model (5 x 5 cross-validation) ...
+Metadata-only AUC 0.637 (95% CI 0.564-0.708), permutation p 0.0040 -> not flagged
+Field groups: alone and left out ...
+Done in 17.6 s. Report: <local path>
+
+ {
+ "NSCLC-Radiomics": {
+  "patients": 203,
+  "same_series_as_notebook11": 203
+ },
+ "Lung-PET-CT-Dx": {
+  "patients": 312,
+  "same_series_as_notebook11": 312
+ },
+ "Lung-PET-CT-Dx (A.9 set-asides removed)": {
+  "patients": 312,
+  "same_series_as_notebook11": 312
+ }
+}
+                                            task_id    auc  ci_low  ci_high  perm_p flagged      origin  q_bh_28  flag_28                                   family
+                        NSCLC-Radiomics | histology 0.5557  0.4738   0.6354   0.088     NaN plan 7j A.7   0.2053    False   26 + 2 (primary runs of the new tasks)
+                         Lung-PET-CT-Dx | histology 0.6378  0.5653   0.7078   0.007     NaN plan 7j A.7   0.0320    False   26 + 2 (primary runs of the new tasks)
+                        NSCLC-Radiomics | histology 0.5557  0.4738   0.6354   0.088     NaN plan 7j A.7   0.2053    False 26 + 2 (secondary runs of the new tasks)
+Lung-PET-CT-Dx (A.9 set-asides removed) | histology 0.6368  0.5644   0.7084   0.004     NaN plan 7j A.7   0.0224    False 26 + 2 (secondary runs of the new tasks)
+original flags changed by the 28-task BH: []

@@ -1,0 +1,7 @@
+encoder,input,role,n_tasks,spearman_rho,perm_p_one_sided,both_flagged,metadata_only_flagged,image_test_only_flagged,neither,missed_by_metadata_screen,reading
+ctfm,background,primary,19,0.5105263157894737,0.01361,1,3,0,15,none,the screen is supported
+ctfm,image,descriptive,19,0.5298245614035088,0.01015,1,3,1,14,LIDC-IDRI | benign vs malignant,
+ctfm,silhouette,control,19,0.4824561403508772,0.01888,0,4,0,15,none,
+merlin,background,secondary,19,0.3192982456140351,0.08945,2,2,0,15,none,not supported
+merlin,image,descriptive,19,0.387719298245614,0.05019,1,3,0,15,none,
+merlin,silhouette,control,19,0.22807017543859648,0.1727,0,4,0,15,none,

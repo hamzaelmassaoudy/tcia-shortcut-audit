@@ -1,0 +1,13 @@
+﻿Pair,Encoder,Input,Source internal AUC,External AUC,External permutation p,Gap (source − external),Target internal AUC,Reading
+lung: TCGA -> NSCLC Radiogenomics,CT-FM,full image,0.595 (0.497–0.689),0.366 (0.268–0.465),0.949,0.229 (0.092 to 0.358),0.608 (0.514–0.695),does not transfer
+lung: TCGA -> NSCLC Radiogenomics,CT-FM,background only,0.696 (0.599–0.786),0.493 (0.392–0.595),0.482,0.202 (0.064 to 0.343),0.620 (0.535–0.704),does not transfer
+lung: TCGA -> NSCLC Radiogenomics,Merlin,full image,0.763 (0.667–0.852),0.480 (0.361–0.597),0.599,0.283 (0.131 to 0.439),0.635 (0.538–0.720),does not transfer
+lung: TCGA -> NSCLC Radiogenomics,Merlin,background only,0.821 (0.738–0.893),0.439 (0.338–0.547),0.806,0.383 (0.248 to 0.500),0.570 (0.480–0.666),does not transfer
+lung: TCGA -> CPTAC,CT-FM,full image,0.595 (0.497–0.689),0.507 (0.369–0.641),0.45,0.088 (-0.077 to 0.247),0.455 (0.339–0.578),does not transfer
+lung: TCGA -> CPTAC,CT-FM,background only,0.696 (0.599–0.786),0.677 (0.553–0.796),0.003,0.019 (-0.140 to 0.172),0.448 (0.336–0.567),transfers
+lung: TCGA -> CPTAC,Merlin,full image,0.763 (0.667–0.852),0.695 (0.570–0.809),0.009,0.068 (-0.081 to 0.216),0.730 (0.615–0.830),transfers
+lung: TCGA -> CPTAC,Merlin,background only,0.821 (0.738–0.893),0.739 (0.610–0.855),0.001,0.082 (-0.058 to 0.221),0.604 (0.482–0.717),transfers
+kidney: TCGA -> C4KC-KiTS,CT-FM,full image,0.603 (0.488–0.722),0.545 (0.394–0.692),0.228,0.058 (-0.132 to 0.241),0.523 (0.407–0.640),does not transfer
+kidney: TCGA -> C4KC-KiTS,CT-FM,background only,0.617 (0.513–0.722),0.492 (0.357–0.622),0.558,0.125 (-0.036 to 0.291),0.482 (0.356–0.620),does not transfer
+kidney: TCGA -> C4KC-KiTS,Merlin,full image,0.518 (0.409–0.640),0.604 (0.469–0.737),0.061,-0.086 (-0.266 to 0.095),0.554 (0.438–0.674),does not transfer
+kidney: TCGA -> C4KC-KiTS,Merlin,background only,0.624 (0.506–0.741),0.464 (0.340–0.593),0.602,0.160 (-0.018 to 0.334),0.429 (0.295–0.568),does not transfer

@@ -1,0 +1,38 @@
+{
+  "settings_key": "93c8239f41913ed0814dc82778f20925",
+  "notebook": "07_screen_validation.ipynb",
+  "part": "experiment C (label-free)",
+  "plan": "7g (experiment C)",
+  "run_started_utc": "2026-10-29T18:25:18+00:00",
+  "run_finished_utc": "2026-10-29T23:38:31+00:00",
+  "in_colab": true,
+  "local_test_settings": {},
+  "n_scans": 1249,
+  "DEC_MIN_LEVEL": 20,
+  "versions": {
+    "python": "3.13.16",
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.6.1",
+    "joblib": "1.6.0",
+    "torch": "2.11.0+cu130",
+    "torchvision": "0.26.0+cu130",
+    "monai": "1.6.1",
+    "SimpleITK": "2.5.6",
+    "pydicom": "3.0.2",
+    "nibabel": "5.4.2",
+    "huggingface_hub": "1.33.0",
+    "merlin-vlm": "0.0.7",
+    "cpus": 12,
+    "gpu": "NVIDIA A100-SXM4-80GB"
+  },
+  "outputs": [
+    {
+      "file": "acquisition_decoding.csv",
+      "bytes": 7628,
+      "rows": 36,
+      "md5": "a3d9caf387de2469cea67b48677dd889"
+    }
+  ]
+}
