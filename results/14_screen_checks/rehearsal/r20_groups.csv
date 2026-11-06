@@ -1,0 +1,7 @@
+base,modality,patients,source,group,share_in_group
+LIDC-IDRI,CT,1010,vendor,vendor = GE,0.6623762376237624
+LIDC-IDRI,CT,1010,image count,image count > 206,0.499009900990099
+LIDC-IDRI,CT,1010,description word,"description word ""ct""",0.3712871287128713
+Duke-Breast-Cancer-MRI,MR,922,vendor,vendor = GE,0.6811279826464208
+Duke-Breast-Cancer-MRI,MR,922,image count,image count > 174,0.4685466377440347
+Duke-Breast-Cancer-MRI,MR,922,description word,"description word ""dyn""",0.7386117136659436

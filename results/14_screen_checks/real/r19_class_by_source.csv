@@ -1,0 +1,14 @@
+cohort,institution,country,TCGA-LUAD,TCGA-LUSC,adenocarcinoma,squamous cell carcinoma
+TCGA lung (institution; country of residence),lahey clinic,United States,4.0,1.0,,
+TCGA lung (institution; country of residence),roswell park,United States,0.0,14.0,,
+TCGA lung (institution; country of residence),unc,United States,6.0,3.0,,
+TCGA lung (institution; country of residence),university of pittsburgh,United States,19.0,14.0,,
+TCGA lung (institution; country of residence),washington university,United States,0.0,5.0,,
+TCGA lung (institution; country of residence),washington university,not recorded,38.0,0.0,,
+CPTAC lung (country of birth),,Jamaica,,,1.0,0.0
+CPTAC lung (country of birth),,Mexico,,,2.0,0.0
+CPTAC lung (country of birth),,Poland,,,10.0,13.0
+CPTAC lung (country of birth),,Russia,,,0.0,1.0
+CPTAC lung (country of birth),,Ukraine,,,5.0,4.0
+CPTAC lung (country of birth),,United States,,,16.0,4.0
+CPTAC lung (country of birth),,not recorded,,,3.0,14.0

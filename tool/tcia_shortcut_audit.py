@@ -19,7 +19,7 @@ be free of such shortcuts.
 
 Version 1.0.1 (4 Nov 2026) changes only the wording of the report and the log; every computation is that of 1.0.0.
 
-The rules are those of notebooks 01-03 of "Screening public cancer CT benchmarks for acquisition shortcuts: tissue-free
+The rules are those of notebooks 01-03 of "Screening public cancer CT benchmarks for non-tumour shortcuts: tissue-free
 prediction and the limits of external validation" (H. El Massaoudy). Run `python tcia_shortcut_audit.py --help` for the options.
 """
 import argparse, datetime, gzip, hashlib, json, re, sys, time, warnings

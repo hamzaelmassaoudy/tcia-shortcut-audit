@@ -1,0 +1,8 @@
+base,source,tasks,flagged,ci_high
+Duke-Breast-Cancer-MRI,description word,40,0,0.08762453925039232
+Duke-Breast-Cancer-MRI,image count,40,0,0.08762453925039232
+Duke-Breast-Cancer-MRI,vendor,40,0,0.08762453925039232
+LIDC-IDRI,description word,40,0,0.08762453925039232
+LIDC-IDRI,image count,40,0,0.08762453925039232
+LIDC-IDRI,vendor,40,1,0.1288165948800778
+all,all,240,1,0.023220656628519416

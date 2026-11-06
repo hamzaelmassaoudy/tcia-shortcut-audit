@@ -6,7 +6,7 @@ can be predicted from how the scans were acquired: scanner, software, number of 
 part and the words of the series descriptions. If they can, an image model trained on the task may learn the acquisition
 instead of the disease.
 
-It is the metadata screen of the paper *Screening public cancer CT benchmarks for acquisition shortcuts: tissue-free
+It is the metadata screen of the paper *Screening public cancer CT benchmarks for non-tumour shortcuts: tissue-free
 prediction and the limits of external validation* (Hamza El Massaoudy, NUIST), packaged so that anyone can run it on any TCIA collection.
 
 ## What it does

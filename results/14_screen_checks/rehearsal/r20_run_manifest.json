@@ -1,0 +1,23 @@
+{
+  "check": "R20 (plan 7m)",
+  "mode": "rehearsal",
+  "run_utc": "2026-11-06T17:22:11+00:00",
+  "tool_version": "1.0.1",
+  "rehearsal_gate": {
+    "false_flags_at_most_1_per_cohort_and_source": true,
+    "detection_or15_n250_above_0.5": true
+  },
+  "plan_sha256": "cafabfb4338f2aae2d6d3f00b6812e3ab5c7733e4815176c0f846c07ba088d0e",
+  "script_sha256": "88750f2240744e3577f6ab060071f78abd569f5cb931d71c1712f3e095466b26",
+  "versions": {
+    "numpy": "2.4.2",
+    "pandas": "2.2.3",
+    "python": "3.12.10"
+  },
+  "outputs": {
+    "r20_detection_by_oracle_auc.csv": "815a4a11a1c1bc2958ddf314a93d7d9366c32895ef92fd4c07d5c3253b59cf1b",
+    "r20_false_flags.csv": "13ed6a1f93cf8d3fe8c07fc326d19f514141b2e0053d8a2421ec6a2c10f97506",
+    "r20_groups.csv": "9b35175e8611d46a8a18a8a1b666f64c66a48f5b25202aa4d8a985ea64efdd77",
+    "r20_tasks.csv": "6645c2151d258fec2119d7cb57b43c9d3c79e111d6d88841389d9338d0dfda3e"
+  }
+}

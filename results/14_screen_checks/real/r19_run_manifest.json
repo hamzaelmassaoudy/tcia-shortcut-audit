@@ -1,0 +1,16 @@
+{
+  "check": "R19 (plan 7m)",
+  "run_utc": "2026-11-06T17:15:35+00:00",
+  "plan_sha256": "734083d4737acce75d944ead2fac9ceb01c4e78c8fa853acebbeedc1db2f71bf",
+  "script_sha256": "e5fbde1df5356d98884738fd5d48feb9471b3edb37b9720052330511225f543c",
+  "versions": {
+    "numpy": "2.4.2",
+    "pandas": "2.2.3",
+    "python": "3.12.10"
+  },
+  "outputs": {
+    "r19_class_by_source.csv": "5bb9be101b876ab6d5d8976140a676960602705350b8f1d54ad1a03f48fb459a",
+    "r19_within_country.csv": "b80c27bc792cd28b746ec0855be4e3b1fe0acc51cacf81b9dc69e5aa4beddd37",
+    "gdc_demographics.json": "2fcd4b763d1a2e4369ffb51fb4562239c5383ad64df51323ab5a95f9241c2e1e"
+  }
+}

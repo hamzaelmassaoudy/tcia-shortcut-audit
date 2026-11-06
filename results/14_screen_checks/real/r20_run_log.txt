@@ -1,0 +1,69 @@
+1680 tasks
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 12 concurrent workers.
+<local path>:31: UserWarning: A NumPy version >=1.23.5 and <2.3.0 is required for this version of SciPy (detected version 2.4.2)
+  from scipy import sparse
+<local path>:31: UserWarning: A NumPy version >=1.23.5 and <2.3.0 is required for this version of SciPy (detected version 2.4.2)
+  from scipy import sparse
+<local path>:31: UserWarning: A NumPy version >=1.23.5 and <2.3.0 is required for this version of SciPy (detected version 2.4.2)
+  from scipy import sparse
+<local path>:31: UserWarning: A NumPy version >=1.23.5 and <2.3.0 is required for this version of SciPy (detected version 2.4.2)
+  from scipy import sparse
+<local path>:31: UserWarning: A NumPy version >=1.23.5 and <2.3.0 is required for this version of SciPy (detected version 2.4.2)
+  from scipy import sparse
+<local path>:31: UserWarning: A NumPy version >=1.23.5 and <2.3.0 is required for this version of SciPy (detected version 2.4.2)
+  from scipy import sparse
+<local path>:31: UserWarning: A NumPy version >=1.23.5 and <2.3.0 is required for this version of SciPy (detected version 2.4.2)
+  from scipy import sparse
+<local path>:31: UserWarning: A NumPy version >=1.23.5 and <2.3.0 is required for this version of SciPy (detected version 2.4.2)
+  from scipy import sparse
+<local path>:31: UserWarning: A NumPy version >=1.23.5 and <2.3.0 is required for this version of SciPy (detected version 2.4.2)
+  from scipy import sparse
+<local path>:31: UserWarning: A NumPy version >=1.23.5 and <2.3.0 is required for this version of SciPy (detected version 2.4.2)
+  from scipy import sparse
+<local path>:31: UserWarning: A NumPy version >=1.23.5 and <2.3.0 is required for this version of SciPy (detected version 2.4.2)
+  from scipy import sparse
+<local path>:31: UserWarning: A NumPy version >=1.23.5 and <2.3.0 is required for this version of SciPy (detected version 2.4.2)
+  from scipy import sparse
+[Parallel(n_jobs=-1)]: Done  48 tasks      | elapsed:  1.1min
+[Parallel(n_jobs=-1)]: Done 138 tasks      | elapsed:  1.8min
+[Parallel(n_jobs=-1)]: Done 264 tasks      | elapsed:  6.6min
+[Parallel(n_jobs=-1)]: Done 426 tasks      | elapsed:  9.7min
+[Parallel(n_jobs=-1)]: Done 624 tasks      | elapsed: 16.8min
+[Parallel(n_jobs=-1)]: Done 858 tasks      | elapsed: 25.1min
+[Parallel(n_jobs=-1)]: Done 1128 tasks      | elapsed: 30.9min
+[Parallel(n_jobs=-1)]: Done 1434 tasks      | elapsed: 37.6min
+[Parallel(n_jobs=-1)]: Done 1680 out of 1680 | elapsed: 40.8min finished
+                     base modality  patients            source                   group  share_in_group
+0               LIDC-IDRI       CT      1010            vendor             vendor = GE        0.662376
+1               LIDC-IDRI       CT      1010       image count       image count > 206        0.499010
+2               LIDC-IDRI       CT      1010  description word   description word "ct"        0.371287
+3  Duke-Breast-Cancer-MRI       MR       922            vendor             vendor = GE        0.681128
+4  Duke-Breast-Cancer-MRI       MR       922       image count       image count > 174        0.468547
+5  Duke-Breast-Cancer-MRI       MR       922  description word  description word "dyn"        0.738612
+      n oracle_auc_bin  tasks  flagged  detection  ci_low  ci_high
+0   100          <0.55    213        1      0.005   0.001    0.026
+1   100      0.55-0.60    159        0      0.000  -0.000    0.024
+2   100      0.60-0.65    147        2      0.014   0.004    0.048
+3   100      0.65-0.70    134       11      0.082   0.046    0.141
+4   100      0.70-0.75    111       38      0.342   0.261    0.435
+5   100      0.75-0.80     42       27      0.643   0.492    0.770
+6   100         >=0.80     34       33      0.971   0.851    0.995
+7   250          <0.55    192        0      0.000   0.000    0.020
+8   250      0.55-0.60    182        0      0.000   0.000    0.021
+9   250      0.60-0.65    146        2      0.014   0.004    0.049
+10  250      0.65-0.70    142       44      0.310   0.240    0.390
+11  250      0.70-0.75    102       81      0.794   0.706    0.861
+12  250      0.75-0.80     55       54      0.982   0.904    0.997
+13  250         >=0.80     21       21      1.000   0.845    1.000
+                     base            source  tasks  flagged   ci_high
+0  Duke-Breast-Cancer-MRI  description word     40        0  0.087625
+1  Duke-Breast-Cancer-MRI       image count     40        0  0.087625
+2  Duke-Breast-Cancer-MRI            vendor     40        0  0.087625
+3               LIDC-IDRI  description word     40        0  0.087625
+4               LIDC-IDRI       image count     40        0  0.087625
+5               LIDC-IDRI            vendor     40        1  0.128817
+6                     all               all    240        1  0.023221
+     n  oracle_auc_at_80pct_detection  tasks
+0  100                          0.788    840
+1  250                          0.716    840
+gate None

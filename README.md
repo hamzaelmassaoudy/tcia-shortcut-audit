@@ -2,7 +2,7 @@
 
 **Can public cancer CT benchmarks be solved from how the scans were acquired, rather than from the patient?** This
 repository holds the open screening tool, the full analysis code, every result with its run record, and the frozen
-foundation-model embeddings for the study *Screening public cancer CT benchmarks for acquisition shortcuts: tissue-free
+foundation-model embeddings for the study *Screening public cancer CT benchmarks for non-tumour shortcuts: tissue-free
 prediction and the limits of external validation*.
 
 **Author:** Hamza El Massaoudy, School of Computer Science, Nanjing University of Information Science and Technology, Nanjing, China. Further authors will be listed when the paper is published.
@@ -21,7 +21,10 @@ The study screened 26 patient-level classification tasks built from 33 collectio
   exposing it.** TCGA lung models did not transfer to three independent cohorts (714 patients; AUC 0.37–0.56). They
   did transfer to CPTAC, which is assembled like TCGA (background only, AUC 0.68–0.74), through body-outline
   information rather than recorded acquisition fields: the TCGA metadata model did not transfer (AUC 0.42). Sex did not
-  explain the transfer (within-sex AUC 0.65–0.75).
+  explain the transfer (within-sex AUC 0.65–0.75), and CPTAC's classes, like TCGA's, came partly from different
+  contributing sources.
+- **The screen is specific and its sensitivity is measured.** On 1680 synthetic tasks it flagged 1 of 240 tasks without
+  an association and detected 80% of planted associations of AUC 0.72 (250 patients) to 0.79 (100 patients).
 - **External AUC depends on how the test set is assembled.** When the two classes of a test set were drawn from
   different cohorts, the same fixed background-only probes gave external AUCs from 0.29 to 0.75, with apparent transfer
   and reversal even on sets built only from independent cohorts.
@@ -52,11 +55,13 @@ not flagged is not shown to be free of shortcuts.
 | `results/NN_*/` | Outputs of notebook NN. Each run folder has `run_manifest.json` (package versions, settings, MD5 of every output). Image analyses keep the shuffled-label rehearsal (`rehearsal/`) next to the real run (`real/`) |
 | `results/*/cache/embeddings/` | Frozen CT-FM and Merlin embeddings per patient (`.npz`): full image, background only, silhouette |
 | `results/*/cache/api/` | Saved replies of the TCIA interface |
+| `results/14_screen_checks/` | Post hoc checks R19 (contributing country and the CPTAC transfer), R20 (positive control of the metadata screen: 1680 synthetic tasks) and R21 (mask coverage by class), fixed in `protocol/analysis_plan_7m.md` and `analysis_plan_7n.md` before they were run |
 | `results/13_transfer_checks/` | Post hoc checks R17 (crossed assembly of external test sets) and R18 (sex and the CPTAC transfer), fixed in `protocol/analysis_plan_7l.md` before they were run; rehearsal and real runs with run records |
 | `results/12_review_checks/` | Post hoc robustness checks R1–R16: seeds, a refitting sensitivity analysis, a strict external test, duplicate screening, site tables, mask quality control, sex and age by class (R1–R9); other main-series rules, single-property baselines, scans cut off by the field of view, kernel decoding within vendor, the AUC needed for a flag, multiplicity control and a planning record (R10–R16, fixed in plan section 7k before they were run) |
 | `literature/RQ5/` | Literature search scripts and log, raw and de-duplicated records, screening decisions with reasons, extraction tables |
 | `protocol/analysis_plan.md` | The dated analysis plan: research questions, data and methods, each step dated |
 | `protocol/analysis_plan_7l.md` | Plan section 7l (checks R17 and R18), written on 6 Nov 2026 before they were run |
+| `protocol/analysis_plan_7m.md`, `analysis_plan_7n.md` | Plan sections 7m and 7n (checks R19–R21), written on 7 Nov 2026 before they were run |
 | `figures/make_figures.py` | Rebuilds all figures from `results/`, after checking each input against its run record |
 | `environment/requirements.txt` | Package versions of the recorded runs |
 
@@ -75,6 +80,10 @@ not flagged is not shown to be free of shortcuts.
      cd ../13_transfer_checks
      python r17_r18_transfer_checks.py rehearsal   # labels permuted within each cohort
      python r17_r18_transfer_checks.py real        # crossed assembly and sex, a few minutes
+     cd ../14_screen_checks
+     python r19_country_cptac.py                   # contributing country (reads the saved GDC records)
+     python r20_screen_positive_control.py real    # positive control of the screen, about 2 h on 12 cores
+     python r21_mask_coverage.py                   # mask coverage by class
      ```
      `review_lib.py` (R1–R9) and `review_lib2.py` (R10–R16) execute the model code of notebook 05 verbatim, so these
      checks use the study's own functions.
@@ -101,13 +110,14 @@ were rerun locally with the same scikit-learn, NumPy, SciPy and pandas versions;
 | External transfer | `results/08_transfer/real/transfer.csv`, `results/11_external_lung/real/transfer.csv`, `results/09_transfer_posthoc/real/` |
 | Acquisition decoding | `results/07_screen_validation/decoding/acquisition_decoding.csv` |
 | Published studies on the flagged tasks | `literature/RQ5/extraction_v2.csv` |
-| Post hoc checks | `results/12_review_checks/`, `results/13_transfer_checks/` |
+| Post hoc checks | `results/12_review_checks/`, `results/13_transfer_checks/`, `results/14_screen_checks/` |
+| Sensitivity of the screen; contributing country | `results/14_screen_checks/real/r20_detection_by_oracle_auc.csv`; `results/14_screen_checks/real/r19_within_country.csv` |
 | Sex and the CPTAC transfer; crossed assembly | `results/13_transfer_checks/real/r18_within_sex.csv`; `results/13_transfer_checks/real/r17_crossed_assembly.csv` |
 
 ## How the analyses were run
 
 - **Plans before data:** each analysis was written into a dated plan (`protocol/analysis_plan.md`,
-  `protocol/analysis_plan_7l.md`) before it was run on real labels. Analyses added after results were seen are labelled
+  `protocol/analysis_plan_7l.md`, `7m`, `7n`) before it was run on real labels. Analyses added after results were seen are labelled
   post hoc there and in the paper. The dates are the author's records, not external time stamps; this repository is a
   single release snapshot. `results/12_review_checks/r16_planning_record.csv` lists, for each analysis, the results
   already seen when it was planned.

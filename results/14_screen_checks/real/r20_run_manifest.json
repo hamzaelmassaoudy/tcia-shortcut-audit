@@ -1,0 +1,21 @@
+{
+  "check": "R20 (plan 7m)",
+  "mode": "real",
+  "run_utc": "2026-11-06T18:03:43+00:00",
+  "tool_version": "1.0.1",
+  "rehearsal_gate": null,
+  "plan_sha256": "cafabfb4338f2aae2d6d3f00b6812e3ab5c7733e4815176c0f846c07ba088d0e",
+  "script_sha256": "88750f2240744e3577f6ab060071f78abd569f5cb931d71c1712f3e095466b26",
+  "versions": {
+    "numpy": "2.4.2",
+    "pandas": "2.2.3",
+    "python": "3.12.10"
+  },
+  "outputs": {
+    "r20_detection_80.csv": "eadfacbbf8731373ceb86e91f7fe30294e71fba84bc00130be43e5788a2768c4",
+    "r20_detection_by_oracle_auc.csv": "45577e0d95d5a5048bd4998382e33807711e8bed54087b643095f164723add56",
+    "r20_false_flags.csv": "c37785246a9cdb8365a906c3a8708ea335c67f45b5b61aee50e05c499b4e4209",
+    "r20_groups.csv": "9b35175e8611d46a8a18a8a1b666f64c66a48f5b25202aa4d8a985ea64efdd77",
+    "r20_tasks.csv": "257ac287f505b0c8466920b9338997e63e6890c4fea822d8b1701074681dfc42"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "check": "R21 (plan 7n)",
+  "run_utc": "2026-11-06T17:23:53+00:00",
+  "plan_sha256": "af362e06ee2235e38178605d234d57d13c2596fc1d29b1f2ad4f0d1a026835ff",
+  "script_sha256": "d988f8e116033292cdd671f113a7606a6c074c1a91c99aa5f6a2c0978c5b1b7c",
+  "versions": {
+    "numpy": "2.4.2",
+    "pandas": "2.2.3",
+    "python": "3.12.10"
+  },
+  "outputs": {
+    "r21_mask_coverage_by_class.csv": "eefeda3710e604376856b8622c6696becff2ce71dfdf7c3be34be1d39ab085ce"
+  }
+}
