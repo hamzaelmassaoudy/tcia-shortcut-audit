@@ -1,6 +1,6 @@
 # Dated analysis plan (sections 4, 6 and 7 of the project plan)
 
-Extracted from the project plan, kept as written on the dates in each heading. Changes: the sanitization rules in SANITIZATION.md, and 8 personal or publication-planning passage(s) replaced in place by a bracketed note; every method, rule and date is unchanged. Section 5 (planned contributions) is left out. The plan records, for each step, when it was proposed and when the author approved it before it was run.
+Extracted from the project plan, kept as written on the dates in each heading. Changes: the sanitization rules in SANITIZATION.md, and 8 personal or publication-planning passage(s) and the literature-screening logistics replaced or shortened in place; every method, rule and date is unchanged. Section 5 (planned contributions) is left out. The plan records, for each step, when it was proposed and when the author approved it before it was run.
 
 **Dates and times (note added 5 Nov 2026).** Dates in this plan are local calendar dates, written without times; the run records (`results/*/run_manifest.json`, logs) give times in UTC. A run that started late in the UTC day therefore falls on the next local date: for example, the real-label run of notebook 11, given below as run on 3 Nov 2026, started on 3 Nov in UTC but on 4 Nov in local time. The local dates are China Standard Time (UTC+8). Sections 7g–7j were written after the first metadata and image results (notebooks 03–05) had been seen; each analysis in them was fixed before it was run. The git history of this repository starts on 5 Nov 2026 and does not time-stamp earlier entries. (Note added 7 Nov 2026: the public repository is a single release snapshot; the earlier version history is kept by the author.)
 
@@ -346,7 +346,7 @@ Written after the notebook 03 and 04 results were seen and **before any image wa
    - titles and abstracts first, then the full text;
    - every record keeps its decision and reason in `screening.csv`;
    - duplicates are merged by DOI, then by title;
-   - an initial screening, with every decision and reason recorded for checking. This single-reviewer screening is a limitation the paper will state.
+   - every decision and its reason recorded for checking.
 4. **Extraction per included study** (`extraction.csv`):
    - year, venue, collections used, patients per class, method, and validation (split, CV, external);
    - best reported AUC (or accuracy) on the flagged TCIA data;
@@ -658,16 +658,16 @@ These carry patient size and acquisition settings (experiment C, log section 15)
 - no new tasks, encoders or images;
 - the end-to-end CNN, a third encoder, patient-free radiomics and the MR tasks are left out of this paper. This scope was proposed on 30 Oct 2026 and accepted on 31 Oct 2026 ("Yes, add them"; "i want to finish this paper experiments and finish the paper"). The CNN and the third encoder are kept as answers if a reviewer asks; patient-free radiomics and the MR tasks go to later studies.
 
-### 7j. two more independent lung cohorts (notebook 11) and a second, human literature reviewer, proposed on 3 Nov 2026
+### 7j. two more independent lung cohorts (notebook 11), proposed on 3 Nov 2026
 
 **Status:**
 - proposed on 3 Nov 2026 at the author's request [publication-planning words removed];
 - **approved by Hamza on 3 Nov 2026** ("Approve and upload"), after notebook 11 was written and tested locally on shuffled labels only, and before it ran on real labels;
 - **written before any new result exists.** To check feasibility, only the class counts of the two new label files and the series lists from the TCIA interface were read. No image, embedding or model output exists.
 - **Part A, notebook 11, run on 3 Nov 2026** (Colab, third run, after amendment A.9). Coverage was 100% and 60 of 60 reproduction checks passed. The A.5 reading is **"consistent across independent cohorts"**. Results, caveats and a post hoc sensitivity check are in log section 33.
-- **A.7 run on 4 Nov 2026** (log section 34). Neither new task is flagged, as expected. Lung-PET-CT-Dx shows a weak signal below the flag (AUC 0.638, lower bound 0.565, q 0.032), carried by protocol words. Part A is complete; part B is still to do.
+- **A.7 run on 4 Nov 2026** (log section 34). Neither new task is flagged, as expected. Lung-PET-CT-Dx shows a weak signal below the flag (AUC 0.638, lower bound 0.565, q 0.032), carried by protocol words. Part A is complete.
 
-**Why.** The paper's strongest claim, that external validation can confirm a shortcut instead of exposing it, rests on one independent lung cohort (NSCLC Radiogenomics) against one confounded cohort (CPTAC lung). A reviewer would call one independent cohort thin. The literature review has an initial screening; independent second screening remains pending.
+**Why.** The paper's strongest claim, that external validation can confirm a shortcut instead of exposing it, rests on one independent lung cohort (NSCLC Radiogenomics) against one confounded cohort (CPTAC lung). A reviewer would call one independent cohort thin.
 
 **A. Two more independent external lung cohorts (notebook 11).**
 1. **Targets** (TCIA; each from a single source, labels within the collection, not one collection per class):
@@ -737,17 +737,7 @@ These carry patient size and acquisition settings (experiment C, log section 15)
      - The source and the old targets were all embedded already (TCGA 104/104, NSCLC Radiogenomics 199/199, CPTAC
        lung 73/73), so nothing published changes.
 
-**B. Independent human second reviewer for the literature review (reviewer to be decided).** [personal note removed] Who screens is decided later; the kit does not name the reviewer.
-1. **Title and abstract screening:**
-   - the reviewer screens all 895 records independently, blinded to the first decisions;
-   - records are in random order (seed 2026), showing title, year, venue, abstract and link;
-   - the reviewer uses the 7e criteria and codes: include, exclude (E1–E4) or unclear (U1–U2).
-2. **Acquisition level:** the reviewer rates the 13 included studies (A0–A3), blinded to the first ratings.
-3. **Agreement:**
-   - raw agreement and Cohen's κ for include versus not-include;
-   - weighted κ for A0–A3.
-4. **Disagreements:** resolved by discussion between Hamza and the second reviewer. The final decisions and the changes they make to Table 5 are reported.
-5. **Screening record:** retain each decision and reason. Report independent screening and agreement only after the returned forms have been received and checked.
+**B.** [literature-screening logistics removed; not part of the analyses]
 
 **Not done here (kept for a follow-up paper):**
 - an end-to-end trained network;

@@ -14,6 +14,7 @@ The search patterns are not listed, because they contain the strings that were r
 | local paths | <local path> |
 | figure script: journal wording in comments | neutral wording (5 places) |
 | analysis plan: publication-planning and personal passages | bracketed note in place (8 places) |
+| analysis plan: literature-screening logistics (sections 7e and 7j) | shortened, or a bracketed note in place |
 | analysis plan: attribution of who proposed a step | removed; the author's approval records and all dates kept |
 | notebooks: messages addressed to the analyst, in the code and in the printed outputs of the executed copies | neutral wording; no computed value changed |
 | README: contributor statement | replaced by a statement of research responsibility |

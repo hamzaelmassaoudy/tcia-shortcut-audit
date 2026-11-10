@@ -3,7 +3,7 @@
 de4104a701182dcea4a8ad0cb54d6261  CITATION.cff
 b45a7ea1f59274a22e629341960ba983  LICENSE
 b7fc11861d0797147a4ef7e659299106  README.md
-3a328d902f3662a12b447d3989e34f5b  SANITIZATION.md
+05baa852ecb1c146a0b7413e0550d886  SANITIZATION.md
 6d0b669711a623203e1b553165485311  environment/requirements.txt
 933af566e7a21010d9822547c22b17fc  figures/make_figures.py
 71d7ebe02b93f9cb89280f0bc4896b62  literature/RQ5/extraction.csv
@@ -50,6 +50,8 @@ f92ead4e8943dac6899f52994cc1728e  notebooks/06_image_posthoc_checks.ipynb
 42b867fb0d28c078d00f0bb6518248ef  notebooks/09_transfer_posthoc.ipynb
 c49f797766e7afa0e8e02b7f54461dad  notebooks/10_figures_tables.ipynb
 2d1321b28eeb2978ba38fbb0b1cd45cf  notebooks/11_external_lung.ipynb
+ea9377cc21497adac0e66dc5ead969c3  notebooks/12_image_experiments.ipynb
+54f264e803391959558daeab3a4a9719  notebooks/13_cnn.ipynb
 d352b1d563f46cd96c85198be8a31500  notebooks/executed/01_tcia_inventory.ipynb
 3404f408527306aa2cff701a172750aa  notebooks/executed/02_labels_features_tasks.ipynb
 8b9ff99b537f4ed83b1183e37060ad31  notebooks/executed/03_metadata_audit.ipynb
@@ -61,10 +63,11 @@ c59af350de21c3f1120b2edcdeaef35e  notebooks/executed/05_image_model_check.ipynb
 0df154568c0825c2c5434b06691801d8  notebooks/executed/09_transfer_posthoc.ipynb
 d9b890a86027287741ba339457b4667c  notebooks/executed/10_figures_tables.ipynb
 da90c6fb94f9836eed55f70511237e3f  notebooks/executed/11_external_lung.ipynb
-09d05f74aabfc89bd1fbf60ff457e2f2  protocol/analysis_plan.md
+ce4ae4fcd38511839210c5da45c84287  protocol/analysis_plan.md
 ad89e48e0995bb97bc631c705809c615  protocol/analysis_plan_7l.md
 1d61cd81880e62a1fcccae5aaaf7914b  protocol/analysis_plan_7m.md
 3ec4d3bc306348fafdb6c89bc50195dc  protocol/analysis_plan_7n.md
+5c70dfd97f021ed894311d184a5d9cc3  protocol/analysis_plan_7o.md
 f808bb7733f8a4d1c5a96ff62c41e158  results/01_inventory/candidates_missing.csv
 d339e586351a7d09a5a0aa89c4ecd4cf  results/01_inventory/collection_overlap.csv
 78ed7931f1f0dd1c17326a794192d43e  results/01_inventory/collections_inventory.csv
