@@ -159,22 +159,31 @@ a = audit.merge(tasks_final[['task_id', 'modality']], on='task_id', how='left').
 assert a.modality.notna().all()
 n_tasks, n_flag, n_ct = len(a), int(a.flagged.sum()), sv.task_id.nunique()
 assert (n_tasks, n_flag, n_ct) == (26, 4, 19)
-steps = [('TCIA public interface', 'series metadata only,\nno image download'),
-         ('1  Metadata screen', f'{n_tasks} benchmark tasks,\n{n_flag} flagged'),
-         ('2  Tissue-removed probes', f'background only and\nsilhouette, {n_ct} CT tasks'),
-         ('3  External transfer', 'independent vs\nsimilarly assembled\ntarget'),
-         ('4  Decoding', 'embeddings decode\nscanner settings')]
-fig = plt.figure(figsize=(FULL, 30 * MM))
+steps = [('TCIA public\ninterface', 'series metadata only,\nno image download'),
+         ('1  Metadata\nscreen', f'{n_tasks} benchmark tasks,\n{n_flag} flagged'),
+         ('2  Tissue-removed\nprobes', f'background only\nand silhouette,\n{n_ct} CT tasks'),
+         ('3  External\ntransfer', 'independent vs\nsimilarly assembled\ntarget'),
+         ('4  Acquisition\ndecoding', 'embeddings decode\nscanner settings')]
+fig = plt.figure(figsize=(FULL, 34 * MM))
 ax = fig.add_axes([0, 0, 1, 1])
 ax.set_xlim(0, len(steps)); ax.set_ylim(0, 1); ax.axis('off')
+boxes, texts = [], []
 for i, (head, body) in enumerate(steps):
-    ax.add_patch(FancyBboxPatch((i + 0.04, 0.06), 0.84, 0.88, boxstyle='round,pad=0,rounding_size=0.05',
-                                facecolor='#eef4fd' if i else '#f1f0ec', edgecolor=AXIS, lw=0.6))
-    ax.text(i + 0.46, 0.76, head, ha='center', va='center', fontsize=FS, fontweight='bold', color=INK)
-    ax.text(i + 0.46, 0.38, body, ha='center', va='center', fontsize=FS, color=INK, linespacing=1.25)
+    boxes.append(ax.add_patch(FancyBboxPatch((i + 0.04, 0.05), 0.84, 0.90, boxstyle='round,pad=0,rounding_size=0.05',
+                                             facecolor='#eef4fd' if i else '#f1f0ec', edgecolor=AXIS, lw=0.6)))
+    texts.append((i, ax.text(i + 0.46, 0.74, head, ha='center', va='center', fontsize=FS, fontweight='bold', color=INK,
+                             linespacing=1.15)))
+    texts.append((i, ax.text(i + 0.46, 0.31, body, ha='center', va='center', fontsize=FS, color=INK, linespacing=1.25)))
     if i < len(steps) - 1:
         ax.annotate('', xy=(i + 1.045, 0.5), xytext=(i + 0.885, 0.5),
                     arrowprops=dict(arrowstyle='-|>', color=MUTED, lw=0.8, mutation_scale=7))
+fig.canvas.draw()                      # every text must lie inside its box, with a margin of 1 mm on each side
+_r = fig.canvas.get_renderer()
+for i, t in texts:
+    tb, bb = t.get_window_extent(_r), boxes[i].get_window_extent(_r)
+    m = fig.dpi * MM
+    assert tb.x0 >= bb.x0 + m and tb.x1 <= bb.x1 - m and tb.y0 >= bb.y0 + m and tb.y1 <= bb.y1 - m, \
+        f'Fig. 1: text {t.get_text()!r} does not fit inside its box'
 save(fig, 'Fig1')
 
 # ---- Fig. 3 (cited second in Results): field groups (risk map) -----------------------------------------------------------------------------
@@ -185,7 +194,7 @@ GROUP_LABEL = ['Scanner\n(vendor,\nmodel)', 'Software\nversion', 'Image\ncount',
 assert sorted(groups_fg.group.unique()) == sorted(GROUP_ORDER)
 M = groups_fg.pivot(index='task_id', columns='group', values='alone_auc').loc[a.task_id, GROUP_ORDER]
 fig = plt.figure(figsize=(FULL, 150 * MM))
-ax = fig.add_axes([0.335, 0.025, 0.54, 0.83])
+ax = fig.add_axes([0.35, 0.025, 0.525, 0.83])
 cax = fig.add_axes([0.895, 0.25, 0.018, 0.45])
 vals = M.to_numpy(dtype=float)
 im = ax.imshow(np.clip(vals, 0.5, 0.9), cmap=SEQ, vmin=0.5, vmax=0.9, aspect='auto', origin='lower')
@@ -456,14 +465,50 @@ fig.legend(handles=[mk(m, c, True, label=lab) for _, lab, c, m in DS], loc='lowe
 save(fig, 'FigS2', esm=True)
 
 import shutil                                        # Fig. S1: the mask quality-control pictures (review check R6)
-shutil.copyfile(IN['12'] / 'r6_mask_qc.png', OUTDIR / 'esm_png' / 'FigS1.png')
-# the supplement prints Fig. S1 in two parts (rows 1-4 and 5-8) so that the labels stay readable
-from PIL import Image
-_qc = Image.open(OUTDIR / 'esm_png' / 'FigS1.png')
-_h = _qc.size[1] // 2
+from PIL import Image, ImageDraw, ImageFont
+# The QC pictures saved by notebook 06 print the scan name squeezed into the panel titles. The images themselves (from
+# row 34 down, identical in all 8 pictures) are kept unchanged; above them, the scan name and the three panel titles
+# (same words) are redrawn in a clean header. Order as in results/12_review_checks/r6_mask_qc.png (sorted by file name).
+_pics = sorted((IN['12'].parent / '06_image_posthoc' / 'cache' / 'qc').glob('*.png'))
+assert len(_pics) == 8, len(_pics)
+_TOP, _CENTRES = 34, (163, 479, 795)
+_TITLES = ('original + body outline', 'background only (notebook 05)', 'silhouette (this notebook)')
+
+
+def _font(names, size):
+    for name in names:
+        try:
+            return ImageFont.truetype(name, size)
+        except OSError:
+            pass
+    return ImageFont.load_default()
+
+
+_fb = _font(('arialbd.ttf', 'Arial Bold.ttf', 'DejaVuSans-Bold.ttf'), 15)
+_fr = _font(('arial.ttf', 'Arial.ttf', 'DejaVuSans.ttf'), 13)
+_rows = []
+for _p in _pics:
+    _im = Image.open(_p).convert('RGB')
+    assert _im.size == (960, 336), (_p.name, _im.size)
+    _body = _im.crop((0, _TOP, _im.width, _im.height))
+    _row = Image.new('RGB', (_im.width, 52 + _body.height), 'white')
+    _d = ImageDraw.Draw(_row)
+    _d.text((_im.width // 2, 13), _p.stem.replace('__', ': '), fill='black', font=_fb, anchor='mm')
+    for _x, _t in zip(_CENTRES, _TITLES):
+        _d.text((_x, 38), _t, fill='black', font=_fr, anchor='mm')
+    _row.paste(_body, (0, 52))
+    _rows.append(_row)
+_qc = Image.new('RGB', (max(r.width for r in _rows), sum(r.height for r in _rows)), 'white')
+_y = 0
+for _r in _rows:
+    _qc.paste(_r, (0, _y))
+    _y += _r.height
+_qc.save(OUTDIR / 'esm_png' / 'FigS1.png')
+# Online Resource 1 prints Fig. S1 in two parts (rows 1-4 and 5-8) so that the labels stay readable
+_h = 4 * _rows[0].height
 _qc.crop((0, 0, _qc.size[0], _h)).save(OUTDIR / 'esm_png' / 'FigS1a.png')
 _qc.crop((0, _h, _qc.size[0], _qc.size[1])).save(OUTDIR / 'esm_png' / 'FigS1b.png')
-SAVED['FigS1'] = 'copied from results/12_review_checks/r6_mask_qc.png'
+SAVED['FigS1'] = 'rebuilt from results/06_image_posthoc/cache/qc (as results/12_review_checks/r6_mask_qc.png, with clear scan labels)'
 
 json.dump({'sizes_mm': SAVED, 'matplotlib': matplotlib.__version__, 'inputs_verified': sorted(man)},
           open(OUTDIR / 'figures_record.json', 'w'), indent=1)
