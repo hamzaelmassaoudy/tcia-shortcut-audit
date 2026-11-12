@@ -1,4 +1,4 @@
-"""Figures of the study, 4 Nov 2026 (Fig. 7 with the two lung cohorts of plan 7j; supplementary figures numbered by first citation: S1 mask QC, S2 fields by class in five lung datasets, S3 acquisition decoding). notebook 10's figures redrawn to the journal's artwork rules, from the same verified result files.
+"""Figures of the study, 12 Nov 2026 (Fig. 1 with the names of the Methods subsections; Fig. 7 with the two lung cohorts of plan 7j; Fig. 8 for the experiments of plan 7o; supplementary figures numbered by first citation: S1 mask QC, S2 fields by class in five lung datasets, S3 acquisition decoding). notebook 10's figures redrawn to the journal's artwork rules, from the same verified result files.
 
 Artwork rules (174 mm wide, Arial, EPS and 600-dpi TIFF): width 39, 84, 129 or 174 mm, height at most 234 mm;
 Arial lettering 8-12 pt; lines at least 0.3 pt; RGB; vector EPS preferred, TIFF for halftone/combination (600 dpi);
@@ -154,29 +154,67 @@ def save(fig, name, esm=False, check_height=True):
     print(f'saved {name}: {w * 25.4:.0f} x {h * 25.4:.0f} mm')
 
 
-# ---- Fig. 1: workflow --------------------------------------------------------------------------------------------
+# ---- Fig. 1: workflow (each box carries the name of its Methods subsection, in the same order) -------------------
 a = audit.merge(tasks_final[['task_id', 'modality']], on='task_id', how='left').sort_values('auc').reset_index(drop=True)
 assert a.modality.notna().all()
 n_tasks, n_flag, n_ct = len(a), int(a.flagged.sum()), sv.task_id.nunique()
-assert (n_tasks, n_flag, n_ct) == (26, 4, 19)
-steps = [('TCIA public\ninterface', 'series metadata only,\nno image download'),
-         ('1  Metadata\nscreen', f'{n_tasks} benchmark tasks,\n{n_flag} flagged'),
-         ('2  Tissue-removed\nprobes', f'background only\nand silhouette,\n{n_ct} CT tasks'),
-         ('3  External\ntransfer', 'independent vs\nsimilarly assembled\ntarget'),
-         ('4  Acquisition\ndecoding', 'embeddings decode\nscanner settings')]
-fig = plt.figure(figsize=(FULL, 34 * MM))
+n_mr = int((a.modality == 'MR').sum())
+assert (n_tasks, n_flag, n_ct, n_mr) == (26, 4, 19, 7)
+# (heading, body lines, kind, label of the arrow that leaves the box)
+FLOW = [('Data: Collections, Tasks and Labels',
+         ['TCIA public interface, series metadata only (no image download): 33 collections, 63 468 series.',
+          f'{n_tasks} patient-level classification tasks ({n_ct} CT, {n_mr} MRI), 2775 patients; one main series per patient.'],
+         'data', f'{n_tasks} tasks'),
+        ('Step 1: Metadata Screen',
+         [f'Logistic regression on acquisition metadata alone: {n_flag} of {n_tasks} tasks flagged (all CT).',
+          'Site proxy, open audit tool and positive control with synthetic labels.'],
+         'step', f'{n_flag} flagged and {n_ct - n_flag} unflagged CT tasks'),
+        ('Step 2: Tissue-Removed Image Probes',
+         ['Frozen CT foundation models (CT-FM, Merlin) with linear probes on three inputs:',
+          f'full image, background only and silhouette; comparison with the screen across {n_ct} CT tasks.'],
+         'step', 'flagged lung and kidney tasks'),
+        ('Step 3: External Transfer',
+         ['Probes trained on TCGA applied unchanged to external datasets: three independent lung cohorts,',
+          'one lung benchmark assembled like TCGA (CPTAC) and one kidney cohort.'],
+         'step', 'lung histology'),
+        ('Step 4: Source of the Tissue-Free Signal',
+         ['Post hoc: tumour-only and lungs-only inputs, measures of body habitus and positioning,',
+          'harmonized geometry and a 3D network trained from scratch.'],
+         'step', 'embeddings of Step 2'),
+        ('Step 5: Acquisition Decoding',
+         ['Scanner settings decoded from the embeddings without diagnostic labels: 1249 scans, 13 collections.'],
+         'step', None),
+        ('Targeted Literature Check',
+         ['How published studies on the flagged tasks handled acquisition: 895 records screened, 13 studies included.'],
+         'side', None),
+        ('Evaluation Metrics and Statistical Analysis',
+         ['In every step: AUC with 95% CI and permutation P. Flagged: lower CI bound ≥ 0.60 and q < 0.05.',
+          'Transfers: external CI above 0.5.'],
+         'side', None)]
+W1, X0, X1 = 174.0, 2.0, 172.0
+PAD, LINE, HEAD, GAP_ARROW, GAP_SIDE = 2.2, 3.7, 4.2, 6.5, 3.5
+heights = [2 * PAD + HEAD + LINE * len(body) for _, body, _, _ in FLOW]
+H1F = 1.0 + sum(heights) + GAP_ARROW * 5 + GAP_SIDE * 2 + 1.0
+fig = plt.figure(figsize=(FULL, H1F * MM))
 ax = fig.add_axes([0, 0, 1, 1])
-ax.set_xlim(0, len(steps)); ax.set_ylim(0, 1); ax.axis('off')
-boxes, texts = [], []
-for i, (head, body) in enumerate(steps):
-    boxes.append(ax.add_patch(FancyBboxPatch((i + 0.04, 0.05), 0.84, 0.90, boxstyle='round,pad=0,rounding_size=0.05',
-                                             facecolor='#eef4fd' if i else '#f1f0ec', edgecolor=AXIS, lw=0.6)))
-    texts.append((i, ax.text(i + 0.46, 0.74, head, ha='center', va='center', fontsize=FS, fontweight='bold', color=INK,
-                             linespacing=1.15)))
-    texts.append((i, ax.text(i + 0.46, 0.31, body, ha='center', va='center', fontsize=FS, color=INK, linespacing=1.25)))
-    if i < len(steps) - 1:
-        ax.annotate('', xy=(i + 1.045, 0.5), xytext=(i + 0.885, 0.5),
+ax.set_xlim(0, W1); ax.set_ylim(H1F, 0); ax.axis('off')
+FACE = {'data': '#f1f0ec', 'step': '#eef4fd', 'side': 'white'}
+boxes, texts, y = [], [], 1.0
+for i, ((head, body, kind, arrow), h) in enumerate(zip(FLOW, heights)):
+    boxes.append(ax.add_patch(FancyBboxPatch((X0, y), X1 - X0, h, boxstyle='round,pad=0,rounding_size=1.2',
+                                             facecolor=FACE[kind], edgecolor=AXIS, lw=0.6,
+                                             linestyle='-' if kind != 'side' else (0, (4, 2)))))
+    texts.append((i, ax.text(X0 + 3, y + PAD, head, ha='left', va='top', fontsize=FS + 1, fontweight='bold', color=INK)))
+    for j, line in enumerate(body):
+        texts.append((i, ax.text(X0 + 3, y + PAD + HEAD + LINE * j, line, ha='left', va='top', fontsize=FS, color=INK)))
+    y += h
+    if arrow:
+        ax.annotate('', xy=(W1 / 2, y + GAP_ARROW - 0.4), xytext=(W1 / 2, y + 0.4),
                     arrowprops=dict(arrowstyle='-|>', color=MUTED, lw=0.8, mutation_scale=7))
+        ax.text(W1 / 2 + 3, y + GAP_ARROW / 2, arrow, ha='left', va='center', fontsize=FS, color=INK2)
+        y += GAP_ARROW
+    else:
+        y += GAP_SIDE
 fig.canvas.draw()                      # every text must lie inside its box, with a margin of 1 mm on each side
 _r = fig.canvas.get_renderer()
 for i, t in texts:
@@ -406,6 +444,100 @@ fig.legend(handles=[mk('D', MUTED, True, ms=4.5, label='source, internal (cross-
                     mk('o', INK2, False, label='open marker: does not transfer')],
            loc='lower left', bbox_to_anchor=(0.01, 0.0), ncol=3, handletextpad=0.3, columnspacing=1.0)
 save(fig, 'Fig7')
+
+# ---- Fig. 8: source of the tissue-free signal in lung histology (Step 4; plan 7o, notebooks 12 and 13) ---------
+G = RES / '12_image_experiments' / 'real'
+C13 = RES / '13_cnn' / 'real'
+for _folder in (G, C13):
+    _m = verify(_folder)
+    assert _m['in_colab'] and _m.get('labels', _m.get('mode')) == 'real'
+LUNG = 'lung histology (LUAD vs LUSC)'
+g1i = pd.read_csv(G / 'g1_internal.csv'); g1i = g1i[g1i.dataset == LUNG].set_index(['input', 'encoder'])
+g1t = pd.read_csv(G / 'g1_transfer.csv').set_index(['input', 'encoder', 'target'])
+g2i = pd.read_csv(G / 'g2_internal.csv').set_index(['model', 'encoder'])
+g2t = pd.read_csv(G / 'g2_transfer.csv').set_index(['input', 'encoder', 'target'])
+g3i = pd.read_csv(G / 'g3_internal.csv').set_index(['input', 'encoder'])
+g3t = pd.read_csv(G / 'g3_transfer.csv').set_index(['input', 'encoder', 'target'])
+c13i = pd.read_csv(C13 / 'cnn_internal.csv').set_index('input')
+c13t = pd.read_csv(C13 / 'cnn_transfer.csv').set_index(['input', 'target'])
+TARGETS8 = [('CPTAC lung', 'lung: TCGA -> CPTAC', 'b  → CPTAC\nlung'),
+            ('NSCLC Radiogenomics', 'lung: TCGA -> NSCLC Radiogenomics', 'c  → NSCLC\nRadiogenomics'),
+            ('NSCLC-Radiomics', 'lung: TCGA -> NSCLC-Radiomics', 'd  → NSCLC-\nRadiomics'),
+            ('Lung-PET-CT-Dx', 'lung: TCGA -> Lung-PET-CT-Dx', 'e  → Lung-PET-\nCT-Dx')]
+PURPLE = '#7a4fb5'
+# (row label, colour, kind, key): kind decides which result file the row is read from
+ROWS8 = [('Full image (Steps 2–3)', BLUE, 'native', 'image'),
+         ('Background only (Steps 2–3)', ORANGE, 'native', 'background'),
+         ('Lungs only', AQUA, 'g1', 'lungs'),
+         ('Tumour only', PURPLE, 'g1', 'tumour'),
+         ('Habitus model, seven measures', INK2, 'habitus', None),
+         ('Background only,\nhabitus removed', ORANGE, 'resid', 'background, habitus removed'),
+         ('Harmonized geometry,\nfull image', BLUE, 'g3', 'harm_full'),
+         ('Harmonized geometry,\nbackground only', ORANGE, 'g3', 'harm_background'),
+         ('3D network, full image', BLUE, 'cnn', 'full'),
+         ('3D network, background only', ORANGE, 'cnn', 'background')]
+_src = transfer11[transfer11.pair == 'lung: TCGA -> CPTAC'].set_index(['encoder', 'input'])
+
+
+def cells8(kind, key, target, pair):
+    """[(marker, auc, low, high, filled)] of one row in one panel; target None is TCGA by cross-validation."""
+    out = []
+    if kind in ('native', 'g1', 'resid', 'g3'):
+        for enc in ENCODERS:
+            if target is None:
+                if kind == 'native':
+                    r = _src.loc[(enc, key)]; v = (r.source_internal_auc, r.source_internal_ci_low, r.source_internal_ci_high)
+                else:
+                    r = {'g1': g1i, 'resid': g2i, 'g3': g3i}[kind].loc[(key, enc)]; v = (r.auc, r.ci_low, r.ci_high)
+                out.append(('o' if enc == 'ctfm' else 's', *v, v[1] > 0.5))
+            elif kind == 'native':
+                r = transfer11[transfer11.pair == pair].set_index(['encoder', 'input']).loc[(enc, key)]
+                out.append(('o' if enc == 'ctfm' else 's', r.external_auc, r.external_ci_low, r.external_ci_high,
+                            str(r.reading).startswith('transfers')))
+            else:
+                r = {'g1': g1t, 'resid': g2t, 'g3': g3t}[kind].loc[(key, enc, target)]
+                out.append(('o' if enc == 'ctfm' else 's', r.external_auc, r.ci_low, r.ci_high, bool(r.transfers)))
+    elif kind == 'habitus':
+        if target is None:
+            r = g2i.loc[('habitus', '-')]; out.append(('D', r.auc, r.ci_low, r.ci_high, r.ci_low > 0.5))
+        else:
+            r = g2t.loc[('habitus model', '-', target)]
+            out.append(('D', r.external_auc, r.ci_low, r.ci_high, bool(r.transfers)))
+    else:
+        if target is None:
+            r = c13i.loc[key]; out.append(('D', r.auc, r.ci_low, r.ci_high, r.ci_low > 0.5))
+        else:
+            r = c13t.loc[(key, target)]; out.append(('D', r.external_auc, r.ci_low, r.ci_high, bool(r.transfers)))
+    return out
+
+
+fig = plt.figure(figsize=(FULL, 122 * MM))
+x0, pw, gap, yb, ph8 = 0.245, 0.130, 0.021, 0.19, 0.70
+axes = [fig.add_axes([x0 + i * (pw + gap), yb, pw, ph8]) for i in range(5)]
+PANELS8 = [(None, None, 'a  TCGA lung\n(cross-validated)')] + TARGETS8
+n8 = len(ROWS8)
+for ax, (target, pair, title) in zip(axes, PANELS8):
+    for i, (lab, col, kind, key) in enumerate(ROWS8):
+        yc = n8 - 1 - i
+        cs = cells8(kind, key, target, pair)
+        offs = [0.17, -0.17] if len(cs) == 2 else [0.0]
+        for (mkr, v, lo, hi, filled), dy in zip(cs, offs):
+            ci_point(ax, v, lo, hi, yc + dy, col, filled=bool(filled), marker=mkr, size=17 if mkr == 'D' else 20, lw=1.0)
+        if i:
+            ax.axhline(yc + 0.5, color=GRID, lw=0.5)
+    chance(ax, flag_line=False)
+    ax.set_xlim(0.25, 0.95); ax.set_ylim(-0.55, n8 - 0.45)
+    ax.set_xticks([0.3, 0.5, 0.7, 0.9])
+    ax.set_yticks(range(n8), [r[0] for r in ROWS8[::-1]] if ax is axes[0] else [''] * n8)
+    axis_style(ax, grid=None)
+    ax.set_xlabel('AUC (95% CI)')
+    fig.text(ax.get_position().x0, ax.get_position().y1 + 0.012, title, ha='left', va='bottom', fontsize=8,
+             fontweight='bold', linespacing=1.15)
+fig.legend(handles=[mk('o', INK2, True, label='CT-FM'), mk('s', INK2, True, ms=4.5, label='Merlin'),
+                    mk('D', INK2, True, ms=4.2, label='no encoder (habitus model, 3D network)'),
+                    mk('o', INK2, False, label='open marker: CI includes 0.5 (a) or does not transfer (b–e)')],
+           loc='lower left', bbox_to_anchor=(0.01, 0.0), ncol=2, handletextpad=0.3, columnspacing=1.5)
+save(fig, 'Fig8')
 
 # ---- the supplement: Figs. S1 and S2 --------------------------------------------------------------------------
 TARGETS_C = decoding.target.unique().tolist()

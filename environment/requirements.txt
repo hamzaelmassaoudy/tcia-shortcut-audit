@@ -17,4 +17,7 @@ pydicom==3.0.2
 nibabel==5.4.2
 huggingface_hub==1.33.0
 merlin-vlm==0.0.7
+# notebooks 12 and 13 (plan 7o): Python 3.13.16, numpy 2.4.6, torch 2.14.1 (+cu130), torchvision 0.29.1 and the other
+# versions above. Notebook 12 runs TotalSegmentator 2.10.0 with torch 2.5.1 and nnunetv2 2.6.2 in its own Python 3.12
+# environment, which the notebook creates.
 # post hoc checks (results/12_review_checks): numpy, pandas, scipy, scikit-learn, joblib at the versions above

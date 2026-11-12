@@ -1,0 +1,3 @@
+encoder,internal_ci_includes_0.5,cptac_transferred,reading
+ctfm,True,False,removes the tissue-free signal
+merlin,True,False,removes the tissue-free signal

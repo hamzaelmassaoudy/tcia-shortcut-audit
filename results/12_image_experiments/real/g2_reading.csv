@@ -1,0 +1,3 @@
+encoder,habitus_model_transfers_to_cptac,residualized_background_transfers_to_cptac,reading
+ctfm,True,False,accounts for the CPTAC transfer
+merlin,True,False,accounts for the CPTAC transfer

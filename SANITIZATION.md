@@ -44,6 +44,8 @@ Changed files:
 - `notebooks/executed/09_transfer_posthoc.ipynb`: Colab user metadata removed from cells: 9; Colab account e-mail: 2; author attribution (authors listed in README): 1
 - `notebooks/executed/10_figures_tables.ipynb`: Colab user metadata removed from cells: 51; Colab account e-mail: 2; author attribution (authors listed in README): 1
 - `notebooks/executed/11_external_lung.ipynb`: Colab user metadata removed from cells: 24; Colab account e-mail: 2
+- `notebooks/executed/12_image_experiments.ipynb`: Colab user metadata removed from cells: 4
+- `notebooks/executed/13_cnn.ipynb`: Colab user metadata removed from cells: 6
 - `results/11_external_lung/a7_metadata_screen/a7_run.log`: local Windows paths: 6
 - `results/12_review_checks/r10_run.log`: local Windows paths: 46
 - `results/12_review_checks/r11_run.log`: local Windows paths: 13

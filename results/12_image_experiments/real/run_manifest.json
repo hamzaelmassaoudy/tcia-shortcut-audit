@@ -1,0 +1,210 @@
+{
+  "notebook": "12_image_experiments.ipynb",
+  "mode": "real",
+  "plan": "7o (G1-G3)",
+  "labels": "real",
+  "run_started_utc": "2026-11-10T03:20:16+00:00",
+  "run_finished_utc": "2026-11-10T08:47:20+00:00",
+  "in_colab": true,
+  "local_test_settings": {},
+  "input_runs": {
+    "01": "2026-10-28T12:20:42+00:00",
+    "02": "2026-10-28T15:29:58+00:00",
+    "03": "2026-10-28T16:27:39+00:00",
+    "04": "2026-10-28T19:04:36+00:00",
+    "05": "2026-10-29T04:57:15+00:00",
+    "06": "2026-10-29T14:04:31+00:00",
+    "07": "2026-10-29T18:25:18+00:00",
+    "08": "2026-10-30T10:19:13+00:00",
+    "09": "2026-10-30T14:38:52+00:00"
+  },
+  "input_caches": {
+    "05": {
+      "count": 1053,
+      "combined_md5": "23f84dc5fbdd3e3047f4a4ad0cad85f8"
+    },
+    "06": {
+      "count": 1052,
+      "combined_md5": "bbe6202f8b48b6fe4fe4db6f462a9df7"
+    },
+    "07": {
+      "count": 1450,
+      "combined_md5": "99f4d1df6e363a023b7a9b598dbddbfd"
+    },
+    "08": {
+      "count": 477,
+      "combined_md5": "040ddb3ebfb4b444358b063666351d15"
+    }
+  },
+  "totalsegmentator_version": "2.10.0",
+  "totalsegmentator_torch": "2.5.1",
+  "totalsegmentator_nnunetv2": "2.6.2",
+  "totalsegmentator_environment": {
+    "python": "3.12.3",
+    "torch": "2.5.1+cu124",
+    "cuda": true,
+    "TotalSegmentator": "2.10.0",
+    "nnunetv2": "2.6.2",
+    "numpy": "1.26.4"
+  },
+  "tumour_check": {
+    "patients_with_gtv": 203,
+    "share_dice_above": 0.7635467980295566,
+    "median_dice": 0.7055728717642638,
+    "segmentation_reliable": true
+  },
+  "coverage": [
+    {
+      "dataset": "CPTAC lung",
+      "scans": 73,
+      "embedded": 73,
+      "body_reproduced": 73,
+      "tumour_detected": 70,
+      "coverage": 1.0
+    },
+    {
+      "dataset": "LIDC-IDRI | primary vs metastatic",
+      "scans": 94,
+      "embedded": 94,
+      "body_reproduced": 94,
+      "tumour_detected": 88,
+      "coverage": 1.0
+    },
+    {
+      "dataset": "Lung-PET-CT-Dx",
+      "scans": 312,
+      "embedded": 312,
+      "body_reproduced": 312,
+      "tumour_detected": 306,
+      "coverage": 1.0
+    },
+    {
+      "dataset": "NSCLC Radiogenomics",
+      "scans": 199,
+      "embedded": 199,
+      "body_reproduced": 199,
+      "tumour_detected": 194,
+      "coverage": 1.0
+    },
+    {
+      "dataset": "NSCLC-Radiomics",
+      "scans": 203,
+      "embedded": 203,
+      "body_reproduced": 203,
+      "tumour_detected": 194,
+      "coverage": 1.0
+    },
+    {
+      "dataset": "lung histology (LUAD vs LUSC)",
+      "scans": 104,
+      "embedded": 104,
+      "body_reproduced": 104,
+      "tumour_detected": 96,
+      "coverage": 1.0
+    }
+  ],
+  "settings": {
+    "PREP12_KEY": "3d98d44158b3",
+    "EMB12_KEY": "5d1aa19200f4",
+    "LUNG_DILATE_MM": 5.0,
+    "TUMOUR_DILATE_MM": 10.0,
+    "HABITUS": [
+      "ap_lr_ratio",
+      "subcut_fat_cm2",
+      "arms_beside_trunk",
+      "table_height_mm",
+      "centroid_offset_mm",
+      "scan_length_mm",
+      "lung_volume_l"
+    ],
+    "N_BOOT": 2000,
+    "N_PERM": 999,
+    "N_PERM_STRICT": 99999,
+    "SEED": 2026,
+    "LR_PARAMS": {
+      "C": 1.0,
+      "class_weight": "balanced",
+      "max_iter": 5000
+    }
+  },
+  "versions": {
+    "python": "3.13.16",
+    "numpy": "2.4.6",
+    "pandas": "2.2.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.6.1",
+    "joblib": "1.6.0",
+    "torch": "2.14.1+cu130",
+    "torchvision": "0.29.1+cu130",
+    "monai": "1.6.1",
+    "SimpleITK": "2.5.6",
+    "pydicom": "3.0.2",
+    "nibabel": "5.4.2",
+    "huggingface_hub": "1.33.0",
+    "merlin-vlm": "0.0.7",
+    "cpus": 12,
+    "gpu": "NVIDIA A100-SXM4-40GB"
+  },
+  "outputs": [
+    {
+      "file": "dataset_labels.csv",
+      "bytes": 59263,
+      "md5": "e945d04f7771455de2290358089be783"
+    },
+    {
+      "file": "g1_internal.csv",
+      "bytes": 3074,
+      "md5": "df2772a43156c6f13392d907a195b22c"
+    },
+    {
+      "file": "g1_reading.csv",
+      "bytes": 246,
+      "md5": "c5852486c95cacf4a828eec865166fba"
+    },
+    {
+      "file": "g1_transfer.csv",
+      "bytes": 1980,
+      "md5": "949df1a5246c195c5f439f2a44f5e975"
+    },
+    {
+      "file": "g2_habitus_by_class.csv",
+      "bytes": 3330,
+      "md5": "ec06ab63ceb55d5565b4019c6ca1bbc8"
+    },
+    {
+      "file": "g2_internal.csv",
+      "bytes": 287,
+      "md5": "62f086b07bbbb846e9340eae1f7289ae"
+    },
+    {
+      "file": "g2_reading.csv",
+      "bytes": 190,
+      "md5": "5e8e7775b031438f6ab5117be6f56993"
+    },
+    {
+      "file": "g2_transfer.csv",
+      "bytes": 1675,
+      "md5": "2a02428e2ecbb1449dac5de7d5b2ee60"
+    },
+    {
+      "file": "g3_internal.csv",
+      "bytes": 645,
+      "md5": "7d153adb89fb9e3c1e36115ace13fde2"
+    },
+    {
+      "file": "g3_reading.csv",
+      "bytes": 117,
+      "md5": "c5c299f990bf912f651147cec3793249"
+    },
+    {
+      "file": "g3_transfer.csv",
+      "bytes": 2089,
+      "md5": "84b52a6b021dec9814618491bc85ab9c"
+    },
+    {
+      "file": "tumour_detected_by_class.csv",
+      "bytes": 509,
+      "md5": "cbe55fc2a03efd5e5b576464d3241cec"
+    }
+  ]
+}

@@ -1,0 +1,986 @@
+dataset,key,y,class
+lung histology (LUAD vs LUSC),TCGA-LUAD__TCGA-17-Z011,0,TCGA-LUAD
+lung histology (LUAD vs LUSC),TCGA-LUAD__TCGA-17-Z013,0,TCGA-LUAD
+lung histology (LUAD vs LUSC),TCGA-LUAD__TCGA-17-Z015,1,TCGA-LUSC
+lung histology (LUAD vs LUSC),TCGA-LUAD__TCGA-17-Z016,0,TCGA-LUAD
+lung histology (LUAD vs LUSC),TCGA-LUAD__TCGA-17-Z017,0,TCGA-LUAD
+lung histology (LUAD vs LUSC),TCGA-LUAD__TCGA-17-Z018,1,TCGA-LUSC
+lung histology (LUAD vs LUSC),TCGA-LUAD__TCGA-17-Z019,0,TCGA-LUAD
+lung histology (LUAD vs LUSC),TCGA-LUAD__TCGA-17-Z020,0,TCGA-LUAD
+lung histology (LUAD vs LUSC),TCGA-LUAD__TCGA-17-Z021,0,TCGA-LUAD
+lung histology (LUAD vs LUSC),TCGA-LUAD__TCGA-17-Z023,0,TCGA-LUAD
+lung histology (LUAD vs LUSC),TCGA-LUAD__TCGA-17-Z024,0,TCGA-LUAD
+lung histology (LUAD vs LUSC),TCGA-LUAD__TCGA-17-Z027,0,TCGA-LUAD
+lung histology (LUAD vs LUSC),TCGA-LUAD__TCGA-17-Z028,0,TCGA-LUAD
+lung histology (LUAD vs LUSC),TCGA-LUAD__TCGA-17-Z029,1,TCGA-LUSC
+lung histology (LUAD vs LUSC),TCGA-LUAD__TCGA-17-Z030,1,TCGA-LUSC
+lung histology (LUAD vs LUSC),TCGA-LUAD__TCGA-17-Z031,1,TCGA-LUSC
+lung histology (LUAD vs LUSC),TCGA-LUAD__TCGA-17-Z032,0,TCGA-LUAD
+lung histology (LUAD vs LUSC),TCGA-LUAD__TCGA-17-Z033,1,TCGA-LUSC
+lung histology (LUAD vs LUSC),TCGA-LUAD__TCGA-17-Z034,1,TCGA-LUSC
+lung histology (LUAD vs LUSC),TCGA-LUAD__TCGA-17-Z035,1,TCGA-LUSC
+lung histology (LUAD vs LUSC),TCGA-LUAD__TCGA-17-Z036,0,TCGA-LUAD
+lung histology (LUAD vs LUSC),TCGA-LUAD__TCGA-17-Z038,1,TCGA-LUSC
+lung histology (LUAD vs LUSC),TCGA-LUAD__TCGA-17-Z039,1,TCGA-LUSC
+lung histology (LUAD vs LUSC),TCGA-LUAD__TCGA-17-Z042,1,TCGA-LUSC
+lung histology (LUAD vs LUSC),TCGA-LUAD__TCGA-17-Z043,0,TCGA-LUAD
+lung histology (LUAD vs LUSC),TCGA-LUAD__TCGA-17-Z045,0,TCGA-LUAD
+lung histology (LUAD vs LUSC),TCGA-LUAD__TCGA-17-Z048,0,TCGA-LUAD
+lung histology (LUAD vs LUSC),TCGA-LUAD__TCGA-17-Z050,0,TCGA-LUAD
+lung histology (LUAD vs LUSC),TCGA-LUAD__TCGA-17-Z051,0,TCGA-LUAD
+lung histology (LUAD vs LUSC),TCGA-LUAD__TCGA-17-Z052,0,TCGA-LUAD
+lung histology (LUAD vs LUSC),TCGA-LUAD__TCGA-17-Z053,1,TCGA-LUSC
+lung histology (LUAD vs LUSC),TCGA-LUAD__TCGA-17-Z054,0,TCGA-LUAD
+lung histology (LUAD vs LUSC),TCGA-LUAD__TCGA-17-Z056,1,TCGA-LUSC
+lung histology (LUAD vs LUSC),TCGA-LUAD__TCGA-17-Z058,0,TCGA-LUAD
+lung histology (LUAD vs LUSC),TCGA-LUAD__TCGA-17-Z059,0,TCGA-LUAD
+lung histology (LUAD vs LUSC),TCGA-LUAD__TCGA-17-Z060,0,TCGA-LUAD
+lung histology (LUAD vs LUSC),TCGA-LUAD__TCGA-17-Z061,1,TCGA-LUSC
+lung histology (LUAD vs LUSC),TCGA-LUAD__TCGA-17-Z062,0,TCGA-LUAD
+lung histology (LUAD vs LUSC),TCGA-LUAD__TCGA-38-4625,0,TCGA-LUAD
+lung histology (LUAD vs LUSC),TCGA-LUAD__TCGA-38-4626,0,TCGA-LUAD
+lung histology (LUAD vs LUSC),TCGA-LUAD__TCGA-38-4628,0,TCGA-LUAD
+lung histology (LUAD vs LUSC),TCGA-LUAD__TCGA-38-4629,0,TCGA-LUAD
+lung histology (LUAD vs LUSC),TCGA-LUAD__TCGA-38-6178,0,TCGA-LUAD
+lung histology (LUAD vs LUSC),TCGA-LUAD__TCGA-38-A44F,0,TCGA-LUAD
+lung histology (LUAD vs LUSC),TCGA-LUAD__TCGA-50-5044,1,TCGA-LUSC
+lung histology (LUAD vs LUSC),TCGA-LUAD__TCGA-50-5045,0,TCGA-LUAD
+lung histology (LUAD vs LUSC),TCGA-LUAD__TCGA-50-5049,0,TCGA-LUAD
+lung histology (LUAD vs LUSC),TCGA-LUAD__TCGA-50-5051,0,TCGA-LUAD
+lung histology (LUAD vs LUSC),TCGA-LUAD__TCGA-50-5066,0,TCGA-LUAD
+lung histology (LUAD vs LUSC),TCGA-LUAD__TCGA-50-5072,0,TCGA-LUAD
+lung histology (LUAD vs LUSC),TCGA-LUAD__TCGA-50-5936,1,TCGA-LUSC
+lung histology (LUAD vs LUSC),TCGA-LUAD__TCGA-50-5941,1,TCGA-LUSC
+lung histology (LUAD vs LUSC),TCGA-LUAD__TCGA-50-5942,0,TCGA-LUAD
+lung histology (LUAD vs LUSC),TCGA-LUAD__TCGA-50-5946,0,TCGA-LUAD
+lung histology (LUAD vs LUSC),TCGA-LUAD__TCGA-50-6590,1,TCGA-LUSC
+lung histology (LUAD vs LUSC),TCGA-LUAD__TCGA-50-6591,1,TCGA-LUSC
+lung histology (LUAD vs LUSC),TCGA-LUAD__TCGA-50-6592,1,TCGA-LUSC
+lung histology (LUAD vs LUSC),TCGA-LUAD__TCGA-50-6593,0,TCGA-LUAD
+lung histology (LUAD vs LUSC),TCGA-LUAD__TCGA-50-6594,1,TCGA-LUSC
+lung histology (LUAD vs LUSC),TCGA-LUAD__TCGA-50-6595,1,TCGA-LUSC
+lung histology (LUAD vs LUSC),TCGA-LUAD__TCGA-50-6673,0,TCGA-LUAD
+lung histology (LUAD vs LUSC),TCGA-LUAD__TCGA-50-8459,0,TCGA-LUAD
+lung histology (LUAD vs LUSC),TCGA-LUAD__TCGA-50-8460,0,TCGA-LUAD
+lung histology (LUAD vs LUSC),TCGA-LUAD__TCGA-J2-8192,0,TCGA-LUAD
+lung histology (LUAD vs LUSC),TCGA-LUAD__TCGA-J2-A4AD,0,TCGA-LUAD
+lung histology (LUAD vs LUSC),TCGA-LUAD__TCGA-J2-A4AE,0,TCGA-LUAD
+lung histology (LUAD vs LUSC),TCGA-LUAD__TCGA-J2-A4AG,1,TCGA-LUSC
+lung histology (LUAD vs LUSC),TCGA-LUSC__TCGA-34-2605,0,TCGA-LUAD
+lung histology (LUAD vs LUSC),TCGA-LUSC__TCGA-34-2609,0,TCGA-LUAD
+lung histology (LUAD vs LUSC),TCGA-LUSC__TCGA-34-5231,1,TCGA-LUSC
+lung histology (LUAD vs LUSC),TCGA-LUSC__TCGA-34-5232,0,TCGA-LUAD
+lung histology (LUAD vs LUSC),TCGA-LUSC__TCGA-34-5234,0,TCGA-LUAD
+lung histology (LUAD vs LUSC),TCGA-LUSC__TCGA-34-5236,0,TCGA-LUAD
+lung histology (LUAD vs LUSC),TCGA-LUSC__TCGA-34-5239,1,TCGA-LUSC
+lung histology (LUAD vs LUSC),TCGA-LUSC__TCGA-34-5240,0,TCGA-LUAD
+lung histology (LUAD vs LUSC),TCGA-LUSC__TCGA-34-5241,0,TCGA-LUAD
+lung histology (LUAD vs LUSC),TCGA-LUSC__TCGA-34-5928,1,TCGA-LUSC
+lung histology (LUAD vs LUSC),TCGA-LUSC__TCGA-34-7107,0,TCGA-LUAD
+lung histology (LUAD vs LUSC),TCGA-LUSC__TCGA-34-8454,0,TCGA-LUAD
+lung histology (LUAD vs LUSC),TCGA-LUSC__TCGA-34-8455,0,TCGA-LUAD
+lung histology (LUAD vs LUSC),TCGA-LUSC__TCGA-34-A5IX,0,TCGA-LUAD
+lung histology (LUAD vs LUSC),TCGA-LUSC__TCGA-51-4079,0,TCGA-LUAD
+lung histology (LUAD vs LUSC),TCGA-LUSC__TCGA-51-4080,0,TCGA-LUAD
+lung histology (LUAD vs LUSC),TCGA-LUSC__TCGA-51-6867,0,TCGA-LUAD
+lung histology (LUAD vs LUSC),TCGA-LUSC__TCGA-60-2695,0,TCGA-LUAD
+lung histology (LUAD vs LUSC),TCGA-LUSC__TCGA-60-2696,1,TCGA-LUSC
+lung histology (LUAD vs LUSC),TCGA-LUSC__TCGA-60-2710,1,TCGA-LUSC
+lung histology (LUAD vs LUSC),TCGA-LUSC__TCGA-60-2711,1,TCGA-LUSC
+lung histology (LUAD vs LUSC),TCGA-LUSC__TCGA-60-2712,0,TCGA-LUAD
+lung histology (LUAD vs LUSC),TCGA-LUSC__TCGA-60-2715,0,TCGA-LUAD
+lung histology (LUAD vs LUSC),TCGA-LUSC__TCGA-60-2716,0,TCGA-LUAD
+lung histology (LUAD vs LUSC),TCGA-LUSC__TCGA-60-2719,1,TCGA-LUSC
+lung histology (LUAD vs LUSC),TCGA-LUSC__TCGA-60-2721,1,TCGA-LUSC
+lung histology (LUAD vs LUSC),TCGA-LUSC__TCGA-60-2722,0,TCGA-LUAD
+lung histology (LUAD vs LUSC),TCGA-LUSC__TCGA-60-2723,0,TCGA-LUAD
+lung histology (LUAD vs LUSC),TCGA-LUSC__TCGA-60-2724,0,TCGA-LUAD
+lung histology (LUAD vs LUSC),TCGA-LUSC__TCGA-60-2725,1,TCGA-LUSC
+lung histology (LUAD vs LUSC),TCGA-LUSC__TCGA-60-2726,1,TCGA-LUSC
+lung histology (LUAD vs LUSC),TCGA-LUSC__TCGA-92-7340,1,TCGA-LUSC
+lung histology (LUAD vs LUSC),TCGA-LUSC__TCGA-92-7341,0,TCGA-LUAD
+lung histology (LUAD vs LUSC),TCGA-LUSC__TCGA-92-8063,1,TCGA-LUSC
+lung histology (LUAD vs LUSC),TCGA-LUSC__TCGA-92-8064,1,TCGA-LUSC
+lung histology (LUAD vs LUSC),TCGA-LUSC__TCGA-92-8065,1,TCGA-LUSC
+lung histology (LUAD vs LUSC),TCGA-LUSC__TCGA-J1-A4AH,0,TCGA-LUAD
+CPTAC lung,CPTAC-LSCC__C3L-01000,0,CPTAC-LUAD
+CPTAC lung,CPTAC-LSCC__C3N-00247,0,CPTAC-LUAD
+CPTAC lung,CPTAC-LSCC__C3N-00309,0,CPTAC-LUAD
+CPTAC lung,CPTAC-LSCC__C3N-00497,1,CPTAC-LSCC
+CPTAC lung,CPTAC-LSCC__C3N-00839,1,CPTAC-LSCC
+CPTAC lung,CPTAC-LSCC__C3N-01194,1,CPTAC-LSCC
+CPTAC lung,CPTAC-LSCC__C3N-01846,0,CPTAC-LUAD
+CPTAC lung,CPTAC-LSCC__C3N-01892,0,CPTAC-LUAD
+CPTAC lung,CPTAC-LSCC__C3N-01893,0,CPTAC-LUAD
+CPTAC lung,CPTAC-LSCC__C3N-02283,0,CPTAC-LUAD
+CPTAC lung,CPTAC-LSCC__C3N-02284,1,CPTAC-LSCC
+CPTAC lung,CPTAC-LSCC__C3N-02285,0,CPTAC-LUAD
+CPTAC lung,CPTAC-LSCC__C3N-02288,1,CPTAC-LSCC
+CPTAC lung,CPTAC-LSCC__C3N-02289,0,CPTAC-LUAD
+CPTAC lung,CPTAC-LSCC__C3N-02300,0,CPTAC-LUAD
+CPTAC lung,CPTAC-LSCC__C3N-02339,0,CPTAC-LUAD
+CPTAC lung,CPTAC-LSCC__C3N-02434,1,CPTAC-LSCC
+CPTAC lung,CPTAC-LSCC__C3N-02494,1,CPTAC-LSCC
+CPTAC lung,CPTAC-LSCC__C3N-02523,1,CPTAC-LSCC
+CPTAC lung,CPTAC-LSCC__C3N-02675,0,CPTAC-LUAD
+CPTAC lung,CPTAC-LSCC__C3N-03424,1,CPTAC-LSCC
+CPTAC lung,CPTAC-LSCC__C3N-03425,1,CPTAC-LSCC
+CPTAC lung,CPTAC-LSCC__C3N-03486,0,CPTAC-LUAD
+CPTAC lung,CPTAC-LSCC__C3N-03762,1,CPTAC-LSCC
+CPTAC lung,CPTAC-LSCC__C3N-04162,1,CPTAC-LSCC
+CPTAC lung,CPTAC-LSCC__C3N-04167,0,CPTAC-LUAD
+CPTAC lung,CPTAC-LSCC__C3N-04169,1,CPTAC-LSCC
+CPTAC lung,CPTAC-LSCC__C3N-04170,0,CPTAC-LUAD
+CPTAC lung,CPTAC-LSCC__C3N-04179,0,CPTAC-LUAD
+CPTAC lung,CPTAC-LSCC__C3N-04457,0,CPTAC-LUAD
+CPTAC lung,CPTAC-LSCC__C3N-04673,0,CPTAC-LUAD
+CPTAC lung,CPTAC-LSCC__C3N-04701,1,CPTAC-LSCC
+CPTAC lung,CPTAC-LSCC__C3N-05078,1,CPTAC-LSCC
+CPTAC lung,CPTAC-LSCC__C3N-05079,0,CPTAC-LUAD
+CPTAC lung,CPTAC-LSCC__C3N-05629,0,CPTAC-LUAD
+CPTAC lung,CPTAC-LSCC__C3N-05630,1,CPTAC-LSCC
+CPTAC lung,CPTAC-LUAD__C3L-00263,0,CPTAC-LUAD
+CPTAC lung,CPTAC-LUAD__C3L-00422,0,CPTAC-LUAD
+CPTAC lung,CPTAC-LUAD__C3L-00893,1,CPTAC-LSCC
+CPTAC lung,CPTAC-LUAD__C3L-01924,1,CPTAC-LSCC
+CPTAC lung,CPTAC-LUAD__C3L-02508,0,CPTAC-LUAD
+CPTAC lung,CPTAC-LUAD__C3L-02513,0,CPTAC-LUAD
+CPTAC lung,CPTAC-LUAD__C3L-02515,0,CPTAC-LUAD
+CPTAC lung,CPTAC-LUAD__C3L-03642,1,CPTAC-LSCC
+CPTAC lung,CPTAC-LUAD__C3L-03717,1,CPTAC-LSCC
+CPTAC lung,CPTAC-LUAD__C3L-03721,1,CPTAC-LSCC
+CPTAC lung,CPTAC-LUAD__C3N-00199,1,CPTAC-LSCC
+CPTAC lung,CPTAC-LUAD__C3N-00293,0,CPTAC-LUAD
+CPTAC lung,CPTAC-LUAD__C3N-00294,1,CPTAC-LSCC
+CPTAC lung,CPTAC-LUAD__C3N-00704,0,CPTAC-LUAD
+CPTAC lung,CPTAC-LUAD__C3N-00737,0,CPTAC-LUAD
+CPTAC lung,CPTAC-LUAD__C3N-00738,1,CPTAC-LSCC
+CPTAC lung,CPTAC-LUAD__C3N-00959,1,CPTAC-LSCC
+CPTAC lung,CPTAC-LUAD__C3N-01799,1,CPTAC-LSCC
+CPTAC lung,CPTAC-LUAD__C3N-02281,1,CPTAC-LSCC
+CPTAC lung,CPTAC-LUAD__C3N-02282,0,CPTAC-LUAD
+CPTAC lung,CPTAC-LUAD__C3N-02290,1,CPTAC-LSCC
+CPTAC lung,CPTAC-LUAD__C3N-02451,0,CPTAC-LUAD
+CPTAC lung,CPTAC-LUAD__C3N-02672,0,CPTAC-LUAD
+CPTAC lung,CPTAC-LUAD__C3N-02715,0,CPTAC-LUAD
+CPTAC lung,CPTAC-LUAD__C3N-02721,1,CPTAC-LSCC
+CPTAC lung,CPTAC-LUAD__C3N-02948,0,CPTAC-LUAD
+CPTAC lung,CPTAC-LUAD__C3N-02950,0,CPTAC-LUAD
+CPTAC lung,CPTAC-LUAD__C3N-02973,1,CPTAC-LSCC
+CPTAC lung,CPTAC-LUAD__C3N-03038,1,CPTAC-LSCC
+CPTAC lung,CPTAC-LUAD__C3N-03222,1,CPTAC-LSCC
+CPTAC lung,CPTAC-LUAD__C3N-03233,0,CPTAC-LUAD
+CPTAC lung,CPTAC-LUAD__C3N-03420,1,CPTAC-LSCC
+CPTAC lung,CPTAC-LUAD__C3N-03764,1,CPTAC-LSCC
+CPTAC lung,CPTAC-LUAD__C3N-03765,1,CPTAC-LSCC
+CPTAC lung,CPTAC-LUAD__C3N-03911,0,CPTAC-LUAD
+CPTAC lung,CPTAC-LUAD__C3N-04173,0,CPTAC-LUAD
+CPTAC lung,CPTAC-LUAD__C3N-04382,1,CPTAC-LSCC
+NSCLC Radiogenomics,NSCLC Radiogenomics__AMC-001,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__AMC-002,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__AMC-003,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__AMC-004,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__AMC-005,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__AMC-006,1,squamous
+NSCLC Radiogenomics,NSCLC Radiogenomics__AMC-007,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__AMC-008,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__AMC-009,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__AMC-010,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__AMC-011,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__AMC-012,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__AMC-013,1,squamous
+NSCLC Radiogenomics,NSCLC Radiogenomics__AMC-014,1,squamous
+NSCLC Radiogenomics,NSCLC Radiogenomics__AMC-015,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__AMC-016,1,squamous
+NSCLC Radiogenomics,NSCLC Radiogenomics__AMC-017,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__AMC-018,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__AMC-019,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__AMC-020,1,squamous
+NSCLC Radiogenomics,NSCLC Radiogenomics__AMC-021,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__AMC-022,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__AMC-023,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__AMC-024,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__AMC-025,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__AMC-026,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__AMC-027,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__AMC-028,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__AMC-029,1,squamous
+NSCLC Radiogenomics,NSCLC Radiogenomics__AMC-030,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__AMC-031,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__AMC-032,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__AMC-033,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__AMC-034,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__AMC-035,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__AMC-036,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__AMC-037,1,squamous
+NSCLC Radiogenomics,NSCLC Radiogenomics__AMC-038,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__AMC-039,1,squamous
+NSCLC Radiogenomics,NSCLC Radiogenomics__AMC-040,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__AMC-041,1,squamous
+NSCLC Radiogenomics,NSCLC Radiogenomics__AMC-042,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__AMC-043,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__AMC-044,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__AMC-045,1,squamous
+NSCLC Radiogenomics,NSCLC Radiogenomics__AMC-046,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__AMC-047,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__AMC-048,1,squamous
+NSCLC Radiogenomics,NSCLC Radiogenomics__AMC-049,1,squamous
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-001,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-002,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-003,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-004,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-005,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-006,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-007,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-008,1,squamous
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-009,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-010,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-011,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-012,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-013,1,squamous
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-014,1,squamous
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-015,1,squamous
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-016,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-017,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-018,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-019,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-020,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-021,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-022,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-023,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-024,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-025,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-026,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-028,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-030,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-032,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-033,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-034,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-035,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-036,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-037,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-038,1,squamous
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-039,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-040,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-041,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-042,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-043,1,squamous
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-044,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-045,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-046,1,squamous
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-047,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-048,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-049,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-050,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-051,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-052,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-053,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-054,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-055,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-056,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-057,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-058,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-059,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-060,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-061,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-062,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-063,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-064,1,squamous
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-065,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-066,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-067,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-068,1,squamous
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-069,1,squamous
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-070,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-071,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-072,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-073,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-074,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-075,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-076,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-077,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-078,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-079,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-080,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-081,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-082,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-083,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-084,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-085,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-086,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-087,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-088,1,squamous
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-089,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-090,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-091,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-092,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-093,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-094,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-095,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-096,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-097,1,squamous
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-098,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-099,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-100,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-101,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-102,1,squamous
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-103,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-104,1,squamous
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-105,1,squamous
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-106,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-107,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-108,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-109,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-110,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-111,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-112,1,squamous
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-113,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-114,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-115,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-116,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-117,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-118,1,squamous
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-119,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-120,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-121,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-122,1,squamous
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-123,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-124,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-125,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-126,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-127,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-128,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-129,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-130,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-131,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-132,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-133,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-134,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-135,1,squamous
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-136,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-137,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-138,1,squamous
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-139,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-140,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-141,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-142,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-143,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-144,1,squamous
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-145,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-146,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-150,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-153,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-154,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-156,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-159,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-160,0,adenocarcinoma
+NSCLC Radiogenomics,NSCLC Radiogenomics__R01-161,0,adenocarcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-002,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-004,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-005,0,adenocarcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-006,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-007,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-008,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-009,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-010,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-011,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-012,0,adenocarcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-014,0,adenocarcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-018,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-022,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-024,0,adenocarcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-025,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-026,0,adenocarcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-027,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-030,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-031,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-032,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-034,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-035,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-037,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-041,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-042,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-045,0,adenocarcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-046,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-047,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-050,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-052,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-053,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-054,0,adenocarcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-061,0,adenocarcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-063,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-064,0,adenocarcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-068,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-073,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-078,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-082,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-086,0,adenocarcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-089,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-092,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-093,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-095,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-096,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-098,0,adenocarcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-099,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-101,0,adenocarcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-104,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-105,0,adenocarcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-107,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-109,0,adenocarcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-114,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-115,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-116,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-117,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-121,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-122,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-123,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-130,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-131,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-135,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-143,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-144,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-145,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-146,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-150,0,adenocarcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-151,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-155,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-163,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-167,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-173,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-176,0,adenocarcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-177,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-181,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-190,0,adenocarcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-193,0,adenocarcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-197,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-200,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-201,0,adenocarcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-202,0,adenocarcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-203,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-206,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-208,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-210,0,adenocarcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-222,0,adenocarcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-224,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-225,0,adenocarcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-230,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-233,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-237,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-239,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-242,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-250,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-252,0,adenocarcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-253,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-257,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-258,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-263,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-264,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-265,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-266,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-268,0,adenocarcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-273,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-276,0,adenocarcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-279,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-284,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-285,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-288,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-290,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-292,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-295,0,adenocarcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-296,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-297,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-299,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-300,0,adenocarcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-302,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-312,0,adenocarcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-314,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-317,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-318,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-320,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-321,0,adenocarcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-322,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-323,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-325,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-326,0,adenocarcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-329,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-333,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-334,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-335,0,adenocarcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-336,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-339,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-340,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-341,0,adenocarcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-343,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-345,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-346,0,adenocarcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-347,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-349,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-352,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-355,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-356,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-358,0,adenocarcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-359,0,adenocarcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-360,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-361,0,adenocarcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-362,0,adenocarcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-363,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-364,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-365,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-366,0,adenocarcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-367,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-368,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-369,0,adenocarcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-371,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-372,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-373,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-374,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-375,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-376,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-378,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-379,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-380,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-381,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-382,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-383,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-384,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-385,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-386,0,adenocarcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-387,0,adenocarcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-388,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-389,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-390,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-391,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-392,0,adenocarcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-393,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-395,0,adenocarcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-396,0,adenocarcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-397,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-398,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-399,0,adenocarcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-400,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-401,0,adenocarcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-403,0,adenocarcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-404,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-405,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-406,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-407,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-408,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-409,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-410,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-411,0,adenocarcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-412,0,adenocarcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-413,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-414,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-415,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-416,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-417,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-418,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-419,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-420,1,squamous cell carcinoma
+NSCLC-Radiomics,NSCLC-Radiomics__LUNG1-421,0,adenocarcinoma
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0001,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0002,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0003,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0004,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0005,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0006,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0007,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0008,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0009,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0010,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0011,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0012,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0013,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0014,1,G
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0015,1,G
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0016,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0017,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0018,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0019,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0020,1,G
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0021,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0022,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0023,1,G
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0024,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0025,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0026,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0027,1,G
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0028,1,G
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0029,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0030,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0031,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0032,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0033,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0034,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0035,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0036,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0037,1,G
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0038,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0039,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0040,1,G
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0041,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0042,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0043,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0044,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0045,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0046,1,G
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0047,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0048,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0049,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0050,1,G
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0051,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0052,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0053,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0054,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0055,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0056,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0057,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0058,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0059,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0061,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0062,1,G
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0063,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0064,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0065,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0066,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0068,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0069,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0070,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0071,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0072,1,G
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0073,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0074,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0075,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0077,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0078,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0080,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0081,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0082,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0083,1,G
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0084,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0085,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0086,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0087,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0088,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0089,1,G
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0090,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0091,1,G
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0092,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0093,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0094,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0095,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0096,1,G
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0097,1,G
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0098,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0099,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0100,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0101,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0102,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0103,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0104,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0105,1,G
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0106,1,G
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0107,1,G
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0108,1,G
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0109,1,G
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0110,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0111,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0112,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0113,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0114,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0115,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0116,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0117,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0118,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0119,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0120,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0121,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0123,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0124,1,G
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0125,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0126,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0127,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0128,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0129,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0130,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0131,1,G
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0132,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0133,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0134,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0135,1,G
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0136,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0137,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0138,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0139,1,G
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0140,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0141,1,G
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0142,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0143,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0144,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0145,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0146,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0147,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0148,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0149,1,G
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0150,1,G
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0152,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0153,1,G
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0154,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0155,1,G
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0156,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0157,1,G
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0159,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0160,1,G
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0161,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0162,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0163,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0164,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0165,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0166,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0167,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0168,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0169,1,G
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0170,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0171,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0173,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0174,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0175,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0176,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0177,1,G
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0178,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0179,1,G
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0180,1,G
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0181,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0182,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0183,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0184,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0185,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0187,1,G
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0188,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0189,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0190,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0191,1,G
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0192,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0193,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0194,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0195,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0196,1,G
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0197,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0198,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0199,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0200,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0201,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0202,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0203,1,G
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0204,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0205,1,G
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0206,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0208,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0210,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0211,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0212,1,G
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0213,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0214,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0216,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0217,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0218,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0220,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0221,1,G
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0222,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0223,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0224,1,G
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0225,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0226,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0227,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0228,1,G
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0229,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0230,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0231,1,G
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0232,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0233,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0234,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0235,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0236,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0237,1,G
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0238,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0239,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0240,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0241,1,G
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0242,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0243,1,G
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0244,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0246,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0247,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0248,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0249,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0250,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0251,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0252,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0253,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0254,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0255,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0256,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0257,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0258,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0259,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0260,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0261,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0262,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0263,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0264,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-A0265,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-G0001,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-G0002,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-G0003,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-G0004,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-G0005,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-G0006,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-G0007,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-G0008,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-G0009,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-G0010,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-G0011,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-G0012,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-G0013,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-G0014,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-G0015,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-G0016,1,G
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-G0017,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-G0018,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-G0019,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-G0020,1,G
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-G0021,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-G0022,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-G0023,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-G0024,1,G
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-G0025,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-G0026,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-G0027,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-G0028,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-G0029,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-G0030,1,G
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-G0031,1,G
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-G0032,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-G0033,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-G0034,1,G
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-G0035,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-G0036,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-G0037,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-G0038,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-G0039,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-G0040,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-G0041,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-G0042,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-G0043,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-G0044,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-G0045,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-G0046,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-G0047,1,G
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-G0048,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-G0049,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-G0050,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-G0051,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-G0052,1,G
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-G0053,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-G0054,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-G0055,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-G0056,1,G
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-G0057,1,G
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-G0058,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-G0059,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-G0060,0,A
+Lung-PET-CT-Dx,Lung-PET-CT-Dx__Lung_Dx-G0062,1,G
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0068,1,primary lung cancer
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0071,1,primary lung cancer
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0072,1,primary lung cancer
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0088,0,metastatic
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0090,0,metastatic
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0091,1,primary lung cancer
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0100,0,metastatic
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0118,1,primary lung cancer
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0124,1,primary lung cancer
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0129,1,primary lung cancer
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0135,1,primary lung cancer
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0137,1,primary lung cancer
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0138,0,metastatic
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0143,0,metastatic
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0159,0,metastatic
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0161,1,primary lung cancer
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0163,0,metastatic
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0164,0,metastatic
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0165,0,metastatic
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0166,1,primary lung cancer
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0169,0,metastatic
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0174,0,metastatic
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0175,1,primary lung cancer
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0179,0,metastatic
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0181,1,primary lung cancer
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0182,0,metastatic
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0184,0,metastatic
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0186,0,metastatic
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0188,0,metastatic
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0189,0,metastatic
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0190,0,metastatic
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0191,0,metastatic
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0192,1,primary lung cancer
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0193,0,metastatic
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0194,1,primary lung cancer
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0200,1,primary lung cancer
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0202,0,metastatic
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0203,0,metastatic
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0207,0,metastatic
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0210,1,primary lung cancer
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0211,0,metastatic
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0214,0,metastatic
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0220,0,metastatic
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0223,1,primary lung cancer
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0236,1,primary lung cancer
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0237,1,primary lung cancer
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0239,1,primary lung cancer
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0242,0,metastatic
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0244,0,metastatic
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0249,1,primary lung cancer
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0250,0,metastatic
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0252,1,primary lung cancer
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0254,1,primary lung cancer
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0255,0,metastatic
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0258,0,metastatic
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0260,0,metastatic
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0264,1,primary lung cancer
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0265,0,metastatic
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0266,1,primary lung cancer
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0267,0,metastatic
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0271,0,metastatic
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0272,1,primary lung cancer
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0274,0,metastatic
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0285,1,primary lung cancer
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0290,1,primary lung cancer
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0314,0,metastatic
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0325,1,primary lung cancer
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0332,0,metastatic
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0377,1,primary lung cancer
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0385,0,metastatic
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0454,1,primary lung cancer
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0470,0,metastatic
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0493,0,metastatic
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0522,0,metastatic
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0543,1,primary lung cancer
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0562,1,primary lung cancer
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0568,0,metastatic
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0580,0,metastatic
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0610,0,metastatic
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0766,1,primary lung cancer
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0771,1,primary lung cancer
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0772,1,primary lung cancer
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0811,1,primary lung cancer
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0875,0,metastatic
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0893,1,primary lung cancer
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0905,1,primary lung cancer
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0921,0,metastatic
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0924,0,metastatic
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0939,0,metastatic
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0965,1,primary lung cancer
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-0994,1,primary lung cancer
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-1002,0,metastatic
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-1004,1,primary lung cancer
+LIDC-IDRI | primary vs metastatic,LIDC-IDRI__LIDC-IDRI-1011,0,metastatic

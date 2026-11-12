@@ -1,0 +1,13 @@
+dataset,class,patients,tumour_detected
+lung histology (LUAD vs LUSC),TCGA-LUAD,67,60
+lung histology (LUAD vs LUSC),TCGA-LUSC,37,36
+CPTAC lung,CPTAC-LUAD,37,36
+CPTAC lung,CPTAC-LSCC,36,34
+NSCLC Radiogenomics,adenocarcinoma,166,161
+NSCLC Radiogenomics,squamous,33,33
+NSCLC-Radiomics,adenocarcinoma,51,50
+NSCLC-Radiomics,squamous cell carcinoma,152,144
+Lung-PET-CT-Dx,A,251,246
+Lung-PET-CT-Dx,G,61,60
+LIDC-IDRI | primary vs metastatic,metastatic,51,48
+LIDC-IDRI | primary vs metastatic,primary lung cancer,43,40

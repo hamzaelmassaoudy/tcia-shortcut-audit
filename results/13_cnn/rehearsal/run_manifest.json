@@ -1,0 +1,61 @@
+{
+  "notebook": "13_cnn.ipynb",
+  "plan": "7o (G4)",
+  "mode": "rehearsal",
+  "labels_from": "/content/drive/MyDrive/Acquisition-Shortcut-Audit/results/12_image_experiments/rehearsal/dataset_labels.csv",
+  "labels_md5": "430976459d15fa87c4bb1cd448113d2e",
+  "missing_volumes": [],
+  "settings": {
+    "SEED": 2026,
+    "N_FOLDS": 5,
+    "SEEDS_REAL": [
+      0,
+      1,
+      2
+    ],
+    "SEEDS_REHEARSAL": [
+      0
+    ],
+    "EPOCHS": 60,
+    "LR": 0.0001,
+    "WEIGHT_DECAY": 0.01,
+    "BATCH": 8,
+    "HU_RANGE": [
+      -1000.0,
+      1000.0
+    ],
+    "N_BOOT": 2000,
+    "N_PERM_STRICT": 99999
+  },
+  "settings_key": "470ae3761d1c",
+  "versions": {
+    "python": "3.13.16",
+    "numpy": "2.4.6",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.6.1",
+    "torch": "2.14.1+cu130",
+    "monai": "1.6.1",
+    "gpu": "NVIDIA L4"
+  },
+  "run_started_utc": "2026-11-11T03:32:57+00:00",
+  "run_finished_utc": "2026-11-11T05:29:28+00:00",
+  "in_colab": true,
+  "outputs": [
+    {
+      "file": "cnn_internal.csv",
+      "md5": "7942eb723329d9195c75d71d319728b9"
+    },
+    {
+      "file": "cnn_reading.csv",
+      "md5": "f5571c017f5e4c1988437c669929cdaf"
+    },
+    {
+      "file": "cnn_scores.csv.gz",
+      "md5": "1893893105060b13aa94f673f84d5463"
+    },
+    {
+      "file": "cnn_transfer.csv",
+      "md5": "e193f723152c17ecd1e1e1d248033484"
+    }
+  ]
+}

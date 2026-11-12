@@ -1,0 +1,5 @@
+input,encoder,independent_cohorts_transferred,cptac_transferred,reading
+lungs,ctfm,0,False,no transferable signal
+lungs,merlin,0,False,no transferable signal
+tumour,ctfm,0,False,no transferable signal
+tumour,merlin,0,False,no transferable signal

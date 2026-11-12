@@ -23,6 +23,11 @@ The study screened 26 patient-level classification tasks built from 33 collectio
   information rather than recorded acquisition fields: the TCGA metadata model did not transfer (AUC 0.42). Sex did not
   explain the transfer (within-sex AUC 0.65–0.75), and CPTAC's classes, like TCGA's, came partly from different
   contributing sources.
+- **For lung histology, the signal lies outside the tumour** (post hoc experiments of plan 7o). Tumour-only inputs
+  carried no transferable signal. Seven measures of body habitus and positioning alone transferred to CPTAC (AUC 0.71),
+  and removing them from the background-only embeddings removed (CT-FM) or weakened (Merlin) the transfer. Inside TCGA,
+  the tissue-free signal survived harmonized geometry (AUC 0.69–0.78), and a 3D network trained from scratch predicted
+  histology better from the background (AUC 0.83) than from the full image (AUC 0.64), without transferring to any cohort.
 - **The screen is specific and its sensitivity is measured.** On 1680 synthetic tasks it flagged 1 of 240 tasks without
   an association and detected 80% of planted associations of AUC 0.72 (250 patients) to 0.79 (100 patients).
 - **External AUC depends on how the test set is assembled.** When the two classes of a test set were drawn from
@@ -51,10 +56,12 @@ not flagged is not shown to be free of shortcuts.
 | Folder | Content |
 |---|---|
 | `tool/` | The audit tool `tcia_shortcut_audit` (v1.0.1; v1.0.0 in `tool/versions/`), manual, requirements and a reproduction test |
-| `notebooks/` | Analysis notebooks 01–11 as run in Google Colab; `notebooks/executed/` holds the copies with the outputs of the recorded runs |
+| `notebooks/` | Analysis notebooks 01–13 as run in Google Colab; `notebooks/executed/` holds the copies with the outputs of the recorded runs |
 | `results/NN_*/` | Outputs of notebook NN. Each run folder has `run_manifest.json` (package versions, settings, MD5 of every output). Image analyses keep the shuffled-label rehearsal (`rehearsal/`) next to the real run (`real/`) |
 | `results/*/cache/embeddings/` | Frozen CT-FM and Merlin embeddings per patient (`.npz`): full image, background only, silhouette |
 | `results/*/cache/api/` | Saved replies of the TCIA interface |
+| `results/12_image_experiments/` | Notebook 12 (plan 7o, G1–G3; post hoc): lungs-only and tumour-only probes, habitus and positioning measures, habitus model and background-only probe with the measures removed, probes at harmonized geometry; rehearsal and real runs with run records; `cache/` holds the per-scan records, quality-control pictures and the embeddings of the new inputs; `posthoc_habitus_medians.py` adds medians by class (descriptive, written after the results were seen) |
+| `results/13_cnn/` | Notebook 13 (plan 7o, G4; post hoc): 3D ResNet-18 trained from scratch on the harmonized volumes; rehearsal and real runs with run records; `checkpoints/` holds the predictions of each of the 48 trainings; `posthoc_background_minus_full.py` adds the paired difference between the two inputs (descriptive, written after the results were seen) |
 | `results/14_screen_checks/` | Post hoc checks R19 (contributing country and the CPTAC transfer), R20 (positive control of the metadata screen: 1680 synthetic tasks) and R21 (mask coverage by class), fixed in `protocol/analysis_plan_7m.md` and `analysis_plan_7n.md` before they were run |
 | `results/13_transfer_checks/` | Post hoc checks R17 (crossed assembly of external test sets) and R18 (sex and the CPTAC transfer), fixed in `protocol/analysis_plan_7l.md` before they were run; rehearsal and real runs with run records |
 | `results/12_review_checks/` | Post hoc robustness checks R1–R16: seeds, a refitting sensitivity analysis, a strict external test, duplicate screening, site tables, mask quality control, sex and age by class (R1–R9); other main-series rules, single-property baselines, scans cut off by the field of view, kernel decoding within vendor, the AUC needed for a flag, multiplicity control and a planning record (R10–R16, fixed in plan section 7k before they were run) |
@@ -62,6 +69,7 @@ not flagged is not shown to be free of shortcuts.
 | `protocol/analysis_plan.md` | The dated analysis plan: research questions, data and methods, each step dated |
 | `protocol/analysis_plan_7l.md` | Plan section 7l (checks R17 and R18), written on 6 Nov 2026 before they were run |
 | `protocol/analysis_plan_7m.md`, `analysis_plan_7n.md` | Plan sections 7m and 7n (checks R19–R21), written on 7 Nov 2026 before they were run |
+| `protocol/analysis_plan_7o.md` | Plan section 7o (image experiments G1–G4, notebooks 12 and 13), written on 7 Nov 2026 before any of their images, masks or embeddings existed |
 | `figures/make_figures.py` | Rebuilds all figures from `results/`, after checking each input against its run record |
 | `environment/requirements.txt` | Package versions of the recorded runs |
 
@@ -84,6 +92,10 @@ not flagged is not shown to be free of shortcuts.
      python r19_country_cptac.py                   # contributing country (reads the saved GDC records)
      python r20_screen_positive_control.py real    # positive control of the screen, about 2 h on 12 cores
      python r21_mask_coverage.py                   # mask coverage by class
+     cd ../12_image_experiments
+     python posthoc_habitus_medians.py             # habitus measures by class, medians (descriptive)
+     cd ../13_cnn
+     python posthoc_background_minus_full.py       # 3D network: background only minus full image (descriptive)
      ```
      `review_lib.py` (R1–R9) and `review_lib2.py` (R10–R16) execute the model code of notebook 05 verbatim, so these
      checks use the study's own functions.
@@ -92,6 +104,10 @@ not flagged is not shown to be free of shortcuts.
    - Metadata audit (notebooks 03–04): runs from the saved inputs in `results/02_tasks_features/`.
 3. **With images (GPU):** notebooks 05–11 download the main CT series from TCIA (about 100 GB in total). They pin the
    encoder revisions (CT-FM `527b0d1c`, Merlin `66dd0758`) and run a shuffled-label rehearsal before the real labels.
+   Notebook 12 downloads the 985 lung scans again, segments lungs and tumour with TotalSegmentator 2.10.0 in its own
+   Python 3.12 environment (which the notebook creates) and embeds the new inputs (about 5.5 h on an A100). Notebook 13
+   reads the harmonized volumes that notebook 12 saved in the project folder and trains the 3D network (48 trainings,
+   about 8 h on an L4).
 
 The image notebooks ran on Colab with Python 3.13 and the versions in `environment/requirements.txt`. Checks R1–R9
 were rerun locally with the same scikit-learn, NumPy, SciPy and pandas versions; checks R10–R16 ran with Python
@@ -108,6 +124,8 @@ were rerun locally with the same scikit-learn, NumPy, SciPy and pandas versions;
 | Image probes of the flagged tasks | `results/05_image_check/real/image_probe.csv`, `results/06_image_posthoc/real/silhouette_probe.csv` |
 | Screen validation (19 CT tasks) | `results/07_screen_validation/real/`, `results/10_figures_tables/robustness_screen_validation.csv` |
 | External transfer | `results/08_transfer/real/transfer.csv`, `results/11_external_lung/real/transfer.csv`, `results/09_transfer_posthoc/real/` |
+| Source of the tissue-free signal: lungs-only and tumour-only probes; habitus; harmonized geometry | `results/12_image_experiments/real/g1_*.csv`; `g2_*.csv`; `g3_*.csv` |
+| 3D network trained from scratch | `results/13_cnn/real/cnn_internal.csv`, `cnn_transfer.csv`, `results/13_cnn/posthoc_background_minus_full.csv` |
 | Acquisition decoding | `results/07_screen_validation/decoding/acquisition_decoding.csv` |
 | Published studies on the flagged tasks | `literature/RQ5/extraction_v2.csv` |
 | Post hoc checks | `results/12_review_checks/`, `results/13_transfer_checks/`, `results/14_screen_checks/` |
@@ -117,10 +135,12 @@ were rerun locally with the same scikit-learn, NumPy, SciPy and pandas versions;
 ## How the analyses were run
 
 - **Plans before data:** each analysis was written into a dated plan (`protocol/analysis_plan.md`,
-  `protocol/analysis_plan_7l.md`, `7m`, `7n`) before it was run on real labels. Analyses added after results were seen are labelled
+  `protocol/analysis_plan_7l.md`, `7m`, `7n`, `7o`) before it was run on real labels. Analyses added after results were seen are labelled
   post hoc there and in the paper. The dates are the author's records, not external time stamps; this repository is a
-  single release snapshot. `results/12_review_checks/r16_planning_record.csv` lists, for each analysis, the results
-  already seen when it was planned.
+  single release snapshot. `results/12_review_checks/r16_planning_record.csv` lists, for each analysis before plan 7o,
+  the results already seen when it was planned.
+- **Folder numbers:** `results/01_*` to `11_*`, `12_image_experiments` and `13_cnn` are the outputs of the notebooks with
+  those numbers; `12_review_checks`, `13_transfer_checks` and `14_screen_checks` hold the script-based post hoc checks.
 - **Rehearsals and records:** every image analysis ran first on shuffled labels, and every run logged the checksums of
   its outputs.
 - **Research responsibility:** The author is responsible for study design, analysis plans, interpretation and reporting.
