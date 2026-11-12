@@ -96,9 +96,11 @@ python tcia_shortcut_audit.py --labels my_labels.csv --collections NSCLC-Radiomi
     only), within one site or scanner, and on an independent dataset that asks the same clinical question and was not
     assembled the same way.
   - **Caution:** in the paper, an external test on a dataset assembled the same way (one collection per class) still
-    "passed".
+    "passed" for two of four probes.
 - **Not flagged:** at the thresholds used, the metadata did not predict the label. This does not show that the task is
-  free of acquisition shortcuts, and the sensitivity of the screen has not been established.
+  free of acquisition shortcuts. With synthetic labels (paper, positive control), the screen flagged 1 of 240 tasks
+  without an association and detected 80% of planted associations only at an AUC of about 0.72 (250 patients) to 0.79
+  (100 patients); weaker associations were mostly missed.
   - Fields that are stored only in the image headers are not tested, such as the exact reconstruction kernel or the tube
     current.
   - In the paper, no background-only probe met the flag criterion in the 15 unflagged CT tasks, but there were only one or
@@ -109,7 +111,9 @@ python tcia_shortcut_audit.py --labels my_labels.csv --collections NSCLC-Radiomi
 `tests/reproduce_notebook03.py` reruns the two flagged collection-defined tasks of the paper from the saved metadata.
 It checks that every AUC, CI bound, permutation p and field-group number equals the paper's within 1e-9. On 31 Oct 2026
 the largest difference was 6e-17. A live run from the TCIA API gave the same AUC (0.827269 for TCGA-LUAD vs
-TCGA-LUSC).
+TCGA-LUSC). The saved metadata are not part of this archive: the test needs the study repository (folder `results/`),
+whose path is its argument. For CPTAC-PDA stage, which is not part of the test, the tool gives 0.843 where the study's
+notebook gave 0.840.
 
 ```bash
 python tests/reproduce_notebook03.py /path/to/Acquisition-Shortcut-Audit
@@ -129,5 +133,6 @@ Please cite the paper (reference to be added at publication). Licence: MIT (the 
 ## Versions
 
 - **1.0.1** (4 Nov 2026): wording of the report, the log and this manual only; every computation is that of 1.0.0.
-  The manual was updated on 5 Nov 2026 (tested versions, licence); the code is unchanged.
+  The manual was updated on 5 Nov 2026 (tested versions, licence) and on 12 Nov 2026 (measured sensitivity of the
+  screen, where the reproduction test finds its data); the code is unchanged.
 - **1.0.0** (31 Oct 2026): the version used for the paper.

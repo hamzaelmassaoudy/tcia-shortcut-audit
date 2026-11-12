@@ -127,15 +127,31 @@ def chance(ax, orient='v', flag_line=True):
         line(0.6, color=INK2, lw=0.8, ls=(0, (1, 2)), zorder=1)
 
 
+LIGHT = {BLUE: '#bcd6f5', ORANGE: '#f4c7b4', AQUA: '#b0dccb', INK2: '#cfcec9', MUTED: '#dad9d4', INK: '#c4c4c4'}
+
+
+def state_of(filled):
+    """'solid' (full colour), 'light' (pale fill: weaker evidence) or 'open' (white); True and False mean solid and open."""
+    return filled if isinstance(filled, str) else ('solid' if filled else 'open')
+
+
+def level(ci_above, corrected):
+    """Marker state of a transfer: solid if the CI lies above 0.5 and the corrected test is passed, light if only the first."""
+    return 'solid' if (ci_above and corrected) else ('light' if ci_above else 'open')
+
+
 def ci_point(ax, x, lo, hi, y, color, filled=True, marker='o', size=26, lw=1.3):
+    st = state_of(filled)
     ax.plot([lo, hi], [y, y], color=color, lw=lw, solid_capstyle='round', zorder=2)
-    ax.scatter([x], [y], s=size * (1.15 if filled else 1.0), marker=marker, facecolor=color if filled else 'white',
-               edgecolor='white' if filled else color, linewidth=0.6 if filled else 1.2, zorder=3)
+    ax.scatter([x], [y], s=size * (1.15 if st == 'solid' else 1.0), marker=marker,
+               facecolor={'solid': color, 'light': LIGHT[color], 'open': 'white'}[st],
+               edgecolor='white' if st == 'solid' else color, linewidth=0.6 if st == 'solid' else 1.2, zorder=3)
 
 
 def mk(marker, color, filled=True, ms=5.2, label=''):
-    return Line2D([], [], marker=marker, ls='', mfc=color if filled else 'white', mec=color, mew=1.1, ms=ms,
-                  label=label)
+    st = state_of(filled)
+    return Line2D([], [], marker=marker, ls='', mfc={'solid': color, 'light': LIGHT[color], 'open': 'white'}[st],
+                  mec=color, mew=1.1, ms=ms, label=label)
 
 
 def ref_handles(flag_line=True):
@@ -224,9 +240,9 @@ FLOW = [dict(kind='data', head='Data: Collections, Tasks and Labels',
         dict(kind='3', head='Step 3: External Transfer',
              body=['Probes trained on TCGA, applied unchanged to', 'external datasets.'],
              visual='chips3', arrow='lung histology'),
-        dict(kind='4', head='Step 4: Source of the Tissue-Free Signal',
+        dict(kind='4', head='Step 4: Experiments on the Source of the Signal',
              body=['Lungs-only and tumour-only inputs, body habitus,', 'harmonized geometry and a 3D network from scratch.'],
-             visual='thumbs4', arrow='embeddings of Step 2'),
+             visual='thumbs4', arrow='from Step 2: embeddings', rail=False),
         dict(kind='5', head='Step 5: Acquisition Decoding',
              body=['Scanner settings decoded from the embeddings', 'without diagnostic labels (1249 scans, 13 collections).'],
              visual='chips5', arrow=None)]
@@ -234,7 +250,7 @@ SIDE = [dict(head='Targeted Literature Check', x0=15.0, x1=82.0,
              body=['How published studies on the flagged', 'tasks handled acquisition: 895 records', 'screened, 13 studies included.']),
         dict(head='Evaluation Metrics and Statistical Analysis', x0=86.0, x1=172.5,
              body=['In every step: AUC with 95% CI and permutation P.', 'Flagged: lower CI bound ≥ 0.60 and q < 0.05.',
-                   'Transfers: external CI above 0.5.'])]
+                   'Transfers: external CI above 0.5 and corrected P < 0.05.'])]
 W1, RAIL, CX0, CX1, VX0 = 174.0, 7.0, 15.0, 172.5, 109.0
 PAD, HEAD, LINE, GAP, THUMB = 2.6, 4.7, 3.7, 6.2, 15.5
 card_h = lambda c: 2 * PAD + max(HEAD + LINE * len(c['body']), (THUMB + 4.6) if c['visual'].startswith('thumbs') else 0)
@@ -324,10 +340,15 @@ for c, h in zip(FLOW, heights):
         chip_row(VX0 + 0.6, vy + 6.4, ['slice spacing', 'reconstruction diameter'])
     y += h
     if c['arrow']:
-        ax.annotate('', xy=(RAIL, y + GAP + PAD - 1.4), xytext=(RAIL, cy + 3.4),
-                    arrowprops=dict(arrowstyle='-|>', color=MUTED, lw=1.0, mutation_scale=8, shrinkA=0, shrinkB=0), zorder=1)
+        if c.get('rail', True):
+            ax.annotate('', xy=(RAIL, y + GAP + PAD - 1.4), xytext=(RAIL, cy + 3.4),
+                        arrowprops=dict(arrowstyle='-|>', color=MUTED, lw=1.0, mutation_scale=8, shrinkA=0, shrinkB=0), zorder=1)
         ax.text(CX0 + 4.2, y + GAP / 2, c['arrow'], ha='left', va='center', fontsize=FS, color=INK2, style='italic')
         y += GAP
+# Step 5 does not follow from Step 4: it takes the embeddings of Step 2 (side arrow from badge 2 to badge 5)
+ax.plot([RAIL - 3.1, 1.8, 1.8], [centers[2], centers[2], centers[5]], color=MUTED, lw=1.0, solid_capstyle='round', zorder=1)
+ax.annotate('', xy=(RAIL - 3.2, centers[5]), xytext=(1.8, centers[5]),
+            arrowprops=dict(arrowstyle='-|>', color=MUTED, lw=1.0, mutation_scale=8, shrinkA=0, shrinkB=0), zorder=1)
 y += 4.0
 for s in SIDE:
     boxes.append(card(s['x0'], y, s['x1'], side_h, MUTED, dashed=True))
@@ -534,6 +555,17 @@ PANELS = [(transfer11, 'lung: TCGA -> NSCLC Radiogenomics', 'a  TCGA lung → NS
           (transfer11, 'lung: TCGA -> CPTAC', 'd  TCGA lung → CPTAC lung (assembled like TCGA)'),
           (transfer, 'kidney: TCGA -> C4KC-KiTS', 'e  TCGA kidney → C4KC-KiTS')]
 ROWS7 = [('ctfm', 'image'), ('ctfm', 'background'), ('merlin', 'image'), ('merlin', 'background')]
+strict7 = pd.read_csv(IN['12'] / 'r7_external_strict.csv').set_index(['pair', 'encoder', 'input'])
+assert len(strict7) == 20
+
+
+def level7(pair, key, r):
+    """One rule for every transfer: external CI above 0.5 and Holm-corrected target-label P below 0.05."""
+    above = bool(r.external_ci_low > 0.5)
+    assert above == (r.reading != 'does not transfer'), (pair, key)
+    return level(above, bool(strict7.loc[(pair, key[0], key[1]), 'survives_holm_0.05']))
+
+
 fig = plt.figure(figsize=(FULL, 176 * MM))
 xs, ys, pw, ph = (0.215, 0.705), (0.675, 0.385, 0.075), 0.27, 0.21
 axes = [fig.add_axes([xs[i % 2], ys[i // 2], pw, ph]) for i in range(6)]
@@ -545,7 +577,7 @@ for ax, (tab, pair, title) in zip(axes[:5], PANELS):
         ci_point(ax, r.source_internal_auc, r.source_internal_ci_low, r.source_internal_ci_high, i + 0.26, MUTED,
                  marker='D', size=15, lw=1.0)
         ci_point(ax, r.external_auc, r.external_ci_low, r.external_ci_high, i, INPUT_COLOR[key[1]],
-                 filled=r.reading != 'does not transfer', marker=INPUT_MARK[key[1]], size=28, lw=1.5)
+                 filled=level7(pair, key, r), marker=INPUT_MARK[key[1]], size=28, lw=1.5)
         ci_point(ax, r.target_internal_auc, r.target_internal_ci_low, r.target_internal_ci_high, i - 0.26, INK,
                  marker='v', filled=False, size=18, lw=1.0)
     chance(ax, flag_line=False)
@@ -558,15 +590,15 @@ for r in sil09[sil09.target == 'CPTAC lung'].itertuples():
     e = transfer[(transfer.pair == 'lung: TCGA -> CPTAC') & (transfer.encoder == r.encoder)
                  & (transfer.input == 'background')].iloc[0]
     rows_d.append((f'{ENC[r.encoder]}, background only', e.external_auc, e.external_ci_low, e.external_ci_high, ORANGE,
-                   'background', e.reading != 'does not transfer'))
+                   'background', level7('lung: TCGA -> CPTAC', (r.encoder, 'background'), e)))
 for r in sil09[sil09.target == 'CPTAC lung'].itertuples():
     rows_d.append((f'{ENC[r.encoder]}, silhouette', r.silhouette_external_auc, r.silhouette_ci_low, r.silhouette_ci_high,
-                   AQUA, 'silhouette', bool(r.silhouette_transfers)))
+                   AQUA, 'silhouette', 'light' if bool(r.silhouette_transfers) else 'open'))   # not in the corrected test
 h = hb09[hb09.target == 'CPTAC lung'].iloc[0]
 rows_d.append(('DICOM header fields', h.header_external_auc, h.header_ci_low, h.header_ci_high, INK2, 'header',
-               bool(h.header_transfers)))
+               'light' if bool(h.header_transfers) else 'open'))
 rows_d.append(('body size', h.body_size_external_auc, h.body_size_ci_low, h.body_size_ci_high, INK2, 'body',
-               bool(h.body_size_transfers)))
+               'light' if bool(h.body_size_transfers) else 'open'))
 bands(ax, len(rows_d), (), -xs[0] / pw + 0.004 / pw, 1.0)
 for i, (lab, v, lo, hi, c, kind, filled) in enumerate(rows_d[::-1]):
     ci_point(ax, v, lo, hi, i, c, filled=filled, marker=INPUT_MARK.get(kind, 'P'), size=28, lw=1.5)
@@ -584,9 +616,11 @@ fig.legend(handles=[mk('D', MUTED, True, ms=4.2, label='source, cross-validated'
                     mk('o', BLUE, True, label='external: full image'),
                     mk('s', ORANGE, True, ms=4.8, label='external: background only'),
                     mk('^', AQUA, True, ms=5.6, label='external: silhouette'),
-                    mk('P', INK2, True, ms=5.6, label='external: header fields or body size'),
-                    mk('o', INK2, False, label='open marker: does not transfer')] + ref_handles(False),
-           loc='upper left', bbox_to_anchor=(0.012, 0.998), ncol=3, handletextpad=0.4, columnspacing=1.6, handlelength=1.6)
+                    mk('P', INK2, True, ms=5.6, label='external: header fields, body size'),
+                    mk('o', INK2, True, label='filled: transfers'),
+                    mk('o', INK2, 'light', label='light: CI above 0.5 only'),
+                    mk('o', INK2, False, label='open: CI includes 0.5')] + ref_handles(False),
+           loc='upper left', bbox_to_anchor=(0.012, 0.998), ncol=4, handletextpad=0.4, columnspacing=1.5, handlelength=1.6)
 save(fig, 'Fig7')
 
 # ---- Fig. 8: source of the tissue-free signal in lung histology (Step 4; plan 7o, notebooks 12 and 13) ---------
@@ -622,6 +656,11 @@ ROWS8 = [('Full image (Steps 2–3)', BLUE, 'native', 'image'),
 _src = transfer11[transfer11.pair == 'lung: TCGA -> CPTAC'].set_index(['encoder', 'input'])
 
 
+def internal8(ci_low):
+    """Marker state inside TCGA: solid if the lower CI bound is at least 0.60, light if it is above 0.5, otherwise open."""
+    return 'solid' if ci_low >= 0.60 else ('light' if ci_low > 0.5 else 'open')
+
+
 def cells8(kind, key, target, pair):
     """[(marker, auc, low, high, filled)] of one row in one panel; target None is TCGA by cross-validation."""
     out = []
@@ -632,25 +671,27 @@ def cells8(kind, key, target, pair):
                     r = _src.loc[(enc, key)]; v = (r.source_internal_auc, r.source_internal_ci_low, r.source_internal_ci_high)
                 else:
                     r = {'g1': g1i, 'resid': g2i, 'g3': g3i}[kind].loc[(key, enc)]; v = (r.auc, r.ci_low, r.ci_high)
-                out.append(('o' if enc == 'ctfm' else 's', *v, v[1] > 0.5))
+                out.append(('o' if enc == 'ctfm' else 's', *v, internal8(v[1])))
             elif kind == 'native':
                 r = transfer11[transfer11.pair == pair].set_index(['encoder', 'input']).loc[(enc, key)]
                 out.append(('o' if enc == 'ctfm' else 's', r.external_auc, r.external_ci_low, r.external_ci_high,
-                            str(r.reading).startswith('transfers')))
+                            level7(pair, (enc, key), r)))
             else:
                 r = {'g1': g1t, 'resid': g2t, 'g3': g3t}[kind].loc[(key, enc, target)]
-                out.append(('o' if enc == 'ctfm' else 's', r.external_auc, r.ci_low, r.ci_high, bool(r.transfers)))
+                out.append(('o' if enc == 'ctfm' else 's', r.external_auc, r.ci_low, r.ci_high,
+                            level(bool(r.transfers_ci), bool(r.transfers))))
     elif kind == 'habitus':
         if target is None:
-            r = g2i.loc[('habitus', '-')]; out.append(('D', r.auc, r.ci_low, r.ci_high, r.ci_low > 0.5))
+            r = g2i.loc[('habitus', '-')]; out.append(('D', r.auc, r.ci_low, r.ci_high, internal8(r.ci_low)))
         else:
             r = g2t.loc[('habitus model', '-', target)]
-            out.append(('D', r.external_auc, r.ci_low, r.ci_high, bool(r.transfers)))
+            out.append(('D', r.external_auc, r.ci_low, r.ci_high, level(bool(r.transfers_ci), bool(r.transfers))))
     else:
         if target is None:
-            r = c13i.loc[key]; out.append(('D', r.auc, r.ci_low, r.ci_high, r.ci_low > 0.5))
+            r = c13i.loc[key]; out.append(('D', r.auc, r.ci_low, r.ci_high, internal8(r.ci_low)))
         else:
-            r = c13t.loc[(key, target)]; out.append(('D', r.external_auc, r.ci_low, r.ci_high, bool(r.transfers)))
+            r = c13t.loc[(key, target)]
+            out.append(('D', r.external_auc, r.ci_low, r.ci_high, level(bool(r.transfers_ci), bool(r.transfers))))
     return out
 
 
@@ -666,7 +707,7 @@ for k, (ax, (target, pair, title)) in enumerate(zip(axes, PANELS8)):
         cs = cells8(kind, key, target, pair)
         offs8 = [0.17, -0.17] if len(cs) == 2 else [0.0]
         for (mkr, v, lo, hi, filled), dy in zip(cs, offs8):
-            ci_point(ax, v, lo, hi, yc + dy, col, filled=bool(filled), marker=mkr, size=18 if mkr == 'D' else 21, lw=1.2)
+            ci_point(ax, v, lo, hi, yc + dy, col, filled=filled, marker=mkr, size=18 if mkr == 'D' else 21, lw=1.2)
     chance(ax, flag_line=False)
     ax.set_xlim(0.25, 0.95); ax.set_ylim(-0.5, n8 - 0.5)
     ax.set_xticks([0.3, 0.5, 0.7, 0.9])
@@ -677,8 +718,9 @@ for k, (ax, (target, pair, title)) in enumerate(zip(axes, PANELS8)):
              fontweight='bold', linespacing=1.15)
 fig.legend(handles=[mk('o', INK2, True, label='CT-FM'), mk('s', INK2, True, ms=4.8, label='Merlin'),
                     mk('D', INK2, True, ms=4.4, label='no encoder (habitus model, 3D network)'),
-                    mk('o', INK2, False, label='open marker: CI includes 0.5 (a) or does not transfer (b–e)')]
-           + ref_handles(False),
+                    mk('o', INK2, True, label='filled: lower CI bound ≥ 0.60 (a); transfers (b–e)'),
+                    mk('o', INK2, 'light', label='light: CI above 0.5 only'),
+                    mk('o', INK2, False, label='open: CI includes 0.5')] + ref_handles(False),
            loc='upper left', bbox_to_anchor=(0.012, 0.998), ncol=3, handletextpad=0.4, columnspacing=1.6, handlelength=1.6)
 save(fig, 'Fig8')
 

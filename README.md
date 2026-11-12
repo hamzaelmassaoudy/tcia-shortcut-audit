@@ -17,17 +17,17 @@ The study screened 26 patient-level classification tasks built from 33 collectio
 - **With segmented body tissue replaced by air**, frozen CT foundation-model probes (CT-FM, Merlin) still predicted lung
   adenocarcinoma vs squamous cell carcinoma (AUC 0.82) and, less robustly, LIDC-IDRI primary vs metastatic cancer
   (AUC 0.72–0.73). In the 15 unflagged CT tasks, no background-only probe was flagged.
-- **An external dataset assembled like the training data can reproduce a tissue-free association instead of
-  exposing it.** TCGA lung models did not transfer to three independent cohorts (714 patients; AUC 0.37–0.56). They
-  did transfer to CPTAC, which is assembled like TCGA (background only, AUC 0.68–0.74), through body-outline
-  information rather than recorded acquisition fields: the TCGA metadata model did not transfer (AUC 0.42). Sex did not
-  explain the transfer (within-sex AUC 0.65–0.75), and CPTAC's classes, like TCGA's, came partly from different
-  contributing sources.
-- **For lung histology, the signal lies outside the tumour** (post hoc experiments of plan 7o). Tumour-only inputs
-  carried no transferable signal. Seven measures of body habitus and positioning alone transferred to CPTAC (AUC 0.71),
-  and removing them from the background-only embeddings removed (CT-FM) or weakened (Merlin) the transfer. Inside TCGA,
-  the tissue-free signal survived harmonized geometry (AUC 0.69–0.78), and a 3D network trained from scratch predicted
-  histology better from the background (AUC 0.83) than from the full image (AUC 0.64), without transferring to any cohort.
+- **A probe without tissue intensities passed one of four external tests.** TCGA lung models did not transfer to
+  three independent cohorts (714 patients; AUC 0.37–0.56). Two of four did transfer to CPTAC (Merlin; AUC 0.70 and
+  0.74), which, like TCGA, takes each class from its own collection; the TCGA metadata model did not transfer (AUC 0.42),
+  and sex did not explain the transfer (within-sex AUC 0.65–0.75). External discrimination alone therefore did not show
+  that tumour information was used.
+- **For lung histology in TCGA, post hoc experiments found the signal in the background and not in the tumour region**
+  (plan 7o). Tumour-only inputs did not predict histology in TCGA (AUC 0.56–0.57). Seven measures of body habitus and
+  positioning alone transferred to CPTAC (AUC 0.71); with them regressed out, the background-only transfer AUCs were
+  0.56 (CT-FM) and 0.65 (Merlin), down from 0.68 and 0.74. Inside TCGA the signal remained at harmonized geometry
+  (AUC 0.69–0.78), and a 3D network trained from scratch predicted histology better from the background (AUC 0.83) than
+  from the full image (AUC 0.64). What carries the signal inside TCGA was not identified.
 - **The screen is specific and its sensitivity is measured.** On 1680 synthetic tasks it flagged 1 of 240 tasks without
   an association and detected 80% of planted associations of AUC 0.72 (250 patients) to 0.79 (100 patients).
 - **External AUC depends on how the test set is assembled.** When the two classes of a test set were drawn from
