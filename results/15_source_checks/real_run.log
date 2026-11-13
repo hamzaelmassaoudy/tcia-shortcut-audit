@@ -1,0 +1,103 @@
+<local path>\r22_r24_source_checks.py:16: UserWarning: A NumPy version >=1.23.5 and <2.3.0 is required for this version of SciPy (detected version 2.4.2)
+  import scipy, sklearn
+real: TCGA lung 104 patients (37 squamous), CPTAC lung 73; sites {'washington university': np.int64(43), 'university of pittsburgh': np.int64(33), 'roswell park': np.int64(14), 'unc': np.int64(9), 'lahey clinic': np.int64(5)}
+       where encoder                             model  recorded_auc  refitted_auc  difference  within_tolerance
+0   internal    ctfm                        lungs only        0.6992        0.6992      0.0000              True
+1   internal    ctfm                       tumour only        0.5735        0.5735      0.0000              True
+2   internal    ctfm            full image, harmonized        0.6233        0.6233      0.0000              True
+3   internal    ctfm       background only, harmonized        0.6921        0.6921      0.0000              True
+4   internal    ctfm  background only, habitus removed        0.5878        0.5878      0.0000              True
+5      CPTAC    ctfm  background only, habitus removed        0.5601        0.5601      0.0000              True
+6      CPTAC    ctfm            full image, harmonized        0.5285        0.5285      0.0000              True
+7      CPTAC    ctfm       background only, harmonized        0.6059        0.6059      0.0000              True
+8   internal  merlin                        lungs only        0.5809        0.5809      0.0000              True
+9   internal  merlin                       tumour only        0.5627        0.5625     -0.0002              True
+10  internal  merlin            full image, harmonized        0.7013        0.7013      0.0000              True
+11  internal  merlin       background only, harmonized        0.7842        0.7842      0.0000              True
+12  internal  merlin  background only, habitus removed        0.7599        0.7599      0.0000              True
+13     CPTAC  merlin  background only, habitus removed        0.6502        0.6502      0.0000              True
+14     CPTAC  merlin            full image, harmonized        0.7147        0.7147      0.0000              True
+15     CPTAC  merlin       background only, harmonized        0.6667        0.6667      0.0000              True
+16  internal       -                     habitus model        0.6296        0.6296      0.0000              True
+17     CPTAC       -                     habitus model        0.7080        0.7080      0.0000              True
+18  internal    ctfm                        full image        0.5949        0.5949      0.0000              True
+19  internal    ctfm                   background only        0.6958        0.6958      0.0000              True
+20     CPTAC    ctfm                        full image        0.5068        0.5068      0.0000              True
+21     CPTAC    ctfm                   background only        0.6772        0.6772      0.0000              True
+22  internal  merlin                        full image        0.7630        0.7630      0.0000              True
+23  internal  merlin                   background only        0.8214        0.8214      0.0000              True
+24     CPTAC  merlin                        full image        0.6952        0.6952      0.0000              True
+25     CPTAC  merlin                   background only        0.7395        0.7395      0.0000              True
+reproduction gate passed: 26 refitted AUCs within 0.002 (largest difference 0.00019)
+   check                                                  comparison encoder                              cohort    n  auc_first  auc_second  difference  ci_low  ci_high    reading
+0      a  background only minus background only with habitus removed    ctfm                          CPTAC lung   73      0.677       0.560       0.117   0.003    0.243      shown
+1      b           background only: native minus harmonized geometry    ctfm                          CPTAC lung   73      0.677       0.606       0.071  -0.077    0.223  not shown
+2      b                full image: native minus harmonized geometry    ctfm                          CPTAC lung   73      0.507       0.529      -0.022  -0.173    0.125  not shown
+3      c                           background only minus tumour only    ctfm         TCGA lung (tumour detected)   96      0.680       0.574       0.107  -0.013    0.222  not shown
+4      c                            background only minus lungs only    ctfm                           TCGA lung  104      0.696       0.699      -0.003  -0.135    0.123  not shown
+5      d                            background only minus full image    ctfm                           TCGA lung  104      0.696       0.595       0.101   0.026    0.184      shown
+6      a  background only minus background only with habitus removed  merlin                          CPTAC lung   73      0.739       0.650       0.089   0.027    0.160      shown
+7      b           background only: native minus harmonized geometry  merlin                          CPTAC lung   73      0.739       0.667       0.073  -0.036    0.191  not shown
+8      b                full image: native minus harmonized geometry  merlin                          CPTAC lung   73      0.695       0.715      -0.020  -0.182    0.136  not shown
+9      c                           background only minus tumour only  merlin         TCGA lung (tumour detected)   96      0.814       0.562       0.251   0.128    0.380      shown
+10     c                            background only minus lungs only  merlin                           TCGA lung  104      0.821       0.581       0.241   0.121    0.362      shown
+11     d                            background only minus full image  merlin                           TCGA lung  104      0.821       0.763       0.058  -0.027    0.139  not shown
+12     e            full image: CPTAC lung minus NSCLC Radiogenomics    ctfm  CPTAC lung and NSCLC Radiogenomics  272      0.507       0.366       0.141  -0.029    0.307  not shown
+13     e                full image: CPTAC lung minus NSCLC-Radiomics    ctfm      CPTAC lung and NSCLC-Radiomics  276      0.507       0.542      -0.036  -0.204    0.127  not shown
+14     e                 full image: CPTAC lung minus Lung-PET-CT-Dx    ctfm       CPTAC lung and Lung-PET-CT-Dx  385      0.507       0.553      -0.047  -0.207    0.113  not shown
+15     e       background only: CPTAC lung minus NSCLC Radiogenomics    ctfm  CPTAC lung and NSCLC Radiogenomics  272      0.677       0.493       0.184   0.019    0.343      shown
+16     e           background only: CPTAC lung minus NSCLC-Radiomics    ctfm      CPTAC lung and NSCLC-Radiomics  276      0.677       0.539       0.138  -0.014    0.288  not shown
+17     e            background only: CPTAC lung minus Lung-PET-CT-Dx    ctfm       CPTAC lung and Lung-PET-CT-Dx  385      0.677       0.558       0.119  -0.032    0.262  not shown
+18     e            full image: CPTAC lung minus NSCLC Radiogenomics  merlin  CPTAC lung and NSCLC Radiogenomics  272      0.695       0.480       0.215   0.046    0.382      shown
+19     e                full image: CPTAC lung minus NSCLC-Radiomics  merlin      CPTAC lung and NSCLC-Radiomics  276      0.695       0.469       0.226   0.072    0.372      shown
+20     e                 full image: CPTAC lung minus Lung-PET-CT-Dx  merlin       CPTAC lung and Lung-PET-CT-Dx  385      0.695       0.555       0.140  -0.005    0.289  not shown
+21     e       background only: CPTAC lung minus NSCLC Radiogenomics  merlin  CPTAC lung and NSCLC Radiogenomics  272      0.739       0.439       0.301   0.145    0.462      shown
+22     e           background only: CPTAC lung minus NSCLC-Radiomics  merlin      CPTAC lung and NSCLC-Radiomics  276      0.739       0.498       0.242   0.077    0.386      shown
+23     e            background only: CPTAC lung minus Lung-PET-CT-Dx  merlin       CPTAC lung and Lung-PET-CT-Dx  385      0.739       0.457       0.283   0.132    0.412      shown
+                               model encoder    n  auc_all_patients  within_site_auc  within_ci_low  within_ci_high  balanced_site_n  balanced_site_squamous  balanced_site_auc  balanced_ci_low  balanced_ci_high                reading
+0                         full image    ctfm  104             0.595            0.538          0.385           0.672               33                      14              0.429            0.257             0.621  not shown within site
+1                         full image  merlin  104             0.763            0.736          0.603           0.857               33                      14              0.741            0.573             0.890      holds within site
+2                    background only    ctfm  104             0.696            0.635          0.485           0.761               33                      14              0.536            0.360             0.713  not shown within site
+3                    background only  merlin  104             0.821            0.787          0.675           0.882               33                      14              0.794            0.650             0.918      holds within site
+4                         lungs only    ctfm  104             0.699            0.701          0.563           0.819               33                      14              0.589            0.412             0.771      holds within site
+5                         lungs only  merlin  104             0.581            0.492          0.305           0.657               33                      14              0.292            0.151             0.465  not shown within site
+6                        tumour only    ctfm   96             0.574            0.608          0.469           0.723               33                      14              0.590            0.416             0.764  not shown within site
+7                        tumour only  merlin   96             0.562            0.591          0.448           0.716               33                      14              0.598            0.406             0.775  not shown within site
+8                      habitus model       -  104             0.630            0.564          0.389           0.723               33                      14              0.378            0.202             0.583  not shown within site
+9   background only, habitus removed    ctfm  104             0.588            0.581          0.452           0.695               33                      14              0.540            0.381             0.705  not shown within site
+10  background only, habitus removed  merlin  104             0.760            0.754          0.642           0.860               33                      14              0.791            0.647             0.913      holds within site
+11            full image, harmonized    ctfm  104             0.623            0.615          0.480           0.735               33                      14              0.562            0.380             0.735  not shown within site
+12            full image, harmonized  merlin  104             0.701            0.691          0.545           0.810               33                      14              0.650            0.462             0.818      holds within site
+13       background only, harmonized    ctfm  104             0.692            0.629          0.479           0.764               33                      14              0.511            0.332             0.695  not shown within site
+14       background only, harmonized  merlin  104             0.784            0.762          0.614           0.881               33                      14              0.754            0.555             0.928      holds within site
+15            3D network, full image       -  104             0.640            0.552          0.380           0.710               33                      14              0.474            0.278             0.677  not shown within site
+16       3D network, background only       -  104             0.827            0.736          0.580           0.866               33                      14              0.737            0.556             0.890      holds within site
+              measure    n  auc_all_patients  within_site_auc  within_ci_low  within_ci_high
+0         ap_lr_ratio  103             0.540            0.493          0.321           0.666
+1      subcut_fat_cm2  103             0.529            0.505          0.325           0.684
+2   arms_beside_trunk  103             0.533            0.501          0.484           0.526
+3     table_height_mm  103             0.434            0.508          0.309           0.701
+4  centroid_offset_mm  103             0.489            0.507          0.334           0.671
+5      scan_length_mm  103             0.686            0.621          0.426           0.779
+6       lung_volume_l  103             0.624            0.632          0.478           0.783
+  encoder  native_background_auc  habitus_removed_auc  placebo_median_auc  placebo_p2_5  placebo_p97_5  placebo_at_or_below  n_placebo  p_one_sided                   reading
+0    ctfm                  0.677                 0.56               0.661         0.579          0.727                    3        200        0.020  specific to the measures
+1  merlin                  0.739                 0.65               0.716         0.659          0.758                    4        200        0.025  specific to the measures
+            measure_left_out  cptac_auc  cptac_ci_low  cptac_ci_high  radiogenomics_auc  radiogenomics_ci_low  radiogenomics_ci_high
+0  none (all seven measures)      0.708         0.584          0.821              0.669                 0.570                  0.770
+1                ap_lr_ratio      0.682         0.558          0.797              0.649                 0.545                  0.751
+2             subcut_fat_cm2      0.710         0.587          0.823              0.666                 0.567                  0.766
+3          arms_beside_trunk      0.703         0.579          0.820              0.673                 0.578                  0.768
+4            table_height_mm      0.725         0.602          0.837              0.686                 0.582                  0.783
+5         centroid_offset_mm      0.707         0.584          0.821              0.677                 0.581                  0.774
+6             scan_length_mm      0.693         0.565          0.808              0.629                 0.514                  0.741
+7              lung_volume_l      0.637         0.504          0.762              0.576                 0.467                  0.691
+              measure  coefficient_standardized
+0         ap_lr_ratio                     0.478
+1      subcut_fat_cm2                     0.033
+2   arms_beside_trunk                     0.230
+3     table_height_mm                    -0.249
+4  centroid_offset_mm                    -0.066
+5      scan_length_mm                     0.647
+6       lung_volume_l                     0.558
+done: real

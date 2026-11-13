@@ -48,6 +48,8 @@ Changed files:
 - `notebooks/executed/13_cnn.ipynb`: Colab user metadata removed from cells: 6
 - `results/11_external_lung/a7_metadata_screen/a7_run.log`: local Windows paths: 6
 - `results/12_review_checks/r10_run.log`: local Windows paths: 46
+- `results/15_source_checks/rehearsal_run.log`: local Windows paths: 1
+- `results/15_source_checks/real_run.log`: local Windows paths: 1
 - `results/12_review_checks/r11_run.log`: local Windows paths: 13
 - `results/12_review_checks/r11b_run.log`: local Windows paths: 13
 - `results/12_review_checks/r12_run.log`: local Windows paths: 13

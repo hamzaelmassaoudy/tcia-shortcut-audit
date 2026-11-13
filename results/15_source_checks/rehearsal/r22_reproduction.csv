@@ -1,0 +1,19 @@
+where,encoder,model,recorded_auc,refitted_auc,difference,within_tolerance
+internal,ctfm,lungs only,0.5623235175473982,0.5623235175473982,0.0,True
+internal,ctfm,tumour only,0.4695526695526695,0.4695526695526695,0.0,True
+internal,ctfm,"full image, harmonized",0.5048810004033883,0.5048810004033883,0.0,True
+internal,ctfm,"background only, harmonized",0.5375554659136748,0.5375554659136748,0.0,True
+internal,ctfm,"background only, habitus removed",0.381766841468334,0.38176684146833406,5.551115123125783e-17,True
+CPTAC,ctfm,"background only, habitus removed",0.4489489489489489,0.44894894894894893,5.551115123125783e-17,True
+CPTAC,ctfm,"full image, harmonized",0.5615615615615616,0.5615615615615616,0.0,True
+CPTAC,ctfm,"background only, harmonized",0.5262762762762763,0.5262762762762763,0.0,True
+internal,merlin,lungs only,0.4643807987091569,0.46438079870915694,5.551115123125783e-17,True
+internal,merlin,tumour only,0.4779220779220779,0.4778258778258778,-9.620009620009418e-05,True
+internal,merlin,"full image, harmonized",0.6157321500605082,0.6157321500605082,0.0,True
+internal,merlin,"background only, harmonized",0.5913674868898748,0.5913674868898748,0.0,True
+internal,merlin,"background only, habitus removed",0.4981040742234772,0.49810407422347724,5.551115123125783e-17,True
+CPTAC,merlin,"background only, habitus removed",0.4684684684684684,0.46846846846846846,5.551115123125783e-17,True
+CPTAC,merlin,"full image, harmonized",0.5540540540540541,0.5540540540540541,0.0,True
+CPTAC,merlin,"background only, harmonized",0.4294294294294294,0.4294294294294294,0.0,True
+internal,-,habitus model,0.5589350544574424,0.5589350544574424,0.0,True
+CPTAC,-,habitus model,0.6298798798798799,0.6298798798798799,0.0,True

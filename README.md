@@ -62,6 +62,7 @@ not flagged is not shown to be free of shortcuts.
 | `results/*/cache/api/` | Saved replies of the TCIA interface |
 | `results/12_image_experiments/` | Notebook 12 (plan 7o, G1–G3; post hoc): lungs-only and tumour-only probes, habitus and positioning measures, habitus model and background-only probe with the measures removed, probes at harmonized geometry; rehearsal and real runs with run records; `cache/` holds the per-scan records, quality-control pictures and the embeddings of the new inputs; `posthoc_habitus_medians.py` adds medians by class (descriptive, written after the results were seen) |
 | `results/13_cnn/` | Notebook 13 (plan 7o, G4; post hoc): 3D ResNet-18 trained from scratch on the harmonized volumes; rehearsal and real runs with run records; `checkpoints/` holds the predictions of each of the 48 trainings; `posthoc_background_minus_full.py` adds the paired difference between the two inputs (descriptive, written after the results were seen) |
+| `results/15_source_checks/` | Post hoc checks R22–R24 on the experiments of plan 7o (differences with confidence intervals, every Step 4 model within contributing site, a placebo for the habitus measures), fixed in `protocol/analysis_plan_7p.md` before they were run; rehearsal and real runs with run records |
 | `results/14_screen_checks/` | Post hoc checks R19 (contributing country and the CPTAC transfer), R20 (positive control of the metadata screen: 1680 synthetic tasks) and R21 (mask coverage by class), fixed in `protocol/analysis_plan_7m.md` and `analysis_plan_7n.md` before they were run |
 | `results/13_transfer_checks/` | Post hoc checks R17 (crossed assembly of external test sets) and R18 (sex and the CPTAC transfer), fixed in `protocol/analysis_plan_7l.md` before they were run; rehearsal and real runs with run records |
 | `results/12_review_checks/` | Post hoc robustness checks R1–R16: seeds, a refitting sensitivity analysis, a strict external test, duplicate screening, site tables, mask quality control, sex and age by class (R1–R9); other main-series rules, single-property baselines, scans cut off by the field of view, kernel decoding within vendor, the AUC needed for a flag, multiplicity control and a planning record (R10–R16, fixed in plan section 7k before they were run) |
@@ -69,6 +70,7 @@ not flagged is not shown to be free of shortcuts.
 | `protocol/analysis_plan.md` | The dated analysis plan: research questions, data and methods, each step dated |
 | `protocol/analysis_plan_7l.md` | Plan section 7l (checks R17 and R18), written on 6 Nov 2026 before they were run |
 | `protocol/analysis_plan_7m.md`, `analysis_plan_7n.md` | Plan sections 7m and 7n (checks R19–R21), written on 7 Nov 2026 before they were run |
+| `protocol/analysis_plan_7p.md` | Plan section 7p (checks R22–R24), written on 13 Nov 2026 before they were run |
 | `protocol/analysis_plan_7o.md` | Plan section 7o (image experiments G1–G4, notebooks 12 and 13), written on 7 Nov 2026 before any of their images, masks or embeddings existed |
 | `figures/make_figures.py` | Rebuilds all figures from `results/`, after checking each input against its run record |
 | `environment/requirements.txt` | Package versions of the recorded runs |
@@ -96,6 +98,9 @@ not flagged is not shown to be free of shortcuts.
      python posthoc_habitus_medians.py             # habitus measures by class, medians (descriptive)
      cd ../13_cnn
      python posthoc_background_minus_full.py       # 3D network: background only minus full image (descriptive)
+     cd ../15_source_checks
+     python r22_r24_source_checks.py rehearsal     # checks R22-R24, labels permuted within each cohort
+     python r22_r24_source_checks.py real          # about 2 min
      ```
      `review_lib.py` (R1–R9) and `review_lib2.py` (R10–R16) execute the model code of notebook 05 verbatim, so these
      checks use the study's own functions.
@@ -135,7 +140,7 @@ were rerun locally with the same scikit-learn, NumPy, SciPy and pandas versions;
 ## How the analyses were run
 
 - **Plans before data:** each analysis was written into a dated plan (`protocol/analysis_plan.md`,
-  `protocol/analysis_plan_7l.md`, `7m`, `7n`, `7o`) before it was run on real labels. Analyses added after results were seen are labelled
+  `protocol/analysis_plan_7l.md`, `7m`, `7n`, `7o`, `7p`) before it was run on real labels. Analyses added after results were seen are labelled
   post hoc there and in the paper. The dates are the author's records, not external time stamps; this repository is a
   single release snapshot. `results/12_review_checks/r16_planning_record.csv` lists, for each analysis before plan 7o,
   the results already seen when it was planned.

@@ -1,0 +1,73 @@
+{
+  "script": "r22_r24_source_checks.py",
+  "plan": "7p (R22-R24)",
+  "mode": "rehearsal",
+  "labels": "permuted within each cohort (rehearsal labels of notebook 12)",
+  "labels_md5": "430976459d15fa87c4bb1cd448113d2e",
+  "run_started_utc": "2026-11-13T06:19:32+00:00",
+  "run_finished_utc": "2026-11-13T06:20:47+00:00",
+  "settings": {
+    "SEED": 2026,
+    "N_BOOT": 2000,
+    "N_SPLITS": 5,
+    "N_REPEATS": 5,
+    "N_PLACEBO": 200,
+    "TOL": 0.002,
+    "LR_PARAMS": {
+      "C": 1.0,
+      "class_weight": "balanced",
+      "max_iter": 5000
+    },
+    "HABITUS": [
+      "ap_lr_ratio",
+      "subcut_fat_cm2",
+      "arms_beside_trunk",
+      "table_height_mm",
+      "centroid_offset_mm",
+      "scan_length_mm",
+      "lung_volume_l"
+    ],
+    "BALANCED_SITE": "university of pittsburgh"
+  },
+  "versions": {
+    "python": "3.12.10",
+    "numpy": "2.4.2",
+    "pandas": "2.2.3",
+    "scipy": "1.14.1",
+    "scikit-learn": "1.5.2"
+  },
+  "reproduction": {
+    "n": 18,
+    "largest_abs_difference": 9.620009620009418e-05
+  },
+  "outputs": [
+    {
+      "file": "r22_differences.csv",
+      "md5": "2718b09f17c03bc13d40853c74cad1b7"
+    },
+    {
+      "file": "r22_reproduction.csv",
+      "md5": "0b4196382510fea9b068774ddf9a602e"
+    },
+    {
+      "file": "r23_habitus_within_site.csv",
+      "md5": "4f1dd08088133ba040c313a48ce56300"
+    },
+    {
+      "file": "r23_within_site.csv",
+      "md5": "6cd9783388ebf6ebd1bf9673d972a145"
+    },
+    {
+      "file": "r24_habitus_coefficients.csv",
+      "md5": "b391c37066f74a686cfa85ea484d7a40"
+    },
+    {
+      "file": "r24_leave_one_measure_out.csv",
+      "md5": "b10db2f7cf93f5516ed1fc8326532939"
+    },
+    {
+      "file": "r24_placebo.csv",
+      "md5": "099a6491efd21da0d559a0c93d6b1ca2"
+    }
+  ]
+}
