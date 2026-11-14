@@ -7,6 +7,23 @@ prediction and the limits of external validation*.
 
 **Author:** Hamza El Massaoudy, School of Computer Science, Nanjing University of Information Science and Technology, Nanjing, China. Further authors will be listed when the paper is published.
 
+## Study at a glance
+
+| Item | Details |
+|---|---|
+| Status | Manuscript in preparation for journal submission; this repository is its release snapshot |
+| Data | The Cancer Imaging Archive (TCIA), series metadata retrieved on 28 Oct 2026: 33 collections, 63,468 series |
+| Tasks | 26 patient-level classification tasks (19 CT, 7 MRI), 2,775 patients |
+| External cohorts | CPTAC lung, NSCLC Radiogenomics, NSCLC-Radiomics, Lung-PET-CT-Dx (lung); C4KC-KiTS (kidney) |
+| Image models | Frozen CT foundation models CT-FM (revision `527b0d1c`) and Merlin (revision `66dd0758`) with linear probes; a 3D ResNet-18 (MONAI 1.6.1) trained from scratch |
+| Segmentation | TotalSegmentator 2.10.0 (lungs and lung nodules), body masks from a fixed threshold rule |
+| Analysis plans | `protocol/analysis_plan.md` and sections 7l–7p, each dated before its real-label run |
+| Post hoc checks | R1–R24 (`results/12_review_checks/` to `results/15_source_checks/`) and experiments G1–G4 |
+| Tool | `tool/tcia_shortcut_audit.py`, version 1.0.1 |
+| Compute | Google Colab (CPU; A100 and L4 GPUs for the image notebooks); post hoc checks on a local CPU |
+| Integrity | `MANIFEST.md5` for every tracked file; `run_manifest.json` with package versions and output checksums in each run folder |
+| Licences | Code MIT; derived data CC BY 4.0; images remain under each TCIA collection's licence |
+
 ## Key findings
 
 The study screened 26 patient-level classification tasks built from 33 collections of The Cancer Imaging Archive (TCIA):
