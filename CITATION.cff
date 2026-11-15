@@ -5,7 +5,7 @@ authors:
   - family-names: "El Massaoudy"
     given-names: "Hamza"
     affiliation: "Nanjing University of Information Science and Technology"
-version: "1.0.1"
-date-released: "2026-11-06"
+version: "1.1.0"
+date-released: "2026-11-15"
 license: MIT
 keywords: [shortcut learning, dataset bias, acquisition metadata, foundation models, external validation, The Cancer Imaging Archive]

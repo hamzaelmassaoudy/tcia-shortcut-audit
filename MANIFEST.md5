@@ -1,8 +1,9 @@
 5b9ee98c0c4d474b4a23b323666be555  .gitattributes
 3c8d0d07cb21e6ce8954bc95228af549  .gitignore
-de4104a701182dcea4a8ad0cb54d6261  CITATION.cff
+74130248683ac0042373d6aacb8c6af4  .zenodo.json
+4e1dbe2a85136fb434ae2505bb3f6233  CITATION.cff
 b45a7ea1f59274a22e629341960ba983  LICENSE
-8691ba12344271757db2d4e2259e3593  README.md
+466aa8449469d3e1e345daca4f050fb6  README.md
 db019ff59b8ac40a0647d6a33f11275f  SANITIZATION.md
 dabe801abd2ad7a02f63a5e61a19c5e4  environment/requirements.txt
 c2a35b35f020a42081fcd7a5b7d6ed49  figures/make_figures.py

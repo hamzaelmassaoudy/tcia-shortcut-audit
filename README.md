@@ -173,4 +173,4 @@ were rerun locally with the same scikit-learn, NumPy, SciPy and pandas versions;
   Genomic Data Commons, the collections' clinical files and the KiTS19 clinical file.
 - **Code:** MIT licence (`LICENSE`).
 - **Derived data** (tables, results, embeddings): CC BY 4.0. Please also cite the TCIA collections you use.
-- **Citation:** see `CITATION.cff`. The paper's reference will be added when it is published.
+- **Citation:** see `CITATION.cff`. Each GitHub release of this repository is archived on Zenodo with a DOI (metadata in `.zenodo.json`); the paper's reference will be added when it is published.

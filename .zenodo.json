@@ -1,0 +1,23 @@
+{
+  "title": "tcia-shortcut-audit: screening public cancer CT benchmarks for acquisition shortcuts",
+  "upload_type": "software",
+  "description": "<p>Open screening tool, full analysis code, results with run records and frozen foundation-model embeddings for the study <i>Screening public cancer CT benchmarks for non-tumour shortcuts: tissue-free prediction and the limits of external validation</i>.</p><p>The tool (tool/tcia_shortcut_audit.py, version 1.0.1) checks, before any image is downloaded, whether the labels of a classification task built on The Cancer Imaging Archive (TCIA) can be predicted from acquisition metadata alone. The repository also holds the dated analysis plans, notebooks 01-13 with their executed copies, every result folder with its run_manifest.json, and the post hoc checks R1-R24. No images are included; they remain available from TCIA under each collection's licence.</p><p>Code: MIT licence. Derived data (tables, results, embeddings): CC BY 4.0.</p>",
+  "creators": [
+    {
+      "name": "El Massaoudy, Hamza",
+      "affiliation": "Nanjing University of Information Science and Technology"
+    }
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "version": "1.1.0",
+  "keywords": [
+    "shortcut learning",
+    "dataset bias",
+    "acquisition metadata",
+    "foundation models",
+    "external validation",
+    "The Cancer Imaging Archive",
+    "computed tomography"
+  ]
+}
