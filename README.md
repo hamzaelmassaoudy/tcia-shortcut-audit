@@ -1,5 +1,7 @@
 # tcia-shortcut-audit
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24247266.svg)](https://doi.org/10.5281/zenodo.24247266)
+
 **Can public cancer CT benchmarks be solved from how the scans were acquired, rather than from the patient?** This
 repository holds the open screening tool, the full analysis code, every result with its run record, and the frozen
 foundation-model embeddings for the study *Screening public cancer CT benchmarks for non-tumour shortcuts: tissue-free
@@ -173,4 +175,4 @@ were rerun locally with the same scikit-learn, NumPy, SciPy and pandas versions;
   Genomic Data Commons, the collections' clinical files and the KiTS19 clinical file.
 - **Code:** MIT licence (`LICENSE`).
 - **Derived data** (tables, results, embeddings): CC BY 4.0. Please also cite the TCIA collections you use.
-- **Citation:** see `CITATION.cff`. Each GitHub release of this repository is archived on Zenodo with a DOI (metadata in `.zenodo.json`); the paper's reference will be added when it is published.
+- **Citation:** see `CITATION.cff`. Each GitHub release is archived on Zenodo: all versions, https://doi.org/10.5281/zenodo.24247266; version 1.1.0, https://doi.org/10.5281/zenodo.24247267. The paper's reference will be added when it is published.
