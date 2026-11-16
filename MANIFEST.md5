@@ -6,7 +6,7 @@ b45a7ea1f59274a22e629341960ba983  LICENSE
 f9b6adc9069f73e7fd49f34186fcc210  README.md
 db019ff59b8ac40a0647d6a33f11275f  SANITIZATION.md
 dabe801abd2ad7a02f63a5e61a19c5e4  environment/requirements.txt
-c2a35b35f020a42081fcd7a5b7d6ed49  figures/make_figures.py
+b7811223a28d8becff27365864f74c0c  figures/make_figures.py
 71d7ebe02b93f9cb89280f0bc4896b62  literature/RQ5/extraction.csv
 d94dda4ffcaeec609986512a20fd4b57  literature/RQ5/extraction_v2.csv
 ab44cf21fd473f1f94714731bb768b89  literature/RQ5/extraction_v2.py

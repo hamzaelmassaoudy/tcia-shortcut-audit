@@ -495,7 +495,7 @@ axes[1].set_yticks(range(len(order5)), [''] * len(order5))
 fig.legend(handles=[mk('D', INK, True, ms=4.6, label='metadata only'),
                     mk('o', BLUE, True, label='full image'),
                     mk('s', ORANGE, True, ms=4.8, label='background only (tissue removed)'),
-                    mk('^', AQUA, True, ms=5.6, label='silhouette (body outline only)'),
+                    mk('^', AQUA, True, ms=5.6, label='silhouette (body shape only)'),
                     mk('o', INK2, False, label='open marker: not flagged')] + ref_handles(),
            loc='upper left', bbox_to_anchor=(0.02, 0.995), ncol=4, handletextpad=0.4, columnspacing=1.4, handlelength=1.6)
 save(fig, 'Fig5')
