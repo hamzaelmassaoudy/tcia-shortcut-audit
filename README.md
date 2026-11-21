@@ -93,6 +93,7 @@ not flagged is not shown to be free of shortcuts.
 | `protocol/analysis_plan_7o.md` | Plan section 7o (image experiments G1–G4, notebooks 12 and 13), written on 7 Nov 2026 before any of their images, masks or embeddings existed |
 | `figures/make_figures.py` | Rebuilds all figures from `results/`, after checking each input against its run record |
 | `environment/requirements.txt` | Package versions of the recorded runs |
+| `CHANGELOG.md` | What changed in each version of this repository |
 
 ## Reproducing the results
 
