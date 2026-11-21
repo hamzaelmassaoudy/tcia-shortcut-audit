@@ -93,7 +93,6 @@ not flagged is not shown to be free of shortcuts.
 | `protocol/analysis_plan_7o.md` | Plan section 7o (image experiments G1–G4, notebooks 12 and 13), written on 7 Nov 2026 before any of their images, masks or embeddings existed |
 | `figures/make_figures.py` | Rebuilds all figures from `results/`, after checking each input against its run record |
 | `environment/requirements.txt` | Package versions of the recorded runs |
-| `CHANGELOG.md` | What changed in each version of this repository |
 
 ## Reproducing the results
 
@@ -169,6 +168,16 @@ were rerun locally with the same scikit-learn, NumPy, SciPy and pandas versions;
 - **Rehearsals and records:** every image analysis ran first on shuffled labels, and every run logged the checksums of
   its outputs.
 - **Research responsibility:** The author is responsible for study design, analysis plans, interpretation and reporting.
+
+## Versions
+
+- **1.0.1** (6 November 2026): first version of the study in this repository: the audit tool 1.0.1, notebooks 01–11,
+  the dated analysis plan with section 7l and the post hoc checks R1–R18.
+- **1.1.0** (15 November 2026; archived on Zenodo, https://doi.org/10.5281/zenodo.24247267): plans 7m–7p with checks
+  R19–R24, notebooks 12 and 13 (four experiments on the source of the tissue-free signal), and the figures redrawn in
+  one style. The audit tool is unchanged.
+- **Since 1.1.0:** the Zenodo DOIs and the author's ORCID iD; the Fig. 5 legend now describes the silhouette as the body
+  shape, not an outline (no plotted value changed).
 
 ## Data and licences
 
