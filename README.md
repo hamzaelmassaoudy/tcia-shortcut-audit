@@ -81,6 +81,7 @@ not flagged is not shown to be free of shortcuts.
 | `results/*/cache/api/` | Saved replies of the TCIA interface |
 | `results/12_image_experiments/` | Notebook 12 (plan 7o, G1–G3; post hoc): lungs-only and tumour-only probes, habitus and positioning measures, habitus model and background-only probe with the measures removed, probes at harmonized geometry; rehearsal and real runs with run records; `cache/` holds the per-scan records, quality-control pictures and the embeddings of the new inputs; `posthoc_habitus_medians.py` adds medians by class (descriptive, written after the results were seen) |
 | `results/13_cnn/` | Notebook 13 (plan 7o, G4; post hoc): 3D ResNet-18 trained from scratch on the harmonized volumes; rehearsal and real runs with run records; `checkpoints/` holds the predictions of each of the 48 trainings; `posthoc_background_minus_full.py` adds the paired difference between the two inputs (descriptive, written after the results were seen) |
+| `results/16_strength_checks/` | Post hoc checks R25–R27 (plan `protocol/analysis_plan_7q.md`, written before they were run): whether each external cohort was large enough to detect a transfer of the CPTAC size, agreement of the metadata screen with the image flags, and the crossed-assembly check in numbers; read saved result files only, with a run record |
 | `results/15_source_checks/` | Post hoc checks R22–R24 on the experiments of plan 7o (differences with confidence intervals, every Step 4 model within contributing site, a placebo for the habitus measures), fixed in `protocol/analysis_plan_7p.md` before they were run; rehearsal and real runs with run records |
 | `results/14_screen_checks/` | Post hoc checks R19 (contributing country and the CPTAC transfer), R20 (positive control of the metadata screen: 1680 synthetic tasks) and R21 (mask coverage by class), fixed in `protocol/analysis_plan_7m.md` and `analysis_plan_7n.md` before they were run |
 | `results/13_transfer_checks/` | Post hoc checks R17 (crossed assembly of external test sets) and R18 (sex and the CPTAC transfer), fixed in `protocol/analysis_plan_7l.md` before they were run; rehearsal and real runs with run records |
@@ -159,7 +160,7 @@ were rerun locally with the same scikit-learn, NumPy, SciPy and pandas versions;
 ## How the analyses were run
 
 - **Plans before data:** each analysis was written into a dated plan (`protocol/analysis_plan.md`,
-  `protocol/analysis_plan_7l.md`, `7m`, `7n`, `7o`, `7p`) before it was run on real labels. Analyses added after results were seen are labelled
+  `protocol/analysis_plan_7l.md`, `7m`, `7n`, `7o`, `7p`, `7q`) before it was run on real labels. Analyses added after results were seen are labelled
   post hoc there and in the paper. The dates are the author's records, not external time stamps; this repository is a
   single release snapshot. `results/12_review_checks/r16_planning_record.csv` lists, for each analysis before plan 7o,
   the results already seen when it was planned.
@@ -178,6 +179,7 @@ were rerun locally with the same scikit-learn, NumPy, SciPy and pandas versions;
   one style. The audit tool is unchanged.
 - **Since 1.1.0:** the Zenodo DOIs and the author's ORCID iD; the Fig. 5 legend now describes the silhouette as the body
   shape, not an outline (no plotted value changed).
+  Checks R25–R27 (plan 7q, 25 November 2026) in `results/16_strength_checks/`.
 
 ## Data and licences
 
