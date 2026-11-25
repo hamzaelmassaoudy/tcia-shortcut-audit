@@ -1,0 +1,21 @@
+analysis,encoder,input,tasks,threshold,flagged,flagged_tasks
+metadata screen,,,26,0.55,6,renal subtype (KIRC vs KIRP); CPTAC-PDA | stage; lung histology (LUAD vs LUSC); LIDC-IDRI | primary vs metastatic; LIDC-IDRI | benign vs malignant; TCGA-LIHC | grade
+image probe,ctfm,full image,19,0.55,2,LIDC-IDRI | primary vs metastatic; LIDC-IDRI | benign vs malignant
+image probe,ctfm,background only,19,0.55,2,lung histology (LUAD vs LUSC); LIDC-IDRI | primary vs metastatic
+image probe,merlin,full image,19,0.55,2,lung histology (LUAD vs LUSC); LIDC-IDRI | primary vs metastatic
+image probe,merlin,background only,19,0.55,2,lung histology (LUAD vs LUSC); LIDC-IDRI | primary vs metastatic
+metadata screen,,,26,0.6,4,renal subtype (KIRC vs KIRP); CPTAC-PDA | stage; lung histology (LUAD vs LUSC); LIDC-IDRI | primary vs metastatic
+image probe,ctfm,full image,19,0.6,2,LIDC-IDRI | primary vs metastatic; LIDC-IDRI | benign vs malignant
+image probe,ctfm,background only,19,0.6,1,LIDC-IDRI | primary vs metastatic
+image probe,merlin,full image,19,0.6,1,lung histology (LUAD vs LUSC)
+image probe,merlin,background only,19,0.6,2,lung histology (LUAD vs LUSC); LIDC-IDRI | primary vs metastatic
+metadata screen,,,26,0.65,4,renal subtype (KIRC vs KIRP); CPTAC-PDA | stage; lung histology (LUAD vs LUSC); LIDC-IDRI | primary vs metastatic
+image probe,ctfm,full image,19,0.65,2,LIDC-IDRI | primary vs metastatic; LIDC-IDRI | benign vs malignant
+image probe,ctfm,background only,19,0.65,0,
+image probe,merlin,full image,19,0.65,1,lung histology (LUAD vs LUSC)
+image probe,merlin,background only,19,0.65,1,lung histology (LUAD vs LUSC)
+metadata screen,,,26,0.7,3,renal subtype (KIRC vs KIRP); CPTAC-PDA | stage; lung histology (LUAD vs LUSC)
+image probe,ctfm,full image,19,0.7,0,
+image probe,ctfm,background only,19,0.7,0,
+image probe,merlin,full image,19,0.7,0,
+image probe,merlin,background only,19,0.7,1,lung histology (LUAD vs LUSC)

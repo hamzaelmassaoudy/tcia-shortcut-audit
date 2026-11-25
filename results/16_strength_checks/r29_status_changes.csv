@@ -1,0 +1,13 @@
+analysis,encoder,input,threshold,task,change
+metadata screen,,,0.55,LIDC-IDRI | benign vs malignant,flagged only at this threshold
+metadata screen,,,0.55,TCGA-LIHC | grade,flagged only at this threshold
+image probe,ctfm,background only,0.55,lung histology (LUAD vs LUSC),flagged only at this threshold
+image probe,merlin,full image,0.55,LIDC-IDRI | primary vs metastatic,flagged only at this threshold
+image probe,ctfm,background only,0.65,LIDC-IDRI | primary vs metastatic,not flagged at this threshold
+image probe,merlin,background only,0.65,LIDC-IDRI | primary vs metastatic,not flagged at this threshold
+metadata screen,,,0.7,LIDC-IDRI | primary vs metastatic,not flagged at this threshold
+image probe,ctfm,full image,0.7,LIDC-IDRI | benign vs malignant,not flagged at this threshold
+image probe,ctfm,full image,0.7,LIDC-IDRI | primary vs metastatic,not flagged at this threshold
+image probe,ctfm,background only,0.7,LIDC-IDRI | primary vs metastatic,not flagged at this threshold
+image probe,merlin,full image,0.7,lung histology (LUAD vs LUSC),not flagged at this threshold
+image probe,merlin,background only,0.7,LIDC-IDRI | primary vs metastatic,not flagged at this threshold

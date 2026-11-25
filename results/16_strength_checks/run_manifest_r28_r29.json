@@ -1,0 +1,51 @@
+{
+  "check": "R28-R29",
+  "plan": "protocol/analysis_plan_7r.md (26 November 2026)",
+  "post_hoc": true,
+  "settings": {
+    "seed": 2026,
+    "n_boot": 2000,
+    "n_perm": 1000,
+    "thresholds": [
+      0.55,
+      0.6,
+      0.65,
+      0.7
+    ]
+  },
+  "versions": {
+    "python": "3.12.10",
+    "numpy": "2.4.2",
+    "pandas": "2.2.3",
+    "scipy": "1.14.1"
+  },
+  "inputs": {
+    "scores": {
+      "path": "results/11_external_lung/real/transfer_scores.csv.gz",
+      "md5": "61cc57beb167373aa2b2d264f99ccb4a"
+    },
+    "r17": {
+      "path": "results/13_transfer_checks/real/r17_crossed_assembly.csv",
+      "md5": "c9d34b2b2a5a32cb40c78cc7b9337930"
+    },
+    "audit": {
+      "path": "results/03_audit/audit_primary.csv",
+      "md5": "ea83d4e57a688fc79c5e958df1040234"
+    },
+    "p05": {
+      "path": "results/05_image_check/real/image_probe.csv",
+      "md5": "1f216961598eb5ab5774b2d7ce918107"
+    },
+    "u07": {
+      "path": "results/07_screen_validation/real/image_probe_unflagged_tasks.csv",
+      "md5": "f81cb2252ea759f532a7e2195c08c88d"
+    }
+  },
+  "outputs": {
+    "r28_between_cohort_auc.csv": "84421a9a5535bff155daed2fa7c6de67",
+    "r28_summary.csv": "ce6ad9e1386afa39417b188569eeb451",
+    "r29_threshold_sensitivity.csv": "af1bb4c06b2fee6907b6e68962c3263d",
+    "r29_status_changes.csv": "73eda28fb7ae0be92177f26ea3d68470"
+  },
+  "seconds": 29
+}
