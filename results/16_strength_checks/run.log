@@ -1,0 +1,58 @@
+  import scipy
+== r25_external_cohort_power.csv
+             cohort                       assembly  n_class_0  n_class_1  n_patients  probability_ci_above_0.50_at_auc_0.65  probability_ci_above_0.50_at_auc_0.7  probability_ci_above_0.50_at_auc_0.739  auc_detectable_with_80pct_probability  large_enough_for_cptac_size_transfer
+         CPTAC lung       one collection per class         37         36          73                                  0.617                                 0.861                                   0.968                                  0.686                                  True
+NSCLC Radiogenomics both classes in one collection        166         33         199                                  0.784                                 0.975                                   0.996                                  0.653                                  True
+    NSCLC-Radiomics both classes in one collection         51        152         203                                  0.902                                 0.993                                   1.000                                  0.628                                  True
+     Lung-PET-CT-Dx both classes in one collection        251         61         312                                  0.957                                 0.997                                   0.999                                  0.617                                  True
+          C4KC-KiTS both classes in one collection        143         21         164                                  0.612                                 0.846                                   0.954                                  0.688                                  True
+
+== r26_screen_agreement.csv
+    image_input encoder  both_flagged  metadata_only  image_only  neither  sensitivity sensitivity_k_of_n  sensitivity_ci_low  sensitivity_ci_high  specificity specificity_k_of_n  specificity_ci_low  specificity_ci_high  positive_predictive_value positive_predictive_value_k_of_n  positive_predictive_value_ci_low  positive_predictive_value_ci_high  negative_predictive_value negative_predictive_value_k_of_n  negative_predictive_value_ci_low  negative_predictive_value_ci_high
+background only    ctfm             1              3           0       15     1.000000                1/1            0.025000             1.000000     0.833333              15/18            0.585823             0.964215                       0.25                              1/4                          0.006309                           0.805880                   1.000000                            15/15                          0.781981                           1.000000
+background only  merlin             2              2           0       15     1.000000                2/2            0.158114             1.000000     0.882353              15/17            0.635591             0.985421                       0.50                              2/4                          0.067586                           0.932414                   1.000000                            15/15                          0.781981                           1.000000
+background only  either             2              2           0       15     1.000000                2/2            0.158114             1.000000     0.882353              15/17            0.635591             0.985421                       0.50                              2/4                          0.067586                           0.932414                   1.000000                            15/15                          0.781981                           1.000000
+     full image    ctfm             1              3           1       14     0.500000                1/2            0.012579             0.987421     0.823529              14/17            0.565682             0.962015                       0.25                              1/4                          0.006309                           0.805880                   0.933333                            14/15                          0.680515                           0.998314
+     full image  merlin             1              3           0       15     1.000000                1/1            0.025000             1.000000     0.833333              15/18            0.585823             0.964215                       0.25                              1/4                          0.006309                           0.805880                   1.000000                            15/15                          0.781981                           1.000000
+     full image  either             2              2           1       14     0.666667                2/3            0.094299             0.991596     0.875000              14/16            0.616524             0.984486                       0.50                              2/4                          0.067586                           0.932414                   0.933333                            14/15                          0.680515                           0.998314
+
+== r27_assembly_counts.csv
+      run encoder           input                             test_sets  n_sets  ci_above_0.50  ci_below_0.50  auc_min  auc_max
+     real    ctfm background only CPTAC lung (one collection per class)       1              1              0    0.677    0.677
+     real    ctfm background only        both classes in one collection       3              0              0    0.493    0.558
+     real    ctfm background only    crossed (classes from two cohorts)      12              6              2    0.344    0.745
+     real    ctfm      full image CPTAC lung (one collection per class)       1              0              0    0.507    0.507
+     real    ctfm      full image        both classes in one collection       3              0              1    0.366    0.553
+     real    ctfm      full image    crossed (classes from two cohorts)      12              2              2    0.347    0.628
+     real    ctfm      silhouette CPTAC lung (one collection per class)       1              1              0    0.637    0.637
+     real    ctfm      silhouette        both classes in one collection       3              0              0    0.459    0.531
+     real    ctfm      silhouette    crossed (classes from two cohorts)      12              3              2    0.301    0.717
+     real  merlin background only CPTAC lung (one collection per class)       1              1              0    0.739    0.739
+     real  merlin background only        both classes in one collection       3              0              0    0.439    0.498
+     real  merlin background only    crossed (classes from two cohorts)      12              5              2    0.288    0.740
+     real  merlin      full image CPTAC lung (one collection per class)       1              1              0    0.695    0.695
+     real  merlin      full image        both classes in one collection       3              0              0    0.469    0.555
+     real  merlin      full image    crossed (classes from two cohorts)      12              5              3    0.248    0.740
+     real  merlin      silhouette CPTAC lung (one collection per class)       1              1              0    0.676    0.676
+     real  merlin      silhouette        both classes in one collection       3              0              0    0.439    0.595
+     real  merlin      silhouette    crossed (classes from two cohorts)      12              5              3    0.234    0.872
+rehearsal    ctfm background only CPTAC lung (one collection per class)       1              0              0    0.574    0.574
+rehearsal    ctfm background only        both classes in one collection       3              0              0    0.510    0.566
+rehearsal    ctfm background only    crossed (classes from two cohorts)      12              5              1    0.369    0.720
+rehearsal    ctfm      full image CPTAC lung (one collection per class)       1              0              0    0.569    0.569
+rehearsal    ctfm      full image        both classes in one collection       3              0              0    0.434    0.506
+rehearsal    ctfm      full image    crossed (classes from two cohorts)      12              2              0    0.402    0.652
+rehearsal    ctfm      silhouette CPTAC lung (one collection per class)       1              1              0    0.643    0.643
+rehearsal    ctfm      silhouette        both classes in one collection       3              1              0    0.440    0.582
+rehearsal    ctfm      silhouette    crossed (classes from two cohorts)      12              3              1    0.375    0.735
+rehearsal  merlin background only CPTAC lung (one collection per class)       1              0              0    0.539    0.539
+rehearsal  merlin background only        both classes in one collection       3              0              0    0.476    0.530
+rehearsal  merlin background only    crossed (classes from two cohorts)      12              3              2    0.331    0.694
+rehearsal  merlin      full image CPTAC lung (one collection per class)       1              0              0    0.553    0.553
+rehearsal  merlin      full image        both classes in one collection       3              0              0    0.452    0.490
+rehearsal  merlin      full image    crossed (classes from two cohorts)      12              3              5    0.221    0.733
+rehearsal  merlin      silhouette CPTAC lung (one collection per class)       1              0              0    0.510    0.510
+rehearsal  merlin      silhouette        both classes in one collection       3              0              1    0.355    0.536
+rehearsal  merlin      silhouette    crossed (classes from two cohorts)      12              4              5    0.177    0.855
+
+finished in 205 s

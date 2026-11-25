@@ -1,0 +1,6 @@
+cohort,assembly,n_class_0,n_class_1,n_patients,probability_ci_above_0.50_at_auc_0.65,probability_ci_above_0.50_at_auc_0.7,probability_ci_above_0.50_at_auc_0.739,auc_detectable_with_80pct_probability,large_enough_for_cptac_size_transfer
+CPTAC lung,one collection per class,37,36,73,0.617,0.861,0.968,0.686,True
+NSCLC Radiogenomics,both classes in one collection,166,33,199,0.784,0.975,0.996,0.653,True
+NSCLC-Radiomics,both classes in one collection,51,152,203,0.902,0.993,1.0,0.628,True
+Lung-PET-CT-Dx,both classes in one collection,251,61,312,0.957,0.997,0.999,0.617,True
+C4KC-KiTS,both classes in one collection,143,21,164,0.612,0.846,0.954,0.688,True

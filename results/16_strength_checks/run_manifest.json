@@ -1,0 +1,47 @@
+{
+  "check": "R25-R27",
+  "plan": "protocol/analysis_plan_7q.md (25 November 2026)",
+  "post_hoc": true,
+  "settings": {
+    "n_sim": 1000,
+    "n_boot": 1000,
+    "ci_cut": 0.5,
+    "power": 0.8,
+    "aucs": [
+      0.65,
+      0.7,
+      0.739
+    ],
+    "seed": "default_rng([2026, s])"
+  },
+  "versions": {
+    "python": "3.12.10",
+    "numpy": "2.4.2",
+    "pandas": "2.2.3",
+    "scipy": "1.14.1"
+  },
+  "inputs": {
+    "p05": {
+      "path": "results/05_image_check/real/image_probe.csv",
+      "md5": "1f216961598eb5ab5774b2d7ce918107"
+    },
+    "u07": {
+      "path": "results/07_screen_validation/real/image_probe_unflagged_tasks.csv",
+      "md5": "f81cb2252ea759f532a7e2195c08c88d"
+    },
+    "r17_real": {
+      "path": "results/13_transfer_checks/real/r17_crossed_assembly.csv",
+      "md5": "c9d34b2b2a5a32cb40c78cc7b9337930"
+    },
+    "r17_rehearsal": {
+      "path": "results/13_transfer_checks/rehearsal/r17_crossed_assembly.csv",
+      "md5": "b6f2e45ef8e9d96b994474b316f87372"
+    }
+  },
+  "outputs": {
+    "r25_external_cohort_power.csv": "73ec172adab97b51745adda2bdf06651",
+    "r26_screen_agreement.csv": "5945ef6f0fbe066111afea11e75e80a0",
+    "r27_assembly_counts.csv": "a3047e225ba75233df3d267cd7f4af57"
+  },
+  "seconds": 205
+}

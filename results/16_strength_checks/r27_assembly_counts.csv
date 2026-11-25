@@ -1,0 +1,37 @@
+run,encoder,input,test_sets,n_sets,ci_above_0.50,ci_below_0.50,auc_min,auc_max
+real,ctfm,background only,CPTAC lung (one collection per class),1,1,0,0.677,0.677
+real,ctfm,background only,both classes in one collection,3,0,0,0.493,0.558
+real,ctfm,background only,crossed (classes from two cohorts),12,6,2,0.344,0.745
+real,ctfm,full image,CPTAC lung (one collection per class),1,0,0,0.507,0.507
+real,ctfm,full image,both classes in one collection,3,0,1,0.366,0.553
+real,ctfm,full image,crossed (classes from two cohorts),12,2,2,0.347,0.628
+real,ctfm,silhouette,CPTAC lung (one collection per class),1,1,0,0.637,0.637
+real,ctfm,silhouette,both classes in one collection,3,0,0,0.459,0.531
+real,ctfm,silhouette,crossed (classes from two cohorts),12,3,2,0.301,0.717
+real,merlin,background only,CPTAC lung (one collection per class),1,1,0,0.739,0.739
+real,merlin,background only,both classes in one collection,3,0,0,0.439,0.498
+real,merlin,background only,crossed (classes from two cohorts),12,5,2,0.288,0.74
+real,merlin,full image,CPTAC lung (one collection per class),1,1,0,0.695,0.695
+real,merlin,full image,both classes in one collection,3,0,0,0.469,0.555
+real,merlin,full image,crossed (classes from two cohorts),12,5,3,0.248,0.74
+real,merlin,silhouette,CPTAC lung (one collection per class),1,1,0,0.676,0.676
+real,merlin,silhouette,both classes in one collection,3,0,0,0.439,0.595
+real,merlin,silhouette,crossed (classes from two cohorts),12,5,3,0.234,0.872
+rehearsal,ctfm,background only,CPTAC lung (one collection per class),1,0,0,0.574,0.574
+rehearsal,ctfm,background only,both classes in one collection,3,0,0,0.51,0.566
+rehearsal,ctfm,background only,crossed (classes from two cohorts),12,5,1,0.369,0.72
+rehearsal,ctfm,full image,CPTAC lung (one collection per class),1,0,0,0.569,0.569
+rehearsal,ctfm,full image,both classes in one collection,3,0,0,0.434,0.506
+rehearsal,ctfm,full image,crossed (classes from two cohorts),12,2,0,0.402,0.652
+rehearsal,ctfm,silhouette,CPTAC lung (one collection per class),1,1,0,0.643,0.643
+rehearsal,ctfm,silhouette,both classes in one collection,3,1,0,0.44,0.582
+rehearsal,ctfm,silhouette,crossed (classes from two cohorts),12,3,1,0.375,0.735
+rehearsal,merlin,background only,CPTAC lung (one collection per class),1,0,0,0.539,0.539
+rehearsal,merlin,background only,both classes in one collection,3,0,0,0.476,0.53
+rehearsal,merlin,background only,crossed (classes from two cohorts),12,3,2,0.331,0.694
+rehearsal,merlin,full image,CPTAC lung (one collection per class),1,0,0,0.553,0.553
+rehearsal,merlin,full image,both classes in one collection,3,0,0,0.452,0.49
+rehearsal,merlin,full image,crossed (classes from two cohorts),12,3,5,0.221,0.733
+rehearsal,merlin,silhouette,CPTAC lung (one collection per class),1,0,0,0.51,0.51
+rehearsal,merlin,silhouette,both classes in one collection,3,0,1,0.355,0.536
+rehearsal,merlin,silhouette,crossed (classes from two cohorts),12,4,5,0.177,0.855
