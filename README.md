@@ -7,7 +7,7 @@ repository holds the open screening tool, the full analysis code, every result w
 foundation-model embeddings for the study *Screening public cancer CT benchmarks for non-tumour shortcuts: prediction after
 body masking and the limits of external validation*.
 
-**Author:** Hamza El Massaoudy, School of Computer Science, School of Software, Nanjing University of Information Science and Technology, Nanjing, China. Further authors will be listed when the paper is published.
+**Authors:** Hamza El Massaoudy, Wen Xuezhi and EL Houcine Oussi, School of Computer Science, School of Software, Nanjing University of Information Science and Technology, Nanjing, China.
 
 ## Study at a glance
 

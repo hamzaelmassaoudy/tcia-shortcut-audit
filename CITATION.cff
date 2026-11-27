@@ -6,6 +6,12 @@ authors:
     given-names: "Hamza"
     affiliation: "Nanjing University of Information Science and Technology"
     orcid: "https://orcid.org/0009-0001-8118-7983"
+  - family-names: "Wen"
+    given-names: "Xuezhi"
+    affiliation: "Nanjing University of Information Science and Technology"
+  - family-names: "Oussi"
+    given-names: "EL Houcine"
+    affiliation: "Nanjing University of Information Science and Technology"
 version: "1.2.0"
 date-released: "2026-11-27"
 license: MIT
