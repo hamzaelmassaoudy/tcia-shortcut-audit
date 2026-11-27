@@ -1,7 +1,7 @@
 {
   "title": "tcia-shortcut-audit: screening public cancer CT benchmarks for acquisition shortcuts",
   "upload_type": "software",
-  "description": "<p>Open screening tool, full analysis code, results with run records and frozen foundation-model embeddings for the study <i>Screening public cancer CT benchmarks for non-tumour shortcuts: tissue-free prediction and the limits of external validation</i>.</p><p>The tool (tool/tcia_shortcut_audit.py, version 1.0.1) checks, before any image is downloaded, whether the labels of a classification task built on The Cancer Imaging Archive (TCIA) can be predicted from acquisition metadata alone. The repository also holds the dated analysis plans, notebooks 01-13 with their executed copies, every result folder with its run_manifest.json, and the post hoc checks R1-R24. No images are included; they remain available from TCIA under each collection's licence.</p><p>Code: MIT licence. Derived data (tables, results, embeddings): CC BY 4.0.</p>",
+  "description": "<p>Open screening tool, full analysis code, results with run records and frozen foundation-model embeddings for the study <i>Screening public cancer CT benchmarks for non-tumour shortcuts: prediction after body masking and the limits of external validation</i>.</p><p>The tool (tool/tcia_shortcut_audit.py, version 1.0.1) checks, before any image is downloaded, whether the labels of a classification task built on The Cancer Imaging Archive (TCIA) can be predicted from acquisition metadata alone. The repository also holds the dated analysis plans, notebooks 01-13 with their executed copies, every result folder with its run_manifest.json, and the post hoc checks R1-R29. No images are included; they remain available from TCIA under each collection's licence.</p><p>Code: MIT licence. Derived data (tables, results, embeddings): CC BY 4.0, except that data derived from Duke-Breast-Cancer-MRI (CC BY-NC 4.0) and NSCLC-Radiomics (CC BY-NC 3.0) keep those non-commercial licences.</p>",
   "creators": [
     {
       "name": "El Massaoudy, Hamza",
@@ -11,7 +11,7 @@
   ],
   "license": "MIT",
   "access_right": "open",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "keywords": [
     "shortcut learning",
     "dataset bias",

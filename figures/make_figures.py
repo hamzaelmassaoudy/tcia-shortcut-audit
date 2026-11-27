@@ -619,7 +619,7 @@ fig.legend(handles=[mk('D', MUTED, True, ms=4.2, label='source, cross-validated'
                     mk('P', INK2, True, ms=5.6, label='external: header fields, body size'),
                     mk('o', INK2, True, label='filled: transfers'),
                     mk('o', INK2, 'light', label='light: CI above 0.5 only'),
-                    mk('o', INK2, False, label='open: CI includes 0.5')] + ref_handles(False),
+                    mk('o', INK2, False, label='open: CI not above 0.5')] + ref_handles(False),
            loc='upper left', bbox_to_anchor=(0.012, 0.998), ncol=4, handletextpad=0.4, columnspacing=1.5, handlelength=1.6)
 save(fig, 'Fig7')
 
@@ -647,8 +647,8 @@ ROWS8 = [('Full image (Steps 2–3)', BLUE, 'native', 'image'),
          ('Background only (Steps 2–3)', ORANGE, 'native', 'background'),
          ('Lungs only', AQUA, 'g1', 'lungs'),
          ('Tumour only', AQUA, 'g1', 'tumour'),
-         ('Habitus model, seven measures', INK2, 'habitus', None),
-         ('Background only,\nhabitus removed', ORANGE, 'resid', 'background, habitus removed'),
+         ('Body size, positioning,\nscan extent (7 measures)', INK2, 'habitus', None),
+         ('Background only,\nthese measures removed', ORANGE, 'resid', 'background, habitus removed'),
          ('Harmonized geometry,\nfull image', BLUE, 'g3', 'harm_full'),
          ('Harmonized geometry,\nbackground only', ORANGE, 'g3', 'harm_background'),
          ('3D network, full image', BLUE, 'cnn', 'full'),
@@ -717,10 +717,10 @@ for k, (ax, (target, pair, title)) in enumerate(zip(axes, PANELS8)):
     fig.text(ax.get_position().x0, ax.get_position().y1 + 0.012, title, ha='left', va='bottom', fontsize=9,
              fontweight='bold', linespacing=1.15)
 fig.legend(handles=[mk('o', INK2, True, label='CT-FM'), mk('s', INK2, True, ms=4.8, label='Merlin'),
-                    mk('D', INK2, True, ms=4.4, label='no encoder (habitus model, 3D network)'),
+                    mk('D', INK2, True, ms=4.4, label='no encoder (7-measure model, 3D network)'),
                     mk('o', INK2, True, label='filled: lower CI bound ≥ 0.60 (a); transfers (b–e)'),
                     mk('o', INK2, 'light', label='light: CI above 0.5 only'),
-                    mk('o', INK2, False, label='open: CI includes 0.5')] + ref_handles(False),
+                    mk('o', INK2, False, label='open: CI not above 0.5')] + ref_handles(False),
            loc='upper left', bbox_to_anchor=(0.012, 0.998), ncol=3, handletextpad=0.4, columnspacing=1.6, handlelength=1.6)
 save(fig, 'Fig8')
 

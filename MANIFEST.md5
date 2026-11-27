@@ -1,12 +1,12 @@
 5b9ee98c0c4d474b4a23b323666be555  .gitattributes
 3c8d0d07cb21e6ce8954bc95228af549  .gitignore
-d4bc236f82ea36c6f437b8a97ea014dd  .zenodo.json
-496f00d3b11c432874d1a70a13614e89  CITATION.cff
-b45a7ea1f59274a22e629341960ba983  LICENSE
-82cfbacbaf9ebee577e577f6f37f0f03  README.md
+e60b63d42cb8e21d779694c9aadaedc3  .zenodo.json
+e76ed22d266f56bfc71fd357dd9f00ea  CITATION.cff
+e92fc9f3cb578dc8de07124bd78a0405  LICENSE
+da20838dc379ade7a195537679419768  README.md
 db019ff59b8ac40a0647d6a33f11275f  SANITIZATION.md
 dabe801abd2ad7a02f63a5e61a19c5e4  environment/requirements.txt
-b7811223a28d8becff27365864f74c0c  figures/make_figures.py
+77645da47f15179d25d08dbcaa629ef5  figures/make_figures.py
 71d7ebe02b93f9cb89280f0bc4896b62  literature/RQ5/extraction.csv
 d94dda4ffcaeec609986512a20fd4b57  literature/RQ5/extraction_v2.csv
 ab44cf21fd473f1f94714731bb768b89  literature/RQ5/extraction_v2.py

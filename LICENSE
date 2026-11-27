@@ -21,6 +21,8 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 The derived data in this repository (tables, results and embeddings) are shared
-under the Creative Commons Attribution 4.0 International licence (CC BY 4.0).
+under the Creative Commons Attribution 4.0 International licence (CC BY 4.0), except that
+metadata and results derived from Duke-Breast-Cancer-MRI (CC BY-NC 4.0) and NSCLC-Radiomics
+(CC BY-NC 3.0) keep those non-commercial licences.
 The underlying images are not included; they are available from The Cancer
 Imaging Archive under each collection's own licence.

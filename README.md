@@ -4,10 +4,10 @@
 
 **Can public cancer CT benchmarks be solved from how the scans were acquired, rather than from the patient?** This
 repository holds the open screening tool, the full analysis code, every result with its run record, and the frozen
-foundation-model embeddings for the study *Screening public cancer CT benchmarks for non-tumour shortcuts: tissue-free
-prediction and the limits of external validation*.
+foundation-model embeddings for the study *Screening public cancer CT benchmarks for non-tumour shortcuts: prediction after
+body masking and the limits of external validation*.
 
-**Author:** Hamza El Massaoudy, School of Computer Science, Nanjing University of Information Science and Technology, Nanjing, China. Further authors will be listed when the paper is published.
+**Author:** Hamza El Massaoudy, School of Computer Science, School of Software, Nanjing University of Information Science and Technology, Nanjing, China. Further authors will be listed when the paper is published.
 
 ## Study at a glance
 
@@ -149,7 +149,7 @@ were rerun locally with the same scikit-learn, NumPy, SciPy and pandas versions;
 | Image probes of the flagged tasks | `results/05_image_check/real/image_probe.csv`, `results/06_image_posthoc/real/silhouette_probe.csv` |
 | Screen validation (19 CT tasks) | `results/07_screen_validation/real/`, `results/10_figures_tables/robustness_screen_validation.csv` |
 | External transfer | `results/08_transfer/real/transfer.csv`, `results/11_external_lung/real/transfer.csv`, `results/09_transfer_posthoc/real/` |
-| Source of the tissue-free signal: lungs-only and tumour-only probes; habitus; harmonized geometry | `results/12_image_experiments/real/g1_*.csv`; `g2_*.csv`; `g3_*.csv` |
+| Source of the signal after body masking: lungs-only and tumour-only probes; habitus; harmonized geometry | `results/12_image_experiments/real/g1_*.csv`; `g2_*.csv`; `g3_*.csv` |
 | 3D network trained from scratch | `results/13_cnn/real/cnn_internal.csv`, `cnn_transfer.csv`, `results/13_cnn/posthoc_background_minus_full.csv` |
 | Acquisition decoding | `results/07_screen_validation/decoding/acquisition_decoding.csv` |
 | Published studies on the flagged tasks | `literature/RQ5/extraction_v2.csv` |
@@ -175,11 +175,14 @@ were rerun locally with the same scikit-learn, NumPy, SciPy and pandas versions;
 - **1.0.1** (6 November 2026): first version of the study in this repository: the audit tool 1.0.1, notebooks 01–11,
   the dated analysis plan with section 7l and the post hoc checks R1–R18.
 - **1.1.0** (15 November 2026; archived on Zenodo, https://doi.org/10.5281/zenodo.24247267): plans 7m–7p with checks
-  R19–R24, notebooks 12 and 13 (four experiments on the source of the tissue-free signal), and the figures redrawn in
+  R19–R24, notebooks 12 and 13 (four experiments on the source of the signal after body masking), and the figures redrawn in
   one style. The audit tool is unchanged.
-- **Since 1.1.0:** the Zenodo DOIs and the author's ORCID iD; the Fig. 5 legend now describes the silhouette as the body
-  shape, not an outline (no plotted value changed).
-  Checks R25–R27 (plan 7q, 25 November 2026) and R28–R29 (plan 7r, 26 November 2026) in `results/16_strength_checks/`.
+- **1.2.0** (27 November 2026; archived on Zenodo, https://doi.org/10.5281/zenodo.24247266 resolves to the latest
+  version): checks R25–R27 (plan 7q, 25 November 2026) and R28–R29 (plan 7r, 26 November 2026) in
+  `results/16_strength_checks/`; the Zenodo DOIs and the author's ORCID iD; the Fig. 5 legend describes the silhouette
+  as the body shape; in Fig. 8 the seven habitus measures are labelled "body size, positioning, scan extent" and open
+  markers "CI not above 0.5" (no plotted value changed); the licence note keeps the non-commercial licences of
+  Duke-Breast-Cancer-MRI and NSCLC-Radiomics. The audit tool is unchanged.
 
 ## Data and licences
 
